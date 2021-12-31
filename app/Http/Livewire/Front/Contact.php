@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Front;
 
 use App\Models\ContactSubmission;
+use Artesaos\SEOTools\Facades\SEOTools;
 use Livewire\Component;
 
 class Contact extends Component
@@ -22,6 +23,11 @@ class Contact extends Component
             'data.email' => ['required', 'email'],
             'data.message' => ['required'],
         ];
+    }
+
+    public function mount()
+    {
+        SEOTools::setTitle('Contact');
     }
 
     public function render()

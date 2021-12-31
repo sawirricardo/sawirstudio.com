@@ -15,6 +15,9 @@ class Project extends Model
     use HasTags;
     use SoftDeletes;
     protected $guarded = [];
+    protected $casts = [
+        'published_at' => 'datetime',
+    ];
     public function sluggable(): array
     {
         return ['slug' => ['source' => 'title']];
@@ -23,5 +26,15 @@ class Project extends Model
     public function mediaUpload()
     {
         return $this->belongsTo(MediaUpload::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function scopePublished($query)
+    {
+        return $query->where('published_at', '<=', now());
     }
 }

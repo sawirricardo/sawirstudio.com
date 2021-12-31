@@ -37,6 +37,14 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->configureRateLimiting();
 
+        Route::bind('publishedProject', function ($slug) {
+            return \App\Models\Project::where('slug', $slug)->published()->firstOrFail();
+        });
+
+        Route::bind('publishedPost', function ($slug) {
+            return \App\Models\Post::where('slug', $slug)->published()->firstOrFail();
+        });
+
         $this->routes(function () {
             Route::prefix('api')
                 ->middleware('api')

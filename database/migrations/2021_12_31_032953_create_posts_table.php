@@ -22,6 +22,8 @@ class CreatePostsTable extends Migration
             $table->dateTime('published_at')->nullable();
             $table->foreignIdFor(\App\Models\MediaUpload::class)->nullable()->constrained()->nullOnDelete();
             $table->foreignIdFor(\App\Models\User::class)->nullable()->constrained()->nullOnDelete();
+            $table->jsonb('meta')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

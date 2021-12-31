@@ -8,20 +8,21 @@
                 class="grid grid-cols-2 items-start col-gap-8 | md:grid-cols-1 md:row-gap-6 md:justify-end md:justify-items-end md:ml-auto">
                 <nav class="flex links links-black | md:row-start-2">
                     <ul class=" md:grid md:grid-flow-col md:gap-12 md:justify-between | print:hidden">
-                        <li><a href="https://spatie.be/products">Products</a></li>
-                        <li><a href="https://spatie.be/open-source">Open Source</a></li>
-                        <li><a href="https://spatie.be/videos">Videos</a></li>
-                        <li><a href="https://spatie.be/web-development">Web Development</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/posts">Blog</a></li>
+                        <li><a href="/about-us">About us</a></li>
+                        <li><a href="/contact-us">Contact Us</a></li>
                     </ul>
 
                 </nav>
-                <nav
+                {{-- <nav
                     class="grid links links-black | md:opacity-75 md:row-start-1 md:grid-flow-col md:items-center md:gap-6 md:text-xs | print:hidden">
                     <a href="https://spatie.be/about-us">About</a>
                     <a href="https://spatie.be/blog">Blog</a>
                     <a href="https://spatie.be/docs">Docs</a>
                     <a href="https://spatie.be/guidelines">Guidelines</a>
-                </nav>
+                </nav> --}}
             </div>
         </div>
         <div class="wrap | md:hidden | print:hidden">
@@ -29,27 +30,25 @@
         </div>
     </header>
     {{ $slot }}
+    <div class="flex-grow"></div>
     <footer class="bg-gray-50 gradient shadow-inner-light | print:shadow-none print:bg-transparent print:gradient-none"
         style="--gradient-angle: 120deg; --gradient-from:#f3efea; --gradient-to:#e1ded9;">
         <div class="flex-none pt-16 pb-8 | print:pb-2" role="navigation">
             <div class="px-8 links links-gray text-gray leading-loose | md:leading-normal">
                 <div class="grid grid-cols-2 items-start text-sm | md:flex md:justify-between">
-                    <ul class=" md:grid md:grid-flow-col md:gap-12 md:justify-between | print:hidden">
+                    {{-- <ul class=" md:grid md:grid-flow-col md:gap-12 md:justify-between | print:hidden">
                         <li><a href="https://spatie.be/products">Products</a></li>
                         <li><a href="https://spatie.be/open-source">Open Source</a></li>
                         <li><a href="https://spatie.be/videos">Videos</a></li>
                         <li><a href="https://spatie.be/web-development">Web Development</a></li>
-                    </ul>
+                    </ul> --}}
 
 
-                    <div class="grid | md:grid-flow-col ml:items-center md:ml-12 md:gap-12">
-                        <a href="https://spatie.be/about-us">About</a><a href="https://spatie.be/blog">Blog</a><a
-                            href="https://spatie.be/docs">Docs</a><a
-                            href="https://spatie.be/guidelines">Guidelines</a><a href="https://spatie.be/login">
-                            <span class="icon fill-current" title="Log in">
-                                <span class="mr-2 md:hidden">Log in</span>
-                            </span>
-                        </a>
+                    <div class="grid | md:grid-flow-col ml:items-center md:gap-12">
+                        <a href="/about-us">About</a>
+                        <a href="/posts">Blog</a>
+                        <a href="/projects">Projects</a>
+                        <a href="/contact-us">Contact Us</a>
 
                     </div>
                 </div>
@@ -57,7 +56,7 @@
                 <div class="grid gap-4 text-sm | sm:grid-cols-2 sm:gap-8 | md:flex flex-row-reverse justify-between">
                     <address class="grid gap-4 | sm:gap-0 | md:grid-flow-col md:gap-8 md:text-right">
                         <div>
-                            <a class="group flex items-end | md:flex-row-reverse"
+                            {{-- <a class="group flex items-end | md:flex-row-reverse"
                                 href="https://goo.gl/maps/A2zoLK3nVF9V8jydA" target="_blank"
                                 rel="nofollow noreferrer noopener">
                                 <span>
@@ -77,13 +76,13 @@
     License - https://fontawesome.com/license (Commercial License)
     -->
                                 </span>
-                            </a>
+                            </a> --}}
                         </div>
-                        <div>
+                        {{-- <div>
                             <a href="mailto:info@spatie.be">info@spatie.be</a>
                             <br>
                             <a href="#tel">+32 3 292 56 79</a>
-                        </div>
+                        </div> --}}
                     </address>
                     <ul class="hidden | md:grid md:grid-flow-col md:gap-6 | print:hidden">
                         <li>

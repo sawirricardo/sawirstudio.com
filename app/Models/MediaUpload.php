@@ -13,4 +13,9 @@ class MediaUpload extends Model implements HasMedia
     use InteractsWithMedia;
 
     protected $guarded = [];
+
+    public function projects()
+    {
+        return $this->hasMany(Project::class);
+    }
 }

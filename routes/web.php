@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', \App\Http\Livewire\Front::class);
-Route::get('/about-us', \App\Http\Livewire\Front\About::class);
-Route::get('/contact-us', \App\Http\Livewire\Front\Contact::class);
+Route::name('front.')->group(function () {
+    Route::get('/', \App\Http\Livewire\Front::class)->name('index');
+    Route::get('/projects', \App\Http\Livewire\Front\Projects\Index::class)->name('projects.index');
+    Route::get('/projects/{publishedProject:slug}', \App\Http\Livewire\Front\Projects\Show::class)->name('projects.show');
+    Route::get('/posts', \App\Http\Livewire\Front\Posts\Index::class)->name('posts.index');
+    Route::get('/posts/{publishedPost:slug}', \App\Http\Livewire\Front\Posts\Show::class)->name('posts.show');
+    Route::get('/about-us', \App\Http\Livewire\Front\About::class)->name('about');
+    Route::get('/contact-us', \App\Http\Livewire\Front\Contact::class)->name('contact');
+});

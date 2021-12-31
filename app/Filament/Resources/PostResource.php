@@ -2,18 +2,19 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\ProjectResource\Pages;
-use App\Filament\Resources\ProjectResource\RelationManagers;
-use App\Models\Project;
+use App\Filament\Resources\PostResource\Pages;
+use App\Filament\Resources\PostResource\Pages\CreatePost;
+use App\Filament\Resources\PostResource\RelationManagers;
+use App\Models\Post;
 use Filament\Forms;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
 use Filament\Tables;
 
-class ProjectResource extends Resource
+class PostResource extends Resource
 {
-    protected static ?string $model = Project::class;
+    protected static ?string $model = Post::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
 
@@ -27,13 +28,18 @@ class ProjectResource extends Resource
                 Forms\Components\TextInput::make('excerpt')->label('Description'),
                 Forms\Components\DateTimePicker::make('published_at')
                     ->label('Publish Date')
+                    ->afterStateHydrated(function ($set, $state, $livewire) {
+                        if ($livewire instanceof CreatePost) {
+                            if (is_null($state)) $set('published_at', now());
+                        }
+                    })
                     ->required(),
                 Forms\Components\Select::make('media_upload_id')
                     ->label('Featured image')
                     ->options(\App\Models\MediaUpload::all()->pluck('id', 'id')),
                 Forms\Components\SpatieTagsInput::make('tags')
                     ->label('Tags')
-                    ->type('project'),
+                    ->type('categories'),
                 Forms\Components\KeyValue::make('meta')
                     ->label('Meta'),
                 Forms\Components\Section::make('content')
@@ -51,22 +57,15 @@ class ProjectResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('title')
-                    ->label('Title')
-                    ->sortable(),
+                    ->label('Title'),
                 Tables\Columns\SpatieTagsColumn::make('tags')
-                    ->label('Category')
-                    ->type('project'),
+                    ->label('Tags')
+                    ->type('categories'),
                 Tables\Columns\TextColumn::make('published_at')
-                    ->label('Published at')
-                    ->sortable(),
+                    ->label('Published at'),
             ])
             ->filters([
-                Tables\Filters\MultiSelectFilter::make('tags')
-                    ->label('Category')
-                    ->options(\Spatie\Tags\Tag::all()->pluck('name', 'name'))
-                    ->query(function ($query, $value) {
-                        if (!empty($value['values'])) $query->withAnyTags($value['values'], 'project');
-                    }),
+                //
             ]);
     }
 
@@ -80,9 +79,9 @@ class ProjectResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListProjects::route('/'),
-            'create' => Pages\CreateProject::route('/create'),
-            'edit' => Pages\EditProject::route('/{record}/edit'),
+            'index' => Pages\ListPosts::route('/'),
+            'create' => Pages\CreatePost::route('/create'),
+            'edit' => Pages\EditPost::route('/{record}/edit'),
         ];
     }
 }
