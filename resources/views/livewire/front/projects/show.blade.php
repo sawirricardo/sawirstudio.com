@@ -1,8 +1,8 @@
 <div>
     <x-layouts.app>
         <section id="banner" class="banner" role="banner">
-            <div class="p-8">
-                <h1 class="text-3xl font-bold">
+            <div class="p-8 max-w-3xl">
+                <h1 class="text-3xl font-extrabold mb-3">
                     {{ $project->title }}
                 </h1>
                 <p class="text-xl">
@@ -13,11 +13,11 @@
         <section>
             <div class="p-8">
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-                    <div class="hidden md:col-span-2"></div>
-                    <div class="prose mx-auto md:col-span-8">
+                    <div class="hidden md:block md:col-span-2"></div>
+                    <div class="md:max-w-xl prose lg:mx-auto col-span-1 md:col-span-8">
                         {!! Str::markdown($project->content) !!}
                     </div>
-                    <div class="md:col-span-2">
+                    <div class="col-span-1 md:col-span-2">
                         @if (!is_null($project->meta))
                             <h3>Meta informations</h3>
                             <ul>

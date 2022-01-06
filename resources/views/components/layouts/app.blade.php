@@ -2,7 +2,7 @@
     <header class="pt-8 flex-none z-10 | md:bg-white md:shadow-light md:py-8 | print:bg-transparent print:shadow-none">
         <div class="px-8 leading-loose | md:leading-none md:flex md:items-stretch">
             <a class="flex-shrink-0 logo h-8 w-20 mr-16 mb-8 block | md:mb-0 md:w-48 md:h-auto" href="/" title="Home">
-                <span class="text-3xl md:text-6xl font-bold">SawirStudio</span>
+                <span class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">SawirStudio</span>
             </a>
             <div
                 class="grid grid-cols-2 items-start col-gap-8 | md:grid-cols-1 md:row-gap-6 md:justify-end md:justify-items-end md:ml-auto">
