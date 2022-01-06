@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             ->has(\App\Models\Post::factory(10))
             ->has(\App\Models\Project::factory(10))
             ->create();
+        \App\Models\Client::factory(10)->create();
         \App\Models\Project::query()->get()->each(function ($project) {
             $project->attachTag(['application', 'website', 'design'][rand(0, 2)], 'project');
         });

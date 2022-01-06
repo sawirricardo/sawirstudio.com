@@ -14,6 +14,11 @@ class About extends Component
 
     public function render()
     {
-        return view('livewire.front.about');
+        return view('livewire.front.about', [
+            'techStacks' => [
+                ['type' => 'backend', 'items' => ['PHP', 'Laravel', 'Javascript (NodeJS)', 'Ruby on Rails', 'MySQL', 'PostgreSQL', 'MongoDB', 'WordPress']],
+                ['type' => 'frontend', 'items' => ['Flutter', 'Livewire', 'AlpineJS', 'Vue.js', 'React.js', 'TailwindCSS']]
+            ],
+        ]);
     }
 }

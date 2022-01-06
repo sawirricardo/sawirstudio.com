@@ -2,11 +2,13 @@
 
 namespace App\Http\Livewire;
 
+use Illuminate\Support\Collection;
 use Livewire\Component;
 
 class Front extends Component
 {
-    public $projects;
+    public Collection $projects;
+    public Collection $clients;
     public function mount()
     {
         $this->projects = \App\Models\Project::query()
@@ -14,6 +16,10 @@ class Front extends Component
             ->published()
             ->orderByDesc('published_at')
             ->take(6)
+            ->get();
+
+        $this->clients = \App\Models\Client::query()
+            ->with(['mediaUpload.media'])
             ->get();
     }
     public function render()

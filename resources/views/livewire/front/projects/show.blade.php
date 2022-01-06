@@ -12,13 +12,13 @@
         </section>
         <section>
             <div class="p-8">
-                <div class="grid grid-cols-12 gap-8">
-                    <div class="col-span-2"></div>
-                    <div class="prose mx-auto col-span-8">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                    <div class="hidden md:col-span-2"></div>
+                    <div class="prose mx-auto md:col-span-8">
                         {!! Str::markdown($project->content) !!}
                     </div>
-                    @if (!is_null($project->meta))
-                        <div class="col-span-2">
+                    <div class="md:col-span-2">
+                        @if (!is_null($project->meta))
                             <h3>Meta informations</h3>
                             <ul>
                                 @foreach ($project->meta as $key => $value)
@@ -27,8 +27,8 @@
                                     </li>
                                 @endforeach
                             </ul>
-                        </div>
-                    @endif
+                        @endif
+                    </div>
                 </div>
             </div>
         </section>

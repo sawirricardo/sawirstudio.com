@@ -10,13 +10,35 @@
                 </p>
             </div>
         </section>
+        <section>
+            <div class="p-8">
+                <h2 class="text-xl font-bold">Some of our clients</h2>
+                <div class="grid grid-cols-1 md:grid-cols-12 md:gap-4">
+                    @forelse ($clients->chunk(4) as $clientChunk)
+                        <div class="md:col-span-4">
+                            <ul>
+                                @foreach ($clientChunk as $client)
+                                    <li>
+                                        <h4 class="font-bold text-gray-800 text-sm">{{ $client->name }}</h4>
+                                        <p class="text-gray-600 text-xs">{{ $client->excerpt }}</p>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @empty
+                        <div>No clients yet</div>
+                    @endforelse
+                </div>
+            </div>
+        </section>
         <section id="portfolio">
             <div class="p-8 grid grid-cols-1 gap-8">
-                @foreach ($projects as $project)
+                @forelse ($projects as $project)
                     <div class="grid grid-cols-1 md:grid-cols-8 gap-8 px-8">
                         <div class="sm:col-span-4 | md:col-start-2 md:col-span-3 md:-ml-32 md:mr-16">
-                            <a href="https://laravelpackage.training" class="illustration is-left h-full"
-                                title="Laravel package training" target="_blank" rel="nofollow noreferrer noopener">
+                            <a href="{{ route('front.projects.show', ['publishedProject' => $project]) }}"
+                                class="illustration is-left h-full" title="Laravel package training" target="_blank"
+                                rel="nofollow noreferrer noopener">
                                 <div class="relative">
                                     <div style="padding-bottom: 56.25%" class="bg-gray-50"></div>
                                     {{ optional($project->mediaUpload)->getFirstMedia() }}
@@ -45,7 +67,16 @@
                             </a>
                         </div>
                     </div>
-                @endforeach
+                @empty
+                    <div>No projects yet</div>
+                @endforelse
+            </div>
+        </section>
+        <section>
+            <div class="py-24 text-center">
+                <a href="{{ route('front.projects.index') }}" class="text-2xl text-blue-700 hover:text-blue-500">See
+                    all
+                    projects</a>
             </div>
         </section>
     </x-layouts.app>
