@@ -21,6 +21,7 @@ class Show extends Component
         if (!is_null($publishedProject->media_upload_id)) {
             SEOTools::addImages([$publishedProject->mediaUpload->getFirstMediaUrl()]);
         }
+        visits($publishedProject)->increment();
     }
 
     public function render()
