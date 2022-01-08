@@ -43,7 +43,7 @@
                                     <div style="padding-bottom: 56.25%" class="bg-gray-50"></div>
                                     @if ($project->mediaUpload)
                                         {{ $project->mediaUpload->getFirstMedia()->img()->attributes([
-                                                'class' => 'absolute inset-0 h-full w-full shadow-xl',
+                                                'class' => 'absolute inset-0 h-full w-full shadow-xl object-cover',
                                                 'alt' => $project->mediaUpload->alt,
                                             ]) }}
                                     @endif
