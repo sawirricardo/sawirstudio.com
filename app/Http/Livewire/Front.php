@@ -21,6 +21,7 @@ class Front extends Component
 
         $this->clients = \App\Models\Client::query()
             ->with(['mediaUpload.media'])
+            ->orderBy('name')
             ->get();
 
         SEOTools::setDescription('Crafting applications, websites, digital designs with heart.');
