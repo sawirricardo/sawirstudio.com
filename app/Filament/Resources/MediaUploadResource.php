@@ -43,7 +43,8 @@ class MediaUploadResource extends Resource
                     ->label('File'),
                 Tables\Columns\TextColumn::make('id')->label('ID'),
                 Tables\Columns\TextColumn::make('alt')
-                    ->label('Alt Image'),
+                    ->label('Alt Image')
+                    ->required(),
                 Tables\Columns\TextColumn::make('title')
                     ->label('Title'),
                 Tables\Columns\TextColumn::make('caption')
