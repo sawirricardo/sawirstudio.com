@@ -17,6 +17,7 @@ class Project extends Model
     protected $guarded = [];
     protected $casts = [
         'published_at' => 'datetime',
+        'meta' => 'array'
     ];
     public function sluggable(): array
     {
