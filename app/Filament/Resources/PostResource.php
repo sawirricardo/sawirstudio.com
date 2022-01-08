@@ -64,12 +64,13 @@ class PostResource extends Resource
                 Tables\Columns\TextColumn::make('published_at')
                     ->label('Published at'),
                 Tables\Columns\TextColumn::make('created_at')
-                    ->label('Created at'),
+                    ->label('Created at')
+                    ->sortable(),
             ])
             ->filters([
                 //
             ])
-            ->defaultSort('created_at', 'asc');
+            ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array

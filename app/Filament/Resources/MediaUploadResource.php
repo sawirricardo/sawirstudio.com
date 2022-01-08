@@ -55,12 +55,13 @@ class MediaUploadResource extends Resource
                         return $record->getFirstMediaUrl();
                     }),
                 Tables\Columns\TextColumn::make('created_at')
-                    ->label('Created at'),
+                    ->label('Created at')
+                    ->sortable(),
             ])
             ->filters([
                 //
             ])
-            ->defaultSort('created_at', 'asc');
+            ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array

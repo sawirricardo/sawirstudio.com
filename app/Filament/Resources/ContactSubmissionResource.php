@@ -34,12 +34,13 @@ class ContactSubmissionResource extends Resource
                 Tables\Columns\TextColumn::make('email')->label('Email'),
                 Tables\Columns\TextColumn::make('message')->label('Message'),
                 Tables\Columns\TextColumn::make('created_at')
-                    ->label('Created at'),
+                    ->label('Created at')
+                    ->sortable(),
             ])
             ->filters([
                 //
             ])
-            ->defaultSort('created_at', 'asc');
+            ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array

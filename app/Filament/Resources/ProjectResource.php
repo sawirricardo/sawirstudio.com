@@ -60,7 +60,8 @@ class ProjectResource extends Resource
                     ->label('Published at')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
-                    ->label('Created at'),
+                    ->label('Created at')
+                    ->sortable(),
             ])
             ->filters([
                 Tables\Filters\MultiSelectFilter::make('tags')
@@ -70,7 +71,7 @@ class ProjectResource extends Resource
                         if (!empty($value['values'])) $query->withAnyTags($value['values'], 'project');
                     }),
             ])
-            ->defaultSort('created_at', 'asc');
+            ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array
