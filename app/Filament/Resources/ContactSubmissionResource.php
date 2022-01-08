@@ -33,6 +33,8 @@ class ContactSubmissionResource extends Resource
                 Tables\Columns\TextColumn::make('subject')->label('Subject'),
                 Tables\Columns\TextColumn::make('email')->label('Email'),
                 Tables\Columns\TextColumn::make('message')->label('Message'),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Created at'),
             ])
             ->filters([
                 //

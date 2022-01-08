@@ -59,6 +59,8 @@ class ProjectResource extends Resource
                 Tables\Columns\TextColumn::make('published_at')
                     ->label('Published at')
                     ->sortable(),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Created at'),
             ])
             ->filters([
                 Tables\Filters\MultiSelectFilter::make('tags')

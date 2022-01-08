@@ -63,6 +63,8 @@ class PostResource extends Resource
                     ->type('categories'),
                 Tables\Columns\TextColumn::make('published_at')
                     ->label('Published at'),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Created at'),
             ])
             ->filters([
                 //

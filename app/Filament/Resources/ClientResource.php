@@ -43,6 +43,8 @@ class ClientResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('name')
                     ->label('Name'),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Created at'),
             ])
             ->filters([
                 //

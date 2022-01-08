@@ -54,6 +54,8 @@ class MediaUploadResource extends Resource
                     ->formatStateUsing(function (MediaUpload $record) {
                         return $record->getFirstMediaUrl();
                     }),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->label('Created at'),
             ])
             ->filters([
                 //
