@@ -21,4 +21,5 @@ Route::name('front.')->group(function () {
     Route::get('/posts/{publishedPost:slug}', \App\Http\Livewire\Front\Posts\Show::class)->name('posts.show');
     Route::get('/about-us', \App\Http\Livewire\Front\About::class)->name('about');
     Route::get('/contact-us', \App\Http\Livewire\Front\Contact::class)->name('contact');
+    Route::get('/sitemap', [\App\Http\Controllers\Front\SitemapController::class, 'index'])->name('sitemap');
 });

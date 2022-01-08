@@ -12,6 +12,39 @@
 
 namespace App\Models{
 /**
+ * App\Models\Client
+ *
+ * @property int $id
+ * @property string $name
+ * @property string|null $slug
+ * @property string|null $excerpt
+ * @property string|null $content
+ * @property int|null $media_upload_id
+ * @property int|null $user_id
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Models\MediaUpload|null $mediaUpload
+ * @method static \Database\Factories\ClientFactory factory(...$parameters)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client findSimilarSlugs(string $attribute, array $config, string $slug)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Client newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Client query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereExcerpt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereMediaUploadId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereSlug($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Client withUniqueSlugConstraints(\Illuminate\Database\Eloquent\Model $model, string $attribute, array $config, string $slug)
+ */
+	class Client extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\ContactSubmission
  *
  * @property int $id
@@ -129,6 +162,7 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $published_at
  * @property int|null $media_upload_id
  * @property int|null $user_id
+ * @property int|null $client_id
  * @property mixed|null $meta
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
@@ -144,6 +178,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Query\Builder|Project onlyTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder|Project published()
  * @method static \Illuminate\Database\Eloquent\Builder|Project query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Project whereClientId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Project whereContent($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Project whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Project whereDeletedAt($value)
@@ -200,6 +235,6 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
  */
-	class User extends \Eloquent {}
+	class User extends \Eloquent implements \Filament\Models\Contracts\FilamentUser {}
 }
 
