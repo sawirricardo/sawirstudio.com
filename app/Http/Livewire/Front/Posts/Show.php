@@ -16,6 +16,8 @@ class Show extends Component
         SEOTools::setTitle($publishedPost->title);
         if (!is_null($publishedPost->excerpt)) {
             SEOTools::setDescription($publishedPost->excerpt);
+        } else {
+            SEOTools::setDescription($publishedPost->title);
         }
         if (!is_null($publishedPost->media_upload_id)) {
             SEOTools::addImages([$publishedPost->mediaUpload->getFirstMediaUrl()]);
