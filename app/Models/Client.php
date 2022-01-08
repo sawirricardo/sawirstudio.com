@@ -11,6 +11,8 @@ class Client extends Model
     use HasFactory;
     use Sluggable;
 
+    protected $guarded = [];
+
     public function sluggable(): array
     {
         return ['slug' => ['source' => 'name']];
