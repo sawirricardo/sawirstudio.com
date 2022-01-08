@@ -22,7 +22,12 @@
                             <ul>
                                 @foreach ($project->meta as $key => $value)
                                     <li>
-                                        <strong>{{ ucfirst($key) }}</strong> : {{ $value }}
+                                        <strong>{{ ucfirst($key) }}</strong>:
+                                        @if (str_contains($value, 'http'))
+                                            <a href="{{ $value }}" target="_blank">{{ $value }}</a>
+                                        @else
+                                            {{ $value }}
+                                        @endif
                                     </li>
                                 @endforeach
                             </ul>
