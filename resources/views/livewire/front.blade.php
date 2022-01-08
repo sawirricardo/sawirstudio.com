@@ -41,7 +41,9 @@
                                 rel="nofollow noreferrer noopener">
                                 <div class="relative">
                                     <div style="padding-bottom: 56.25%" class="bg-gray-50"></div>
-                                    {{ optional($project->mediaUpload)->getFirstMedia()->img()->attributes(['class' => 'absolute inset-0 h-full w-full shadow-xl']) }}
+                                    @if ($project->mediaUpload)
+                                        {{ $project->mediaUpload->getFirstMedia()->img()->attributes(['class' => 'absolute inset-0 h-full w-full shadow-xl']) }}
+                                    @endif
                                 </div>
                             </a>
                         </div>
