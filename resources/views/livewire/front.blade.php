@@ -42,7 +42,10 @@
                                 <div class="relative">
                                     <div style="padding-bottom: 56.25%" class="bg-gray-50"></div>
                                     @if ($project->mediaUpload)
-                                        {{ $project->mediaUpload->getFirstMedia()->img()->attributes(['class' => 'absolute inset-0 h-full w-full shadow-xl']) }}
+                                        {{ $project->mediaUpload->getFirstMedia()->img()->attributes([
+                                                'class' => 'absolute inset-0 h-full w-full shadow-xl',
+                                                'alt' => $project->mediaUpload->alt,
+                                            ]) }}
                                     @endif
                                 </div>
                             </a>

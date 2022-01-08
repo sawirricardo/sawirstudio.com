@@ -26,9 +26,12 @@
                         <div>
                             <a href="{{ route('front.projects.show', ['publishedProject' => $project]) }}">
                                 <div class="bg-white rounded shadow overflow-hidden">
-                                    <img src="{{ optional($project->mediaUpload)->getFirstMediaUrl() }}"
-                                        alt="{{ optional($project->mediaUpload)->title }}"
-                                        class="w-full h-64 object-cover">
+                                    @if ($project->mediaUploads->count())
+                                        {{ $project->mediaUpload->getFirstMedia()->img()->attributes([
+                                                'class' => 'w-full h-64 object-cover',
+                                                'alt' => $project->mediaUpload->alt,
+                                            ]) }}
+                                    @endif
                                     <div class="p-6">
                                         <h3 class="text-xl font-bold">{{ $project->title }}</h3>
                                         <p class="text-sm">{{ Str::limit($project->excerpt, 100) }}</p>
