@@ -21,7 +21,7 @@
                         @if (!is_null($project->meta))
                             <ul>
                                 @foreach ($project->meta as $key => $value)
-                                    <li>
+                                    <li class="break-all">
                                         <strong>{{ ucfirst($key) }}</strong>:
                                         @if (str_contains($value, 'http'))
                                             <a href="{{ $value }}" target="_blank">{{ $value }}</a>
