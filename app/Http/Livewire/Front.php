@@ -23,7 +23,8 @@ class Front extends Component
             ->with(['mediaUpload.media'])
             ->orderBy('name')
             ->get();
-
+        SEOTools::setTitle(config('app.name') . ' | Solid expertise
+in Application / Website / Digital Design');
         SEOTools::setDescription('Crafting applications, websites, digital designs with heart.');
     }
     public function render()
