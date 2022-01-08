@@ -30,7 +30,7 @@ class ProjectResource extends Resource
                     ->required(),
                 Forms\Components\Select::make('media_upload_id')
                     ->label('Featured image')
-                    ->options(\App\Models\MediaUpload::all()->pluck('id', 'id')),
+                    ->options(\App\Models\MediaUpload::all()->pluck('alt', 'id')),
                 Forms\Components\SpatieTagsInput::make('tags')
                     ->label('Tags')
                     ->type('project'),
