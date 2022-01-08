@@ -26,7 +26,7 @@
                         <div>
                             <a href="{{ route('front.projects.show', ['publishedProject' => $project]) }}">
                                 <div class="bg-white rounded shadow overflow-hidden">
-                                    @if ($project->mediaUploads->count())
+                                    @if ($project->mediaUpload)
                                         {{ $project->mediaUpload->getFirstMedia()->img()->attributes([
                                                 'class' => 'w-full h-64 object-cover',
                                                 'alt' => $project->mediaUpload->alt,
