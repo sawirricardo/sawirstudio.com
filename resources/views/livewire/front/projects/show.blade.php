@@ -19,7 +19,6 @@
                     </div>
                     <div class="col-span-1 md:col-span-2">
                         @if (!is_null($project->meta))
-                            <h3>Meta informations</h3>
                             <ul>
                                 @foreach ($project->meta as $key => $value)
                                     <li>
