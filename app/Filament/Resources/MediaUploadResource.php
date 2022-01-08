@@ -24,7 +24,8 @@ class MediaUploadResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->label('Title'),
                 Forms\Components\TextInput::make('alt')
-                    ->label('Alt Image'),
+                    ->label('Alt Image')
+                    ->required(),
                 Forms\Components\TextInput::make('caption')
                     ->label('Caption'),
                 Forms\Components\TextInput::make('description')
@@ -43,8 +44,7 @@ class MediaUploadResource extends Resource
                     ->label('File'),
                 Tables\Columns\TextColumn::make('id')->label('ID'),
                 Tables\Columns\TextColumn::make('alt')
-                    ->label('Alt Image')
-                    ->required(),
+                    ->label('Alt Image'),
                 Tables\Columns\TextColumn::make('title')
                     ->label('Title'),
                 Tables\Columns\TextColumn::make('caption')
