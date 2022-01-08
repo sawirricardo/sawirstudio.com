@@ -33,8 +33,7 @@ class ClientResource extends Resource
                     ->label('Logo')
                     ->options(function () {
                         return MediaUpload::query()->pluck('alt', 'id');
-                    })
-                    ->required(),
+                    }),
             ]);
     }
 
