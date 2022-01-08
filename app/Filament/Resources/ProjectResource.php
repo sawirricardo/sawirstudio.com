@@ -67,7 +67,8 @@ class ProjectResource extends Resource
                     ->query(function ($query, $value) {
                         if (!empty($value['values'])) $query->withAnyTags($value['values'], 'project');
                     }),
-            ]);
+            ])
+            ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array
