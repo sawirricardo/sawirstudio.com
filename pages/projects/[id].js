@@ -12,9 +12,9 @@ export default function ViewProject({ frontmatter, content, client }) {
   return (
     <>
       <NextSeo
-        title={`${frontmatter.title} | SawirStudio"`}
+        title={`${frontmatter && frontmatter.title} | SawirStudio"`}
         description={
-          frontmatter.excerpt ??
+          (frontmatter && frontmatter.excerpt) ??
           `Crafting applications, websites, digital designs with heart.`
         }
       />
@@ -33,7 +33,7 @@ export default function ViewProject({ frontmatter, content, client }) {
               <div className="hidden md:block md:col-span-2"></div>
               <div
                 className="md:max-w-xl prose lg:mx-auto col-span-1 md:col-span-8"
-                dangerouslySetInnerHTML={{ __html: md().render(content) }}
+                dangerouslySetInnerHTML={{ __html: md().render(content ?? "") }}
               ></div>
               <div className="col-span-1 md:col-span-2">
                 <ul>
@@ -44,7 +44,7 @@ export default function ViewProject({ frontmatter, content, client }) {
                       </li>
                     </>
                   )}
-                  {frontmatter.website_url && (
+                  {frontmatter && frontmatter.website_url && (
                     <li className="break-all">
                       <strong>Website URL</strong>:
                       <a
@@ -56,12 +56,12 @@ export default function ViewProject({ frontmatter, content, client }) {
                       </a>
                     </li>
                   )}
-                  {frontmatter.partner && (
+                  {frontmatter && frontmatter.partner && (
                     <li className="break-all">
                       <strong>Partner</strong>:{frontmatter.partner}
                     </li>
                   )}
-                  {frontmatter.google_playstore_url && (
+                  {frontmatter && frontmatter.google_playstore_url && (
                     <li className="break-all">
                       <strong>Google Playstore URL</strong>:
                       {frontmatter.google_playstore_url}
