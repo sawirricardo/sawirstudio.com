@@ -7,6 +7,9 @@ import { Header } from "./Header";
 export default function Layout({ children }) {
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"
         strategy="afterInteractive"
