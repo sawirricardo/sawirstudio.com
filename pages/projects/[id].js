@@ -72,13 +72,18 @@ export default function ViewProject({ frontmatter, content, client }) {
 export async function getStaticPaths() {
   return {
     fallback: true, // false or 'blocking'
-    paths: fs.readdirSync("pages/projects").map((fileName) => {
-      return {
-        params: {
-          id: fileName.replace(".mdx", ""),
-        },
-      };
-    }),
+    paths: fs
+      .readdirSync("pages/projects")
+      .filter((fileName) => {
+        return fileName.includes(".mdx");
+      })
+      .map((fileName) => {
+        return {
+          params: {
+            id: fileName.replace(".mdx", ""),
+          },
+        };
+      }),
   };
 }
 
