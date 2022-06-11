@@ -107,7 +107,7 @@ export async function getStaticProps() {
   const projects = fs
     .readdirSync("pages/projects")
     .filter((filename) => {
-      return filename.includes(".mdx");
+      return filename.includes(".md");
     })
     .map((filename) => {
       const { data: frontmatter } = matter(
