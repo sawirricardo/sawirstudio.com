@@ -12,11 +12,13 @@ export default function ViewProject({ frontmatter, content, client }) {
   return (
     <>
       <NextSeo
-        title={`${frontmatter && frontmatter.title} | SawirStudio"`}
+        title={frontmatter && frontmatter.title}
         description={
           (frontmatter && frontmatter.excerpt) ??
           `Crafting applications, websites, digital designs with heart.`
         }
+        titleTemplate={`%s | SawirStudio`}
+        defaultTitle="SawirStudio"
       />
       <Layout>
         <section id="banner" className="banner" role="banner">
