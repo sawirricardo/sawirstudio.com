@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"
