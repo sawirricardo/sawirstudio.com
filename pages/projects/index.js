@@ -4,6 +4,7 @@ import Layout from "../../components/Layout";
 import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 
 export default function Projects({ projects }) {
   const [search, setSearch] = useState("");
@@ -43,6 +44,10 @@ export default function Projects({ projects }) {
 
   return (
     <>
+      <NextSeo
+        title="Projects | SawirStudio"
+        description="Projects we have worked on"
+      />
       <Layout>
         <section id="banner" className="banner" role="banner">
           <div className="p-8">

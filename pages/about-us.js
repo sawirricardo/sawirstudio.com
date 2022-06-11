@@ -1,8 +1,10 @@
+import { NextSeo } from "next-seo";
 import Layout from "../components/Layout";
 
 export default function AboutUs() {
   return (
     <>
+      <NextSeo title="About | SawirStudio" description="About SawirStudio" />
       <Layout>
         <section id="banner" className="banner" role="banner">
           <div className="p-8 space-y-8">

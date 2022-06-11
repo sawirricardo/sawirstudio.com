@@ -5,17 +5,26 @@ import md from "markdown-it";
 import matter from "gray-matter";
 import fs from "fs";
 import db from "../../database/db.json";
+import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 export default function ViewProject({ frontmatter, content, client }) {
   return (
     <>
+      <NextSeo
+        title={`${frontmatter.title} | SawirStudio"`}
+        description={
+          frontmatter.excerpt ??
+          `Crafting applications, websites, digital designs with heart.`
+        }
+      />
       <Layout>
         <section id="banner" className="banner" role="banner">
           <div className="p-8 max-w-3xl">
             <h1 className="text-3xl font-extrabold mb-3">
-              {frontmatter.title}
+              {frontmatter && frontmatter.title}
             </h1>
-            <p className="text-xl">{frontmatter.excerpt}</p>
+            <p className="text-xl">{frontmatter && frontmatter.excerpt}</p>
           </div>
         </section>
         <section>
@@ -88,7 +97,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { id } }) {
-  const fileName = fs.readFileSync(`pages/projects/${id}.mdx`, "utf-8");
+  const fileName = fs.readFileSync(`pages/projects/${id}.mdx`);
   const { data: frontmatter, content } = matter(fileName);
 
   return {

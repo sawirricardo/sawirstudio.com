@@ -5,10 +5,15 @@ import matter from "gray-matter";
 import Link from "next/link";
 import Image from "next/image";
 import Cta from "../components/Cta";
+import { NextSeo } from "next-seo";
 
 export default function Home({ clients, projects }) {
   return (
     <>
+      <NextSeo
+        title="SawirStudio | Solid expertise in Application / Website / Digital Design"
+        description="Crafting applications, websites, digital designs with heart."
+      />
       <Layout>
         <section id="banner" className="banner" role="banner">
           <div className="p-8 space-y-8">
