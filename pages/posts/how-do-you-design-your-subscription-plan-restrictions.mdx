@@ -1,0 +1,156 @@
+---
+title: How do you design your subscription plan restrictions
+published_at: "2022-07-04"
+featured_media: /assets/images/projects/calvin-kain.png
+client_id: 1
+excerpt:
+---
+
+I usually store the user’s subscription plan in the `users` table. say the `plan_id` which refers to the subscription plans.
+
+Let’s make a stage for this…
+
+our subscription plans.php
+
+```
+return [
+
+	cheap_plan ⇒ [
+
+		‘maximum_list’ ⇒ 20,
+
+	],
+
+	expensive_plan ⇒ [
+
+		‘maximum_list’ ⇒ 50,
+
+	],
+
+];
+
+```
+
+Then we can use in the controller like this (already assumes that only logged in users can use this endpoint)
+
+```
+public function create()
+{
+	$postCount = Auth::user()->loadCount('posts')->posts_count;
+
+	if ($postCount > Auth::user()->plan->maximum_list) {
+		abort(403, "You've reached your maximum list. Please upgrade your plan.");
+	}
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()->route('lists.show', ['list' => $list]);
+}
+
+```
+
+This is a valid way, and for most application, I think this has served its purpose to validate the creation limit.
+
+However, like you mentioned, there is another ‘more centralized’ approach with this.
+
+Using Gate and Policy.
+
+Let’s refactor our previous code to a Gate
+
+```
+// AuthServiceProvider.php
+
+class AuthServiceProvider extends ServiceProvider
+{
+	//
+
+	public function boot()
+	{
+		$this->registerPolicies();
+
+		Gate::define('create-list', function($user) {
+			$postCount = Auth::user()->loadCount('posts')->posts_count;
+
+			if ($postCount > Auth::user()->plan->maximum_list) {
+				return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+			}
+
+			return Response::allow();
+		});
+	}
+}
+
+```
+
+And in your controller, we can refactor to this
+
+```
+public function create()
+{
+	$this->authorize('create-list');
+	// or Gate::allows('create-list');
+	// or Gate::inspect('create-list'); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()->route('lists.show', ['list' => $list]);
+}
+
+```
+
+This should already have served your needs. But, maybe are there more opinionated way?
+
+You’re right. Using the policy.
+
+They say, Policy is best when you are dealing with a “resource” or models in a domain. Like in our case, the List model.
+
+And gate is best when you’re dealing an “action”.
+
+But, my personal opinion is that we should use policy whenever possible, since… other than it gives you an excuse to create separate files, it also doesn’t litter your `AuthServiceProvider`… (I don’t really like to modify the service Provider by the way, unless really needed).
+
+Let’s refactor our previous code to a Policy
+
+```
+class ListPolicy
+{
+	use HandlesAuthorization;
+
+	public function create(User $user)
+	{
+		$postCount = Auth::user()->loadCount('posts')->posts_count;
+
+		if ($postCount > Auth::user()->plan->maximum_list) {
+			return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+		}
+
+		return Response::allow();
+	}
+
+}
+
+```
+
+Oh, notice the method mimics the resource controller? That’s by design I believe from the Laravel team. Kudos to them.
+
+and we can simply use like this in the controller
+
+```
+public function create()
+{
+	$this->authorize('create', List::class);
+	// or Gate::allows('create-list', List::class);
+	// or Gate::inspect('create-list', List::class); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()->route('lists.show', ['list' => $list]);
+}
+
+```
+
+the `List::class` is just there to help Laravel infers which Policy class to use.
+
+All in all, this way we can avoid the problems where… you can literally create the list from 10 different controllers. We can just put the `$this->authorize()` there and be done with it.

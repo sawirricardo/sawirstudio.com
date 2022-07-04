@@ -22,6 +22,11 @@ export function Header() {
                 </Link>
               </li>
               <li>
+                <Link className="cursor-pointer" href="/posts">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link className="cursor-pointer" href="/projects">
                   Projects
                 </Link>
