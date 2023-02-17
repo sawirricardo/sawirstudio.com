@@ -36,6 +36,8 @@ export default function AboutUs() {
                   <li>Laravel</li>
                   <li>Javascript (NodeJS)</li>
                   <li>Ruby on Rails</li>
+                  <li>Django</li>
+                  <li>Python</li>
                   <li>MySQL</li>
                   <li>PostgreSQL</li>
                   <li>MongoDB</li>
