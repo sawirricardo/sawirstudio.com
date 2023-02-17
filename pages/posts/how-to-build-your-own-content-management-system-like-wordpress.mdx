@@ -1,0 +1,109 @@
+---
+title: How To Build Your Own Content Management System (Like WordPress)
+published_at: "2022-10-27"
+featured_media:
+client_id: 1
+excerpt:
+---
+
+Building Content Management System from the ground up has been one of those awesome experience.
+
+WordPress has been the de facto standard, especially in content management system industry.
+From its website...
+
+> WordPress powers more than 43% of the web — a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.
+
+However, we can see that WordPress was developed in the times where creating application was not that simple.
+
+Nowadays, PHP developments has accelerated with the signs of recent [PHP updates](https://www.php.net/), software development practices has also evolved.
+
+For instance, the development with MVC structures, inspired with Ruby on Rails, some software architecture principles, have applied to many of software frameworks.
+
+However, this has not applied to WordPress, it still uses its own structures.
+
+So, this writing aims to help you to understand what can be done if content management system, like WordPress, if applied with modern software architecture.
+
+To help with this, we will use [Laravel](https://laravel.com), a PHP web framework which has applied some of software engineering practice.
+
+Let's briefly discuss what features our content management system will have.
+Based on WordPress's features, we can extract some key features like:
+
+- Publish with Ease
+  If you’ve ever created a document, you’re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.
+- Publishing Tools
+  WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.
+- User Management
+  Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.
+- Media Management
+  They say a picture says a thousand words, which is why it’s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text and captions, and insert images and galleries into your content. We’ve even added a few image editing tools you can have fun with.
+- Built-in Comments
+  Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress’s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.
+- Search Engine Optimized
+  WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of SEO plugins to take care of that for you.
+
+So, let's start working on it!
+
+Installation
+
+```
+composer create-project laravel/laravel wp-laravel
+```
+
+Let's try accessing our application
+
+```
+php artisan serve
+```
+
+We'll need to setup a database, SQLite can be our friend in this writing.
+
+```
+touch database/database.sqlite
+```
+
+We'll need to update our .env
+
+```
+DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+DB_FOREIGN_KEYS=true
+```
+
+[reference](https://laravel.com/docs/9.x/database#sqlite-configuration)
+
+Let's migrate our initial database change
+
+```
+php artisan migrate
+```
+
+Now, we can see our database changes like so
+
+```
+php artisan db:show
+```
+
+All migrations have been applied.
+
+Now, we want to have something like WordPress Post. if you ever have inspected wordpress tables, you know there will be a table called wp_posts. Let's create that
+
+```
+php artisan make:model Post
+```
+
+this will create a model called Post. Let's create the migration to apply the database changes.
+
+```
+php artisan make:migration "create posts table"
+```
+
+Now, let's open the migration, and update our code to be following:
+
+```php
+$table->string('title');
+$table->string('slug')->nullable();
+$table->text('excerpt')->nullable();
+$table->longText('content')->nullable();
+$table->dateTime('published_at')->nullable();
+$table->foreignIdFor(\App\Models\User::class)->constrained();
+```
