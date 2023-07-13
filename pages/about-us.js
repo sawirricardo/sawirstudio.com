@@ -34,6 +34,7 @@ export default function AboutUs() {
                 <ul>
                   <li>PHP</li>
                   <li>Laravel</li>
+                  <li>Golang</li>
                   <li>Javascript (NodeJS)</li>
                   <li>Ruby on Rails</li>
                   <li>Django</li>
