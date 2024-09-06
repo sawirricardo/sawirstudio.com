@@ -9,9 +9,6 @@ import { NextSeo } from "next-seo";
 
 export default function Home({ clients, projects }) {
   return (
-    <div>Hello World!</div>
-  )
-  return (
     <>
       <NextSeo
         title="SawirStudio | Solid expertise in Application / Website / Digital Design"
