@@ -959,14 +959,7 @@ h1.page-title.heavy {
 
 /* Contact form */
 .contact-layout {
-  display: grid;
-  gap: 2.5rem;
-}
-@media (min-width: 768px) {
-  .contact-layout {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-    align-items: start;
-  }
+  max-width: 48rem;
 }
 .inquiry,
 .form-success {
@@ -1048,10 +1041,6 @@ h1.page-title.heavy {
   border-radius: 0.75rem;
   color: var(--on-mark);
   background: var(--mark-coral);
-}
-.form-error a {
-  font-weight: 700;
-  text-decoration: underline;
 }
 .form-success {
   text-align: center;
