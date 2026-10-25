@@ -1134,3 +1134,6 @@ h1.page-title.heavy {
     height: 6rem;
   }
 }
+.prose > :first-child {
+  margin-top: 0;
+}
