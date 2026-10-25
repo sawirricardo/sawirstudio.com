@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>SawirPost | SawirStudio</title>
+    <meta name="description" content="Write a post once and publish it to 25+ social channels on schedule, built for agencies" />
+    <meta property="og:title" content="SawirPost | SawirStudio" />
+    <meta property="og:description" content="Write a post once and publish it to 25+ social channels on schedule, built for agencies" />
+    <meta property="og:url" content="https://sawirstudio.com/projects/sawirpost/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/sawirpost/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawirpost.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "SawirPost",
+          "description": "Write a post once and publish it to 25+ social channels on schedule, built for agencies",
+          "url": "https://sawirpost.com",
+          "mainEntityOfPage": "https://sawirstudio.com/projects/sawirpost/",
+          "image": "https://sawirstudio.com/assets/images/projects/sawirpost-icon.webp",
+          "operatingSystem": "Web",
+          "applicationCategory": "BusinessApplication",
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "29.00",
+            "highPrice": "99.00",
+            "priceCurrency": "USD"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "SawirPost",
+              "item": "https://sawirstudio.com/projects/sawirpost/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main>
+      <section class="section banner narrow" role="banner">
+        <div class="app-heading">
+          <img class="app-icon" src="/assets/images/projects/sawirpost-icon.webp" alt="" width="96" height="96" />
+          <h1 class="page-title heavy">SawirPost</h1>
+        </div>
+        <p class="lead-sm">Write a post once and publish it to 25+ social channels on schedule, built for agencies</p>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p>Write a post once and SawirPost publishes it to 25+ channels on your schedule: spaced out naturally, tracked per channel, and approved by your client before it ships.</p>
+            <p>Channels cover big networks, niche communities, blogs and newsletters, including X, Instagram, Facebook Pages, Threads, TikTok, YouTube, LinkedIn, Pinterest, Bluesky, Mastodon, Reddit, Discord, Telegram, WordPress.com and Dev.to.</p>
+            <p>It is built for agency work. Clients review each post through a private preview link and comment right on it, channels are grouped by client so nothing ships to the wrong brand, and posts can be staggered minutes apart or repeated on a cadence.</p>
+            <p><img src="/assets/images/projects/sawirpost.webp" alt="SawirPost home page" loading="lazy"></p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Client</strong> Our own product</li>
+            <li><strong>Platforms</strong> Web</li>
+            <li><strong>Pricing</strong> From $29/month, with a 7-day free trial</li>
+            <li><strong>Website URL</strong> <a href="https://sawirpost.com" target="_blank" rel="noreferrer">https://sawirpost.com</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2><a href="/contact/">How can we<br />help you</a>?</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
