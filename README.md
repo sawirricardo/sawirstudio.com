@@ -36,13 +36,13 @@ and put lowercase searchable text in `data-search`.
 
 ## Contact form
 
-`contact/index.html` posts to the Google Form "SawirStudio project inquiry"
-(edit: https://docs.google.com/forms/d/1EuQ2_e1_3b-MLO0R_DU6HvYIJD7iaUqSzJPdaCKUcR4/edit).
+`contact/index.html` posts to the Google Form "SawirStudio inquiries"
+(edit: https://docs.google.com/forms/d/1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8/edit).
 Each field's `name` is that question's `entry.<id>`. If you add or change a question, get the new IDs with:
 
 ```bash
-gog forms raw 1EuQ2_e1_3b-MLO0R_DU6HvYIJD7iaUqSzJPdaCKUcR4 \
+gog forms raw 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8 \
   | python3 -c 'import json,sys; [print(int(i["questionItem"]["question"]["questionId"],16), i["title"]) for i in json.load(sys.stdin)["items"]]'
 ```
 
-Read responses with `gog forms responses list 1EuQ2_e1_3b-MLO0R_DU6HvYIJD7iaUqSzJPdaCKUcR4`.
+Read responses with `gog forms responses list 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`.
