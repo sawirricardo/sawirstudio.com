@@ -23,6 +23,10 @@
     <meta property="og:description" content="Crafting applications, websites, digital designs with heart." />
     <meta property="og:url" content="https://sawirstudio.com/" />
     <link rel="canonical" href="https://sawirstudio.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="shortcut icon" href="/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,6 +34,30 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"></script>
     <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://sawirstudio.com/#organization",
+          "name": "SawirStudio",
+          "legalName": "Sawir Studio LLC",
+          "url": "https://sawirstudio.com/",
+          "logo": "https://sawirstudio.com/favicon.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sawirstudio.com/#website",
+          "name": "SawirStudio",
+          "url": "https://sawirstudio.com/",
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <header class="site-header">
