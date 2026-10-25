@@ -588,26 +588,38 @@
     flex: 1 1 auto;
   }
 
-/* Dark mode: override the embed's inline light colors */
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] {
-  border-color: var(--border);
+/* Match the site's playful style; the embed sets inline colors, hence !important */
+.formkit-form[data-uid="601cc89535"] {
+  border: 2px solid var(--ink) !important;
+  border-radius: 1.25rem !important;
+  font-family: var(--font-display);
   background-color: var(--surface) !important;
+  box-shadow: 6px 6px 0 var(--pop-shadow);
 }
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-header,
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-guarantee {
-  color: var(--text) !important;
+.formkit-form[data-uid="601cc89535"] .formkit-header {
+  letter-spacing: -0.02em;
+  color: var(--ink) !important;
 }
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-subheader {
-  color: var(--text-body) !important;
+.formkit-form[data-uid="601cc89535"] .formkit-subheader,
+.formkit-form[data-uid="601cc89535"] .formkit-guarantee {
+  color: var(--muted) !important;
 }
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-input {
-  border-color: var(--border) !important;
-  color: var(--text) !important;
+.formkit-form[data-uid="601cc89535"] .formkit-input {
+  border: 2px solid var(--ink) !important;
+  border-radius: 999px !important;
+  color: var(--ink) !important;
   background: var(--bg);
 }
-[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-submit {
-  color: var(--text) !important;
-  background: var(--placeholder);
+.formkit-form[data-uid="601cc89535"] .formkit-input:focus {
+  border-color: var(--blue) !important;
+}
+.formkit-form[data-uid="601cc89535"] .formkit-submit {
+  border: 2px solid var(--ink) !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  color: var(--on-mark) !important;
+  background: var(--yellow);
+  box-shadow: 3px 3px 0 var(--pop-shadow);
 }
 [data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-powered-by-convertkit {
   filter: invert(1);
