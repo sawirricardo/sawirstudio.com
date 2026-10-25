@@ -1,11 +1,3 @@
-// Google Analytics
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  window.dataLayer.push(arguments);
-}
-gtag("js", new Date());
-gtag("config", "UA-135085180-1");
-
 // Dark mode toggle. The initial theme is set by an inline script in <head>.
 (function () {
   const root = document.documentElement;
