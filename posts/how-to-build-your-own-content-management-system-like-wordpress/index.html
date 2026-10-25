@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How To Build Your Own Content Management System (Like WordPress) | SawirStudio</title>
+    <meta name="description" content="Crafting applications, websites, digital designs with heart." />
+    <meta property="og:title" content="How To Build Your Own Content Management System (Like WordPress) | SawirStudio" />
+    <meta property="og:description" content="Crafting applications, websites, digital designs with heart." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">SawirStudio</a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="mailto:sawir.ricardo@gmail.com">Contact Us</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section class="section">
+        <article class="narrow center">
+          <h1 class="page-title heavy text-center">How To Build Your Own Content Management System (Like WordPress)</h1>
+          <div class="prose prose-xl">
+            <p>Building Content Management System from the ground up has been one of those awesome experience.</p>
+            <p>WordPress has been the de facto standard, especially in content management system industry.
+            From its website...</p>
+            <blockquote>
+            <p>WordPress powers more than 43% of the web — a figure that rises every day. Everything from simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with WordPress.</p>
+            </blockquote>
+            <p>However, we can see that WordPress was developed in the times where creating application was not that simple.</p>
+            <p>Nowadays, PHP developments has accelerated with the signs of recent <a href="https://www.php.net/">PHP updates</a>, software development practices has also evolved.</p>
+            <p>For instance, the development with MVC structures, inspired with Ruby on Rails, some software architecture principles, have applied to many of software frameworks.</p>
+            <p>However, this has not applied to WordPress, it still uses its own structures.</p>
+            <p>So, this writing aims to help you to understand what can be done if content management system, like WordPress, if applied with modern software architecture.</p>
+            <p>To help with this, we will use <a href="https://laravel.com">Laravel</a>, a PHP web framework which has applied some of software engineering practice.</p>
+            <p>Let's briefly discuss what features our content management system will have.
+            Based on WordPress's features, we can extract some key features like:</p>
+            <ul>
+            <li>Publish with Ease
+            If you’ve ever created a document, you’re already a whizz at creating content with WordPress. You can create Posts and Pages, format them easily, insert media, and with the click of a button your content is live and on the web.</li>
+            <li>Publishing Tools
+            WordPress makes it easy for you to manage your content. Create drafts, schedule publication, and look at your post revisions. Make your content public or private, and secure posts and pages with a password.</li>
+            <li>User Management
+            Not everyone requires the same access to your website. Administrators manage the site, editors work with content, authors and contributors write that content, and subscribers have a profile that they can manage. This lets you have a variety of contributors to your website, and let others simply be part of your community.</li>
+            <li>Media Management
+            They say a picture says a thousand words, which is why it’s important for you to be able to quickly and easily upload images and media to WordPress. Drag and drop your media into the uploader to add it to your website. Add alt text and captions, and insert images and galleries into your content. We’ve even added a few image editing tools you can have fun with.</li>
+            <li>Built-in Comments
+            Your blog is your home, and comments provide a space for your friends and followers to engage with your content. WordPress’s comment tools give you everything you need to be a forum for discussion and to moderate that discussion.</li>
+            <li>Search Engine Optimized
+            WordPress is optimized for search engines right out of the box. For more fine-grained SEO control, there are plenty of SEO plugins to take care of that for you.</li>
+            </ul>
+            <p>So, let's start working on it!</p>
+            <p>Installation</p>
+            <pre><code>composer create-project laravel/laravel wp-laravel
+</code></pre>
+            <p>Let's try accessing our application</p>
+            <pre><code>php artisan serve
+</code></pre>
+            <p>We'll need to setup a database, SQLite can be our friend in this writing.</p>
+            <pre><code>touch database/database.sqlite
+</code></pre>
+            <p>We'll need to update our .env</p>
+            <pre><code>DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+DB_FOREIGN_KEYS=true
+</code></pre>
+            <p><a href="https://laravel.com/docs/9.x/database#sqlite-configuration">reference</a></p>
+            <p>Let's migrate our initial database change</p>
+            <pre><code>php artisan migrate
+</code></pre>
+            <p>Now, we can see our database changes like so</p>
+            <pre><code>php artisan db:show
+</code></pre>
+            <p>All migrations have been applied.</p>
+            <p>Now, we want to have something like WordPress Post. if you ever have inspected wordpress tables, you know there will be a table called wp_posts. Let's create that</p>
+            <pre><code>php artisan make:model Post
+</code></pre>
+            <p>this will create a model called Post. Let's create the migration to apply the database changes.</p>
+            <pre><code>php artisan make:migration &quot;create posts table&quot;
+</code></pre>
+            <p>Now, let's open the migration, and update our code to be following:</p>
+            <pre><code class="language-php">$table-&gt;string('title');
+$table-&gt;string('slug')-&gt;nullable();
+$table-&gt;text('excerpt')-&gt;nullable();
+$table-&gt;longText('content')-&gt;nullable();
+$table-&gt;dateTime('published_at')-&gt;nullable();
+$table-&gt;foreignIdFor(\App\Models\User::class)-&gt;constrained();
+</code></pre>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="mailto:sawir.ricardo@gmail.com">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
