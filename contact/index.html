@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Contact | SawirStudio</title>
+    <meta name="description" content="Tell us about your project. Applications, websites, and digital design." />
+    <meta property="og:title" content="Contact | SawirStudio" />
+    <meta property="og:description" content="Tell us about your project. Applications, websites, and digital design." />
+    <meta property="og:url" content="https://sawirstudio.com/contact/" />
+    <link rel="canonical" href="https://sawirstudio.com/contact/" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main>
+      <section class="section banner" role="banner">
+        <h1 class="page-title">Contact us</h1>
+        <p class="lead-sm">Tell us about your project. Feed us with as much input as you have, so we can get accurate early on.</p>
+      </section>
+      <section class="section">
+        <div class="contact-layout">
+          <!-- Submits to the "SawirStudio project inquiry" Google Form; field names are its entry IDs. -->
+          <form id="inquiry-form" class="inquiry" action="https://docs.google.com/forms/d/e/1FAIpQLSeFN9K4vS722ahKOPY7LfwHooBijF4Vm9GodsYk6xDy6aI1Dg/formResponse" method="post">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="entry.1869472433" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="entry.1415640221" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="company">Company <span class="optional">(optional)</span></label>
+              <input id="company" name="entry.2105708745" type="text" autocomplete="organization" />
+            </div>
+            <fieldset class="field">
+              <legend>What do you need?</legend>
+              <div class="choices">
+                <div><input id="need-application" name="entry.1614357106" type="checkbox" value="Application" /><label for="need-application">Application</label></div>
+                <div><input id="need-website" name="entry.1614357106" type="checkbox" value="Website" /><label for="need-website">Website</label></div>
+                <div><input id="need-design" name="entry.1614357106" type="checkbox" value="Design" /><label for="need-design">Design</label></div>
+                <div><input id="need-unsure" name="entry.1614357106" type="checkbox" value="Not sure yet" /><label for="need-unsure">Not sure yet</label></div>
+              </div>
+            </fieldset>
+            <div class="field">
+              <label for="message">Tell us about your project</label>
+              <textarea id="message" name="entry.35820363" rows="6" required></textarea>
+            </div>
+            <button class="button" type="submit">Send inquiry</button>
+            <p id="form-error" class="form-status form-error" role="alert" hidden>
+              Something went wrong. Please email us at <a href="mailto:sawir.ricardo@gmail.com">sawir.ricardo@gmail.com</a> instead.
+            </p>
+          </form>
+          <div id="form-success" class="form-status form-success" role="status" tabindex="-1" hidden>
+            <h2>Thanks! 🎉</h2>
+            <p>Your inquiry has been sent.</p>
+          </div>
+          <aside class="note">
+            <ul>
+              <li><strong>Prefer email?</strong> <a href="mailto:sawir.ricardo@gmail.com">sawir.ricardo@gmail.com</a></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -629,21 +629,22 @@ h1.page-title.heavy {
   outline: none;
   box-shadow: 3px 3px 0 var(--blue);
 }
-.filters {
+.filters,
+.choices {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
 }
-.filters > div {
+:is(.filters, .choices) > div {
   position: relative;
 }
-.filters input {
+:is(.filters, .choices) input {
   position: absolute;
   width: 1px;
   height: 1px;
   opacity: 0;
 }
-.filters label {
+:is(.filters, .choices) label {
   display: inline-block;
   padding: 0.35em 1em;
   border: 2px solid var(--ink);
@@ -654,13 +655,13 @@ h1.page-title.heavy {
   user-select: none;
   transition: transform 0.15s ease;
 }
-.filters label:hover {
+:is(.filters, .choices) label:hover {
   transform: rotate(-2deg);
 }
-.filters input:checked + label {
+:is(.filters, .choices) input:checked + label {
   color: var(--on-mark);
 }
-.filters input:checked + label::before {
+:is(.filters, .choices) input:checked + label::before {
   content: "✓ ";
   content: "✓ " / "";
 }
@@ -673,7 +674,7 @@ h1.page-title.heavy {
 #design:checked + label {
   background: var(--mark-coral);
 }
-.filters input:focus-visible + label {
+:is(.filters, .choices) input:focus-visible + label {
   outline: 3px solid var(--blue);
   outline-offset: 3px;
 }
@@ -738,7 +739,8 @@ h1.page-title.heavy {
   display: grid;
   gap: 2.5rem;
 }
-.project-meta {
+.project-meta,
+.note {
   position: relative;
   align-self: start;
   padding: 1.5rem 1.25rem 1.25rem;
@@ -750,7 +752,8 @@ h1.page-title.heavy {
   transform: rotate(1.5deg);
 }
 /* A strip of tape holding the note */
-.project-meta::before {
+.project-meta::before,
+.note::before {
   content: "";
   position: absolute;
   top: -0.8rem;
@@ -761,16 +764,19 @@ h1.page-title.heavy {
   background: rgb(196 216 255 / 0.75);
   transform: translateX(-50%) rotate(-4deg);
 }
-.project-meta li + li {
+.project-meta li + li,
+.note li + li {
   margin-top: 0.6rem;
 }
-.project-meta strong {
+.project-meta strong,
+.note strong {
   display: block;
   font-family: var(--font-hand);
   font-size: 1.35rem;
   line-height: 1.1;
 }
-.project-meta a {
+.project-meta a,
+.note a {
   text-decoration: underline wavy var(--coral);
   text-underline-offset: 0.2em;
 }
@@ -949,4 +955,113 @@ h1.page-title.heavy {
   border: 2px solid var(--ink);
   border-radius: var(--radius);
   box-shadow: 6px 6px 0 var(--pop-shadow);
+}
+
+/* Contact form */
+.contact-layout {
+  display: grid;
+  gap: 2.5rem;
+}
+@media (min-width: 768px) {
+  .contact-layout {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+.inquiry,
+.form-success {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  border: 2px solid var(--ink);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: 6px 6px 0 var(--pop-shadow);
+}
+.inquiry .button {
+  justify-self: start;
+  font-size: 1.125rem;
+}
+.inquiry .button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--pop-shadow);
+}
+.inquiry .button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+  transform: none;
+}
+.field {
+  display: grid;
+  gap: 0.45rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.field > label,
+.field > legend {
+  padding: 0;
+  font-weight: 700;
+}
+.field > legend {
+  margin-bottom: 0.45rem;
+}
+.optional {
+  font-weight: 400;
+  color: var(--muted);
+}
+.field input:not([type="checkbox"]),
+.field textarea {
+  width: 100%;
+  padding: 0.7em 1em;
+  border: 2px solid var(--ink);
+  border-radius: 0.75rem;
+  color: var(--ink);
+  background: var(--bg);
+}
+.field textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+.field input:not([type="checkbox"]):focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 3px 3px 0 var(--blue);
+}
+.choices > div:nth-child(1) input:checked + label {
+  background: var(--mark-yellow);
+}
+.choices > div:nth-child(2) input:checked + label {
+  background: var(--mark-blue);
+}
+.choices > div:nth-child(3) input:checked + label {
+  background: var(--mark-coral);
+}
+.choices > div:nth-child(4) input:checked + label {
+  background: var(--mark-green);
+}
+.form-error {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--ink);
+  border-radius: 0.75rem;
+  color: var(--on-mark);
+  background: var(--mark-coral);
+}
+.form-error a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.form-success {
+  text-align: center;
+  background: var(--mark-green);
+  color: var(--on-mark);
+}
+.form-success h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.form-success p {
+  font-size: 1.25rem;
 }

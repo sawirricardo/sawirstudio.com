@@ -76,3 +76,38 @@ gtag("config", "UA-135085180-1");
     applyFilters();
   });
 })();
+
+// Contact page: submit the inquiry to Google Forms without leaving the site.
+// Without JS the form still posts directly and Google shows its own confirmation.
+(function () {
+  const form = document.getElementById("inquiry-form");
+  if (!form) return;
+
+  const button = form.querySelector("button[type=submit]");
+  const error = document.getElementById("form-error");
+  const success = document.getElementById("form-success");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    button.disabled = true;
+    button.textContent = "Sending…";
+    error.hidden = true;
+
+    try {
+      // Google Forms doesn't send CORS headers, so the response is opaque;
+      // a resolved request means it reached Google.
+      await fetch(form.action, {
+        method: "POST",
+        mode: "no-cors",
+        body: new URLSearchParams(new FormData(form)),
+      });
+      form.hidden = true;
+      success.hidden = false;
+      success.focus();
+    } catch (e) {
+      error.hidden = false;
+      button.disabled = false;
+      button.textContent = "Send inquiry";
+    }
+  });
+})();
