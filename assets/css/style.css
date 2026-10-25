@@ -417,6 +417,12 @@ h1.page-title.heavy {
   font-size: 1.25rem;
   color: var(--muted);
 }
+.lead-sm a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.25em;
+}
 
 /* Home: hero doodles */
 .hero {
@@ -1136,4 +1142,94 @@ h1.page-title.heavy {
 }
 .prose > :first-child {
   margin-top: 0;
+}
+
+/* About: founder note and values */
+.founder-note {
+  padding: 2rem 1.75rem 1.5rem;
+  font-size: 1.1rem;
+  transform: rotate(-1deg);
+}
+.founder-note p + p {
+  margin-top: 1rem;
+}
+.founder-hello,
+.founder-sign {
+  font-family: var(--font-hand);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.founder-sign {
+  text-align: right;
+}
+.values {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  counter-reset: value;
+}
+.values li {
+  counter-increment: value;
+  list-style: none;
+  padding: 1.25rem 1.25rem 1.5rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+}
+.values li::before {
+  content: counter(value, decimal-leading-zero);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0 0.4em;
+  border-radius: 0.25em;
+  font-family: var(--font-hand);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--on-mark);
+  background: var(--mark-yellow);
+}
+.values li:nth-child(4n + 2)::before {
+  background: var(--mark-blue);
+}
+.values li:nth-child(4n + 3)::before {
+  background: var(--mark-coral);
+}
+.values li:nth-child(4n + 4)::before {
+  background: var(--mark-green);
+}
+.values h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.values p {
+  margin-top: 0.5rem;
+  color: var(--text-body);
+}
+.values a {
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.2em;
+}
+.stack-line {
+  color: var(--muted);
+}
+@media (min-width: 768px) {
+  .values {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .values li:nth-child(odd) {
+    transform: rotate(-0.6deg);
+  }
+  .values li:nth-child(even) {
+    transform: rotate(0.6deg);
+  }
+}
+@media (min-width: 1024px) {
+  .values {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
