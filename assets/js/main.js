@@ -6,6 +6,33 @@ function gtag() {
 gtag("js", new Date());
 gtag("config", "UA-135085180-1");
 
+// Dark mode toggle. The initial theme is set by an inline script in <head>.
+(function () {
+  const root = document.documentElement;
+  const systemDark = matchMedia("(prefers-color-scheme: dark)");
+
+  function savedTheme() {
+    try {
+      return localStorage.getItem("theme");
+    } catch (e) {
+      return null;
+    }
+  }
+
+  document.querySelector(".theme-toggle").addEventListener("click", () => {
+    const theme = root.dataset.theme === "dark" ? "light" : "dark";
+    root.dataset.theme = theme;
+    try {
+      localStorage.setItem("theme", theme);
+    } catch (e) {}
+  });
+
+  // Follow system changes until the visitor picks a theme themselves.
+  systemDark.addEventListener("change", (e) => {
+    if (!savedTheme()) root.dataset.theme = e.matches ? "dark" : "light";
+  });
+})();
+
 // Projects page: search + category filter
 (function () {
   const list = document.getElementById("project-list");

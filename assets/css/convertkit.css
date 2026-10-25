@@ -587,3 +587,28 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
   }
+
+/* Dark mode: override the embed's inline light colors */
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] {
+  border-color: var(--border);
+  background-color: var(--surface) !important;
+}
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-header,
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-guarantee {
+  color: var(--text) !important;
+}
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-subheader {
+  color: var(--text-body) !important;
+}
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-input {
+  border-color: var(--border) !important;
+  color: var(--text) !important;
+  background: var(--bg);
+}
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-submit {
+  color: var(--text) !important;
+  background: var(--placeholder);
+}
+[data-theme="dark"] .formkit-form[data-uid="601cc89535"] .formkit-powered-by-convertkit {
+  filter: invert(1);
+}
