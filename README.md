@@ -46,3 +46,14 @@ gog forms raw 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8 \
 ```
 
 Read responses with `gog forms responses list 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`.
+
+## Deploy
+
+Hosted on Cloudflare (Pages, now served as a Worker with static assets), configured in `wrangler.jsonc`:
+
+```bash
+npx wrangler@4.152.0 deploy
+```
+
+This uploads the working tree; anything listed in `.assetsignore` (README, config, `.git`) is not served.
+Live at https://sawirstudio.com via the custom domain in `wrangler.jsonc` (Wrangler manages its DNS record).

@@ -1,0 +1,9 @@
+# Repo files that must not be served publicly
+.git
+.wrangler
+.DS_Store
+node_modules
+.assetsignore
+.gitignore
+README.md
+wrangler.jsonc

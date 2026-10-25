@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4.152.0/config-schema.json",
+  "name": "sawirstudio-legacy",
+  "account_id": "86f68a8538a53cfcfdafb6f89f9c57d1",
+  "compatibility_date": "2026-10-19",
+  // Wrangler creates and manages the DNS record for this hostname.
+  "routes": [{ "pattern": "sawirstudio.com", "custom_domain": true }],
+  // Static site: serve the repo root, minus the files listed in .assetsignore.
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
