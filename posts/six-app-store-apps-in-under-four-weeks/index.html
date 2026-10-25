@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Six App Store apps in under four weeks | SawirStudio</title>
+    <meta name="description" content="From September 29 to October 22, 2026, we took six native Swift apps from first commit to the App Store. What each one is and what they share." />
+    <meta property="og:title" content="Six App Store apps in under four weeks | SawirStudio" />
+    <meta property="og:description" content="From September 29 to October 22, 2026, we took six native Swift apps from first commit to the App Store. What each one is and what they share." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/six-app-store-apps-in-under-four-weeks/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/six-app-store-apps-in-under-four-weeks/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Six App Store apps in under four weeks",
+          "description": "From September 29 to October 22, 2026, we took six native Swift apps from first commit to the App Store. What each one is and what they share.",
+          "url": "https://sawirstudio.com/posts/six-app-store-apps-in-under-four-weeks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/six-app-store-apps-in-under-four-weeks/",
+          "datePublished": "2026-10-25",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Six App Store apps in under four weeks",
+              "item": "https://sawirstudio.com/posts/six-app-store-apps-in-under-four-weeks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main>
+      <section class="section">
+        <article class="narrow center">
+          <h1 class="page-title heavy text-center">Six App Store apps in under four weeks</h1>
+          <div class="prose prose-xl">
+            <p>Between September 29 and October 22, 2026, we took six apps from first commit to the App Store under Sawir Studio LLC: <a href="/projects/math-daily/">Math Daily</a>, <a href="/projects/rindraw/">Rindraw</a>, <a href="/projects/squishu/">Squishu</a>, <a href="/projects/pawlitics/">Pawlitics</a>, <a href="/projects/cleanstorage/">CleanStorage</a> and <a href="/projects/par/">Par</a>.</p>
+            <p>They cover very different ground: math practice, drawing, two games, a storage cleaner and a financial calculator. But they were built the same way, and that shows in what they have in common. Here is what each one is, the part that was most interesting to build, and the numbers behind them.</p>
+            <h2>The numbers</h2>
+            <div class="table-wrap">
+            <table>
+            <thead><tr><th>App</th><th>First commit</th><th>On the App Store</th><th>Commits</th><th>Lines of Swift</th></tr></thead>
+            <tbody>
+            <tr><td>Math Daily</td><td>Sep 29</td><td>Oct 8</td><td>232</td><td>17,065</td></tr>
+            <tr><td>Rindraw</td><td>Oct 1</td><td>Oct 12</td><td>888</td><td>156,657</td></tr>
+            <tr><td>Squishu</td><td>Oct 9</td><td>Oct 12</td><td>114</td><td>20,861</td></tr>
+            <tr><td>Pawlitics</td><td>Oct 9</td><td>Oct 13</td><td>96</td><td>13,002</td></tr>
+            <tr><td>CleanStorage</td><td>Oct 15</td><td>Oct 19</td><td>33</td><td>10,816</td></tr>
+            <tr><td>Par</td><td>Oct 19</td><td>Oct 22</td><td>47</td><td>10,185</td></tr>
+            </tbody>
+            </table>
+            </div>
+            <p>That is about 1,400 commits and 228,000 lines of Swift, tests included. Commit counts run to October 25, since most of the apps have had updates since launch.</p>
+            <h2>Math Daily</h2>
+            <p>Math Daily builds a math habit in about a minute a day: ten problems per session, across addition, subtraction, multiplication, division, and percents and fractions. Each operator is a small monster (Plumo, Mino, Tixi, Divvy and Perci) that cheers when you get it right. Problems you miss come back the next day, and you can print a practice sheet to take the same problems onto paper.</p>
+            <p>It runs on iPhone, iPad and Apple Watch, with widgets for both. The optional Pro upgrade uses StoreKit 2 directly, with no third-party purchase service in between.</p>
+            <h2>Rindraw</h2>
+            <p>Rindraw is the biggest of the six by far, and the one with the strongest opinion. Most drawing apps turn a stroke into pixels the moment you lift the Pencil. In Rindraw a stroke stays a stroke: you can recolor it next week, bend it or scale it up, and it stays sharp because Rindraw draws it again instead of stretching it. The undo history is saved inside the drawing file, so you can still undo after quitting.</p>
+            <p>Each drawing is an ordinary file in iCloud Drive or a folder you choose, with a Quick Look extension so the Files app can preview it. There is no account and no data collection, and one purchase covers iPad, iPhone and Mac. Holding to that has taken 888 commits and 270 test files so far.</p>
+            <h2>Squishu</h2>
+            <p>Squishu is a cute clicker game: tap dumplings, onigiri, sushi and mochi until they pop, then beat each world&rsquo;s boss before the timer runs out. A squad of dumpling friends keeps squishing while you are away. It went from first commit to the App Store in three days, and it has an Apple Watch version with its own widgets and Game Center support.</p>
+            <h2>Pawlitics</h2>
+            <p>Pawlitics is a cozy politics sim. You govern Bramblewood, a town of animals, through 48 policies, from income tax and highways to a honey tax. Every policy pleases somebody and annoys somebody else, the budget has to balance, and voters who stew too long petition to recall you. Twelve Game Center achievements reward different ways of governing.</p>
+            <h2>CleanStorage</h2>
+            <p>CleanStorage finds what takes up space on your iPhone, such as duplicates, similar shots, screenshots and large videos, and lets you swipe through them to decide what to keep. Nothing is deleted until you confirm. It is free, with no ads, no subscription and no daily limits. Most of it was written in two days of commits, and it also has an Apple Watch app and widgets.</p>
+            <h2>Par</h2>
+            <p>Par is a full RPN financial calculator that follows the classic gold-key keystrokes, so the steps in a finance textbook work exactly as written: time value of money, cash flows with NPV and IRR, bonds, depreciation and dates. Its calculation history syncs through iCloud, and it has an Apple Watch app. It went from first commit to the App Store in three days.</p>
+            <h2>What they have in common</h2>
+            <ul>
+            <li><strong>Native, all the way.</strong> All six are native Swift apps, with no cross-platform layer.</li>
+            <li><strong>More than the phone.</strong> Math Daily, Squishu, CleanStorage and Par have Apple Watch apps, five of the six have widgets, and Rindraw runs on Mac as well.</li>
+            <li><strong>Plain business models.</strong> Rindraw and Par are paid once. CleanStorage, Squishu and Pawlitics are free to download, and Math Daily is free with an optional Pro upgrade.</li>
+            <li><strong>Small, focused scope.</strong> Each app does one thing, which is what made a few days to a few weeks per app possible.</li>
+            </ul>
+            <p>If you have an app you want built the same way, <a href="/contact/">tell us about it</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
