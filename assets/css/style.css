@@ -1137,32 +1137,3 @@ h1.page-title.heavy {
 .prose > :first-child {
   margin-top: 0;
 }
-
-.prose .table-wrap {
-  overflow-x: auto;
-  border: 2px solid var(--ink);
-  border-radius: var(--radius);
-  box-shadow: 4px 4px 0 var(--pop-shadow);
-}
-.prose table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85em;
-  white-space: nowrap;
-}
-.prose th,
-.prose td {
-  padding: 0.6em 0.9em;
-  text-align: left;
-}
-.prose thead th {
-  color: var(--on-mark);
-  background: var(--mark-yellow);
-}
-.prose tbody tr + tr td {
-  border-top: 1px solid var(--border-soft);
-}
-.prose td:nth-child(n + 4),
-.prose th:nth-child(n + 4) {
-  text-align: right;
-}
