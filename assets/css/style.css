@@ -1066,3 +1066,71 @@ h1.page-title.heavy {
   border-radius: 0.75rem;
   box-shadow: 4px 4px 0 var(--pop-shadow);
 }
+
+/* Own apps: icon thumbnails, project heading, home row */
+.thumb-app {
+  display: grid;
+  place-items: center;
+  background: var(--surface-muted);
+}
+.thumb-app img {
+  width: 34%;
+  border-radius: 22%;
+  box-shadow: 3px 3px 0 var(--pop-shadow);
+}
+.app-heading {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.app-heading h1.page-title.heavy {
+  margin: 0;
+}
+.app-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 2px solid var(--ink);
+  border-radius: 22%;
+  box-shadow: 3px 3px 0 var(--pop-shadow);
+}
+.app-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.app-row a {
+  display: grid;
+  justify-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+.app-row img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 2px solid var(--ink);
+  border-radius: 22%;
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+  transition: transform 0.15s ease;
+}
+.app-row li:nth-child(odd) img {
+  transform: rotate(-3deg);
+}
+.app-row li:nth-child(even) img {
+  transform: rotate(3deg);
+}
+.app-row a:hover img {
+  transform: rotate(0) scale(1.08);
+}
+.app-row a:hover span {
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.25em;
+}
+@media (min-width: 768px) {
+  .app-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+}
