@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>DBTV Application | SawirStudio</title>
+    <meta name="description" content="Sermons, prayer and daily devotionals from Ps. Debby Basjir" />
+    <meta property="og:title" content="DBTV Application | SawirStudio" />
+    <meta property="og:description" content="Sermons, prayer and daily devotionals from Ps. Debby Basjir" />
+    <meta property="og:url" content="https://sawirstudio.com/projects/dbtv-application/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/dbtv-application/" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main>
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">DBTV Application</h1>
+        <p class="lead-sm">Sermons, prayer and daily devotionals from Ps. Debby Basjir</p>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p>DBTV brings Ps. Debby Basjir&apos;s ministry to iOS and Android: exclusive sermon videos, online and kids prayer services (Mezbah Doa), praise &amp; worship, podcasts and daily devotionals, with a DBTV+ membership for early access to exclusive content.</p>
+            <p><img src="/assets/images/projects/dbtv-application.webp" alt="DBTV app banner"></p>
+            <div class="shots">
+              <img src="/assets/images/projects/dbtv-application-1.webp" alt="DBTV app screenshot 1" loading="lazy" />
+              <img src="/assets/images/projects/dbtv-application-2.webp" alt="DBTV app screenshot 2" loading="lazy" />
+              <img src="/assets/images/projects/dbtv-application-3.webp" alt="DBTV app screenshot 3" loading="lazy" />
+            </div>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Client</strong> DBTV</li>
+            <li><strong>Website URL</strong> <a href="https://dbtv.my.id" target="_blank" rel="noreferrer">https://dbtv.my.id</a></li>
+            <li><strong>App Store URL</strong> <a href="https://apps.apple.com/id/app/dbtv/id6752770752" target="_blank" rel="noreferrer">https://apps.apple.com/id/app/dbtv/id6752770752</a></li>
+            <li><strong>Google Playstore URL</strong> <a href="https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk" target="_blank" rel="noreferrer">https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2><a href="/contact/">How can we<br />help you</a>?</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

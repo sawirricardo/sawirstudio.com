@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Koperasi HOB Application | SawirStudio</title>
+    <meta name="description" content="Everyday grocery shopping app for a cooperative" />
+    <meta property="og:title" content="Koperasi HOB Application | SawirStudio" />
+    <meta property="og:description" content="Everyday grocery shopping app for a cooperative" />
+    <meta property="og:url" content="https://sawirstudio.com/projects/koperasi-hob-application/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/koperasi-hob-application/" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135085180-1"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main>
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Koperasi HOB Application</h1>
+        <p class="lead-sm">Everyday grocery shopping app for a cooperative</p>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p>Koperasi HOB&apos;s shopping app for everyday household needs. Members browse products by category, check out with delivery or pick-up, and pay with their cooperative balance.</p>
+            <p><img src="/assets/images/projects/koperasi-hob-application.webp" alt="Koperasi HOB app banner"></p>
+            <div class="shots">
+              <img src="/assets/images/projects/koperasi-hob-application-1.webp" alt="Koperasi HOB app screenshot 1" loading="lazy" />
+              <img src="/assets/images/projects/koperasi-hob-application-2.webp" alt="Koperasi HOB app screenshot 2" loading="lazy" />
+              <img src="/assets/images/projects/koperasi-hob-application-3.webp" alt="Koperasi HOB app screenshot 3" loading="lazy" />
+            </div>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Client</strong> Koperasi HOB</li>
+            <li><strong>Website URL</strong> <a href="https://hob.my.id" target="_blank" rel="noreferrer">https://hob.my.id</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2><a href="/contact/">How can we<br />help you</a>?</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

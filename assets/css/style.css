@@ -1054,3 +1054,15 @@ h1.page-title.heavy {
 .form-success p {
   font-size: 1.25rem;
 }
+
+/* Row of phone screenshots on app project pages */
+.prose .shots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.prose .shots img {
+  margin: 0;
+  border-radius: 0.75rem;
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+}
