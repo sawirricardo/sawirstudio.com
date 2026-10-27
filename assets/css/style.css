@@ -213,12 +213,14 @@ h1.page-title:not(.heavy)::after {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 @media (hover: hover) and (pointer: fine) {
+  .button:hover,
   .see-all:hover,
   .empty button:hover {
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 0 var(--pop-shadow);
   }
 }
+.button:active,
 .see-all:active,
 .empty button:active {
   transform: translate(2px, 2px);
@@ -340,6 +342,25 @@ h1.page-title:not(.heavy)::after {
     display: none;
   }
 }
+/* Phones: the links wrap into a row or two instead of a tall stack,
+   and each one is a full 44px tap target. */
+@media (max-width: 767.98px) {
+  .site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.6em;
+    line-height: 1.2;
+  }
+  .site-nav a,
+  .footer-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .site-nav a {
+    margin-left: 0;
+  }
+}
 
 hr {
   height: 0;
@@ -432,6 +453,13 @@ h1.page-title.heavy {
   font-weight: 700;
   text-decoration: underline wavy var(--coral);
   text-underline-offset: 0.25em;
+}
+.hero-actions {
+  margin-top: 1.75rem;
+}
+.hero-actions .button,
+.cta-box .button {
+  font-size: 1.25rem;
 }
 
 /* Home: hero doodles */
@@ -564,6 +592,9 @@ h1.page-title.heavy {
 }
 
 /* Home: featured projects */
+.section-head {
+  padding-bottom: 0;
+}
 .featured {
   display: grid;
   gap: 3.5rem;
@@ -870,25 +901,24 @@ h1.page-title.heavy {
   line-height: 1.05;
   letter-spacing: -0.035em;
 }
-.cta-box h2 a {
-  text-decoration: underline wavy var(--coral);
-  text-decoration-thickness: 0.06em;
-  text-underline-offset: 0.15em;
-}
-@media (hover: hover) and (pointer: fine) {
-  .cta-box h2 a:hover {
-    text-decoration-color: var(--on-mark);
-  }
+/* On the yellow box the button flips to ink so it still reads as the button. */
+.cta-box .button {
+  justify-self: start;
+  color: var(--yellow);
+  background: var(--on-mark);
 }
 @media (min-width: 768px) {
   .cta-box {
-    grid-template-columns: 1fr 1.4fr;
+    grid-template-columns: 1fr auto;
     align-items: end;
     padding: 3rem;
   }
+  .cta-box p {
+    grid-column: 1 / -1;
+    margin-bottom: -0.5rem;
+  }
   .cta-box h2 {
     font-size: 4.5rem;
-    text-align: right;
   }
 }
 
@@ -1006,12 +1036,6 @@ h1.page-title.heavy {
 .inquiry .button {
   justify-self: start;
   font-size: 1.125rem;
-}
-@media (hover: hover) and (pointer: fine) {
-  .inquiry .button:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 var(--pop-shadow);
-  }
 }
 .inquiry .button:disabled {
   opacity: 0.6;
@@ -1278,14 +1302,10 @@ summary,
 label {
   touch-action: manipulation;
 }
-.inquiry .button,
+.button,
 .see-all {
   -webkit-user-select: none;
   user-select: none;
-}
-.inquiry .button:active {
-  transform: translate(2px, 2px);
-  box-shadow: 0 0 0 var(--pop-shadow);
 }
 .app-row a:active img {
   transform: translate(2px, 2px);
