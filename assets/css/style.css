@@ -1291,3 +1291,32 @@ label {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0 var(--pop-shadow);
 }
+
+/* The thanks after an inquiry arrives with a small pop instead of swapping in. */
+.form-success:not([hidden]) {
+  animation: thanks-in 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes thanks-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+@keyframes thanks-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+/* Switching themes cross-fades the page instead of flipping it in one frame. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 200ms;
+  animation-timing-function: ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-success:not([hidden]) {
+    animation-name: thanks-fade;
+  }
+}

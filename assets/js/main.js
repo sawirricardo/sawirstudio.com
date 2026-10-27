@@ -22,8 +22,19 @@
 
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const theme = root.dataset.theme === "dark" ? "light" : "dark";
-    root.dataset.theme = theme;
-    syncThemeColor();
+    const apply = () => {
+      root.dataset.theme = theme;
+      syncThemeColor();
+    };
+    // Cross-fade where the browser can, so the whole page doesn't flash to the other theme.
+    if (
+      document.startViewTransition &&
+      !matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      document.startViewTransition(apply);
+    } else {
+      apply();
+    }
     try {
       localStorage.setItem("theme", theme);
     } catch (e) {}
