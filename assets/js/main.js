@@ -11,9 +11,19 @@
     }
   }
 
+  // The phone's status bar and browser bar take the page's background, in the theme shown.
+  function syncThemeColor() {
+    const color = root.dataset.theme === "dark" ? "#1a1916" : "#fffcf5";
+    document
+      .querySelectorAll('meta[name="theme-color"]')
+      .forEach((meta) => (meta.content = color));
+  }
+  syncThemeColor();
+
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const theme = root.dataset.theme === "dark" ? "light" : "dark";
     root.dataset.theme = theme;
+    syncThemeColor();
     try {
       localStorage.setItem("theme", theme);
     } catch (e) {}
@@ -22,6 +32,7 @@
   // Follow system changes until the visitor picks a theme themselves.
   systemDark.addEventListener("change", (e) => {
     if (!savedTheme()) root.dataset.theme = e.matches ? "dark" : "light";
+    syncThemeColor();
   });
 })();
 

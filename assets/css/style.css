@@ -212,10 +212,12 @@ h1.page-title:not(.heavy)::after {
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.see-all:hover,
-.empty button:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--pop-shadow);
+@media (hover: hover) and (pointer: fine) {
+  .see-all:hover,
+  .empty button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--pop-shadow);
+  }
 }
 .see-all:active,
 .empty button:active {
@@ -247,8 +249,10 @@ h1.page-title:not(.heavy)::after {
   transform: rotate(-3deg);
   transition: transform 0.2s ease;
 }
-.logo:hover span {
-  transform: rotate(3deg) scale(1.05);
+@media (hover: hover) and (pointer: fine) {
+  .logo:hover span {
+    transform: rotate(3deg) scale(1.05);
+  }
 }
 .site-nav ul {
   line-height: 2.1;
@@ -260,9 +264,11 @@ h1.page-title:not(.heavy)::after {
   font-weight: 600;
   transition: background-color 0.15s ease;
 }
-.site-nav a:hover {
-  color: var(--on-mark);
-  background: var(--mark-yellow);
+@media (hover: hover) and (pointer: fine) {
+  .site-nav a:hover {
+    color: var(--on-mark);
+    background: var(--mark-yellow);
+  }
 }
 .site-header hr {
   margin: 2rem 0 0;
@@ -284,9 +290,11 @@ h1.page-title:not(.heavy)::after {
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.theme-toggle:hover {
-  transform: translate(-1px, -1px) rotate(-12deg);
-  box-shadow: 3px 3px 0 var(--pop-shadow);
+@media (hover: hover) and (pointer: fine) {
+  .theme-toggle:hover {
+    transform: translate(-1px, -1px) rotate(-12deg);
+    box-shadow: 3px 3px 0 var(--pop-shadow);
+  }
 }
 .theme-toggle:active {
   transform: translate(1px, 1px);
@@ -356,10 +364,12 @@ hr {
 .site-footer a {
   font-weight: 600;
 }
-.site-footer a:hover {
-  color: var(--ink);
-  text-decoration: underline wavy var(--coral);
-  text-underline-offset: 0.25em;
+@media (hover: hover) and (pointer: fine) {
+  .site-footer a:hover {
+    color: var(--ink);
+    text-decoration: underline wavy var(--coral);
+    text-underline-offset: 0.25em;
+  }
 }
 .site-footer hr {
   margin: 2rem 0;
@@ -542,8 +552,10 @@ h1.page-title.heavy {
 .clients li:nth-child(3n + 1) {
   transform: rotate(1.5deg);
 }
-.clients li:hover {
-  transform: rotate(0) scale(1.06);
+@media (hover: hover) and (pointer: fine) {
+  .clients li:hover {
+    transform: rotate(0) scale(1.06);
+  }
 }
 @media (min-width: 768px) {
   .section-title {
@@ -571,8 +583,10 @@ h1.page-title.heavy {
 .featured-item:nth-child(even) img {
   transform: rotate(1.5deg);
 }
-.featured-item:hover img {
-  transform: rotate(0) scale(1.02);
+@media (hover: hover) and (pointer: fine) {
+  .featured-item:hover img {
+    transform: rotate(0) scale(1.02);
+  }
 }
 .featured-item h3 {
   font-size: 1.625rem;
@@ -587,8 +601,10 @@ h1.page-title.heavy {
   margin-left: 0.3em;
   transition: transform 0.2s ease;
 }
-.featured-item:hover h3::after {
-  transform: translateX(0.3em);
+@media (hover: hover) and (pointer: fine) {
+  .featured-item:hover h3::after {
+    transform: translateX(0.3em);
+  }
 }
 .featured-item p {
   margin-top: 0.5rem;
@@ -661,8 +677,10 @@ h1.page-title.heavy {
   user-select: none;
   transition: transform 0.15s ease;
 }
-:is(.filters, .choices) label:hover {
-  transform: rotate(-2deg);
+@media (hover: hover) and (pointer: fine) {
+  :is(.filters, .choices) label:hover {
+    transform: rotate(-2deg);
+  }
 }
 :is(.filters, .choices) input:checked + label {
   color: var(--on-mark);
@@ -711,9 +729,11 @@ h1.page-title.heavy {
   box-shadow: 4px 4px 0 var(--pop-shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.card:hover {
-  transform: translate(-3px, -3px) rotate(-0.6deg);
-  box-shadow: 7px 7px 0 var(--pop-shadow);
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    transform: translate(-3px, -3px) rotate(-0.6deg);
+    box-shadow: 7px 7px 0 var(--pop-shadow);
+  }
 }
 .card .thumb {
   border-bottom: 2px solid var(--ink);
@@ -811,9 +831,11 @@ h1.page-title.heavy {
   box-shadow: 4px 4px 0 var(--pop-shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.post-list a:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--pop-shadow);
+@media (hover: hover) and (pointer: fine) {
+  .post-list a:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--pop-shadow);
+  }
 }
 .post-list time {
   display: block;
@@ -853,8 +875,10 @@ h1.page-title.heavy {
   text-decoration-thickness: 0.06em;
   text-underline-offset: 0.15em;
 }
-.cta-box h2 a:hover {
-  text-decoration-color: var(--on-mark);
+@media (hover: hover) and (pointer: fine) {
+  .cta-box h2 a:hover {
+    text-decoration-color: var(--on-mark);
+  }
 }
 @media (min-width: 768px) {
   .cta-box {
@@ -915,9 +939,11 @@ h1.page-title.heavy {
   text-decoration-thickness: 1.5px;
   text-underline-offset: 0.25em;
 }
-.prose a:hover {
-  color: var(--on-mark);
-  background: var(--mark-yellow);
+@media (hover: hover) and (pointer: fine) {
+  .prose a:hover {
+    color: var(--on-mark);
+    background: var(--mark-yellow);
+  }
 }
 .prose strong {
   color: var(--ink);
@@ -981,9 +1007,11 @@ h1.page-title.heavy {
   justify-self: start;
   font-size: 1.125rem;
 }
-.inquiry .button:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--pop-shadow);
+@media (hover: hover) and (pointer: fine) {
+  .inquiry .button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--pop-shadow);
+  }
 }
 .inquiry .button:disabled {
   opacity: 0.6;
@@ -1127,12 +1155,16 @@ h1.page-title.heavy {
 .app-row li:nth-child(even) img {
   transform: rotate(3deg);
 }
-.app-row a:hover img {
-  transform: rotate(0) scale(1.08);
+@media (hover: hover) and (pointer: fine) {
+  .app-row a:hover img {
+    transform: rotate(0) scale(1.08);
+  }
 }
-.app-row a:hover span {
-  text-decoration: underline wavy var(--coral);
-  text-underline-offset: 0.25em;
+@media (hover: hover) and (pointer: fine) {
+  .app-row a:hover span {
+    text-decoration: underline wavy var(--coral);
+    text-underline-offset: 0.25em;
+  }
 }
 @media (min-width: 768px) {
   .app-icon {
@@ -1232,4 +1264,30 @@ h1.page-title.heavy {
   .values {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* On phones: no gray flash when tapping, and no wait to see whether a tap is a double tap.
+   Each control shows its own pressed state instead. */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+a,
+button,
+summary,
+label {
+  touch-action: manipulation;
+}
+.inquiry .button,
+.see-all {
+  -webkit-user-select: none;
+  user-select: none;
+}
+.inquiry .button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 var(--pop-shadow);
+}
+.app-row a:active img {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--pop-shadow);
 }
