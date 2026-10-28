@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Privacy | SawirStudio</title>
+    <meta name="description" content="What sawirstudio.com collects, why, and which services handle it: Microsoft Clarity, the contact form, Google Fonts and Cloudflare." />
+    <meta property="og:title" content="Privacy | SawirStudio" />
+    <meta property="og:description" content="What sawirstudio.com collects, why, and which services handle it: Microsoft Clarity, the contact form, Google Fonts and Cloudflare." />
+    <meta property="og:url" content="https://sawirstudio.com/privacy/" />
+    <link rel="canonical" href="https://sawirstudio.com/privacy/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner stack" role="banner">
+        <h1>What this site <span class="mark mark-blue">collects</span></h1>
+        <p class="lead">Plainly: what we measure, what you send us, and who else handles it.</p>
+      </section>
+      <section class="section">
+        <div class="prose">
+          <p><em>Last updated October 28, 2026</em></p>
+          <h2>How we measure the site</h2>
+          <p>We use <a href="https://clarity.microsoft.com/" target="_blank" rel="noopener">Microsoft Clarity</a> to see how people use this site: which pages they open, where they click and how far they scroll. Clarity also records sessions as replays, along with your browser, device, approximate location and the page that sent you here. It may set cookies to tell one visit from the next.</p>
+          <p>We look at this to find what&apos;s confusing or broken and fix it. We don&apos;t sell it. Microsoft handles the data under the <a href="https://privacy.microsoft.com/privacystatement" target="_blank" rel="noopener">Microsoft Privacy Statement</a>.</p>
+          <h2>When you contact us</h2>
+          <p>The <a href="/contact/">contact form</a> sends your name, email, company (if you add one), what you need and your message to a Google Form in our Google account. We use it to reply and to talk about your project. Ask us and we&apos;ll delete it.</p>
+          <h2>Services the site loads</h2>
+          <p>The fonts come from Google Fonts, so your browser shares your IP address with Google when it fetches them (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google&apos;s privacy policy</a>). The site is hosted on Cloudflare, which handles every request on its way to you (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare&apos;s privacy policy</a>).</p>
+          <h2>Stored in your browser</h2>
+          <p>If you switch between light and dark mode, your browser remembers the choice in its local storage. It stays on your device and isn&apos;t sent to us.</p>
+          <h2>Our apps</h2>
+          <p>Each of our apps has its own privacy policy, linked from its App Store listing. See them all under <a href="/projects/">Projects</a>.</p>
+          <h2>Questions</h2>
+          <p>For a question about your data, or to have it deleted, write to us through the <a href="/contact/">contact form</a>.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
