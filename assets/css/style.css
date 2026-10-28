@@ -14,6 +14,8 @@
   --code-text: #f5efe3;
   --gutter: 2rem;
   --radius: 1rem;
+  /* Presses and lifts land fast and settle softly. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 
   /* Accents stay bright in both themes; text on them is always dark. */
   --yellow: #ffd84d;
@@ -210,7 +212,7 @@ h1.page-title:not(.heavy)::after {
   background: var(--yellow);
   box-shadow: 4px 4px 0 var(--pop-shadow);
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .button:hover,
@@ -249,7 +251,7 @@ h1.page-title:not(.heavy)::after {
   color: var(--on-mark);
   background: var(--yellow);
   transform: rotate(-3deg);
-  transition: transform 0.2s ease;
+  transition: transform 200ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .logo:hover span {
@@ -312,7 +314,7 @@ h1.page-title:not(.heavy)::after {
   background: var(--surface);
   box-shadow: 2px 2px 0 var(--pop-shadow);
   cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .theme-toggle:hover {
@@ -594,7 +596,7 @@ h1.page-title.heavy {
   font-size: 0.95rem;
   font-weight: 600;
   background: var(--surface);
-  transition: transform 0.15s ease;
+  transition: transform 160ms var(--ease-out);
 }
 .clients li:nth-child(8n + 1) {
   color: var(--on-mark);
@@ -647,7 +649,7 @@ h1.page-title.heavy {
   border-radius: var(--radius);
   box-shadow: 6px 6px 0 var(--pop-shadow);
   transform: rotate(-1.5deg);
-  transition: transform 0.2s ease;
+  transition: transform 200ms var(--ease-out);
 }
 .featured-item:nth-child(even) img {
   transform: rotate(1.5deg);
@@ -668,7 +670,7 @@ h1.page-title.heavy {
   content: "→" / "";
   display: inline-block;
   margin-left: 0.3em;
-  transition: transform 0.2s ease;
+  transition: transform 200ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .featured-item:hover h3::after {
@@ -744,7 +746,7 @@ h1.page-title.heavy {
   background: var(--surface);
   cursor: pointer;
   user-select: none;
-  transition: transform 0.15s ease;
+  transition: transform 160ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   :is(.filters, .choices) label:hover {
@@ -796,7 +798,7 @@ h1.page-title.heavy {
   border-radius: var(--radius);
   background: var(--surface);
   box-shadow: 4px 4px 0 var(--pop-shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -898,7 +900,7 @@ h1.page-title.heavy {
   line-height: 1.3;
   background: var(--surface);
   box-shadow: 4px 4px 0 var(--pop-shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
   .post-list a:hover {
@@ -1209,7 +1211,7 @@ h1.page-title.heavy {
   border: 2px solid var(--ink);
   border-radius: 22%;
   box-shadow: 4px 4px 0 var(--pop-shadow);
-  transition: transform 0.15s ease;
+  transition: transform 160ms var(--ease-out);
 }
 .app-row li:nth-child(odd) img {
   transform: rotate(-3deg);
