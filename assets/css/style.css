@@ -272,6 +272,28 @@ h1.page-title:not(.heavy)::after {
     background: var(--mark-yellow);
   }
 }
+/* The page you're on (or the section it belongs to) keeps the hover highlight. */
+.site-nav a[aria-current] {
+  color: var(--on-mark);
+  background: var(--mark-yellow);
+}
+/* Keyboard users can jump past the header. It stays off screen until focused. */
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: var(--gutter);
+  z-index: 10;
+  padding: 0.5em 1em;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--on-mark);
+  background: var(--yellow);
+  transform: translateY(-200%);
+}
+.skip-link:focus {
+  transform: none;
+}
 .site-header hr {
   margin: 2rem 0 0;
 }

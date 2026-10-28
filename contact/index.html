@@ -37,6 +37,7 @@
     <script defer src="/assets/js/main.js"></script>
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
       <nav class="site-nav">
@@ -45,7 +46,7 @@
           <li><a href="/posts/">Blog</a></li>
           <li><a href="/projects/">Projects</a></li>
           <li><a href="/about-us/">About us</a></li>
-          <li><a href="/contact/">Contact Us</a></li>
+          <li><a href="/contact/" aria-current="page">Contact Us</a></li>
         </ul>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
@@ -54,7 +55,7 @@
       </button>
       <hr />
     </header>
-    <main>
+    <main id="main">
       <section class="section banner" role="banner">
         <h1 class="page-title">Contact us</h1>
         <p class="lead-sm">Tell us about your project. Feed us with as much input as you have, so we can get accurate early on.</p>
