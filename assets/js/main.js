@@ -47,6 +47,27 @@
   });
 })();
 
+// The pinned desktop header draws its bottom edge once the page scrolls under it.
+(function () {
+  const header = document.querySelector(".site-header");
+  let queued = false;
+  function update() {
+    header.classList.toggle("is-stuck", scrollY > 0);
+    queued = false;
+  }
+  addEventListener(
+    "scroll",
+    () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    },
+    { passive: true }
+  );
+  update();
+})();
+
 // Projects page: search + category filter
 (function () {
   const list = document.getElementById("project-list");
