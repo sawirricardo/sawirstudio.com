@@ -3,11 +3,15 @@
   "name": "sawirstudio-legacy",
   "account_id": "86f68a8538a53cfcfdafb6f89f9c57d1",
   "compatibility_date": "2026-10-19",
+  // Only redirects http:// to https://; everything else is a static file.
+  "main": "worker.js",
   // Wrangler creates and manages the DNS record for this hostname.
   "routes": [{ "pattern": "sawirstudio.com", "custom_domain": true }],
   // Static site: serve the repo root, minus the files listed in .assetsignore.
   "assets": {
     "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": true,
     "not_found_handling": "404-page"
   }
 }
