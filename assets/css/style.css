@@ -1388,3 +1388,69 @@ label {
     backdrop-filter: none;
   }
 }
+
+/* App icons you can pick up and turn over: a hover tilts one toward the pointer, a drag turns it
+   further, and a foil sheen moves with the light. main.js wraps each icon in a card and adds
+   .tilt-ready; without it the icons keep their resting tilt above. */
+.app-row.tilt-ready .tilt {
+  display: block;
+  width: 5.5rem;
+  height: 5.5rem;
+  perspective: 32rem;
+  touch-action: pan-y;
+}
+.app-row.tilt-ready .tilt-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 22%;
+  transform-style: preserve-3d;
+  transform: rotate(var(--base, 0deg)) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale(var(--s, 1));
+  will-change: transform;
+}
+.app-row.tilt-ready li:nth-child(odd) .tilt-card {
+  --base: -3deg;
+}
+.app-row.tilt-ready li:nth-child(even) .tilt-card {
+  --base: 3deg;
+}
+.app-row.tilt-ready li img,
+.app-row.tilt-ready a:hover img,
+.app-row.tilt-ready a:active img {
+  width: 100%;
+  height: 100%;
+  transform: none;
+}
+.app-row.tilt-ready .tilt.is-active .tilt-card {
+  --base: 0deg;
+}
+.app-row.tilt-ready .tilt.is-grabbed {
+  cursor: grabbing;
+}
+.app-row.tilt-ready .foil {
+  position: absolute;
+  inset: 2px;
+  border-radius: calc(22% - 1px);
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: color-dodge;
+  background:
+    radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgb(255 255 255 / 0.7), transparent 42%),
+    conic-gradient(
+      from var(--hue, 0deg) at var(--mx, 50%) var(--my, 50%),
+      #ff7ad9, #ffd84d, #7ae9ff, #b48cff, #7affc4, #ff7ad9
+    );
+  transition: opacity 220ms var(--ease-out);
+}
+.app-row.tilt-ready .tilt.is-active .foil {
+  opacity: 0.38;
+}
+:root[data-theme="dark"] .app-row.tilt-ready .tilt.is-active .foil {
+  opacity: 0.28;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .app-row.tilt-ready .tilt.is-active .foil {
+    opacity: 0.28;
+  }
+}
