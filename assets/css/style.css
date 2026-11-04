@@ -1647,3 +1647,7 @@ label {
     text-decoration-color: var(--coral);
   }
 }
+
+.breadcrumbs.is-center ol {
+  justify-content: center;
+}
