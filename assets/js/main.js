@@ -364,3 +364,21 @@
   }
   kick();
 })();
+
+// Signatures write themselves once, the first time they scroll into view.
+(function () {
+  var sigs = document.querySelectorAll(".signature");
+  if (!sigs.length || !("IntersectionObserver" in window)) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add("is-drawn");
+      io.unobserve(e.target);
+    });
+  }, { threshold: 0.6 });
+  sigs.forEach(function (s) {
+    s.classList.add("will-draw");
+    io.observe(s);
+  });
+})();
