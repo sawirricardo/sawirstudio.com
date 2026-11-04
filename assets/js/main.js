@@ -267,3 +267,93 @@
   });
   row.classList.add("tilt-ready");
 })();
+
+// Home hero: a field of paper dots that moves away from the cursor or a finger and springs back.
+// Draws only while something is moving, pauses off-screen, and stays a still CSS pattern
+// under reduced motion or without canvas.
+(function () {
+  var canvas = document.querySelector(".dotfield");
+  if (!canvas || !canvas.getContext) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var hero = canvas.parentElement;
+  var ctx = canvas.getContext("2d");
+  var GAP = 26, RADIUS = 1.6, REACH = 130, PUSH = 22;
+  var dots = [], w = 0, h = 0, dpr = 1;
+  var pointer = { x: -9999, y: -9999, active: false };
+  var running = false, visible = true, ink = "#1f1d1a", hot = "#ff7a59";
+
+  function colors() {
+    var cs = getComputedStyle(document.documentElement);
+    ink = cs.getPropertyValue("--ink").trim() || ink;
+    hot = cs.getPropertyValue("--coral").trim() || hot;
+  }
+  function layout() {
+    var r = hero.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = r.width; h = r.height;
+    canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    dots = [];
+    for (var y = GAP / 2; y < h; y += GAP) for (var x = GAP / 2; x < w; x += GAP) dots.push({ ox: x, oy: y, x: x, y: y, vx: 0, vy: 0, heat: 0 });
+    draw();
+  }
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    for (var i = 0; i < dots.length; i++) {
+      var d = dots[i];
+      ctx.globalAlpha = 0.16 + d.heat * 0.7;
+      ctx.fillStyle = d.heat > 0.05 ? hot : ink;
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, RADIUS + d.heat * 2.2, 0, 6.2832);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+  function step() {
+    var moving = false;
+    for (var i = 0; i < dots.length; i++) {
+      var d = dots[i], tx = d.ox, ty = d.oy, heat = 0;
+      if (pointer.active) {
+        var dx = d.ox - pointer.x, dy = d.oy - pointer.y, dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < REACH) {
+          var f = 1 - dist / REACH;
+          f = f * f;
+          var n = dist || 1;
+          tx += (dx / n) * PUSH * f; ty += (dy / n) * PUSH * f; heat = f;
+        }
+      }
+      d.vx = (d.vx + (tx - d.x) * 0.14) * 0.72;
+      d.vy = (d.vy + (ty - d.y) * 0.14) * 0.72;
+      d.x += d.vx; d.y += d.vy;
+      d.heat += (heat - d.heat) * 0.18;
+      if (Math.abs(d.vx) > 0.02 || Math.abs(d.vy) > 0.02 || Math.abs(d.x - tx) > 0.05 || d.heat > 0.01) moving = true;
+    }
+    draw();
+    if ((moving || pointer.active) && visible && !document.hidden) requestAnimationFrame(step);
+    else running = false;
+  }
+  function kick() {
+    if (!running && visible) { running = true; requestAnimationFrame(step); }
+  }
+  function move(e) {
+    var r = canvas.getBoundingClientRect();
+    pointer.x = e.clientX - r.left; pointer.y = e.clientY - r.top;
+    pointer.active = pointer.x >= 0 && pointer.y >= 0 && pointer.x <= r.width && pointer.y <= r.height;
+    kick();
+  }
+  function leave() { pointer.active = false; kick(); }
+
+  colors(); layout();
+  canvas.classList.add("is-live");
+  hero.addEventListener("pointermove", move, { passive: true });
+  hero.addEventListener("pointerdown", move, { passive: true });
+  hero.addEventListener("pointerleave", leave);
+  hero.addEventListener("pointerup", function (e) { if (e.pointerType !== "mouse") leave(); });
+  hero.addEventListener("pointercancel", leave);
+  var resizeTimer;
+  window.addEventListener("resize", function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(layout, 150); });
+  new MutationObserver(function () { colors(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; if (visible) kick(); }).observe(hero);
+  }
+})();

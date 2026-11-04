@@ -90,10 +90,12 @@
     </header>
     <main id="main">
       <section class="section banner hero stack" role="banner">
-        <h1>Solid expertise <br />in <span class="mark">Application</span> / <span class="mark mark-coral">Website</span> / <span class="mark mark-blue">Digital Design</span></h1>
-        <p class="lead">Crafting applications, websites, digital designs <span class="wavy">with heart</span>.</p>
-        <p class="lead-sm">A studio that ships fast, with AI in the loop and a human owning every call. <a href="/about-us/">What we believe &rarr;</a></p>
-        <p class="hero-actions"><a class="button" href="/contact/">Start a project</a></p>
+        <canvas class="dotfield" aria-hidden="true"></canvas>
+        <p class="hello">hi, we&apos;re Sawir Studio</p>
+        <h1>We build software <span class="mark">people use</span>, for <span class="mark mark-coral">clients</span> and for <span class="mark mark-blue">ourselves</span>.</h1>
+        <p class="lead">Apps, web platforms and integrations, designed, built and looked after by one small studio, <span class="wavy">for years</span>.</p>
+        <p class="lead-sm">AI in the loop, a human owning every call. <a href="/about-us/">What we believe &rarr;</a></p>
+        <p class="hero-actions"><a class="button" href="/contact/">Start a project</a> <a class="see-all" href="#portfolio">See our work</a></p>
         <div class="doodles" aria-hidden="true">
           <svg class="doodle doodle-star" viewBox="0 0 48 48"><path d="M24 3l5.6 13.4L44 18l-11 9.6L36.4 42 24 34.6 11.6 42 15 27.6 4 18l14.4-1.6z" /></svg>
           <svg class="doodle doodle-plus" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18" /></svg>
@@ -102,38 +104,72 @@
         </div>
       </section>
       <section class="section">
-        <h2 class="section-title">Some of our clients</h2>
-        <ul class="clients">
-          <li>Calvin Kain</li>
-          <li>Skilabus</li>
-          <li>TaniMilenial</li>
-          <li>KantongSayur</li>
-          <li>Fluindo Technology Indonesia</li>
-          <li>Indonesia Research Institute Japan</li>
-          <li>Growinc Indonesia</li>
-          <li>HSBC (Growmint)</li>
-          <li>PeopleBond</li>
-          <li>Vivaldy Skin Clinic</li>
-          <li>PT Sumasteel Indonesia</li>
-          <li>PT SPP Indonesia</li>
-          <li>PT Adiwarna Anugerah Abadi</li>
-          <li>Jakpod Hotel Indonesia</li>
-          <li>Capsule Indonesia</li>
-          <li>Indonesia's Ministry of Communication and Informatic</li>
-          <li>Roemah Matjak</li>
-          <li>Astra International</li>
-          <li>Digital Airport Hotel Indonesia</li>
-          <li>Universitas Mataram Hospital</li>
-          <li>Habitat Hills</li>
-          <li>Alastair Fraser Forestry Foundation</li>
-          <li>Aeroquote</li>
-          <li>ADL Partnership</li>
-          <li>Koperasi HOB</li>
-          <li>DBTV</li>
+        <ul class="stats">
+          <li><strong>9</strong><span>years building, since 2017</span></li>
+          <li><strong>7</strong><span>apps of our own on the App Store</span></li>
+          <li><strong>12</strong><span>free WordPress plugins</span></li>
+          <li><strong>2019</strong><span>the year PeopleBond started with us. Still going.</span></li>
         </ul>
       </section>
       <section class="section">
-        <h2 class="section-title">Apps we make</h2>
+        <h2 class="section-title">What we build</h2>
+        <ul class="offers">
+          <li>
+            <h3>Apps</h3>
+            <p>iPhone, iPad, Mac and Android apps, from the first version to the App Store and every update after.</p>
+            <p class="offer-proof">Like <a href="/projects/dbtv-application/">DBTV</a> and <a href="/projects/koperasi-hob-application/">Koperasi HOB</a></p>
+          </li>
+          <li>
+            <h3>Platforms &amp; integrations</h3>
+            <p>Web apps, SaaS, admin panels and the glue between systems: Odoo, Shopify, WordPress, payments and shipping.</p>
+            <p class="offer-proof">Like <a href="/projects/peoplebond-hcms-application/">PeopleBond</a> and our <a href="/projects/odoo-shopify-connector/">Shopify connector for Odoo</a></p>
+          </li>
+          <li>
+            <h3>Design</h3>
+            <p>Brands, interfaces and the websites around them, drawn by people who also build what they draw.</p>
+            <p class="offer-proof">Like <a href="/projects/jakpod-hotel-design/">JakPod Hotel</a> and <a href="/projects/fluindo-technology-indonesia-website/">Fluindo</a></p>
+          </li>
+        </ul>
+      </section>
+      <section id="portfolio">
+        <div class="section section-head">
+          <h2 class="section-title">Selected work</h2>
+        </div>
+        <div class="section featured">
+          <a class="featured-item" href="/projects/peoplebond-hcms-application/">
+            <img width="1600" height="878" class="thumb shadow-xl" src="/assets/images/projects/peoplebond-hcms-application.webp" alt="PeopleBond HCMS Application" loading="lazy" />
+            <div>
+              <h3>PeopleBond</h3>
+              <p>An HR platform and its employee app, built with their team since 2019</p>
+            </div>
+          </a>
+          <a class="featured-item" href="/projects/kantong-sayur-application/">
+            <img width="1600" height="883" class="thumb shadow-xl" src="/assets/images/projects/kantong-sayur-application.webp" alt="Kantong Sayur Application" loading="lazy" />
+            <div>
+              <h3>Kantong Sayur</h3>
+              <p>A marketplace for traditional markets: customer app, merchant app and admin</p>
+            </div>
+          </a>
+          <a class="featured-item" href="/projects/koperasi-hob-application/">
+            <img width="1600" height="782" class="thumb shadow-xl" src="/assets/images/projects/koperasi-hob-application.webp" alt="Koperasi HOB Application" loading="lazy" />
+            <div>
+              <h3>Koperasi HOB</h3>
+              <p>A cooperative&apos;s shopping app, with stock per store and online payments</p>
+            </div>
+          </a>
+          <a class="featured-item" href="/projects/colvaron-conquest-website/">
+            <img width="1600" height="900" class="thumb shadow-xl" src="/assets/images/projects/colvaron-conquest-website.webp" alt="Colvaron Conquest Website" loading="lazy" />
+            <div>
+              <h3>Colvaron Conquest</h3>
+              <p>Card gallery, lore and tutorials for a strategic trading card game</p>
+            </div>
+          </a>
+        </div>
+        <p class="text-center"><a class="see-all" href="/projects/">See all projects</a></p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">We ship our own, too</h2>
+        <p class="lead-sm own-intro">The surest way to know how to ship is to ship your own. These are ours, live on the App Store and the web. Give the icons a drag.</p>
         <ul class="app-row">
           <li>
             <a href="/projects/par/">
@@ -190,57 +226,56 @@
             </a>
           </li>
         </ul>
+        <p class="lead-sm text-center">Plus <a href="/projects/wordpress-plugins/">12 free WordPress plugins</a> and a <a href="/projects/odoo-shopify-connector/">Shopify connector for Odoo</a>, maintained in the Odoo Community Association.</p>
         <p class="lead-sm text-center">On their own sites: <a href="https://rindraw.com/">Rindraw</a> · <a href="https://getmathdaily.com/">Math Daily</a> · <a href="https://sawirpost.com/">SawirPost</a> · <a href="https://sawirly.com/">Sawirly</a> · <a href="https://nofapfit.com/">NoFapFit</a></p>
       </section>
-      <section id="portfolio">
-        <div class="section section-head">
-          <h2 class="section-title">Selected work</h2>
-        </div>
-        <div class="section featured">
-          <a class="featured-item" href="/projects/colvaron-conquest-website/">
-            <img width="1600" height="900" class="thumb shadow-xl" src="/assets/images/projects/colvaron-conquest-website.webp" alt="Colvaron Conquest Website" loading="lazy" />
-            <div>
-              <h3>Colvaron Conquest Website</h3>
-              <p>Card gallery, lore and tutorials for a strategic trading card game</p>
-            </div>
-          </a>
-          <a class="featured-item" href="/projects/koperasi-hob-application/">
-            <img width="1600" height="782" class="thumb shadow-xl" src="/assets/images/projects/koperasi-hob-application.webp" alt="Koperasi HOB Application" loading="lazy" />
-            <div>
-              <h3>Koperasi HOB Application</h3>
-              <p>Everyday grocery shopping app for a cooperative</p>
-            </div>
-          </a>
-          <a class="featured-item" href="/projects/dbtv-application/">
-            <img width="1600" height="782" class="thumb shadow-xl" src="/assets/images/projects/dbtv-application.webp" alt="DBTV Application" loading="lazy" />
-            <div>
-              <h3>DBTV Application</h3>
-              <p>Sermons, prayer and daily devotionals from Ps. Debby Basjir</p>
-            </div>
-          </a>
-          <a class="featured-item" href="/projects/kantong-sayur-application/">
-            <img width="1600" height="883" class="thumb shadow-xl" src="/assets/images/projects/kantong-sayur-application.webp" alt="Kantong Sayur Application" loading="lazy" />
-            <div>
-              <h3>Kantong Sayur Application</h3>
-              <p>A marketplace for traditional market merchants</p>
-            </div>
-          </a>
-          <a class="featured-item" href="/projects/peoplebond-hcms-application/">
-            <img width="1600" height="878" class="thumb shadow-xl" src="/assets/images/projects/peoplebond-hcms-application.webp" alt="PeopleBond HCMS Application" loading="lazy" />
-            <div>
-              <h3>PeopleBond HCMS Application</h3>
-              <p>Human Capital Management System</p>
-            </div>
-          </a>
-          <a class="featured-item" href="/projects/tani-milenial-application/">
-            <img width="1410" height="688" class="thumb shadow-xl" src="/assets/images/projects/tani-milenial-application.webp" alt="TaniMilenial Application" loading="lazy" />
-            <div>
-              <h3>TaniMilenial Application</h3>
-              <p>A platform for farming, fisheries and livestock</p>
-            </div>
-          </a>
-        </div>
-        <p class="text-center"><a class="see-all" href="/projects/">See all projects</a></p>
+      <section class="section">
+        <h2 class="section-title">How we work</h2>
+        <ol class="values">
+          <li>
+            <h3>Start small, ship early.</h3>
+            <p>A first working version goes in front of real people early, then we sharpen it with what they actually do.</p>
+          </li>
+          <li>
+            <h3>AI does the typing, we do the thinking.</h3>
+            <p>We build with AI every day, which is why we&apos;re fast. A person still reads, tests and answers for every line that ships.</p>
+          </li>
+          <li>
+            <h3>Launch is the start.</h3>
+            <p>We stay to look after what we build. PeopleBond has worked with us since 2019, and our own apps get the same care.</p>
+          </li>
+        </ol>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Some of our clients</h2>
+        <ul class="clients">
+          <li>Calvin Kain</li>
+          <li>Skilabus</li>
+          <li>TaniMilenial</li>
+          <li>KantongSayur</li>
+          <li>Fluindo Technology Indonesia</li>
+          <li>Indonesia Research Institute Japan</li>
+          <li>Growinc Indonesia</li>
+          <li>HSBC (Growmint)</li>
+          <li>PeopleBond</li>
+          <li>Vivaldy Skin Clinic</li>
+          <li>PT Sumasteel Indonesia</li>
+          <li>PT SPP Indonesia</li>
+          <li>PT Adiwarna Anugerah Abadi</li>
+          <li>Jakpod Hotel Indonesia</li>
+          <li>Capsule Indonesia</li>
+          <li>Indonesia's Ministry of Communication and Informatic</li>
+          <li>Roemah Matjak</li>
+          <li>Astra International</li>
+          <li>Digital Airport Hotel Indonesia</li>
+          <li>Universitas Mataram Hospital</li>
+          <li>Habitat Hills</li>
+          <li>Alastair Fraser Forestry Foundation</li>
+          <li>Aeroquote</li>
+          <li>ADL Partnership</li>
+          <li>Koperasi HOB</li>
+          <li>DBTV</li>
+        </ul>
       </section>
       <section class="section" id="cta">
         <div class="cta-box shadow-xl">

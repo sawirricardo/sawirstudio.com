@@ -1485,3 +1485,130 @@ label {
   min-width: 0;
   overflow-wrap: break-word;
 }
+
+/* Home: the dotted paper behind the hero. main.js draws it on a canvas and lets the dots
+   move away from the cursor or a finger; without JS (or with reduced motion) it's still dots. */
+.hero {
+  isolation: isolate;
+  overflow: hidden;
+}
+.dotfield {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: radial-gradient(color-mix(in srgb, var(--ink) 16%, transparent) 1.6px, transparent 2px);
+  background-size: 26px 26px;
+}
+.dotfield.is-live {
+  background-image: none;
+}
+.hello {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border: 2px solid var(--ink);
+  border-radius: 0.5rem;
+  font-family: var(--font-hand);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--on-mark);
+  background: var(--mark-yellow);
+  box-shadow: 3px 3px 0 var(--pop-shadow);
+  transform: rotate(-3deg);
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.25rem;
+}
+
+/* Home: numbers that back the claims */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.stats li {
+  display: grid;
+  gap: 0.25rem;
+  align-content: start;
+  padding: 1.25rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+}
+.stats li:nth-child(4n + 1) { background: var(--mark-yellow); }
+.stats li:nth-child(4n + 2) { background: var(--mark-coral); }
+.stats li:nth-child(4n + 3) { background: var(--mark-blue); }
+.stats li:nth-child(4n + 4) { background: var(--mark-green); }
+.stats strong {
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--on-mark);
+}
+.stats span {
+  color: var(--on-mark);
+  font-weight: 600;
+  line-height: 1.35;
+}
+@media (min-width: 900px) {
+  .stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Home: what we build */
+.offers {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.offers li {
+  padding: 1.5rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+}
+.offers h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.offers li:nth-child(1) h3 { box-shadow: inset 0 -0.4em 0 var(--mark-yellow); display: inline; }
+.offers li:nth-child(2) h3 { box-shadow: inset 0 -0.4em 0 var(--mark-coral); display: inline; }
+.offers li:nth-child(3) h3 { box-shadow: inset 0 -0.4em 0 var(--mark-blue); display: inline; }
+.offers p {
+  margin-top: 0.75rem;
+  color: var(--text-body);
+}
+.offer-proof {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.offer-proof a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.25em;
+}
+@media (min-width: 900px) {
+  .offers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.own-intro {
+  max-width: 40rem;
+  margin-bottom: 1rem;
+}
