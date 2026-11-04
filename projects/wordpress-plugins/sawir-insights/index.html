@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Sawir Insights | SawirStudio</title>
+    <meta name="description" content="Heatmaps, session recordings, surveys, funnels, and form analytics. Everything stays on your server." />
+    <meta property="og:title" content="Sawir Insights | SawirStudio" />
+    <meta property="og:description" content="Heatmaps, session recordings, surveys, funnels, and form analytics. Everything stays on your server." />
+    <meta property="og:url" content="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawir-insights.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "Heatmaps, session recordings, surveys, funnels, and form analytics. Everything stays on your server.",
+          "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress Plugins",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/" aria-current="true">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Sawir Insights</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" alt="Sawir Insights banner"></p>
+            <p>Sawir Insights shows how visitors use your site, with heatmaps, session recordings, surveys, funnels and form analytics, and keeps all of it on your own server.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Sawir Insights is behavioral analytics for WordPress: heatmaps, session recordings, surveys, a feedback widget, form analytics, conversion funnels, and a dashboard that ties them together.</p>
+            <p>On multisite networks, each site tracks and configures its analytics independently.</p>
+            <p>In short: a self-hosted alternative to Hotjar or Microsoft Clarity, where visitor data stays in your own database.</p>
+            <p>The reason it exists is simple. The established tools in this category are good, but they work by shipping a record of everything your visitors do to someone else's servers. For a lot of sites — especially in the EU — that is somewhere between uncomfortable and unworkable. I wanted the same class of tooling where the data never leaves the site that collected it. So that is the constraint this plugin is built around: your database, your uploads directory, your retention rules. There is no SaaS behind it, no account to create, and no phone-home of any kind.</p>
+            <h3>What it does</h3>
+            <ul>
+              <li>Click, movement, and scroll heatmaps, rendered over your live pages, split by desktop, tablet, and mobile.</li>
+              <li>Session recordings with playback in wp-admin. Input values are always masked; recording is off until you turn it on.</li>
+              <li>Popup surveys and a persistent feedback tab, with targeting by URL, device, traffic percentage, time on page, scroll depth, or exit intent.</li>
+              <li>Form analytics: where people hesitate, what they leave empty, where they abandon. Selectors and timing only — never what anyone typed.</li>
+              <li>Ordered conversion funnels with daily reports.</li>
+              <li>A dashboard with traffic KPIs and period deltas, a daily trend chart, and device, browser, page, referrer, campaign, funnel, and recording breakdowns.</li>
+            </ul>
+            <h3>What it deliberately does not do</h3>
+            <p>I think you should know what a tool refuses to do before you install it.</p>
+            <ul>
+              <li>It does not store IP addresses. Not hashed, not truncated — at all.</li>
+              <li>It does not record form values, ever. The capture layer sends metadata only, so there is nothing to leak.</li>
+              <li>It does not load anything from a CDN or send anything to one. The rrweb replay library ships inside the plugin.</li>
+              <li>It does not keep raw data forever. Events are aggregated and pruned on a retention schedule you control, and recordings have their own retention and a disk cap with oldest-first eviction, because a plugin that quietly fills your hosting disk is a bad plugin.</li>
+            </ul>
+            <p>The frontend tracker is small vanilla JavaScript, batched over <code>sendBeacon</code>, with sampling controls. Visitors who are not sampled into recording never download the replay library at all.</p>
+            <h3>Privacy posture</h3>
+            <p>Do Not Track is honored by default. A consent-mode API (<code>window.swinsConsent</code>) integrates with whatever consent manager you already run. Sessions, events, and recordings are wired into WordPress's own personal-data export and erasure tools. Whether your specific deployment is GDPR compliant depends on your notices and legal basis — that part no plugin can do for you — but the data-minimization work is done.</p>
+            <h3>Support</h3>
+            <p>Support runs through the wordpress.org forum for this plugin, or email ricardo@sawirstudio.com.</p>
+            <h2>Questions</h2>
+            <h3>How does it compare to alternatives?</h3>
+            <p>Hosted analytics services like Hotjar and Microsoft Clarity are excellent tools with generous free tiers — and they work by sending a record of your visitors' behavior to their servers. Sawir Insights trades that cross-site infrastructure for one constraint: everything is collected, stored, and viewed on your own site. Choose a hosted service if you want its extras and don't mind third-party processing; choose Sawir Insights if visitor data leaving your server is a dealbreaker. Recordings and heatmaps live in your own database and uploads directory, so the retention settings matter more here than in a SaaS.</p>
+            <h3>Is Sawir Insights GDPR compliant?</h3>
+            <p>The plugin is built for privacy-conscious deployments: data stays on your server, IP addresses are never stored, retention is configurable, Do Not Track is honored, and WordPress export/erasure tools are integrated. Compliance itself depends on your configuration, notices, legal basis, and consent implementation — consult qualified counsel for your site.</p>
+            <h3>How is this different from Hotjar or Microsoft Clarity?</h3>
+            <p>Those are hosted services: capable tools, but your visitors' behavior is recorded onto their servers under their terms. Sawir Insights covers the same category — heatmaps, session recordings, surveys, funnels, form analytics — as a plugin that keeps everything on your own server, with no account, no external service, and no data sharing.</p>
+            <h3>Does visitor data leave my server?</h3>
+            <p>No. The plugin sends no behavioral data to Sawir Studio or any analytics provider. Events live in your WordPress database; recording files live beneath your protected uploads directory.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications in the corner.</li>
+              <li><a href="/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: translates your pages where they stand: pick a language, auto-translate what is visible, save it, and give visitors a language switcher..</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 1.0.0</li>
+            <li><strong>Requires</strong> WordPress 6.2, PHP 7.4</li>
+            <li><strong>License</strong> GPLv2 or later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-insights/</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2>How can we<br />help you?</h2>
+          <a class="button" href="/contact/">Start a project</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

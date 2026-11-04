@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Sawir Social Scheduler | SawirStudio</title>
+    <meta name="description" content="Write once, schedule to 27 networks from wp-admin. Per-channel edits, threads, media, previews. Your tokens stay on your server." />
+    <meta property="og:title" content="Sawir Social Scheduler | SawirStudio" />
+    <meta property="og:description" content="Write once, schedule to 27 networks from wp-admin. Per-channel edits, threads, media, previews. Your tokens stay on your server." />
+    <meta property="og:url" content="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawir-social-scheduler.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Social Scheduler",
+          "description": "Write once, schedule to 27 networks from wp-admin. Per-channel edits, threads, media, previews. Your tokens stay on your server.",
+          "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-social-scheduler-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress Plugins",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Social Scheduler",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/" aria-current="true">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Sawir Social Scheduler</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-social-scheduler-banner.webp" alt="Sawir Social Scheduler banner"></p>
+            <p>Sawir Social Scheduler lets you write a post once in wp-admin and schedule it to 27 social networks, with per-channel edits, threads, media and previews. Your account tokens stay on your server.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-social-scheduler/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Sawir Social Scheduler turns WordPress into a social media scheduler. Connect your channels with the tokens each platform gives you, write a post, pick channels, set a date, and publish. Every send runs in the background and reports back with a link or the platform's own error message.</p>
+            <p>There is no hosted service in between. Credentials are encrypted with your site's salts and never leave your server.</p>
+            <h3>Channels</h3>
+            <p>Add as many channels as you like, several accounts per platform. Each channel has a <strong>Test connection</strong> button that fetches the account name and avatar and confirms the token really works before you rely on it.</p>
+            <p><strong>Social:</strong> X (Twitter), Facebook Page, Instagram, Threads, LinkedIn Page, Bluesky, Mastodon, TikTok, YouTube, Pinterest, Tumblr, Dribbble, Google Business Profile</p>
+            <p><strong>Community:</strong> Telegram, Discord, Slack, Reddit, Lemmy, VK, Kick, Twitch, Whop</p>
+            <p><strong>Blog and newsletter:</strong> WordPress, Medium, Dev.to, Hashnode, Listmonk</p>
+            <p>Group channels by client or brand with nested groups, then select a whole group with one click.</p>
+            <h3>Posts</h3>
+            <ul>
+              <li><strong>One body, many channels.</strong> Pick channels with checkboxes. Untouched channels get the post as written.</li>
+              <li><strong>Customize per channel.</strong> Tick "Customize" on any channel to give it its own parts: text, media and delays, prefilled from the post so you edit a copy. Other channels keep the post as written.</li>
+              <li><strong>Threads.</strong> Add parts to post a thread on X, Threads, Bluesky, Mastodon and Telegram, each with its own media. Platforms without threads receive the parts joined.</li>
+              <li><strong>Media.</strong> Attach images and video once. Each platform gets what it supports: albums, carousels, Reels, resumable video uploads.</li>
+              <li><strong>Schedule.</strong> Use the normal WordPress "Publish on" date, or give any channel its own time.</li>
+              <li><strong>Posting times.</strong> Give a channel its usual times of day. "Next free slot" fills the next unused one, the calendar shows empty upcoming slots you can click to fill, and the API accepts <code>"date": "next"</code>.</li>
+              <li><strong>Preview.</strong> A live preview per channel that looks like the real platform, with character limits and media rules applied so you see exactly what will go out.</li>
+              <li><strong>Comments and delays.</strong> On platforms without threads, extra parts post as comments under the post. Any part can wait a set number of minutes after the previous one.</li>
+              <li><strong>Share a blog post.</strong> A box on the normal post editor posts to your channels when the post publishes, with its own text and media.</li>
+              <li><strong>Duplicate.</strong> Copy a post with its channels, parts and overrides as a new draft. Keep drafts as templates.</li>
+              <li><strong>Mentions.</strong> Type <code>@handle</code> and the network resolves it on X, Instagram, Threads, Mastodon, Telegram, Reddit and Bluesky, where links and handles become real facets. LinkedIn company pages are <code>@[Name](org:12345)</code> with the ID from the page URL; Facebook pages are <code>@[12345]</code>.</li>
+              <li><strong>Repeat.</strong> Resend evergreen posts every N days or weeks, until a date or a number of times. Each run is its own post with its own sends and stats. Put <code>{n}</code> in the text to number runs, since X, Threads and Bluesky reject identical text.</li>
+            </ul>
+            <h3>Calendar</h3>
+            <p>Every post fans out into one send per channel, and the calendar shows each as a card colored by state: scheduled, sent, failed, held, draft, in progress. Drag a card to move that channel's time. Click a card for the error, a Retry button, the live link, and engagement numbers. Click an empty slot to start a post at that time. Month, week, day, and list views, filterable by group and status.</p>
+            <h3>Analytics</h3>
+            <p>Likes, comments, shares, views and impressions are collected 1 hour, 1 day and 1 week after each send, plus on demand, on 16 platforms. Follower counts are recorded daily per channel with a 30-day sparkline. Numbers appear on the calendar cards, in the post's Analytics box, and in the Channels list. The Analytics page sums it up for the last 7, 30 or 90 days against the period before: posts sent, engagement, reach and followers with their change, a followers chart, engagement by channel, and your top posts.</p>
+            <h3>Client approval</h3>
+            <p>Tick "Hold sends until approved", copy the preview link, and send it to your client. They see the post as it will look on every channel, with no login, and click Approve or Request changes with a note. Approval releases the sends. Every decision is kept as history.</p>
+            <p>Large video uploads to X, YouTube and TikTok run in short slices that resume across background jobs, so they survive host time limits and never load a whole file into memory.</p>
+            <h3>REST API</h3>
+            <p>Everything the admin does is available at <code>/wp-json/sawir-social/v1</code> for automations, mobile apps, and other sites. Authenticate with an application password; permissions follow the plugin's capabilities and channel credentials are never returned.</p>
+            <ul>
+              <li><code>GET /platforms</code>, <code>GET /channels</code>, <code>GET /channels/{id}</code>, <code>POST /channels/{id}/test</code></li>
+              <li><code>GET|POST /posts</code>, <code>GET|PATCH|DELETE /posts/{id}</code>, <code>POST /posts/{id}/duplicate</code>, <code>GET /posts/{id}/analytics</code></li>
+              <li><code>GET /sends</code>, <code>GET /sends/{id}</code>, <code>POST /sends/{id}/retry</code>, <code>POST /sends/{id}/stats</code></li>
+            </ul>
+            <p>Create a post with <code>{"title","content","status":"future","date":"2026-12-25 09:00","media":[12],"parts":[{"text","media","delay"}],"channels":[{"id":38,"parts":[{"text","media","delay"}],"date":"…"}],"groups":["Client A"],"hold":false}</code>. A channel's <code>parts</code> replace the post for that channel; <code>text</code> is shorthand for a single part.</p>
+            <h3>AI agents</h3>
+            <p>The same operations are registered with the WordPress Abilities API as <code>sawir-social/list-channels</code>, <code>create-post</code>, <code>update-post</code>, <code>list-posts</code>, <code>list-sends</code>, <code>retry-send</code>, <code>test-channel</code>, <code>get-analytics</code> and <code>list-platforms</code>, with typed input and output schemas. Any agent connected through the WordPress MCP adapter sees them as tools, and they are also callable at <code>/wp-json/wp-abilities/v1/abilities/{name}/run</code>. The Abilities API is part of WordPress 6.9 and newer; for older versions the plugin bundles it, so the abilities are available everywhere the plugin runs.</p>
+            <h3>Requirements</h3>
+            <p>Sends run in the background through Action Scheduler when your site has it (WooCommerce and many other plugins provide it) and through WP-Cron otherwise. On WordPress's built-in cron they only progress when the site gets traffic. For prompt sends, add a system cron, the Calendar screen shows the exact command for your site.</p>
+            <p>Media must be reachable from the internet for platforms that fetch by URL (Instagram, Threads, Facebook, Pinterest, Telegram). A local development site cannot deliver images to them.</p>
+            <h3>Credits</h3>
+            <p>Bundles FullCalendar (MIT), the WordPress Abilities API library (GPL), and brand marks from Simple Icons (CC0). Uses Action Scheduler when another plugin provides it.</p>
+            <h2>Screenshots</h2>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-1.webp" alt="Sawir Social Scheduler screenshot 1" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-2.webp" alt="Sawir Social Scheduler screenshot 2" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-3.webp" alt="Sawir Social Scheduler screenshot 3" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-4.webp" alt="Sawir Social Scheduler screenshot 4" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-5.webp" alt="Sawir Social Scheduler screenshot 5" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-social-scheduler-screenshot-6.webp" alt="Sawir Social Scheduler screenshot 6" loading="lazy"></p>
+            <h2>Questions</h2>
+            <h3>Where do I get the tokens?</h3>
+            <p>Each platform's developer settings. The channel form names the exact credential it needs, for example a Facebook Page access token, a Telegram bot token, or a Bluesky app password. Long-lived tokens are best; Meta and LinkedIn tokens expire after about 60 days and need re-pasting.</p>
+            <h3>My Telegram test says "chat not found"</h3>
+            <p>Private channels have no @username. Leave the Chat ID blank and click Test connection: the plugin lists every chat the bot has been added to, with the numeric ID to paste.</p>
+            <h3>Why is a send stuck on "In progress…"?</h3>
+            <p>The background queue has not run yet. Visit the site, or set up the system cron shown on the Calendar screen.</p>
+            <h3>Can I post a video to Instagram from a local site?</h3>
+            <p>No. Instagram fetches media by URL and needs a public address. Everything else about the plugin works locally.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: shows how visitors use your site, with heatmaps, session recordings, surveys, funnels and form analytics, and keeps all of it on your own server..</li>
+              <li><a href="/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: translates your pages where they stand: pick a language, auto-translate what is visible, save it, and give visitors a language switcher..</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 0.1.0</li>
+            <li><strong>Requires</strong> WordPress 5.8, PHP 7.4</li>
+            <li><strong>License</strong> GPL-2.0-or-later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-social-scheduler/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-social-scheduler/</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2>How can we<br />help you?</h2>
+          <a class="button" href="/contact/">Start a project</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

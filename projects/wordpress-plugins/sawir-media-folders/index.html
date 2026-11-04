@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Sawir Media Folders | SawirStudio</title>
+    <meta name="description" content="Fast, unlimited folders for the WordPress media library with drag &amp; drop." />
+    <meta property="og:title" content="Sawir Media Folders | SawirStudio" />
+    <meta property="og:description" content="Fast, unlimited folders for the WordPress media library with drag &amp; drop." />
+    <meta property="og:url" content="https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawir-media-folders.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Media Folders",
+          "description": "Fast, unlimited folders for the WordPress media library with drag &amp; drop.",
+          "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-media-folders-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress Plugins",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Media Folders",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/" aria-current="true">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Sawir Media Folders</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-media-folders-banner.webp" alt="Sawir Media Folders banner"></p>
+            <p>Sawir Media Folders brings folders to the WordPress media library, as many as you need, with drag and drop to file things away.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-media-folders/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Organize your media library into folders and subfolders. No folder limits, no upsells.</p>
+            <ul>
+              <li><strong>Unlimited folders and subfolders</strong> — no caps.</li>
+              <li><strong>Fast</strong> — the whole folder tree loads with two database queries, regardless of library size. Filtering uses WordPress's native media query.</li>
+              <li><strong>Safe</strong> — folders are virtual (a taxonomy). Physical files never move, so no URL ever breaks. Deleting a folder never deletes files.</li>
+            </ul>
+            <h2>Questions</h2>
+            <h3>How does it compare to alternatives?</h3>
+            <p>FileBird, HappyFiles, and Real Media Library are mature folder plugins with polished extras, and their free tiers typically cap how many folders you can create. Sawir Media Folders keeps the scope narrow — virtual folders, drag &amp; drop, fast filtering — with no caps and no paid tier. Folders are a taxonomy, so files never physically move and no URL ever breaks. If you need extras like per-user folders or gallery integrations, the premium options earn their price; if you just need the library organized, this stays free and fast.</p>
+            <h3>Do folders change my file URLs?</h3>
+            <p>No. Folders are purely organizational (a hidden taxonomy on attachments). Files stay exactly where WordPress uploaded them.</p>
+            <h3>What happens if I deactivate or delete the plugin?</h3>
+            <p>Nothing breaks. Your files are untouched; folder assignments simply stop being displayed. Reactivate and they're back.</p>
+            <h3>Is there a folder limit in the free version?</h3>
+            <p>There is no paid version. Everything is free and unlimited.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a>: lets you create your own user roles and decide exactly what each role, new or built in, can do..</li>
+              <li><a href="/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: shows how visitors use your site, with heatmaps, session recordings, surveys, funnels and form analytics, and keeps all of it on your own server..</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 1.0.1</li>
+            <li><strong>Requires</strong> WordPress 5.8, PHP 7.4</li>
+            <li><strong>License</strong> GPLv2 or later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-media-folders/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-media-folders/</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2>How can we<br />help you?</h2>
+          <a class="button" href="/contact/">Start a project</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

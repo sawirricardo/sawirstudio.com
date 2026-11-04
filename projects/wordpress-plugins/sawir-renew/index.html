@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Sawir Renew – Recurring Billing for WooCommerce | SawirStudio</title>
+    <meta name="description" content="Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free." />
+    <meta property="og:title" content="Sawir Renew – Recurring Billing for WooCommerce | SawirStudio" />
+    <meta property="og:description" content="Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free." />
+    <meta property="og:url" content="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawir-renew.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Renew – Recurring Billing for WooCommerce",
+          "description": "Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free.",
+          "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress Plugins",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Renew",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/" aria-current="true">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Sawir Renew</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" alt="Sawir Renew banner"></p>
+            <p>Sawir Renew turns a WooCommerce shop into a subscription business: recurring billing, trials, sign-up fees and smart retries, with no paid tier holding any feature back.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Sell subscriptions with WooCommerce without paying for an extension. Every feature ships free — there is no pro version and nothing is locked.</p>
+            <h3>Products &amp; pricing</h3>
+            <ul>
+              <li>Simple and variable subscription product types</li>
+              <li>Bill every N day(s), week(s), month(s) or year(s), with sale-price support</li>
+              <li>Free trials, sign-up fees, and subscriptions that expire after N payments</li>
+              <li>Synchronized renewals (everyone renews on the 1st, or any day you pick) with optional prorated or free first period</li>
+              <li>One-time shipping, "one active subscription per customer" limits</li>
+            </ul>
+            <h3>Two payment lanes</h3>
+            <ul>
+              <li><strong>Pay-per-renewal (works with every gateway):</strong> when a renewal is due, the customer receives an invoice with a pay link — bank transfer, e-wallets, COD, anything your store accepts. Perfect for markets where automatic card billing isn't the norm.</li>
+              <li><strong>Automatic billing via Stripe:</strong> if you use the official WooCommerce Stripe Gateway, cards are saved at checkout and renewals charge automatically off-session — including smart retries and a fallback pay link when a card demands authentication. Other gateways can plug into the same adapter contract (see FAQ).</li>
+            </ul>
+            <h3>Renewals that don't wake you at 3am</h3>
+            <ul>
+              <li>All timing runs on Action Scheduler with a daily self-healing sweep</li>
+              <li>Configurable dunning: retry delays, reminder schedule, grace periods, auto-cancel</li>
+              <li>Staging/duplicate-site detection pauses billing the moment your site URL changes — no more double charges from a forgotten staging copy</li>
+              <li>Pre-renewal notice emails before automatic charges</li>
+            </ul>
+            <h3>Customers can help themselves</h3>
+            <p>My Account → Subscriptions lets customers cancel (immediately or at period end — your choice), pause and resume, skip a renewal, renew early, change their payment method or shipping address, and upgrade/downgrade between plans with prorated upgrade charges.</p>
+            <h3>Recurring coupons</h3>
+            <p>Four subscription coupon types: recurring % / fixed discounts (optionally limited to the first N payments) and sign-up-fee discounts. Core coupons keep applying to the initial order only.</p>
+            <h3>Notifications</h3>
+            <p>Thirteen toggleable emails (customer + admin) for every lifecycle moment. Developers can mirror any event to other channels (WhatsApp, SMS, Slack…) via the <code>swsb_notified</code> hook.</p>
+            <h3>Built for modern WooCommerce</h3>
+            <p>HPOS-native (subscriptions live in WooCommerce order storage — no custom tables), cart/checkout blocks compatible, full admin list + editor using WooCommerce's own order screens, an hourly-cached reports page (active, MRR, churn, upcoming renewals, renewal revenue), and a REST API.</p>
+            <h2>Questions</h2>
+            <h3>Is this affiliated with WooCommerce or Automattic?</h3>
+            <p>No. "WooCommerce" is a trademark of Automattic; this is an independent plugin <em>for</em> WooCommerce, per their naming guidelines.</p>
+            <h3>Which gateways support automatic renewals?</h3>
+            <p>Out of the box: the official WooCommerce Stripe Gateway. Every other gateway works in pay-per-renewal mode — customers get a pay link each period. Developers can add automatic support for any gateway with two filters:</p>
+            <p><code>swsb_order_supports_auto</code> — return true when the parent order's gateway saved a reusable payment method. <code>swsb_charge_renewal</code> — charge the renewal order off-session, return <code>true</code> or a <code>WP_Error</code>.</p>
+            <h3>Can it run alongside WooCommerce Subscriptions?</h3>
+            <p>No — running two billing engines would double-charge customers, so this plugin deactivates its engine and shows a notice if WooCommerce Subscriptions is active.</p>
+            <h3>What happens on a staging site?</h3>
+            <p>If the site URL changes, billing and customer emails pause automatically until you confirm whether the copy is staging or the live site. Choose "live" and every schedule is rebuilt.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>: lets your customers bring their friends.</li>
+              <li><a href="/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications in the corner.</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 1.0.0</li>
+            <li><strong>Requires</strong> WordPress 6.0, PHP 7.4, WooCommerce</li>
+            <li><strong>License</strong> GPL-2.0-or-later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-renew/</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2>How can we<br />help you?</h2>
+          <a class="button" href="/contact/">Start a project</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

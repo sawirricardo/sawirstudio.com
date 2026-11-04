@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Sawir Referral – Refer a Friend for WooCommerce | SawirStudio</title>
+    <meta name="description" content="Give-and-get referral program for WooCommerce. Friends get a discount, advocates earn a reward coupon — shared by code or link, WhatsApp-first." />
+    <meta property="og:title" content="Sawir Referral – Refer a Friend for WooCommerce | SawirStudio" />
+    <meta property="og:description" content="Give-and-get referral program for WooCommerce. Friends get a discount, advocates earn a reward coupon — shared by code or link, WhatsApp-first." />
+    <meta property="og:url" content="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="canonical" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/sawir-referral.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Referral – Refer a Friend for WooCommerce",
+          "description": "Give-and-get referral program for WooCommerce. Friends get a discount, advocates earn a reward coupon — shared by code or link, WhatsApp-first.",
+          "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-referral-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://sawirstudio.com/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress Plugins",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Referral",
+              "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/" aria-current="true">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner narrow" role="banner">
+        <h1 class="page-title heavy">Sawir Referral</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-referral-banner.webp" alt="Sawir Referral banner"></p>
+            <p>Sawir Referral lets your customers bring their friends. The friend gets a discount, the customer who shared earns a reward coupon, and sharing works by code, by link or straight through WhatsApp.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-referral/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Turn your customers into your sales channel. Every customer gets a personal referral code (a real WooCommerce coupon) and a share link on their My Account page, with one-tap WhatsApp sharing.</p>
+            <ul>
+              <li><strong>Friends get a discount</strong> — percentage or fixed amount, applied like any coupon at checkout.</li>
+              <li><strong>Advocates get rewarded</strong> — a coupon issued automatically once the friend's order is completed and the hold period clears.</li>
+              <li><strong>Codes, not cookies</strong> — attribution runs through the coupon on the order. Codes survive being pasted into WhatsApp, Instagram DMs, or anywhere links get mangled. Share links (<code>?ref=CODE</code>) simply remember and auto-apply the code.</li>
+              <li><strong>Refund-safe</strong> — rewards are held for a configurable number of days. A full refund or cancellation during the hold cancels the reward; partial refunds keep it. After the hold, a fully refunded order automatically revokes the reward coupon if it is still unused, and flags the referral for review if it was already redeemed.</li>
+              <li><strong>Fraud guards</strong> — self-referral is blocked (by account and billing email), each friend can be limited to one order per code, codes can be capped in total, and you can restrict codes to new customers only.</li>
+              <li><strong>HPOS and Checkout Blocks compatible.</strong></li>
+            </ul>
+            <p>No payout system, no tax forms, no approval queues — rewards are store coupons, which keeps the money in your store.</p>
+            <h2>Screenshots</h2>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-referral-screenshot-1.webp" alt="Sawir Referral screenshot 1" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-referral-screenshot-2.webp" alt="Sawir Referral screenshot 2" loading="lazy"></p>
+            <p><img width="1280" height="900" src="/assets/images/plugins/sawir-referral-screenshot-3.webp" alt="Sawir Referral screenshot 3" loading="lazy"></p>
+            <h2>Questions</h2>
+            <h3>How does it compare to alternatives?</h3>
+            <p>Affiliate platforms — AffiliateWP, SliceWP, Solid Affiliate — are built for recruiting external marketers, with registration flows, tracking dashboards, and payout runs. Hosted services like ReferralCandy run referral programs as a subscription outside WordPress. Sawir Referral is narrower on purpose: your existing customers share a personal coupon code or link, friends get a discount, and rewards are store coupons. Attribution runs through the coupon itself, so it survives being pasted into chat apps and needs no payout infrastructure. If you are building an affiliate channel, use an affiliate platform; if you want customers referring friends, this is the shape of that.</p>
+            <h3>How is a referral attributed?</h3>
+            <p>By the coupon on the order. If a referral code was used at checkout, the advocate who owns that code gets the credit when the order is completed. Share links just store the code in a first-party cookie and auto-apply it to the cart — there is no separate tracking system.</p>
+            <h3>What happens when a referred order is refunded?</h3>
+            <p>Partial refunds keep the reward — it is a flat amount and does not scale with the order. A full refund or cancellation during the hold period cancels the reward before it is issued. If the order is fully refunded after the reward was issued, the reward coupon is automatically revoked (trashed, restorable from the coupons screen) as long as it is unused; a reward that was already redeemed is flagged in the admin list for you to review. You can also release, reverse, or revoke any referral manually from WooCommerce → Referrals.</p>
+            <h3>Can customers refer themselves?</h3>
+            <p>No. Codes are rejected when the customer is the code's owner or shares the owner's email, and the check is repeated when the order completes.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>: turns a WooCommerce shop into a subscription business: recurring billing, trials, sign-up fees and smart retries, with no paid tier holding any feature back..</li>
+              <li><a href="/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications in the corner.</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 1.0.0</li>
+            <li><strong>Requires</strong> WordPress 6.0, PHP 7.4, WooCommerce</li>
+            <li><strong>License</strong> GPL-2.0-or-later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-referral/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-referral/</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="cta">
+        <div class="cta-box shadow-xl">
+          <p>Enough about us.</p>
+          <h2>How can we<br />help you?</h2>
+          <a class="button" href="/contact/">Start a project</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

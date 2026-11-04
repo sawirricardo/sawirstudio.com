@@ -1464,3 +1464,24 @@ label {
     opacity: 0.28;
   }
 }
+
+/* WordPress plugins hub: each plugin's icon sits beside its name, without the framed look of content images. */
+.prose li .plugin-icon {
+  display: inline-block;
+  width: 1.75em;
+  height: 1.75em;
+  margin: 0 0.45em 0 0;
+  vertical-align: -0.5em;
+  border: 0;
+  border-radius: 0.4em;
+  box-shadow: none;
+}
+
+/* Long words in readme text (option names, network lists) wrap instead of widening the page on phones. */
+/* The prose column fills its grid track (up to 65ch). Centered with auto margins it would
+   shrink to fit, and a large screenshot then sizes it wider than a phone screen. */
+.project-layout > .prose {
+  width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
