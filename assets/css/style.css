@@ -106,8 +106,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* textarea and select too: Safari gives them a smaller default font, and iOS zooms the page
+   into any field under 16px when it gets focus. */
 input,
-button {
+button,
+textarea,
+select {
   font: inherit;
 }
 ::selection {
@@ -1400,6 +1404,10 @@ label {
   height: 5.5rem;
   perspective: 32rem;
   touch-action: pan-y;
+  /* A drag that lingers would otherwise open iOS's link preview or select the icon. */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .app-row.tilt-ready .tilt-card {
   position: relative;
