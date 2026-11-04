@@ -1651,3 +1651,39 @@ label {
 .breadcrumbs.is-center ol {
   justify-content: center;
 }
+
+/* Founder page: photo beside the name, stacked on phones. */
+.person-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem 2rem;
+}
+.person-photo {
+  width: 9rem;
+  height: 9rem;
+  border: 3px solid var(--ink);
+  border-radius: 50%;
+  box-shadow: 6px 6px 0 var(--pop-shadow);
+  object-fit: cover;
+}
+.person-head .hello {
+  margin-bottom: 0.5rem;
+}
+.person-head .lead-sm a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.25em;
+}
+@media (min-width: 768px) {
+  .person-photo {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+
+/* Buttons inside article text keep their button look, not the prose link underline. */
+.prose a.button {
+  text-decoration: none;
+}
