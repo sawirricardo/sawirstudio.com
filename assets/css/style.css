@@ -824,6 +824,7 @@ h1.page-title.heavy {
 .card:nth-child(4n + 4) .card-body {
   background: var(--mark-green);
 }
+.card h2,
 .card h3 {
   font-size: 1.2rem;
   font-weight: 800;
@@ -986,7 +987,8 @@ h1.page-title.heavy {
 .prose h2 {
   font-size: 1.6em;
 }
-.prose h3 {
+.prose h3,
+.project-layout .prose h2 {
   font-size: 1.3em;
 }
 .prose ul,
