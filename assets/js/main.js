@@ -268,24 +268,24 @@
   row.classList.add("tilt-ready");
 })();
 
-// Home hero: a field of paper dots that moves away from the cursor or a finger and springs back.
-// Draws only while something is moving, pauses off-screen, and stays a still CSS pattern
-// under reduced motion or without canvas.
+// Home hero: a field of paper dots, turned up loud. Dots flee the cursor or a finger, swell and
+// heat from blue to yellow to coral; a click or tap sends a shockwave; and the field breathes on its
+// own so it's alive before anyone touches it. Pauses off-screen; a still CSS pattern under reduced motion.
 (function () {
   var canvas = document.querySelector(".dotfield");
   if (!canvas || !canvas.getContext) return;
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   var hero = canvas.parentElement;
   var ctx = canvas.getContext("2d");
-  var GAP = 26, RADIUS = 1.6, REACH = 130, PUSH = 22;
-  var dots = [], w = 0, h = 0, dpr = 1;
-  var pointer = { x: -9999, y: -9999, active: false };
-  var running = false, visible = true, ink = "#1f1d1a", hot = "#ff7a59";
+  var GAP = 24, RADIUS = 1.8, REACH = 240, PUSH = 70;
+  var dots = [], waves = [], w = 0, h = 0, dpr = 1, t0 = performance.now();
+  var pointer = { x: -9999, y: -9999, px: -9999, py: -9999, speed: 0, active: false };
+  var running = false, visible = true, ink = "#1f1d1a", heat = ["#5b93ff", "#ffd84d", "#ff7a59"];
 
   function colors() {
     var cs = getComputedStyle(document.documentElement);
     ink = cs.getPropertyValue("--ink").trim() || ink;
-    hot = cs.getPropertyValue("--coral").trim() || hot;
+    heat = [cs.getPropertyValue("--blue").trim() || heat[0], cs.getPropertyValue("--yellow").trim() || heat[1], cs.getPropertyValue("--coral").trim() || heat[2]];
   }
   function layout() {
     var r = hero.getBoundingClientRect();
@@ -295,65 +295,72 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     dots = [];
     for (var y = GAP / 2; y < h; y += GAP) for (var x = GAP / 2; x < w; x += GAP) dots.push({ ox: x, oy: y, x: x, y: y, vx: 0, vy: 0, heat: 0 });
-    draw();
   }
-  function draw() {
+  function step(now) {
+    var t = (now - t0) / 1000;
+    pointer.speed *= 0.9;
+    var boost = 1 + Math.min(pointer.speed / 25, 1.6);
     ctx.clearRect(0, 0, w, h);
+    for (var k = waves.length - 1; k >= 0; k--) { waves[k].r += 14; waves[k].life -= 0.022; if (waves[k].life <= 0) waves.splice(k, 1); }
     for (var i = 0; i < dots.length; i++) {
       var d = dots[i];
-      ctx.globalAlpha = 0.16 + d.heat * 0.7;
-      ctx.fillStyle = d.heat > 0.05 ? hot : ink;
-      ctx.beginPath();
-      ctx.arc(d.x, d.y, RADIUS + d.heat * 2.2, 0, 6.2832);
-      ctx.fill();
-    }
-    ctx.globalAlpha = 1;
-  }
-  function step() {
-    var moving = false;
-    for (var i = 0; i < dots.length; i++) {
-      var d = dots[i], tx = d.ox, ty = d.oy, heat = 0;
+      // breathing: a slow diagonal swell across the field
+      var breathe = Math.sin(t * 1.6 - (d.ox + d.oy) * 0.012) * 0.5 + 0.5;
+      var tx = d.ox + Math.sin(t * 0.9 + d.oy * 0.03) * 2.5, ty = d.oy + Math.cos(t * 0.8 + d.ox * 0.03) * 2.5, hot = 0;
       if (pointer.active) {
         var dx = d.ox - pointer.x, dy = d.oy - pointer.y, dist = Math.sqrt(dx * dx + dy * dy);
         if (dist < REACH) {
-          var f = 1 - dist / REACH;
-          f = f * f;
+          var f = 1 - dist / REACH; f = f * f * (3 - 2 * f);
           var n = dist || 1;
-          tx += (dx / n) * PUSH * f; ty += (dy / n) * PUSH * f; heat = f;
+          tx += (dx / n) * PUSH * f * boost; ty += (dy / n) * PUSH * f * boost; hot = f;
         }
       }
-      d.vx = (d.vx + (tx - d.x) * 0.14) * 0.72;
-      d.vy = (d.vy + (ty - d.y) * 0.14) * 0.72;
+      for (var k2 = 0; k2 < waves.length; k2++) {
+        var wv = waves[k2], wx = d.ox - wv.x, wy = d.oy - wv.y, wd = Math.sqrt(wx * wx + wy * wy), band = 1 - Math.abs(wd - wv.r) / 70;
+        if (band > 0) { var wn = wd || 1; tx += (wx / wn) * 55 * band * wv.life; ty += (wy / wn) * 55 * band * wv.life; hot = Math.max(hot, band * wv.life); }
+      }
+      d.vx = (d.vx + (tx - d.x) * 0.12) * 0.78;
+      d.vy = (d.vy + (ty - d.y) * 0.12) * 0.78;
       d.x += d.vx; d.y += d.vy;
-      d.heat += (heat - d.heat) * 0.18;
-      if (Math.abs(d.vx) > 0.02 || Math.abs(d.vy) > 0.02 || Math.abs(d.x - tx) > 0.05 || d.heat > 0.01) moving = true;
+      d.heat += (hot - d.heat) * 0.16;
+      var e = d.heat;
+      ctx.globalAlpha = 0.14 + breathe * 0.08 + e * 0.8;
+      ctx.fillStyle = e < 0.06 ? ink : e < 0.35 ? heat[0] : e < 0.65 ? heat[1] : heat[2];
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, RADIUS + breathe * 0.6 + e * 7, 0, 6.2832);
+      ctx.fill();
     }
-    draw();
-    if ((moving || pointer.active) && visible && !document.hidden) requestAnimationFrame(step);
-    else running = false;
+    ctx.globalAlpha = 1;
+    if (visible && !document.hidden) requestAnimationFrame(step); else running = false;
   }
-  function kick() {
-    if (!running && visible) { running = true; requestAnimationFrame(step); }
-  }
+  function kick() { if (!running && visible && !document.hidden) { running = true; requestAnimationFrame(step); } }
+  function local(e) { var r = canvas.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top, r: r }; }
   function move(e) {
-    var r = canvas.getBoundingClientRect();
-    pointer.x = e.clientX - r.left; pointer.y = e.clientY - r.top;
-    pointer.active = pointer.x >= 0 && pointer.y >= 0 && pointer.x <= r.width && pointer.y <= r.height;
+    var p = local(e);
+    if (pointer.px > -9999) pointer.speed = Math.max(pointer.speed, Math.hypot(p.x - pointer.px, p.y - pointer.py));
+    pointer.px = pointer.x = p.x; pointer.py = pointer.y = p.y;
+    pointer.active = p.x >= 0 && p.y >= 0 && p.x <= p.r.width && p.y <= p.r.height;
     kick();
   }
-  function leave() { pointer.active = false; kick(); }
+  function burst(e) {
+    if (e.target.closest && e.target.closest("a, button")) return;
+    var p = local(e); waves.push({ x: p.x, y: p.y, r: 0, life: 1 }); if (waves.length > 4) waves.shift(); move(e);
+  }
+  function leave() { pointer.active = false; pointer.px = -9999; }
 
   colors(); layout();
   canvas.classList.add("is-live");
   hero.addEventListener("pointermove", move, { passive: true });
-  hero.addEventListener("pointerdown", move, { passive: true });
+  hero.addEventListener("pointerdown", burst, { passive: true });
   hero.addEventListener("pointerleave", leave);
   hero.addEventListener("pointerup", function (e) { if (e.pointerType !== "mouse") leave(); });
   hero.addEventListener("pointercancel", leave);
   var resizeTimer;
   window.addEventListener("resize", function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(layout, 150); });
-  new MutationObserver(function () { colors(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+  document.addEventListener("visibilitychange", kick);
+  new MutationObserver(colors).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   if ("IntersectionObserver" in window) {
-    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; if (visible) kick(); }).observe(hero);
+    new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; kick(); }).observe(hero);
   }
+  kick();
 })();
