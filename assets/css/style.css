@@ -1419,15 +1419,21 @@ label {
    the full column, the write-up starts at the title's edge with its notes card
    pinned beside it, and app screenshots and code run wider than the text. */
 @media (min-width: 1024px) {
-  .banner.narrow:has(.project-hero) {
-    max-width: none;
+  /* A project page is one centered 72rem column (picture, write-up and notes
+     card, more projects, the closing box), so on a large screen the picture
+     stops growing where the text and card end. */
+  main:has(.project-layout) > :is(.banner, .related, #cta) {
+    max-width: 72rem;
+    margin-inline: auto;
   }
   .project-hero {
     width: auto;
     max-width: 100%;
-    max-height: 80svh;
+    max-height: 70svh;
   }
   .project-layout {
+    max-width: calc(72rem - 2 * var(--gutter));
+    margin-inline: auto;
     grid-template-columns: minmax(0, 1fr) 18rem;
     column-gap: 4rem;
   }
