@@ -68,6 +68,25 @@
   update();
 })();
 
+// Page transitions run only between a project card and its page (both ways);
+// every other link loads without one. Browsers without them ignore all this.
+(function () {
+  const isList = (path) => path === "/" || path === "/projects/";
+  const isProject = (path) => /^\/projects\/[^/]+\/$/.test(path);
+
+  addEventListener("pageswap", (event) => {
+    if (!event.viewTransition) return;
+    const from = event.activation && event.activation.from;
+    const to = event.activation && event.activation.entry;
+    if (!from || !to || !from.url || !to.url) return event.viewTransition.skipTransition();
+    const a = new URL(from.url).pathname;
+    const b = new URL(to.url).pathname;
+    if (!((isList(a) && isProject(b)) || (isProject(a) && isList(b)))) {
+      event.viewTransition.skipTransition();
+    }
+  });
+})();
+
 // Projects page: search + category filter
 (function () {
   const list = document.getElementById("project-list");

@@ -16,6 +16,8 @@
   --radius: 1rem;
   /* Presses and lifts land fast and settle softly. */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  /* iOS sheet curve, for a picture growing into its page. */
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
 
   /* Accents stay bright in both themes; text on them is always dark. */
   --yellow: #ffd84d;
@@ -1379,6 +1381,38 @@ label {
 ::view-transition-new(root) {
   animation-duration: 200ms;
   animation-timing-function: ease-out;
+}
+
+/* Opening a project works like the App Store's Today cards: the picture you
+   tapped grows into the picture at the top of the project page, and Back
+   shrinks it into its card again. The rest of the page cross-fades. main.js
+   skips the transition for every other link, so those load plainly. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+.featured-item img,
+.app-row img,
+.card img,
+.project-hero,
+.app-icon {
+  view-transition-class: media;
+}
+::view-transition-group(*.media) {
+  animation-duration: 400ms;
+  animation-timing-function: var(--ease-drawer);
+}
+
+/* Project pages: the picture from the card leads the page. */
+.project-hero {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--border-soft);
+  box-shadow: 6px 6px 0 var(--pop-shadow);
 }
 
 @media (prefers-reduced-motion: reduce) {
