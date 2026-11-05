@@ -16,7 +16,9 @@ assets/css/convertkit.css  Newsletter form styles (blog posts only)
 assets/js/main.js          Google Analytics + project filter
 assets/images/             Images
 sitemap.xml, robots.txt
+**/index.md, llms.txt    Markdown copies of the pages for AI agents (generated)
 scripts/related_projects.py Rebuilds the "More projects" rows (not deployed)
+scripts/markdown_pages.py   Rebuilds index.md for every page, and llms.txt (not deployed)
 ```
 
 ## Run locally
@@ -46,6 +48,15 @@ python3 scripts/related_projects.py
 ```
 
 Run it again after renaming or removing a project. `scripts/` isn't deployed (see `.assetsignore`).
+
+After changing any page's text, or adding a page to `sitemap.xml`, rebuild the Markdown copies and `llms.txt`:
+
+```bash
+uv run scripts/markdown_pages.py
+```
+
+`worker.js` serves a page's `index.md` to requests with `Accept: text/markdown` (agents), and adds `Link`
+headers pointing to it, `llms.txt` and the sitemap. Check with https://isitagentready.com/sawirstudio.com.
 
 ## Contact form
 

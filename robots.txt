@@ -1,5 +1,7 @@
 # *
 User-agent: *
+# AI use of this site's content (https://contentsignals.org/): search, answers and training are all fine.
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 
 # Host

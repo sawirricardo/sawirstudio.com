@@ -1,0 +1,71 @@
+# SawirStudio
+
+> SawirStudio designs and builds apps, websites and digital design for clients, and makes its own apps for iPhone, iPad and Mac.
+
+Every page below is also available as Markdown: request it with `Accept: text/markdown`, or add `index.md` to its URL as linked here.
+
+## Studio
+
+- [SawirStudio](https://sawirstudio.com/index.md): SawirStudio designs and builds apps, websites and digital design for clients, and makes its own apps for iPhone, iPad and Mac.
+- [About](https://sawirstudio.com/about-us/index.md): SawirStudio ships apps, websites and designs fast, with AI in the loop and a human owning every call. Read our founder's note and what we believe.
+- [Ricardo Sawir, Founder of Sawir Studio](https://sawirstudio.com/ricardosawir/index.md): Ricardo Sawir is the founder of Sawir Studio. He builds apps and software for clients and as the studio’s own products, from Rindraw to WordPress plugins.
+- [Contact](https://sawirstudio.com/contact/index.md): Tell us about your project. Applications, websites, and digital design.
+- [Privacy](https://sawirstudio.com/privacy/index.md): What sawirstudio.com collects, why, and which services handle it: Microsoft Clarity, the contact form, Google Fonts and Cloudflare.
+- [Terms of Use](https://sawirstudio.com/terms/index.md): The terms for using sawirstudio.com: our content and portfolio, the free WordPress plugins and apps, links to other sites, and how client work is agreed.
+- [Launch & Growth](https://sawirstudio.com/launch-and-growth/index.md): We build sites and apps to be found, then help people find them: search setup, local search, listings and earned backlinks, and a monthly check-in.
+
+## Projects
+
+- [Projects](https://sawirstudio.com/projects/index.md): Applications, websites and designs by SawirStudio, from client projects to our own apps on the App Store.
+- [SawirPost](https://sawirstudio.com/projects/sawirpost/index.md): Write a post once and publish it to 25+ social channels on schedule, built for agencies
+- [Sawirly](https://sawirstudio.com/projects/sawirly/index.md): A privacy-first URL shortener with no tracking and links that can expire
+- [NoFapFit](https://sawirstudio.com/projects/nofapfit/index.md): An instant exercise challenge for the moment an urge hits, with streaks to build discipline
+- [Par](https://sawirstudio.com/projects/par/index.md): Par is a full RPN financial calculator for iPhone and iPad with the classic gold-key keystrokes: TVM, loans, NPV, IRR, bonds and more.
+- [CleanStorage](https://sawirstudio.com/projects/cleanstorage/index.md): CleanStorage finds duplicate photos, large videos and repeated contacts on your iPhone, so you can decide what to keep. No ads, no subscription.
+- [Pawlitics](https://sawirstudio.com/projects/pawlitics/index.md): A cozy cartoon politics sim where a town of animals reacts to every policy
+- [Squishu](https://sawirstudio.com/projects/squishu/index.md): Squishu is a cute clicker game for iPhone, iPad and Apple Watch: squish dumplings and beat each world’s boss before the steam runs out.
+- [Rindraw](https://sawirstudio.com/projects/rindraw/index.md): A drawing app where every stroke stays editable. Pay once for iPad, iPhone and Mac.
+- [Math Daily](https://sawirstudio.com/projects/math-daily/index.md): Math Daily builds a daily math habit in a minute a day with the Math Monsters: quick practice in addition, subtraction, multiplication and division.
+- [WordPress Plugins](https://sawirstudio.com/projects/wordpress-plugins/index.md): Twelve free WordPress plugins by SawirStudio: subscriptions, referrals, restock alerts and more for WooCommerce, plus tools for any WordPress site.
+- [Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/index.md): An open-source Shopify connector for Odoo 19 Community, written by SawirStudio and maintained in the Odoo Community Association (OCA).
+- [Colvaron Conquest Website](https://sawirstudio.com/projects/colvaron-conquest-website/index.md): Website for Colvaron Conquest, a strategic trading card game, designed and built by SawirStudio.
+- [Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/index.md): Koperasi HOB’s shopping app: members browse household goods by category, choose delivery or pick-up, and pay with their cooperative balance.
+- [DBTV Application](https://sawirstudio.com/projects/dbtv-application/index.md): DBTV brings Ps. Debby Basjir’s sermons, prayer services, worship, podcasts and daily devotionals to iOS and Android. Built by SawirStudio.
+- [Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/index.md): Vegetable and grocery shopping app and website for KantongSayur, built by SawirStudio.
+- [PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/index.md): Human capital management system (HCMS) web application for PeopleBond, built by SawirStudio.
+- [TaniMilenial Application](https://sawirstudio.com/projects/tani-milenial-application/index.md): TaniMilenial mobile app for farming, fishery and livestock, built by SawirStudio with Clicks&Co.
+- [Growinc Group Website](https://sawirstudio.com/projects/growinc-group-website/index.md): Corporate website for Growinc Group Indonesia, a Jakarta marketing and advertising group, with its services, case studies and agencies. Built by SawirStudio.
+- [Fluindo Technology Indonesia Website](https://sawirstudio.com/projects/fluindo-technology-indonesia-website/index.md): Website for Fluindo Technology Indonesia, designed and built by SawirStudio.
+- [Calvin Kain](https://sawirstudio.com/projects/calvin-kain/index.md): Application built for Calvin Kain by SawirStudio, in partnership with Clicks&co.
+- [Indonesia Research Institute Japan Website](https://sawirstudio.com/projects/indonesia-research-institute-japan-website/index.md): Company profile website for Indonesia Research Institute Japan, designed and built by SawirStudio.
+- [Vivaldy Skin Clinic Website](https://sawirstudio.com/projects/vivaldy-skin-clinic-website/index.md): Website for Vivaldy Skin Clinic, a dermatology and venereology clinic, presenting its treatments, shop and contact details. Built by SawirStudio.
+- [Adiwarna Company Profile Website](https://sawirstudio.com/projects/adiwarna-company-profile-website/index.md): Company profile website for PT Adiwarna Anugerah Abadi, designed and built by SawirStudio.
+- [SPP Indonesia Website](https://sawirstudio.com/projects/spp-indonesia-website/index.md): Website for PT SPP Indonesia, a fire pump specialist, with a page for each pump type from end suction to vertical turbine. Built by SawirStudio.
+- [Habitat Hills Design](https://sawirstudio.com/projects/habitat-hills-design/index.md): Tri-fold brochure for Habitat Hills, a 27-hectare nature resort in Megamendung, Bogor, designed by SawirStudio in forest green and terracotta.
+- [JakPod Hotel Design](https://sawirstudio.com/projects/jakpod-hotel-design/index.md): Identity design for JakPod Hotel, a pod hotel in Thamrin, Jakarta: a JAK monogram in a pink-to-blue gradient circle, by SawirStudio.
+- [Astra International ESR Info & Tips](https://sawirstudio.com/projects/astra-international-esr-info-tips/index.md): ESR Info & Tips, an illustrated safety, health and environment book for Astra International, designed by SawirStudio around two friendly characters.
+- [Digital Airport Hotel Design](https://sawirstudio.com/projects/digital-airport-hotel-design/index.md): Design work for Digital Airport Hotel, for client Capsule Indonesia, by SawirStudio.
+- [Capsule Indonesia Design](https://sawirstudio.com/projects/capsule-indonesia-design/index.md): Product brochure for Capsule Indonesia’s capsule units, designed by SawirStudio in silver and blue, with each pod’s features and where it fits.
+- [Tanda Tangan Digital Campaign](https://sawirstudio.com/projects/tanda-tangan-digital-campaign/index.md): Digital signature campaign design for Indonesia's Ministry of Communication and Informatics by SawirStudio.
+- [Vivaldy Skin Clinic Marketing Design](https://sawirstudio.com/projects/vivaldy-skin-clinic-marketing-design/index.md): Marketing design for Vivaldy Skin Clinic by SawirStudio, such as an Eid al-Fitr greeting card in the clinic’s soft white and turquoise palette.
+
+## WordPress plugins
+
+- [Sawir Renew – Recurring Billing for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/index.md): Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free.
+- [Sawir Referral – Refer a Friend for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/index.md): Give-and-get referral program for WooCommerce. Friends get a discount, advocates earn a reward coupon — shared by code or link, WhatsApp-first.
+- [Sawir Pulse – Live Sales & Social Proof for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-pulse/index.md): Sawir Pulse shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications…
+- [Sawir Restock Notifier for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/index.md): Let customers request an email notification when an out-of-stock WooCommerce product is back in stock.
+- [Sawir Min Max Quantities for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/index.md): Set minimum and maximum purchase quantity rules for WooCommerce products, product categories, and the whole order.
+- [Sawir Product Image Zoom for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/index.md): Adds a product image lightbox with navigation and click-to-zoom to WooCommerce product galleries.
+- [Sawir Variation Gallery Tools for WooCommerce](https://sawirstudio.com/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/index.md): Manage variation-specific gallery images in WooCommerce. Works with Sawir Product Image Zoom for WooCommerce.
+- [Sawir Insights](https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/index.md): Heatmaps, session recordings, surveys, funnels, and form analytics. Everything stays on your server.
+- [Sawir Social Scheduler](https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/index.md): Write once, schedule to 27 networks from wp-admin. Per-channel edits, threads, media, previews. Your tokens stay on your server.
+- [Sawir Live Translate](https://sawirstudio.com/projects/wordpress-plugins/sawir-live-translate/index.md): Sawir Live Translate translates your pages where they stand: pick a language, auto-translate what is visible, save it, and give visitors a language switcher.
+- [Sawir Media Folders](https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/index.md): Fast, unlimited folders for the WordPress media library with drag & drop.
+- [Sawir Role Capabilities Manager](https://sawirstudio.com/projects/wordpress-plugins/sawir-role-capabilities-manager/index.md): Create custom user roles and manage capabilities for new and existing WordPress roles.
+
+## Blog
+
+- [Blog](https://sawirstudio.com/posts/index.md): Articles from SawirStudio on building web applications with Laravel and PHP.
+- [Build Your Own CMS Like WordPress](https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/index.md): Building a content management system like WordPress with Laravel and modern software architecture.
+- [Subscription Plan Limits in Laravel](https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/index.md): How to enforce subscription plan limits in Laravel, from a simple check in the controller to Gates and Policies.
