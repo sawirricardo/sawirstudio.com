@@ -1415,6 +1415,50 @@ label {
   box-shadow: 6px 6px 0 var(--pop-shadow);
 }
 
+/* Desktop: project and blog pages use the width. A project's picture runs
+   the full column, the write-up starts at the title's edge with its notes card
+   pinned beside it, and app screenshots and code run wider than the text. */
+@media (min-width: 1024px) {
+  .banner.narrow:has(.project-hero) {
+    max-width: none;
+  }
+  .project-hero {
+    width: auto;
+    max-width: 100%;
+    max-height: 80svh;
+  }
+  .project-layout {
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    column-gap: 4rem;
+  }
+  .project-layout > div:empty {
+    display: none;
+  }
+  .project-layout > .prose {
+    max-width: none;
+    margin-inline: 0;
+    font-size: 1.125rem;
+  }
+  .project-layout > .prose > :not(.shots) {
+    max-width: 70ch;
+  }
+  .project-meta {
+    position: sticky;
+    top: 8rem;
+  }
+  article.narrow:has(> .prose-xl) {
+    max-width: 60rem;
+  }
+  article.narrow > .prose-xl {
+    margin-inline: auto;
+  }
+}
+@media (min-width: 1280px) {
+  article.narrow > .prose-xl {
+    font-size: 1.3rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .form-success:not([hidden]) {
     animation-name: thanks-fade;
