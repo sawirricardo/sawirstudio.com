@@ -16,6 +16,7 @@ assets/css/convertkit.css  Newsletter form styles (blog posts only)
 assets/js/main.js          Google Analytics + project filter
 assets/images/             Images
 sitemap.xml, robots.txt
+scripts/related_projects.py Rebuilds the "More projects" rows (not deployed)
 ```
 
 ## Run locally
@@ -33,6 +34,18 @@ list page (and the home page for featured projects) and add its URL to `sitemap.
 
 For a project, set `data-categories` on its card in `projects/index.html` (1 = Design, 2 = Website, 3 = Application)
 and put lowercase searchable text in `data-search`.
+
+The picture on a project's card grows into the picture at the top of its page (a view transition). Give the card's
+`<img>` and the page's top picture (`.project-hero`, or `.app-icon` for our own apps) the same
+`style="view-transition-name: media-<slug>"`, and the home page's picture too if the project is featured there.
+
+Then rebuild the "More projects" row at the bottom of every project page, which copies cards from the list:
+
+```bash
+python3 scripts/related_projects.py
+```
+
+Run it again after renaming or removing a project. `scripts/` isn't deployed (see `.assetsignore`).
 
 ## Contact form
 
