@@ -17,11 +17,23 @@ It rewrites the files in place, so running it twice changes nothing.
 import pathlib
 import re
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from markdownify import MarkdownConverter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://sawirstudio.com"
+
+
+def space_out(main):
+    """Cards often show a bold number or title and its text as separate elements with no space
+    between them in the HTML; add one so the Markdown doesn't run them together ("**9**years")."""
+    for el in main.find_all(["strong", "b", "span", "div", "p", "h2", "h3", "h4", "small"]):
+        nxt = el.next_sibling
+        if nxt is None:
+            continue
+        starts = str(nxt)[:1] if isinstance(nxt, NavigableString) else "x"
+        if starts.isalnum():
+            el.insert_after(" ")
 
 
 class Converter(MarkdownConverter):
@@ -53,6 +65,7 @@ def page(html_path):
     # Drawings, scripts, the breadcrumb trail and form controls aren't content.
     for el in main.select("svg, script, style, canvas, noscript, template, nav.breadcrumbs, form, [aria-hidden=true]"):
         el.decompose()
+    space_out(main)
     body = Converter(heading_style="ATX", bullets="-", strip=["button"]).convert_soup(main)
     body = re.sub(r"[ \t]+\n", "\n", body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()

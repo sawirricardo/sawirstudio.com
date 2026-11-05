@@ -14,10 +14,10 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
 
 [Start a project](https://sawirstudio.com/contact/) [See our work](#portfolio)
 
-- **9**years building, since 2017
-- **7**apps of our own on the App Store
-- **12**free WordPress plugins
-- **2019**the year PeopleBond started with us. Still going.
+- **9** years building, since 2017
+- **7** apps of our own on the App Store
+- **12** free WordPress plugins
+- **2019** the year PeopleBond started with us. Still going.
 
 ## What we build
 
