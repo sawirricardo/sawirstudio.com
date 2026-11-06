@@ -13,6 +13,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [Privacy](https://sawirstudio.com/privacy/index.md): What sawirstudio.com collects, why, and which services handle it: Microsoft Clarity, the contact form, Google Fonts and Cloudflare.
 - [Terms of Use](https://sawirstudio.com/terms/index.md): The terms for using sawirstudio.com: our content and portfolio, the free WordPress plugins and apps, links to other sites, and how client work is agreed.
 - [Launch & Growth](https://sawirstudio.com/launch-and-growth/index.md): We build sites and apps to be found, then help people find them: search setup, local search, listings and earned backlinks, and a monthly check-in.
+- [Shopify Integrations & Apps](https://sawirstudio.com/shopify/index.md): Shopify connected to Odoo and the rest of your business: orders, stock, payouts and point of sale, by the people who wrote the open-source Shopify connector for Odoo.
 
 ## Projects
 

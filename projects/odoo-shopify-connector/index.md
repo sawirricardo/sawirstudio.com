@@ -26,6 +26,8 @@ We wrote the connector and contributed it to the OCA in July 2026: the core Shop
 
 An integration that is right most of the time is wrong for accounting. So the connector talks to Shopify’s GraphQL Admin API, never assumes a webhook arrived, and checks itself against Shopify on a schedule. Journal entries are planned from Shopify’s exact amounts and must balance before they post: when something doesn’t add up, the connector raises a clear error instead of quietly adding a balancing line.
 
+Want it set up or extended for your stores? See [Shopify integrations](https://sawirstudio.com/shopify/).
+
 **Built with** Python, Odoo 19 and the Shopify GraphQL Admin API
 
 - **Project** Odoo Community Association (OCA)

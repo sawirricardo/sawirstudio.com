@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Shopify Integrations &amp; Apps | SawirStudio</title>
+    <meta name="description" content="Shopify connected to Odoo and the rest of your business: orders, stock, payouts and point of sale, by the people who wrote the open-source Shopify connector for Odoo." />
+    <meta property="og:title" content="Shopify Integrations &amp; Apps | SawirStudio" />
+    <meta property="og:description" content="Shopify connected to Odoo and the rest of your business: orders, stock, payouts and point of sale, by the people who wrote the open-source Shopify connector for Odoo." />
+    <meta property="og:url" content="https://sawirstudio.com/shopify/" />
+    <link rel="canonical" href="https://sawirstudio.com/shopify/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Shopify integrations & apps",
+          "serviceType": "Shopify integration and app development",
+          "description": "Shopify connected to Odoo and the rest of your business: orders, stock, payouts and point of sale, by the people who wrote the open-source Shopify connector for Odoo.",
+          "url": "https://sawirstudio.com/shopify/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Shopify",
+              "item": "https://sawirstudio.com/shopify/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section banner stack" role="banner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/shopify/" aria-current="page">Shopify</a></li>
+        </ol>
+        </nav>
+        <p class="hello">new: shopify</p>
+        <h1>Shopify that <span class="mark mark-green">adds up</span>.</h1>
+        <p class="lead">Orders, stock, payouts and point of sale, moving between your Shopify store and Odoo or the other systems you run. Built by the people who wrote the open-source Shopify connector for Odoo, <span class="wavy">so the books balance</span>.</p>
+        <p class="hero-actions"><a class="button" href="/contact/">Start a project</a> <a class="see-all" href="/projects/odoo-shopify-connector/">See the connector</a></p>
+      </section>
+      <section class="section">
+        <h2 class="section-title">What we do</h2>
+        <ul class="offers">
+          <li>
+            <h3>Shopify and Odoo</h3>
+            <p>Your stores connected to Odoo 19 Community with the <a href="/projects/odoo-shopify-connector/">OCA connector</a> we wrote: products, stock, customers, orders, returns and refunds, for one store or many. We set it up, configure it for how you work, and extend it where your setup needs more.</p>
+          </li>
+          <li>
+            <h3>Accounting that balances</h3>
+            <p>Shopify Payments payouts, fees, disputes, gift cards and multi-currency, turned into journal entries from Shopify&apos;s exact amounts. When something doesn&apos;t add up, you get a clear error, not a quiet balancing line.</p>
+          </li>
+          <li>
+            <h3>Point of sale &amp; warehouses</h3>
+            <p>Shopify POS sales from each shop brought in as orders and routed to the right Odoo warehouse, so stock is right everywhere you sell.</p>
+          </li>
+          <li>
+            <h3>Your other systems</h3>
+            <p>Not on Odoo? We connect Shopify to the ERP, accounting, shipping or custom backend you already run, through the GraphQL Admin API and signed webhooks, with checks that catch anything missed.</p>
+          </li>
+          <li>
+            <h3>Custom apps &amp; automation</h3>
+            <p>A private app or a scheduled job for what Shopify doesn&apos;t do out of the box: order routing, bulk edits, custom reports, syncing with a supplier.</p>
+          </li>
+          <li>
+            <h3>The store, too</h3>
+            <p>If the storefront needs building or a redesign, we design and build it alongside the integration, so the front and the back are planned together.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">How it works</h2>
+        <ol class="values">
+          <li>
+            <h3>Map it first.</h3>
+            <p>We list every flow: what moves, in which direction, and which system has the final say on stock, prices and money.</p>
+          </li>
+          <li>
+            <h3>One flow at a time.</h3>
+            <p>Usually orders and stock first, then accounting, then point of sale. Each one runs against your real data before the next begins.</p>
+          </li>
+          <li>
+            <h3>Keep it healthy.</h3>
+            <p>Health checks, a sync dashboard and scheduled reconciliation, plus us. We stay to look after it when Shopify changes its API.</p>
+          </li>
+        </ol>
+      </section>
+      <section class="section">
+        <div class="note founder-note narrow center">
+          <p class="founder-hello">What we won&apos;t build</p>
+          <p>An integration that is right most of the time. For stock and money, that&apos;s wrong. Ours never assume a webhook arrived, check themselves against Shopify on a schedule, and stop to tell you when the numbers don&apos;t match.</p>
+          <div class="founder-sign"><svg class="signature" viewBox="4.0 4.0 294.0 69.1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Ricardo"><path transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)" stroke-width="1.122" pathLength="1" style="--d:0.63s;--w:0.00s" d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)" stroke-width="1.122" pathLength="1" style="--d:0.09s;--w:0.67s" d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)" stroke-width="1.122" pathLength="1" style="--d:0.08s;--w:0.80s" d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)" stroke-width="1.122" pathLength="1" style="--d:0.16s;--w:0.92s" d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)" stroke-width="1.122" pathLength="1" style="--d:0.27s;--w:1.13s" d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)" stroke-width="1.122" pathLength="1" style="--d:0.14s;--w:1.43s" d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)" stroke-width="1.122" pathLength="1" style="--d:0.13s;--w:1.61s" d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)" stroke-width="1.122" pathLength="1" style="--d:0.15s;--w:1.78s" d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822"/><path transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)" stroke-width="1.122" pathLength="1" style="--d:0.21s;--w:1.97s" d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651"/></svg><p><a href="/ricardosawir/">Ricardo Sawir</a>, founder</p></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="prose center">
+          <h2>Commerce work we&apos;ve done</h2>
+          <ul>
+            <li><a href="/projects/odoo-shopify-connector/">Shopify Connector for Odoo</a>: written by us and contributed to the Odoo Community Association in July 2026, with modules for accounting and point of sale. <a href="https://github.com/OCA/connector-shopify" target="_blank" rel="noopener">Source on GitHub</a>.</li>
+            <li><a href="/projects/kantong-sayur-application/">Kantong Sayur</a>: a grocery marketplace for traditional markets, with apps for shoppers and merchants, an admin panel, and later a wholesale side.</li>
+            <li><a href="/projects/calvin-kain/">Calvin Kain</a>: the online store for a hijab and scarf label, built with Clicks&amp;co.</li>
+            <li><a href="/projects/wordpress-plugins/">Our WooCommerce plugins</a>: free plugins for min and max quantities, restock alerts, product image zoom and variation galleries.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

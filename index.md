@@ -41,6 +41,11 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
   Search set up from day one, local search, listings and earned backlinks, and a monthly check-in on the numbers.
 
   See [what's included](https://sawirstudio.com/launch-and-growth/)
+- ### Shopify
+
+  Stores connected to Odoo and the systems you already run: orders, stock, payouts and point of sale, from the people who wrote the open-source Shopify connector for Odoo.
+
+  See [what we do](https://sawirstudio.com/shopify/)
 
 ## Selected work
 

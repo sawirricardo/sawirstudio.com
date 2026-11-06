@@ -31,7 +31,7 @@ Everything else is on the [projects page](https://sawirstudio.com/projects/).
 
 ## Work with me
 
-If you have an app, a platform, or a Shopify and Odoo setup in mind, tell me about it.
+If you have an app, a platform, or a [Shopify and Odoo setup](https://sawirstudio.com/shopify/) in mind, tell me about it.
 
 [Start a project](https://sawirstudio.com/contact/)
 

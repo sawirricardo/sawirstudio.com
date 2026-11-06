@@ -133,6 +133,7 @@
             </ul>
             <h2>How we approached it</h2>
             <p>An integration that is right most of the time is wrong for accounting. So the connector talks to Shopify’s GraphQL Admin API, never assumes a webhook arrived, and checks itself against Shopify on a schedule. Journal entries are planned from Shopify’s exact amounts and must balance before they post: when something doesn’t add up, the connector raises a clear error instead of quietly adding a balancing line.</p>
+            <p>Want it set up or extended for your stores? See <a href="/shopify/">Shopify integrations</a>.</p>
             <p><strong>Built with</strong> Python, Odoo 19 and the Shopify GraphQL Admin API</p>
           </div>
           <ul class="project-meta">
