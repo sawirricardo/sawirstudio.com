@@ -1934,7 +1934,7 @@ label {
   transition: opacity 400ms var(--ease-out);
 }
 .pile.is-live .pile-hint::after {
-  content: " \2197";
+  content: " \2199"; /* points down at the icons; the box is closed, nothing leaves it */
 }
 .pile.was-thrown .pile-hint {
   opacity: 0;
