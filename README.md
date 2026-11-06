@@ -14,6 +14,7 @@ posts/<slug>/index.html    Blog posts
 assets/css/style.css       Site styles
 assets/css/convertkit.css  Newsletter form styles (blog posts only)
 assets/js/main.js          Google Analytics + project filter
+assets/js/vendor/          Matter.js, vendored (physics for the app icons in the home hero; loaded only there)
 assets/images/             Images
 sitemap.xml, robots.txt
 **/index.md, llms.txt    Markdown copies of the pages for AI agents (generated)

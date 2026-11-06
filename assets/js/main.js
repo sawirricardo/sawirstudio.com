@@ -377,11 +377,252 @@
   var resizeTimer;
   window.addEventListener("resize", function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(layout, 150); });
   document.addEventListener("visibilitychange", kick);
+  // An app icon landing hard in the box below sends a ripple through the dots.
+  window.addEventListener("hero:thud", function (e) {
+    var r = canvas.getBoundingClientRect();
+    waves.push({ x: e.detail.x - r.left, y: e.detail.y - r.top, r: 0, life: e.detail.strength });
+    if (waves.length > 4) waves.shift();
+    kick();
+  });
   new MutationObserver(colors).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   if ("IntersectionObserver" in window) {
     new IntersectionObserver(function (entries) { visible = entries[0].isIntersecting; kick(); }).observe(hero);
   }
   kick();
+})();
+
+// Home hero: the highlights sweep in behind the headline and the doodles draw themselves, once.
+(function () {
+  var hero = document.querySelector(".hero");
+  if (!hero || !hero.querySelector(".pile")) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  hero.classList.add("will-draw");
+  requestAnimationFrame(function () {
+    requestAnimationFrame(function () { hero.classList.add("is-drawn"); });
+  });
+})();
+
+// Home hero: a box of our app icons. They drop in the first time the box is on screen, and can be
+// picked up and thrown; a hard landing ripples the dot field. A tap without a drag opens the app's
+// page. The physics engine (Matter.js) loads only here; without it the icons stay a still heap.
+(function () {
+  var pile = document.querySelector(".pile");
+  if (!pile || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  pile.classList.add("is-loading");
+  var script = document.createElement("script");
+  script.src = "/assets/js/vendor/matter-0.20.0.min.js";
+  script.onload = function () {
+    try { start(window.Matter); } catch (e) { pile.classList.remove("is-loading", "is-live"); }
+  };
+  script.onerror = function () { pile.classList.remove("is-loading"); };
+  document.head.appendChild(script);
+
+  function start(M) {
+    var engine = M.Engine.create({ enableSleeping: true, positionIterations: 10, velocityIterations: 8 });
+    engine.gravity.scale = 0.002;
+    var world = engine.world;
+    var STEP = 1000 / 120, WALL = 400;
+    var links = Array.prototype.slice.call(pile.querySelectorAll("a"));
+    var items = [], walls = [], size = 0, W = 0, H = 0;
+    var running = false, visible = false, dropped = false, pending = 0, last = 0, acc = 0;
+    var drag = null, lastThud = 0, lidClosed = false;
+
+    pile.classList.add("is-live");
+    pile.classList.remove("is-loading");
+
+    function measure() {
+      W = pile.clientWidth;
+      H = pile.clientHeight;
+      return links[0].offsetWidth;
+    }
+    function buildWalls() {
+      M.Composite.remove(world, walls);
+      var o = { isStatic: true, friction: 0.6, restitution: 0.2 };
+      // Open above while the icons drop in, then closed, so a throw can't lose one off the top.
+      var top = lidClosed ? 0 : -size * 4, sideH = H - top + WALL * 2, sideY = (H + top) / 2;
+      walls = [
+        M.Bodies.rectangle(W / 2, H + WALL / 2, W + WALL * 2, WALL, o),
+        M.Bodies.rectangle(W / 2, top - WALL / 2, W + WALL * 2, WALL, o),
+        M.Bodies.rectangle(-WALL / 2, sideY, WALL, sideH, o),
+        M.Bodies.rectangle(W + WALL / 2, sideY, WALL, sideH, o),
+      ];
+      M.Composite.add(world, walls);
+    }
+
+    function render() {
+      for (var i = 0; i < items.length; i++) {
+        var b = items[i].body, st = items[i].el.style, a = b.angle;
+        var c = Math.cos(a), s = Math.sin(a);
+        st.setProperty("--x", (b.position.x - size / 2).toFixed(1) + "px");
+        st.setProperty("--y", (b.position.y - size / 2).toFixed(1) + "px");
+        st.setProperty("--a", a.toFixed(4) + "rad");
+        // The pop shadow stays down and to the right however the icon is turned.
+        st.setProperty("--shadow-x", (3 * (c + s)).toFixed(2) + "px");
+        st.setProperty("--shadow-y", (3 * (c - s)).toFixed(2) + "px");
+      }
+    }
+    function frame(now) {
+      if (!last) last = now;
+      acc += Math.min(now - last, 50);
+      last = now;
+      while (acc >= STEP) {
+        M.Engine.update(engine, STEP);
+        acc -= STEP;
+      }
+      render();
+      if (!lidClosed && dropped && pending === 0 && items.every(function (it) { return it.body.bounds.min.y > 0; })) {
+        lidClosed = true;
+        buildWalls();
+      }
+      var awake = drag || pending > 0 || items.some(function (it) { return !it.body.isSleeping; });
+      if (awake && visible && !document.hidden) requestAnimationFrame(frame);
+      else { running = false; last = 0; acc = 0; }
+    }
+    function kick() {
+      if (!running && visible && !document.hidden) {
+        running = true;
+        requestAnimationFrame(frame);
+      }
+    }
+
+    function drop() {
+      dropped = true;
+      var cols = Math.max(1, Math.floor(W / (size * 1.3)));
+      links.forEach(function (el, i) {
+        pending++;
+        setTimeout(function () {
+          var x = ((i % cols) + 0.5) * (W / cols) + (Math.random() - 0.5) * size * 0.3;
+          var y = -size * 0.8 - Math.floor(i / cols) * size * 0.4;
+          var body = M.Bodies.rectangle(x, y, size, size, {
+            chamfer: { radius: size * 0.22 },
+            restitution: 0.3,
+            friction: 0.5,
+            frictionStatic: 0.8,
+            frictionAir: 0.012,
+            density: 0.0015,
+            sleepThreshold: 40,
+          });
+          M.Body.setAngle(body, (Math.random() - 0.5) * 0.8);
+          M.Body.setAngularVelocity(body, (Math.random() - 0.5) * 0.08);
+          M.Composite.add(world, body);
+          items.push({ el: el, body: body });
+          pending--;
+          kick();
+        }, 300 + i * 110);
+      });
+    }
+
+    function local(e) {
+      var r = pile.getBoundingClientRect();
+      return {
+        x: Math.max(-size, Math.min(W + size, e.clientX - r.left - pile.clientLeft)),
+        y: Math.max(-size, Math.min(H + size, e.clientY - r.top - pile.clientTop)),
+      };
+    }
+    function release(e) {
+      if (!drag || e.pointerId !== drag.id) return;
+      var it = drag.it;
+      M.Composite.remove(world, drag.c);
+      if (it.el.hasPointerCapture(e.pointerId)) it.el.releasePointerCapture(e.pointerId);
+      it.el.classList.remove("is-grabbed");
+      // Keep a hard throw from outrunning the walls.
+      if (M.Body.getSpeed(it.body) > size * 0.45) M.Body.setSpeed(it.body, size * 0.45);
+      it.thrown = drag.moved;
+      if (drag.moved) pile.classList.add("was-thrown");
+      drag = null;
+      kick();
+    }
+    links.forEach(function (el) {
+      el.draggable = false;
+      el.addEventListener("dragstart", function (e) { e.preventDefault(); });
+      el.addEventListener("pointerdown", function (e) {
+        var it = items.find(function (x) { return x.el === el; });
+        if (!it || drag || e.button !== 0) return;
+        var p = local(e), b = it.body;
+        M.Sleeping.set(b, false);
+        drag = {
+          it: it,
+          id: e.pointerId,
+          x0: e.clientX,
+          y0: e.clientY,
+          moved: false,
+          c: M.Constraint.create({
+            pointA: p,
+            bodyB: b,
+            pointB: { x: p.x - b.position.x, y: p.y - b.position.y },
+            stiffness: 0.2,
+            damping: 0.1,
+            length: 0,
+          }),
+        };
+        M.Composite.add(world, drag.c);
+        el.setPointerCapture(e.pointerId);
+        el.classList.add("is-grabbed");
+        kick();
+      });
+      el.addEventListener("pointermove", function (e) {
+        if (!drag || e.pointerId !== drag.id) return;
+        if (Math.hypot(e.clientX - drag.x0, e.clientY - drag.y0) > 6) drag.moved = true;
+        drag.c.pointA = local(e);
+      });
+      el.addEventListener("pointerup", release);
+      el.addEventListener("pointercancel", release);
+      // A throw is not a tap on the link.
+      el.addEventListener("click", function (e) {
+        var it = items.find(function (x) { return x.el === el; });
+        if (!it || it.thrown) {
+          e.preventDefault();
+          if (it) it.thrown = false;
+        }
+      });
+    });
+
+    M.Events.on(engine, "collisionStart", function (ev) {
+      var now = performance.now();
+      if (now - lastThud < 140) return;
+      for (var i = 0; i < ev.pairs.length; i++) {
+        var pair = ev.pairs[i], va = M.Body.getVelocity(pair.bodyA), vb = M.Body.getVelocity(pair.bodyB);
+        var speed = Math.hypot(va.x - vb.x, va.y - vb.y);
+        if (speed < 9) continue;
+        var pt = pair.collision.supports[0] || pair.bodyA.position, r = pile.getBoundingClientRect();
+        lastThud = now;
+        window.dispatchEvent(new CustomEvent("hero:thud", {
+          detail: { x: r.left + pile.clientLeft + pt.x, y: r.top + pile.clientTop + pt.y, strength: Math.min(1, (speed - 6) / 14) },
+        }));
+        return;
+      }
+    });
+
+    size = measure();
+    buildWalls();
+    if ("ResizeObserver" in window) {
+      new ResizeObserver(function () {
+        var next = measure();
+        if (next && next !== size) {
+          items.forEach(function (it) { M.Body.scale(it.body, next / size, next / size); });
+          size = next;
+        }
+        buildWalls();
+        items.forEach(function (it) {
+          var p = it.body.position;
+          M.Body.setPosition(it.body, {
+            x: Math.max(size / 2, Math.min(W - size / 2, p.x)),
+            y: Math.min(H - size / 2, p.y),
+          });
+          M.Sleeping.set(it.body, false);
+        });
+        render();
+        kick();
+      }).observe(pile);
+    }
+    document.addEventListener("visibilitychange", kick);
+    var io = new IntersectionObserver(function (entries) {
+      visible = entries[0].isIntersecting;
+      if (visible && !dropped && entries[0].intersectionRatio >= 0.35) drop();
+      kick();
+    }, { threshold: [0, 0.35] });
+    io.observe(pile);
+  }
 })();
 
 // Signatures write themselves once, the first time they scroll into view.
