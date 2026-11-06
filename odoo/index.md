@@ -25,7 +25,7 @@ Point of sale, stock, purchasing and accounting in one place. On Odoo when it fi
   Your Shopify store through the [open-source connector we wrote](https://sawirstudio.com/projects/odoo-shopify-connector/), and your website or other channels through their APIs, so you never sell what you no longer have.
 - ### Built to measure
 
-  When the way you work is what sets you apart, we build the system around it: a web app for the office, an app for your staff or customers, and the admin behind them. You own the code and the data.
+  When the way you work is what sets you apart, we build the system around it: a web app for the office, an app for your staff or customers, and the admin behind them. You own the code and the data. See [custom software](https://sawirstudio.com/custom/).
 - ### Odoo, plus your own pieces
 
   Often Odoo covers almost everything and one part of your work needs something of its own. We keep Odoo as the core and build the one module, app or report it doesn't have.
@@ -38,7 +38,7 @@ Point of sale, stock, purchasing and accounting in one place. On Odoo when it fi
 It's the first question everyone asks, and the honest answer depends on how unusual your business really is.
 
 - **Odoo** when your flow is what most shops, distributors and restaurants do: sell, restock, pay suppliers, close the month. It's faster and cheaper, it's open source, and Odoo Community has no licence fee. You bend a little to fit it.
-- **Built to measure** when the system *is* the business: a pricing model, an approval chain or a service Odoo would fight at every step. It costs more up front and fits exactly.
+- **[Built to measure](https://sawirstudio.com/custom/)** when the system *is* the business: a pricing model, an approval chain or a service Odoo would fight at every step. It costs more up front and fits exactly.
 - **Both** when Odoo covers the everyday and one part of your work is yours alone. This is the most common answer.
 
 We map your flow first and then recommend one, in writing, with what each would cost. Whichever you choose, it's built on open, mainstream tools that any good developer can pick up, so you're never locked in to us.
