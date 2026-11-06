@@ -46,6 +46,11 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
   Stores connected to Odoo and the systems you already run: orders, stock, payouts and point of sale, from the people who wrote the open-source Shopify connector for Odoo.
 
   See [what we do](https://sawirstudio.com/shopify/)
+- ### Business systems
+
+  Point of sale, stock, purchasing and accounting in one system, on Odoo or built to measure, for businesses ready to leave the spreadsheets behind.
+
+  See [Odoo or custom?](https://sawirstudio.com/odoo/)
 
 ## Selected work
 

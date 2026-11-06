@@ -16,7 +16,7 @@ Orders, stock, payouts and point of sale, moving between your Shopify store and 
 
 - ### Shopify and Odoo
 
-  Your stores connected to Odoo 19 Community with the [OCA connector](https://sawirstudio.com/projects/odoo-shopify-connector/) we wrote: products, stock, customers, orders, returns and refunds, for one store or many. We set it up, configure it for how you work, and extend it where your setup needs more.
+  Your stores connected to Odoo 19 Community with the [OCA connector](https://sawirstudio.com/projects/odoo-shopify-connector/) we wrote: products, stock, customers, orders, returns and refunds, for one store or many. We set it up, configure it for how you work, and extend it where your setup needs more. Not on Odoo yet? We [set that up too](https://sawirstudio.com/odoo/).
 - ### Accounting that balances
 
   Shopify Payments payouts, fees, disputes, gift cards and multi-currency, turned into journal entries from Shopify's exact amounts. When something doesn't add up, you get a clear error, not a quiet balancing line.
