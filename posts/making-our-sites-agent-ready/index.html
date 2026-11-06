@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Making Our Sites Agent-Ready | SawirStudio</title>
+    <meta name="description" content="How we made our product sites readable by AI agents: Markdown copies of every page, Link headers, llms.txt, Content Signals in robots.txt, an API catalog and Agent Skills." />
+    <meta property="og:title" content="Making Our Sites Agent-Ready | SawirStudio" />
+    <meta property="og:description" content="How we made our product sites readable by AI agents: Markdown copies of every page, Link headers, llms.txt, Content Signals in robots.txt, an API catalog and Agent Skills." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/making-our-sites-agent-ready/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/making-our-sites-agent-ready/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "What It Took to Make Our Sites Agent-Ready",
+          "description": "How we made our product sites readable by AI agents: Markdown copies of every page, Link headers, llms.txt, Content Signals in robots.txt, an API catalog and Agent Skills.",
+          "url": "https://sawirstudio.com/posts/making-our-sites-agent-ready/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/making-our-sites-agent-ready/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "What It Took to Make Our Sites Agent-Ready",
+              "item": "https://sawirstudio.com/posts/making-our-sites-agent-ready/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/" aria-current="true">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section">
+        <article class="narrow center">
+          <nav class="breadcrumbs is-center" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts/">Blog</a></li>
+            <li><a href="/posts/making-our-sites-agent-ready/" aria-current="page">What It Took to Make Our Sites Agent-Ready</a></li>
+          </ol>
+          </nav>
+          <h1 class="page-title heavy text-center">What It Took to Make Our Sites Agent-Ready</h1>
+          <div class="prose prose-xl">
+            <p>More and more of the visits to a website aren&apos;t people. They&apos;re AI agents reading pages to answer someone&apos;s question, or trying to use a product on someone&apos;s behalf. This week we went through this site and our product sites, <a href="/projects/sawirpost/">SawirPost</a>, <a href="/projects/sawirly/">Sawirly</a>, <a href="/projects/rindraw/">Rindraw</a>, <a href="/projects/math-daily/">Math Daily</a> and others, to make them easier for agents to read and use.</p>
+            <p>We used <a href="https://isitagentready.com" target="_blank" rel="noopener">isitagentready.com</a> as the checklist. It grades a site in levels, and here&apos;s what each step took.</p>
+            <h2>Markdown copies of every page</h2>
+            <p>An agent reading HTML wades through navigation, scripts and footers to find a few paragraphs. So every page on this site now has a Markdown copy next to it, at <code>index.md</code>, with only the page&apos;s main content. A small script builds them from the HTML, so they never drift.</p>
+            <p>Agents get them two ways: by adding <code>index.md</code> to a URL, or by asking for <code>Accept: text/markdown</code>. A tiny Cloudflare Worker in front of the static files checks that header and serves the Markdown copy, with a rough token count in an <code>x-markdown-tokens</code> header. Browsers still get the normal page.</p>
+            <pre><code>curl -H "Accept: text/markdown" https://sawirstudio.com/shopify/</code></pre>
+            <h2>Link headers</h2>
+            <p>Every HTML page now says where its Markdown copy is, in an HTTP <code>Link</code> header with <code>rel="alternate"</code>. The home page also points to <code>llms.txt</code> and the sitemap. An agent can find everything from one request without guessing URLs.</p>
+            <h2>llms.txt</h2>
+            <p><code>llms.txt</code> is a plain-text index of the site for language models: a one-line summary and a list of every page with its description, linking to the Markdown copies. Ours is generated from the sitemap by the same script.</p>
+            <h2>Content Signals</h2>
+            <p><code>robots.txt</code> says who may crawl, not what they may do with what they read. <a href="https://contentsignals.org/" target="_blank" rel="noopener">Content Signals</a> adds that. Ours is one line, and allows all three uses, because we want to be found and quoted:</p>
+            <pre><code>Content-Signal: ai-train=yes, search=yes, ai-input=yes</code></pre>
+            <p>Those three steps took every site to Level 3.</p>
+            <h2>An API catalog and Agent Skills</h2>
+            <p>SawirPost and Sawirly have APIs, so they went further. Each publishes an API catalog at <code>/.well-known/api-catalog</code> (RFC 9727): a small JSON document pointing to the OpenAPI description and the docs. An agent that lands on the site can find the API without reading a single page.</p>
+            <p>They also publish Agent Skills, short instructions for agents on how to do common tasks with the product. That took both to Level 4.</p>
+            <h2>Where we stopped</h2>
+            <p>Level 5 wants agents to be able to sign up and authenticate on their own, through an OAuth agent registration flow. A page describing how to sign up with an email and password doesn&apos;t count. That&apos;s a real feature to build, with real security questions, so we&apos;re thinking it through instead of rushing it.</p>
+            <h2>Was it worth it?</h2>
+            <p>For a static site, most of this was an afternoon: one script, one small Worker and a line in <code>robots.txt</code>. Nothing changed for people visiting the site. We think more questions will be answered by agents reading sites like ours, and a clean Markdown page is the easiest way to be quoted correctly.</p>
+            <p>We set up the same for clients as part of <a href="/launch-and-growth/">Launch &amp; growth</a>.</p>
+            <p><strong>Keep reading:</strong> <a href="/posts/wordpress-abilities-api-for-plugins/">Make Your WordPress Plugin Usable by AI Agents with the Abilities API</a>, or <a href="/posts/throwable-app-icons-matter-js/">The Throwable App Icons on Our Home Page</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

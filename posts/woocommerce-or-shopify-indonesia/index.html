@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>WooCommerce or Shopify in Indonesia? | SawirStudio</title>
+    <meta name="description" content="WooCommerce or Shopify for a store in Indonesia: monthly costs in rupiah, payment gateways and QRIS, the transaction fee Shopify adds, shipping, and which fits which business." />
+    <meta property="og:title" content="WooCommerce or Shopify in Indonesia? | SawirStudio" />
+    <meta property="og:description" content="WooCommerce or Shopify for a store in Indonesia: monthly costs in rupiah, payment gateways and QRIS, the transaction fee Shopify adds, shipping, and which fits which business." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "WooCommerce or Shopify for an Indonesian Business?",
+          "description": "WooCommerce or Shopify for a store in Indonesia: monthly costs in rupiah, payment gateways and QRIS, the transaction fee Shopify adds, shipping, and which fits which business.",
+          "url": "https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WooCommerce or Shopify for an Indonesian Business?",
+              "item": "https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/" aria-current="true">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section">
+        <article class="narrow center">
+          <nav class="breadcrumbs is-center" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts/">Blog</a></li>
+            <li><a href="/posts/woocommerce-or-shopify-indonesia/" aria-current="page">WooCommerce or Shopify for an Indonesian Business?</a></li>
+          </ol>
+          </nav>
+          <h1 class="page-title heavy text-center">WooCommerce or Shopify for an Indonesian Business?</h1>
+          <div class="prose prose-xl">
+            <p>We build on both. We&apos;ve written <a href="/projects/wordpress-plugins/">free WooCommerce plugins</a> and the <a href="/projects/odoo-shopify-connector/">Shopify connector for Odoo</a>, so we don&apos;t have a side to sell. Here&apos;s how the choice usually goes for a business selling in Indonesia.</p>
+            <h2>The short version</h2>
+            <ul>
+            <li><strong>Shopify</strong> if you want a store that runs itself, you don&apos;t have anyone technical, and your margins can take a small extra fee per order.</li>
+            <li><strong>WooCommerce</strong> if you want to own everything, need custom local features, or sell enough that a percentage per order adds up.</li>
+            </ul>
+            <h2>What it costs each month</h2>
+            <p>At the time of writing, Shopify&apos;s prices for Indonesia are Rp 445,000 a month for Basic, Rp 1,150,000 for Grow and Rp 7,100,000 for Advanced, less if you pay yearly. Hosting, security and updates are included. Paid apps come on top, and stores usually end up with a few.</p>
+            <p>WooCommerce itself is free. You pay for hosting, a domain, any paid plugins, and someone to keep it updated. Good hosting for a small store in Indonesia costs less than Shopify Basic. The real cost is the upkeep: updates, backups and security are your job, or the job of whoever builds it.</p>
+            <h2>Payments: the part people miss</h2>
+            <p>Shopify Payments, Shopify&apos;s own payment processor, isn&apos;t available in Indonesia. To accept bank transfers to virtual accounts, e-wallets or QRIS, you use a local gateway like Midtrans or Xendit, which both offer Shopify apps.</p>
+            <p>When you use a gateway that isn&apos;t Shopify Payments, Shopify adds its own transaction fee on top of the gateway&apos;s: <strong>2% on Basic, 1% on Grow, 0.6% on Advanced</strong>. On Rp 100 million of sales a month on Basic, that&apos;s Rp 2 million a month to Shopify, before the gateway takes its share.</p>
+            <p>On WooCommerce, the same gateways have free plugins, and you pay only the gateway&apos;s fees. For a growing store, this one difference often decides it.</p>
+            <h2>Shipping</h2>
+            <p>Customers here expect live shipping costs from couriers like JNE, J&amp;T and SiCepat at checkout. Both platforms get there through apps or plugins that pull courier rates. Try the actual checkout with a real address in a smaller city before you commit; this is where stores most often lose orders.</p>
+            <h2>Selling on marketplaces too</h2>
+            <p>Most Indonesian brands also sell on Shopee and Tokopedia. Neither platform keeps stock in sync with them on its own; you&apos;ll need a connector or a back-office system that keeps stock right across every channel. If you already run Odoo, connecting the store to it is usually the cleanest way.</p>
+            <h2>Which one, then?</h2>
+            <p><strong>Choose Shopify</strong> if you&apos;re starting out, the team is small and not technical, you want a polished checkout without thinking about servers, and you&apos;re fine with the extra fee in exchange for not worrying about upkeep.</p>
+            <p><strong>Choose WooCommerce</strong> if you already have a WordPress site with content that ranks, you need features specific to how you sell (wholesale prices, minimum quantities, restock alerts), or you sell enough that 1&ndash;2% per order is real money.</p>
+            <p>And if the store has to talk to an ERP, a warehouse or a marketplace, plan that first, because it&apos;s harder to change later than the storefront.</p>
+            <p>Not sure which fits? <a href="/contact/">Tell us what you sell and how</a>, and we&apos;ll give you a straight answer, even if it&apos;s &ldquo;you don&apos;t need us for this&rdquo;. Our <a href="/shopify/">Shopify work is here</a>.</p>
+            <p><strong>Keep reading:</strong> <a href="/posts/connect-shopify-to-odoo-19-community/">Connecting Shopify to Odoo 19 Community, Step by Step</a>, or <a href="/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 Lands December 8: What We&#x27;re Testing in Our Plugins</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

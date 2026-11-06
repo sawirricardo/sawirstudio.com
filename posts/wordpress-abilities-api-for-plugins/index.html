@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>WordPress Abilities API for Plugins | SawirStudio</title>
+    <meta name="description" content="How to register abilities in a WordPress plugin so AI agents and other tools can discover and run them safely: categories, schemas, permissions, annotations and the REST endpoints." />
+    <meta property="og:title" content="WordPress Abilities API for Plugins | SawirStudio" />
+    <meta property="og:description" content="How to register abilities in a WordPress plugin so AI agents and other tools can discover and run them safely: categories, schemas, permissions, annotations and the REST endpoints." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Make Your WordPress Plugin Usable by AI Agents with the Abilities API",
+          "description": "How to register abilities in a WordPress plugin so AI agents and other tools can discover and run them safely: categories, schemas, permissions, annotations and the REST endpoints.",
+          "url": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Make Your WordPress Plugin Usable by AI Agents with the Abilities API",
+              "item": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/" aria-current="true">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section">
+        <article class="narrow center">
+          <nav class="breadcrumbs is-center" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts/">Blog</a></li>
+            <li><a href="/posts/wordpress-abilities-api-for-plugins/" aria-current="page">Make Your WordPress Plugin Usable by AI Agents with the Abilities API</a></li>
+          </ol>
+          </nav>
+          <h1 class="page-title heavy text-center">Make Your WordPress Plugin Usable by AI Agents with the Abilities API</h1>
+          <div class="prose prose-xl">
+            <p>The Abilities API, added in WordPress 6.9, is a single place where a plugin says what it can do: a name, a description, what input it takes, what it returns and who&apos;s allowed to run it. AI agents, the WordPress AI plugin, MCP adapters and plain old scripts can then find those abilities and use them, without each tool learning each plugin by hand.</p>
+            <p>Here&apos;s how it works, using one of our <a href="/projects/wordpress-plugins/">WordPress plugins</a> as the example.</p>
+            <h2>The example</h2>
+            <p><a href="/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a> lets shoppers ask to be emailed when a product is back in stock. An obvious question for an agent to answer is &ldquo;which out-of-stock products have the most people waiting?&rdquo; That&apos;s a read-only ability.</p>
+            <h2>1. Register a category</h2>
+            <p>Every ability belongs to exactly one category, and categories are registered first, on their own hook:</p>
+            <pre><code>add_action( 'wp_abilities_api_categories_init', function () {
+	wp_register_ability_category( 'store-insights', array(
+		'label'       =&gt; __( 'Store insights', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Read-only questions about the store.', 'sawir-restock-notifier-for-woocommerce' ),
+	) );
+} );</code></pre>
+            <h2>2. Register the ability</h2>
+            <pre><code>add_action( 'wp_abilities_api_init', function () {
+	wp_register_ability( 'sawir-restock/waiting-list', array(
+		'label'       =&gt; __( 'Restock waiting list', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Out-of-stock products, with how many shoppers are waiting for each.', 'sawir-restock-notifier-for-woocommerce' ),
+		'category'    =&gt; 'store-insights',
+		'input_schema' =&gt; array(
+			'type'       =&gt; 'object',
+			'properties' =&gt; array(
+				'limit' =&gt; array( 'type' =&gt; 'integer', 'minimum' =&gt; 1, 'maximum' =&gt; 50, 'default' =&gt; 10 ),
+			),
+		),
+		'output_schema' =&gt; array(
+			'type'  =&gt; 'array',
+			'items' =&gt; array(
+				'type'       =&gt; 'object',
+				'properties' =&gt; array(
+					'product_id' =&gt; array( 'type' =&gt; 'integer' ),
+					'name'       =&gt; array( 'type' =&gt; 'string' ),
+					'waiting'    =&gt; array( 'type' =&gt; 'integer' ),
+				),
+			),
+		),
+		'execute_callback'    =&gt; 'sawir_restock_waiting_list',
+		'permission_callback' =&gt; function () {
+			return current_user_can( 'manage_woocommerce' );
+		},
+		'meta' =&gt; array(
+			'show_in_rest' =&gt; true,
+			'annotations'  =&gt; array( 'readonly' =&gt; true ),
+		),
+	) );
+} );</code></pre>
+            <p>The callback is ordinary plugin code that returns data matching the output schema. Nothing about it is AI-specific.</p>
+            <h2>What each part is for</h2>
+            <ul>
+            <li><strong>Name</strong>, as <code>namespace/ability-name</code>. Use your plugin&apos;s slug as the namespace.</li>
+            <li><strong>Description.</strong> This is what an agent reads to decide whether to use the ability, so write it for someone who has never seen your plugin.</li>
+            <li><strong>Input and output schemas</strong>, in JSON Schema. Inputs are checked against them before your code runs, and tools know what they&apos;ll get back.</li>
+            <li><strong>Permission callback.</strong> The one part that actually protects anything. Check capabilities here as you would for an admin screen.</li>
+            <li><strong>Annotations.</strong> <code>readonly</code>, <code>destructive</code> and <code>idempotent</code> tell tools how careful to be. They&apos;re hints, not security; the permission callback is the security.</li>
+            <li><strong><code>show_in_rest</code>.</strong> Abilities are hidden from the REST API unless you turn this on.</li>
+            </ul>
+            <h2>Running it over REST</h2>
+            <p>Abilities shown in REST are listed at <code>/wp-json/wp-abilities/v1/abilities</code>, and each one has a <code>/run</code> endpoint. A read-only ability runs with GET, with its input as URL-encoded JSON in an <code>input</code> parameter. One that changes things runs with POST, and a destructive one with DELETE. Every request needs an authenticated user, and then your permission callback decides.</p>
+            <h2>And to agents, through MCP</h2>
+            <p>The MCP Adapter, developed alongside the WordPress AI plugin, exposes registered abilities to MCP clients such as Claude. You don&apos;t write anything extra for it: a well-described ability with good schemas is already a good tool.</p>
+            <h2>What we&apos;d expose first</h2>
+            <p>Start with read-only abilities. They&apos;re useful straight away (&ldquo;how many shoppers are waiting for the blue scarf?&rdquo;) and can&apos;t do damage. Leave anything that sends email, changes prices or deletes things until you&apos;re sure your permission checks and annotations are right.</p>
+            <p>The Abilities API needs WordPress 6.9 or later. The <a href="https://developer.wordpress.org/apis/abilities/" target="_blank" rel="noopener">official documentation</a> has the full reference. If you want this added to a plugin you rely on, <a href="/contact/">get in touch</a>.</p>
+            <p><strong>Keep reading:</strong> <a href="/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 Lands December 8: What We&#x27;re Testing in Our Plugins</a>, or <a href="/posts/making-our-sites-agent-ready/">What It Took to Make Our Sites Agent-Ready</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

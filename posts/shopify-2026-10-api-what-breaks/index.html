@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Shopify 2026-10 API: What Breaks | SawirStudio</title>
+    <meta name="description" content="The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more." />
+    <meta property="og:title" content="Shopify 2026-10 API: What Breaks | SawirStudio" />
+    <meta property="og:description" content="The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Shopify's 2026-10 API: What Breaks in Your Integrations",
+          "description": "The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more.",
+          "url": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify's 2026-10 API: What Breaks in Your Integrations",
+              "item": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/" aria-current="true">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section">
+        <article class="narrow center">
+          <nav class="breadcrumbs is-center" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts/">Blog</a></li>
+            <li><a href="/posts/shopify-2026-10-api-what-breaks/" aria-current="page">Shopify&#x27;s 2026-10 API: What Breaks in Your Integrations</a></li>
+          </ol>
+          </nav>
+          <h1 class="page-title heavy text-center">Shopify&#x27;s 2026-10 API: What Breaks in Your Integrations</h1>
+          <div class="prose prose-xl">
+            <p>Shopify released version 2026-10 of its APIs on October 1, 2026. Most of it is new features you can ignore until you need them. A handful of changes can quietly break an integration that worked fine on 2026-07, and those are the ones worth an hour of your time before you bump the version.</p>
+            <p>This is the list we check against our own integrations, including the <a href="/projects/odoo-shopify-connector/">Shopify connector for Odoo</a>. It is not every line of the release notes, just the ones that change behavior.</p>
+            <h2>Changes that break things quietly</h2>
+            <h3>New carrier services don&apos;t show rates at checkout on their own</h3>
+            <p>Creating a carrier service with <code>carrierServiceCreate</code> (or <code>POST carrier_services.json</code> in REST) now only registers the service. It no longer adds its rates to the General shipping profile. If your app or onboarding script creates a carrier service and expects customers to see your rates, they won&apos;t, until you add the service to a shipping profile yourself.</p>
+            <h3>Changing a shipping address recalculates taxes</h3>
+            <p>Updating the shipping address on an unfulfilled order with <code>orderUpdate</code>, or the REST order update endpoint, now recalculates its taxes. That is the right behavior, but if you change addresses from an ERP or a support tool, the order total can change under you. Read <code>taxLines</code>, <code>totalTaxSet</code> and the totals again after the update, and settle any difference in what was paid or refunded.</p>
+            <h3>Draft order discount warnings lost <code>priceRule</code></h3>
+            <p><code>DraftOrderDiscountNotAppliedWarning.priceRule</code> and the legacy <code>PriceRule</code> types are gone. If you build draft orders with <code>draftOrderCalculate</code>, <code>draftOrderCreate</code> or <code>draftOrderUpdate</code> and read why a discount wasn&apos;t applied, select <code>discountTitle</code> and <code>discountCode</code> instead.</p>
+            <h3>Bad metafield filters now fail loudly</h3>
+            <p>A product query that filters on a metafield that can&apos;t be filtered used to ignore that part of the filter and return everything. It now returns an error. That is better, but a sync that has been returning &ldquo;all products&rdquo; for months will start failing the day you switch versions. Check that the metafield definitions you filter on support filtering and the operators you use.</p>
+            <h3>A variant can have more than one barcode</h3>
+            <p><code>ProductVariant.barcodes</code> is a new connection with up to 20 typed barcodes. The old <code>ProductVariant.barcode</code> is deprecated and returns only the first one. If your warehouse or point of sale matches products by barcode, read the full list.</p>
+            <h3>One inventory error is gone</h3>
+            <p><code>ITEM_NOT_STOCKED_AT_LOCATION</code> is removed from the inventory mutations and from <code>InventorySetQuantitiesUserErrorCode</code>. Code that branches on it is now dead code; remove it so nobody relies on it later.</p>
+            <h2>Smaller ones worth a search of your code</h2>
+            <ul>
+            <li><strong>Customer segments.</strong> <code>MATCHES</code> and <code>NOT MATCHES</code> replace <code>= true</code> and <code>= false</code>, and named dates like <code>12_months_ago</code> are deprecated in favor of offsets like <code>-12m</code>.</li>
+            <li><strong>SMS consent.</strong> The flat SMS consent fields are deprecated. Read <code>CustomerPhoneNumber.smsMarketingConsent</code>.</li>
+            <li><strong>Discounts in rollouts.</strong> A discount&apos;s <code>startsAt</code> and <code>endsAt</code> don&apos;t tell you if it&apos;s live when it&apos;s part of a rollout. Reading <code>Discount.rollouts</code> needs the <code>read_rollouts</code> scope.</li>
+            <li><strong>Fulfillment status.</strong> <code>FULFILLMENT_NOT_REQUIRED</code> is a new value. A <code>switch</code> that maps every status will hit its default case.</li>
+            <li><strong>Customer Account API.</strong> <code>Customer.lastIncompleteCheckout</code> and the <code>Checkout</code> types are removed, with no replacement.</li>
+            <li><strong>POS UI extensions.</strong> Cart mutations like <code>applyCartDiscount</code> now reject when POS doesn&apos;t confirm the change, and <code>session.currentSession.staffMemberId</code> is removed.</li>
+            </ul>
+            <h2>Two deadlines that aren&apos;t about 2026-10</h2>
+            <p>If you maintain a public app, non-expiring offline access tokens have to be replaced with expiring ones by January 1, 2027. Custom apps and apps a merchant creates in the Dev Dashboard are excluded. And online store script tags stop running on March 1, 2027; we wrote up <a href="/posts/shopify-script-tags-stop-march-2027/">what that means for stores</a> separately.</p>
+            <h2>How we upgrade</h2>
+            <p>We pin the API version in one place, run the integration against a development store on the new version, and read the <a href="https://shopify.dev/changelog?api_version=2026-10" target="_blank" rel="noopener">2026-10 changelog</a> filtered to &ldquo;Action required&rdquo;. Version 2026-10 is supported until at least October 1, 2027, so there is time, but not so much that it should wait until the warning emails start.</p>
+            <p>If your store talks to Odoo or another system and you&apos;d rather someone else did this, that is <a href="/shopify/">what we do</a>.</p>
+            <p><strong>Keep reading:</strong> <a href="/posts/shopify-script-tags-stop-march-2027/">Shopify Script Tags Stop Working on March 1, 2027. What Store Owners Should Do</a>, or <a href="/posts/connect-shopify-to-odoo-19-community/">Connecting Shopify to Odoo 19 Community, Step by Step</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

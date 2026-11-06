@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <title>Why Shopify Payouts Don&#x27;t Match Your Books | SawirStudio</title>
+    <meta name="description" content="Why the money Shopify Payments sends to your bank never matches your sales report: fees, refunds, disputes, gift cards, currency conversion and timing, and how to reconcile it." />
+    <meta property="og:title" content="Why Shopify Payouts Don&#x27;t Match Your Books | SawirStudio" />
+    <meta property="og:description" content="Why the money Shopify Payments sends to your bank never matches your sales report: fees, refunds, disputes, gift cards, currency conversion and timing, and how to reconcile it." />
+    <meta property="og:url" content="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="canonical" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="SawirStudio" />
+    <meta property="og:image" content="https://sawirstudio.com/assets/og/default.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/convertkit.css" />
+    <script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Why Your Shopify Payouts Never Match Your Books",
+          "description": "Why the money Shopify Payments sends to your bank never matches your sales report: fees, refunds, disputes, gift cards, currency conversion and timing, and how to reconcile it.",
+          "url": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Why Your Shopify Payouts Never Match Your Books",
+              "item": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="/" title="Home">Sawir<span>Studio</span></a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/" aria-current="true">Blog</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/about-us/">About us</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" /></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>
+      </button>
+      <hr />
+    </header>
+    <main id="main">
+      <section class="section">
+        <article class="narrow center">
+          <nav class="breadcrumbs is-center" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts/">Blog</a></li>
+            <li><a href="/posts/why-shopify-payouts-dont-match-your-books/" aria-current="page">Why Your Shopify Payouts Never Match Your Books</a></li>
+          </ol>
+          </nav>
+          <h1 class="page-title heavy text-center">Why Your Shopify Payouts Never Match Your Books</h1>
+          <div class="prose prose-xl">
+            <p>Your sales report says one number. Your bank says another. Somewhere in between are fees, refunds, chargebacks and a few days of timing, and every month someone spends an afternoon pulling them apart in a spreadsheet.</p>
+            <p>We dealt with all of this while writing the accounting module of our <a href="/projects/odoo-shopify-connector/">Shopify connector for Odoo</a>. These are the reasons the numbers differ, and how to make them line up.</p>
+            <h2>A payout is a net number</h2>
+            <p>Shopify Payments doesn&apos;t send you your sales. It sends what&apos;s left after it settles everything else: sales, minus refunds, minus processing fees, minus disputes, plus or minus adjustments. If you book the payout as revenue, your revenue is wrong and your fees are invisible.</p>
+            <p>The fix is to book the parts, not the total. Sales go to revenue, fees to an expense account, refunds against sales, and the payout itself is just money moving from a clearing account to the bank.</p>
+            <h2>A payout doesn&apos;t cover one day</h2>
+            <p>A payout includes transactions from several days, depending on your payout schedule, and a Friday order can arrive in Tuesday&apos;s payout. Matching orders to deposits by date never works for long. Match them by payout instead: Shopify records which balance transactions make up each payout, and that list is the only reliable link between an order and the money in the bank.</p>
+            <h2>Refunds come out of later payouts</h2>
+            <p>When you refund an order from last month, the money comes out of a payout this month. Your sales report puts the refund against the original order. Your bank shows a smaller deposit today. Both are right.</p>
+            <h2>Disputes take money twice</h2>
+            <p>When a customer disputes a charge, the disputed amount and a chargeback fee are taken from your balance. If you win, the amount comes back, usually weeks later. That&apos;s three separate entries for one order, spread over two or three payouts.</p>
+            <h2>Gift cards aren&apos;t revenue when you sell them</h2>
+            <p>Selling a gift card is taking money you owe back as goods later. It belongs in a liability account until the card is used. Book gift card sales as revenue and you count the same sale twice: once when the card is bought, again when it&apos;s spent.</p>
+            <h2>Currency conversion</h2>
+            <p>If you sell in more than one currency, conversions show up as their own balance transactions, and the rate on the day of the sale isn&apos;t the rate on the day of the payout. Shopify&apos;s 2026-10 API added a separate <code>CURRENCY_CONVERSION</code> transaction type, so the conversion can be booked on its own line instead of hiding inside a rounding difference.</p>
+            <h2>Reserves and adjustments</h2>
+            <p>Shopify can hold part of your balance as a reserve, and corrections show up as adjustments. Neither is a sale or a fee, so both need their own accounts.</p>
+            <h2>How to make it balance</h2>
+            <p>Treat every payout as a small journal entry built from its balance transactions: each sale, refund, fee, dispute and adjustment on its own line, all landing in a clearing account that the bank deposit then empties. If the lines don&apos;t add up to the payout, something is mapped wrong, and that&apos;s worth knowing.</p>
+            <p>That&apos;s how our accounting module for Odoo works. It plans each entry from Shopify&apos;s exact amounts, and if the entry doesn&apos;t balance it stops with a clear error. It never adds a &ldquo;balancing line&rdquo; to make the difference go away, because that line is just the mistake, written down where nobody will look.</p>
+            <p>If your Shopify money and your books disagree every month, <a href="/shopify/">we can help</a>.</p>
+            <p><strong>Keep reading:</strong> <a href="/posts/connect-shopify-to-odoo-19-community/">Connecting Shopify to Odoo 19 Community, Step by Step</a>, or <a href="/posts/shopify-2026-10-api-what-breaks/">Shopify&#x27;s 2026-10 API: What Breaks in Your Integrations</a>.</p>
+          </div>
+        </article>
+      </section>
+      <section class="section narrow center">
+        <form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="3406194" data-uid="601cc89535" data-format="inline" data-version="5" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+          <div class="formkit-background" style="opacity: 0.2"></div>
+          <div data-style="minimal">
+            <div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+              <h2><strong>Learn something from this post?</strong></h2>
+            </div>
+            <div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+              <p>I would love your email address so I can send you more posts like this whenever a new one got published.</p>
+            </div>
+            <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+            <div data-element="fields" data-stacked="false" class="seva-fields formkit-fields">
+              <div class="formkit-field">
+                <input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required type="email" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" />
+              </div>
+              <button data-element="submit" class="formkit-submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+                <div class="formkit-spinner"><div></div><div></div><div></div></div>
+                <span>Subscribe</span>
+              </button>
+            </div>
+            <div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">I will not send you spam. Unsubscribe at any time.</div>
+            <div class="formkit-powered-by-convertkit-container">
+              <a href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="dark" target="_blank" rel="nofollow noopener noreferrer">Built with ConvertKit</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <nav class="footer-links">
+        <a href="/about-us/">About</a>
+        <a href="/projects/">Projects</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+      </nav>
+      <hr />
+      <ul class="social-links">
+        <li><a href="https://github.com/sawirricardo" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/rsawir" target="_blank" rel="nofollow noreferrer noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/RicardoSawir" target="_blank" rel="nofollow noreferrer noopener">Twitter</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
