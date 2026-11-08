@@ -36,15 +36,15 @@ A trading card game sells on its art, so the site gets out of the way: dark page
 
 ## More projects
 
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
 [![Kantong Sayur Application](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
 
 ### Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/)
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/)
-[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
-
-### Growinc Group Website](https://sawirstudio.com/projects/growinc-group-website/)
 
 Enough about us.
 

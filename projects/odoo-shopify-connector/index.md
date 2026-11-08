@@ -36,15 +36,15 @@ Want it set up or extended for your stores? See [Shopify integrations](https://s
 
 ## More projects
 
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
 [![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### DBTV Application](https://sawirstudio.com/projects/dbtv-application/)
-[![Kantong Sayur Application](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/)
 
 Enough about us.
 

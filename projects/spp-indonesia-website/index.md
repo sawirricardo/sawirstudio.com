@@ -38,9 +38,9 @@ SPP’s buyers usually already know which pump they need. So the menu lists ever
 [![Sawirly](https://sawirstudio.com/assets/images/projects/sawirly-icon.webp)
 
 ### Sawirly](https://sawirstudio.com/projects/sawirly/)
-[![NoFapFit](https://sawirstudio.com/assets/images/projects/nofapfit-icon.webp)
+[![Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter-icon.webp)
 
-### NoFapFit](https://sawirstudio.com/projects/nofapfit/)
+### Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/)
 
 Enough about us.
 

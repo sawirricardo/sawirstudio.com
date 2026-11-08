@@ -21,15 +21,15 @@ Links can have a custom alias, run between a start and end date, or work for a s
 
 ## More projects
 
+[![Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter-icon.webp)
+
+### Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/)
 [![NoFapFit](https://sawirstudio.com/assets/images/projects/nofapfit-icon.webp)
 
 ### NoFapFit](https://sawirstudio.com/projects/nofapfit/)
 [![WordPress Plugins](https://sawirstudio.com/assets/images/projects/wordpress-plugins.webp)
 
 ### WordPress Plugins](https://sawirstudio.com/projects/wordpress-plugins/)
-[![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
-
-### Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/)
 
 Enough about us.
 

@@ -42,6 +42,9 @@ Clear Filter
 [![Sawirly](https://sawirstudio.com/assets/images/projects/sawirly-icon.webp)
 
 ## Sawirly](https://sawirstudio.com/projects/sawirly/)
+[![Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter-icon.webp)
+
+## Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/)
 [![NoFapFit](https://sawirstudio.com/assets/images/projects/nofapfit-icon.webp)
 
 ## NoFapFit](https://sawirstudio.com/projects/nofapfit/)
@@ -54,6 +57,9 @@ Clear Filter
 [![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ## Colvaron Conquest Website](https://sawirstudio.com/projects/colvaron-conquest-website/)
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+## MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)

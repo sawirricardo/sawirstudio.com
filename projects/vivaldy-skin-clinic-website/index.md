@@ -28,6 +28,8 @@ Most patients find the clinic by searching for a skin specialist in Mataram, and
 
 **Built with** HTML, Tailwind CSS and Cloudflare
 
+For the clinic's day to day, we also built [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/), the system the clinic runs on and its patient app for iPhone and Android.
+
 - **Client** Vivaldy Skin Clinic
 - **Website URL** <https://vivaldyskinclinic.id>
 

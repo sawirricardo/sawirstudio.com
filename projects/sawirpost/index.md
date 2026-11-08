@@ -26,12 +26,12 @@ It is built for agency work. Clients review each post through a private preview 
 [![Sawirly](https://sawirstudio.com/assets/images/projects/sawirly-icon.webp)
 
 ### Sawirly](https://sawirstudio.com/projects/sawirly/)
+[![Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter-icon.webp)
+
+### Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/)
 [![NoFapFit](https://sawirstudio.com/assets/images/projects/nofapfit-icon.webp)
 
 ### NoFapFit](https://sawirstudio.com/projects/nofapfit/)
-[![WordPress Plugins](https://sawirstudio.com/assets/images/projects/wordpress-plugins.webp)
-
-### WordPress Plugins](https://sawirstudio.com/projects/wordpress-plugins/)
 
 Enough about us.
 

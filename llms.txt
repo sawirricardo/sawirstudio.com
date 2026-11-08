@@ -22,6 +22,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [Projects](https://sawirstudio.com/projects/index.md): Applications, websites and designs by SawirStudio, from client projects to our own apps on the App Store.
 - [SawirPost](https://sawirstudio.com/projects/sawirpost/index.md): Write a post once and publish it to 25+ social channels on schedule, built for agencies
 - [Sawirly](https://sawirstudio.com/projects/sawirly/index.md): A privacy-first URL shortener with no tracking and links that can expire
+- [Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/index.md): A free word counter that also shows reading time, post length limits and the words you repeat
 - [NoFapFit](https://sawirstudio.com/projects/nofapfit/index.md): An instant exercise challenge for the moment an urge hits, with streaks to build discipline
 - [Par](https://sawirstudio.com/projects/par/index.md): Par is a full RPN financial calculator for iPhone and iPad with the classic gold-key keystrokes: TVM, loans, NPV, IRR, bonds and more.
 - [CleanStorage](https://sawirstudio.com/projects/cleanstorage/index.md): CleanStorage finds duplicate photos, large videos and repeated contacts on your iPhone, so you can decide what to keep. No ads, no subscription.
@@ -32,6 +33,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [WordPress Plugins](https://sawirstudio.com/projects/wordpress-plugins/index.md): Twelve free WordPress plugins by SawirStudio: subscriptions, referrals, restock alerts and more for WooCommerce, plus tools for any WordPress site.
 - [Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/index.md): An open-source Shopify connector for Odoo 19 Community, written by SawirStudio and maintained in the Odoo Community Association (OCA).
 - [Colvaron Conquest Website](https://sawirstudio.com/projects/colvaron-conquest-website/index.md): Website for Colvaron Conquest, a strategic trading card game, designed and built by SawirStudio.
+- [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/index.md): MyVivaldy, the clinic system and patient app for Vivaldy Skin Clinic: booking, visit history and prescriptions on iPhone and Android, built by SawirStudio.
 - [Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/index.md): Koperasi HOB’s shopping app: members browse household goods by category, choose delivery or pick-up, and pay with their cooperative balance.
 - [DBTV Application](https://sawirstudio.com/projects/dbtv-application/index.md): DBTV brings Ps. Debby Basjir’s sermons, prayer services, worship, podcasts and daily devotionals to iOS and Android. Built by SawirStudio.
 - [Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/index.md): Vegetable and grocery shopping app and website for KantongSayur, built by SawirStudio.

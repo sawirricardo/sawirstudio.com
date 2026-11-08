@@ -24,6 +24,8 @@ We designed its marketing materials, such as this Eid al-Fitr greeting card (“
 
 A greeting card from a skin clinic should feel like a gift, not an advert. So the card leads with the wish, links it gently to what the clinic does, clean and glowing skin, and keeps the logo small in the corner.
 
+For the clinic's day to day, we also built [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/), the system the clinic runs on and its patient app for iPhone and Android.
+
 - **Client** Vivaldy Skin Clinic
 
 ## More projects
