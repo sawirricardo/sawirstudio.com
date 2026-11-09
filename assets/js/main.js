@@ -645,3 +645,68 @@
     io.observe(s);
   });
 })();
+
+// Suggest the visitor's own language when this page exists in it. Never redirects:
+// it asks once, and any choice (or a click on the footer's language list) is remembered.
+(function () {
+  const links = document.querySelectorAll(".lang-links a[hreflang]");
+  if (!links.length || navigator.webdriver) return;
+  const store = {
+    get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} },
+  };
+  links.forEach((a) => a.addEventListener("click", () => store.set("lang", a.hreflang.toLowerCase())));
+  if (store.get("lang")) return;
+
+  const available = {};
+  links.forEach((a) => (available[a.hreflang.toLowerCase()] = a));
+  const match = (tag) => {
+    tag = tag.toLowerCase();
+    if (tag.startsWith("zh")) return /hant|-(tw|hk|mo)\b/.test(tag) ? "zh-hant" : "zh-hans";
+    return tag.split("-")[0];
+  };
+  const wanted = (navigator.languages || [navigator.language]).map(match).find((c) => available[c]);
+  const current = document.documentElement.lang.toLowerCase();
+  if (!wanted || wanted === current) return;
+
+  // Asked in the language being offered, since that's the one the visitor reads.
+  const text = {
+    en: ["Read this page in English?", "Switch", "No thanks"],
+    "zh-hans": ["要以简体中文阅读本页吗？", "切换", "不用了"],
+    "zh-hant": ["要以繁體中文閱讀本頁嗎？", "切換", "不用了"],
+    ja: ["このページを日本語で表示しますか？", "切り替える", "閉じる"],
+    de: ["Diese Seite auf Deutsch lesen?", "Wechseln", "Nein, danke"],
+    fr: ["Lire cette page en français ?", "Changer", "Non merci"],
+    nl: ["Deze pagina in het Nederlands lezen?", "Wisselen", "Nee, bedankt"],
+    it: ["Leggere questa pagina in italiano?", "Cambia", "No, grazie"],
+    ru: ["Открыть эту страницу на русском?", "Перейти", "Нет, спасибо"],
+    hi: ["यह पेज हिंदी में पढ़ें?", "बदलें", "नहीं, धन्यवाद"],
+    ar: ["هل تريد قراءة هذه الصفحة بالعربية؟", "التبديل", "لا، شكرًا"],
+    he: ["לקרוא את הדף הזה בעברית?", "מעבר", "לא, תודה"],
+  }[wanted];
+  if (!text) return;
+
+  const bar = document.createElement("div");
+  bar.className = "lang-suggest";
+  bar.lang = available[wanted].lang;
+  bar.dir = ["ar", "he"].includes(wanted) ? "rtl" : "ltr";
+  bar.setAttribute("role", "region");
+  bar.setAttribute("aria-label", text[0]);
+  const p = document.createElement("p");
+  p.textContent = text[0];
+  const go = document.createElement("a");
+  go.className = "button";
+  go.href = available[wanted].href;
+  go.textContent = text[1];
+  const no = document.createElement("button");
+  no.type = "button";
+  no.className = "lang-suggest-close";
+  no.textContent = text[2];
+  go.addEventListener("click", () => store.set("lang", wanted));
+  no.addEventListener("click", () => {
+    store.set("lang", current);
+    bar.remove();
+  });
+  bar.append(p, go, no);
+  document.body.append(bar);
+})();
