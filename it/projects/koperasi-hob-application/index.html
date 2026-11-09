@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>App Koperasi HOB | SawirStudio</title>
+<meta content="L’app per gli acquisti di Koperasi HOB: i soci sfogliano gli articoli per la casa per categoria, scelgono consegna o ritiro e pagano con il saldo della cooperativa." name="description"/>
+<meta content="App Koperasi HOB | SawirStudio" property="og:title"/>
+<meta content="L’app per gli acquisti di Koperasi HOB: i soci sfogliano gli articoli per la casa per categoria, scelgono consegna o ritiro e pagano con il saldo della cooperativa." property="og:description"/>
+<meta content="https://sawirstudio.com/it/projects/koperasi-hob-application/" property="og:url"/>
+<link href="https://sawirstudio.com/it/projects/koperasi-hob-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/koperasi-hob-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Applicazione Koperasi HOB",
+          "description": "L’app per gli acquisti di Koperasi HOB: i soci sfogliano gli articoli per la casa per categoria, scelgono consegna o ritiro e pagano con il saldo della cooperativa.",
+          "url": "https://sawirstudio.com/it/projects/koperasi-hob-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Progetti",
+              "item": "https://sawirstudio.com/it/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Applicazione Koperasi HOB",
+              "item": "https://sawirstudio.com/it/projects/koperasi-hob-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/koperasi-hob-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/koperasi-hob-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a aria-current="true" href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a aria-current="page" href="/it/projects/koperasi-hob-application/">App Koperasi HOB</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Applicazione Koperasi HOB</h1>
+<p class="lead-sm">L’app per la spesa di ogni giorno di una cooperativa</p>
+<img alt="Banner dell’app Koperasi HOB" class="project-hero" fetchpriority="high" height="782" src="/assets/images/projects/koperasi-hob-application.webp" style="view-transition-name: media-koperasi-hob-application" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>Il cliente</h2>
+<p>Koperasi HOB è una cooperativa che vende ai propri soci articoli per la casa di uso quotidiano attraverso i suoi negozi.</p>
+<h2>Cosa abbiamo realizzato</h2>
+<p>Abbiamo realizzato l’intero shop: l’app per i soci, l’API che c’è dietro e il pannello di amministrazione da cui la cooperativa lo gestisce. L’app è online sull’App Store da dicembre 2025.</p>
+<ul>
+<li><strong>Acquisti.</strong> I soci sfogliano i prodotti per categoria e sottocategoria, salvano i preferiti e possono chiedere alla cooperativa di inserire un prodotto che ancora non ha a catalogo.</li>
+<li><strong>Checkout.</strong> Consegna a domicilio o ritiro in negozio. La consegna ha un prezzo in base alla zona di spedizione, abbinata alla regione indonesiana dell’indirizzo.</li>
+<li><strong>Pagamento.</strong> Online con iPaymu o tramite bonifico bancario; quando arriva un pagamento iPaymu, l’ordine si aggiorna da solo.</li>
+<li><strong>Scorte per negozio.</strong> Ogni negozio gestisce le proprie scorte e un amministratore può chiudere gli acquisti in un negozio senza toccare gli altri.</li>
+<li><strong>Amministrazione.</strong> Lo staff gestisce prodotti, categorie, prodotti in evidenza, ordini e soci, e può stampare qualsiasi ordine in PDF.</li>
+</ul>
+<h2>Come ci siamo approcciati al progetto</h2>
+<p>I soci di una cooperativa sono vicini di casa e colleghi, non clienti anonimi, quindi l’app riduce i passaggi al minimo: scegliere i prodotti, optare per consegna o ritiro, pagare. Il lavoro più impegnativo è dietro le quinte. Le scorte sono tracciate per negozio e ricontrollate al momento del checkout, così nessuno paga qualcosa che si è appena esaurito, e le spese di spedizione derivano da zone che la cooperativa imposta autonomamente, invece che dal listino di un corriere.</p>
+<p><strong>Realizzato con</strong> Expo (React Native), Laravel, Filament e iPaymu</p>
+<div class="shots">
+<img alt="Schermata 1 dell’app Koperasi HOB" height="1067" loading="lazy" src="/assets/images/projects/koperasi-hob-application-1.webp" width="600"/>
+<img alt="Schermata 2 dell’app Koperasi HOB" height="1067" loading="lazy" src="/assets/images/projects/koperasi-hob-application-2.webp" width="600"/>
+<img alt="Schermata 3 dell’app Koperasi HOB" height="1067" loading="lazy" src="/assets/images/projects/koperasi-hob-application-3.webp" width="600"/>
+</div>
+</div>
+<ul class="project-meta">
+<li><strong>Cliente</strong> Koperasi HOB</li>
+<li><strong>URL del sito</strong> <a href="https://hob.my.id" rel="noreferrer" target="_blank">https://hob.my.id</a></li>
+<li><strong>URL dell’App Store</strong> <a href="https://apps.apple.com/id/app/koperasi-hob/id6756156054" rel="noreferrer" target="_blank">https://apps.apple.com/id/app/koperasi-hob/id6756156054</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Altri progetti</h2>
+<div class="project-grid">
+<a class="card" href="/it/projects/dbtv-application/">
+<img alt="Applicazione DBTV" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/>
+<div class="card-body"><h3>Applicazione DBTV</h3></div>
+</a>
+<a class="card" href="/it/projects/kantong-sayur-application/">
+<img alt="Applicazione Kantong Sayur" class="thumb" height="883" loading="lazy" src="/assets/images/projects/kantong-sayur-application.webp" width="1600"/>
+<div class="card-body"><h3>Applicazione Kantong Sayur</h3></div>
+</a>
+<a class="card" href="/it/projects/peoplebond-hcms-application/">
+<img alt="Applicazione PeopleBond HCMS" class="thumb" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" width="1600"/>
+<div class="card-body"><h3>Applicazione PeopleBond HCMS</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Basta parlare di noi.</p>
+<h2>Come possiamo<br/>aiutarvi?</h2>
+<a class="button" href="/it/contact/">Avviate un progetto</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/koperasi-hob-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/koperasi-hob-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/koperasi-hob-application/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/koperasi-hob-application/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/koperasi-hob-application/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/koperasi-hob-application/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/koperasi-hob-application/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/koperasi-hob-application/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/koperasi-hob-application/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/koperasi-hob-application/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/koperasi-hob-application/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

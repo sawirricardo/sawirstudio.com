@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Plugin WordPress | SawirStudio</title>
+<meta content="Dodici plugin WordPress gratuiti di SawirStudio: abbonamenti, referral, avvisi di riassortimento e altro per WooCommerce, più strumenti per qualsiasi sito WordPress." name="description"/>
+<meta content="Plugin WordPress | SawirStudio" property="og:title"/>
+<meta content="Dodici plugin WordPress gratuiti di SawirStudio: abbonamenti, referral, avvisi di riassortimento e altro per WooCommerce, più strumenti per qualsiasi sito WordPress." property="og:description"/>
+<meta content="https://sawirstudio.com/it/projects/wordpress-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/it/projects/wordpress-plugins/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/wordpress-plugins.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Plugin WordPress",
+          "description": "Dodici plugin WordPress gratuiti di SawirStudio: abbonamenti, referral, avvisi di riassortimento e altro per WooCommerce, più strumenti per qualsiasi sito WordPress.",
+          "url": "https://sawirstudio.com/it/projects/wordpress-plugins/",
+          "image": "https://sawirstudio.com/assets/images/projects/wordpress-plugins.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Progetti",
+              "item": "https://sawirstudio.com/it/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Plugin WordPress",
+              "item": "https://sawirstudio.com/it/projects/wordpress-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a aria-current="true" href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a aria-current="page" href="/it/projects/wordpress-plugins/">Plugin WordPress</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Plugin WordPress</h1>
+<img alt="Icone dei dodici plugin WordPress di Sawir Studio" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/wordpress-plugins.webp" style="view-transition-name: media-wordpress-plugins" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>Il progetto</h2>
+<p>WordPress fa girare una grossa fetta del web, e WooCommerce molti dei suoi negozi. Pubblichiamo su WordPress.org plugin gratuiti per entrambi, ognuno pensato per fare un solo lavoro e farlo bene, così chi gestisce un sito aggiunge solo ciò che gli serve, senza comprare un pacchetto pieno di cose superflue. Ogni plugin qui sotto ha la sua pagina con le funzionalità e le risposte alle domande più comuni.</p>
+<h2>Per gli shop WooCommerce</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-renew-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>.</strong> Abbonamenti per WooCommerce: fatturazione ricorrente, periodi di prova, costi di attivazione, pausa e salto di un ciclo, cambio di piano, gestione dei pagamenti falliti e nuovi tentativi intelligenti, tutto gratis.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-referral-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>.</strong> Un programma di passaparola dove si guadagna in due: gli amici ricevono uno sconto, chi consiglia ottiene un coupon premio, da condividere con un codice o un link, a partire da WhatsApp.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-pulse-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>.</strong> Riprova sociale basata solo su attività reali: ordini recenti, visitatori in tempo reale e recensioni, mostrati come piccole notifiche in un angolo della pagina.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-restock-notifier-for-woocommerce-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>.</strong> I clienti chiedono di ricevere un'email quando un prodotto esaurito torna disponibile.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-min-max-quantities-for-woocommerce-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>.</strong> Regole di quantità minima e massima per prodotto, per categoria e per l'intero ordine.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a>.</strong> Una lightbox con navigazione e zoom al clic per le gallerie dei prodotti.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-variation-gallery-tools-woocommerce-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a>.</strong> Immagini di galleria per ogni variante di prodotto, in abbinamento a Product Image Zoom.</li>
+</ul>
+<h2>Per qualsiasi sito WordPress</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-insights-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>.</strong> Heatmap, registrazioni delle sessioni, sondaggi, funnel e analisi dei moduli, con tutti i dati custoditi sul vostro server.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a>.</strong> Scrivete una volta sola e programmate la pubblicazione su 27 network da wp-admin, con modifiche per ogni canale, thread, contenuti multimediali e anteprime.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-live-translate-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>.</strong> Traducete in tempo reale qualsiasi pagina del front-end, salvate le stringhe e lasciate che i visitatori cambino lingua.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-media-folders-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a>.</strong> Cartelle veloci e illimitate per la libreria multimediale, con drag and drop.</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-role-capabilities-manager-icon.webp" width="48"/><strong><a href="/it/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a>.</strong> Create ruoli utente personalizzati e gestite cosa può fare ciascun ruolo.</li>
+</ul>
+<h2>Come ci siamo approcciati al progetto</h2>
+<p>I plugin vivono dentro le attività di altre persone, per questo ci imponiamo qualche regola. Ogni plugin è gratuito su WordPress.org e fa un solo lavoro. I dati restano sul server di chi gestisce il sito: Insights registra le sessioni senza ricorrere a servizi di terzi, e Social Scheduler conserva i token in WordPress. E niente finzioni: Pulse mostra solo attività realmente avvenute, e Renew regala le funzionalità di abbonamento che altri fanno pagare.</p>
+<p><strong>Realizzato con</strong> PHP, WordPress e WooCommerce</p>
+</div>
+<ul class="project-meta">
+<li><strong>Progetto</strong> Sawir Studio</li>
+<li><strong>Plugin</strong> 12, gratuiti</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/author/sawirricardo/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/author/sawirricardo/</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Altri progetti</h2>
+<div class="project-grid">
+<a class="card" href="/it/projects/odoo-shopify-connector/">
+<img alt="Shopify Connector for Odoo" class="thumb" height="900" loading="lazy" src="/assets/images/projects/odoo-shopify-connector.webp" width="1600"/>
+<div class="card-body"><h3>Shopify Connector for Odoo</h3></div>
+</a>
+<a class="card" href="/it/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/it/projects/koperasi-hob-application/">
+<img alt="Applicazione Koperasi HOB" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Applicazione Koperasi HOB</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Basta parlare di noi.</p>
+<h2>Come possiamo<br/>aiutarvi?</h2>
+<a class="button" href="/it/contact/">Avviate un progetto</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/wordpress-plugins/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/wordpress-plugins/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

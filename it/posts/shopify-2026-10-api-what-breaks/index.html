@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>API Shopify 2026-10: cosa si rompe | SawirStudio</title>
+<meta content="Le modifiche della versione 2026-10 della Shopify Admin API che possono rompere un'integrazione e cosa cambiare: tariffe di spedizione, sconti delle bozze d'ordine, imposte, codici a barre e altro." name="description"/>
+<meta content="API Shopify 2026-10: cosa si rompe | SawirStudio" property="og:title"/>
+<meta content="Le modifiche della versione 2026-10 della Shopify Admin API che possono rompere un'integrazione e cosa cambiare: tariffe di spedizione, sconti delle bozze d'ordine, imposte, codici a barre e altro." property="og:description"/>
+<meta content="https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/" property="og:url"/>
+<link href="https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "API 2026-10 di Shopify: cosa si rompe nelle vostre integrazioni",
+          "description": "Le modifiche della versione 2026-10 della Shopify Admin API che possono rompere un'integrazione e cosa cambiare: tariffe di spedizione, sconti delle bozze d'ordine, imposte, codici a barre e altro.",
+          "url": "https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/it/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "API 2026-10 di Shopify: cosa si rompe nelle vostre integrazioni",
+              "item": "https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a aria-current="true" href="/it/posts/">Blog</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Breadcrumb" class="breadcrumbs is-center">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a aria-current="page" href="/it/posts/shopify-2026-10-api-what-breaks/">API 2026-10 di Shopify: cosa si rompe nelle vostre integrazioni</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">API 2026-10 di Shopify: cosa si rompe nelle vostre integrazioni</h1>
+<div class="prose prose-xl">
+<p>Il 1° ottobre 2026 Shopify ha rilasciato la versione 2026-10 delle sue API. Gran parte delle novità sono funzionalità che potete ignorare finché non servono. Alcune modifiche, però, possono rompere in silenzio un'integrazione che con la 2026-07 funzionava senza problemi: sono quelle per cui vale la pena dedicare un'ora prima di cambiare versione.</p>
+<p>Questa è la lista che controlliamo sulle nostre integrazioni, compreso il <a href="/it/projects/odoo-shopify-connector/">connettore Shopify per Odoo</a>. Non comprende tutte le righe delle note di rilascio, ma solo quelle che cambiano il comportamento.</p>
+<h2>Modifiche che rompono le cose in silenzio</h2>
+<h3>I nuovi carrier service non mostrano le tariffe al checkout da soli</h3>
+<p>Creare un carrier service con <code>carrierServiceCreate</code> (o con <code>POST carrier_services.json</code> in REST) ora si limita a registrare il servizio. Le sue tariffe non vengono più aggiunte al profilo di spedizione generale. Se la vostra app o il vostro script di onboarding crea un carrier service e si aspetta che i clienti vedano le vostre tariffe, non le vedranno finché non aggiungete voi il servizio a un profilo di spedizione.</p>
+<h3>Cambiare l'indirizzo di spedizione ricalcola le imposte</h3>
+<p>Aggiornare l'indirizzo di spedizione di un ordine non ancora evaso con <code>orderUpdate</code>, o con l'endpoint REST di aggiornamento degli ordini, ora ne ricalcola le imposte. È il comportamento giusto, ma se modificate gli indirizzi da un ERP o da uno strumento di assistenza, il totale dell'ordine può cambiare senza che ve ne accorgiate. Dopo l'aggiornamento rileggete <code>taxLines</code>, <code>totalTaxSet</code> e i totali, e regolate l'eventuale differenza tra quanto pagato e quanto rimborsato.</p>
+<h3>Gli avvisi sugli sconti delle bozze d'ordine hanno perso <code>priceRule</code></h3>
+<p><code>DraftOrderDiscountNotAppliedWarning.priceRule</code> e i tipi legacy <code>PriceRule</code> sono stati rimossi. Se create bozze d'ordine con <code>draftOrderCalculate</code>, <code>draftOrderCreate</code> o <code>draftOrderUpdate</code> e leggete il motivo per cui uno sconto non è stato applicato, selezionate invece <code>discountTitle</code> e <code>discountCode</code>.</p>
+<h3>I filtri sui metafield errati ora falliscono in modo esplicito</h3>
+<p>Una query sui prodotti che filtrava su un metafield non filtrabile ignorava quella parte del filtro e restituiva tutto. Ora restituisce un errore. È meglio così, ma una sincronizzazione che da mesi restituisce «tutti i prodotti» inizierà a fallire il giorno in cui cambiate versione. Verificate che le definizioni dei metafield su cui filtrate supportino il filtro e gli operatori che usate.</p>
+<h3>Una variante può avere più di un codice a barre</h3>
+<p><code>ProductVariant.barcodes</code> è una nuova connection che contiene fino a 20 codici a barre tipizzati. Il vecchio <code>ProductVariant.barcode</code> è deprecato e restituisce solo il primo. Se il vostro magazzino o il vostro punto vendita associa i prodotti tramite codice a barre, leggete l'elenco completo.</p>
+<h3>Un errore di inventario non esiste più</h3>
+<p><code>ITEM_NOT_STOCKED_AT_LOCATION</code> è stato rimosso dalle mutation di inventario e da <code>InventorySetQuantitiesUserErrorCode</code>. Il codice che si basa su questo valore ora è codice morto: eliminatelo, così nessuno ci farà affidamento in futuro.</p>
+<h2>Modifiche minori da cercare nel vostro codice</h2>
+<ul>
+<li><strong>Segmenti di clienti.</strong> <code>MATCHES</code> e <code>NOT MATCHES</code> sostituiscono <code>= true</code> e <code>= false</code>, e le date con nome come <code>12_months_ago</code> sono deprecate a favore di offset come <code>-12m</code>.</li>
+<li><strong>Consenso SMS.</strong> I campi piatti per il consenso SMS sono deprecati. Leggete <code>CustomerPhoneNumber.smsMarketingConsent</code>.</li>
+<li><strong>Sconti nei rollout.</strong> Quando uno sconto fa parte di un rollout, <code>startsAt</code> e <code>endsAt</code> non dicono se è attivo. Per leggere <code>Discount.rollouts</code> serve lo scope <code>read_rollouts</code>.</li>
+<li><strong>Stato di evasione.</strong> <code>FULFILLMENT_NOT_REQUIRED</code> è un nuovo valore. Uno <code>switch</code> che gestisce ogni stato finirà nel caso predefinito.</li>
+<li><strong>Customer Account API.</strong> <code>Customer.lastIncompleteCheckout</code> e i tipi <code>Checkout</code> sono stati rimossi, senza alternative.</li>
+<li><strong>Estensioni UI per POS.</strong> Le mutation del carrello come <code>applyCartDiscount</code> ora vengono rifiutate se il POS non conferma la modifica, e <code>session.currentSession.staffMemberId</code> è stato rimosso.</li>
+</ul>
+<h2>Due scadenze che non riguardano la 2026-10</h2>
+<p>Se gestite un'app pubblica, i token di accesso offline senza scadenza vanno sostituiti con token a scadenza entro il 1° gennaio 2027. Sono escluse le app personalizzate e le app create da un merchant nella Dev Dashboard. Inoltre, gli script tag dello store online smettono di funzionare il 1° marzo 2027: abbiamo spiegato a parte <a href="/it/posts/shopify-script-tags-stop-march-2027/">cosa significa per i negozi</a>.</p>
+<h2>Come aggiorniamo</h2>
+<p>Fissiamo la versione dell'API in un unico punto, facciamo girare l'integrazione su un development store con la nuova versione e leggiamo il <a href="https://shopify.dev/changelog?api_version=2026-10" rel="noopener" target="_blank">changelog della 2026-10</a> filtrato su «Action required». La versione 2026-10 è supportata almeno fino al 1° ottobre 2027, quindi c'è tempo, ma non così tanto da aspettare l'arrivo delle email di avviso.</p>
+<p>Se il vostro negozio dialoga con Odoo o con un altro sistema e preferite che se ne occupi qualcun altro, <a href="/it/shopify/">è quello che facciamo</a>.</p>
+<p><strong>Continuate a leggere:</strong> <a href="/it/posts/shopify-script-tags-stop-march-2027/">Gli script tag di Shopify smettono di funzionare il 1° marzo 2027: cosa devono fare i titolari dei negozi</a>, oppure <a href="/it/posts/connect-shopify-to-odoo-19-community/">Collegare Shopify a Odoo 19 Community, passo dopo passo</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Avete imparato qualcosa da questo articolo?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Vorrei avere il vostro indirizzo email per inviarvi altri articoli come questo ogni volta che ne viene pubblicato uno nuovo.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Indirizzo email" class="formkit-input" name="email_address" placeholder="Indirizzo email" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Iscrivetevi</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Non vi invieremo spam. Potete annullare l'iscrizione in qualsiasi momento.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Realizzato con ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/shopify-2026-10-api-what-breaks/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/shopify-2026-10-api-what-breaks/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/shopify-2026-10-api-what-breaks/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/shopify-2026-10-api-what-breaks/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/shopify-2026-10-api-what-breaks/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/shopify-2026-10-api-what-breaks/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/shopify-2026-10-api-what-breaks/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/shopify-2026-10-api-what-breaks/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/shopify-2026-10-api-what-breaks/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

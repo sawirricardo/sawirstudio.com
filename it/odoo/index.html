@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Odoo &amp; sistemi gestionali su misura | SawirStudio</title>
+<meta content="Punto cassa, magazzino, acquisti e contabilità in un unico sistema: Odoo configurato sul vostro modo di lavorare, sviluppo su misura quando non si adatta, oppure entrambi. Da chi scrive moduli per Odoo." name="description"/>
+<meta content="Odoo &amp; sistemi gestionali su misura | SawirStudio" property="og:title"/>
+<meta content="Punto cassa, magazzino, acquisti e contabilità in un unico sistema: Odoo configurato sul vostro modo di lavorare, sviluppo su misura quando non si adatta, oppure entrambi. Da chi scrive moduli per Odoo." property="og:description"/>
+<meta content="https://sawirstudio.com/it/odoo/" property="og:url"/>
+<link href="https://sawirstudio.com/it/odoo/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Odoo & sistemi gestionali su misura",
+          "serviceType": "Implementazione di Odoo e sviluppo di software gestionale su misura",
+          "description": "Punto cassa, magazzino, acquisti e contabilità in un unico sistema: Odoo configurato sul vostro modo di lavorare, sviluppo su misura quando non si adatta, oppure entrambi. Da chi scrive moduli per Odoo.",
+          "url": "https://sawirstudio.com/it/odoo/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Odoo & sistemi gestionali",
+              "item": "https://sawirstudio.com/it/odoo/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/odoo/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/odoo/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/odoo/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/odoo/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/odoo/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/odoo/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/odoo/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/odoo/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/odoo/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/odoo/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/odoo/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/odoo/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a aria-current="page" href="/it/odoo/">Odoo &amp; sistemi gestionali</a></li>
+</ol>
+</nav>
+<p class="hello">novità: odoo &amp; sistemi gestionali</p>
+<h1>Un unico sistema, dalla cassa <span class="mark mark-blue">alla contabilità</span>.</h1>
+<p class="lead">Punto cassa, magazzino, acquisti e contabilità in un unico posto. Su Odoo quando si adatta al vostro modo di lavorare, su misura quando non lo fa, e <span class="wavy">vi diciamo quale delle due strade prima che spendiate qualsiasi cosa</span>.</p>
+<p class="hero-actions"><a class="button" href="/it/contact/">Avviate un progetto</a> <a class="see-all" href="#odoo-or-custom">Odoo o su misura?</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">Cosa facciamo</h2>
+<ul class="offers">
+<li>
+<h3>Odoo, configurato per voi</h3>
+<p>Punto cassa, magazzino, acquisti, vendite e contabilità, configurati sul modo in cui la vostra azienda lavora già, e non il contrario. Conosciamo Odoo da dentro perché scriviamo moduli per Odoo.</p>
+</li>
+<li>
+<h3>Tutti i negozi su un unico inventario</h3>
+<p>Ogni punto vendita e ogni magazzino sulle stesse giacenze, con taglie e colori come varianti, codici a barre, trasferimenti tra negozi e un punto di riordino che vi avvisa prima che la merce finisca.</p>
+</li>
+<li>
+<h3>Vendite online sulle stesse giacenze</h3>
+<p>Il vostro negozio Shopify tramite il <a href="/it/projects/odoo-shopify-connector/">connettore open source che abbiamo scritto</a>, e il vostro sito o altri canali tramite le rispettive API, così non vendete mai ciò che non avete più.</p>
+</li>
+<li>
+<h3>Su misura</h3>
+<p>Quando a distinguervi è il modo in cui lavorate, costruiamo il sistema intorno a quello: una web app per l'ufficio, un'app per il vostro personale o per i clienti, e il pannello di amministrazione che sta dietro. Il codice e i dati sono vostri. Scoprite il <a href="/it/custom/">software su misura</a>.</p>
+</li>
+<li>
+<h3>Odoo, più i vostri moduli</h3>
+<p>Spesso Odoo copre quasi tutto e una parte del vostro lavoro richiede qualcosa di specifico. Teniamo Odoo come base e sviluppiamo l'unico modulo, app o report che manca.</p>
+</li>
+<li>
+<h3>Il passaggio al nuovo sistema</h3>
+<p>Prodotti, clienti, fornitori, giacenze iniziali e saldi importati da fogli di calcolo o dal vostro vecchio software, e il personale di cassa formato prima della messa in produzione.</p>
+</li>
+</ul>
+</section>
+<section class="section" id="odoo-or-custom">
+<div class="prose center">
+<h2>Odoo o su misura?</h2>
+<p>È la prima domanda che tutti ci fanno, e la risposta onesta dipende da quanto sia davvero particolare la vostra attività.</p>
+<ul>
+<li><strong>Odoo</strong> quando il vostro flusso è quello della maggior parte di negozi, distributori e ristoranti: vendere, riassortire, pagare i fornitori, chiudere il mese. È più rapido ed economico, è open source e Odoo Community non ha costi di licenza. Vi adattate un po' al sistema.</li>
+<li><strong><a href="/it/custom/">Su misura</a></strong> quando il sistema <em>è</em> l'attività: un modello di prezzi, una catena di approvazioni o un servizio con cui Odoo vi darebbe battaglia a ogni passo. Costa di più all'inizio e si adatta perfettamente.</li>
+<li><strong>Entrambi</strong> quando Odoo copre l'operatività quotidiana e una parte del vostro lavoro è solo vostra. È la risposta più frequente.</li>
+</ul>
+<p>Prima mappiamo il vostro flusso, poi ne consigliamo uno per iscritto, con il costo di ciascuna opzione. Qualunque strada scegliate, si basa su strumenti aperti e diffusi che qualsiasi buon sviluppatore può prendere in mano, quindi non restate mai legati a noi.</p>
+</div>
+</section>
+<section class="section">
+<h2 class="section-title">Come lavoriamo</h2>
+<ol class="values">
+<li>
+<h3>Prima, un giro sul campo.</h3>
+<p>Seguiamo una vendita, una consegna, un inventario e una chiusura mensile così come avvengono oggi, e annotiamo dove le cose si perdono.</p>
+</li>
+<li>
+<h3>Una parte alla volta.</h3>
+<p>Di solito prima cassa e magazzino, poi gli acquisti, poi la contabilità. Ogni parte gira sui vostri dati reali prima che inizi la successiva, così il negozio non si ferma mai.</p>
+</li>
+<li>
+<h3>Restiamo con voi.</h3>
+<p>Nuovi punti vendita, nuovi report, aggiornamenti di versione di Odoo e le domande che arrivano in un sabato di punta. PeopleBond lavora con noi dal 2019.</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">Cosa non faremo</p>
+<p>Vendervi un sistema che non vi serve. Se le app standard di Odoo coprono le vostre esigenze, ve lo diremo e lasceremo da parte lo sviluppo su misura. Se il vostro flusso è davvero diverso, non lo forzeremo dentro Odoo solo perché è più comodo per noi.</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/it/ricardosawir/">Ricardo Sawir</a>, fondatore</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>Il lavoro dietro</h2>
+<ul>
+<li><a href="/it/projects/odoo-shopify-connector/">Shopify Connector for Odoo</a>: scritto da noi e donato alla Odoo Community Association a luglio 2026, con moduli per contabilità e punto cassa. Scoprite <a href="/it/posts/connect-shopify-to-odoo-19-community/">come configurarlo</a>.</li>
+<li><a href="/it/projects/peoplebond-hcms-application/">PeopleBond</a>: una piattaforma HR e la sua app per i dipendenti, costruite su misura insieme al loro team dal 2019.</li>
+<li><a href="/it/projects/kantong-sayur-application/">Kantong Sayur</a>: un marketplace di spesa alimentare per i mercati tradizionali, con app per clienti e commercianti, un pannello di amministrazione e, in seguito, una parte dedicata al commercio all'ingrosso.</li>
+<li><a href="/it/projects/koperasi-hob-application/">Koperasi HOB</a>: un'app per la spesa alimentare di ogni giorno, pensata per una cooperativa.</li>
+<li><a href="/it/projects/calvin-kain/">Calvin Kain</a>: l'e-commerce di un marchio di hijab e foulard.</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/odoo/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/odoo/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/odoo/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/odoo/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/odoo/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/odoo/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/odoo/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/odoo/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/odoo/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/odoo/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/odoo/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

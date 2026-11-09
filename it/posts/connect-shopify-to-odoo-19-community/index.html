@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Collegare Shopify a Odoo 19 Community | SawirStudio</title>
+<meta content="Come collegare un negozio Shopify a Odoo 19 Community con il connettore Shopify open source di OCA: app nella Dev Dashboard, scope, queue_job, webhook e onboarding." name="description"/>
+<meta content="Collegare Shopify a Odoo 19 Community | SawirStudio" property="og:title"/>
+<meta content="Come collegare un negozio Shopify a Odoo 19 Community con il connettore Shopify open source di OCA: app nella Dev Dashboard, scope, queue_job, webhook e onboarding." property="og:description"/>
+<meta content="https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/" property="og:url"/>
+<link href="https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Collegare Shopify a Odoo 19 Community, passo dopo passo",
+          "description": "Come collegare un negozio Shopify a Odoo 19 Community con il connettore Shopify open source di OCA: app nella Dev Dashboard, scope, queue_job, webhook e onboarding.",
+          "url": "https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/it/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Collegare Shopify a Odoo 19 Community, passo dopo passo",
+              "item": "https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a aria-current="true" href="/it/posts/">Blog</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Breadcrumb" class="breadcrumbs is-center">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a aria-current="page" href="/it/posts/connect-shopify-to-odoo-19-community/">Collegare Shopify a Odoo 19 Community, passo dopo passo</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Collegare Shopify a Odoo 19 Community, passo dopo passo</h1>
+<div class="prose prose-xl">
+<p>Abbiamo scritto il <a href="/it/projects/odoo-shopify-connector/">connettore Shopify per Odoo</a> e lo abbiamo donato alla Odoo Community Association (OCA). È gratuito, open source (AGPL-3) e funziona con Odoo 19 Community. Questa è la configurazione, dall'inizio alla fine, come la facciamo per i nostri clienti.</p>
+<p>Sincronizza prodotti, giacenze, clienti, ordini, resi, rimborsi ed evasione degli ordini, per un solo negozio o per più negozi. Contabilità e punto vendita sono moduli separati che potete aggiungere in seguito.</p>
+<h2>Prima di iniziare</h2>
+<ul>
+<li>Odoo 19 Community raggiungibile tramite HTTPS pubblico. Shopify invia i webhook a questo indirizzo e da qui scarica le immagini dei prodotti.</li>
+<li>Accesso come amministratore al negozio Shopify e all'organizzazione Shopify a cui appartiene.</li>
+<li>Un piano Shopify che includa i dati protetti dei clienti per le app create da voi. Il piano Basic non li include e, senza, Shopify rifiuta alcuni webhook degli ordini e l'importazione di ordini e clienti non funziona.</li>
+</ul>
+<h2>1. Creare l'app nella Dev Dashboard di Shopify</h2>
+<p>Dal 1° gennaio 2026 Shopify non permette più di creare le vecchie «app personalizzate» dall'area amministrativa del negozio. Create l'app nella <strong>Dev Dashboard</strong> dell'organizzazione a cui appartiene il negozio. È importante: Odoo ottiene il suo token di accesso con il client credentials grant, che funziona solo se l'app e il negozio appartengono alla stessa organizzazione.</p>
+<p>Quando compilate la versione dell'app:</p>
+<ul>
+<li><strong>App URL:</strong> <code>https://shopify.dev/apps/default-app-home</code>. Il connettore non ha nessuna pagina dentro Shopify.</li>
+<li><strong>Embed app in Shopify admin:</strong> disattivato.</li>
+<li><strong>Use legacy install flow:</strong> disattivato, così l'installazione dell'app concede gli scope che avete scelto.</li>
+<li><strong>Webhooks:</strong> nessuno. Odoo crea i propri durante l'onboarding.</li>
+<li><strong>Webhooks API version:</strong> <code>2026-01</code>, la versione usata dal connettore.</li>
+<li><strong>Scopes:</strong> <code>read_customers</code>, <code>write_customers</code>, <code>read_draft_orders</code>, <code>read_fulfillments</code>, <code>read_inventory</code>, <code>write_inventory</code>, <code>read_locations</code>, <code>read_merchant_managed_fulfillment_orders</code>, <code>write_merchant_managed_fulfillment_orders</code>, <code>read_orders</code>, <code>read_products</code>, <code>write_products</code> e <code>read_returns</code>. Aggiungete <code>read_all_orders</code> se volete gli ordini più vecchi di 60 giorni.</li>
+</ul>
+<p>Rilasciate la versione, installate l'app sul negozio e copiate client ID e client secret dalla pagina Impostazioni dell'app.</p>
+<p>Avete già una vecchia custom app creata prima del 2026? Funziona ancora. Lasciate vuoto il client ID e usate il suo Admin API access token e la sua API secret key.</p>
+<h2>2. Installare i moduli in Odoo</h2>
+<p>Aggiungete OCA <code>queue_job</code> e il repository <a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">connector-shopify</a> al percorso degli addons, poi installate <strong>Shopify Connector</strong>. Il lavoro viene eseguito come job in background, quindi <code>queue_job</code> deve essere caricato a livello di server, con una capacità per ogni canale Shopify:</p>
+<pre><code>[options]
+server_wide_modules = base,rpc,web,queue_job
+
+[queue_job]
+channels = root:4,root.shopify.import:2,root.shopify.export:1,root.shopify.webhook:1</code></pre>
+<p>Poi impostate il parametro di sistema <code>web.base.url</code> sull'indirizzo HTTPS pubblico di Odoo e <code>web.base.url.freeze</code> su <code>True</code>. Altrimenti l'indirizzo cambia quando un amministratore accede da un altro posto e i webhook di Shopify finiscono nel posto sbagliato.</p>
+<h2>3. Eseguire l'onboarding</h2>
+<p>Assegnate al vostro team il gruppo <strong>Shopify Manager</strong>, poi aprite <strong>Shopify &gt; Configuration &gt; Instances</strong> e fate clic su <strong>Start Onboarding</strong>:</p>
+<ol>
+<li>Inserite il dominio <code>yourstore.myshopify.com</code>, il client ID e il client secret, e verificate la connessione. Odoo richiede il token e lo rinnova da solo ogni 24 ore.</li>
+<li>Controllate gli scope. Se ne manca uno, aggiungetelo a una nuova versione dell'app, rilasciatela e approvatela sul negozio.</li>
+<li>Associate le sedi Shopify ai magazzini Odoo, controllate le mappature delle imposte generate da Odoo e scegliete le politiche di sincronizzazione.</li>
+<li>Installate i webhook e mettete in coda le prime importazioni.</li>
+</ol>
+<p>Prima di lasciare ordini ed evasioni in funzione senza supervisione, controllate le mappature dei gateway di pagamento e dei corrieri. La maggior parte delle sorprese successive nasce da una mappatura che nessuno ha guardato.</p>
+<h2>4. Tenere tutto sotto controllo</h2>
+<p><strong>Shopify &gt; Dashboard</strong> mostra lo stato delle sincronizzazioni, i job in coda, gli errori recenti e lo stato dei webhook. Il connettore non dà per scontato che ogni webhook arrivi: dei job pianificati importano di nuovo tutto ciò che Shopify ha modificato e Odoo si è perso. Quando qualcosa non funziona, risolvete la causa, poi usate <strong>Retry Failed Shopify Bindings</strong>. Eseguite <strong>Check Webhooks</strong> dopo aver cambiato dominio o credenziali.</p>
+<h2>Prossimi passi</h2>
+<p>Aggiungete <strong>Shopify Connector Accounting</strong> per portare in Odoo i payout, le commissioni e le contestazioni di Shopify Payments come scritture contabili (spieghiamo a parte <a href="/it/posts/why-shopify-payouts-dont-match-your-books/">perché è difficile riconciliare i payout</a>), e <strong>Shopify Connector POS</strong> per le vendite in negozio.</p>
+<p>Se volete che lo installiamo, lo configuriamo in base a come lavora la vostra azienda o lo estendiamo, <a href="/it/shopify/">ce ne occupiamo noi</a>.</p>
+<p><strong>Continuate a leggere:</strong> <a href="/it/posts/why-shopify-payouts-dont-match-your-books/">Perché i payout di Shopify non coincidono mai con la vostra contabilità</a>, oppure <a href="/it/posts/shopify-2026-10-api-what-breaks/">L'API Shopify 2026-10: cosa si rompe nelle vostre integrazioni</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Avete imparato qualcosa da questo articolo?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Vorrei avere il vostro indirizzo email per inviarvi altri articoli come questo ogni volta che ne viene pubblicato uno nuovo.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Indirizzo email" class="formkit-input" name="email_address" placeholder="Indirizzo email" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Iscrivetevi</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Non vi invieremo spam. Potete annullare l'iscrizione in qualsiasi momento.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Realizzato con ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/connect-shopify-to-odoo-19-community/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/connect-shopify-to-odoo-19-community/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/connect-shopify-to-odoo-19-community/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/connect-shopify-to-odoo-19-community/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/connect-shopify-to-odoo-19-community/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/connect-shopify-to-odoo-19-community/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/connect-shopify-to-odoo-19-community/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/connect-shopify-to-odoo-19-community/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/connect-shopify-to-odoo-19-community/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

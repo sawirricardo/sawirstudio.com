@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Creare un CMS come WordPress | SawirStudio</title>
+<meta content="Come creare un content management system come WordPress con Laravel e un'architettura software moderna." name="description"/>
+<meta content="Creare un CMS come WordPress | SawirStudio" property="og:title"/>
+<meta content="Come creare un content management system come WordPress con Laravel e un'architettura software moderna." property="og:description"/>
+<meta content="https://sawirstudio.com/it/posts/how-to-build-your-own-content-management-system-like-wordpress/" property="og:url"/>
+<link href="https://sawirstudio.com/it/posts/how-to-build-your-own-content-management-system-like-wordpress/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="it_IT" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Come creare il vostro content management system (come WordPress)",
+          "description": "Come creare un content management system come WordPress con Laravel e un'architettura software moderna.",
+          "url": "https://sawirstudio.com/it/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "datePublished": "2022-10-27",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/it/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/it/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Come creare il vostro content management system (come WordPress)",
+              "item": "https://sawirstudio.com/it/posts/how-to-build-your-own-content-management-system-like-wordpress/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+<a class="logo" href="/it/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/it/">Home</a></li>
+<li><a aria-current="true" href="/it/posts/">Blog</a></li>
+<li><a href="/it/projects/">Progetti</a></li>
+<li><a href="/it/about-us/">Chi siamo</a></li>
+<li><a href="/it/contact/">Contattateci</a></li>
+</ul>
+</nav>
+<button aria-label="Attiva/disattiva modalità scura" class="theme-toggle" title="Attiva/disattiva modalità scura" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Breadcrumb" class="breadcrumbs is-center">
+<ol>
+<li><a href="/it/">Home</a></li>
+<li><a href="/it/posts/">Blog</a></li>
+<li><a aria-current="page" href="/it/posts/how-to-build-your-own-content-management-system-like-wordpress/">Come creare il vostro content management system (come WordPress)</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Come creare il vostro content management system (come WordPress)</h1>
+<div class="prose prose-xl">
+<p>Costruire un content management system da zero è stata un'esperienza davvero fantastica.</p>
+<p>WordPress è lo standard di fatto, soprattutto nel mondo dei content management system. Dal suo sito...</p>
+<blockquote>
+<p>WordPress alimenta più del 43% del web, e la cifra cresce ogni giorno. Tutto, dai semplici siti web ai blog, dai portali complessi ai siti aziendali, fino alle vere e proprie applicazioni, viene realizzato con WordPress.</p>
+</blockquote>
+<p>Tuttavia, WordPress è nato in un'epoca in cui creare un'applicazione non era così semplice.</p>
+<p>Oggi lo sviluppo in PHP ha preso velocità, come dimostrano i recenti <a href="https://www.php.net/">aggiornamenti di PHP</a>, e anche le pratiche di sviluppo software si sono evolute.</p>
+<p>Ad esempio, lo sviluppo con strutture MVC, ispirate a Ruby on Rails, e alcuni principi di architettura software sono stati adottati da moltissimi framework.</p>
+<p>Questo però non è avvenuto per WordPress, che continua a usare le proprie strutture.</p>
+<p>Questo articolo vuole quindi aiutarvi a capire cosa si può fare se un content management system come WordPress viene realizzato con un'architettura software moderna.</p>
+<p>Per farlo useremo <a href="https://laravel.com">Laravel</a>, un framework web PHP che applica alcune buone pratiche di ingegneria del software.</p>
+<p>Vediamo brevemente quali funzionalità avrà il nostro content management system. Partendo da quelle di WordPress, possiamo individuare alcune funzionalità chiave:</p>
+<ul>
+<li>Pubblicare con facilità. Se avete mai creato un documento, siete già bravissimi a creare contenuti con WordPress. Potete creare articoli e pagine, formattarli facilmente, inserire contenuti multimediali e, con un clic, i vostri contenuti sono online.</li>
+<li>Strumenti di pubblicazione. WordPress rende semplice la gestione dei contenuti. Create bozze, programmate la pubblicazione e consultate le revisioni dei vostri articoli. Rendete i contenuti pubblici o privati e proteggete articoli e pagine con una password.</li>
+<li>Gestione degli utenti. Non tutti hanno bisogno degli stessi accessi al vostro sito. Gli amministratori gestiscono il sito, i redattori lavorano sui contenuti, autori e collaboratori scrivono quei contenuti, e gli iscritti hanno un profilo che possono gestire. In questo modo potete avere tanti collaboratori sul vostro sito e lasciare che altri facciano semplicemente parte della vostra community.</li>
+<li>Gestione dei media. Si dice che un'immagine valga più di mille parole, ed è per questo che è importante poter caricare immagini e contenuti multimediali su WordPress in modo rapido e semplice. Trascinate i vostri file nell'uploader per aggiungerli al sito. Aggiungete testo alternativo e didascalie, e inserite immagini e gallerie nei vostri contenuti. Abbiamo persino aggiunto qualche strumento di modifica delle immagini con cui divertirvi.</li>
+<li>Commenti integrati. Il vostro blog è casa vostra, e i commenti offrono ai vostri amici e follower uno spazio per interagire con i vostri contenuti. Gli strumenti per i commenti di WordPress vi danno tutto ciò che serve per creare uno spazio di discussione e moderarlo.</li>
+<li>Ottimizzato per i motori di ricerca. WordPress è ottimizzato per i motori di ricerca fin dall'installazione. Per un controllo SEO più preciso, esistono tanti plugin SEO che se ne occupano al posto vostro.</li>
+</ul>
+<p>Bene, mettiamoci al lavoro!</p>
+<p>Installazione</p>
+<pre><code>composer create-project laravel/laravel wp-laravel
+</code></pre>
+<p>Proviamo ad accedere alla nostra applicazione</p>
+<pre><code>php artisan serve
+</code></pre>
+<p>Dovremo configurare un database: in questo articolo SQLite sarà il nostro alleato.</p>
+<pre><code>touch database/database.sqlite
+</code></pre>
+<p>Dovremo aggiornare il nostro file .env</p>
+<pre><code>DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+DB_FOREIGN_KEYS=true
+</code></pre>
+<p><a href="https://laravel.com/docs/9.x/database#sqlite-configuration">riferimento</a></p>
+<p>Eseguiamo la migrazione delle modifiche iniziali al database</p>
+<pre><code>php artisan migrate
+</code></pre>
+<p>Ora possiamo vedere le modifiche al database in questo modo</p>
+<pre><code>php artisan db:show
+</code></pre>
+<p>Tutte le migrazioni sono state applicate.</p>
+<p>Ora vogliamo qualcosa come i Post di WordPress. Se avete mai ispezionato le tabelle di WordPress, sapete che esiste una tabella chiamata wp_posts. Creiamola</p>
+<pre><code>php artisan make:model Post
+</code></pre>
+<p>Questo creerà un modello chiamato Post. Creiamo ora la migrazione per applicare le modifiche al database.</p>
+<pre><code>php artisan make:migration "create posts table"
+</code></pre>
+<p>Ora apriamo la migrazione e aggiorniamo il codice come segue:</p>
+<pre><code class="language-php">$table-&gt;string('title');
+$table-&gt;string('slug')-&gt;nullable();
+$table-&gt;text('excerpt')-&gt;nullable();
+$table-&gt;longText('content')-&gt;nullable();
+$table-&gt;dateTime('published_at')-&gt;nullable();
+$table-&gt;foreignIdFor(\App\Models\User::class)-&gt;constrained();
+</code></pre>
+<p><strong>Continuate a leggere:</strong> <a href="/it/posts/how-do-you-design-your-subscription-plan-restrictions/">Come progettare le restrizioni dei piani di abbonamento</a>, oppure scoprite i <a href="/it/projects/wordpress-plugins/">plugin WordPress gratuiti che realizziamo</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Avete imparato qualcosa da questo articolo?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Vorrei avere il vostro indirizzo email per inviarvi altri articoli come questo ogni volta che ne viene pubblicato uno nuovo.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Indirizzo email" class="formkit-input" name="email_address" placeholder="Indirizzo email" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Iscrivetevi</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Non vi invieremo spam. Potete annullare l'iscrizione in qualsiasi momento.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Realizzato con ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/it/about-us/">Chi siamo</a> <a href="/it/projects/">Progetti</a> <a href="/it/contact/">Contattateci</a> <a href="/it/privacy/">Privacy</a> <a href="/it/terms/">Termini</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="it" lang="it" aria-current="true">Italiano</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
