@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Waarom Shopify-uitbetalingen nooit kloppen met je boekhouding | SawirStudio</title>
+<meta content="Waarom het geld dat Shopify Payments naar je bank stuurt nooit klopt met je verkooprapport: kosten, terugbetalingen, betwiste betalingen, cadeaubonnen, valutaomrekening en timing, en hoe je het sluitend krijgt." name="description"/>
+<meta content="Waarom Shopify-uitbetalingen nooit kloppen met je boekhouding | SawirStudio" property="og:title"/>
+<meta content="Waarom het geld dat Shopify Payments naar je bank stuurt nooit klopt met je verkooprapport: kosten, terugbetalingen, betwiste betalingen, cadeaubonnen, valutaomrekening en timing, en hoe je het sluitend krijgt." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Waarom je Shopify-uitbetalingen nooit kloppen met je boekhouding",
+          "description": "Waarom het geld dat Shopify Payments naar je bank stuurt nooit klopt met je verkooprapport: kosten, terugbetalingen, betwiste betalingen, cadeaubonnen, valutaomrekening en timing, en hoe je het sluitend krijgt.",
+          "url": "https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/nl/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Waarom je Shopify-uitbetalingen nooit kloppen met je boekhouding",
+              "item": "https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a aria-current="true" href="/nl/posts/">Blog</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Kruimelpad" class="breadcrumbs is-center">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="page" href="/nl/posts/why-shopify-payouts-dont-match-your-books/">Waarom je Shopify-uitbetalingen nooit kloppen met je boekhouding</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Waarom je Shopify-uitbetalingen nooit kloppen met je boekhouding</h1>
+<div class="prose prose-xl">
+<p>Je verkooprapport noemt het ene bedrag. Je bank een ander. Ergens tussenin zitten kosten, terugbetalingen, chargebacks en een paar dagen vertraging, en elke maand is er iemand die een middag in een spreadsheet bezig is om dat uit elkaar te trekken.</p>
+<p>Dit kwamen we allemaal tegen bij het schrijven van de boekhoudmodule van onze <a href="/nl/projects/odoo-shopify-connector/">Shopify-connector voor Odoo</a>. Dit zijn de redenen waarom de bedragen verschillen, en hoe je ze sluitend krijgt.</p>
+<h2>Een uitbetaling is een nettobedrag</h2>
+<p>Shopify Payments stuurt je niet je omzet. Het stuurt wat er overblijft nadat alles is verrekend: verkopen, min terugbetalingen, min transactiekosten, min betwiste betalingen, plus of min correcties. Boek je de uitbetaling als omzet, dan klopt je omzet niet en zie je je kosten niet.</p>
+<p>De oplossing is om de onderdelen te boeken, niet het totaal. Verkopen gaan naar omzet, kosten naar een kostenrekening, terugbetalingen tegen de verkopen, en de uitbetaling zelf is alleen geld dat van een tussenrekening naar de bank gaat.</p>
+<h2>Een uitbetaling beslaat niet één dag</h2>
+<p>Een uitbetaling bevat transacties van meerdere dagen, afhankelijk van je uitbetalingsschema, en een bestelling van vrijdag kan in de uitbetaling van dinsdag zitten. Bestellingen op datum aan stortingen koppelen werkt nooit lang. Koppel ze liever per uitbetaling: Shopify legt vast uit welke saldotransacties elke uitbetaling bestaat, en die lijst is de enige betrouwbare schakel tussen een bestelling en het geld op de bank.</p>
+<h2>Terugbetalingen komen uit latere uitbetalingen</h2>
+<p>Als je een bestelling van vorige maand terugbetaalt, komt het geld uit een uitbetaling van deze maand. Je verkooprapport boekt de terugbetaling bij de oorspronkelijke bestelling. Je bank toont vandaag een lagere storting. Allebei kloppen.</p>
+<h2>Betwiste betalingen kosten je dubbel</h2>
+<p>Als een klant een betaling betwist, worden het betwiste bedrag en een chargebackvergoeding van je saldo afgeschreven. Win je de zaak, dan komt het bedrag terug, meestal weken later. Dat zijn drie aparte boekingen voor één bestelling, verspreid over twee of drie uitbetalingen.</p>
+<h2>Cadeaubonnen zijn bij verkoop nog geen omzet</h2>
+<p>Een cadeaubon verkopen betekent geld aannemen dat je later in de vorm van producten terug moet geven. Het hoort in een schuldenrekening tot de bon is gebruikt. Boek je cadeaubonverkopen als omzet, dan tel je dezelfde verkoop dubbel: één keer als de bon wordt gekocht en nog eens als hij wordt besteed.</p>
+<h2>Valutaomrekening</h2>
+<p>Als je in meer dan één valuta verkoopt, verschijnen omrekeningen als eigen saldotransacties, en de koers op de verkoopdag is niet de koers op de dag van de uitbetaling. De 2026-10 API van Shopify heeft een apart transactietype <code>CURRENCY_CONVERSION</code> toegevoegd, zodat je de omrekening op een eigen regel kunt boeken in plaats van dat hij verdwijnt in een afrondingsverschil.</p>
+<h2>Reserves en correcties</h2>
+<p>Shopify kan een deel van je saldo vasthouden als reserve, en correcties verschijnen als aanpassingen. Het zijn geen van beide verkopen of kosten, dus ze hebben allebei hun eigen rekeningen nodig.</p>
+<h2>Zo krijg je het sluitend</h2>
+<p>Behandel elke uitbetaling als een kleine journaalpost die is opgebouwd uit de saldotransacties: elke verkoop, terugbetaling, kostenpost, betwiste betaling en correctie op een eigen regel, die allemaal op een tussenrekening landen die de bankstorting vervolgens leegmaakt. Als de regels niet optellen tot de uitbetaling, is er iets verkeerd gekoppeld, en dat wil je weten.</p>
+<p>Zo werkt onze boekhoudmodule voor Odoo. Die stelt elke boeking op uit de exacte bedragen van Shopify, en als de boeking niet sluitend is, stopt hij met een duidelijke foutmelding. Hij voegt nooit een “sluitregel” toe om het verschil weg te werken, want zo'n regel is gewoon de fout, opgeschreven op een plek waar niemand kijkt.</p>
+<p>Als je Shopify-geld en je boekhouding elke maand van elkaar verschillen, <a href="/nl/shopify/">kunnen we je helpen</a>.</p>
+<p><strong>Lees ook:</strong> <a href="/nl/posts/connect-shopify-to-odoo-19-community/">Shopify koppelen aan Odoo 19 Community, stap voor stap</a>, of <a href="/nl/posts/shopify-2026-10-api-what-breaks/">De 2026-10 API van Shopify: wat er stukgaat in je integraties</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Iets geleerd van dit bericht?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Ik stuur je graag een mail met meer berichten zoals dit, zodra er een nieuw bericht is gepubliceerd. Laat daarvoor je e-mailadres achter.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="E-mailadres" class="formkit-input" name="email_address" placeholder="E-mailadres" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Aanmelden</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Ik stuur geen spam. Je kunt je op elk moment afmelden.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Gemaakt met ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/why-shopify-payouts-dont-match-your-books/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/why-shopify-payouts-dont-match-your-books/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/why-shopify-payouts-dont-match-your-books/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/why-shopify-payouts-dont-match-your-books/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/why-shopify-payouts-dont-match-your-books/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/why-shopify-payouts-dont-match-your-books/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/why-shopify-payouts-dont-match-your-books/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/why-shopify-payouts-dont-match-your-books/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

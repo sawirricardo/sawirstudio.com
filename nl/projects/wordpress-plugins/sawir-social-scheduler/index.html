@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Social Scheduler | SawirStudio</title>
+<meta content="Schrijf één keer, plan in op 27 netwerken vanuit wp-admin. Aanpassingen per kanaal, threads, media, voorbeelden. Je tokens blijven op je eigen server." name="description"/>
+<meta content="Sawir Social Scheduler | SawirStudio" property="og:title"/>
+<meta content="Schrijf één keer, plan in op 27 netwerken vanuit wp-admin. Aanpassingen per kanaal, threads, media, voorbeelden. Je tokens blijven op je eigen server." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-social-scheduler.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Social Scheduler",
+          "description": "Schrijf één keer, plan in op 27 netwerken vanuit wp-admin. Aanpassingen per kanaal, threads, media, voorbeelden. Je tokens blijven op je eigen server.",
+          "url": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-social-scheduler-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projecten",
+              "item": "https://sawirstudio.com/nl/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress-plugins",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Social Scheduler",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="true" href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Kruimelpad" class="breadcrumbs">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/projects/wordpress-plugins/">WordPress-plugins</a></li>
+<li><a aria-current="page" href="/nl/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Social Scheduler</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Social Scheduler banner" height="500" src="/assets/images/plugins/sawir-social-scheduler-banner.webp" width="1544"/></p>
+<p>Met Sawir Social Scheduler schrijf je een bericht één keer in wp-admin en plan je het in op 27 sociale netwerken, met aanpassingen per kanaal, threads, media en voorbeeldweergaven. De tokens van je accounts blijven op je eigen server.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">Gratis downloaden via WordPress.org</a></p>
+<h2>Wat het doet</h2>
+<p>Sawir Social Scheduler maakt van WordPress een planner voor social media. Koppel je kanalen met de tokens die elk platform je geeft, schrijf een bericht, kies kanalen, stel een datum in en publiceer. Elke verzending draait op de achtergrond en meldt terug met een link of de eigen foutmelding van het platform.</p>
+<p>Er zit geen gehoste dienst tussen. Inloggegevens worden versleuteld met de salts van je site en verlaten je server nooit.</p>
+<h3>Kanalen</h3>
+<p>Voeg zoveel kanalen toe als je wilt, ook meerdere accounts per platform. Elk kanaal heeft een knop <strong>Verbinding testen</strong> die de accountnaam en avatar ophaalt en bevestigt dat het token echt werkt voordat je erop vertrouwt.</p>
+<p><strong>Social:</strong> X (Twitter), Facebook-pagina, Instagram, Threads, LinkedIn-pagina, Bluesky, Mastodon, TikTok, YouTube, Pinterest, Tumblr, Dribbble, Google Bedrijfsprofiel</p>
+<p><strong>Community:</strong> Telegram, Discord, Slack, Reddit, Lemmy, VK, Kick, Twitch, Whop</p>
+<p><strong>Blog en nieuwsbrief:</strong> WordPress, Medium, Dev.to, Hashnode, Listmonk</p>
+<p>Groepeer kanalen per klant of merk met geneste groepen en selecteer een hele groep met één klik.</p>
+<h3>Berichten</h3>
+<ul>
+<li><strong>Eén tekst, meerdere kanalen.</strong> Kies kanalen met selectievakjes. Kanalen die je niet aanpast, krijgen het bericht zoals je het hebt geschreven.</li>
+<li><strong>Aanpassen per kanaal.</strong> Vink "Aanpassen" aan bij een kanaal om het eigen onderdelen te geven: tekst, media en vertragingen, vooraf ingevuld vanuit het bericht, zodat je een kopie bewerkt. De andere kanalen houden het bericht zoals geschreven.</li>
+<li><strong>Threads.</strong> Voeg onderdelen toe om een thread te plaatsen op X, Threads, Bluesky, Mastodon en Telegram, elk met eigen media. Platforms zonder threads krijgen de onderdelen samengevoegd.</li>
+<li><strong>Media.</strong> Voeg afbeeldingen en video één keer toe. Elk platform krijgt wat het ondersteunt: albums, carrousels, Reels, hervatbare video-uploads.</li>
+<li><strong>Inplannen.</strong> Gebruik de gewone WordPress-datum "Publiceren op", of geef elk kanaal een eigen tijdstip.</li>
+<li><strong>Posttijden.</strong> Geef een kanaal de tijden van de dag waarop je meestal post. "Volgende vrije slot" vult het eerstvolgende ongebruikte slot in, de kalender toont lege komende slots die je kunt aanklikken om te vullen, en de API accepteert <code>"date": "next"</code>.</li>
+<li><strong>Voorbeeld.</strong> Een live voorbeeld per kanaal dat eruitziet als het echte platform, met tekenlimieten en mediaregels toegepast, zodat je precies ziet wat er live gaat.</li>
+<li><strong>Reacties en vertragingen.</strong> Op platforms zonder threads worden extra onderdelen als reacties onder het bericht geplaatst. Elk onderdeel kan een ingesteld aantal minuten na het vorige wachten.</li>
+<li><strong>Een blogbericht delen.</strong> Een blok in de gewone berichteneditor plaatst op je kanalen zodra het bericht wordt gepubliceerd, met eigen tekst en media.</li>
+<li><strong>Dupliceren.</strong> Kopieer een bericht met zijn kanalen, onderdelen en aanpassingen als nieuw concept. Bewaar concepten als sjablonen.</li>
+<li><strong>Vermeldingen.</strong> Typ <code>@handle</code> en het netwerk herkent die op X, Instagram, Threads, Mastodon, Telegram, Reddit en Bluesky, waar links en handles echte facets worden. LinkedIn-bedrijfspagina's zijn <code>@[Name](org:12345)</code> met de ID uit de URL van de pagina; Facebook-pagina's zijn <code>@[12345]</code>.</li>
+<li><strong>Herhalen.</strong> Verstuur evergreen berichten opnieuw om de N dagen of weken, tot een bepaalde datum of een aantal keer. Elke herhaling is een eigen bericht met eigen verzendingen en statistieken. Zet <code>{n}</code> in de tekst om herhalingen te nummeren, want X, Threads en Bluesky weigeren identieke tekst.</li>
+</ul>
+<h3>Kalender</h3>
+<p>Elk bericht wordt uitgesplitst in één verzending per kanaal, en de kalender toont elke verzending als een kaart die is gekleurd naar status: ingepland, verzonden, mislukt, vastgehouden, concept, bezig. Sleep een kaart om het tijdstip van dat kanaal te verplaatsen. Klik op een kaart voor de foutmelding, een knop Opnieuw proberen, de live link en de engagementcijfers. Klik op een leeg slot om op dat tijdstip een bericht te starten. Weergave per maand, week, dag en als lijst, te filteren op groep en status.</p>
+<h3>Analytics</h3>
+<p>Likes, reacties, shares, weergaven en vertoningen worden 1 uur, 1 dag en 1 week na elke verzending verzameld, en ook op aanvraag, op 16 platforms. Het aantal volgers wordt dagelijks per kanaal vastgelegd met een sparkline van 30 dagen. De cijfers staan op de kalenderkaarten, in het Analytics-blok van het bericht en in de kanalenlijst. De Analytics-pagina vat de laatste 7, 30 of 90 dagen samen en vergelijkt ze met de periode ervoor: verzonden berichten, engagement, bereik en volgers met hun verandering, een volgersgrafiek, engagement per kanaal en je beste berichten.</p>
+<h3>Goedkeuring door de klant</h3>
+<p>Vink "Verzendingen vasthouden tot goedkeuring" aan, kopieer de voorbeeldlink en stuur die naar je klant. Die ziet het bericht zoals het er op elk kanaal uit komt te zien, zonder in te loggen, en klikt op Goedkeuren of Wijzigingen aanvragen met een toelichting. Na goedkeuring gaan de verzendingen live. Elke beslissing blijft bewaard als geschiedenis.</p>
+<p>Grote video-uploads naar X, YouTube en TikTok draaien in korte delen die over achtergrondtaken heen worden hervat. Zo overleven ze de tijdslimieten van je host en wordt nooit een heel bestand in het geheugen geladen.</p>
+<h3>REST API</h3>
+<p>Alles wat de beheeromgeving kan, is beschikbaar via <code>/wp-json/sawir-social/v1</code>, voor automatiseringen, mobiele apps en andere sites. Authenticeer met een applicatiewachtwoord; rechten volgen de capabilities van de plugin en inloggegevens van kanalen worden nooit teruggegeven.</p>
+<ul>
+<li><code>GET /platforms</code>, <code>GET /channels</code>, <code>GET /channels/{id}</code>, <code>POST /channels/{id}/test</code></li>
+<li><code>GET|POST /posts</code>, <code>GET|PATCH|DELETE /posts/{id}</code>, <code>POST /posts/{id}/duplicate</code>, <code>GET /posts/{id}/analytics</code></li>
+<li><code>GET /sends</code>, <code>GET /sends/{id}</code>, <code>POST /sends/{id}/retry</code>, <code>POST /sends/{id}/stats</code></li>
+</ul>
+<p>Maak een bericht aan met <code>{"title","content","status":"future","date":"2026-12-25 09:00","media":[12],"parts":[{"text","media","delay"}],"channels":[{"id":38,"parts":[{"text","media","delay"}],"date":"…"}],"groups":["Client A"],"hold":false}</code>. De <code>parts</code> van een kanaal vervangen het bericht voor dat kanaal; <code>text</code> is een verkorte schrijfwijze voor één onderdeel.</p>
+<h3>AI-agents</h3>
+<p>Dezelfde acties zijn geregistreerd bij de WordPress Abilities API als <code>sawir-social/list-channels</code>, <code>create-post</code>, <code>update-post</code>, <code>list-posts</code>, <code>list-sends</code>, <code>retry-send</code>, <code>test-channel</code>, <code>get-analytics</code> en <code>list-platforms</code>, met getypeerde invoer- en uitvoerschema's. Elke agent die via de WordPress MCP adapter is verbonden, ziet ze als tools, en ze zijn ook aan te roepen via <code>/wp-json/wp-abilities/v1/abilities/{name}/run</code>. De Abilities API maakt deel uit van WordPress 6.9 en nieuwer; voor oudere versies levert de plugin hem zelf mee, zodat de abilities overal beschikbaar zijn waar de plugin draait.</p>
+<h3>Vereisten</h3>
+<p>Verzendingen draaien op de achtergrond via Action Scheduler als je site dat heeft (WooCommerce en veel andere plugins leveren het mee), en anders via WP-Cron. Op de ingebouwde cron van WordPress gaan ze alleen vooruit als de site bezoekers krijgt. Voor snelle verzending voeg je een systeem-cron toe; het Kalender-scherm toont het exacte commando voor jouw site.</p>
+<p>Media moeten bereikbaar zijn vanaf het internet voor platforms die ze via een URL ophalen (Instagram, Threads, Facebook, Pinterest, Telegram). Een lokale ontwikkelsite kan geen afbeeldingen naar die platforms sturen.</p>
+<h3>Credits</h3>
+<p>Bevat FullCalendar (MIT), de WordPress Abilities API-bibliotheek (GPL) en merklogo's van Simple Icons (CC0). Gebruikt Action Scheduler wanneer een andere plugin die levert.</p>
+<h2>Schermafbeeldingen</h2>
+<p><img alt="Sawir Social Scheduler screenshot 1" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler screenshot 2" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler screenshot 3" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-3.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler screenshot 4" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-4.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler screenshot 5" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-5.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler screenshot 6" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-6.webp" width="1280"/></p>
+<h2>Vragen</h2>
+<h3>Waar haal ik de tokens vandaan?</h3>
+<p>Uit de ontwikkelaarsinstellingen van elk platform. Het kanaalformulier noemt precies welke inloggegevens nodig zijn, bijvoorbeeld een toegangstoken voor een Facebook-pagina, een bot-token voor Telegram of een app-wachtwoord voor Bluesky. Langlevende tokens zijn het best; tokens van Meta en LinkedIn verlopen na ongeveer 60 dagen en moet je opnieuw plakken.</p>
+<h3>Mijn Telegram-test geeft "chat not found"</h3>
+<p>Privékanalen hebben geen @gebruikersnaam. Laat de Chat-ID leeg en klik op Verbinding testen: de plugin toont alle chats waaraan de bot is toegevoegd, met het numerieke ID dat je kunt plakken.</p>
+<h3>Waarom blijft een verzending hangen op "Bezig…"?</h3>
+<p>De wachtrij op de achtergrond is nog niet gedraaid. Bezoek de site, of stel de systeem-cron in die op het Kalender-scherm staat.</p>
+<h3>Kan ik vanaf een lokale site een video op Instagram plaatsen?</h3>
+<p>Nee. Instagram haalt media op via een URL en heeft een openbaar adres nodig. Al het andere in de plugin werkt gewoon lokaal.</p>
+<h2>Past goed bij</h2>
+<ul>
+<li><a href="/nl/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: laat zien hoe bezoekers je site gebruiken, met heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse, en houdt alles op je eigen server..</li>
+<li><a href="/nl/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: vertaalt je pagina's op de plek waar ze staan: kies een taal, vertaal automatisch wat zichtbaar is, sla het op en geef bezoekers een taalkeuzemenu.</li>
+</ul>
+<p>Bekijk al onze <a href="/nl/projects/wordpress-plugins/">gratis WordPress-plugins</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prijs</strong> Gratis</li>
+<li><strong>Versie</strong> 0.1.0</li>
+<li><strong>Vereist</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>Licentie</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-social-scheduler/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genoeg over ons.</p>
+<h2>Waar kunnen we<br/>je mee helpen?</h2>
+<a class="button" href="/nl/contact/">Start een project</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

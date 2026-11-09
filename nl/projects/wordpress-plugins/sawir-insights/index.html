@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Insights | SawirStudio</title>
+<meta content="Heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse. Alles blijft op je eigen server." name="description"/>
+<meta content="Sawir Insights | SawirStudio" property="og:title"/>
+<meta content="Heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse. Alles blijft op je eigen server." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-insights/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-insights/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-insights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "Heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse. Alles blijft op je eigen server.",
+          "url": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projecten",
+              "item": "https://sawirstudio.com/nl/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress-plugins",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="true" href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Kruimelpad" class="breadcrumbs">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/projects/wordpress-plugins/">WordPress-plugins</a></li>
+<li><a aria-current="page" href="/nl/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Insights</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Insights-banner" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" width="1544"/></p>
+<p>Sawir Insights laat zien hoe bezoekers je site gebruiken, met heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse, en bewaart alles op je eigen server.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">Download gratis via WordPress.org</a></p>
+<h2>Wat het doet</h2>
+<p>Sawir Insights is gedragsanalyse voor WordPress: heatmaps, sessie-opnames, enquêtes, een feedbackwidget, formulieranalyse, conversiefunnels en een dashboard dat alles samenbrengt.</p>
+<p>Bij multisite-netwerken houdt elke site zijn eigen analytics bij en stel je die onafhankelijk van elkaar in.</p>
+<p>Kortom: een zelfgehoste alternatief voor Hotjar of Microsoft Clarity, waarbij bezoekersdata in je eigen database blijft.</p>
+<p>De reden dat het bestaat is simpel. De gevestigde tools in deze categorie zijn goed, maar ze werken door een overzicht van alles wat je bezoekers doen naar andermans servers te sturen. Voor veel sites, zeker in de EU, is dat ergens tussen onprettig en onwerkbaar in. Ik wilde dezelfde soort tools, maar dan met data die de site waar ze verzameld is nooit verlaat. Daarom is deze plugin om die ene voorwaarde heen gebouwd: jouw database, jouw uploadmap, jouw bewaartermijnen. Er zit geen SaaS achter, je hoeft geen account aan te maken en er wordt niets naar buiten verstuurd.</p>
+<h3>Wat het doet</h3>
+<ul>
+<li>Klik-, beweging- en scrollheatmaps, getoond over je live pagina's en uitgesplitst naar desktop, tablet en mobiel.</li>
+<li>Sessie-opnames die je afspeelt in wp-admin. Invoerwaarden worden altijd gemaskeerd en opnemen staat uit totdat jij het aanzet.</li>
+<li>Pop-upenquêtes en een vast feedbacktabblad, met targeting op URL, apparaat, percentage van het verkeer, tijd op de pagina, scrolldiepte of exit intent.</li>
+<li>Formulieranalyse: waar mensen twijfelen, wat ze leeg laten en waar ze afhaken. Alleen selectors en timing, nooit wat iemand heeft getypt.</li>
+<li>Conversiefunnels met vaste volgorde en dagelijkse rapporten.</li>
+<li>Een dashboard met verkeers-KPI's en vergelijking met de vorige periode, een dagelijkse trendgrafiek en uitsplitsingen naar apparaat, browser, pagina, verwijzer, campagne, funnel en opnames.</li>
+</ul>
+<h3>Wat het bewust niet doet</h3>
+<p>Ik vind dat je moet weten wat een tool weigert te doen voordat je hem installeert.</p>
+<ul>
+<li>Het slaat geen IP-adressen op. Niet gehasht, niet ingekort, helemaal niet.</li>
+<li>Het legt nooit formulierwaarden vast. De opnamelaag stuurt alleen metadata, dus er valt niets te lekken.</li>
+<li>Het laadt niets van een CDN en stuurt er ook niets naartoe. De rrweb-replaybibliotheek zit in de plugin zelf.</li>
+<li>Het bewaart ruwe data niet eeuwig. Events worden samengevoegd en opgeschoond volgens een bewaarschema dat jij bepaalt. Opnames hebben hun eigen bewaartermijn en een schijflimiet, waarbij de oudste als eerste worden verwijderd, want een plugin die ongemerkt je hostingschijf volzet is een slechte plugin.</li>
+</ul>
+<p>De frontend-tracker is klein, vanilla JavaScript, verstuurt in batches via <code>sendBeacon</code> en heeft instellingen voor sampling. Bezoekers die niet in de opnamesteekproef vallen, downloaden de replaybibliotheek helemaal niet.</p>
+<h3>Privacy</h3>
+<p>Do Not Track wordt standaard gerespecteerd. Een consent-API (<code>window.swinsConsent</code>) werkt samen met de consentmanager die je al gebruikt. Sessies, events en opnames zijn gekoppeld aan de eigen export- en verwijdertools van WordPress voor persoonsgegevens. Of jouw specifieke situatie AVG-conform is, hangt af van je privacyverklaring en rechtsgrond. Dat kan geen enkele plugin voor je regelen, maar het werk om data te minimaliseren is gedaan.</p>
+<h3>Support</h3>
+<p>Support loopt via het wordpress.org-forum van deze plugin, of mail naar ricardo@sawirstudio.com.</p>
+<h2>Vragen</h2>
+<h3>Hoe verhoudt het zich tot alternatieven?</h3>
+<p>Gehoste analysediensten zoals Hotjar en Microsoft Clarity zijn uitstekende tools met royale gratis abonnementen, maar ze werken door een overzicht van het gedrag van je bezoekers naar hun servers te sturen. Sawir Insights ruilt die infrastructuur over meerdere sites in voor één voorwaarde: alles wordt verzameld, opgeslagen en bekeken op je eigen site. Kies een gehoste dienst als je de extra functies wilt en verwerking door derden geen bezwaar is. Kies Sawir Insights als het een dealbreaker is dat bezoekersdata je server verlaat. Opnames en heatmaps staan in je eigen database en uploadmap, dus de bewaarinstellingen zijn hier belangrijker dan bij een SaaS.</p>
+<h3>Is Sawir Insights AVG-conform?</h3>
+<p>De plugin is gebouwd voor privacybewuste toepassingen: data blijft op je server, IP-adressen worden nooit opgeslagen, bewaartermijnen zijn instelbaar, Do Not Track wordt gerespecteerd en de export- en verwijdertools van WordPress zijn geïntegreerd. Of je zelf aan de AVG voldoet, hangt af van je configuratie, privacyverklaring, rechtsgrond en consentimplementatie. Raadpleeg voor je site een gekwalificeerde jurist.</p>
+<h3>Wat is het verschil met Hotjar of Microsoft Clarity?</h3>
+<p>Dat zijn gehoste diensten: sterke tools, maar het gedrag van je bezoekers wordt op hun servers opgeslagen onder hun voorwaarden. Sawir Insights dekt dezelfde categorie, namelijk heatmaps, sessie-opnames, enquêtes, funnels en formulieranalyse, als een plugin die alles op je eigen server houdt, zonder account, zonder externe dienst en zonder data te delen.</p>
+<h3>Verlaat bezoekersdata mijn server?</h3>
+<p>Nee. De plugin stuurt geen gedragsdata naar Sawir Studio of een andere analyticsaanbieder. Events staan in je WordPress-database en opnamebestanden staan in je beschermde uploadmap.</p>
+<h2>Past goed bij</h2>
+<ul>
+<li><a href="/nl/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: laat bezoekers zien wat er echt gebeurt in je winkel, zoals recente bestellingen, mensen die een product bekijken en nieuwe reviews, als kleine meldingen in de hoek van het scherm.</li>
+<li><a href="/nl/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: vertaalt je pagina's op de plek waar ze staan: kies een taal, vertaal automatisch wat zichtbaar is, sla het op en geef bezoekers een taalkeuzemenu.</li>
+</ul>
+<p>Bekijk al onze <a href="/nl/projects/wordpress-plugins/">gratis WordPress-plugins</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prijs</strong> Gratis</li>
+<li><strong>Versie</strong> 1.0.0</li>
+<li><strong>Vereist</strong> WordPress 6.2, PHP 7.4</li>
+<li><strong>Licentie</strong> GPLv2 of nieuwer</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-insights/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genoeg over ons.</p>
+<h2>Waar kunnen we<br/>je mee helpen?</h2>
+<a class="button" href="/nl/contact/">Start een project</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-insights/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-insights/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-insights/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-insights/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-insights/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-insights/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/sawir-insights/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/wordpress-plugins/sawir-insights/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

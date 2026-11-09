@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Variation Gallery Tools voor WooCommerce | SawirStudio</title>
+<meta content="Beheer galerijafbeeldingen per variant in WooCommerce. Werkt samen met Sawir Product Image Zoom for WooCommerce." name="description"/>
+<meta content="Sawir Variation Gallery Tools voor WooCommerce | SawirStudio" property="og:title"/>
+<meta content="Beheer galerijafbeeldingen per variant in WooCommerce. Werkt samen met Sawir Product Image Zoom for WooCommerce." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-variation-gallery-tools-woocommerce.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Variation Gallery Tools voor WooCommerce",
+          "description": "Beheer galerijafbeeldingen per variant in WooCommerce. Werkt samen met Sawir Product Image Zoom for WooCommerce.",
+          "url": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-variation-gallery-tools-woocommerce-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projecten",
+              "item": "https://sawirstudio.com/nl/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress-plugins",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Variation Gallery Tools",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="true" href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Kruimelpad" class="breadcrumbs">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/projects/wordpress-plugins/">WordPress-plugins</a></li>
+<li><a aria-current="page" href="/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Variation Gallery Tools</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Banner van Sawir Variation Gallery Tools" height="500" src="/assets/images/plugins/sawir-variation-gallery-tools-woocommerce-banner.webp" width="1544"/></p>
+<p>Met Sawir Variation Gallery Tools krijgt elke productvariant een eigen galerij, zodat je bij het kiezen van de rode variant foto's van de rode variant ziet. De plugin werkt naadloos samen met Sawir Product Image Zoom.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-variation-gallery-tools-woocommerce/" rel="noreferrer" target="_blank">Download gratis via WordPress.org</a></p>
+<h2>Wat het doet</h2>
+<p>Sawir Variation Gallery Tools for WooCommerce voegt een veld "Additional variation images" toe aan elke variant in de WooCommerce-producteditor.</p>
+<p>Kiest een klant op de productpagina een variant, dan worden de opgeslagen afbeeldingen van die variant toegevoegd aan de WooCommerce-productgalerij.</p>
+<p>Webshopbeheerders kunnen extra variantafbeeldingen ook in bulk exporteren en importeren via WooCommerce &gt; Variation Images. De CSV-export bevat per variant het ID, de SKU, de attributen, de ID's van de extra afbeeldingen en de afbeeldings-URL's. Met de CSV-import kun je de afbeeldingen van geïmporteerde rijen vervangen of aanvullen.</p>
+<p>Deze plugin werkt samen met Sawir Product Image Zoom for WooCommerce: https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/</p>
+<p>De variantafbeeldingen worden toegevoegd als standaard WooCommerce-galerijafbeeldingen, zodat Sawir Product Image Zoom for WooCommerce ze kan meenemen in de lightbox en de zoomfunctie.</p>
+<h2>Vragen</h2>
+<h3>Hoe verhoudt het zich tot alternatieven?</h3>
+<p>Plugins zoals Additional Variation Images Gallery en Iconic WooThumbs koppelen afbeeldingen per variant aan hun eigen galerijspeler, met sliders, layouts en video. Sawir Variation Gallery Tools slaat de afbeeldingen per variant op en voegt ze toe aan de standaard WooCommerce-galerij. Zo blijven je thema en aanvullende plugins (zoals Sawir Product Image Zoom) gewoon werken, en kunnen webshopbeheerders via CSV-export en -import in bulk aanpassingen doen. Wil je een nieuwe galerij-ervaring, kies dan een uitgebreide suite. Wil je variantafbeeldingen in de galerij die je al hebt, dan is dit de gerichte keuze.</p>
+<h3>Werkt dit met Sawir Product Image Zoom for WooCommerce?</h3>
+<p>Ja. Variantafbeeldingen die met deze plugin worden toegevoegd, gebruiken de standaard WooCommerce-markup voor de productgalerij, dus ze werken met Sawir Product Image Zoom for WooCommerce.</p>
+<h3>Kan ik variantafbeeldingen in bulk bijwerken, exporteren of importeren?</h3>
+<p>Ja. Ga naar WooCommerce &gt; Variation Images om een CSV te exporteren of een CSV te importeren waarin varianten worden gekoppeld via <code>variation_id</code> of <code>variation_sku</code>. Importrijen kunnen bestaande ID's van bijlagen uit de mediabibliotheek of URL's gebruiken.</p>
+<h2>Past goed bij</h2>
+<ul>
+<li><a href="/nl/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a>: opent je productfoto's in een lightbox, met pijltjes om door de galerij te bladeren en een klik om op de details in te zoomen.</li>
+<li><a href="/nl/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>: laat klanten hun e-mailadres achter bij een product dat niet op voorraad is en laat ze één keer weten wanneer het weer beschikbaar is.</li>
+</ul>
+<p>Bekijk al onze <a href="/nl/projects/wordpress-plugins/">gratis WordPress-plugins</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prijs</strong> Gratis</li>
+<li><strong>Versie</strong> 1.0.1</li>
+<li><strong>Vereist</strong> WordPress 5.8, PHP 7.4, WooCommerce</li>
+<li><strong>Licentie</strong> GPLv2 of nieuwer</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-variation-gallery-tools-woocommerce/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-variation-gallery-tools-woocommerce/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genoeg over ons.</p>
+<h2>Waar kunnen we<br/>je mee helpen?</h2>
+<a class="button" href="/nl/contact/">Start een project</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

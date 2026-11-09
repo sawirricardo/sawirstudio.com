@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Renew – Terugkerende betalingen voor WooCommerce | SawirStudio</title>
+<meta content="Complete abonnementen voor WooCommerce: terugkerende betalingen, proefperiodes, aanmeldkosten, pauzeren/overslaan, van abonnement wisselen, betalingsherinneringen en slimme nieuwe pogingen. Allemaal gratis." name="description"/>
+<meta content="Sawir Renew – Terugkerende betalingen voor WooCommerce | SawirStudio" property="og:title"/>
+<meta content="Complete abonnementen voor WooCommerce: terugkerende betalingen, proefperiodes, aanmeldkosten, pauzeren/overslaan, van abonnement wisselen, betalingsherinneringen en slimme nieuwe pogingen. Allemaal gratis." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-renew.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Renew – Terugkerende betalingen voor WooCommerce",
+          "description": "Complete abonnementen voor WooCommerce: terugkerende betalingen, proefperiodes, aanmeldkosten, pauzeren/overslaan, van abonnement wisselen, betalingsherinneringen en slimme nieuwe pogingen. Allemaal gratis.",
+          "url": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projecten",
+              "item": "https://sawirstudio.com/nl/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress-plugins",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Renew",
+              "item": "https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="true" href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Kruimelpad" class="breadcrumbs">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/projects/wordpress-plugins/">WordPress-plugins</a></li>
+<li><a aria-current="page" href="/nl/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Renew</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Renew banner" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" width="1544"/></p>
+<p>Sawir Renew maakt van je WooCommerce-webshop een abonnementsbedrijf: terugkerende betalingen, proefperiodes, aanmeldkosten en slimme nieuwe pogingen, zonder dat een betaalde versie functies achterhoudt.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">Download gratis via WordPress.org</a></p>
+<h2>Wat het doet</h2>
+<p>Verkoop abonnementen met WooCommerce zonder te betalen voor een extensie. Alle functies zijn gratis: er is geen pro-versie en er zit niets op slot.</p>
+<h3>Producten &amp; prijzen</h3>
+<ul>
+<li>Simpele en variabele abonnementsproducten</li>
+<li>Factureer elke N dag(en), week/weken, maand(en) of jaar/jaren, met ondersteuning voor actieprijzen</li>
+<li>Gratis proefperiodes, aanmeldkosten en abonnementen die na N betalingen aflopen</li>
+<li>Gesynchroniseerde verlengingen (iedereen verlengt op de 1e, of op een dag naar keuze) met optioneel een naar verhouding berekende of gratis eerste periode</li>
+<li>Eenmalige verzendkosten en de limiet "één actief abonnement per klant"</li>
+</ul>
+<h3>Twee manieren van betalen</h3>
+<ul>
+<li><strong>Betalen per verlenging (werkt met elke betaalmethode):</strong> als een verlenging aan de beurt is, krijgt de klant een factuur met een betaallink: bankoverschrijving, e-wallets, rembours, alles wat jouw webshop accepteert. Ideaal voor markten waar automatisch afschrijven van creditcards niet gebruikelijk is.</li>
+<li><strong>Automatisch betalen via Stripe:</strong> als je de officiële WooCommerce Stripe Gateway gebruikt, worden kaarten bij het afrekenen opgeslagen en worden verlengingen automatisch afgeschreven, zonder dat de klant erbij is. Inclusief slimme nieuwe pogingen en een betaallink als terugvaloptie wanneer een kaart om authenticatie vraagt. Andere betaalproviders kunnen aansluiten op hetzelfde adaptercontract (zie de FAQ).</li>
+</ul>
+<h3>Verlengingen waar je 's nachts niet wakker van ligt</h3>
+<ul>
+<li>Alle timing draait op Action Scheduler, met een dagelijkse zelfherstellende controle</li>
+<li>Instelbare betalingsherinneringen (dunning): wachttijd tussen nieuwe pogingen, herinneringsschema, respijtperiodes en automatisch opzeggen</li>
+<li>Detectie van staging- en gedupliceerde sites pauzeert de betalingen zodra de URL van je site verandert. Zo voorkom je dubbele afschrijvingen door een vergeten staging-kopie</li>
+<li>E-mails met een melding vóór de verlenging, voordat er automatisch wordt afgeschreven</li>
+</ul>
+<h3>Klanten kunnen zichzelf helpen</h3>
+<p>Via Mijn account → Abonnementen kunnen klanten opzeggen (direct of aan het einde van de periode, dat bepaal jij), pauzeren en hervatten, een verlenging overslaan, eerder verlengen, hun betaalmethode of verzendadres wijzigen en upgraden of downgraden tussen abonnementen, met een naar verhouding berekende bijbetaling bij een upgrade.</p>
+<h3>Terugkerende kortingsbonnen</h3>
+<p>Vier soorten abonnementskortingsbonnen: terugkerende kortingen in % of een vast bedrag (eventueel beperkt tot de eerste N betalingen) en kortingen op aanmeldkosten. Standaardkortingsbonnen blijven alleen gelden voor de eerste bestelling.</p>
+<h3>Meldingen</h3>
+<p>Dertien e-mails die je aan en uit kunt zetten (voor klant en beheerder) voor elk moment in de levenscyclus van een abonnement. Ontwikkelaars kunnen elke gebeurtenis doorsturen naar andere kanalen (WhatsApp, sms, Slack…) via de hook <code>swsb_notified</code>.</p>
+<h3>Gebouwd voor modern WooCommerce</h3>
+<p>HPOS-native (abonnementen staan in de bestelopslag van WooCommerce, dus geen eigen tabellen), compatibel met de winkelwagen- en afrekenblokken, een volledige beheerlijst en editor met de eigen bestelschermen van WooCommerce, een rapportagepagina die elk uur wordt gecachet (actief, MRR, churn, aankomende verlengingen, omzet uit verlengingen) en een REST API.</p>
+<h2>Vragen</h2>
+<h3>Is dit gelieerd aan WooCommerce of Automattic?</h3>
+<p>Nee. "WooCommerce" is een handelsmerk van Automattic. Dit is een onafhankelijke plugin <em>voor</em> WooCommerce, volgens hun richtlijnen voor naamgeving.</p>
+<h3>Welke betaalproviders ondersteunen automatische verlengingen?</h3>
+<p>Standaard: de officiële WooCommerce Stripe Gateway. Elke andere betaalprovider werkt in de modus betalen per verlenging: klanten krijgen elke periode een betaallink. Ontwikkelaars kunnen met twee filters automatische ondersteuning toevoegen voor elke betaalprovider:</p>
+<p><code>swsb_order_supports_auto</code>: geef true terug als de betaalprovider van de oorspronkelijke bestelling een herbruikbare betaalmethode heeft opgeslagen. <code>swsb_charge_renewal</code>: schrijf de verlengingsbestelling af zonder dat de klant erbij is en geef <code>true</code> of een <code>WP_Error</code> terug.</p>
+<h3>Kan het naast WooCommerce Subscriptions draaien?</h3>
+<p>Nee. Twee betaalsystemen naast elkaar zouden klanten dubbel laten betalen. Daarom schakelt deze plugin zijn eigen systeem uit en toont een melding als WooCommerce Subscriptions actief is.</p>
+<h3>Wat gebeurt er op een staging-site?</h3>
+<p>Als de URL van de site verandert, worden betalingen en e-mails naar klanten automatisch gepauzeerd totdat je bevestigt of de kopie een staging-site of de live site is. Kies je "live", dan worden alle schema's opnieuw opgebouwd.</p>
+<h2>Past goed bij</h2>
+<ul>
+<li><a href="/nl/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>: laat je klanten hun vrienden meenemen.</li>
+<li><a href="/nl/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: laat bezoekers zien wat er echt gebeurt in je winkel, zoals recente bestellingen, mensen die een product bekijken en nieuwe reviews, als kleine meldingen in de hoek van het scherm.</li>
+</ul>
+<p>Bekijk al onze <a href="/nl/projects/wordpress-plugins/">gratis WordPress-plugins</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prijs</strong> Gratis</li>
+<li><strong>Versie</strong> 1.0.0</li>
+<li><strong>Vereist</strong> WordPress 6.0, PHP 7.4, WooCommerce</li>
+<li><strong>Licentie</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-renew/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genoeg over ons.</p>
+<h2>Waar kunnen we<br/>je mee helpen?</h2>
+<a class="button" href="/nl/contact/">Start een project</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-renew/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-renew/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-renew/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-renew/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-renew/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-renew/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/sawir-renew/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/wordpress-plugins/sawir-renew/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify 2026-10 API: wat er breekt | SawirStudio</title>
+<meta content="De wijzigingen in de Shopify Admin API versie 2026-10 die een integratie kunnen breken, en wat je moet aanpassen: verzendtarieven, kortingen op conceptbestellingen, belastingen, barcodes en meer." name="description"/>
+<meta content="Shopify 2026-10 API: wat er breekt | SawirStudio" property="og:title"/>
+<meta content="De wijzigingen in de Shopify Admin API versie 2026-10 die een integratie kunnen breken, en wat je moet aanpassen: verzendtarieven, kortingen op conceptbestellingen, belastingen, barcodes en meer." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Shopify's 2026-10 API: wat er breekt in je integraties",
+          "description": "De wijzigingen in de Shopify Admin API versie 2026-10 die een integratie kunnen breken, en wat je moet aanpassen: verzendtarieven, kortingen op conceptbestellingen, belastingen, barcodes en meer.",
+          "url": "https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/nl/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify's 2026-10 API: wat er breekt in je integraties",
+              "item": "https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a aria-current="true" href="/nl/posts/">Blog</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Kruimelpad" class="breadcrumbs is-center">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="page" href="/nl/posts/shopify-2026-10-api-what-breaks/">Shopify's 2026-10 API: wat er breekt in je integraties</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Shopify's 2026-10 API: wat er breekt in je integraties</h1>
+<div class="prose prose-xl">
+<p>Shopify heeft op 1 oktober 2026 versie 2026-10 van de API's uitgebracht. Het meeste daarvan zijn nieuwe functies die je gerust kunt negeren tot je ze nodig hebt. Een handvol wijzigingen kan een integratie die op 2026-07 prima werkte ongemerkt laten breken, en juist die zijn een uurtje van je tijd waard voordat je de versie omhoog zet.</p>
+<p>Dit is de lijst die wij naloopen voor onze eigen integraties, waaronder de <a href="/nl/projects/odoo-shopify-connector/">Shopify-connector voor Odoo</a>. Het zijn niet alle regels uit de release notes, alleen de wijzigingen die het gedrag veranderen.</p>
+<h2>Wijzigingen die ongemerkt dingen breken</h2>
+<h3>Nieuwe carrier services tonen niet vanzelf verzendtarieven bij het afrekenen</h3>
+<p>Een carrier service aanmaken met <code>carrierServiceCreate</code> (of <code>POST carrier_services.json</code> in REST) registreert de service nu alleen nog. De tarieven worden niet meer toegevoegd aan het algemene verzendprofiel (General shipping profile). Maakt jouw app of onboardingscript een carrier service aan en verwacht je dat klanten je tarieven zien? Dan zien ze die niet, totdat je de service zelf aan een verzendprofiel toevoegt.</p>
+<h3>Een verzendadres wijzigen herberekent de belasting</h3>
+<p>Als je het verzendadres van een nog niet verzonden bestelling bijwerkt met <code>orderUpdate</code> of het REST-endpoint voor het bijwerken van bestellingen, worden de belastingen nu opnieuw berekend. Dat is het juiste gedrag, maar als je adressen wijzigt vanuit een ERP of een supporttool, kan het totaalbedrag van de bestelling ineens veranderen. Lees <code>taxLines</code>, <code>totalTaxSet</code> en de totalen na de update opnieuw uit, en regel een eventueel verschil in wat er is betaald of terugbetaald.</p>
+<h3>Waarschuwingen over kortingen op conceptbestellingen zijn <code>priceRule</code> kwijt</h3>
+<p><code>DraftOrderDiscountNotAppliedWarning.priceRule</code> en de oude <code>PriceRule</code>-types zijn verdwenen. Bouw je conceptbestellingen (draft orders) met <code>draftOrderCalculate</code>, <code>draftOrderCreate</code> of <code>draftOrderUpdate</code> en lees je uit waarom een korting niet is toegepast? Selecteer dan <code>discountTitle</code> en <code>discountCode</code>.</p>
+<h3>Foute metafield-filters geven nu een duidelijke fout</h3>
+<p>Een productquery die filtert op een metafield dat niet filterbaar is, negeerde die filter vroeger gewoon en gaf alles terug. Nu krijg je een foutmelding. Dat is beter, maar een sync die al maanden “alle producten” teruggeeft, gaat de dag dat je van versie wisselt fouten geven. Controleer of de metafield-definities waarop je filtert filteren ondersteunen, en ook de operators die je gebruikt.</p>
+<h3>Een variant kan meer dan één barcode hebben</h3>
+<p><code>ProductVariant.barcodes</code> is een nieuwe connection met maximaal 20 barcodes met een type. De oude <code>ProductVariant.barcode</code> is deprecated en geeft alleen de eerste terug. Koppelt je magazijnsysteem of kassa (POS) producten op barcode? Lees dan de volledige lijst uit.</p>
+<h3>Eén voorraadfout is verdwenen</h3>
+<p><code>ITEM_NOT_STOCKED_AT_LOCATION</code> is verwijderd uit de voorraadmutaties en uit <code>InventorySetQuantitiesUserErrorCode</code>. Code die hierop vertakt is nu dode code. Haal die weg, zodat niemand er later op vertrouwt.</p>
+<h2>Kleinere wijzigingen waarvoor een zoekopdracht in je code loont</h2>
+<ul>
+<li><strong>Klantsegmenten.</strong> <code>MATCHES</code> en <code>NOT MATCHES</code> vervangen <code>= true</code> en <code>= false</code>, en benoemde datums zoals <code>12_months_ago</code> zijn deprecated ten gunste van offsets zoals <code>-12m</code>.</li>
+<li><strong>Sms-toestemming.</strong> De losse velden voor sms-toestemming zijn deprecated. Lees <code>CustomerPhoneNumber.smsMarketingConsent</code> uit.</li>
+<li><strong>Kortingen in rollouts.</strong> De <code>startsAt</code> en <code>endsAt</code> van een korting zeggen niet of die live is als de korting onderdeel is van een rollout. Voor het uitlezen van <code>Discount.rollouts</code> heb je de scope <code>read_rollouts</code> nodig.</li>
+<li><strong>Fulfillment-status.</strong> <code>FULFILLMENT_NOT_REQUIRED</code> is een nieuwe waarde. Een <code>switch</code> die elke status mapt, komt dan in het default-geval terecht.</li>
+<li><strong>Customer Account API.</strong> <code>Customer.lastIncompleteCheckout</code> en de <code>Checkout</code>-types zijn verwijderd, zonder vervanging.</li>
+<li><strong>POS UI extensions.</strong> Winkelwagenmutaties zoals <code>applyCartDiscount</code> worden nu afgewezen als POS de wijziging niet bevestigt, en <code>session.currentSession.staffMemberId</code> is verwijderd.</li>
+</ul>
+<h2>Twee deadlines die niets met 2026-10 te maken hebben</h2>
+<p>Beheer je een publieke app? Dan moeten offline access tokens die niet verlopen uiterlijk 1 januari 2027 vervangen zijn door tokens die wel verlopen. Custom apps en apps die een merchant zelf aanmaakt in het Dev Dashboard zijn uitgezonderd. En script tags in de online winkel werken vanaf 1 maart 2027 niet meer. Wat dat voor webshops betekent, hebben we apart uitgewerkt in <a href="/nl/posts/shopify-script-tags-stop-march-2027/">dit artikel</a>.</p>
+<h2>Zo upgraden wij</h2>
+<p>We leggen de API-versie op één plek vast, draaien de integratie op de nieuwe versie tegen een development store en lezen de <a href="https://shopify.dev/changelog?api_version=2026-10" rel="noopener" target="_blank">changelog van 2026-10</a>, gefilterd op “Action required”. Versie 2026-10 wordt minstens tot 1 oktober 2027 ondersteund, dus je hebt tijd, maar niet zoveel dat je kunt wachten tot de waarschuwingsmails binnenkomen.</p>
+<p>Praat je webshop met Odoo of een ander systeem en laat je dit liever door iemand anders doen? Dat is <a href="/nl/shopify/">wat wij doen</a>.</p>
+<p><strong>Lees ook:</strong> <a href="/nl/posts/shopify-script-tags-stop-march-2027/">Shopify-script tags werken niet meer vanaf 1 maart 2027. Wat webshopeigenaren moeten doen</a>, of <a href="/nl/posts/connect-shopify-to-odoo-19-community/">Shopify koppelen aan Odoo 19 Community, stap voor stap</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Iets geleerd van dit bericht?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Ik stuur je graag een mail met meer berichten zoals dit, zodra er een nieuw bericht is gepubliceerd. Laat daarvoor je e-mailadres achter.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="E-mailadres" class="formkit-input" name="email_address" placeholder="E-mailadres" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Aanmelden</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Ik stuur geen spam. Je kunt je op elk moment afmelden.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Gemaakt met ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/shopify-2026-10-api-what-breaks/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/shopify-2026-10-api-what-breaks/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/shopify-2026-10-api-what-breaks/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/shopify-2026-10-api-what-breaks/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/shopify-2026-10-api-what-breaks/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/shopify-2026-10-api-what-breaks/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/shopify-2026-10-api-what-breaks/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/shopify-2026-10-api-what-breaks/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

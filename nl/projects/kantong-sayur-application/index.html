@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Kantong Sayur-app | SawirStudio</title>
+<meta content="App en website voor groenten en boodschappen van KantongSayur, gebouwd door SawirStudio." name="description"/>
+<meta content="Kantong Sayur-app | SawirStudio" property="og:title"/>
+<meta content="App en website voor groenten en boodschappen van KantongSayur, gebouwd door SawirStudio." property="og:description"/>
+<meta content="https://sawirstudio.com/nl/projects/kantong-sayur-application/" property="og:url"/>
+<link href="https://sawirstudio.com/nl/projects/kantong-sayur-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="nl_NL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/kantong-sayur-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Kantong Sayur Application",
+          "description": "App en website voor groenten en boodschappen van KantongSayur, gebouwd door SawirStudio.",
+          "url": "https://sawirstudio.com/nl/projects/kantong-sayur-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://sawirstudio.com/nl/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projecten",
+              "item": "https://sawirstudio.com/nl/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kantong Sayur Application",
+              "item": "https://sawirstudio.com/nl/projects/kantong-sayur-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/kantong-sayur-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Ga naar de inhoud</a>
+<header class="site-header">
+<a class="logo" href="/nl/" title="Home">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/posts/">Blog</a></li>
+<li><a aria-current="true" href="/nl/projects/">Projecten</a></li>
+<li><a href="/nl/about-us/">Over ons</a></li>
+<li><a href="/nl/contact/">Contact</a></li>
+</ul>
+</nav>
+<button aria-label="Donkere modus aan/uit" class="theme-toggle" title="Donkere modus aan/uit" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Kruimelpad" class="breadcrumbs">
+<ol>
+<li><a href="/nl/">Home</a></li>
+<li><a href="/nl/projects/">Projecten</a></li>
+<li><a aria-current="page" href="/nl/projects/kantong-sayur-application/">Kantong Sayur-app</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Kantong Sayur Application</h1>
+<img alt="Kantong Sayur-website" class="project-hero" fetchpriority="high" height="883" src="/assets/images/projects/kantong-sayur-application.webp" style="view-transition-name: media-kantong-sayur-application" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>De klant</h2>
+<p>Kantong Sayur is een online marktplaats die handelaren van traditionele markten met klanten verbindt. Er worden groenten, fruit, specerijen, vis en zeevruchten, vlees, gevogelte en huishoudelijke boodschappen verkocht. Klanten winkelen bij de kramen van echte markten en krijgen hun bestelling thuisbezorgd.</p>
+<h2>Wat we hebben gemaakt</h2>
+<p>We bouwden het platform van begin tot eind: een shopping-app voor klanten, een aparte app voor handelaren, een adminpaneel voor het team dat de catalogus beheert en de website.</p>
+<ul>
+<li><strong>Markten en kramen.</strong> Elke traditionele markt heeft eigen kramen, handelaren en openingstijden, en klanten kiezen zelf de markt waar ze winkelen.</li>
+<li><strong>Zoeken dat bij een markt past.</strong> Producten hebben zoekwoorden en eigen eenheden, zodat de zoekfunctie vindt wat mensen echt intypen.</li>
+<li><strong>Recepten.</strong> Recepten tonen hun ingrediënten als producten, zodat een klant meteen voor een compleet gerecht kan winkelen.</li>
+<li><strong>Betaling en bezorging.</strong> Online betalen via Midtrans, bezorgkosten per verzendtarief en regio, en meldingen als een bezorging te laat is.</li>
+<li><strong>Kortingsbonnen en beloningen.</strong> Kortingsbonnen per regio en markt, KS Points, beloningsvouchers en een affiliateprogramma.</li>
+<li><strong>Zakelijke bestellingen.</strong> Groothandelsklanten met eigen prijslijsten, en facturen en pakbonnen die je afdrukt vanuit het adminpaneel.</li>
+</ul>
+<h2>Onze aanpak</h2>
+<p>Een traditionele markt werkt niet zoals een supermarkt: elke kraam heeft eigen openingstijden, prijzen schommelen met het seizoen en een kilo chilipepers is geen netjes verpakt product. Daarom modelleert het platform markten, kramen en eenheden direct, in plaats van ze in een standaardwebshop te proppen. Dezelfde backend kreeg later een groothandelskant voor zakelijke klanten. We werkten van 2021 tot 2025 aan Kantong Sayur.</p>
+<p><strong>Gebouwd met</strong> Flutter, Firebase, Laravel en Filament</p>
+</div>
+<ul class="project-meta">
+<li><strong>Klant</strong> KantongSayur</li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Meer projecten</h2>
+<div class="project-grid">
+<a class="card" href="/nl/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS Application" class="thumb" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" width="1600"/>
+<div class="card-body"><h3>PeopleBond HCMS Application</h3></div>
+</a>
+<a class="card" href="/nl/projects/tani-milenial-application/">
+<img alt="TaniMilenial Application" class="thumb" height="688" loading="lazy" src="/assets/images/projects/tani-milenial-application.webp" width="1410"/>
+<div class="card-body"><h3>TaniMilenial Application</h3></div>
+</a>
+<a class="card" href="/nl/projects/growinc-group-website/">
+<img alt="Growinc Group Website" class="thumb" height="900" loading="lazy" src="/assets/images/projects/growinc-group-website.webp" width="1600"/>
+<div class="card-body"><h3>Growinc Group Website</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genoeg over ons.</p>
+<h2>Waar kunnen we<br/>je mee helpen?</h2>
+<a class="button" href="/nl/contact/">Start een project</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/nl/about-us/">Over ons</a> <a href="/nl/projects/">Projecten</a> <a href="/nl/contact/">Contact</a> <a href="/nl/privacy/">Privacy</a> <a href="/nl/terms/">Voorwaarden</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/kantong-sayur-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/kantong-sayur-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/kantong-sayur-application/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/kantong-sayur-application/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/kantong-sayur-application/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/kantong-sayur-application/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/kantong-sayur-application/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/kantong-sayur-application/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/kantong-sayur-application/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/kantong-sayur-application/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
