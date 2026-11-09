@@ -61,7 +61,7 @@ headers pointing to it, `llms.txt` and the sitemap. Check with https://isitagent
 
 ## Translations
 
-Every page also exists in Simplified Chinese (`/zh-hans/`), Traditional Chinese (`/zh-hant/`), Japanese (`/ja/`), German (`/de/`), French (`/fr/`), Russian (`/ru/`), Hindi (`/hi/`), Dutch (`/nl/`), Italian (`/it/`) Hebrew (`/he/`) and Arabic (`/ar/`), both right-to-left, built from
+Every page also exists in Simplified Chinese (`/zh-hans/`), Traditional Chinese (`/zh-hant/`), Japanese (`/ja/`), German (`/de/`), French (`/fr/`), Russian (`/ru/`), Hindi (`/hi/`), Dutch (`/nl/`), Italian (`/it/`), and the right-to-left Hebrew (`/he/`) and Arabic (`/ar/`), built from
 the English pages by `scripts/i18n.py`. Don't edit the files under those folders; edit the English page and rebuild:
 
 ```bash
