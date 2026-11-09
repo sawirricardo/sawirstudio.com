@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Referral – WooCommerce 推薦好友外掛 | SawirStudio</title>
+<meta content="WooCommerce 互惠型推薦計畫。朋友享有折扣，推薦人獲得回饋優惠券，可透過代碼或連結分享，並以 WhatsApp 分享為優先。" name="description"/>
+<meta content="Sawir Referral – WooCommerce 推薦好友外掛 | SawirStudio" property="og:title"/>
+<meta content="WooCommerce 互惠型推薦計畫。朋友享有折扣，推薦人獲得回饋優惠券，可透過代碼或連結分享，並以 WhatsApp 分享為優先。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-referral.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Referral – WooCommerce 推薦好友外掛",
+          "description": "WooCommerce 互惠型推薦計畫。朋友享有折扣，推薦人獲得回饋優惠券，可透過代碼或連結分享，並以 WhatsApp 分享為優先。",
+          "url": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-referral-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 外掛",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Referral",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Referral</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Referral 橫幅圖片" height="500" src="/assets/images/plugins/sawir-referral-banner.webp" width="1544"/></p>
+<p>Sawir Referral 讓您的顧客帶朋友來消費。朋友享有折扣，分享的顧客則獲得回饋優惠券，而且可以透過代碼、連結，或直接用 WhatsApp 分享。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-referral/" rel="noreferrer" target="_blank">前往 WordPress.org 免費取得</a></p>
+<h2>功能介紹</h2>
+<p>讓您的顧客成為您的銷售管道。每位顧客都會在「我的帳號」頁面取得專屬推薦碼（就是一組真正的 WooCommerce 優惠券）和分享連結，並可一鍵透過 WhatsApp 分享。</p>
+<ul>
+<li><strong>朋友享有折扣</strong>：可設定為百分比或固定金額，結帳時像一般優惠券一樣套用。</li>
+<li><strong>推薦人獲得回饋</strong>：朋友的訂單完成且保留期結束後，系統會自動發放一張優惠券。</li>
+<li><strong>靠代碼，不靠 Cookie</strong>：歸屬判定是透過訂單上的優惠券。代碼貼到 WhatsApp、Instagram 私訊，或任何連結容易被改動的地方，依然有效。分享連結（<code>?ref=CODE</code>）則會記住代碼並自動套用。</li>
+<li><strong>退款無虞</strong>：回饋會依設定的天數保留。保留期間若發生全額退款或訂單取消，回饋會一併取消；部分退款則仍保留回饋。保留期結束後，若訂單全額退款，且回饋優惠券尚未使用，系統會自動撤銷；若已被使用，則會將該筆推薦標記出來供您審核。</li>
+<li><strong>防濫用機制</strong>：禁止自我推薦（依帳號與帳單電子郵件判斷），每位朋友可限制每組代碼只能下一筆訂單，代碼可設定使用總次數上限，也可以限定只有新顧客才能使用。</li>
+<li><strong>相容 HPOS 與結帳區塊（Checkout Blocks）。</strong></li>
+</ul>
+<p>沒有撥款系統、沒有稅務表單、沒有審核佇列：回饋就是商店優惠券，錢也就留在您的商店裡。</p>
+<h2>畫面截圖</h2>
+<p><img alt="Sawir Referral 截圖 1" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Sawir Referral 截圖 2" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Sawir Referral 截圖 3" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-3.webp" width="1280"/></p>
+<h2>常見問題</h2>
+<h3>與其他方案相比如何？</h3>
+<p>聯盟行銷平台（如 AffiliateWP、SliceWP、Solid Affiliate）是為了招募外部行銷人員而設計，包含註冊流程、追蹤儀表板和撥款作業。ReferralCandy 這類代管服務，則是以訂閱方式在 WordPress 之外執行推薦計畫。Sawir Referral 刻意定位得更單純：由您現有的顧客分享專屬優惠券代碼或連結，朋友享有折扣，回饋則是商店優惠券。歸屬判定直接透過優惠券，所以貼到聊天軟體也不會失效，也不需要任何撥款機制。如果您想建立聯盟行銷管道，請使用聯盟行銷平台；如果您希望讓顧客推薦朋友，這就是最合適的做法。</p>
+<h3>推薦是如何歸屬的？</h3>
+<p>透過訂單上的優惠券。如果結帳時使用了推薦碼，訂單完成後，擁有該代碼的推薦人就會獲得這筆推薦。分享連結只是把代碼存入第一方 Cookie，並自動套用到購物車，並沒有另外的追蹤系統。</p>
+<h3>被推薦的訂單退款時會怎麼處理？</h3>
+<p>部分退款仍會保留回饋，因為回饋是固定金額，不會隨訂單金額增減。保留期間若發生全額退款或訂單取消，回饋會在發放前就被取消。如果回饋發放後訂單才全額退款，只要回饋優惠券尚未使用，系統就會自動撤銷（移至垃圾桶，可從優惠券頁面還原）；若回饋已被使用，則會在後台列表中標記，讓您自行審核。您也可以隨時從 WooCommerce → Referrals 手動釋出、回沖或撤銷任何一筆推薦。</p>
+<h3>顧客可以推薦自己嗎？</h3>
+<p>不行。若顧客就是代碼的擁有者，或與擁有者使用相同的電子郵件，該代碼會被拒絕，訂單完成時也會再檢查一次。</p>
+<h2>推薦搭配</h2>
+<ul>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>：把 WooCommerce 商店變成訂閱制事業：定期扣款、試用期、註冊費和智慧重試，沒有任何功能被鎖在付費方案之後。</li>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：以角落的小通知，讓購物者看到您商店裡實際發生的事，例如最新訂單、正在瀏覽商品的人數和最新評價。</li>
+</ul>
+<p>歡迎瀏覽我們所有的<a href="/zh-hant/projects/wordpress-plugins/">免費 WordPress 外掛</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>價格</strong> 免費</li>
+<li><strong>版本</strong> 1.0.0</li>
+<li><strong>系統需求</strong> WordPress 6.0、PHP 7.4、WooCommerce</li>
+<li><strong>授權</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-referral/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-referral/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-referral/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-referral/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-referral/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Restock Notifier for WooCommerce | SawirStudio</title>
+<meta content="讓顧客在 WooCommerce 缺貨商品重新到貨時，收到電子郵件通知。" name="description"/>
+<meta content="Sawir Restock Notifier for WooCommerce | SawirStudio" property="og:title"/>
+<meta content="讓顧客在 WooCommerce 缺貨商品重新到貨時，收到電子郵件通知。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-restock-notifier-for-woocommerce.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Restock Notifier for WooCommerce",
+          "description": "讓顧客在 WooCommerce 缺貨商品重新到貨時，收到電子郵件通知。",
+          "url": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-restock-notifier-for-woocommerce-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 外掛",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Restock Notifier",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Restock Notifier</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Restock Notifier 橫幅圖" height="500" src="/assets/images/plugins/sawir-restock-notifier-for-woocommerce-banner.webp" width="1544"/></p>
+<p>Sawir Restock Notifier 讓顧客在缺貨商品頁留下電子郵件，並在商品重新到貨時通知他們一次。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-restock-notifier-for-woocommerce/" rel="noreferrer" target="_blank">到 WordPress.org 免費取得</a></p>
+<h2>功能介紹</h2>
+<p>Sawir Restock Notifier for WooCommerce 會在缺貨的商品頁加上輕量的到貨通知表單。顧客輸入電子郵件地址，透過郵件確認申請後，當商品或所選規格重新有貨時，就會收到一封一次性的通知郵件。</p>
+<h2>功能特色</h2>
+<ul>
+<li>在缺貨商品的庫存提示中顯示到貨通知表單。</li>
+<li>支援單一商品與商品變化規格。</li>
+<li>支援訪客與已登入的顧客。</li>
+<li>可選擇是否要求顧客先登入，才能訂閱到貨通知。</li>
+<li>採用雙重確認（double opt-in）機制，確認後才會啟用到貨通知。</li>
+<li>寄給顧客的郵件中附有取消與退訂連結。</li>
+<li>管理員可以針對尚未確認的申請重新寄送驗證郵件。</li>
+<li>新增「我的帳號 &gt; 到貨通知」頁面，已登入的顧客可以查看、取消、退訂，並針對登入時建立的通知重新寄送驗證郵件。</li>
+<li>將待確認、已確認、已通知與已退訂的申請儲存在自訂的資料庫資料表中。</li>
+<li>當庫存狀態變回有貨時，寄出符合 WooCommerce 樣式的到貨通知郵件。</li>
+<li>透過 WooCommerce Action Scheduler 以背景批次方式處理到貨通知郵件。</li>
+<li>新增「WooCommerce &gt; 到貨通知」管理頁面，方便檢視各項申請。</li>
+<li>提供管理員數據分析儀表板，包含日期範圍篩選、各狀態總數、比率，以及最多人申請的商品。</li>
+<li>提供選用的解除安裝清理設定，可在刪除外掛時一併移除外掛資料。</li>
+<li>停用外掛時，會詢問管理員日後若刪除外掛，要保留外掛資料還是徹底移除。</li>
+</ul>
+<h2>常見問題</h2>
+<h3>與其他方案相比如何？</h3>
+<p>像 YITH WooCommerce Waiting List 這類候補名單套件，以及付費的到貨通知擴充功能，會提供儀表板、可匯出的候補名單、簡訊與行銷整合。Sawir Restock Notifier 只專注於最核心的流程：在缺貨商品頁放一個小表單、雙重確認，以及商品或規格重新到貨時寄出一封郵件。如果您打算對候補名單做行銷，請選擇功能完整的套件；如果您只是不想讓顧客在缺貨頁面直接離開，這個外掛正好能做到。</p>
+<h3>這個外掛需要 WooCommerce 嗎？</h3>
+<p>可以。這個外掛是專為 WooCommerce 商品與庫存狀態掛鉤（hook）所打造。</p>
+<h3>會重複通知顧客嗎？</h3>
+<p>不會。每筆申請在到貨通知郵件寄出後，就會標記為已通知。</p>
+<h3>支援雙重確認嗎？</h3>
+<p>支援。顧客必須點擊確認連結，到貨通知才會生效。</p>
+<h2>推薦搭配</h2>
+<ul>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：以角落的小通知，讓購物者看到您商店裡實際發生的事，例如最新訂單、正在瀏覽商品的人數和最新評價。</li>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>：設定顧客可購買的最低與最高數量，可針對單一商品、整個分類或整張訂單。</li>
+</ul>
+<p>歡迎瀏覽我們所有的<a href="/zh-hant/projects/wordpress-plugins/">免費 WordPress 外掛</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>價格</strong> 免費</li>
+<li><strong>版本</strong> 1.0.1</li>
+<li><strong>系統需求</strong> WordPress 5.8、PHP 7.4、WooCommerce</li>
+<li><strong>授權</strong> GPLv2 或更新版本</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-restock-notifier-for-woocommerce/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-restock-notifier-for-woocommerce/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

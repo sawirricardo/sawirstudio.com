@@ -59,6 +59,21 @@ uv run scripts/markdown_pages.py
 `worker.js` serves a page's `index.md` to requests with `Accept: text/markdown` (agents), and adds `Link`
 headers pointing to it, `llms.txt` and the sitemap. Check with https://isitagentready.com/sawirstudio.com.
 
+## Translations
+
+Every page also exists in Simplified Chinese (`/zh-hans/`) and Traditional Chinese (`/zh-hant/`), built from
+the English pages by `scripts/i18n.py`. Don't edit the files under those folders; edit the English page and rebuild:
+
+```bash
+uv run scripts/i18n.py           # translates new or changed text with the claude CLI, then rebuilds
+uv run scripts/markdown_pages.py
+```
+
+Translations are kept in `i18n/<lang>.json` (English HTML → translation), so only changed text is sent for
+translation. To fix a translation, edit it there and run `uv run scripts/i18n.py --no-translate`. The script also
+adds the `hreflang` links and the footer language list to every page, and the translated URLs to `sitemap.xml`.
+To add a language, add it to `LANGS` in the script.
+
 ## Contact form
 
 `contact/index.html` posts to the Google Form "SawirStudio inquiries"

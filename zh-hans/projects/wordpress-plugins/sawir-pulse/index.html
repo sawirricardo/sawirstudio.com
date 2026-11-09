@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Pulse – WooCommerce 实时销售与社交证明 | SawirStudio</title>
+<meta content="Sawir Pulse 会以角落里的小通知，向买家展示您店铺里真实发生的事情，例如最近的订单、正在浏览商品的人数和最新评价……" name="description"/>
+<meta content="Sawir Pulse – WooCommerce 实时销售与社交证明 | SawirStudio" property="og:title"/>
+<meta content="Sawir Pulse 会以角落里的小通知，向买家展示您店铺里真实发生的事情，例如最近的订单、正在浏览商品的人数和最新评价……" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-pulse.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Pulse – WooCommerce 实时销售与社交证明",
+          "description": "Sawir Pulse 会以角落里的小通知，向买家展示您店铺里真实发生的事情，例如最近的订单、正在浏览商品的人数和最新评价……",
+          "url": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-pulse-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 插件",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Pulse",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-pulse/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-pulse/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-pulse/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="true" href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/projects/wordpress-plugins/">WordPress 插件</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Pulse</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Pulse 横幅图" height="500" src="/assets/images/plugins/sawir-pulse-banner.webp" width="1544"/></p>
+<p>Sawir Pulse 会以角落里的小通知，向买家展示您店铺里真实发生的事情，例如最近的订单、正在浏览商品的人数和最新评价。所有内容都不会凭空捏造。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-pulse/" rel="noreferrer" target="_blank">在 WordPress.org 免费获取</a></p>
+<h2>功能介绍</h2>
+<p>Sawir Pulse 以角落里的小通知，向访客展示您店铺里真实发生的事情：</p>
+<ul>
+<li><strong>最近订单</strong>——“Rina 来自 Jakarta，购买了 Batik Tote · 12 分钟前 · 已验证订单”</li>
+<li><strong>实时浏览人数</strong>——“目前有 4 人正在浏览此商品”</li>
+<li><strong>评价</strong>——来自您已审核通过的 4–5 星商品评价的片段</li>
+</ul>
+<p>每条通知都来自真实的活动。插件没有任何可以虚构购买记录或夸大数字的选项：虚假的社交证明会欺骗买家，对店主来说也有法律风险，所以 Sawir Pulse 根本不提供这类功能。全新的店铺从第一天起就能显示实时浏览人数和评价动态，购买通知则会随着真实订单的产生而出现。</p>
+<h3>功能特点</h3>
+<ul>
+<li>真实订单、实时浏览人数和评价片段，可任意组合</li>
+<li>商品页面内嵌“本周已售 12 件”标记（仅当商品一周内确实售出 3 件以上时才显示）</li>
+<li>在设置页面中直接查看本月通知的展示次数和点击次数</li>
+<li>隐私优先：只显示名字和城市，并可一键匿名（“来自 Jakarta 的某位顾客”）</li>
+<li>默认在购物车和结账页面隐藏，避免干扰购买</li>
+<li>访客可以在本次访问期间关闭通知</li>
+<li>轻量：仅一个小型样式表和一个小型脚本，不依赖外部服务，也不使用 jQuery</li>
+<li>尊重“减少动态效果”的偏好设置，对屏幕阅读器友好</li>
+<li>可通过 CSS 自定义属性调整主题样式</li>
+<li>兼容 HPOS</li>
+</ul>
+<h2>常见问题</h2>
+<h3>与其他方案相比如何？</h3>
+<p>大多数社交证明工具，如 TrustPulse、NotificationX、Fomo，可配置的选项更多，其中有几款还允许您手动编写通知，或以托管服务的形式运行。Sawir Pulse 的立场更严格：每条通知都来自真实的订单、真实的浏览者或真实的评价，没有任何伪造活动的选项，而且全部在您自己的网站上运行，不依赖外部服务。如果您需要跨平台的营销活动或复杂的定向规则，托管平台会更合适；如果您想要经得起客户和监管机构检验的社交证明，这条限制正是这款产品的价值所在。</p>
+<h3>我可以创建自定义通知或虚假通知吗？</h3>
+<p>不可以，这是刻意的设计。伪造的社交证明会误导买家，还可能违反消费者保护法。Sawir Pulse 只会展示真实的订单、真实的浏览者和真实的评价。</p>
+<h3>会显示哪些客户数据？</h3>
+<p>最多显示账单地址中的名字和城市，以及所购买的商品。启用“隐藏客户姓名”后，则会显示为“来自 Jakarta 的某位顾客”。浏览人数由短期有效的加盐哈希计算得出，不会存储 IP 地址或任何个人数据。</p>
+<h3>我的店铺是新店，还没有订单，访客会看到什么？</h3>
+<p>如果有的话，会显示实时浏览人数和评价片段。一旦有了真实订单，购买通知就会自动出现。如果目前还没有任何真实活动，就不会显示任何内容，这正是它应有的样子。</p>
+<h2>推荐搭配</h2>
+<ul>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>：让您的客户带来他们的朋友。</li>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>：让客户在缺货商品上留下邮箱，并在商品到货时通知他们一次。</li>
+</ul>
+<p>查看我们所有的<a href="/zh-hans/projects/wordpress-plugins/">免费 WordPress 插件</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>价格</strong> 免费</li>
+<li><strong>版本</strong> 1.0.0</li>
+<li><strong>要求</strong> WordPress 5.8、PHP 7.4、WooCommerce</li>
+<li><strong>许可证</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-pulse/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-pulse/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>我们先聊到这里。</p>
+<h2>我们能为您<br/>做些什么？</h2>
+<a class="button" href="/zh-hans/contact/">开始项目</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-pulse/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-pulse/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-pulse/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

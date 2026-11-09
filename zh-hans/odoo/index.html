@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Odoo &amp; 定制业务系统 | SawirStudio</title>
+<meta content="收银、库存、采购和会计，尽在一套系统：按您的工作方式配置 Odoo，不适合时量身定制，或者两者结合。来自编写 Odoo 模块的团队。" name="description"/>
+<meta content="Odoo 与定制业务系统 | SawirStudio" property="og:title"/>
+<meta content="收银、库存、采购和会计，尽在一套系统：按您的工作方式配置 Odoo，不适合时量身定制，或者两者结合。来自编写 Odoo 模块的团队。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/odoo/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/odoo/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Odoo 与定制业务系统",
+          "serviceType": "Odoo 实施与定制业务软件开发",
+          "description": "收银、库存、采购和会计，尽在一套系统：按您的工作方式配置 Odoo，不适合时量身定制，或者两者结合。来自编写 Odoo 模块的团队。",
+          "url": "https://sawirstudio.com/zh-hans/odoo/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Odoo 与业务系统",
+              "item": "https://sawirstudio.com/zh-hans/odoo/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/odoo/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/odoo/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/odoo/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/odoo/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a aria-current="page" href="/zh-hans/odoo/">Odoo 与业务系统</a></li>
+</ol>
+</nav>
+<p class="hello">新增：Odoo 与业务系统</p>
+<h1>从收银台到<span class="mark mark-blue">账本</span>，一套系统搞定。</h1>
+<p class="lead">收银、库存、采购和会计，都在同一个地方。如果 Odoo 适合您的工作方式，就用 Odoo；不适合，就为您量身定制。<span class="wavy">在您花钱之前，我们会先告诉您该选哪一种</span>。</p>
+<p class="hero-actions"><a class="button" href="/zh-hans/contact/">开始项目</a> <a class="see-all" href="#odoo-or-custom">用 Odoo 还是定制？</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">我们能做什么</h2>
+<ul class="offers">
+<li>
+<h3>为您配置好 Odoo</h3>
+<p>收银、库存、采购、销售和会计，都按照您现有的业务流程来配置，而不是让您去迁就系统。我们为 Odoo 编写模块，对它的内部机制非常了解。</p>
+</li>
+<li>
+<h3>所有门店，同一份库存</h3>
+<p>每家门店和仓库共用同一份库存，支持按尺码和颜色设置变体、条码、门店之间调拨，还有补货提醒，在缺货之前就会通知您。</p>
+</li>
+<li>
+<h3>线上销售，同一份库存</h3>
+<p>您的 Shopify 店铺通过<a href="/zh-hans/projects/odoo-shopify-connector/">我们编写的开源连接器</a>接入，您的网站或其他渠道则通过各自的 API 接入，这样您就不会卖出已经没有的货。</p>
+</li>
+<li>
+<h3>量身定制</h3>
+<p>如果您的与众不同之处正在于工作方式，我们就围绕它来搭建系统：供办公室使用的网页应用、供员工或客户使用的应用，以及它们背后的管理后台。代码和数据都归您所有。详见<a href="/zh-hans/custom/">定制软件</a>。</p>
+</li>
+<li>
+<h3>Odoo 加上您自己的部分</h3>
+<p>很多时候，Odoo 能覆盖几乎所有需求，只有一部分工作需要专属的功能。我们保留 Odoo 作为核心，再为您开发它所缺少的那一个模块、应用或报表。</p>
+</li>
+<li>
+<h3>上线迁移</h3>
+<p>把产品、客户、供应商、期初库存和余额，从电子表格或旧软件中迁移过来，并在正式上线前培训好收银台的同事。</p>
+</li>
+</ul>
+</section>
+<section class="section" id="odoo-or-custom">
+<div class="prose center">
+<h2>用 Odoo 还是定制？</h2>
+<p>这是每个人最先问的问题，而老实的答案取决于您的业务到底有多特殊。</p>
+<ul>
+<li>如果您的流程和大多数商店、经销商和餐厅一样：销售、补货、付款给供应商、月末结账，就选 <strong>Odoo</strong>。它更快、更便宜，而且是开源的，Odoo 社区版不收许可费。您需要稍微调整自己的做法来适应它。</li>
+<li>如果系统<em>本身就是</em>业务，比如定价模型、审批链，或是 Odoo 每一步都会不匹配的服务，就选<strong><a href="/zh-hans/custom/">量身定制</a></strong>。前期成本更高，但完全贴合。</li>
+<li>如果 Odoo 能覆盖日常工作，而您有一部分工作是独一无二的，就<strong>两者结合</strong>。这是最常见的答案。</li>
+</ul>
+<p>我们会先梳理您的流程，然后以书面形式给出推荐，并附上每种方案的费用。无论您选哪一种，系统都建立在开放、主流的工具之上，任何优秀的开发者都能接手，所以您不会被我们绑定。</p>
+</div>
+</section>
+<section class="section">
+<h2 class="section-title">合作流程</h2>
+<ol class="values">
+<li>
+<h3>先到现场看一看。</h3>
+<p>我们会按照目前的实际情况，跟踪一笔销售、一次发货、一次盘点和一次月末结账，并记下哪里容易出问题。</p>
+</li>
+<li>
+<h3>一次做一部分。</h3>
+<p>通常先做收银和库存，再做采购，最后做会计。每一部分都先用您的真实数据跑通，再开始下一部分，所以店铺不会停业。</p>
+</li>
+<li>
+<h3>我们会一直在。</h3>
+<p>新门店、新报表、Odoo 版本升级，以及忙碌的周六冒出来的各种问题。PeopleBond 自 2019 年起就一直与我们合作。</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">我们不会做的事</p>
+<p>向您推销您不需要的系统。如果 Odoo 的标准应用已经够用，我们会直说，不做多余的定制。如果您的流程确实不同，我们也不会为了自己省事，硬把它塞进 Odoo。</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/zh-hans/ricardosawir/">Ricardo Sawir</a>，创始人</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>背后的作品</h2>
+<ul>
+<li><a href="/zh-hans/projects/odoo-shopify-connector/">Odoo 的 Shopify 连接器</a>：由我们编写，并于 2026 年 7 月贡献给 Odoo Community Association，包含会计和收银模块。查看<a href="/zh-hans/posts/connect-shopify-to-odoo-19-community/">设置方法</a>。</li>
+<li><a href="/zh-hans/projects/peoplebond-hcms-application/">PeopleBond</a>：一个人力资源平台及其员工应用，自 2019 年起与他们的团队一起量身打造。</li>
+<li><a href="/zh-hans/projects/kantong-sayur-application/">Kantong Sayur</a>：面向传统市场的生鲜杂货交易平台，包含买家和商家应用、管理后台，后来还增加了批发业务。</li>
+<li><a href="/zh-hans/projects/koperasi-hob-application/">Koperasi HOB</a>：为一家合作社打造的日常杂货购物应用。</li>
+<li><a href="/zh-hans/projects/calvin-kain/">Calvin Kain</a>：一个头巾和围巾品牌的网上商店。</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/odoo/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/odoo/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/odoo/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

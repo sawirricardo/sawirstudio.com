@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>TaniMilenial 應用程式 | SawirStudio</title>
+<meta content="TaniMilenial 農業、漁業與畜牧業行動應用程式，由 SawirStudio 與 Clicks&amp;Co 共同打造。" name="description"/>
+<meta content="TaniMilenial 應用程式 | SawirStudio" property="og:title"/>
+<meta content="TaniMilenial 農業、漁業與畜牧業行動應用程式，由 SawirStudio 與 Clicks&amp;Co 共同打造。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/tani-milenial-application/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/tani-milenial-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/tani-milenial-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "TaniMilenial 應用程式",
+          "description": "TaniMilenial 農業、漁業與畜牧業行動應用程式，由 SawirStudio 與 Clicks&Co 共同打造。",
+          "url": "https://sawirstudio.com/zh-hant/projects/tani-milenial-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "TaniMilenial 應用程式",
+              "item": "https://sawirstudio.com/zh-hant/projects/tani-milenial-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/tani-milenial-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/tani-milenial-application/">TaniMilenial 應用程式</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">TaniMilenial 應用程式</h1>
+<img alt="Tani Milenial 橫幅圖片" class="project-hero" fetchpriority="high" height="688" src="/assets/images/projects/tani-milenial-application.webp" style="view-transition-name: media-tani-milenial-application" width="1410"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>客戶</h2>
+<p>TaniMilenial 是一個結合農業、漁業與畜牧業的平台，標語為「Ragam solusi untuk petani di era digital」（數位時代的農民解決方案）。這個平台是為印尼的農民、養殖漁民與畜牧業者所打造。</p>
+<h2>我們的作品</h2>
+<p>我們與 Clicks&amp;Co 合作，開發了這款 Android 應用程式，並已上架至 Google Play。</p>
+<ul>
+<li><strong>Kebun Saya（我的農場）。</strong>管理農民自己的田地，並提供統計數據。</li>
+<li><strong>Info Pasar（市場資訊）。</strong>提供最新的市場價格，讓農民在出售前就能掌握收成的價值。</li>
+<li><strong>文章與影片。</strong>提供農業、漁業與畜牧業的實用知識。</li>
+<li><strong>商店。</strong>在應用程式內購買農業資材，並有肥料折扣等優惠活動。</li>
+<li><strong>紅利餘額。</strong>首頁最上方會顯示 Saldo Bonus 餘額。</li>
+</ul>
+<h2>我們的做法</h2>
+<p>這款應用程式是為整天待在田裡、而不是整天使用 App 的人所設計。因此首頁以大圖示排成方格，每項功能都只需點一下；紅利餘額就放在最上方；各個區塊也都使用農民平常慣用的詞彙，例如 Kebun Saya 和 Info Pasar，而不是一般 App 的專業術語。</p>
+<p><img alt="Tani Milenial Google Play 商店截圖" height="883" src="/assets/images/projects/tanimilenial-playstore.webp" width="1600"/></p>
+</div>
+<ul class="project-meta">
+<li><strong>客戶</strong> TaniMilenial</li>
+<li><strong>合作夥伴</strong> Clicks&amp;Co</li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多專案</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hant/projects/calvin-kain/">
+<img alt="Calvin Kain" class="thumb" height="764" loading="lazy" src="/assets/images/projects/calvin-kain.webp" width="1444"/>
+<div class="card-body"><h3>Calvin Kain</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/par/">
+<div class="thumb thumb-app"><img alt="Par" height="256" loading="lazy" src="/assets/images/projects/par-icon.webp" width="256"/></div>
+<div class="card-body"><h3>Par</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/cleanstorage/">
+<div class="thumb thumb-app"><img alt="CleanStorage" height="256" loading="lazy" src="/assets/images/projects/cleanstorage-icon.webp" width="256"/></div>
+<div class="card-body"><h3>CleanStorage</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/tani-milenial-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/tani-milenial-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/tani-milenial-application/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

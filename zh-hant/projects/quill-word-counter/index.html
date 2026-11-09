@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Quill Word Counter | SawirStudio</title>
+<meta content="免費字數計算工具，還能顯示閱讀時間、貼文長度限制，以及您重複使用的字詞" name="description"/>
+<meta content="Quill Word Counter | SawirStudio" property="og:title"/>
+<meta content="免費字數計算工具，還能顯示閱讀時間、貼文長度限制，以及您重複使用的字詞" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/quill-word-counter/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/quill-word-counter/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/quill-word-counter.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "Quill Word Counter",
+          "description": "免費字數計算工具，還能顯示閱讀時間、貼文長度限制，以及您重複使用的字詞",
+          "url": "https://quillwordcounter.com",
+          "mainEntityOfPage": "https://sawirstudio.com/projects/quill-word-counter/",
+          "image": "https://sawirstudio.com/assets/images/projects/quill-word-counter-icon.webp",
+          "operatingSystem": "Web",
+          "applicationCategory": "ProductivityApplication",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Quill Word Counter",
+              "item": "https://sawirstudio.com/zh-hant/projects/quill-word-counter/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/quill-word-counter/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/quill-word-counter/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/quill-word-counter/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/quill-word-counter/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/quill-word-counter/">Quill Word Counter</a></li>
+</ol>
+</nav>
+<div class="app-heading">
+<img alt="" class="app-icon" height="96" src="/assets/images/projects/quill-word-counter-icon.webp" style="view-transition-name: media-quill-word-counter" width="96"/>
+<h1 class="page-title heavy">Quill Word Counter</h1>
+</div>
+<p class="lead-sm">免費字數計算工具，還能顯示閱讀時間、貼文長度限制，以及您重複使用的字詞</p>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p>Quill Word Counter 是一個寫作輸入框，提供寫作者最常查看的各項統計：字數、字元數、句數和段落數，以及閱讀和朗讀這段文字各需要多少時間。</p>
+<p>它也會對照 Instagram 貼文說明、Facebook 貼文、X 貼文和短篇部落格文章的長度，越接近上限，顯示就會越偏紅。下方則會列出每個字詞和使用次數，讓重複的字詞一目了然。</p>
+<p>它完全免費，並在瀏覽器中執行：您輸入的文字不會傳送到任何地方。</p>
+<p><img alt="Quill Word Counter 正在計算一份簡短草稿的字數" height="1024" loading="lazy" src="/assets/images/projects/quill-word-counter.webp" width="1536"/></p>
+<p><strong>使用技術</strong> Quill 和 Alpine.js</p>
+</div>
+<ul class="project-meta">
+<li><strong>客戶</strong> 自家產品</li>
+<li><strong>平台</strong> 網頁</li>
+<li><strong>價格</strong> 免費</li>
+<li><strong>網站網址</strong> <a href="https://quillwordcounter.com" rel="noreferrer" target="_blank">https://quillwordcounter.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多專案</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hant/projects/nofapfit/">
+<div class="thumb thumb-app"><img alt="NoFapFit" loading="lazy" src="/assets/images/projects/nofapfit-icon.webp"/></div>
+<div class="card-body"><h3>NoFapFit</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/wordpress-plugins/">
+<img alt="WordPress 外掛" class="thumb" height="900" loading="lazy" src="/assets/images/projects/wordpress-plugins.webp" width="1600"/>
+<div class="card-body"><h3>WordPress 外掛</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/odoo-shopify-connector/">
+<img alt="Shopify Connector for Odoo" class="thumb" height="900" loading="lazy" src="/assets/images/projects/odoo-shopify-connector.webp" width="1600"/>
+<div class="card-body"><h3>Shopify Connector for Odoo</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/quill-word-counter/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/quill-word-counter/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/quill-word-counter/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

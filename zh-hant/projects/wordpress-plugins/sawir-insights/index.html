@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Insights | SawirStudio</title>
+<meta content="熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，所有資料都留在您的伺服器上。" name="description"/>
+<meta content="Sawir Insights | SawirStudio" property="og:title"/>
+<meta content="熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，所有資料都留在您的伺服器上。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-insights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，所有資料都留在您的伺服器上。",
+          "url": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 外掛",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Insights</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Insights 橫幅圖片" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" width="1544"/></p>
+<p>Sawir Insights 讓您看見訪客如何使用您的網站，提供熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，而且所有資料都保存在您自己的伺服器上。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">在 WordPress.org 免費取得</a></p>
+<h2>功能介紹</h2>
+<p>Sawir Insights 是 WordPress 的行為分析外掛，包含熱點圖、工作階段錄影、問卷調查、意見回饋小工具、表單分析、轉換漏斗，以及整合這些資料的儀表板。</p>
+<p>在多站網路（multisite）中，每個網站都會獨立追蹤並設定自己的分析資料。</p>
+<p>簡單來說：這是可自行架設的 Hotjar 或 Microsoft Clarity 替代方案，訪客資料會留在您自己的資料庫裡。</p>
+<p>它誕生的原因很單純。這類工具中的老牌產品確實很好用，但運作方式是把訪客的一舉一動記錄下來，傳送到別人的伺服器上。對許多網站來說，尤其是歐盟地區的網站，這種做法從令人不安到根本行不通都有可能。我想要的是同類型的工具，但資料絕不離開收集它的網站。所以這個外掛就是圍繞這個前提打造的：您的資料庫、您的上傳目錄、您的保存規則。背後沒有任何 SaaS 服務，不需要建立帳號，也不會有任何形式的回傳連線。</p>
+<h3>功能介紹</h3>
+<ul>
+<li>點擊、滑鼠移動與捲動熱點圖，直接呈現在您的線上頁面上，並區分桌機、平板與手機。</li>
+<li>可在 wp-admin 內播放工作階段錄影。輸入欄位的內容一律會被遮蔽；錄影功能預設關閉，需要您自行開啟。</li>
+<li>彈出式問卷與常駐的意見回饋標籤，可依網址、裝置、流量比例、停留時間、捲動深度或離開意圖來設定顯示對象。</li>
+<li>表單分析：看出使用者在哪裡猶豫、哪些欄位留白、在哪裡放棄。只記錄選擇器與時間，絕不記錄任何人輸入的內容。</li>
+<li>有順序的轉換漏斗，並提供每日報表。</li>
+<li>儀表板提供流量 KPI 與各期間的變化幅度、每日趨勢圖，以及裝置、瀏覽器、頁面、來源網站、行銷活動、漏斗與錄影的細項分析。</li>
+</ul>
+<h3>它刻意不做的事</h3>
+<p>我認為，在安裝工具之前，您應該先知道它拒絕做什麼。</p>
+<ul>
+<li>它不會儲存 IP 位址。無論是雜湊或截斷後的版本，一律不存。</li>
+<li>它絕不記錄表單內容。擷取層只會傳送中繼資料，因此不會有外洩的問題。</li>
+<li>它不會從 CDN 載入任何內容，也不會將任何資料傳送到 CDN。rrweb 重播函式庫已內含在外掛中。</li>
+<li>它不會永遠保留原始資料。事件會依照您控制的保存期程進行彙總與清除，錄影檔則有獨立的保存期限，以及會優先刪除最舊檔案的磁碟用量上限，因為悄悄把主機硬碟塞滿的外掛，不是好外掛。</li>
+</ul>
+<p>前端追蹤程式是小巧的原生 JavaScript，透過 <code>sendBeacon</code> 批次傳送，並提供取樣控制。沒有被抽樣進錄影的訪客，完全不會下載重播函式庫。</p>
+<h3>隱私立場</h3>
+<p>預設會遵守「請勿追蹤」（Do Not Track）設定。同意模式 API（<code>window.swinsConsent</code>）可與您現有的同意管理工具整合。工作階段、事件與錄影都已串接 WordPress 內建的個人資料匯出與清除工具。您的實際部署是否符合 GDPR，取決於您的告知內容與法律依據，這部分沒有任何外掛能代勞，但資料最小化的工作已經完成。</p>
+<h3>支援</h3>
+<p>請透過此外掛在 wordpress.org 的論壇取得支援，或寄信至 ricardo@sawirstudio.com。</p>
+<h2>常見問題</h2>
+<h3>與其他方案相比如何？</h3>
+<p>Hotjar 與 Microsoft Clarity 這類託管式分析服務都是優秀的工具，免費方案也相當大方，但它們的運作方式，是把您訪客的行為記錄傳送到它們的伺服器。Sawir Insights 捨棄了這種跨網站的基礎架構，只堅持一個前提：所有資料都在您自己的網站上收集、儲存與檢視。如果您想要託管服務的額外功能，也不介意由第三方處理資料，請選擇託管服務；如果訪客資料離開您的伺服器是無法接受的，請選擇 Sawir Insights。錄影與熱點圖都存放在您自己的資料庫與上傳目錄中，因此保存設定在這裡比在 SaaS 服務上更重要。</p>
+<h3>Sawir Insights 符合 GDPR 嗎？</h3>
+<p>這個外掛是為重視隱私的部署環境而打造：資料留在您的伺服器上、絕不儲存 IP 位址、保存期限可自行設定、遵守「請勿追蹤」，並整合了 WordPress 的匯出與清除工具。至於是否合規，取決於您的設定、告知內容、法律依據與同意機制的實作，請就您的網站諮詢合格的法律顧問。</p>
+<h3>這和 Hotjar 或 Microsoft Clarity 有什麼不同？</h3>
+<p>它們是託管式服務：功能強大，但您訪客的行為會依照它們的條款被記錄到它們的伺服器上。Sawir Insights 涵蓋同一類功能，包括熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，但它是一個把所有資料都留在您自己伺服器上的外掛，不需要帳號、不使用外部服務，也不會分享資料。</p>
+<h3>訪客資料會離開我的伺服器嗎？</h3>
+<p>不會。這個外掛不會將任何行為資料傳送給 Sawir Studio 或任何分析服務供應商。事件資料存放在您的 WordPress 資料庫中，錄影檔則存放在受保護的上傳目錄底下。</p>
+<h2>推薦搭配</h2>
+<ul>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：以角落的小通知，讓購物者看到您商店裡實際發生的事，例如最新訂單、正在瀏覽商品的人數和最新評價。</li>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>：直接在原頁面上翻譯您的內容：選擇語言、自動翻譯畫面上看得到的文字、儲存，並為訪客提供語言切換器。</li>
+</ul>
+<p>歡迎瀏覽我們所有的<a href="/zh-hant/projects/wordpress-plugins/">免費 WordPress 外掛</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>價格</strong> 免費</li>
+<li><strong>版本</strong> 1.0.0</li>
+<li><strong>需求</strong> WordPress 6.2、PHP 7.4</li>
+<li><strong>授權</strong> GPLv2 或更新版本</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-insights/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-insights/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

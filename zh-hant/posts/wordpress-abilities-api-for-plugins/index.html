@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>適用於外掛的 WordPress Abilities API | SawirStudio</title>
+<meta content="如何在 WordPress 外掛中註冊 abilities，讓 AI 代理與其他工具能安全地探索並執行這些功能：分類、schema、權限、註記與 REST 端點。" name="description"/>
+<meta content="適用於外掛的 WordPress Abilities API | SawirStudio" property="og:title"/>
+<meta content="如何在 WordPress 外掛中註冊 abilities，讓 AI 代理與其他工具能安全地探索並執行這些功能：分類、schema、權限、註記與 REST 端點。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "用 Abilities API 讓 AI 代理也能使用您的 WordPress 外掛",
+          "description": "如何在 WordPress 外掛中註冊 abilities，讓 AI 代理與其他工具能安全地探索並執行這些功能：分類、schema、權限、註記與 REST 端點。",
+          "url": "https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "用 Abilities API 讓 AI 代理也能使用您的 WordPress 外掛",
+              "item": "https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/wordpress-abilities-api-for-plugins/">用 Abilities API 讓 AI 代理也能使用您的 WordPress 外掛</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">用 Abilities API 讓 AI 代理也能使用您的 WordPress 外掛</h1>
+<div class="prose prose-xl">
+<p>WordPress 6.9 新增的 Abilities API，讓外掛可以在同一個地方說明自己能做什麼：名稱、說明、接受的輸入、回傳的內容，以及誰有權限執行。AI 代理、WordPress AI 外掛、MCP 轉接器，甚至一般的腳本，都能找到這些功能並加以使用，不必為每個外掛逐一手動適配。</p>
+<p>以下以我們的一款 <a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a>為例，說明運作方式。</p>
+<h2>範例</h2>
+<p><a href="/zh-hant/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a> 讓顧客可以登記，在商品重新到貨時收到電子郵件通知。代理很容易會遇到這樣的問題：「哪些缺貨商品等待的人最多？」這就是一個唯讀的 ability。</p>
+<h2>1. 註冊分類</h2>
+<p>每個 ability 都必須屬於且僅屬於一個分類，而分類要先註冊，使用它自己的 hook：</p>
+<pre><code>add_action( 'wp_abilities_api_categories_init', function () {
+	wp_register_ability_category( 'store-insights', array(
+		'label'       =&gt; __( 'Store insights', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Read-only questions about the store.', 'sawir-restock-notifier-for-woocommerce' ),
+	) );
+} );</code></pre>
+<h2>2. 註冊 ability</h2>
+<pre><code>add_action( 'wp_abilities_api_init', function () {
+	wp_register_ability( 'sawir-restock/waiting-list', array(
+		'label'       =&gt; __( 'Restock waiting list', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Out-of-stock products, with how many shoppers are waiting for each.', 'sawir-restock-notifier-for-woocommerce' ),
+		'category'    =&gt; 'store-insights',
+		'input_schema' =&gt; array(
+			'type'       =&gt; 'object',
+			'properties' =&gt; array(
+				'limit' =&gt; array( 'type' =&gt; 'integer', 'minimum' =&gt; 1, 'maximum' =&gt; 50, 'default' =&gt; 10 ),
+			),
+		),
+		'output_schema' =&gt; array(
+			'type'  =&gt; 'array',
+			'items' =&gt; array(
+				'type'       =&gt; 'object',
+				'properties' =&gt; array(
+					'product_id' =&gt; array( 'type' =&gt; 'integer' ),
+					'name'       =&gt; array( 'type' =&gt; 'string' ),
+					'waiting'    =&gt; array( 'type' =&gt; 'integer' ),
+				),
+			),
+		),
+		'execute_callback'    =&gt; 'sawir_restock_waiting_list',
+		'permission_callback' =&gt; function () {
+			return current_user_can( 'manage_woocommerce' );
+		},
+		'meta' =&gt; array(
+			'show_in_rest' =&gt; true,
+			'annotations'  =&gt; array( 'readonly' =&gt; true ),
+		),
+	) );
+} );</code></pre>
+<p>callback 就是一般的外掛程式碼，回傳符合輸出 schema 的資料，完全不需要針對 AI 做任何特別處理。</p>
+<h2>各部分的用途</h2>
+<ul>
+<li><strong>名稱</strong>，格式為 <code>namespace/ability-name</code>。請用外掛的 slug 作為 namespace。</li>
+<li><strong>說明。</strong>代理會根據這段文字判斷是否要使用該 ability，所以請以從未看過您外掛的人為對象來撰寫。</li>
+<li><strong>輸入與輸出 schema</strong>，使用 JSON Schema。輸入會在您的程式碼執行前先依 schema 驗證，工具也能事先知道會拿到什麼資料。</li>
+<li><strong>權限 callback。</strong>這是唯一真正發揮保護作用的部分。請像處理後台管理畫面一樣，在這裡檢查使用者權限。</li>
+<li><strong>註記（annotations）。</strong><code>readonly</code>、<code>destructive</code> 與 <code>idempotent</code> 用來告訴工具該多謹慎。它們只是提示，並非安全機制；真正的安全防線是權限 callback。</li>
+<li><strong><code>show_in_rest</code>。</strong>除非您開啟這個選項，否則 ability 不會顯示在 REST API 中。</li>
+</ul>
+<h2>透過 REST 執行</h2>
+<p>顯示於 REST 的 abilities 會列在 <code>/wp-json/wp-abilities/v1/abilities</code>，每個 ability 都有自己的 <code>/run</code> 端點。唯讀的 ability 以 GET 執行，輸入內容以 URL 編碼的 JSON 放在 <code>input</code> 參數中；會變更資料的以 POST 執行，具破壞性的則以 DELETE 執行。每個請求都必須是已通過驗證的使用者，接著由您的權限 callback 決定是否放行。</p>
+<h2>也能透過 MCP 交給代理使用</h2>
+<p>與 WordPress AI 外掛一同開發的 MCP Adapter，會把已註冊的 abilities 提供給 Claude 等 MCP 用戶端。您不需要為此額外撰寫任何程式：說明清楚、schema 完整的 ability，本身就是一個好用的工具。</p>
+<h2>我們會優先開放哪些功能</h2>
+<p>建議從唯讀的 abilities 開始。它們馬上就能派上用場（例如「有多少顧客在等藍色圍巾到貨？」），而且不會造成損害。凡是會寄送電子郵件、變更價格或刪除資料的功能，請等到確定權限檢查與註記都設定正確之後再開放。</p>
+<p>Abilities API 需要 WordPress 6.9 或更新版本。完整的參考資料請見<a href="https://developer.wordpress.org/apis/abilities/" rel="noopener" target="_blank">官方文件</a>。如果您希望在自己倚賴的外掛中加入這項功能，歡迎<a href="/zh-hant/contact/">與我們聯絡</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 將於 12 月 8 日推出：我們在自家外掛中測試的項目</a>，或<a href="/zh-hant/posts/making-our-sites-agent-ready/">讓我們的網站準備好迎接 AI 代理，我們做了哪些事</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-abilities-api-for-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

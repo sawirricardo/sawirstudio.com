@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>將 Shopify 連接到 Odoo 19 Community | SawirStudio</title>
+<meta content="如何使用開源的 OCA Shopify 連接器，將 Shopify 商店連接到 Odoo 19 Community：Dev Dashboard 應用程式、scopes、queue_job、webhook 與初始設定。" name="description"/>
+<meta content="將 Shopify 連接到 Odoo 19 Community | SawirStudio" property="og:title"/>
+<meta content="如何使用開源的 OCA Shopify 連接器，將 Shopify 商店連接到 Odoo 19 Community：Dev Dashboard 應用程式、scopes、queue_job、webhook 與初始設定。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "將 Shopify 連接到 Odoo 19 Community 的逐步設定教學",
+          "description": "如何使用開源的 OCA Shopify 連接器，將 Shopify 商店連接到 Odoo 19 Community：Dev Dashboard 應用程式、scopes、queue_job、webhook 與初始設定。",
+          "url": "https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "將 Shopify 連接到 Odoo 19 Community 的逐步設定教學",
+              "item": "https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/connect-shopify-to-odoo-19-community/">將 Shopify 連接到 Odoo 19 Community 的step-by-step 設定教學</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">將 Shopify 連接到 Odoo 19 Community 的逐步設定教學</h1>
+<div class="prose prose-xl">
+<p>我們開發了 <a href="/zh-hant/projects/odoo-shopify-connector/">Odoo 的 Shopify 連接器</a>，並貢獻給 Odoo Community Association（OCA）。它免費、開源（AGPL-3），可搭配 Odoo 19 Community 使用。以下是我們為客戶設定時的完整流程，從頭到尾一步步說明。</p>
+<p>它可以同步商品、庫存、客戶、訂單、退貨、退款與出貨，單一商店或多間商店都適用。會計與銷售點（POS）則是獨立的模組，之後可以再加裝。</p>
+<h2>開始之前</h2>
+<ul>
+<li>Odoo 19 Community 必須能透過公開的 HTTPS 連線存取。Shopify 會將 webhook 傳送到這裡，也會從這裡下載商品圖片。</li>
+<li>擁有 Shopify 商店的管理員權限，以及該商店所屬 Shopify 組織的管理員權限。</li>
+<li>您的 Shopify 方案需包含自行建立之應用程式可使用的受保護客戶資料。Basic 方案不包含此項目，缺少的話，Shopify 會拒絕部分訂單 webhook，訂單與客戶的匯入也會失敗。</li>
+</ul>
+<h2>1. 在 Shopify Dev Dashboard 建立應用程式</h2>
+<p>自 2026 年 1 月 1 日起，Shopify 不再允許從商店後台建立舊版的「自訂應用程式」。請在商店所屬組織的 <strong>Dev Dashboard</strong> 中建立應用程式。這一點很重要：Odoo 是透過 client credentials grant 取得存取權杖，而這只有在應用程式與商店屬於同一個組織時才行得通。</p>
+<p>填寫應用程式版本時：</p>
+<ul>
+<li><strong>App URL：</strong><code>https://shopify.dev/apps/default-app-home</code>。此連接器在 Shopify 內沒有任何頁面。</li>
+<li><strong>Embed app in Shopify admin：</strong>關閉。</li>
+<li><strong>Use legacy install flow：</strong>關閉，這樣安裝應用程式時就會授予您所選的權限範圍。</li>
+<li><strong>Webhooks：</strong>不用設定。Odoo 會在初始設定時自行建立。</li>
+<li><strong>Webhooks API version：</strong><code>2026-01</code>，也就是連接器使用的版本。</li>
+<li><strong>Scopes：</strong><code>read_customers</code>、<code>write_customers</code>、<code>read_draft_orders</code>、<code>read_fulfillments</code>、<code>read_inventory</code>、<code>write_inventory</code>、<code>read_locations</code>、<code>read_merchant_managed_fulfillment_orders</code>、<code>write_merchant_managed_fulfillment_orders</code>、<code>read_orders</code>、<code>read_products</code>、<code>write_products</code> 和 <code>read_returns</code>。如果需要 60 天以前的訂單，請再加上 <code>read_all_orders</code>。</li>
+</ul>
+<p>發佈該版本，將應用程式安裝到商店，然後從應用程式的「Settings」頁面複製 client ID 與 client secret。</p>
+<p>已經有 2026 年之前建立的舊版自訂應用程式嗎？它仍然可以使用。請將 client ID 留空，改用它的 Admin API access token 與 API secret key。</p>
+<h2>2. 在 Odoo 安裝模組</h2>
+<p>將 OCA 的 <code>queue_job</code> 與 <a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">connector-shopify</a> 儲存庫加入您的 addons 路徑，然後安裝 <strong>Shopify Connector</strong>。同步工作是以背景作業的方式執行，因此 <code>queue_job</code> 必須在伺服器層級載入，並為每個 Shopify 頻道設定處理容量：</p>
+<pre><code>[options]
+server_wide_modules = base,rpc,web,queue_job
+
+[queue_job]
+channels = root:4,root.shopify.import:2,root.shopify.export:1,root.shopify.webhook:1</code></pre>
+<p>接著，將系統參數 <code>web.base.url</code> 設為 Odoo 的公開 HTTPS 網址，並將 <code>web.base.url.freeze</code> 設為 <code>True</code>。否則當管理員從其他地方登入時，網址就會改變，Shopify 的 webhook 也會被送到錯誤的位置。</p>
+<h2>3. 執行初始設定</h2>
+<p>將 <strong>Shopify Manager</strong> 群組授予您的團隊成員，然後開啟 <strong>Shopify &gt; Configuration &gt; Instances</strong>，點選 <strong>Start Onboarding</strong>：</p>
+<ol>
+<li>輸入 <code>yourstore.myshopify.com</code> 網域、client ID 與 client secret，並測試連線。Odoo 會自行取得權杖，並每 24 小時自動更新一次。</li>
+<li>檢查權限範圍。如果缺少任何一項，請將它加入新的應用程式版本，發佈後再到商店中核准。</li>
+<li>將 Shopify 的據點對應到 Odoo 的倉庫，檢查 Odoo 產生的稅務對應，並選擇同步原則。</li>
+<li>安裝 webhook，並將第一批匯入作業排入佇列。</li>
+</ol>
+<p>在讓訂單與出貨自動無人值守地運行之前，請先檢查付款閘道與物流業者的對應。日後大多數的意外狀況，都來自沒有人檢查過的對應設定。</p>
+<h2>4. 持續留意運作狀況</h2>
+<p><strong>Shopify &gt; Dashboard</strong> 會顯示同步狀態、待處理作業數量、近期錯誤以及 webhook 的健康狀況。連接器並不假設每個 webhook 都會送達：排程作業會重新匯入 Shopify 有變更、但 Odoo 漏掉的任何資料。發生失敗時，請先排除原因，再使用 <strong>Retry Failed Shopify Bindings</strong>。更換網域或憑證之後，請執行 <strong>Check Webhooks</strong>。</p>
+<h2>後續步驟</h2>
+<p>加裝 <strong>Shopify Connector Accounting</strong>，即可將 Shopify Payments 的撥款、手續費與爭議款項匯入為日記帳分錄（我們另外說明了<a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/">為什麼撥款很難對帳</a>）；加裝 <strong>Shopify Connector POS</strong>，則可處理實體店面的銷售。</p>
+<p>如果您希望我們協助安裝、依照貴公司的營運方式進行設定，或是擴充功能，<a href="/zh-hant/shopify/">我們可以幫您處理</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/">為什麼您的 Shopify 撥款永遠對不上帳</a>，或是 <a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/">Shopify 2026-10 API：您的整合會有哪些地方壞掉</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/connect-shopify-to-odoo-19-community/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

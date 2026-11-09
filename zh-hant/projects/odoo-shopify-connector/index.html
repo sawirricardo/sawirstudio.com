@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Odoo 的 Shopify 連接器 | SawirStudio</title>
+<meta content="適用於 Odoo 19 Community 的開源 Shopify 連接器，由 SawirStudio 開發，並由 Odoo Community Association（OCA）維護。" name="description"/>
+<meta content="Odoo 的 Shopify 連接器 | SawirStudio" property="og:title"/>
+<meta content="適用於 Odoo 19 Community 的開源 Shopify 連接器，由 SawirStudio 開發，並由 Odoo Community Association（OCA）維護。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/odoo-shopify-connector.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Shopify Connector for Odoo",
+          "description": "適用於 Odoo 19 Community 的開源 Shopify 連接器，由 SawirStudio 開發，並由 Odoo Community Association（OCA）維護。",
+          "url": "https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/",
+          "image": "https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify Connector for Odoo",
+              "item": "https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/odoo-shopify-connector/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/odoo-shopify-connector/">Odoo 的 Shopify 連接器</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Shopify Connector for Odoo</h1>
+<img alt="GitHub 上的 OCA connector-shopify 儲存庫" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/odoo-shopify-connector.webp" style="view-transition-name: media-odoo-shopify-connector" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>專案簡介</h2>
+<p>Odoo Community Association（OCA）是一個非營利組織，負責維護多數 Odoo Community 使用者所仰賴的開源模組。Connector Shopify 是 OCA 提供的連接器，可串接 Shopify 商店與 Odoo 19 Community，並以 AGPL-3 授權釋出。</p>
+<h2>我們的作品</h2>
+<p>這套連接器由我們撰寫，並於 2026 年 7 月貢獻給 OCA，包含核心的 Shopify Connector、Shopify Connector Accounting 與 Shopify Connector POS。我們持續維護，最近一次是配合 Shopify 的 2026-01 Admin API 進行調整，目前也有其他 OCA 貢獻者在此基礎上開發，其中包括電商商品媒體模組。</p>
+<ul>
+<li><strong>商務同步。</strong>支援商品、庫存、客戶、訂單、退貨、退款與出貨，每個 Odoo 資料庫可連接任意數量的 Shopify 商店，並依公司區分。</li>
+<li><strong>可靠的設計。</strong>以簽章 webhook 確保速度，以 OCA 的 queue_job 進行穩定的背景處理，並透過排程對帳，修復遺漏或延遲的事件。</li>
+<li><strong>日常管理工具。</strong>包含初始設定引導、健康檢查、同步儀表板、錯誤復原，以及可自訂的資料保留設定。</li>
+<li><strong>會計。</strong>支援 Shopify Payments 撥款、餘額交易、手續費、爭議款項、禮品卡負債與多幣別對帳。</li>
+<li><strong>門市銷售（POS）。</strong>將 Shopify POS 的銷售匯入為銷售訂單，並依各零售據點對應到 Odoo 倉庫，不需要使用 Odoo 內建的 POS 應用程式。</li>
+</ul>
+<h2>我們的做法</h2>
+<p>對會計來說，多數時候正確的整合仍然是錯誤的。因此這套連接器透過 Shopify 的 GraphQL Admin API 溝通，不會假設 webhook 一定送達，並會定期與 Shopify 比對自我檢查。會計分錄依據 Shopify 的精確金額規劃，且必須借貸平衡才能過帳：若金額對不上，連接器會明確報錯，而不是悄悄補上一行平衡分錄。</p>
+<p>需要為您的商店進行設定或擴充功能嗎？請參考 <a href="/zh-hant/shopify/">Shopify 整合</a>，若是 Odoo 本身的需求，請看 <a href="/zh-hant/odoo/">Odoo 與企業系統</a>。</p>
+<p><strong>使用技術</strong> Python、Odoo 19 與 Shopify GraphQL Admin API</p>
+</div>
+<ul class="project-meta">
+<li><strong>專案</strong> Odoo Community Association（OCA）</li>
+<li><strong>授權</strong> AGPL-3</li>
+<li><strong>原始碼</strong> <a href="https://github.com/OCA/connector-shopify" rel="noreferrer" target="_blank">https://github.com/OCA/connector-shopify</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多專案</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hant/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/koperasi-hob-application/">
+<img alt="Koperasi HOB Application" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Koperasi HOB Application</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/dbtv-application/">
+<img alt="DBTV 應用程式" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/>
+<div class="card-body"><h3>DBTV 應用程式</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/odoo-shopify-connector/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/odoo-shopify-connector/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/odoo-shopify-connector/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

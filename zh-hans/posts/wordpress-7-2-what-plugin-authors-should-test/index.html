@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress 7.2：插件作者应该测试什么 | SawirStudio</title>
+<meta content="WordPress 7.2 将于 2026 年 12 月 8 日发布。从 Application Passwords、拟议中的 Secrets API 到 Interactivity API 路由器，插件作者需要关注哪些变化，以及现在如何开始测试。" name="description"/>
+<meta content="WordPress 7.2：插件作者应该测试什么 | SawirStudio" property="og:title"/>
+<meta content="WordPress 7.2 将于 2026 年 12 月 8 日发布。从 Application Passwords、拟议中的 Secrets API 到 Interactivity API 路由器，插件作者需要关注哪些变化，以及现在如何开始测试。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "WordPress 7.2 将于 12 月 8 日发布：我们在自己的插件中测试什么",
+          "description": "WordPress 7.2 将于 2026 年 12 月 8 日发布。从 Application Passwords、拟议中的 Secrets API 到 Interactivity API 路由器，插件作者需要关注哪些变化，以及现在如何开始测试。",
+          "url": "https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "博客",
+              "item": "https://sawirstudio.com/zh-hans/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 7.2 将于 12 月 8 日发布：我们在自己的插件中测试什么",
+              "item": "https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a aria-current="true" href="/zh-hans/posts/">博客</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="面包屑导航" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="page" href="/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 将于 12 月 8 日发布：我们在自己的插件中测试什么</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">WordPress 7.2 将于 12 月 8 日发布：我们在自己的插件中测试什么</h1>
+<div class="prose prose-xl">
+<p>WordPress 7.2 计划于 2026 年 12 月 8 日发布。第一个候选版本（RC）预计在 11 月 17 日推出，届时功能列表将冻结，并发布 Field Guide（汇总所有开发者说明的清单）。在此之前，测试版是发现插件问题成本最低的地方。</p>
+<p>我们在 WordPress.org 上维护着<a href="/zh-hans/projects/wordpress-plugins/"> 12 个免费插件</a>，所以这是我们自己的检查清单。下面有些内容在我们撰写时还只是提案，最终请以 Field Guide 为准。</p>
+<h2>现在如何测试</h2>
+<ul>
+<li><strong>WP-CLI</strong>：在测试站点上运行 <code>wp core update --version=7.2-beta4</code>，或使用当前最新的测试版或 RC。</li>
+<li><strong>WordPress Beta Tester 插件</strong>：设置为“Bleeding edge”和“Beta/RC Only”。</li>
+<li><strong>WordPress Playground</strong>：无需安装任何东西，直接在浏览器中点选体验。</li>
+</ul>
+<p>切勿在线上站点测试。请开启 <code>WP_DEBUG</code> 和 <code>WP_DEBUG_LOG</code>，留意弃用提示；大多数早期警告都会出现在这里。</p>
+<h2>我们检查的内容</h2>
+<h3>Application Passwords</h3>
+<p>7.2 加强了 Application Passwords：能更好地识别本地环境和 HTTPS 配置，新增一个应用密码时会发送邮件，并更安全地处理默认角色。如果您的插件或客户的工具通过这种方式对 REST API 进行身份验证，请完整地跑一遍这个流程。</p>
+<h3>Secrets API</h3>
+<p>这是核心提供的凭据加密存储方式，让插件不再把 API 密钥以明文选项保存。它曾被提议加入 7.2，管理界面则推迟到 7.3。如果您的插件会存储 API 密钥，请留意 Field Guide：它一旦发布，这些密钥就应该存放在那里。我们的免费插件目前都不存储第三方密钥，所以对我们来说，这主要和客户项目有关。</p>
+<h3>Sudo 模式</h3>
+<p>计划中的功能：在执行高权限操作之前，要求已登录的用户再次确认密码。如果您的插件在自己的界面或通过 AJAX 执行这类操作，请测试核心在中途要求重新验证时会发生什么。</p>
+<h3>Interactivity API 路由器</h3>
+<p>新的路由器用于监听客户端导航，取代已弃用的 <code>state.navigation.hasStarted</code> 和 <code>hasFinished</code> 这一对状态。另外还新增了 <code>data-wp-html</code> 指令，用于渲染可信的标记。</p>
+<h3>后台图标和通知</h3>
+<p>后台管理栏和菜单中的 Dashicons 正在被 SVG 图标取代，后台通知对屏幕阅读器的播报也有所改进。如果您的插件为菜单图标设置了样式，或在后台 CSS 中针对 Dashicon 类名，请在测试版中查看效果。</p>
+<h3>DataViews 与站点编辑器</h3>
+<p>插件可以在站点编辑器中注册自己的界面，并从服务器端控制 DataViews 的字段和布局。这里不会有任何功能失效，但如果您的插件有列表界面，了解未来的方向会有帮助。</p>
+<h2>测试之后</h2>
+<p>请在真正测试过之后再提高 readme 中的“Tested up to”，不要提前。如果插件没有在最近的几个主要版本上测试过，WordPress.org 会向用户显示警告，而这个警告会减少安装量。我们的插件目前标注为“Tested up to: 7.1”，在 RC 上通过测试后会改为 7.2。</p>
+<p>新的默认主题 Ipsum 也会随版本一起发布。如果您的插件会在前台输出任何内容，请在该主题下检查；新站点将是这个样子。</p>
+<p>如果您有插件需要为 7.2 更新，或者有无人维护的定制插件，<a href="/zh-hans/contact/">我们可以帮您看看</a>。</p>
+<p><strong>继续阅读：</strong><a href="/zh-hans/posts/wordpress-abilities-api-for-plugins/">用 Abilities API 让 AI 代理也能使用您的 WordPress 插件</a>，或者<a href="/zh-hans/posts/woocommerce-or-shopify-indonesia/">印尼企业该选 WooCommerce 还是 Shopify？</a></p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>这篇文章对您有帮助吗？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>希望您能留下邮箱地址，这样每当有新文章发布时，我就可以把类似的文章发给您。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="电子邮箱地址" class="formkit-input" name="email_address" placeholder="电子邮箱地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>订阅</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不会向您发送垃圾邮件，您可以随时退订。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">由 ConvertKit 构建</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

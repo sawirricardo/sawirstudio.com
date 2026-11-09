@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Role Capabilities Manager | SawirStudio</title>
+<meta content="创建自定义用户角色，并管理新建和现有 WordPress 角色的权限。" name="description"/>
+<meta content="Sawir Role Capabilities Manager | SawirStudio" property="og:title"/>
+<meta content="创建自定义用户角色，并管理新建和现有 WordPress 角色的权限。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-role-capabilities-manager.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Role Capabilities Manager",
+          "description": "创建自定义用户角色，并管理新建和现有 WordPress 角色的权限。",
+          "url": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-role-capabilities-manager-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 插件",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Role Capabilities Manager",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="true" href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/projects/wordpress-plugins/">WordPress 插件</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Role Capabilities Manager</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Role Capabilities Manager 横幅图" height="500" src="/assets/images/plugins/sawir-role-capabilities-manager-banner.webp" width="1544"/></p>
+<p>Sawir Role Capabilities Manager 让您创建自己的用户角色，并精确决定每个角色（无论是新建的还是内置的）能做什么。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-role-capabilities-manager/" rel="noreferrer" target="_blank">在 WordPress.org 免费获取</a></p>
+<h2>功能介绍</h2>
+<p>Sawir Role Capabilities Manager 在“用户”菜单下新增一个仅限管理员使用的角色权限页面。管理员可以创建角色、从现有角色复制权限、添加自定义权限键，并管理现有角色的权限。</p>
+<h2>常见问题</h2>
+<h3>与其他方案相比如何？</h3>
+<p>User Role Editor、Members 和 PublishPress Capabilities 是这一领域的成熟工具，其专业版还提供内容限制、前台保护和后台菜单控制等功能。Sawir Role Capabilities Manager 把核心的管理任务集中在“用户”菜单下的一个页面里，而且免费：创建角色、在角色之间复制权限、添加自定义权限键，以及编辑现有角色。如果您需要限制内容或搭建会员等级，请选择 Members 或 PublishPress；如果您只需要干净利落的角色与权限管理，用它就够了。</p>
+<h2>推荐搭配</h2>
+<ul>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a>：为 WordPress 媒体库带来文件夹功能，数量不限，通过拖放即可整理归类。</li>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>：就地翻译您的页面：选择语言，自动翻译可见内容，保存后还能为访客提供语言切换器。</li>
+</ul>
+<p>查看我们所有的<a href="/zh-hans/projects/wordpress-plugins/">免费 WordPress 插件</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>价格</strong> 免费</li>
+<li><strong>版本</strong> 1.0.1</li>
+<li><strong>要求</strong> WordPress 5.8、PHP 7.4</li>
+<li><strong>许可证</strong> GPLv2 或更高版本</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-role-capabilities-manager/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-role-capabilities-manager/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>我们先聊到这里。</p>
+<h2>我们能为您<br/>做些什么？</h2>
+<a class="button" href="/zh-hans/contact/">开始项目</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

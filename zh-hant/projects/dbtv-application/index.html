@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>DBTV 應用程式 | SawirStudio</title>
+<meta content="DBTV 為 iOS 與 Android 用戶帶來 Ps. Debby Basjir 的講道、禱告聚會、敬拜、Podcast 與每日靈修。由 SawirStudio 開發。" name="description"/>
+<meta content="DBTV 應用程式 | SawirStudio" property="og:title"/>
+<meta content="DBTV 為 iOS 與 Android 用戶帶來 Ps. Debby Basjir 的講道、禱告聚會、敬拜、Podcast 與每日靈修。由 SawirStudio 開發。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/dbtv-application/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/dbtv-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/dbtv-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "DBTV 應用程式",
+          "description": "DBTV 為 iOS 與 Android 用戶帶來 Ps. Debby Basjir 的講道、禱告聚會、敬拜、Podcast 與每日靈修。由 SawirStudio 開發。",
+          "url": "https://sawirstudio.com/zh-hant/projects/dbtv-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/dbtv-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "DBTV 應用程式",
+              "item": "https://sawirstudio.com/zh-hant/projects/dbtv-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/dbtv-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/dbtv-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/dbtv-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/dbtv-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/dbtv-application/">DBTV 應用程式</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">DBTV 應用程式</h1>
+<p class="lead-sm">Ps. Debby Basjir 的講道、禱告與每日靈修</p>
+<img alt="DBTV 應用程式橫幅" class="project-hero" fetchpriority="high" height="782" src="/assets/images/projects/dbtv-application.webp" style="view-transition-name: media-dbtv-application" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>客戶</h2>
+<p>DBTV 是 Ps. Debby Basjir 事工的媒體頻道，為線上追隨的會眾提供講道、禱告聚會、敬拜與靈修內容。</p>
+<h2>我們的作品</h2>
+<p>我們為 DBTV 開發了 iOS 與 Android 版應用程式，讓會眾用手機就能隨時參與事工。</p>
+<ul>
+<li><strong>講道與敬拜。</strong>獨家講道影片、讚美敬拜與 Podcast，影片可直接在應用程式內播放。</li>
+<li><strong>禱告。</strong>線上禱告聚會，包含兒童專屬的 Mezbah Doa。</li>
+<li><strong>每日靈修。</strong>每天更新靈修內容，文字排版清晰好讀。</li>
+<li><strong>活動。</strong>瀏覽即將舉行的活動、線上報名，並查看您所報名的所有人。</li>
+<li><strong>商店。</strong>DBTV 周邊商品，連結至其 Tokopedia 與 Shopee 商店。</li>
+<li><strong>DBTV+。</strong>會員方案，可搶先收看獨家內容。</li>
+<li><strong>通知。</strong>有新內容發布時，立即推送通知。</li>
+</ul>
+<h2>我們的做法</h2>
+<p>事工每天都有新內容，所以應用程式不把任何內容寫死：靈修、講道與活動都來自 DBTV 的平台，無需更新應用程式就會自動顯示。當應用程式本身有變動時，會提示使用者更新，讓所有會眾都使用同一個版本，不會有人被舊版的錯誤困擾。</p>
+<p><strong>使用技術</strong> Expo (React Native)</p>
+<div class="shots">
+<img alt="DBTV 應用程式截圖 1" height="1067" loading="lazy" src="/assets/images/projects/dbtv-application-1.webp" width="600"/>
+<img alt="DBTV 應用程式截圖 2" height="1067" loading="lazy" src="/assets/images/projects/dbtv-application-2.webp" width="600"/>
+<img alt="DBTV 應用程式截圖 3" height="1067" loading="lazy" src="/assets/images/projects/dbtv-application-3.webp" width="600"/>
+</div>
+</div>
+<ul class="project-meta">
+<li><strong>客戶</strong> DBTV</li>
+<li><strong>網站網址</strong> <a href="https://dbtv.my.id" rel="noreferrer" target="_blank">https://dbtv.my.id</a></li>
+<li><strong>App Store 網址</strong> <a href="https://apps.apple.com/id/app/dbtv/id6752770752" rel="noreferrer" target="_blank">https://apps.apple.com/id/app/dbtv/id6752770752</a></li>
+<li><strong>Google Play 商店網址</strong> <a href="https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk" rel="noreferrer" target="_blank">https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多專案</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hant/projects/kantong-sayur-application/">
+<img alt="Kantong Sayur 應用程式" class="thumb" height="883" loading="lazy" src="/assets/images/projects/kantong-sayur-application.webp" width="1600"/>
+<div class="card-body"><h3>Kantong Sayur 應用程式</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS 應用程式" class="thumb" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" width="1600"/>
+<div class="card-body"><h3>PeopleBond HCMS 應用程式</h3></div>
+</a>
+<a class="card" href="/zh-hant/projects/tani-milenial-application/">
+<img alt="TaniMilenial 應用程式" class="thumb" height="688" loading="lazy" src="/assets/images/projects/tani-milenial-application.webp" width="1410"/>
+<div class="card-body"><h3>TaniMilenial 應用程式</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/dbtv-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/dbtv-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/dbtv-application/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

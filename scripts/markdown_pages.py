@@ -75,6 +75,8 @@ def page(html_path):
 
 
 def llms_txt(pages):
+    # English only: translated pages (under /<lang>/, see scripts/i18n.py) are linked from each page instead.
+    pages = [p for p in pages if not re.match(r"/[a-z]{2}(-[a-z]{4})?/", p[0].removeprefix(SITE))]
     by_url = {url: (title, desc) for url, title, desc in pages}
     order = re.findall(r"<loc>([^<]+)</loc>", (ROOT / "sitemap.xml").read_text())
     groups = {"Studio": [], "Projects": [], "WordPress plugins": [], "Blog": []}

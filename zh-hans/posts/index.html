@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>博客 | SawirStudio</title>
+<meta content="SawirStudio 发布的文章，主要讲解如何使用 Laravel 和 PHP 构建 Web 应用。" name="description"/>
+<meta content="博客 | SawirStudio" property="og:title"/>
+<meta content="SawirStudio 发布的文章，主要讲解如何使用 Laravel 和 PHP 构建 Web 应用。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/posts/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/posts/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://sawirstudio.com/zh-hans/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "博客",
+          "item": "https://sawirstudio.com/zh-hans/posts/"
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a aria-current="page" href="/zh-hans/posts/">博客</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<nav aria-label="面包屑导航" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a aria-current="page" href="/zh-hans/posts/">博客</a></li>
+</ol>
+</nav>
+<h1 class="page-title text-center" style="margin-bottom: 2rem">博客</h1>
+<ul class="post-list center">
+<li><a href="/zh-hans/posts/shopify-2026-10-api-what-breaks/"><time datetime="2026-11-06">2026-11-06</time> Shopify 2026-10 版 API：哪些集成会失效</a></li>
+<li><a href="/zh-hans/posts/shopify-script-tags-stop-march-2027/"><time datetime="2026-11-06">2026-11-06</time> Shopify Script Tags 将于 2027 年 3 月 1 日停止运作，店主该怎么做</a></li>
+<li><a href="/zh-hans/posts/connect-shopify-to-odoo-19-community/"><time datetime="2026-11-06">2026-11-06</time> 手把手教您连接 Shopify 与 Odoo 19 Community</a></li>
+<li><a href="/zh-hans/posts/why-shopify-payouts-dont-match-your-books/"><time datetime="2026-11-06">2026-11-06</time> 为什么 Shopify 的打款金额总是和您的账目对不上</a></li>
+<li><a href="/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/"><time datetime="2026-11-06">2026-11-06</time> WordPress 7.2 将于 12 月 8 日发布：我们在自家插件中测试了什么</a></li>
+<li><a href="/zh-hans/posts/wordpress-abilities-api-for-plugins/"><time datetime="2026-11-06">2026-11-06</time> 用 Abilities API 让 AI 智能体也能使用您的 WordPress 插件</a></li>
+<li><a href="/zh-hans/posts/woocommerce-or-shopify-indonesia/"><time datetime="2026-11-06">2026-11-06</time> 印尼的企业该选 WooCommerce 还是 Shopify？</a></li>
+<li><a href="/zh-hans/posts/making-our-sites-agent-ready/"><time datetime="2026-11-06">2026-11-06</time> 让我们的网站支持 AI 智能体，我们做了哪些工作</a></li>
+<li><a href="/zh-hans/posts/throwable-app-icons-matter-js/"><time datetime="2026-11-06">2026-11-06</time> 我们首页上那些可以抛掷的应用图标</a></li>
+<li><a href="/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/"><time datetime="2022-10-27">2022-10-27</time> 如何自己搭建内容管理系统（类似 WordPress）</a></li>
+<li><a href="/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/"><time datetime="2022-07-04">2022-07-04</time> 如何设计订阅套餐的功能限制</a></li>
+</ul>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/posts/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

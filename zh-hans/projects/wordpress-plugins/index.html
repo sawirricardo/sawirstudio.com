@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress 插件 | SawirStudio</title>
+<meta content="SawirStudio 出品的十二款免费 WordPress 插件：为 WooCommerce 提供订阅、推荐、到货提醒等功能，另有适用于任何 WordPress 网站的工具。" name="description"/>
+<meta content="WordPress 插件 | SawirStudio" property="og:title"/>
+<meta content="SawirStudio 出品的十二款免费 WordPress 插件：为 WooCommerce 提供订阅、推荐、到货提醒等功能，另有适用于任何 WordPress 网站的工具。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/wordpress-plugins.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "WordPress 插件",
+          "description": "SawirStudio 出品的十二款免费 WordPress 插件：为 WooCommerce 提供订阅、推荐、到货提醒等功能，另有适用于任何 WordPress 网站的工具。",
+          "url": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/",
+          "image": "https://sawirstudio.com/assets/images/projects/wordpress-plugins.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 插件",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="true" href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/wordpress-plugins/">WordPress 插件</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">WordPress 插件</h1>
+<img alt="Sawir Studio 十二款 WordPress 插件的图标" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/wordpress-plugins.webp" style="view-transition-name: media-wordpress-plugins" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>项目简介</h2>
+<p>WordPress 支撑着网络上相当大的一部分网站，而 WooCommerce 则支撑着其中许多网店。我们在 WordPress.org 上发布面向两者的免费插件，每个插件只把一件事做好，这样站长可以按需添加，不必为用不上的功能买下一整套。下面每个插件都有独立的页面，介绍其功能并解答常见问题。</p>
+<h2>适用于 WooCommerce 网店</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-renew-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>。</strong>WooCommerce 订阅插件：定期扣款、试用、注册费、暂停与跳过、方案切换、催款和智能重试，全部免费。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-referral-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>。</strong>双向受益的推荐计划：被推荐的朋友享受折扣，推荐人获得奖励优惠券，可通过优惠码或链接分享，优先支持 WhatsApp。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-pulse-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>。</strong>只展示真实动态的社交证明：最新订单、实时浏览人数和评价，以角落小通知的形式呈现。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-restock-notifier-for-woocommerce-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>。</strong>顾客可以申请，在缺货商品重新到货时收到邮件通知。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-min-max-quantities-for-woocommerce-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>。</strong>可按商品、按分类以及针对整个订单设置最小和最大购买数量规则。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a>。</strong>为商品图库提供灯箱效果，支持切换浏览和点击放大。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-variation-gallery-tools-woocommerce-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a>。</strong>为每个商品变体设置独立的图库图片，可与 Product Image Zoom 配合使用。</li>
+</ul>
+<h2>适用于任何 WordPress 网站</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-insights-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>。</strong>热力图、会话录制、问卷调查、转化漏斗和表单分析，所有数据都保存在您自己的服务器上。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a>。</strong>写一次内容，直接在 wp-admin 中定时发布到 27 个社交网络，支持分渠道编辑、串文、媒体和预览。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-live-translate-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>。</strong>实时翻译任意前台页面，保存翻译字符串，并让访客自行切换语言。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-media-folders-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a>。</strong>为媒体库提供快速、数量不限的文件夹，支持拖放操作。</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-role-capabilities-manager-icon.webp" width="48"/><strong><a href="/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a>。</strong>创建自定义用户角色，并管理每个角色可执行的操作。</li>
+</ul>
+<h2>我们的做法</h2>
+<p>插件运行在别人的生意之中，所以我们给自己定了几条规矩。每个插件都在 WordPress.org 上免费提供，并且只做一件事。数据留在站长自己的服务器上：Insights 无需第三方服务即可记录会话，Social Scheduler 把令牌保存在 WordPress 中。同时绝不弄虚作假：Pulse 只展示真实发生过的动态，Renew 则免费提供其他插件收费的订阅功能。</p>
+<p><strong>技术栈</strong> PHP、WordPress 和 WooCommerce</p>
+</div>
+<ul class="project-meta">
+<li><strong>项目</strong> Sawir Studio</li>
+<li><strong>插件</strong> 12 个，免费</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/author/sawirricardo/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/author/sawirricardo/</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多项目</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hans/projects/odoo-shopify-connector/">
+<img alt="Odoo 的 Shopify 连接器" class="thumb" height="900" loading="lazy" src="/assets/images/projects/odoo-shopify-connector.webp" width="1600"/>
+<div class="card-body"><h3>Odoo 的 Shopify 连接器</h3></div>
+</a>
+<a class="card" href="/zh-hans/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/zh-hans/projects/koperasi-hob-application/">
+<img alt="Koperasi HOB 应用" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Koperasi HOB 应用</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>我们先聊到这里。</p>
+<h2>我们能为您<br/>做些什么？</h2>
+<a class="button" href="/zh-hans/contact/">开始项目</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

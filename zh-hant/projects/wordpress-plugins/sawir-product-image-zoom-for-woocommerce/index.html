@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Product Image Zoom for WooCommerce | SawirStudio</title>
+<meta content="為 WooCommerce 商品圖庫新增具備切換與點擊放大功能的商品圖片燈箱。" name="description"/>
+<meta content="Sawir Product Image Zoom for WooCommerce | SawirStudio" property="og:title"/>
+<meta content="為 WooCommerce 商品圖庫新增具備切換與點擊放大功能的商品圖片燈箱。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-product-image-zoom-for-woocommerce.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Product Image Zoom for WooCommerce",
+          "description": "為 WooCommerce 商品圖庫新增具備切換與點擊放大功能的商品圖片燈箱。",
+          "url": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 外掛",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Product Image Zoom",
+              "item": "https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="true" href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Product Image Zoom</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Product Image Zoom 橫幅圖片" height="500" src="/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-banner.webp" width="1544"/></p>
+<p>Sawir Product Image Zoom 能讓您的商品照片在燈箱中開啟，可用箭頭切換圖庫中的照片，點一下就能放大查看細節。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/" rel="noreferrer" target="_blank">在 WordPress.org 免費取得</a></p>
+<h2>功能介紹</h2>
+<p>Sawir Product Image Zoom for WooCommerce 會取代 WooCommerce 商品圖庫預設的圖片點擊行為，改以專注的燈箱方式呈現。</p>
+<p>功能特色：</p>
+<ul>
+<li>以全螢幕燈箱開啟商品圖片。</li>
+<li>支援上一張、下一張切換。</li>
+<li>支援以 Escape、向左鍵和向右鍵進行鍵盤操作。</li>
+<li>支援觸控裝置的滑動切換。</li>
+<li>新增點擊放大功能，放大後可拖曳平移。</li>
+<li>適用於傳統 WooCommerce 商品圖庫與區塊式商品圖庫。</li>
+</ul>
+<p>外掛只會在單一商品頁面載入 CSS 與 JavaScript。</p>
+<h2>常見問題</h2>
+<h3>與其他方案相比如何？</h3>
+<p>Iconic WooThumbs 和 YITH Zoom Magnifier 這類圖庫套件，會取代整個 WooCommerce 商品圖庫，包括版面配置、輪播、影片和放大功能。Sawir Product Image Zoom 只改變一件事：顧客點擊圖片時會發生什麼。您佈景主題的圖庫維持原樣，顧客則能使用快速的燈箱，支援鍵盤操作、滑動切換和點擊放大，而且資源只會在商品頁面載入。如果您想重新設計圖庫本身，請選用套件；如果圖庫本身沒問題，只是瀏覽體驗不夠好，這會是更輕量的做法。</p>
+<h3>這個外掛需要 WooCommerce 嗎？</h3>
+<p>需要。這個外掛是專為 WooCommerce 商品圖庫打造的。</p>
+<h3>會在整個網站載入資源嗎？</h3>
+<p>不會。資源只會在 WooCommerce 單一商品頁面載入。</p>
+<h3>支援觸控裝置嗎？</h3>
+<p>支援。燈箱在觸控裝置上支援滑動切換，以及放大後的圖片平移。</p>
+<h2>推薦搭配</h2>
+<ul>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a>：讓每個商品款式都有專屬圖庫，選擇紅色款時，就會顯示紅色款的照片。</li>
+<li><a href="/zh-hant/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>：設定顧客可購買的最低與最高數量，可針對單一商品、整個分類或整張訂單。</li>
+</ul>
+<p>歡迎瀏覽我們所有的<a href="/zh-hant/projects/wordpress-plugins/">免費 WordPress 外掛</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>價格</strong> 免費</li>
+<li><strong>版本</strong> 1.0.1</li>
+<li><strong>系統需求</strong> WordPress 5.8、PHP 7.4、WooCommerce</li>
+<li><strong>授權</strong> GPLv2 或更新版本</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>關於我們就先說到這裡。</p>
+<h2>有什麼我們<br/>能幫上忙的嗎？</h2>
+<a class="button" href="/zh-hant/contact/">開始專案</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

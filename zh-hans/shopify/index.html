@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify 集成与应用开发 | SawirStudio</title>
+<meta content="Shopify 与 Odoo 及您的其他业务系统连接：订单、库存、结算款和门店收银，由编写 Shopify 开源 Odoo 连接器的团队打造。" name="description"/>
+<meta content="Shopify 集成与应用开发 | SawirStudio" property="og:title"/>
+<meta content="Shopify 与 Odoo 及您的其他业务系统连接：订单、库存、结算款和门店收银，由编写 Shopify 开源 Odoo 连接器的团队打造。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/shopify/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/shopify/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Shopify 集成与应用开发",
+          "serviceType": "Shopify 集成与应用开发",
+          "description": "Shopify 与 Odoo 及您的其他业务系统连接：订单、库存、结算款和门店收银，由编写 Shopify 开源 Odoo 连接器的团队打造。",
+          "url": "https://sawirstudio.com/zh-hans/shopify/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Shopify",
+              "item": "https://sawirstudio.com/zh-hans/shopify/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/shopify/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/shopify/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/shopify/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/shopify/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a aria-current="page" href="/zh-hans/shopify/">Shopify</a></li>
+</ol>
+</nav>
+<p class="hello">新增：Shopify</p>
+<h1>Shopify，<span class="mark mark-green">账目清楚</span>。</h1>
+<p class="lead">订单、库存、结算款和门店收银（POS），在您的 Shopify 店铺与 Odoo 或其他系统之间顺畅流转。由编写 Shopify 开源 Odoo 连接器的团队打造，<span class="wavy">让账目对得上</span>。</p>
+<p class="hero-actions"><a class="button" href="/zh-hans/contact/">开始项目</a> <a class="see-all" href="/zh-hans/projects/odoo-shopify-connector/">了解连接器</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">我们能做什么</h2>
+<ul class="offers">
+<li>
+<h3>Shopify 与 Odoo</h3>
+<p>通过我们编写的 <a href="/zh-hans/projects/odoo-shopify-connector/">OCA 连接器</a>，将您的店铺与 Odoo 19 Community 连接起来：商品、库存、客户、订单、退货与退款，单店或多店均可。我们负责安装部署，按您的工作方式配置，并在您的业务需要更多功能时进行扩展。还没有使用 Odoo？我们也可以<a href="/zh-hans/odoo/">帮您搭建</a>。</p>
+</li>
+<li>
+<h3>账目对得上</h3>
+<p>Shopify Payments 的结算款、手续费、争议款项、礼品卡和多币种，都按 Shopify 的精确金额生成会计分录。如果数字对不上，您会看到明确的错误提示，而不是一条悄悄平账的分录。</p>
+</li>
+<li>
+<h3>门店收银与仓库</h3>
+<p>各门店的 Shopify POS 销售会作为订单导入，并分配到对应的 Odoo 仓库，让您在每个销售渠道的库存都准确无误。</p>
+</li>
+<li>
+<h3>您的其他系统</h3>
+<p>没有使用 Odoo？我们可以通过 GraphQL Admin API 和签名 webhook，把 Shopify 连接到您现有的 ERP、财务软件、物流系统或自建后台，并通过校验机制找出任何遗漏。</p>
+</li>
+<li>
+<h3>定制应用与自动化</h3>
+<p>针对 Shopify 默认不支持的需求，我们可以开发私有应用或定时任务，例如订单分配、批量编辑、自定义报表，以及与供应商的数据同步。</p>
+</li>
+<li>
+<h3>店铺也可以交给我们</h3>
+<p>如果店铺前台需要搭建或改版，我们可以在做集成的同时一并设计和开发，让前端与后端统一规划。</p>
+</li>
+</ul>
+</section>
+<section class="section">
+<h2 class="section-title">合作流程</h2>
+<ol class="values">
+<li>
+<h3>先梳理清楚。</h3>
+<p>我们会列出每一条流程：哪些数据要流转、流向哪里，以及库存、价格和资金以哪个系统为准。</p>
+</li>
+<li>
+<h3>一次做一条流程。</h3>
+<p>通常先做订单和库存，再做财务，最后是门店收银。每一项都会先用您的真实数据跑通，再开始下一项。</p>
+</li>
+<li>
+<h3>长期稳定运行。</h3>
+<p>健康检查、同步看板和定时对账，再加上我们的持续支持。Shopify 调整 API 时，我们会继续负责维护。</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">我们不会做的</p>
+<p>只在大多数时候正确的集成。对库存和资金来说，这就是错的。我们做的集成从不假定 webhook 一定送达，会定时与 Shopify 自行核对，并在数字不一致时暂停并通知您。</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/zh-hans/ricardosawir/">Ricardo Sawir</a>，创始人</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>我们做过的电商项目</h2>
+<ul>
+<li><a href="/zh-hans/projects/odoo-shopify-connector/">Shopify Connector for Odoo</a>：由我们编写，并于 2026 年 7 月贡献给 Odoo Community Association，包含财务和门店收银模块。<a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">GitHub 源码</a>。</li>
+<li><a href="/zh-hans/projects/kantong-sayur-application/">Kantong Sayur</a>：面向传统市场的生鲜杂货交易平台，包含买家和商家应用、管理后台，后来还增加了批发业务。</li>
+<li><a href="/zh-hans/projects/calvin-kain/">Calvin Kain</a>：一家头巾和围巾品牌的网店，与 Clicks&amp;co 合作打造。</li>
+<li><a href="/zh-hans/projects/wordpress-plugins/">我们的 WooCommerce 插件</a>：免费插件，涵盖最小/最大购买数量、到货提醒、商品图片放大和变体图库。</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/shopify/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/shopify/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/shopify/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

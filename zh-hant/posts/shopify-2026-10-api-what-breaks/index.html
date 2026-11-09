@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify 2026-10 API：哪些地方會出問題 | SawirStudio</title>
+<meta content="Shopify Admin API 2026-10 版本中可能讓整合出問題的變更，以及該如何調整：運費、草稿訂單折扣、稅額、條碼等。" name="description"/>
+<meta content="Shopify 2026-10 API：哪些地方會出問題 | SawirStudio" property="og:title"/>
+<meta content="Shopify Admin API 2026-10 版本中可能讓整合出問題的變更，以及該如何調整：運費、草稿訂單折扣、稅額、條碼等。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Shopify 2026-10 API：您的整合有哪些地方會出問題",
+          "description": "Shopify Admin API 2026-10 版本中可能讓整合出問題的變更，以及該如何調整：運費、草稿訂單折扣、稅額、條碼等。",
+          "url": "https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify 2026-10 API：您的整合有哪些地方會出問題",
+              "item": "https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/shopify-2026-10-api-what-breaks/">Shopify 2026-10 API：您的整合有哪些地方會出問題</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Shopify 2026-10 API：您的整合有哪些地方會出問題</h1>
+<div class="prose prose-xl">
+<p>Shopify 於 2026 年 10 月 1 日釋出了 API 的 2026-10 版本。其中大部分是新功能，等到需要時再處理即可。但有少數幾項變更，可能會讓原本在 2026-07 運作正常的整合悄悄出錯，建議您在升級版本之前，花一個小時檢查這幾項。</p>
+<p>這是我們用來檢查自家整合的清單，其中包括 <a href="/zh-hant/projects/odoo-shopify-connector/">Odoo 的 Shopify 連接器</a>。清單並未涵蓋發行說明的每一行，只列出會改變行為的項目。</p>
+<h2>會悄悄出錯的變更</h2>
+<h3>新的物流服務商不會自動在結帳時顯示運費</h3>
+<p>使用 <code>carrierServiceCreate</code>（或 REST 的 <code>POST carrier_services.json</code>）建立物流服務商，現在只會註冊該服務，不會再把它的運費加入「一般運送方案」。如果您的應用程式或初始設定腳本建立了物流服務商，並預期顧客會看到您的運費，那麼在您自行把該服務加入運送方案之前，顧客是看不到的。</p>
+<h3>變更收件地址會重新計算稅額</h3>
+<p>使用 <code>orderUpdate</code> 或 REST 的訂單更新端點，更新尚未出貨訂單的收件地址時，現在會重新計算該訂單的稅額。這樣的行為是正確的，但如果您是從 ERP 或客服工具修改地址，訂單總額可能會在您不知情的情況下改變。更新後請重新讀取 <code>taxLines</code>、<code>totalTaxSet</code> 以及各項總額，並處理已付款或已退款金額的差額。</p>
+<h3>草稿訂單的折扣警告不再包含 <code>priceRule</code></h3>
+<p><code>DraftOrderDiscountNotAppliedWarning.priceRule</code> 與舊版的 <code>PriceRule</code> 類型已經移除。如果您使用 <code>draftOrderCalculate</code>、<code>draftOrderCreate</code> 或 <code>draftOrderUpdate</code> 建立草稿訂單，並且會讀取折扣未套用的原因，請改為選取 <code>discountTitle</code> 與 <code>discountCode</code>。</p>
+<h3>錯誤的 metafield 篩選條件現在會直接報錯</h3>
+<p>以前，如果商品查詢使用了無法篩選的 metafield，系統會忽略那部分條件並回傳所有商品。現在則會回傳錯誤。這樣比較好，但如果您的同步作業幾個月來一直回傳「所有商品」，在切換版本的那一天就會開始失敗。請確認您用來篩選的 metafield 定義支援篩選，也支援您所使用的運算子。</p>
+<h3>一個商品款式可以有多個條碼</h3>
+<p><code>ProductVariant.barcodes</code> 是新的 connection，最多可包含 20 個具類型的條碼。舊的 <code>ProductVariant.barcode</code> 已被棄用，只會回傳第一個條碼。如果您的倉儲或 POS 系統是以條碼比對商品，請讀取完整的條碼清單。</p>
+<h3>移除了一個庫存錯誤</h3>
+<p><code>ITEM_NOT_STOCKED_AT_LOCATION</code> 已從庫存 mutation 與 <code>InventorySetQuantitiesUserErrorCode</code> 中移除。依據它進行判斷的程式碼現在已成為無效程式碼，請把它刪除，以免日後有人誤以為仍可依賴。</p>
+<h2>較小的變更，值得在程式碼中搜尋一下</h2>
+<ul>
+<li><strong>顧客分群。</strong><code>MATCHES</code> 與 <code>NOT MATCHES</code> 取代了 <code>= true</code> 與 <code>= false</code>，而像 <code>12_months_ago</code> 這類具名日期已被棄用，改用 <code>-12m</code> 這類位移寫法。</li>
+<li><strong>簡訊同意。</strong>扁平的簡訊同意欄位已被棄用，請改為讀取 <code>CustomerPhoneNumber.smsMarketingConsent</code>。</li>
+<li><strong>分階段推出中的折扣。</strong>當折扣屬於分階段推出（rollout）的一部分時，光看 <code>startsAt</code> 與 <code>endsAt</code> 無法判斷折扣是否已生效。讀取 <code>Discount.rollouts</code> 需要 <code>read_rollouts</code> 權限範圍。</li>
+<li><strong>出貨狀態。</strong><code>FULFILLMENT_NOT_REQUIRED</code> 是新增的值。如果您的 <code>switch</code> 對應了每一種狀態，這個新值會落入 default 分支。</li>
+<li><strong>Customer Account API。</strong><code>Customer.lastIncompleteCheckout</code> 與 <code>Checkout</code> 類型已被移除，且沒有替代方案。</li>
+<li><strong>POS UI 擴充功能。</strong>像 <code>applyCartDiscount</code> 這類購物車 mutation，在 POS 未確認變更時現在會被拒絕，而且 <code>session.currentSession.staffMemberId</code> 已被移除。</li>
+</ul>
+<h2>兩個與 2026-10 無關的截止日期</h2>
+<p>如果您維護的是公開應用程式，必須在 2027 年 1 月 1 日前，把不會過期的離線存取權杖換成會過期的權杖。自訂應用程式，以及商家在 Dev Dashboard 中建立的應用程式不在此限。另外，線上商店的 script tag 將於 2027 年 3 月 1 日停止執行；我們另外寫了一篇文章，說明<a href="/zh-hant/posts/shopify-script-tags-stop-march-2027/">這對商店有什麼影響</a>。</p>
+<h2>我們如何升級</h2>
+<p>我們會把 API 版本固定在單一位置，在開發商店上以新版本執行整合，並閱讀 <a href="https://shopify.dev/changelog?api_version=2026-10" rel="noopener" target="_blank">2026-10 更新日誌</a>中篩選為「Action required」的項目。2026-10 版本至少會支援到 2027 年 10 月 1 日，所以時間還算充裕，但也不宜拖到警告郵件開始寄來才處理。</p>
+<p>如果您的商店需要與 Odoo 或其他系統串接，而且您希望由別人來處理這件事，這正是<a href="/zh-hant/shopify/">我們的專長</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/shopify-script-tags-stop-march-2027/">Shopify Script Tags 將於 2027 年 3 月 1 日停止運作，店家該怎麼做</a>，或<a href="/zh-hant/posts/connect-shopify-to-odoo-19-community/">將 Shopify 連接到 Odoo 19 Community：逐步教學</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/shopify-2026-10-api-what-breaks/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

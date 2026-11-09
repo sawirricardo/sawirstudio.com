@@ -71,8 +71,10 @@
 // Page transitions run only between a project card and its page (both ways);
 // every other link loads without one. Browsers without them ignore all this.
 (function () {
-  const isList = (path) => path === "/" || path === "/projects/";
-  const isProject = (path) => /^\/projects\/[^/]+\/$/.test(path);
+  // Translated pages live under /<lang>/ (like /zh-hans/projects/); compare without it.
+  const bare = (path) => path.replace(/^\/[a-z]{2}(-[a-z]{4})?(?=\/)/, "");
+  const isList = (path) => bare(path) === "/" || bare(path) === "/projects/";
+  const isProject = (path) => /^\/projects\/[^/]+\/$/.test(bare(path));
 
   addEventListener("pageswap", (event) => {
     if (!event.viewTransition) return;
@@ -144,7 +146,8 @@
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     button.disabled = true;
-    button.textContent = "Sending…";
+    const label = button.textContent;
+    button.textContent = button.dataset.sending || "Sending…";
     error.hidden = true;
 
     try {
@@ -161,7 +164,7 @@
     } catch (e) {
       error.hidden = false;
       button.disabled = false;
-      button.textContent = "Send inquiry";
+      button.textContent = label;
     }
   });
 })();

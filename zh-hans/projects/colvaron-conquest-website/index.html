@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Colvaron Conquest 网站 | SawirStudio</title>
+<meta content="Colvaron Conquest 是一款策略类集换式卡牌游戏，其网站由 SawirStudio 设计并搭建。" name="description"/>
+<meta content="Colvaron Conquest 网站 | SawirStudio" property="og:title"/>
+<meta content="Colvaron Conquest 是一款策略类集换式卡牌游戏，其网站由 SawirStudio 设计并搭建。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/colvaron-conquest-website.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Colvaron Conquest 网站",
+          "description": "Colvaron Conquest 是一款策略类集换式卡牌游戏，其网站由 SawirStudio 设计并搭建。",
+          "url": "https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/",
+          "image": "https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Colvaron Conquest 网站",
+              "item": "https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/colvaron-conquest-website/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/colvaron-conquest-website/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="true" href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/colvaron-conquest-website/">Colvaron Conquest 网站</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Colvaron Conquest 网站</h1>
+<img alt="Colvaron Conquest 首页" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/colvaron-conquest-website.webp" style="view-transition-name: media-colvaron-conquest-website" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>客户</h2>
+<p>Colvaron Conquest 是由 Coco JM 创作的策略类集换式卡牌游戏。游戏的世界中，魔法与先进科技交汇，最初源于 Coco 童年时的想象，并于 2025 年成为一款卡牌游戏，玩法围绕五种元素和双骰行动系统展开。</p>
+<h2>我们做了什么</h2>
+<p>我们设计并搭建了这款游戏的网站，玩家可以在这里浏览卡牌、了解世界观、学习玩法。</p>
+<ul>
+<li><strong>卡牌图鉴。</strong>200 多张卡牌，玩家可以按元素、阵营和类型搜索、排序和筛选。</li>
+<li><strong>每张卡牌都有独立页面，</strong>方便单独查找、链接和分享。</li>
+<li><strong>世界观。</strong>十五个关于 Colvaron 的故事：五种元素如何诞生、大陆的样貌，以及各个王国和阵营。</li>
+<li><strong>教程。</strong>附有元素相克图的玩法规则，适合初次接触这款游戏的玩家。</li>
+<li><strong>新闻。</strong>团队随游戏成长发布的最新动态。</li>
+<li><strong>简单易用的 CMS。</strong>团队可以自行发布世界观故事和新闻，每次修改都会保存到网站的 Git 历史记录中。</li>
+</ul>
+<h2>我们的做法</h2>
+<p>集换式卡牌游戏靠卡面美术吸引玩家，所以网站尽量不抢画面：深色页面、大幅卡牌图片，以及即时响应的筛选功能。在背后，网站针对搜索做了优化。标题和描述瞄准卡牌玩家会搜索的词句，每个页面都收录在完整的站点地图中；由于 Facebook、X 和 WhatsApp 无法显示网站使用的 AVIF 图片，构建时还会为每个页面生成一张 JPEG 分享图。</p>
+<p><strong>技术栈</strong> Astro、Tailwind CSS 和 Cloudflare Pages</p>
+<p><img alt="Colvaron Conquest 卡牌图鉴" height="900" loading="lazy" src="/assets/images/projects/colvaron-conquest-gallery.webp" width="1600"/></p>
+</div>
+<ul class="project-meta">
+<li><strong>客户</strong> Colvaron Conquest</li>
+<li><strong>网站地址</strong> <a href="https://colvaronconquest.com" rel="noreferrer" target="_blank">https://colvaronconquest.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">更多项目</h2>
+<div class="project-grid">
+<a class="card" href="/zh-hans/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/zh-hans/projects/kantong-sayur-application/">
+<img alt="Kantong Sayur 应用" class="thumb" height="883" loading="lazy" src="/assets/images/projects/kantong-sayur-application.webp" width="1600"/>
+<div class="card-body"><h3>Kantong Sayur 应用</h3></div>
+</a>
+<a class="card" href="/zh-hans/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS 应用" class="thumb" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" width="1600"/>
+<div class="card-body"><h3>PeopleBond HCMS 应用</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>我们先聊到这里。</p>
+<h2>我们能为您<br/>做些什么？</h2>
+<a class="button" href="/zh-hans/contact/">开始项目</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/colvaron-conquest-website/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/colvaron-conquest-website/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/colvaron-conquest-website/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

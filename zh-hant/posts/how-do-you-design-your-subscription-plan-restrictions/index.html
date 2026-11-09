@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Laravel 訂閱方案限制 | SawirStudio</title>
+<meta content="如何在 Laravel 中落實訂閱方案的使用限制，從 controller 裡的簡單檢查，到 Gate 與 Policy。" name="description"/>
+<meta content="Laravel 訂閱方案限制 | SawirStudio" property="og:title"/>
+<meta content="如何在 Laravel 中落實訂閱方案的使用限制，從 controller 裡的簡單檢查，到 Gate 與 Policy。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "如何設計訂閱方案的使用限制",
+          "description": "如何在 Laravel 中落實訂閱方案的使用限制，從 controller 裡的簡單檢查，到 Gate 與 Policy。",
+          "url": "https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/",
+          "datePublished": "2022-07-04",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "如何設計訂閱方案的使用限制",
+              "item": "https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/">如何設計訂閱方案的使用限制</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">如何設計訂閱方案的使用限制</h1>
+<div class="prose prose-xl">
+<p>我通常會把使用者的訂閱方案存放在 <code>users</code> 資料表中，例如用 <code>plan_id</code> 來對應訂閱方案。</p>
+<p>我們先來搭個範例環境……</p>
+<p>我們的訂閱方案 subscription plans.php</p>
+<pre><code>return [
+
+	cheap_plan ⇒ [
+
+		‘maximum_list’ ⇒ 20,
+
+	],
+
+	expensive_plan ⇒ [
+
+		‘maximum_list’ ⇒ 50,
+
+	],
+
+];
+
+</code></pre>
+<p>接著就可以在 controller 中這樣使用（這裡假設只有已登入的使用者才能呼叫這個 endpoint）</p>
+<pre><code>public function create()
+{
+	$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+	if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+		abort(403, "You've reached your maximum list. Please upgrade your plan.");
+	}
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>這是可行的做法，對大多數應用程式來說，用它來檢查建立數量上限已經夠用了。</p>
+<p>不過，就像您提到的，還有另一種「更集中管理」的做法。</p>
+<p>使用 Gate 與 Policy。</p>
+<p>我們先把前面的程式碼重構成 Gate</p>
+<pre><code>// AuthServiceProvider.php
+
+class AuthServiceProvider extends ServiceProvider
+{
+	//
+
+	public function boot()
+	{
+		$this-&gt;registerPolicies();
+
+		Gate::define('create-list', function($user) {
+			$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+			if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+				return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+			}
+
+			return Response::allow();
+		});
+	}
+}
+
+</code></pre>
+<p>接著在 controller 中可以改寫成這樣</p>
+<pre><code>public function create()
+{
+	$this-&gt;authorize('create-list');
+	// or Gate::allows('create-list');
+	// or Gate::inspect('create-list'); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>這樣應該已經能滿足您的需求。不過，會不會還有更規範的做法？</p>
+<p>您說得沒錯，就是使用 Policy。</p>
+<p>一般的說法是，處理領域中的「資源」或 model 時，最適合用 Policy，就像我們這個例子中的 List model。</p>
+<p>而 Gate 則比較適合處理「動作」。</p>
+<p>不過，我個人的看法是，只要可以，就盡量用 Policy。除了可以順理成章地把程式拆成不同檔案之外，也不會把 <code>AuthServiceProvider</code> 弄得雜亂（順帶一提，除非真的有必要，否則我不太喜歡去改動 Service Provider）。</p>
+<p>我們把前面的程式碼重構成 Policy</p>
+<pre><code>class ListPolicy
+{
+	use HandlesAuthorization;
+
+	public function create(User $user)
+	{
+		$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+		if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+			return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+		}
+
+		return Response::allow();
+	}
+
+}
+
+</code></pre>
+<p>有注意到這些方法的命名和 resource controller 很相似嗎？我想這是 Laravel 團隊刻意的設計，值得稱讚。</p>
+<p>然後在 controller 中就可以直接這樣使用</p>
+<pre><code>public function create()
+{
+	$this-&gt;authorize('create', List::class);
+	// or Gate::allows('create-list', List::class);
+	// or Gate::inspect('create-list', List::class); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>這裡的 <code>List::class</code> 只是用來幫助 Laravel 推斷要使用哪一個 Policy 類別。</p>
+<p>總的來說，這樣做可以避免一個問題：您可能會在 10 個不同的 controller 裡建立清單。我們只要在各處加上 <code>$this-&gt;authorize()</code>，就大功告成了。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/">如何打造自己的內容管理系統（像 WordPress 那樣）</a>，或是到我們的 <a href="/zh-hant/projects/wordpress-plugins/">WordPress 外掛</a>看看 Sawir Renew，這是一款適用於 WooCommerce 的免費訂閱外掛。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

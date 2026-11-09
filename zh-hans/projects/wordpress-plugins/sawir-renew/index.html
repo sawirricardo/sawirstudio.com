@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Renew – WooCommerce 周期性计费插件 | SawirStudio</title>
+<meta content="WooCommerce 完整订阅方案：周期性计费、试用、开通费、暂停/跳过、套餐切换、催款、智能重试，全部免费。" name="description"/>
+<meta content="Sawir Renew – WooCommerce 周期性计费插件 | SawirStudio" property="og:title"/>
+<meta content="WooCommerce 完整订阅方案：周期性计费、试用、开通费、暂停/跳过、套餐切换、催款、智能重试，全部免费。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-renew.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Renew – WooCommerce 周期性计费插件",
+          "description": "WooCommerce 完整订阅方案：周期性计费、试用、开通费、暂停/跳过、套餐切换、催款、智能重试，全部免费。",
+          "url": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 插件",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Renew",
+              "item": "https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至内容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/posts/">博客</a></li>
+<li><a aria-current="true" href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/about-us/">关于我们</a></li>
+<li><a href="/zh-hans/contact/">联系我们</a></li>
+</ul>
+</nav>
+<button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a href="/zh-hans/projects/wordpress-plugins/">WordPress 插件</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Renew</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Renew 横幅图" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" width="1544"/></p>
+<p>Sawir Renew 能把 WooCommerce 商店变成订阅制生意：周期性计费、试用、开通费和智能重试一应俱全，没有任何功能被付费版本锁住。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">在 WordPress.org 免费获取</a></p>
+<h2>功能介绍</h2>
+<p>用 WooCommerce 销售订阅，无需另外购买扩展。所有功能均免费提供，没有专业版，也没有任何功能被锁定。</p>
+<h3>产品与定价</h3>
+<ul>
+<li>支持简单订阅商品和可变订阅商品两种类型</li>
+<li>可按每 N 天、周、月或年计费，并支持促销价</li>
+<li>免费试用、开通费，以及在 N 次付款后自动到期的订阅</li>
+<li>统一续订日期（所有人都在每月 1 日续订，或在您指定的任意日期续订），首期可选按比例计费或免费</li>
+<li>一次性运费，以及「每位客户仅限一个有效订阅」的限制</li>
+</ul>
+<h3>两种付款方式</h3>
+<ul>
+<li><strong>按次续订付款（适用于所有支付网关）：</strong>续订到期时，客户会收到带有付款链接的账单，可通过银行转账、电子钱包、货到付款等您店铺支持的任何方式付款。非常适合不习惯自动扣款的市场。</li>
+<li><strong>通过 Stripe 自动扣款：</strong>如果您使用官方的 WooCommerce Stripe Gateway，客户在结账时即可保存银行卡，续订时系统会自动在后台扣款，包括智能重试，以及银行卡需要验证时的备用付款链接。其他支付网关也可以接入同一个适配器接口（见常见问题）。</li>
+</ul>
+<h3>续订不再半夜打扰您</h3>
+<ul>
+<li>所有定时任务都基于 Action Scheduler 运行，并每天进行一次自我修复检查</li>
+<li>可配置的催款流程：重试间隔、提醒时间表、宽限期、自动取消</li>
+<li>预发布/复制站点检测：一旦网站 URL 发生变化，就会立即暂停计费，不会再因为遗忘的预发布副本而重复扣款</li>
+<li>自动扣款前发送续订提醒邮件</li>
+</ul>
+<h3>客户可以自助管理</h3>
+<p>在「我的账户 → 订阅」中，客户可以取消订阅（立即取消或在当期结束时取消，由您决定）、暂停和恢复、跳过一次续订、提前续订、更换付款方式或收货地址，还可以在不同套餐之间升级或降级，升级时按比例收取差价。</p>
+<h3>周期性优惠券</h3>
+<p>提供四种订阅优惠券：周期性百分比/固定金额折扣（可限定仅适用于前 N 次付款），以及开通费折扣。WooCommerce 自带的优惠券仍然只适用于首笔订单。</p>
+<h3>通知</h3>
+<p>共有十三种可开关的邮件（面向客户和管理员），覆盖订阅生命周期中的每个节点。开发者可以通过 <code>swsb_notified</code> 钩子，把任意事件同步到其他渠道（WhatsApp、短信、Slack 等）。</p>
+<h3>为新版 WooCommerce 而生</h3>
+<p>原生支持 HPOS（订阅直接存放在 WooCommerce 订单存储中，没有自定义数据表），兼容购物车/结账区块，后台列表和编辑页完全使用 WooCommerce 自带的订单界面，另有每小时缓存更新的报表页面（活跃订阅、MRR、流失率、即将到来的续订、续订收入）以及 REST API。</p>
+<h2>常见问题</h2>
+<h3>这个插件与 WooCommerce 或 Automattic 有关联吗？</h3>
+<p>没有。「WooCommerce」是 Automattic 的商标；按照其命名规范，这是一个独立开发的、<em>面向</em> WooCommerce 的插件。</p>
+<h3>哪些支付网关支持自动续订？</h3>
+<p>开箱即用的是官方的 WooCommerce Stripe Gateway。其他所有网关都以按次续订付款的模式运行，即每个周期客户都会收到一条付款链接。开发者可以通过两个过滤器，为任意网关添加自动扣款支持：</p>
+<p><code>swsb_order_supports_auto</code>：当父订单所用的网关保存了可重复使用的付款方式时，返回 true。<code>swsb_charge_renewal</code>：在后台对续订订单扣款，返回 <code>true</code> 或 <code>WP_Error</code>。</p>
+<h3>可以和 WooCommerce Subscriptions 同时运行吗？</h3>
+<p>不可以。同时运行两个计费引擎会让客户被重复扣款，所以如果检测到 WooCommerce Subscriptions 处于启用状态，本插件会停用自己的计费引擎并显示提示。</p>
+<h3>在预发布站点上会发生什么？</h3>
+<p>如果网站 URL 发生变化，计费和客户邮件会自动暂停，直到您确认这个副本是预发布站点还是正式站点。选择「正式站点」后，所有计划任务都会重新创建。</p>
+<h2>推荐搭配</h2>
+<ul>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>：让您的客户带来他们的朋友。</li>
+<li><a href="/zh-hans/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：以角落里的小通知形式，向顾客展示您店铺里真实发生的动态，例如最新订单、正在浏览商品的人数和最新评价。</li>
+</ul>
+<p>查看我们所有的<a href="/zh-hans/projects/wordpress-plugins/">免费 WordPress 插件</a>。</p>
+</div>
+<ul class="project-meta">
+<li><strong>价格</strong> 免费</li>
+<li><strong>版本</strong> 1.0.0</li>
+<li><strong>运行要求</strong> WordPress 6.0、PHP 7.4、WooCommerce</li>
+<li><strong>许可证</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-renew/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>我们先聊到这里。</p>
+<h2>我们能为您<br/>做些什么？</h2>
+<a class="button" href="/zh-hans/contact/">开始项目</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/privacy/">隐私</a> <a href="/zh-hans/terms/">条款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-renew/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

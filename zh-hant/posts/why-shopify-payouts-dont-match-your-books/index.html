@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>為什麼 Shopify 撥款金額與您的帳面對不上 | SawirStudio</title>
+<meta content="為什麼 Shopify Payments 匯到您銀行帳戶的金額，永遠與銷售報表對不上：手續費、退款、爭議款項、禮品卡、幣別轉換和時間差，以及如何完成對帳。" name="description"/>
+<meta content="為什麼 Shopify 撥款金額與您的帳面對不上 | SawirStudio" property="og:title"/>
+<meta content="為什麼 Shopify Payments 匯到您銀行帳戶的金額，永遠與銷售報表對不上：手續費、退款、爭議款項、禮品卡、幣別轉換和時間差，以及如何完成對帳。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "為什麼 Shopify 撥款金額永遠與您的帳面對不上",
+          "description": "為什麼 Shopify Payments 匯到您銀行帳戶的金額，永遠與銷售報表對不上：手續費、退款、爭議款項、禮品卡、幣別轉換和時間差，以及如何完成對帳。",
+          "url": "https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "為什麼 Shopify 撥款金額永遠與您的帳面對不上",
+              "item": "https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/">為什麼 Shopify 撥款金額永遠與您的帳面對不上</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">為什麼 Shopify 撥款金額永遠與您的帳面對不上</h1>
+<div class="prose prose-xl">
+<p>銷售報表上是一個數字，銀行帳戶裡又是另一個數字。中間夾著手續費、退款、拒付，還有幾天的時間差，而每個月都有人花一個下午，在試算表裡把這些項目一一拆開。</p>
+<p>我們在開發 <a href="/zh-hant/projects/odoo-shopify-connector/">Odoo 的 Shopify 串接工具</a>的會計模組時，把這些問題都處理過一遍。以下是數字出現差異的原因，以及讓帳目對得起來的方法。</p>
+<h2>撥款是淨額</h2>
+<p>Shopify Payments 不會把您的銷售額直接匯給您，而是先結算所有其他項目，再把剩下的金額撥給您：銷售額，減去退款、減去處理手續費、減去爭議款項，再加減各項調整。如果您把撥款當成營收入帳，營收就會是錯的，手續費也會看不見。</p>
+<p>正確的做法是分項記帳，而不是記總額。銷售額記入營收、手續費記入費用科目、退款沖抵銷售額，而撥款本身只是資金從待清算科目轉入銀行帳戶。</p>
+<h2>一筆撥款涵蓋的不只一天</h2>
+<p>一筆撥款會包含好幾天的交易，實際範圍取決於您的撥款週期，週五的訂單可能到週二的撥款才入帳。依日期把訂單和入帳款項配對，用不了多久就會出問題。請改用撥款來配對：Shopify 會記錄每筆撥款由哪些餘額交易組成，這份清單是訂單與銀行入帳金額之間唯一可靠的對應關係。</p>
+<h2>退款會從之後的撥款中扣除</h2>
+<p>當您退還上個月的訂單時，這筆錢會從本月的撥款中扣除。銷售報表會把退款算在原本的訂單上，而銀行帳戶則是今天的入帳金額變少了。兩邊都沒有錯。</p>
+<h2>爭議會被扣兩次款</h2>
+<p>當顧客對一筆款項提出爭議時，爭議金額和拒付手續費都會從您的餘額中扣除。如果您勝訴，這筆金額會退回來，通常要幾週後。同一張訂單會產生三筆各自獨立的記錄，分散在兩到三筆撥款裡。</p>
+<h2>禮品卡在售出時不算營收</h2>
+<p>賣出禮品卡，是先收下一筆錢，之後再以商品償還。在卡片被使用之前，這筆錢應該記在負債科目。如果把禮品卡銷售記為營收，同一筆銷售就會被算兩次：買卡時算一次，消費時又算一次。</p>
+<h2>幣別轉換</h2>
+<p>如果您以多種幣別銷售，幣別轉換會以獨立的餘額交易出現，而且銷售當天的匯率和撥款當天的匯率並不相同。Shopify 的 2026-10 API 新增了獨立的 <code>CURRENCY_CONVERSION</code> 交易類型，讓轉換可以單獨記成一行，而不是藏在四捨五入的差額裡。</p>
+<h2>保留款項與調整</h2>
+<p>Shopify 可能會把您的一部分餘額作為保留款項扣住，更正則會以調整項目的形式出現。這兩者既不是銷售也不是手續費，所以都需要各自的科目。</p>
+<h2>如何讓帳目平衡</h2>
+<p>把每一筆撥款都視為一張小型的日記帳分錄，由它的餘額交易組成：每筆銷售、退款、手續費、爭議和調整各佔一行，全部歸入一個待清算科目，再由銀行入帳把它沖平。如果這些明細加起來和撥款金額不符，就代表某處的對應設定有誤，而這正是您需要知道的事。</p>
+<p>我們的 Odoo 會計模組就是這樣運作的。它會依據 Shopify 的確切金額規劃每一筆分錄，如果分錄不平衡，就會停下來並顯示明確的錯誤訊息。它絕不會加一行「平帳項目」來讓差額消失，因為那一行其實就是錯誤本身，只是被記在沒人會去看的地方。</p>
+<p>如果您的 Shopify 資金與帳面每個月都對不上，<a href="/zh-hant/shopify/">我們可以協助您</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/connect-shopify-to-odoo-19-community/">將 Shopify 連接到 Odoo 19 Community：逐步教學</a>，或是 <a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/">Shopify 2026-10 API：哪些整合會出問題</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">專案</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/why-shopify-payouts-dont-match-your-books/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -399,7 +399,8 @@ h1.page-title:not(.heavy)::after {
   }
   .site-nav a,
   .footer-links a,
-  .social-links a {
+  .social-links a,
+  .lang-links a {
     display: inline-flex;
     align-items: center;
     min-height: 44px;
@@ -442,7 +443,8 @@ hr {
 .site-footer hr {
   margin: 2rem 0;
 }
-.social-links {
+.social-links,
+.lang-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0 1.5rem;
@@ -458,9 +460,28 @@ hr {
     display: flex;
     gap: 3rem;
   }
-  .social-links {
+  .social-links,
+  .lang-links {
     gap: 3rem;
   }
+}
+
+/* The language list sits under the social links. */
+.lang-links {
+  margin-top: 0.5rem;
+}
+.lang-links a[aria-current] {
+  color: var(--ink);
+}
+
+/* Chinese, Japanese and other scripts: the tight tracking tuned for the Latin display
+   face crowds their characters, so set it back to normal. */
+:lang(zh) *,
+:lang(ja) *,
+:lang(ar) *,
+:lang(he) *,
+:lang(hi) * {
+  letter-spacing: normal !important;
 }
 
 /* Banners */
