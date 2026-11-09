@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>SawirStudio | ऐप, वेब प्लेटफ़ॉर्म, Shopify और Odoo</title>
+<meta content="SawirStudio ऐसा सॉफ़्टवेयर बनाता है जिसे लोग इस्तेमाल करते हैं: क्लाइंट्स के लिए ऐप, वेब प्लेटफ़ॉर्म, और Odoo के साथ Shopify, और अपने खुद के iPhone, iPad और Mac ऐप।" name="description"/>
+<meta content="SawirStudio | ऐप, वेब प्लेटफ़ॉर्म, Shopify और Odoo" property="og:title"/>
+<meta content="SawirStudio ऐसा सॉफ़्टवेयर बनाता है जिसे लोग इस्तेमाल करते हैं: क्लाइंट्स के लिए ऐप, वेब प्लेटफ़ॉर्म, और Odoo के साथ Shopify, और अपने खुद के iPhone, iPad और Mac ऐप।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://sawirstudio.com/#organization",
+          "name": "SawirStudio",
+          "legalName": "Sawir Studio LLC",
+          "url": "https://sawirstudio.com/hi/",
+          "logo": "https://sawirstudio.com/favicon.png",
+          "sameAs": [
+            "https://www.linkedin.com/company/sawirstudio/",
+            "https://www.instagram.com/sawirstudioid/",
+            "https://github.com/sawirstudio"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sawirstudio.com/#website",
+          "name": "SawirStudio",
+          "url": "https://sawirstudio.com/hi/",
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a aria-current="page" href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner hero stack" role="banner">
+<canvas aria-hidden="true" class="dotfield"></canvas>
+<p class="hello">नमस्ते, हम हैं Sawir Studio</p>
+<h1>हम ऐसा सॉफ़्टवेयर बनाते हैं <span class="mark">जिसे लोग इस्तेमाल करते हैं</span>, अपने <span class="mark mark-coral">क्लाइंट्स</span> के लिए भी और <span class="mark mark-blue">अपने लिए</span> भी।</h1>
+<div class="hero-body">
+<div class="hero-copy">
+<p class="lead">ऐप, वेब प्लेटफ़ॉर्म और इंटीग्रेशन, जिन्हें एक छोटा स्टूडियो डिज़ाइन करता है, बनाता है और <span class="wavy">सालों तक</span> संभालता है।</p>
+<p class="lead-sm">AI साथ में, पर हर फ़ैसला इंसान का। <a href="/hi/about-us/">हम क्या मानते हैं →</a></p>
+<p class="hero-actions"><a class="button" href="/hi/contact/">प्रोजेक्ट शुरू करें</a> <a class="see-all" href="#portfolio">हमारा काम देखें</a></p>
+</div>
+<div aria-hidden="true" class="pile">
+<p class="pile-label">हमारे अपने ऐप</p>
+<a href="/hi/projects/par/" tabindex="-1" title="Par"><img alt="" draggable="false" height="96" src="/assets/images/projects/par-icon.webp" width="96"/></a>
+<a href="/hi/projects/cleanstorage/" tabindex="-1" title="CleanStorage"><img alt="" draggable="false" height="96" src="/assets/images/projects/cleanstorage-icon.webp" width="96"/></a>
+<a href="/hi/projects/pawlitics/" tabindex="-1" title="Pawlitics"><img alt="" draggable="false" height="96" src="/assets/images/projects/pawlitics-icon.webp" width="96"/></a>
+<a href="/hi/projects/squishu/" tabindex="-1" title="Squishu"><img alt="" draggable="false" height="96" src="/assets/images/projects/squishu-icon.webp" width="96"/></a>
+<a href="/hi/projects/rindraw/" tabindex="-1" title="Rindraw"><img alt="" draggable="false" height="96" src="/assets/images/projects/rindraw-icon.webp" width="96"/></a>
+<a href="/hi/projects/math-daily/" tabindex="-1" title="Math Daily"><img alt="" draggable="false" height="96" src="/assets/images/projects/math-daily-icon.webp" width="96"/></a>
+<a href="/hi/projects/sawirpost/" tabindex="-1" title="SawirPost"><img alt="" draggable="false" height="96" src="/assets/images/projects/sawirpost-icon.webp" width="96"/></a>
+<a href="/hi/projects/sawirly/" tabindex="-1" title="Sawirly"><img alt="" draggable="false" height="96" src="/assets/images/projects/sawirly-icon.webp" width="96"/></a>
+<a href="/hi/projects/nofapfit/" tabindex="-1" title="NoFapFit"><img alt="" draggable="false" height="96" src="/assets/images/projects/nofapfit-icon.webp" width="96"/></a>
+<p class="pile-hint">कोई भी उठाइए और उछाल दीजिए</p>
+</div>
+</div>
+<div aria-hidden="true" class="doodles">
+<svg class="doodle doodle-star" viewbox="0 0 48 48"><path d="M24 3l5.6 13.4L44 18l-11 9.6L36.4 42 24 34.6 11.6 42 15 27.6 4 18l14.4-1.6z" pathlength="1"></path></svg>
+<svg class="doodle doodle-plus" viewbox="0 0 24 24"><path d="M12 3v18M3 12h18" pathlength="1"></path></svg>
+<svg class="doodle doodle-circle" viewbox="0 0 40 40"><circle cx="20" cy="20" pathlength="1" r="16"></circle></svg>
+<svg class="doodle doodle-squiggle" viewbox="0 0 80 20"><path d="M3 10q9-9 18 0t18 0 18 0 18 0" pathlength="1"></path></svg>
+</div>
+</section>
+<section class="section">
+<ul class="stats">
+<li><strong>9</strong><span>साल से बना रहे हैं, 2017 से</span></li>
+<li><strong>7</strong><span>हमारे अपने ऐप App Store पर</span></li>
+<li><strong>12</strong><span>मुफ़्त WordPress प्लगइन</span></li>
+<li><strong>2019</strong><span>जब PeopleBond हमारे साथ जुड़ा। आज भी साथ हैं।</span></li>
+</ul>
+</section>
+<section class="section">
+<h2 class="section-title">हम क्या बनाते हैं</h2>
+<ul class="offers">
+<li>
+<h3>ऐप</h3>
+<p>iPhone, iPad, Mac और Android ऐप, पहले वर्ज़न से लेकर App Store तक और उसके बाद हर अपडेट तक।</p>
+<p class="offer-proof">जैसे <a href="/hi/projects/dbtv-application/">DBTV</a> और <a href="/hi/projects/koperasi-hob-application/">Koperasi HOB</a></p>
+</li>
+<li>
+<h3>प्लेटफ़ॉर्म और इंटीग्रेशन</h3>
+<p>वेब ऐप, SaaS, एडमिन पैनल और सिस्टम्स को जोड़ने वाला काम: Odoo, Shopify, WordPress, पेमेंट और शिपिंग।</p>
+<p class="offer-proof">जैसे <a href="/hi/projects/peoplebond-hcms-application/">PeopleBond</a> और Odoo के लिए हमारा <a href="/hi/projects/odoo-shopify-connector/">Shopify कनेक्टर</a>। देखें <a href="/hi/custom/">कस्टम सॉफ़्टवेयर</a></p>
+</li>
+<li>
+<h3>डिज़ाइन</h3>
+<p>ब्रांड, इंटरफ़ेस और उनके आसपास की वेबसाइटें, उन लोगों के हाथों से जो जो डिज़ाइन करते हैं, उसे बनाते भी हैं।</p>
+<p class="offer-proof">जैसे <a href="/hi/projects/jakpod-hotel-design/">JakPod Hotel</a> और <a href="/hi/projects/fluindo-technology-indonesia-website/">Fluindo</a></p>
+</li>
+<li>
+<h3>लॉन्च और ग्रोथ</h3>
+<p>पहले दिन से सर्च की सेटिंग, लोकल सर्च, लिस्टिंग और कमाए हुए बैकलिंक, और आँकड़ों पर हर महीने एक चेक-इन।</p>
+<p class="offer-proof">देखें <a href="/hi/launch-and-growth/">इसमें क्या शामिल है</a></p>
+</li>
+<li>
+<h3>Shopify</h3>
+<p>Odoo और आपके मौजूदा सिस्टम्स से जुड़े स्टोर: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन लोगों से जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।</p>
+<p class="offer-proof">देखें <a href="/hi/shopify/">हम क्या करते हैं</a></p>
+</li>
+<li>
+<h3>बिज़नेस सिस्टम</h3>
+<p>पॉइंट ऑफ़ सेल, स्टॉक, पर्चेज़ और अकाउंटिंग एक ही सिस्टम में, Odoo पर या आपकी ज़रूरत के हिसाब से बनाया हुआ, उन बिज़नेस के लिए जो स्प्रेडशीट छोड़ने को तैयार हैं।</p>
+<p class="offer-proof">देखें <a href="/hi/odoo/">Odoo या कस्टम?</a></p>
+</li>
+</ul>
+</section>
+<section id="portfolio">
+<div class="section section-head">
+<h2 class="section-title">चुनिंदा काम</h2>
+</div>
+<div class="section featured">
+<a class="featured-item" href="/hi/projects/colvaron-conquest-website/">
+<img alt="Colvaron Conquest वेबसाइट" class="thumb shadow-xl" height="900" loading="lazy" src="/assets/images/projects/colvaron-conquest-website.webp" style="view-transition-name: media-colvaron-conquest-website" width="1600"/>
+<div>
+<h3>Colvaron Conquest</h3>
+<p>एक स्ट्रैटेजिक ट्रेडिंग कार्ड गेम के लिए कार्ड गैलरी, कहानी और ट्यूटोरियल</p>
+</div>
+</a>
+<a class="featured-item" href="/hi/projects/vivaldy-skin-clinic-website/">
+<img alt="Vivaldy Skin Clinic वेबसाइट" class="thumb shadow-xl" height="872" loading="lazy" src="/assets/images/projects/vivaldy-skin-clinic-website.webp" style="view-transition-name: media-vivaldy-skin-clinic-website" width="1600"/>
+<div>
+<h3>Vivaldy Skin Clinic</h3>
+<p>एक डर्मेटोलॉजी क्लिनिक की वेबसाइट, जिसमें हर ट्रीटमेंट का अलग पेज है और WhatsApp पर बुकिंग होती है</p>
+</div>
+</a>
+<a class="featured-item" href="/hi/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS ऐप्लिकेशन" class="thumb shadow-xl" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" style="view-transition-name: media-peoplebond-hcms-application" width="1600"/>
+<div>
+<h3>PeopleBond</h3>
+<p>एक HR प्लेटफ़ॉर्म और उसका एम्प्लॉई ऐप, जो 2019 से उनकी टीम के साथ मिलकर बनाया जा रहा है</p>
+</div>
+</a>
+</div>
+<p class="text-center"><a class="see-all" href="/hi/projects/">सभी प्रोजेक्ट देखें</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">अपने ऐप भी हम खुद लॉन्च करते हैं</h2>
+<p class="lead-sm own-intro">शिप करना सीखने का सबसे पक्का तरीका है अपना खुद का प्रोडक्ट शिप करना। ये हमारे ऐप हैं, App Store और वेब पर लाइव। आइकन को ज़रा खींचकर देखिए।</p>
+<ul class="app-row">
+<li><a href="/hi/projects/par/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/par-icon.webp" style="view-transition-name: media-par" width="96"/> <span>Par</span> </a></li>
+<li><a href="/hi/projects/cleanstorage/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/cleanstorage-icon.webp" style="view-transition-name: media-cleanstorage" width="96"/> <span>CleanStorage</span> </a></li>
+<li><a href="/hi/projects/pawlitics/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/pawlitics-icon.webp" style="view-transition-name: media-pawlitics" width="96"/> <span>Pawlitics</span> </a></li>
+<li><a href="/hi/projects/squishu/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/squishu-icon.webp" style="view-transition-name: media-squishu" width="96"/> <span>Squishu</span> </a></li>
+<li><a href="/hi/projects/rindraw/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/rindraw-icon.webp" style="view-transition-name: media-rindraw" width="96"/> <span>Rindraw</span> </a></li>
+<li><a href="/hi/projects/math-daily/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/math-daily-icon.webp" style="view-transition-name: media-math-daily" width="96"/> <span>Math Daily</span> </a></li>
+<li><a href="/hi/projects/sawirpost/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/sawirpost-icon.webp" style="view-transition-name: media-sawirpost" width="96"/> <span>SawirPost</span> </a></li>
+<li><a href="/hi/projects/sawirly/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/sawirly-icon.webp" style="view-transition-name: media-sawirly" width="96"/> <span>Sawirly</span> </a></li>
+<li><a href="/hi/projects/nofapfit/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/nofapfit-icon.webp" style="view-transition-name: media-nofapfit" width="96"/> <span>NoFapFit</span> </a></li>
+</ul>
+<p class="lead-sm text-center">साथ में <a href="/hi/projects/wordpress-plugins/">12 मुफ़्त WordPress प्लगइन</a> और Odoo के लिए एक <a href="/hi/projects/odoo-shopify-connector/">Shopify कनेक्टर</a>, जिसे Odoo Community Association में मेंटेन किया जाता है।</p>
+<p class="lead-sm text-center">इनकी अपनी साइटों पर: <a href="https://rindraw.com/">Rindraw</a> · <a href="https://getmathdaily.com/">Math Daily</a> · <a href="https://sawirpost.com/">SawirPost</a> · <a href="https://sawirly.com/">Sawirly</a> · <a href="https://nofapfit.com/">NoFapFit</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">हम कैसे काम करते हैं</h2>
+<ol class="values">
+<li>
+<h3>छोटी शुरुआत करें, जल्दी लॉन्च करें।</h3>
+<p>पहला चालू वर्ज़न हम शुरू में ही असली लोगों के सामने रखते हैं, फिर वे जो असल में करते हैं, उसी के आधार पर उसे बेहतर बनाते हैं।</p>
+</li>
+<li>
+<h3>टाइपिंग AI करता है, सोचने का काम हम करते हैं।</h3>
+<p>हम रोज़ AI के साथ काम करते हैं, इसीलिए हम तेज़ हैं। फिर भी जो भी कोड लाइव होता है, उसे कोई इंसान पढ़ता है, टेस्ट करता है और उसकी ज़िम्मेदारी लेता है।</p>
+</li>
+<li>
+<h3>लॉन्च तो बस शुरुआत है।</h3>
+<p>जो हम बनाते हैं, उसकी देखभाल के लिए हम साथ रहते हैं। PeopleBond 2019 से हमारे साथ काम कर रहा है, और हमारे अपने ऐप को भी वही देखभाल मिलती है।</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<h2 class="section-title">हमारे कुछ क्लाइंट</h2>
+<ul class="clients">
+<li>Calvin Kain</li>
+<li>Skilabus</li>
+<li>TaniMilenial</li>
+<li>KantongSayur</li>
+<li>Fluindo Technology Indonesia</li>
+<li>Indonesia Research Institute Japan</li>
+<li>Growinc Indonesia</li>
+<li>HSBC (Growmint)</li>
+<li>PeopleBond</li>
+<li>Vivaldy Skin Clinic</li>
+<li>PT Sumasteel Indonesia</li>
+<li>PT SPP Indonesia</li>
+<li>PT Adiwarna Anugerah Abadi</li>
+<li>Jakpod Hotel Indonesia</li>
+<li>Capsule Indonesia</li>
+<li>Indonesia's Ministry of Communication and Informatic</li>
+<li>Roemah Matjak</li>
+<li>Astra International</li>
+<li>Digital Airport Hotel Indonesia</li>
+<li>Universitas Mataram Hospital</li>
+<li>Habitat Hills</li>
+<li>Alastair Fraser Forestry Foundation</li>
+<li>Aeroquote</li>
+<li>ADL Partnership</li>
+<li>Koperasi HOB</li>
+<li>DBTV</li>
+</ul>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>हमारी बात बहुत हुई।</p>
+<h2>हम आपकी<br/>कैसे मदद करें?</h2>
+<a class="button" href="/hi/contact/">प्रोजेक्ट शुरू करें</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

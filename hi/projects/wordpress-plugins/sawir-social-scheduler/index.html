@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Social Scheduler | SawirStudio</title>
+<meta content="एक बार लिखें, wp-admin से 27 नेटवर्क पर शेड्यूल करें। हर चैनल के लिए अलग एडिट, थ्रेड, मीडिया और प्रीव्यू। आपके टोकन आपके सर्वर पर ही रहते हैं।" name="description"/>
+<meta content="Sawir Social Scheduler | SawirStudio" property="og:title"/>
+<meta content="एक बार लिखें, wp-admin से 27 नेटवर्क पर शेड्यूल करें। हर चैनल के लिए अलग एडिट, थ्रेड, मीडिया और प्रीव्यू। आपके टोकन आपके सर्वर पर ही रहते हैं।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-social-scheduler.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Social Scheduler",
+          "description": "एक बार लिखें, wp-admin से 27 नेटवर्क पर शेड्यूल करें। हर चैनल के लिए अलग एडिट, थ्रेड, मीडिया और प्रीव्यू। आपके टोकन आपके सर्वर पर ही रहते हैं।",
+          "url": "https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-social-scheduler-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "होम",
+              "item": "https://sawirstudio.com/hi/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "प्रोजेक्ट",
+              "item": "https://sawirstudio.com/hi/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress प्लगइन",
+              "item": "https://sawirstudio.com/hi/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Social Scheduler",
+              "item": "https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a aria-current="true" href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/projects/wordpress-plugins/">WordPress प्लगइन</a></li>
+<li><a aria-current="page" href="/hi/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Social Scheduler</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Social Scheduler बैनर" height="500" src="/assets/images/plugins/sawir-social-scheduler-banner.webp" width="1544"/></p>
+<p>Sawir Social Scheduler की मदद से आप wp-admin में एक बार पोस्ट लिखकर उसे 27 सोशल नेटवर्क पर शेड्यूल कर सकते हैं। हर चैनल के लिए अलग एडिट, थ्रेड, मीडिया और प्रीव्यू मिलते हैं। आपके अकाउंट टोकन आपके ही सर्वर पर रहते हैं।</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">WordPress.org से मुफ़्त पाएँ</a></p>
+<h2>यह क्या करता है</h2>
+<p>Sawir Social Scheduler आपके WordPress को सोशल मीडिया शेड्यूलर बना देता है। हर प्लेटफ़ॉर्म से मिले टोकन से अपने चैनल कनेक्ट करें, पोस्ट लिखें, चैनल चुनें, तारीख़ तय करें और पब्लिश करें। हर सेंड बैकग्राउंड में चलता है और नतीजे में पोस्ट का लिंक या प्लेटफ़ॉर्म का अपना एरर मैसेज बताता है।</p>
+<p>बीच में कोई होस्टेड सर्विस नहीं है। क्रेडेंशियल आपकी साइट के सॉल्ट से एन्क्रिप्ट होते हैं और आपके सर्वर से बाहर कभी नहीं जाते।</p>
+<h3>चैनल</h3>
+<p>जितने चाहें उतने चैनल जोड़ें, एक प्लेटफ़ॉर्म पर कई अकाउंट भी चल सकते हैं। हर चैनल में <strong>Test connection</strong> बटन होता है, जो अकाउंट का नाम और अवतार लाकर पक्का करता है कि टोकन सच में काम कर रहा है, ताकि आप भरोसे से इस्तेमाल कर सकें।</p>
+<p><strong>सोशल:</strong> X (Twitter), Facebook Page, Instagram, Threads, LinkedIn Page, Bluesky, Mastodon, TikTok, YouTube, Pinterest, Tumblr, Dribbble, Google Business Profile</p>
+<p><strong>कम्युनिटी:</strong> Telegram, Discord, Slack, Reddit, Lemmy, VK, Kick, Twitch, Whop</p>
+<p><strong>ब्लॉग और न्यूज़लेटर:</strong> WordPress, Medium, Dev.to, Hashnode, Listmonk</p>
+<p>चैनलों को क्लाइंट या ब्रांड के हिसाब से नेस्टेड ग्रुप में रखें, फिर एक क्लिक में पूरा ग्रुप चुन लें।</p>
+<h3>पोस्ट</h3>
+<ul>
+<li><strong>एक टेक्स्ट, कई चैनल।</strong> चेकबॉक्स से चैनल चुनें। जिन चैनलों में आप कुछ नहीं बदलते, उन्हें पोस्ट वैसी ही जाती है जैसी लिखी गई है।</li>
+<li><strong>हर चैनल के लिए अलग बदलाव।</strong> किसी भी चैनल पर "Customize" चुनें और उसके लिए अलग हिस्से बनाएँ: टेक्स्ट, मीडिया और देरी। ये पहले से पोस्ट से भरे होते हैं, इसलिए आप एक कॉपी एडिट करते हैं। बाक़ी चैनलों में पोस्ट जैसी लिखी है वैसी ही रहती है।</li>
+<li><strong>थ्रेड।</strong> X, Threads, Bluesky, Mastodon और Telegram पर थ्रेड पोस्ट करने के लिए हिस्से जोड़ें, हर हिस्से का अपना मीडिया हो सकता है। जिन प्लेटफ़ॉर्म पर थ्रेड नहीं होते, वहाँ सारे हिस्से जोड़कर एक साथ भेजे जाते हैं।</li>
+<li><strong>मीडिया।</strong> इमेज और वीडियो एक बार अटैच करें। हर प्लेटफ़ॉर्म को वही मिलता है जो वह सपोर्ट करता है: एल्बम, कैरोसेल, Reels, रिज़्यूमेबल वीडियो अपलोड।</li>
+<li><strong>शेड्यूल।</strong> WordPress की सामान्य "Publish on" तारीख़ इस्तेमाल करें, या किसी भी चैनल को उसका अलग समय दें।</li>
+<li><strong>पोस्टिंग टाइम।</strong> किसी चैनल के लिए दिन के उसके आम समय तय करें। "Next free slot" अगला खाली स्लॉट भर देता है, कैलेंडर में आने वाले खाली स्लॉट दिखते हैं जिन पर क्लिक करके आप उन्हें भर सकते हैं, और API में <code>"date": "next"</code> भी चलता है।</li>
+<li><strong>प्रीव्यू।</strong> हर चैनल का लाइव प्रीव्यू, जो असली प्लेटफ़ॉर्म जैसा दिखता है। इसमें कैरेक्टर लिमिट और मीडिया के नियम लागू रहते हैं, इसलिए आप ठीक वही देखते हैं जो पब्लिश होगा।</li>
+<li><strong>कमेंट और देरी।</strong> जिन प्लेटफ़ॉर्म पर थ्रेड नहीं होते, वहाँ अतिरिक्त हिस्से पोस्ट के नीचे कमेंट के रूप में जाते हैं। किसी भी हिस्से को पिछले हिस्से के बाद तय मिनट तक इंतज़ार करवाया जा सकता है।</li>
+<li><strong>ब्लॉग पोस्ट शेयर करें।</strong> सामान्य पोस्ट एडिटर में एक बॉक्स होता है, जो ब्लॉग पोस्ट पब्लिश होते ही आपके चैनलों पर उसे पोस्ट कर देता है, अपने टेक्स्ट और मीडिया के साथ।</li>
+<li><strong>डुप्लिकेट।</strong> किसी पोस्ट को उसके चैनल, हिस्सों और ओवरराइड के साथ नए ड्राफ़्ट के रूप में कॉपी करें। ड्राफ़्ट को टेम्पलेट की तरह रखा जा सकता है।</li>
+<li><strong>मेंशन।</strong> <code>@handle</code> लिखें और नेटवर्क उसे X, Instagram, Threads, Mastodon, Telegram, Reddit और Bluesky पर पहचान लेता है, जहाँ लिंक और हैंडल असली फ़ैसेट बन जाते हैं। LinkedIn कंपनी पेज <code>@[Name](org:12345)</code> के रूप में लिखे जाते हैं, जिसमें ID पेज के URL से लें; Facebook पेज <code>@[12345]</code> के रूप में लिखे जाते हैं।</li>
+<li><strong>दोहराएँ।</strong> एवरग्रीन पोस्ट को हर N दिन या हफ़्ते में दोबारा भेजें, किसी तारीख़ तक या तय बार तक। हर रन अपने सेंड और आँकड़ों के साथ अलग पोस्ट होता है। रन को नंबर देने के लिए टेक्स्ट में <code>{n}</code> लगाएँ, क्योंकि X, Threads और Bluesky एक जैसा टेक्स्ट स्वीकार नहीं करते।</li>
+</ul>
+<h3>कैलेंडर</h3>
+<p>हर पोस्ट चैनल के हिसाब से अलग-अलग सेंड में बँट जाती है, और कैलेंडर में हर सेंड एक कार्ड के रूप में दिखता है, जिसका रंग उसकी स्थिति बताता है: शेड्यूल्ड, सेंट, फ़ेल्ड, होल्ड, ड्राफ़्ट, इन प्रोग्रेस। किसी चैनल का समय बदलने के लिए कार्ड को ड्रैग करें। कार्ड पर क्लिक करने पर एरर, Retry बटन, लाइव लिंक और एंगेजमेंट के आँकड़े दिखते हैं। किसी खाली स्लॉट पर क्लिक करके उसी समय के लिए पोस्ट शुरू करें। महीने, हफ़्ते, दिन और लिस्ट व्यू उपलब्ध हैं, और ग्रुप व स्टेटस से फ़िल्टर किए जा सकते हैं।</p>
+<h3>एनालिटिक्स</h3>
+<p>16 प्लेटफ़ॉर्म पर हर सेंड के 1 घंटे, 1 दिन और 1 हफ़्ते बाद, और ज़रूरत पड़ने पर भी, लाइक, कमेंट, शेयर, व्यू और इंप्रेशन इकट्ठा किए जाते हैं। फ़ॉलोअर की संख्या हर चैनल के लिए रोज़ दर्ज होती है, जिसके साथ 30 दिन की स्पार्कलाइन दिखती है। ये आँकड़े कैलेंडर कार्ड, पोस्ट के Analytics बॉक्स और चैनल लिस्ट में दिखते हैं। Analytics पेज पिछले 7, 30 या 90 दिनों का सार उससे पहले की अवधि से तुलना करके दिखाता है: भेजी गई पोस्ट, एंगेजमेंट, रीच और फ़ॉलोअर और उनमें बदलाव, फ़ॉलोअर चार्ट, चैनल के हिसाब से एंगेजमेंट, और आपकी टॉप पोस्ट।</p>
+<h3>क्लाइंट अप्रूवल</h3>
+<p>"Hold sends until approved" चुनें, प्रीव्यू लिंक कॉपी करें और अपने क्लाइंट को भेजें। वे बिना लॉगिन किए देख सकते हैं कि पोस्ट हर चैनल पर कैसी दिखेगी, और नोट के साथ Approve या Request changes पर क्लिक कर सकते हैं। अप्रूवल मिलते ही सेंड रिलीज़ हो जाते हैं। हर फ़ैसला हिस्ट्री में सुरक्षित रहता है।</p>
+<p>X, YouTube और TikTok पर बड़े वीडियो अपलोड छोटे-छोटे हिस्सों में होते हैं, जो बैकग्राउंड जॉब के बीच फिर से शुरू हो सकते हैं। इसलिए वे होस्ट की समय सीमा में भी पूरे हो जाते हैं और पूरी फ़ाइल कभी मेमोरी में लोड नहीं होती।</p>
+<h3>REST API</h3>
+<p>एडमिन में जो कुछ भी होता है, वह ऑटोमेशन, मोबाइल ऐप और दूसरी साइटों के लिए <code>/wp-json/sawir-social/v1</code> पर उपलब्ध है। ऑथेंटिकेशन के लिए application password इस्तेमाल करें; अनुमतियाँ प्लगइन की कैपेबिलिटी के हिसाब से चलती हैं और चैनल क्रेडेंशियल कभी वापस नहीं भेजे जाते।</p>
+<ul>
+<li><code>GET /platforms</code>, <code>GET /channels</code>, <code>GET /channels/{id}</code>, <code>POST /channels/{id}/test</code></li>
+<li><code>GET|POST /posts</code>, <code>GET|PATCH|DELETE /posts/{id}</code>, <code>POST /posts/{id}/duplicate</code>, <code>GET /posts/{id}/analytics</code></li>
+<li><code>GET /sends</code>, <code>GET /sends/{id}</code>, <code>POST /sends/{id}/retry</code>, <code>POST /sends/{id}/stats</code></li>
+</ul>
+<p>पोस्ट बनाने के लिए इस्तेमाल करें: <code>{"title","content","status":"future","date":"2026-12-25 09:00","media":[12],"parts":[{"text","media","delay"}],"channels":[{"id":38,"parts":[{"text","media","delay"}],"date":"…"}],"groups":["Client A"],"hold":false}</code>। किसी चैनल के <code>parts</code> उस चैनल के लिए पोस्ट की जगह ले लेते हैं; <code>text</code> एक अकेले हिस्से का शॉर्टहैंड है।</p>
+<h3>AI एजेंट</h3>
+<p>यही ऑपरेशन WordPress Abilities API में <code>sawir-social/list-channels</code>, <code>create-post</code>, <code>update-post</code>, <code>list-posts</code>, <code>list-sends</code>, <code>retry-send</code>, <code>test-channel</code>, <code>get-analytics</code> और <code>list-platforms</code> के नाम से रजिस्टर हैं, जिनके इनपुट और आउटपुट स्कीमा टाइप्ड हैं। WordPress MCP adapter से जुड़ा कोई भी एजेंट इन्हें टूल के रूप में देखता है, और इन्हें <code>/wp-json/wp-abilities/v1/abilities/{name}/run</code> पर भी कॉल किया जा सकता है। Abilities API WordPress 6.9 और उसके बाद के वर्ज़न का हिस्सा है; पुराने वर्ज़न के लिए प्लगइन इसे साथ में बंडल करता है, इसलिए जहाँ भी प्लगइन चलता है वहाँ ये एबिलिटीज़ उपलब्ध रहती हैं।</p>
+<h3>ज़रूरतें</h3>
+<p>जब आपकी साइट पर Action Scheduler हो (WooCommerce और कई दूसरे प्लगइन इसे देते हैं) तो सेंड उसी के ज़रिए बैकग्राउंड में चलते हैं, वरना WP-Cron से। WordPress के बिल्ट-इन क्रॉन पर वे तभी आगे बढ़ते हैं जब साइट पर ट्रैफ़िक आता है। समय पर सेंड के लिए सिस्टम क्रॉन जोड़ें; Calendar स्क्रीन पर आपकी साइट के लिए सही कमांड दिखती है।</p>
+<p>जो प्लेटफ़ॉर्म मीडिया को URL से उठाते हैं (Instagram, Threads, Facebook, Pinterest, Telegram), उनके लिए मीडिया इंटरनेट से पहुँचने लायक होना चाहिए। लोकल डेवलपमेंट साइट से उन्हें इमेज नहीं भेजी जा सकतीं।</p>
+<h3>क्रेडिट</h3>
+<p>इसमें FullCalendar (MIT), WordPress Abilities API लाइब्रेरी (GPL) और Simple Icons (CC0) के ब्रांड मार्क बंडल हैं। जब कोई दूसरा प्लगइन Action Scheduler उपलब्ध कराता है तो यह उसी का इस्तेमाल करता है।</p>
+<h2>स्क्रीनशॉट</h2>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 1" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 2" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 3" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-3.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 4" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-4.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 5" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-5.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler स्क्रीनशॉट 6" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-6.webp" width="1280"/></p>
+<h2>सवाल</h2>
+<h3>टोकन कहाँ से मिलेंगे?</h3>
+<p>हर प्लेटफ़ॉर्म की डेवलपर सेटिंग्स में। चैनल फ़ॉर्म में साफ़ लिखा होता है कि कौन सा क्रेडेंशियल चाहिए, जैसे Facebook Page access token, Telegram bot token या Bluesky app password। लंबे समय तक चलने वाले टोकन सबसे अच्छे रहते हैं; Meta और LinkedIn के टोकन लगभग 60 दिन में एक्सपायर हो जाते हैं और उन्हें दोबारा पेस्ट करना पड़ता है।</p>
+<h3>मेरे Telegram टेस्ट में "chat not found" आ रहा है</h3>
+<p>प्राइवेट चैनलों का कोई @username नहीं होता। Chat ID खाली छोड़ें और Test connection पर क्लिक करें: प्लगइन उन सभी चैट की सूची दिखाता है जिनमें बॉट जोड़ा गया है, साथ में पेस्ट करने के लिए संख्यात्मक ID भी।</p>
+<h3>कोई सेंड "In progress…" पर क्यों अटका है?</h3>
+<p>बैकग्राउंड क्यू अभी चली नहीं है। साइट पर एक बार जाएँ, या Calendar स्क्रीन पर दिखाया गया सिस्टम क्रॉन सेट करें।</p>
+<h3>क्या मैं लोकल साइट से Instagram पर वीडियो पोस्ट कर सकता हूँ?</h3>
+<p>नहीं। Instagram मीडिया को URL से उठाता है और उसे सार्वजनिक पता चाहिए। प्लगइन की बाक़ी सारी चीज़ें लोकल पर भी चलती हैं।</p>
+<h2>इनके साथ अच्छा चलता है</h2>
+<ul>
+<li><a href="/hi/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: दिखाता है कि विज़िटर आपकी साइट का इस्तेमाल कैसे करते हैं, हीटमैप, सेशन रिकॉर्डिंग, सर्वे, फ़नल और फ़ॉर्म एनालिटिक्स के साथ, और यह सारा डेटा आपके अपने सर्वर पर रखता है।</li>
+<li><a href="/hi/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: आपके पेज का अनुवाद वहीं कर देता है जहाँ वे हैं: भाषा चुनें, जो दिख रहा है उसे ऑटो-ट्रांसलेट करें, सेव करें और विज़िटर्स को भाषा बदलने का स्विचर दें।</li>
+</ul>
+<p>हमारे सभी <a href="/hi/projects/wordpress-plugins/">मुफ़्त WordPress प्लगइन</a> देखें।</p>
+</div>
+<ul class="project-meta">
+<li><strong>कीमत</strong> मुफ़्त</li>
+<li><strong>वर्ज़न</strong> 0.1.0</li>
+<li><strong>ज़रूरत</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>लाइसेंस</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-social-scheduler/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>हमारी बात बहुत हुई।</p>
+<h2>हम आपकी<br/>कैसे मदद करें?</h2>
+<a class="button" href="/hi/contact/">प्रोजेक्ट शुरू करें</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

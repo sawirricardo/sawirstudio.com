@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>ब्लॉग | SawirStudio</title>
+<meta content="Laravel और PHP से वेब एप्लिकेशन बनाने पर SawirStudio के लेख।" name="description"/>
+<meta content="ब्लॉग | SawirStudio" property="og:title"/>
+<meta content="Laravel और PHP से वेब एप्लिकेशन बनाने पर SawirStudio के लेख।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/posts/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/posts/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "होम",
+          "item": "https://sawirstudio.com/hi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ब्लॉग",
+          "item": "https://sawirstudio.com/hi/posts/"
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a aria-current="page" href="/hi/posts/">ब्लॉग</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs is-center">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a aria-current="page" href="/hi/posts/">ब्लॉग</a></li>
+</ol>
+</nav>
+<h1 class="page-title text-center" style="margin-bottom: 2rem">ब्लॉग</h1>
+<ul class="post-list center">
+<li><a href="/hi/posts/shopify-2026-10-api-what-breaks/"><time datetime="2026-11-06">2026-11-06</time> Shopify की 2026-10 API: आपके इंटीग्रेशन में क्या टूटेगा</a></li>
+<li><a href="/hi/posts/shopify-script-tags-stop-march-2027/"><time datetime="2026-11-06">2026-11-06</time> Shopify Script Tags 1 मार्च 2027 से काम करना बंद कर देंगे। स्टोर मालिकों को क्या करना चाहिए</a></li>
+<li><a href="/hi/posts/connect-shopify-to-odoo-19-community/"><time datetime="2026-11-06">2026-11-06</time> Shopify को Odoo 19 Community से जोड़ना, स्टेप बाय स्टेप</a></li>
+<li><a href="/hi/posts/why-shopify-payouts-dont-match-your-books/"><time datetime="2026-11-06">2026-11-06</time> आपके Shopify पेआउट आपकी बहियों से कभी क्यों नहीं मिलते</a></li>
+<li><a href="/hi/posts/wordpress-7-2-what-plugin-authors-should-test/"><time datetime="2026-11-06">2026-11-06</time> WordPress 7.2 8 दिसंबर को आ रहा है: हम अपने प्लगइन में क्या टेस्ट कर रहे हैं</a></li>
+<li><a href="/hi/posts/wordpress-abilities-api-for-plugins/"><time datetime="2026-11-06">2026-11-06</time> Abilities API से अपने WordPress प्लगइन को AI एजेंट के लिए इस्तेमाल करने लायक बनाएं</a></li>
+<li><a href="/hi/posts/woocommerce-or-shopify-indonesia/"><time datetime="2026-11-06">2026-11-06</time> इंडोनेशिया के बिज़नेस के लिए WooCommerce या Shopify?</a></li>
+<li><a href="/hi/posts/making-our-sites-agent-ready/"><time datetime="2026-11-06">2026-11-06</time> अपनी साइटों को एजेंट-रेडी बनाने में क्या करना पड़ा</a></li>
+<li><a href="/hi/posts/throwable-app-icons-matter-js/"><time datetime="2026-11-06">2026-11-06</time> हमारे होम पेज पर उछाले जा सकने वाले ऐप आइकन</a></li>
+<li><a href="/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/"><time datetime="2022-10-27">2022-10-27</time> अपना खुद का कंटेंट मैनेजमेंट सिस्टम (WordPress जैसा) कैसे बनाएं</a></li>
+<li><a href="/hi/posts/how-do-you-design-your-subscription-plan-restrictions/"><time datetime="2022-07-04">2022-07-04</time> सब्सक्रिप्शन प्लान की पाबंदियां कैसे डिज़ाइन करें</a></li>
+</ul>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

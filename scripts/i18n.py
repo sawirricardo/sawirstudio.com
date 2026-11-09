@@ -50,6 +50,7 @@ LANGS = {
     "he": ("he", "עברית", "he_IL", "Modern Hebrew for business readers in Israel. Plain, direct professional tone; address the reader in plural or gender-neutral phrasing (אתם / לכם) rather than masculine singular. Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store)"),
     "ru": ("ru", "Русский", "ru_RU", "Russian for business readers. Address the reader formally as Вы/вы (lowercase вы in running text). Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store, WordPress); use «ёлочки» quotation marks"),
     "fr": ("fr", "Français", "fr_FR", "French for business readers in France, Belgium, Switzerland and Canada. Address the reader as vous. Use French typography: « guillemets » with non-breaking spaces, and a non-breaking space before : ; ! ?. Keep brand, product and tech names as-is (Shopify, Odoo, iPhone, App Store); prefer common French terms (application, site web, boutique)"),
+    "hi": ("hi", "हिन्दी", "hi_IN", "Hindi in Devanagari for business readers in India. Address the reader respectfully as आप. Write natural, modern business Hindi as Indian companies use it, not heavily Sanskritised: common English tech words in Devanagari where Indians say them in English (ऐप, वेबसाइट, सॉफ़्टवेयर, प्लेटफ़ॉर्म); keep brand and product names in Latin script (Shopify, Odoo, iPhone, App Store). Use the danda । for full stops"),
 }
 RTL = {"ar", "he"}
 

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Matter.js के साथ फेंके जा सकने वाले ऐप आइकन | SawirStudio</title>
+<meta content="हमने अपने होम पेज पर फेंके जा सकने वाले ऐप आइकन का बॉक्स कैसे बनाया: फ़िज़िक्स के लिए Matter.js, कैनवास की जगह DOM एलिमेंट, आइकन घूमने पर भी अपनी जगह टिकी रहने वाली परछाईं, और फ़ॉलबैक।" name="description"/>
+<meta content="Matter.js के साथ फेंके जा सकने वाले ऐप आइकन | SawirStudio" property="og:title"/>
+<meta content="हमने अपने होम पेज पर फेंके जा सकने वाले ऐप आइकन का बॉक्स कैसे बनाया: फ़िज़िक्स के लिए Matter.js, कैनवास की जगह DOM एलिमेंट, आइकन घूमने पर भी अपनी जगह टिकी रहने वाली परछाईं, और फ़ॉलबैक।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "हमारे होम पेज पर फेंके जा सकने वाले ऐप आइकन",
+          "description": "हमने अपने होम पेज पर फेंके जा सकने वाले ऐप आइकन का बॉक्स कैसे बनाया: फ़िज़िक्स के लिए Matter.js, कैनवास की जगह DOM एलिमेंट, आइकन घूमने पर भी अपनी जगह टिकी रहने वाली परछाईं, और फ़ॉलबैक।",
+          "url": "https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/throwable-app-icons-matter-js/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "होम",
+              "item": "https://sawirstudio.com/hi/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ब्लॉग",
+              "item": "https://sawirstudio.com/hi/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "हमारे होम पेज पर फेंके जा सकने वाले ऐप आइकन",
+              "item": "https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a aria-current="true" href="/hi/posts/">ब्लॉग</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs is-center">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a aria-current="page" href="/hi/posts/throwable-app-icons-matter-js/">हमारे होम पेज पर फेंके जा सकने वाले ऐप आइकन</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">हमारे होम पेज पर फेंके जा सकने वाले ऐप आइकन</h1>
+<div class="prose prose-xl">
+<p>हमारे <a href="/hi/">होम पेज</a> पर एक बॉक्स है, जिसमें हमारे ऐप के आइकन रखे हैं। आपके पेज पर आते ही वे ऊपर से गिरते हैं, और आप उन्हें उठाकर फेंक सकते हैं। किसी आइकन को बिना खींचे टैप करें, तो उस ऐप का पेज खुल जाता है। इसमें एक दोपहर लगी, और कुछ बातें हमारी उम्मीद से ज़्यादा दिलचस्प निकलीं।</p>
+<h2>बॉक्स ही क्यों</h2>
+<p>पहला विचार यह था कि आइकन पेज के पूरे ऊपरी हिस्से में उड़ते फिरें। लेकिन वहीं हमारी हेडलाइन और बटन हैं, और थोड़े-से मज़े के लिए “Start a project” के ऊपर आइकन गिरें, यह अच्छा सौदा नहीं है। इंट्रो के बगल में एक बॉक्स, जिसके किनारे पर एक लेबल है, खेल को एक दायरे में रखता है। यह उस जगह में भी ठीक बैठा जो पहले से खाली थी: चौड़ी स्क्रीन पर इंट्रो और बटनों के दाईं ओर की खाली जगह। फ़ोन पर यह बटनों के नीचे आता है।</p>
+<h2>Matter.js से असली फ़िज़िक्स</h2>
+<p>आपस में टकराते गोले खुद लिख लेना आसान है। लेकिन ऐप आइकन गोल कोनों वाले चौकोर होते हैं, और सिक्के की तरह लुढ़कता चौकोर आइकन फ़ौरन अटपटा लगता है। सही ढंग से लुढ़कने और एक-दूसरे पर टिकने के लिए असली फ़िज़िक्स इंजन चाहिए, इसलिए हमने <a href="https://brm.io/matter-js/" rel="noopener" target="_blank">Matter.js</a> इस्तेमाल किया। हर आइकन गोल कोनों वाला एक आयत है (<code>chamfer</code>), जो आइकन के 22% कॉर्नर रेडियस से मेल खाता है, और वह चार स्थिर दीवारों के अंदर रहता है।</p>
+<p>इंजन 83KB का है, इसलिए यह सिर्फ़ होम पेज पर लोड होता है, पेज तैयार होने के बाद ही लोड होता है, और तभी लोड होता है जब विज़िटर ने कम मोशन की माँग न की हो।</p>
+<h2>DOM एलिमेंट, कैनवास नहीं</h2>
+<p>Matter.js कैनवास पर ड्रॉ कर सकता है, लेकिन हम इसे सिर्फ़ गणित के लिए इस्तेमाल करते हैं। आइकन इमेज वाले सामान्य लिंक हैं, जिन्हें हर फ़्रेम में CSS transform से सही जगह पर रखा जाता है:</p>
+<pre><code>st.setProperty("--x", (b.position.x - size / 2) + "px");
+st.setProperty("--y", (b.position.y - size / 2) + "px");
+st.setProperty("--a", b.angle + "rad");</code></pre>
+<p>इसलिए टैप एक असली लिंक है, इमेज किसी भी ज़ूम पर साफ़ दिखती हैं, और आइकन का बॉर्डर और स्टाइल साइट पर हर जगह जैसा ही रहता है।</p>
+<h2>वह परछाईं जो अपनी जगह टिकी रहती है</h2>
+<p>हमारी स्टाइल में हर चीज़ के नीचे और दाईं ओर एक सख़्त परछाईं होती है। इसे किसी घूमने वाले एलिमेंट पर लगा दें, तो परछाईं भी उसके साथ घूमने लगती है, और घूमते आइकन की परछाईं घड़ी की सुई की तरह चक्कर काटती है। इसका हल यह है कि हर फ़्रेम में परछाईं के ऑफ़सेट को उलटी दिशा में घुमा दिया जाए:</p>
+<pre><code>// keep the shadow at (3px, 3px) in screen space while the icon turns by a
+st.setProperty("--shadow-x", 3 * (Math.cos(a) + Math.sin(a)) + "px");
+st.setProperty("--shadow-y", 3 * (Math.cos(a) - Math.sin(a)) + "px");</code></pre>
+<h2>पकड़ना और फेंकना</h2>
+<p>पॉइंटर दबाते ही हम पॉइंटर और आइकन के उस ठीक बिंदु के बीच एक स्प्रिंग (Matter.js का constraint) जोड़ देते हैं जहाँ आपने उसे पकड़ा है, उसके केंद्र पर नहीं, इसलिए कोने से पकड़ने पर वह स्वाभाविक रूप से झूलता है। छोड़ने पर वह अपनी रफ़्तार बनाए रखता है, जिसकी एक सीमा तय है ताकि ज़ोर का झटका उसे दीवार के पार न भेज दे। अगर पॉइंटर छह पिक्सल से कम हिला, तो इसे टैप माना जाता है और लिंक खुल जाता है।</p>
+<p>जब आइकन ऊपर से गिर रहे होते हैं, तब बॉक्स का ऊपरी हिस्सा खुला रहता है, और सब अंदर आ जाने पर बंद हो जाता है, ताकि फेंकने पर कोई आइकन ऊपर से बाहर न निकल जाए।</p>
+<h2>छोटी-छोटी बातें</h2>
+<ul>
+<li>ज़ोर से गिरने पर पेज की बिंदीदार बैकग्राउंड में एक लहर दौड़ जाती है।</li>
+<li>जब सब कुछ स्थिर होता है तो सिमुलेशन सो जाता है, और बॉक्स स्क्रीन से बाहर हो तो रुक जाता है, इसलिए आपके पढ़ते समय इसका कोई खर्च नहीं होता।</li>
+<li>आइकन तभी गिरते हैं जब बॉक्स स्क्रीन पर आ जाता है। फ़ोन पर यह तब होता है जब आप स्क्रॉल करके वहाँ पहुँचते हैं।</li>
+<li>JavaScript के बिना, या कम मोशन चालू होने पर, आइकन एक सलीकेदार ढेर में स्थिर रहते हैं, और फिर भी लिंक रहते हैं।</li>
+</ul>
+<p>यह एक छोटी-सी चीज़ है, लेकिन हमारे बनाए ऐप्स के बारे में यह किसी वाक्य से ज़्यादा कहती है। अगर आप अपनी साइट के लिए ऐसा कुछ चाहते हैं, तो <a href="/hi/contact/">हमें बताएँ</a>।</p>
+<p><strong>आगे पढ़ें:</strong> <a href="/hi/posts/making-our-sites-agent-ready/">हमारी साइटों को एजेंट-रेडी बनाने में क्या करना पड़ा</a>, या <a href="/hi/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2, 8 दिसंबर को आ रहा है: हम अपने प्लगइन में क्या टेस्ट कर रहे हैं</a>।</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>क्या इस पोस्ट से आपने कुछ नया सीखा?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>मुझे आपका ईमेल पता चाहिए, ताकि जब भी कोई नई पोस्ट प्रकाशित हो, मैं आपको ऐसी ही और पोस्ट भेज सकूँ।</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="ईमेल पता" class="formkit-input" name="email_address" placeholder="ईमेल पता" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>सब्सक्राइब करें</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">मैं आपको स्पैम नहीं भेजूँगा। आप कभी भी सदस्यता छोड़ सकते हैं।</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/throwable-app-icons-matter-js/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/throwable-app-icons-matter-js/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/throwable-app-icons-matter-js/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/throwable-app-icons-matter-js/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/throwable-app-icons-matter-js/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/throwable-app-icons-matter-js/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/throwable-app-icons-matter-js/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/throwable-app-icons-matter-js/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/throwable-app-icons-matter-js/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

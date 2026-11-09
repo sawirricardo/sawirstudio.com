@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress प्लगइन | SawirStudio</title>
+<meta content="SawirStudio के बारह मुफ़्त WordPress प्लगइन: WooCommerce के लिए सब्सक्रिप्शन, रेफ़रल, स्टॉक अलर्ट और बहुत कुछ, साथ ही किसी भी WordPress साइट के लिए टूल।" name="description"/>
+<meta content="WordPress प्लगइन | SawirStudio" property="og:title"/>
+<meta content="SawirStudio के बारह मुफ़्त WordPress प्लगइन: WooCommerce के लिए सब्सक्रिप्शन, रेफ़रल, स्टॉक अलर्ट और बहुत कुछ, साथ ही किसी भी WordPress साइट के लिए टूल।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/projects/wordpress-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/projects/wordpress-plugins/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/wordpress-plugins.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "WordPress प्लगइन",
+          "description": "SawirStudio के बारह मुफ़्त WordPress प्लगइन: WooCommerce के लिए सब्सक्रिप्शन, रेफ़रल, स्टॉक अलर्ट और बहुत कुछ, साथ ही किसी भी WordPress साइट के लिए टूल।",
+          "url": "https://sawirstudio.com/hi/projects/wordpress-plugins/",
+          "image": "https://sawirstudio.com/assets/images/projects/wordpress-plugins.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "होम",
+              "item": "https://sawirstudio.com/hi/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "प्रोजेक्ट",
+              "item": "https://sawirstudio.com/hi/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress प्लगइन",
+              "item": "https://sawirstudio.com/hi/projects/wordpress-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/wordpress-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a aria-current="true" href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a aria-current="page" href="/hi/projects/wordpress-plugins/">WordPress प्लगइन</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">WordPress प्लगइन</h1>
+<img alt="Sawir Studio के बारह WordPress प्लगइन के आइकन" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/wordpress-plugins.webp" style="view-transition-name: media-wordpress-plugins" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>प्रोजेक्ट के बारे में</h2>
+<p>इंटरनेट पर वेबसाइटों का एक बड़ा हिस्सा WordPress पर चलता है, और इनमें से कई ऑनलाइन शॉप WooCommerce पर। हम दोनों के लिए WordPress.org पर मुफ़्त प्लगइन प्रकाशित करते हैं। हर प्लगइन एक ही काम करता है और उसे अच्छी तरह करता है, ताकि साइट के मालिक को सिर्फ़ वही जोड़ना पड़े जिसकी उसे ज़रूरत है, और बाकी सब कुछ वाला भारी बंडल न खरीदना पड़े। नीचे दिए हर प्लगइन का अपना पेज है, जिसमें उसके फ़ीचर और आम सवालों के जवाब मिलेंगे।</p>
+<h2>WooCommerce शॉप के लिए</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-renew-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>।</strong> WooCommerce के लिए सब्सक्रिप्शन: बार-बार होने वाली बिलिंग, ट्रायल, साइन-अप फ़ीस, पॉज़ और स्किप, प्लान बदलना, भुगतान विफल होने पर रिमाइंडर और स्मार्ट रीट्राई, सब कुछ मुफ़्त।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-referral-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>।</strong> दोनों को फ़ायदा देने वाला रेफ़रल प्रोग्राम: दोस्तों को डिस्काउंट मिलता है, सिफ़ारिश करने वालों को रिवॉर्ड कूपन। कोड या लिंक से शेयर करें, WhatsApp सबसे पहले।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-pulse-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>।</strong> सिर्फ़ असली गतिविधि से सोशल प्रूफ़: हाल के ऑर्डर, लाइव व्यूअर और रिव्यू, स्क्रीन के कोने में छोटे नोटिफ़िकेशन के रूप में।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-restock-notifier-for-woocommerce-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>।</strong> स्टॉक में न होने वाला प्रोडक्ट दोबारा आने पर ग्राहक ईमेल पाने का अनुरोध कर सकते हैं।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-min-max-quantities-for-woocommerce-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>।</strong> हर प्रोडक्ट, हर कैटेगरी और पूरे ऑर्डर के लिए न्यूनतम और अधिकतम मात्रा के नियम।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a>।</strong> प्रोडक्ट गैलरी के लिए नेविगेशन वाला लाइटबॉक्स और क्लिक करके ज़ूम करने की सुविधा।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-variation-gallery-tools-woocommerce-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a>।</strong> हर प्रोडक्ट वेरिएशन के लिए अलग गैलरी इमेज, जो Product Image Zoom के साथ मिलकर काम करती हैं।</li>
+</ul>
+<h2>किसी भी WordPress साइट के लिए</h2>
+<ul>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-insights-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>।</strong> हीटमैप, सेशन रिकॉर्डिंग, सर्वे, फ़नल और फ़ॉर्म एनालिटिक्स, और सारा डेटा आपके अपने सर्वर पर रहता है।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a>।</strong> एक बार लिखें और wp-admin से 27 नेटवर्क पर शेड्यूल करें, हर चैनल के हिसाब से बदलाव, थ्रेड, मीडिया और प्रीव्यू के साथ।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-live-translate-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>।</strong> फ़्रंट-एंड के किसी भी पेज का लाइव अनुवाद करें, स्ट्रिंग सेव करें, और विज़िटरों को भाषा बदलने दें।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-media-folders-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a>।</strong> मीडिया लाइब्रेरी के लिए तेज़ और असीमित फ़ोल्डर, ड्रैग और ड्रॉप के साथ।</li>
+<li><img alt="" class="plugin-icon" height="48" loading="lazy" src="/assets/images/plugins/sawir-role-capabilities-manager-icon.webp" width="48"/><strong><a href="/hi/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a>।</strong> कस्टम यूज़र रोल बनाएँ और तय करें कि हर रोल क्या-क्या कर सकता है।</li>
+</ul>
+<h2>हमने इसे कैसे किया</h2>
+<p>प्लगइन दूसरों के बिज़नेस के अंदर चलते हैं, इसलिए हम उन पर कुछ नियम लागू करते हैं। हर प्लगइन WordPress.org पर मुफ़्त है और एक ही काम करता है। डेटा साइट के मालिक के अपने सर्वर पर रहता है: Insights किसी थर्ड-पार्टी सेवा के बिना सेशन रिकॉर्ड करता है, और Social Scheduler अपने टोकन WordPress में ही रखता है। और कुछ भी दिखावटी नहीं है: Pulse सिर्फ़ वही गतिविधि दिखाता है जो सच में हुई है, और Renew वे सब्सक्रिप्शन फ़ीचर मुफ़्त देता है जिनके लिए दूसरे पैसे लेते हैं।</p>
+<p><strong>इनसे बना</strong> PHP, WordPress और WooCommerce</p>
+</div>
+<ul class="project-meta">
+<li><strong>प्रोजेक्ट</strong> Sawir Studio</li>
+<li><strong>प्लगइन</strong> 12, मुफ़्त</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/author/sawirricardo/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/author/sawirricardo/</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">और प्रोजेक्ट</h2>
+<div class="project-grid">
+<a class="card" href="/hi/projects/odoo-shopify-connector/">
+<img alt="Odoo के लिए Shopify Connector" class="thumb" height="900" loading="lazy" src="/assets/images/projects/odoo-shopify-connector.webp" width="1600"/>
+<div class="card-body"><h3>Odoo के लिए Shopify Connector</h3></div>
+</a>
+<a class="card" href="/hi/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/hi/projects/koperasi-hob-application/">
+<img alt="Koperasi HOB Application" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Koperasi HOB Application</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>हमारी बात बहुत हुई।</p>
+<h2>हम आपकी<br/>कैसे मदद करें?</h2>
+<a class="button" href="/hi/contact/">प्रोजेक्ट शुरू करें</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/wordpress-plugins/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress जैसा अपना CMS बनाएं | SawirStudio</title>
+<meta content="Laravel और आधुनिक सॉफ़्टवेयर आर्किटेक्चर के साथ WordPress जैसा कंटेंट मैनेजमेंट सिस्टम बनाना।" name="description"/>
+<meta content="WordPress जैसा अपना CMS बनाएं | SawirStudio" property="og:title"/>
+<meta content="Laravel और आधुनिक सॉफ़्टवेयर आर्किटेक्चर के साथ WordPress जैसा कंटेंट मैनेजमेंट सिस्टम बनाना।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "अपना खुद का कंटेंट मैनेजमेंट सिस्टम कैसे बनाएं (WordPress जैसा)",
+          "description": "Laravel और आधुनिक सॉफ़्टवेयर आर्किटेक्चर के साथ WordPress जैसा कंटेंट मैनेजमेंट सिस्टम बनाना।",
+          "url": "https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "datePublished": "2022-10-27",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "होम",
+              "item": "https://sawirstudio.com/hi/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ब्लॉग",
+              "item": "https://sawirstudio.com/hi/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "अपना खुद का कंटेंट मैनेजमेंट सिस्टम कैसे बनाएं (WordPress जैसा)",
+              "item": "https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a aria-current="true" href="/hi/posts/">ब्लॉग</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs is-center">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a aria-current="page" href="/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/">अपना खुद का कंटेंट मैनेजमेंट सिस्टम कैसे बनाएं (WordPress जैसा)</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">अपना खुद का कंटेंट मैनेजमेंट सिस्टम कैसे बनाएं (WordPress जैसा)</h1>
+<div class="prose prose-xl">
+<p>कंटेंट मैनेजमेंट सिस्टम को शुरू से बनाना हमारे लिए एक शानदार अनुभव रहा है।</p>
+<p>कंटेंट मैनेजमेंट सिस्टम की दुनिया में WordPress ही आम तौर पर मानक रहा है। इसकी वेबसाइट के अनुसार...</p>
+<blockquote>
+<p>WordPress इंटरनेट की 43% से ज़्यादा वेबसाइटों को चलाता है, और यह आँकड़ा हर दिन बढ़ रहा है। साधारण वेबसाइट, ब्लॉग, जटिल पोर्टल, एंटरप्राइज़ वेबसाइट और यहाँ तक कि ऐप्लिकेशन भी WordPress से बनाए जाते हैं।</p>
+</blockquote>
+<p>लेकिन हम देख सकते हैं कि WordPress उस दौर में बना था जब ऐप्लिकेशन बनाना इतना आसान नहीं था।</p>
+<p>आजकल PHP का विकास तेज़ हो गया है, जैसा कि हाल के <a href="https://www.php.net/">PHP अपडेट</a> से दिखता है, और सॉफ़्टवेयर डेवलपमेंट के तरीके भी बदल गए हैं।</p>
+<p>उदाहरण के लिए, Ruby on Rails से प्रेरित MVC स्ट्रक्चर और सॉफ़्टवेयर आर्किटेक्चर के कुछ सिद्धांत अब कई सॉफ़्टवेयर फ़्रेमवर्क में अपनाए जा चुके हैं।</p>
+<p>लेकिन WordPress में ऐसा नहीं हुआ, वह आज भी अपने ही स्ट्रक्चर पर चलता है।</p>
+<p>इसलिए इस लेख का मकसद यह समझने में आपकी मदद करना है कि अगर WordPress जैसे कंटेंट मैनेजमेंट सिस्टम में आधुनिक सॉफ़्टवेयर आर्किटेक्चर अपनाया जाए, तो क्या कुछ किया जा सकता है।</p>
+<p>इसके लिए हम <a href="https://laravel.com">Laravel</a> का इस्तेमाल करेंगे, जो एक PHP वेब फ़्रेमवर्क है और सॉफ़्टवेयर इंजीनियरिंग की कुछ अच्छी प्रथाओं पर बना है।</p>
+<p>आइए संक्षेप में देखें कि हमारे कंटेंट मैनेजमेंट सिस्टम में कौन-सी सुविधाएँ होंगी। WordPress की सुविधाओं के आधार पर हम कुछ मुख्य सुविधाएँ चुन सकते हैं, जैसे:</p>
+<ul>
+<li>आसानी से पब्लिश करें: अगर आपने कभी कोई डॉक्यूमेंट बनाया है, तो WordPress पर कंटेंट बनाना आपके लिए मुश्किल नहीं होगा। आप पोस्ट और पेज बना सकते हैं, उन्हें आसानी से फ़ॉर्मैट कर सकते हैं, मीडिया जोड़ सकते हैं, और एक क्लिक में आपका कंटेंट वेब पर लाइव हो जाता है।</li>
+<li>पब्लिशिंग टूल: WordPress में अपना कंटेंट मैनेज करना आसान है। ड्राफ़्ट बनाएँ, पब्लिश करने का समय तय करें, और पोस्ट के पुराने वर्ज़न देखें। अपना कंटेंट सार्वजनिक या निजी रखें, और पोस्ट व पेज को पासवर्ड से सुरक्षित करें।</li>
+<li>यूज़र मैनेजमेंट: हर किसी को आपकी वेबसाइट पर एक जैसी पहुँच की ज़रूरत नहीं होती। एडमिनिस्ट्रेटर साइट संभालते हैं, एडिटर कंटेंट पर काम करते हैं, ऑथर और कंट्रीब्यूटर वह कंटेंट लिखते हैं, और सब्सक्राइबर के पास अपनी एक प्रोफ़ाइल होती है जिसे वे खुद मैनेज कर सकते हैं। इससे आपकी वेबसाइट पर कई तरह के योगदानकर्ता हो सकते हैं, और बाकी लोग बस आपकी कम्युनिटी का हिस्सा बने रह सकते हैं।</li>
+<li>मीडिया मैनेजमेंट: कहा जाता है कि एक तस्वीर हज़ार शब्दों के बराबर होती है, इसीलिए ज़रूरी है कि आप WordPress पर इमेज और मीडिया जल्दी और आसानी से अपलोड कर सकें। अपनी मीडिया फ़ाइलों को अपलोडर में ड्रैग और ड्रॉप करके वेबसाइट में जोड़ें। ऑल्ट टेक्स्ट और कैप्शन जोड़ें, और अपने कंटेंट में इमेज और गैलरी डालें। हमने इमेज एडिट करने के कुछ टूल भी दिए हैं, जिन्हें आप आज़माकर देख सकते हैं।</li>
+<li>बिल्ट-इन कमेंट: आपका ब्लॉग आपका घर है, और कमेंट आपके दोस्तों और फ़ॉलोअर्स को आपके कंटेंट से जुड़ने की जगह देते हैं। WordPress के कमेंट टूल में वह सब कुछ है जो चर्चा का मंच बनाने और उस चर्चा को मॉडरेट करने के लिए चाहिए।</li>
+<li>सर्च इंजन के लिए ऑप्टिमाइज़्ड: WordPress शुरू से ही सर्च इंजन के लिए ऑप्टिमाइज़्ड है। SEO पर और बारीकी से नियंत्रण चाहिए तो इसके लिए कई SEO प्लगइन मौजूद हैं।</li>
+</ul>
+<p>तो चलिए, इस पर काम शुरू करते हैं!</p>
+<p>इंस्टॉलेशन</p>
+<pre><code>composer create-project laravel/laravel wp-laravel
+</code></pre>
+<p>आइए अपना ऐप्लिकेशन खोलकर देखें</p>
+<pre><code>php artisan serve
+</code></pre>
+<p>हमें एक डेटाबेस सेटअप करना होगा। इस लेख में SQLite हमारे काम आएगा।</p>
+<pre><code>touch database/database.sqlite
+</code></pre>
+<p>हमें अपनी .env फ़ाइल अपडेट करनी होगी</p>
+<pre><code>DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+DB_FOREIGN_KEYS=true
+</code></pre>
+<p><a href="https://laravel.com/docs/9.x/database#sqlite-configuration">संदर्भ</a></p>
+<p>आइए अपने शुरुआती डेटाबेस बदलावों को माइग्रेट करें</p>
+<pre><code>php artisan migrate
+</code></pre>
+<p>अब हम अपने डेटाबेस के बदलाव इस तरह देख सकते हैं</p>
+<pre><code>php artisan db:show
+</code></pre>
+<p>सभी माइग्रेशन लागू हो चुके हैं।</p>
+<p>अब हम WordPress के Post जैसा कुछ चाहते हैं। अगर आपने कभी WordPress की टेबल देखी हैं, तो आप जानते होंगे कि उसमें wp_posts नाम की एक टेबल होती है। आइए उसे बनाएँ</p>
+<pre><code>php artisan make:model Post
+</code></pre>
+<p>इससे Post नाम का एक मॉडल बन जाएगा। अब डेटाबेस में बदलाव लागू करने के लिए माइग्रेशन बनाते हैं।</p>
+<pre><code>php artisan make:migration "create posts table"
+</code></pre>
+<p>अब माइग्रेशन खोलें और अपना कोड नीचे दिए गए कोड के अनुसार अपडेट करें:</p>
+<pre><code class="language-php">$table-&gt;string('title');
+$table-&gt;string('slug')-&gt;nullable();
+$table-&gt;text('excerpt')-&gt;nullable();
+$table-&gt;longText('content')-&gt;nullable();
+$table-&gt;dateTime('published_at')-&gt;nullable();
+$table-&gt;foreignIdFor(\App\Models\User::class)-&gt;constrained();
+</code></pre>
+<p><strong>यह भी पढ़ें:</strong> <a href="/hi/posts/how-do-you-design-your-subscription-plan-restrictions/">सब्सक्रिप्शन प्लान की पाबंदियाँ कैसे डिज़ाइन करें</a>, या हमारे बनाए <a href="/hi/projects/wordpress-plugins/">मुफ़्त WordPress प्लगइन</a> देखें।</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>क्या इस पोस्ट से आपने कुछ नया सीखा?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>मुझे आपका ईमेल पता चाहिए, ताकि जब भी कोई नई पोस्ट प्रकाशित हो, मैं आपको ऐसी ही और पोस्ट भेज सकूँ।</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="ईमेल पता" class="formkit-input" name="email_address" placeholder="ईमेल पता" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>सब्सक्राइब करें</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">मैं आपको स्पैम नहीं भेजूँगा। आप कभी भी सदस्यता छोड़ सकते हैं।</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify इंटीग्रेशन और ऐप | SawirStudio</title>
+<meta content="Shopify, Odoo और आपके बाकी बिज़नेस से जुड़ा हुआ: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन्हीं लोगों द्वारा जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।" name="description"/>
+<meta content="Shopify इंटीग्रेशन और ऐप | SawirStudio" property="og:title"/>
+<meta content="Shopify, Odoo और आपके बाकी बिज़नेस से जुड़ा हुआ: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन्हीं लोगों द्वारा जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।" property="og:description"/>
+<meta content="https://sawirstudio.com/hi/shopify/" property="og:url"/>
+<link href="https://sawirstudio.com/hi/shopify/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="hi_IN" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Shopify इंटीग्रेशन और ऐप",
+          "serviceType": "Shopify इंटीग्रेशन और ऐप डेवलपमेंट",
+          "description": "Shopify, Odoo और आपके बाकी बिज़नेस से जुड़ा हुआ: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन्हीं लोगों द्वारा जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।",
+          "url": "https://sawirstudio.com/hi/shopify/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "होम",
+              "item": "https://sawirstudio.com/hi/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Shopify",
+              "item": "https://sawirstudio.com/hi/shopify/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/shopify/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/shopify/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/shopify/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/shopify/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/shopify/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/shopify/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/shopify/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/shopify/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/shopify/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/shopify/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">सीधे कंटेंट पर जाएँ</a>
+<header class="site-header">
+<a class="logo" href="/hi/" title="होम">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/hi/">होम</a></li>
+<li><a href="/hi/posts/">ब्लॉग</a></li>
+<li><a href="/hi/projects/">प्रोजेक्ट</a></li>
+<li><a href="/hi/about-us/">हमारे बारे में</a></li>
+<li><a href="/hi/contact/">हमसे संपर्क करें</a></li>
+</ul>
+</nav>
+<button aria-label="डार्क मोड बदलें" class="theme-toggle" title="डार्क मोड बदलें" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="ब्रेडक्रंब" class="breadcrumbs">
+<ol>
+<li><a href="/hi/">होम</a></li>
+<li><a aria-current="page" href="/hi/shopify/">Shopify</a></li>
+</ol>
+</nav>
+<p class="hello">नया: Shopify</p>
+<h1>Shopify जो <span class="mark mark-green">हिसाब में बैठे</span>।</h1>
+<p class="lead">ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, आपके Shopify स्टोर और Odoo या आपके दूसरे सिस्टम के बीच आसानी से चलते हुए। इसे उन्हीं लोगों ने बनाया है जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है, <span class="wavy">ताकि आपके खाते सही मिलें</span>।</p>
+<p class="hero-actions"><a class="button" href="/hi/contact/">प्रोजेक्ट शुरू करें</a> <a class="see-all" href="/hi/projects/odoo-shopify-connector/">कनेक्टर देखें</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">हम क्या करते हैं</h2>
+<ul class="offers">
+<li>
+<h3>Shopify और Odoo</h3>
+<p>आपके स्टोर Odoo 19 Community से जुड़े हों, हमारे लिखे <a href="/hi/projects/odoo-shopify-connector/">OCA कनेक्टर</a> के ज़रिए: प्रोडक्ट, स्टॉक, ग्राहक, ऑर्डर, रिटर्न और रिफ़ंड, चाहे एक स्टोर हो या कई। हम इसे सेट अप करते हैं, आपके काम करने के तरीके के हिसाब से कॉन्फ़िगर करते हैं, और जहाँ आपके सेटअप को ज़्यादा चाहिए वहाँ इसे आगे बढ़ाते हैं। अभी Odoo पर नहीं हैं? वह भी हम <a href="/hi/odoo/">सेट अप कर देते हैं</a>।</p>
+</li>
+<li>
+<h3>ऐसा अकाउंटिंग जो सही मिलता है</h3>
+<p>Shopify Payments के पेआउट, फ़ीस, डिस्प्यूट, गिफ़्ट कार्ड और मल्टी-करेंसी, Shopify की सटीक रकम से जर्नल एंट्री में बदले जाते हैं। जब कुछ हिसाब में नहीं बैठता, तो आपको साफ़ एरर मिलता है, चुपचाप जोड़ी गई कोई बैलेंसिंग लाइन नहीं।</p>
+</li>
+<li>
+<h3>पॉइंट ऑफ़ सेल और वेयरहाउस</h3>
+<p>हर शॉप की Shopify POS बिक्री ऑर्डर के रूप में आती है और सही Odoo वेयरहाउस तक पहुँचती है, ताकि आप जहाँ भी बेचें, वहाँ स्टॉक सही रहे।</p>
+</li>
+<li>
+<h3>आपके दूसरे सिस्टम</h3>
+<p>Odoo पर नहीं हैं? हम Shopify को आपके मौजूदा ERP, अकाउंटिंग, शिपिंग या कस्टम बैकएंड से जोड़ते हैं, GraphQL Admin API और साइन किए गए वेबहुक के ज़रिए, साथ में ऐसी जाँचें जो कोई भी छूटी हुई चीज़ पकड़ लेती हैं।</p>
+</li>
+<li>
+<h3>कस्टम ऐप और ऑटोमेशन</h3>
+<p>उन कामों के लिए एक प्राइवेट ऐप या शेड्यूल्ड जॉब, जो Shopify अपने आप नहीं करता: ऑर्डर रूटिंग, बल्क एडिट, कस्टम रिपोर्ट, सप्लायर के साथ सिंक।</p>
+</li>
+<li>
+<h3>स्टोर भी</h3>
+<p>अगर स्टोरफ़्रंट बनाना या उसे नया रूप देना है, तो हम इंटीग्रेशन के साथ-साथ उसे डिज़ाइन और डेवलप भी करते हैं, ताकि आगे और पीछे का हिस्सा एक साथ प्लान हो।</p>
+</li>
+</ul>
+</section>
+<section class="section">
+<h2 class="section-title">यह कैसे काम करता है</h2>
+<ol class="values">
+<li>
+<h3>पहले नक्शा बनाएँ।</h3>
+<p>हम हर फ़्लो की सूची बनाते हैं: क्या कहाँ से कहाँ जाता है, किस दिशा में, और स्टॉक, कीमतों और पैसे के मामले में अंतिम फ़ैसला किस सिस्टम का होगा।</p>
+</li>
+<li>
+<h3>एक बार में एक फ़्लो।</h3>
+<p>आमतौर पर पहले ऑर्डर और स्टॉक, फिर अकाउंटिंग, फिर पॉइंट ऑफ़ सेल। अगला शुरू होने से पहले हर एक आपके असली डेटा पर चलकर जाँचा जाता है।</p>
+</li>
+<li>
+<h3>इसे दुरुस्त रखें।</h3>
+<p>हेल्थ चेक, सिंक डैशबोर्ड और शेड्यूल्ड रिकंसिलिएशन, और साथ में हम। जब Shopify अपना API बदलता है, तब भी हम इसकी देखभाल के लिए साथ रहते हैं।</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">जो हम नहीं बनाएँगे</p>
+<p>ऐसा इंटीग्रेशन जो ज़्यादातर समय सही रहे। स्टॉक और पैसे के मामले में यह गलत है। हमारे इंटीग्रेशन कभी यह मानकर नहीं चलते कि वेबहुक पहुँच ही गया होगा, तय समय पर खुद को Shopify से मिलाकर जाँचते हैं, और आँकड़े न मिलने पर रुककर आपको बता देते हैं।</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/hi/ricardosawir/">Ricardo Sawir</a>, संस्थापक</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>कॉमर्स में हमारा किया हुआ काम</h2>
+<ul>
+<li><a href="/hi/projects/odoo-shopify-connector/">Odoo के लिए Shopify Connector</a>: हमने लिखा और जुलाई 2026 में Odoo Community Association को योगदान दिया, अकाउंटिंग और पॉइंट ऑफ़ सेल के मॉड्यूल के साथ। <a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">GitHub पर सोर्स</a>।</li>
+<li><a href="/hi/projects/kantong-sayur-application/">Kantong Sayur</a>: पारंपरिक बाज़ारों के लिए ग्रॉसरी मार्केटप्लेस, जिसमें खरीदारों और व्यापारियों के लिए ऐप, एडमिन पैनल और बाद में थोक का हिस्सा भी जुड़ा।</li>
+<li><a href="/hi/projects/calvin-kain/">Calvin Kain</a>: हिजाब और स्कार्फ़ लेबल का ऑनलाइन स्टोर, Clicks&amp;co के साथ बनाया गया।</li>
+<li><a href="/hi/projects/wordpress-plugins/">हमारे WooCommerce प्लगइन</a>: न्यूनतम और अधिकतम मात्रा, रीस्टॉक अलर्ट, प्रोडक्ट इमेज ज़ूम और वेरिएशन गैलरी के लिए मुफ़्त प्लगइन।</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/hi/about-us/">हमारे बारे में</a> <a href="/hi/projects/">प्रोजेक्ट</a> <a href="/hi/contact/">हमसे संपर्क करें</a> <a href="/hi/privacy/">गोपनीयता</a> <a href="/hi/terms/">शर्तें</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/shopify/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/shopify/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/shopify/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/shopify/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/shopify/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/shopify/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/shopify/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/shopify/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/shopify/" hreflang="hi" lang="hi" aria-current="true">हिन्दी</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
