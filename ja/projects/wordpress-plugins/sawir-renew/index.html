@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Renew – WooCommerce向け定期課金プラグイン | SawirStudio</title>
+<meta content="WooCommerce 向けの本格的なサブスクリプション機能：定期課金、無料トライアル、初期費用、一時停止／スキップ、プラン変更、督促、スマートリトライ。すべて無料です。" name="description"/>
+<meta content="Sawir Renew – WooCommerce向け定期課金プラグイン | SawirStudio" property="og:title"/>
+<meta content="WooCommerce 向けの本格的なサブスクリプション機能：定期課金、無料トライアル、初期費用、一時停止／スキップ、プラン変更、督促、スマートリトライ。すべて無料です。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-renew.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Renew – WooCommerce向け定期課金プラグイン",
+          "description": "WooCommerce 向けの本格的なサブスクリプション機能：定期課金、無料トライアル、初期費用、一時停止／スキップ、プラン変更、督促、スマートリトライ。すべて無料です。",
+          "url": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress プラグイン",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Renew",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/projects/wordpress-plugins/">WordPress プラグイン</a></li>
+<li><a aria-current="page" href="/ja/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Renew</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Renew のバナー" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" width="1544"/></p>
+<p>Sawir Renew は、WooCommerce のショップをサブスクリプションビジネスに変えるプラグインです。定期課金、無料トライアル、初期費用、スマートリトライに対応し、有料版で機能が制限されることもありません。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">WordPress.org から無料で入手</a></p>
+<h2>主な機能</h2>
+<p>拡張機能に料金を払わなくても、WooCommerce でサブスクリプションを販売できます。すべての機能が無料で、有料版はなく、使えない機能もありません。</p>
+<h3>商品と価格設定</h3>
+<ul>
+<li>シンプルな商品タイプと、バリエーション付きのサブスクリプション商品タイプに対応</li>
+<li>N日・N週間・Nか月・N年ごとの課金に対応し、セール価格も設定可能</li>
+<li>無料トライアル、初期費用、N回の支払いで終了するサブスクリプションに対応</li>
+<li>更新日の統一（全員が毎月1日、またはお好きな日に更新）に対応。初回期間は日割り計算または無料にすることも可能</li>
+<li>送料を初回のみにする設定や、「1お客様につき有効なサブスクリプションは1件まで」という制限に対応</li>
+</ul>
+<h3>2つの支払い方法</h3>
+<ul>
+<li><strong>更新ごとの支払い（すべての決済ゲートウェイで利用可能）：</strong>更新日が来ると、お客様に支払いリンク付きの請求書が届きます。銀行振込、電子ウォレット、代金引換など、ストアで受け付けている方法をそのまま使えます。カードの自動課金が一般的でない市場に最適です。</li>
+<li><strong>Stripe による自動課金：</strong>公式の WooCommerce Stripe Gateway をお使いの場合、カードはチェックアウト時に保存され、更新時にオフセッションで自動的に課金されます。スマートリトライや、カードで認証が必要になった際の予備の支払いリンクにも対応しています。他のゲートウェイも同じアダプター規約に沿って連携できます（FAQ をご覧ください）。</li>
+</ul>
+<h3>深夜3時に起こされない更新処理</h3>
+<ul>
+<li>すべてのタイミング処理は Action Scheduler 上で動作し、毎日の自動修復チェックも行います</li>
+<li>督促の設定が可能：リトライ間隔、リマインダーの日程、猶予期間、自動キャンセル</li>
+<li>ステージング環境や複製サイトを検出し、サイトの URL が変わった時点で課金を一時停止します。忘れていたステージング用コピーによる二重課金を防ぎます</li>
+<li>自動課金の前に、更新予告メールを送信</li>
+</ul>
+<h3>お客様ご自身で手続きが可能</h3>
+<p>「マイアカウント」→「サブスクリプション」から、お客様ご自身でキャンセル（即時または期間終了時のどちらかをお選びいただけます）、一時停止と再開、更新のスキップ、早期更新、支払い方法や配送先住所の変更、プラン間のアップグレード・ダウングレード（アップグレード時は日割りで請求）ができます。</p>
+<h3>定期クーポン</h3>
+<p>サブスクリプション用クーポンは4種類あります。定期的に適用される割合・固定額の割引（最初のN回の支払いに限定することも可能）と、初期費用の割引です。WooCommerce 標準のクーポンは、これまでどおり最初の注文にのみ適用されます。</p>
+<h3>通知</h3>
+<p>お客様向けと管理者向けを合わせて13種類のメールがあり、サブスクリプションのあらゆる場面に対応します。それぞれオン・オフを切り替えられます。開発者は <code>swsb_notified</code> フックを使って、あらゆるイベントを他のチャネル（WhatsApp、SMS、Slack など）にも連携できます。</p>
+<h3>最新の WooCommerce に対応</h3>
+<p>HPOS にネイティブ対応（サブスクリプションは WooCommerce の注文ストレージに保存され、独自テーブルは使いません）。カート／チェックアウトブロックにも対応しています。管理画面の一覧と編集画面は WooCommerce 標準の注文画面をそのまま使用します。1時間ごとにキャッシュされるレポートページ（有効数、MRR、解約率、今後の更新、更新による売上）と REST API も備えています。</p>
+<h2>よくある質問</h2>
+<h3>WooCommerce や Automattic と提携していますか？</h3>
+<p>いいえ。「WooCommerce」は Automattic の商標であり、本プラグインは、同社のネーミングガイドラインに沿って開発された、WooCommerce <em>向け</em>の独立したプラグインです。</p>
+<h3>自動更新に対応しているゲートウェイはどれですか？</h3>
+<p>標準で対応しているのは、公式の WooCommerce Stripe Gateway です。それ以外のゲートウェイは、更新ごとの支払いモードで動作し、期間ごとにお客様へ支払いリンクが届きます。開発者は2つのフィルターを使って、任意のゲートウェイに自動課金の対応を追加できます。</p>
+<p><code>swsb_order_supports_auto</code> — 親注文のゲートウェイが再利用可能な支払い方法を保存している場合に true を返します。<code>swsb_charge_renewal</code> — 更新注文をオフセッションで課金し、<code>true</code> または <code>WP_Error</code> を返します。</p>
+<h3>WooCommerce Subscriptions と併用できますか？</h3>
+<p>いいえ。2つの課金エンジンを同時に動かすとお客様に二重課金してしまうため、WooCommerce Subscriptions が有効な場合、本プラグインは自身のエンジンを無効にして通知を表示します。</p>
+<h3>ステージング環境ではどうなりますか？</h3>
+<p>サイトの URL が変わると、コピーがステージング環境か本番サイトかをご確認いただくまで、課金とお客様へのメール送信が自動的に停止します。「本番」を選ぶと、すべてのスケジュールが再構築されます。</p>
+<h2>あわせて使いたいプラグイン</h2>
+<ul>
+<li><a href="/ja/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>：お客様のご友人の紹介を促すプラグインです。</li>
+<li><a href="/ja/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：直近の注文、商品を閲覧中の人数、新着レビューなど、ストアで実際に起きていることを、画面の隅に表示される小さな通知でお客様に伝えます。</li>
+</ul>
+<p><a href="/ja/projects/wordpress-plugins/">無料の WordPress プラグイン</a>の一覧はこちらです。</p>
+</div>
+<ul class="project-meta">
+<li><strong>価格</strong> 無料</li>
+<li><strong>バージョン</strong> 1.0.0</li>
+<li><strong>動作環境</strong> WordPress 6.0、PHP 7.4、WooCommerce</li>
+<li><strong>ライセンス</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-renew/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-renew/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-renew/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Odoo &amp; カスタム業務システム | SawirStudio</title>
+<meta content="POS、在庫、仕入、会計をひとつのシステムに。業務に合わせた Odoo の設定、合わない場合のオーダーメイド開発、あるいはその両方に対応します。Odoo のモジュールを開発しているチームがお手伝いします。" name="description"/>
+<meta content="Odoo &amp; カスタム業務システム | SawirStudio" property="og:title"/>
+<meta content="POS、在庫、仕入、会計をひとつのシステムに。業務に合わせた Odoo の設定、合わない場合のオーダーメイド開発、あるいはその両方に対応します。Odoo のモジュールを開発しているチームがお手伝いします。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/odoo/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/odoo/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Odoo & カスタム業務システム",
+          "serviceType": "Odoo の導入とカスタム業務ソフトウェア開発",
+          "description": "POS、在庫、仕入、会計をひとつのシステムに。業務に合わせた Odoo の設定、合わない場合のオーダーメイド開発、あるいはその両方に対応します。Odoo のモジュールを開発しているチームがお手伝いします。",
+          "url": "https://sawirstudio.com/ja/odoo/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Odoo & 業務システム",
+              "item": "https://sawirstudio.com/ja/odoo/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/odoo/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/odoo/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/odoo/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/odoo/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/odoo/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="page" href="/ja/odoo/">Odoo &amp; 業務システム</a></li>
+</ol>
+</nav>
+<p class="hello">新着：Odoo &amp; 業務システム</p>
+<h1>レジから<span class="mark mark-blue">帳簿</span>まで、ひとつのシステムで。</h1>
+<p class="lead">POS、在庫、仕入、会計をひとつにまとめます。お客様の業務に合うなら Odoo で、合わないなら完全オーダーメイドで。<span class="wavy">費用をかける前に、どちらが向いているかをお伝えします</span>。</p>
+<p class="hero-actions"><a class="button" href="/ja/contact/">プロジェクトを始める</a> <a class="see-all" href="#odoo-or-custom">Odoo か、カスタムか？</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">できること</h2>
+<ul class="offers">
+<li>
+<h3>Odoo の導入・設定</h3>
+<p>POS、在庫管理、仕入、販売、会計を、今の業務の進め方に合わせて設定します。業務をシステムに合わせるのではありません。私たちは Odoo のモジュールを自分たちで開発しているため、内部の仕組みまで熟知しています。</p>
+</li>
+<li>
+<h3>全店舗の在庫をひとつに</h3>
+<p>各店舗と倉庫の在庫を一元管理します。サイズや色はバリエーションとして登録でき、バーコード、店舗間の移動、在庫切れの前にお知らせする発注点にも対応します。</p>
+</li>
+<li>
+<h3>オンライン販売も同じ在庫で</h3>
+<p>Shopify ストアは<a href="/ja/projects/odoo-shopify-connector/">私たちが開発したオープンソースのコネクタ</a>で、自社サイトやその他の販売チャネルは API で連携します。在庫がないのに売ってしまう、ということがなくなります。</p>
+</li>
+<li>
+<h3>オーダーメイド開発</h3>
+<p>業務の進め方そのものが強みになっている場合は、それに合わせてシステムを作ります。事務所で使うウェブアプリ、スタッフやお客様向けのアプリ、その裏側の管理画面まで対応します。コードとデータはお客様のものです。詳しくは<a href="/ja/custom/">カスタムソフトウェア開発</a>をご覧ください。</p>
+</li>
+<li>
+<h3>Odoo に、自社専用の機能を追加</h3>
+<p>ほとんどの業務は Odoo でまかなえて、一部だけ独自の仕組みが必要になることはよくあります。Odoo を中心に据えたまま、足りない部分のモジュール、アプリ、レポートだけを開発します。</p>
+</li>
+<li>
+<h3>導入・移行</h3>
+<p>商品、顧客、仕入先、期首在庫、残高を、Excel などの表計算ファイルや現在お使いのソフトから移行します。稼働前には、店頭で使うスタッフの研修も行います。</p>
+</li>
+</ul>
+</section>
+<section class="section" id="odoo-or-custom">
+<div class="prose center">
+<h2>Odoo か、カスタムか？</h2>
+<p>最初に必ずといっていいほど聞かれる質問です。正直なところ、答えはお客様の業務がどれだけ特殊かによって変わります。</p>
+<ul>
+<li><strong>Odoo</strong>が向いているのは、販売して、補充して、仕入先に支払い、月次を締める、といった一般的な店舗・卸売・飲食店の流れの場合です。早く、低コストで導入でき、オープンソースで、Odoo Community ならライセンス料もかかりません。ただし、業務を多少システムに合わせていただく必要があります。</li>
+<li>システムそのものが<em>ビジネスの核</em>である場合は<strong><a href="/ja/custom/">オーダーメイド</a></strong>で。独自の価格体系、承認フロー、あるいは Odoo ではあらゆる場面で無理が生じるサービスなどです。初期費用は高くなりますが、業務にぴったり合います。</li>
+<li><strong>両方</strong>が向いているのは、日々の業務は Odoo でまかなえて、一部だけ自社独自の仕組みが必要な場合です。いちばん多いのがこのパターンです。</li>
+</ul>
+<p>まずお客様の業務の流れを整理し、そのうえでどちらが向いているかを、それぞれの費用とあわせて書面でご提案します。どちらを選んでも、腕のある開発者なら誰でも引き継げるオープンで一般的なツールで構築するため、私たちに縛られることはありません。</p>
+</div>
+</section>
+<section class="section">
+<h2 class="section-title">進め方</h2>
+<ol class="values">
+<li>
+<h3>まずは現場を歩きます。</h3>
+<p>販売、納品、棚卸し、月次決算を、今のやり方のとおりに追いかけ、どこで情報や在庫が抜け落ちているかを書き出します。</p>
+</li>
+<li>
+<h3>一度にひとつずつ。</h3>
+<p>多くの場合、まずレジと在庫、次に仕入、最後に会計の順で進めます。次に進む前に、それぞれ実際のデータで稼働させるので、お店を止めることはありません。</p>
+</li>
+<li>
+<h3>導入後もお付き合いします。</h3>
+<p>新店舗の追加、新しいレポート、Odoo のバージョンアップ、忙しい土曜日に出てくる疑問まで対応します。PeopleBond とは 2019 年からお付き合いが続いています。</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">しないこと</p>
+<p>不要なシステムをお売りすることはしません。Odoo の標準アプリでまかなえるなら、そうお伝えして、カスタム開発は行いません。逆に、業務が本当に特殊な場合は、私たちの都合で Odoo に無理やり当てはめることもしません。</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/ja/ricardosawir/">Ricardo Sawir</a>（創業者）</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>これまでの実績</h2>
+<ul>
+<li><a href="/ja/projects/odoo-shopify-connector/">Shopify Connector for Odoo</a>：私たちが開発し、2026 年 7 月に Odoo Community Association へ寄贈しました。会計と POS のモジュールもあります。<a href="/ja/posts/connect-shopify-to-odoo-19-community/">設定方法はこちら</a>をご覧ください。</li>
+<li><a href="/ja/projects/peoplebond-hcms-application/">PeopleBond</a>：人事プラットフォームと従業員向けアプリを、2019 年から先方のチームと一緒にオーダーメイドで開発しています。</li>
+<li><a href="/ja/projects/kantong-sayur-application/">Kantong Sayur</a>：伝統市場向けの食料品マーケットプレイスです。買い物客向けアプリと店舗向けアプリ、管理画面を開発し、のちに卸売機能も追加しました。</li>
+<li><a href="/ja/projects/koperasi-hob-application/">Koperasi HOB</a>：協同組合向けの、日々の食料品の買い物用アプリです。</li>
+<li><a href="/ja/projects/calvin-kain/">Calvin Kain</a>：ヒジャブとスカーフのブランドのオンラインストアです。</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/odoo/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/odoo/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/odoo/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/odoo/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

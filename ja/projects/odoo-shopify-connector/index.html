@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Odoo 向け Shopify コネクタ | SawirStudio</title>
+<meta content="SawirStudio が開発し、Odoo Community Association（OCA）で管理されている、Odoo 19 Community 向けのオープンソース Shopify コネクタです。" name="description"/>
+<meta content="Odoo 向け Shopify コネクタ | SawirStudio" property="og:title"/>
+<meta content="SawirStudio が開発し、Odoo Community Association（OCA）で管理されている、Odoo 19 Community 向けのオープンソース Shopify コネクタです。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/odoo-shopify-connector/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/odoo-shopify-connector/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/odoo-shopify-connector.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Odoo 向け Shopify コネクタ",
+          "description": "SawirStudio が開発し、Odoo Community Association（OCA）で管理されている、Odoo 19 Community 向けのオープンソース Shopify コネクタです。",
+          "url": "https://sawirstudio.com/ja/projects/odoo-shopify-connector/",
+          "image": "https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Odoo 向け Shopify コネクタ",
+              "item": "https://sawirstudio.com/ja/projects/odoo-shopify-connector/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/odoo-shopify-connector/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/odoo-shopify-connector/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a aria-current="page" href="/ja/projects/odoo-shopify-connector/">Odoo 向け Shopify コネクタ</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Odoo 向け Shopify コネクタ</h1>
+<img alt="GitHub 上の OCA connector-shopify リポジトリ" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/odoo-shopify-connector.webp" style="view-transition-name: media-odoo-shopify-connector" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>プロジェクトについて</h2>
+<p>Odoo Community Association（OCA）は、Odoo Community のユーザーの多くが利用しているオープンソースモジュールを管理する非営利団体です。Connector Shopify は、Shopify ストアと Odoo 19 Community をつなぐ OCA のコネクタで、AGPL-3 ライセンスで公開されています。</p>
+<h2>制作したもの</h2>
+<p>このコネクタは SawirStudio が開発し、2026 年 7 月に OCA へ提供しました。対象は、コアとなる Shopify Connector、Shopify Connector Accounting、Shopify Connector POS です。現在も開発を続けており、直近では Shopify の 2026-01 Admin API に対応させました。ほかの OCA コントリビューターもこのコネクタをベースに開発を進めており、eCommerce の商品メディア用モジュールもその一つです。</p>
+<ul>
+<li><strong>コマース連携。</strong>商品、在庫、顧客、注文、返品、返金、出荷を同期します。1 つの Odoo データベースで複数の Shopify ストアを扱うことができ、会社ごとに管理できます。</li>
+<li><strong>確実に動く設計。</strong>署名付き Webhook で素早く受信し、OCA の queue_job で処理を確実に実行します。さらに定期的な照合で、取りこぼしや遅延したイベントを補正します。</li>
+<li><strong>日々の運用ツール。</strong>初期設定のサポート、ヘルスチェック、同期ダッシュボード、エラーからの復旧、設定可能なデータ保持期間を備えています。</li>
+<li><strong>会計。</strong>Shopify Payments の入金、残高トランザクション、手数料、チャージバック、ギフトカードの負債、複数通貨の照合に対応しています。</li>
+<li><strong>店舗販売（POS）。</strong>Shopify POS の売上を販売オーダーとして取り込み、各店舗から Odoo の倉庫へ振り分けます。Odoo 標準の POS アプリは必要ありません。</li>
+</ul>
+<h2>進め方</h2>
+<p>ほとんどの場合は正しい、という連携では会計には使えません。そこでこのコネクタは、Shopify の GraphQL Admin API を利用し、Webhook が届いたものとは決めてかからず、定期的に Shopify と突き合わせて自己チェックを行います。仕訳は Shopify の正確な金額をもとに作成し、貸借が一致しなければ転記されません。数字が合わない場合は、調整用の行をこっそり追加するのではなく、わかりやすいエラーを表示します。</p>
+<p>お客様のストア向けに導入や機能拡張をご希望ですか？ <a href="/ja/shopify/">Shopify 連携</a>をご覧ください。Odoo そのものについては、<a href="/ja/odoo/">Odoo とビジネスシステム</a>をご覧ください。</p>
+<p><strong>使用技術</strong> Python、Odoo 19、Shopify GraphQL Admin API</p>
+</div>
+<ul class="project-meta">
+<li><strong>プロジェクト</strong> Odoo Community Association（OCA）</li>
+<li><strong>ライセンス</strong> AGPL-3</li>
+<li><strong>ソースコード</strong> <a href="https://github.com/OCA/connector-shopify" rel="noreferrer" target="_blank">https://github.com/OCA/connector-shopify</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">その他の実績</h2>
+<div class="project-grid">
+<a class="card" href="/ja/projects/myvivaldy/">
+<img alt="MyVivaldy" class="thumb" height="900" loading="lazy" src="/assets/images/projects/myvivaldy.webp" width="1600"/>
+<div class="card-body"><h3>MyVivaldy</h3></div>
+</a>
+<a class="card" href="/ja/projects/koperasi-hob-application/">
+<img alt="Koperasi HOB アプリケーション" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Koperasi HOB アプリケーション</h3></div>
+</a>
+<a class="card" href="/ja/projects/dbtv-application/">
+<img alt="DBTV アプリケーション" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/>
+<div class="card-body"><h3>DBTV アプリケーション</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/odoo-shopify-connector/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/odoo-shopify-connector/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/odoo-shopify-connector/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/odoo-shopify-connector/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

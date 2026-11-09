@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify 2026-10 API：何が壊れるか | SawirStudio</title>
+<meta content="連携を壊す可能性のある、バージョン 2026-10 の Shopify Admin API の変更点と対処方法：配送料金、ドラフト注文の割引、税金、バーコードなど。" name="description"/>
+<meta content="Shopify 2026-10 API：何が壊れるか | SawirStudio" property="og:title"/>
+<meta content="連携を壊す可能性のある、バージョン 2026-10 の Shopify Admin API の変更点と対処方法：配送料金、ドラフト注文の割引、税金、バーコードなど。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Shopify 2026-10 API：連携で壊れる可能性のある変更点",
+          "description": "連携を壊す可能性のある、バージョン 2026-10 の Shopify Admin API の変更点と対処方法：配送料金、ドラフト注文の割引、税金、バーコードなど。",
+          "url": "https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ブログ",
+              "item": "https://sawirstudio.com/ja/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify 2026-10 API：連携で壊れる可能性のある変更点",
+              "item": "https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="true" href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="パンくずリスト" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="page" href="/ja/posts/shopify-2026-10-api-what-breaks/">Shopify 2026-10 API：連携で壊れる可能性のある変更点</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Shopify 2026-10 API：連携で壊れる可能性のある変更点</h1>
+<div class="prose prose-xl">
+<p>Shopify は 2026 年 10 月 1 日に、API のバージョン 2026-10 をリリースしました。内容の大半は新機能で、必要になるまで無視して構いません。ただし、2026-07 では問題なく動いていた連携が、気づかないうちに壊れてしまう変更がいくつかあります。バージョンを上げる前に、1 時間ほどかけて確認しておく価値があります。</p>
+<p>ここでは、<a href="/ja/projects/odoo-shopify-connector/">Odoo 向け Shopify コネクタ</a>を含む自社の連携に対して、私たちが実際に確認している項目をまとめました。リリースノートの全項目ではなく、動作が変わるものだけを挙げています。</p>
+<h2>気づかないうちに壊れる変更</h2>
+<h3>新しい配送サービスは、そのままではチェックアウトに料金が表示されない</h3>
+<p><code>carrierServiceCreate</code>（REST では <code>POST carrier_services.json</code>）で配送サービスを作成しても、サービスが登録されるだけになりました。これまでのように、料金が General 配送プロファイルへ自動で追加されることはありません。アプリやオンボーディング用スクリプトで配送サービスを作成し、お客様に料金が表示されることを前提にしている場合、配送プロファイルへ自分でサービスを追加しない限り、料金は表示されません。</p>
+<h3>配送先住所を変更すると税金が再計算される</h3>
+<p>未発送の注文の配送先住所を <code>orderUpdate</code> または REST の注文更新エンドポイントで更新すると、税金が再計算されるようになりました。動作としては正しいのですが、ERP やサポートツールから住所を変更している場合、注文の合計金額が意図せず変わることがあります。更新後に <code>taxLines</code>、<code>totalTaxSet</code> と各合計金額をもう一度読み取り、支払い済みまたは返金済みの金額に差が出た場合は精算してください。</p>
+<h3>ドラフト注文の割引警告から <code>priceRule</code> がなくなった</h3>
+<p><code>DraftOrderDiscountNotAppliedWarning.priceRule</code> と従来の <code>PriceRule</code> 型は廃止されました。<code>draftOrderCalculate</code>、<code>draftOrderCreate</code>、<code>draftOrderUpdate</code> でドラフト注文を作成し、割引が適用されなかった理由を読み取っている場合は、代わりに <code>discountTitle</code> と <code>discountCode</code> を選択してください。</p>
+<h3>不正なメタフィールドのフィルターは、はっきりエラーになる</h3>
+<p>フィルターできないメタフィールドで商品クエリを絞り込むと、これまではその条件が無視され、すべての商品が返ってきました。今後はエラーが返ります。この方が望ましい動作ですが、何か月も「全商品」を返し続けていた同期処理は、バージョンを切り替えた当日から失敗するようになります。絞り込みに使っているメタフィールド定義が、フィルターと使用している演算子に対応しているかを確認してください。</p>
+<h3>1 つのバリエーションに複数のバーコードを設定できる</h3>
+<p><code>ProductVariant.barcodes</code> は新しいコネクションで、種類付きのバーコードを最大 20 件まで持てます。従来の <code>ProductVariant.barcode</code> は非推奨となり、最初の 1 件だけを返します。倉庫システムや POS がバーコードで商品を照合している場合は、全件を読み取るようにしてください。</p>
+<h3>在庫関連のエラーが 1 つなくなった</h3>
+<p><code>ITEM_NOT_STOCKED_AT_LOCATION</code> は、在庫のミューテーションと <code>InventorySetQuantitiesUserErrorCode</code> から削除されました。このエラーで分岐しているコードは、今後は実行されない不要なコードになります。後で誰かが頼ってしまわないよう、削除しておいてください。</p>
+<h2>コードを検索して確認したい、細かな変更</h2>
+<ul>
+<li><strong>顧客セグメント。</strong> <code>= true</code> と <code>= false</code> に代わって <code>MATCHES</code> と <code>NOT MATCHES</code> を使います。また、<code>12_months_ago</code> のような名前付きの日付は非推奨となり、<code>-12m</code> のようなオフセット指定が推奨されます。</li>
+<li><strong>SMS の同意。</strong> フラットな SMS 同意フィールドは非推奨です。<code>CustomerPhoneNumber.smsMarketingConsent</code> を読み取ってください。</li>
+<li><strong>ロールアウト内の割引。</strong> 割引がロールアウトの一部である場合、<code>startsAt</code> と <code>endsAt</code> だけでは有効かどうかを判断できません。<code>Discount.rollouts</code> を読み取るには <code>read_rollouts</code> スコープが必要です。</li>
+<li><strong>フルフィルメントのステータス。</strong> <code>FULFILLMENT_NOT_REQUIRED</code> が新しい値として追加されました。すべてのステータスを対応付けている <code>switch</code> では、デフォルトのケースに入ることになります。</li>
+<li><strong>Customer Account API。</strong> <code>Customer.lastIncompleteCheckout</code> と <code>Checkout</code> 型は、代替なしで削除されました。</li>
+<li><strong>POS UI 拡張機能。</strong> <code>applyCartDiscount</code> などのカート操作は、POS が変更を承認しない場合に拒否されるようになりました。また、<code>session.currentSession.staffMemberId</code> は削除されました。</li>
+</ul>
+<h2>2026-10 とは関係のない 2 つの期限</h2>
+<p>公開アプリを運用している場合は、有効期限のないオフラインアクセストークンを、2027 年 1 月 1 日までに有効期限付きのものへ置き換える必要があります。カスタムアプリと、販売者が Dev Dashboard で作成したアプリは対象外です。また、オンラインストアのスクリプトタグは 2027 年 3 月 1 日に動作しなくなります。ストアへの影響については、<a href="/ja/posts/shopify-script-tags-stop-march-2027/">別の記事</a>にまとめています。</p>
+<h2>私たちのアップグレード方法</h2>
+<p>API バージョンは 1 か所で固定し、新しいバージョンで開発ストアに対して連携を動かし、<a href="https://shopify.dev/changelog?api_version=2026-10" rel="noopener" target="_blank">2026-10 の変更履歴</a>を「Action required」で絞り込んで読みます。2026-10 は少なくとも 2027 年 10 月 1 日までサポートされるので時間はありますが、警告メールが届き始めるまで先延ばしにできるほどの余裕はありません。</p>
+<p>ストアを Odoo などのシステムと連携していて、この作業を他の人に任せたい場合は、まさに<a href="/ja/shopify/">私たちの仕事</a>です。</p>
+<p><strong>あわせてお読みください：</strong><a href="/ja/posts/shopify-script-tags-stop-march-2027/">Shopify のスクリプトタグが 2027 年 3 月 1 日に動作しなくなります。ストアオーナーがすべきこと</a>、または<a href="/ja/posts/connect-shopify-to-odoo-19-community/">Shopify と Odoo 19 Community の連携：手順ごとの解説</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>この記事は参考になりましたか？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>新しい記事を公開したときに、このような記事をお届けしたいので、メールアドレスを教えていただけますと幸いです。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="メールアドレス" class="formkit-input" name="email_address" placeholder="メールアドレス" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>登録する</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">迷惑メールは送りません。配信はいつでも解除できます。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/shopify-2026-10-api-what-breaks/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/shopify-2026-10-api-what-breaks/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/shopify-2026-10-api-what-breaks/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

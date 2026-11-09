@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>プラグイン向け WordPress Abilities API | SawirStudio</title>
+<meta content="AI エージェントなどのツールが WordPress プラグインの機能を見つけて安全に実行できるようにするための、Ability の登録方法を解説します。カテゴリー、スキーマ、パーミッション、アノテーション、REST エンドポイントを取り上げます。" name="description"/>
+<meta content="プラグイン向け WordPress Abilities API | SawirStudio" property="og:title"/>
+<meta content="AI エージェントなどのツールが WordPress プラグインの機能を見つけて安全に実行できるようにするための、Ability の登録方法を解説します。カテゴリー、スキーマ、パーミッション、アノテーション、REST エンドポイントを取り上げます。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Abilities API で WordPress プラグインを AI エージェントから使えるようにする",
+          "description": "AI エージェントなどのツールが WordPress プラグインの機能を見つけて安全に実行できるようにするための、Ability の登録方法を解説します。カテゴリー、スキーマ、パーミッション、アノテーション、REST エンドポイントを取り上げます。",
+          "url": "https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ブログ",
+              "item": "https://sawirstudio.com/ja/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Abilities API で WordPress プラグインを AI エージェントから使えるようにする",
+              "item": "https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="true" href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="パンくずリスト" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="page" href="/ja/posts/wordpress-abilities-api-for-plugins/">Abilities API で WordPress プラグインを AI エージェントから使えるようにする</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Abilities API で WordPress プラグインを AI エージェントから使えるようにする</h1>
+<div class="prose prose-xl">
+<p>WordPress 6.9 で追加された Abilities API は、プラグインが「何ができるか」を一か所にまとめて宣言するための仕組みです。名前、説明、受け取る入力、返す結果、実行を許可する人を登録しておくと、AI エージェント、WordPress の AI プラグイン、MCP アダプター、従来のスクリプトがそれらの機能を見つけて利用できます。ツールごとにプラグインの使い方を手作業で覚えさせる必要はありません。</p>
+<p>ここでは、当社の <a href="/ja/projects/wordpress-plugins/">WordPress プラグイン</a>の一つを例に、仕組みをご紹介します。</p>
+<h2>例として使うプラグイン</h2>
+<p><a href="/ja/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a> は、商品が再入荷したときにメールで知らせてほしいという購入者のリクエストを受け付けるプラグインです。エージェントに尋ねたい質問としてまず思い浮かぶのは、「在庫切れの商品のうち、待っている人が最も多いのはどれか」でしょう。これは読み取り専用の Ability になります。</p>
+<h2>1. カテゴリーを登録する</h2>
+<p>すべての Ability は必ず一つのカテゴリーに属します。カテゴリーは、専用のフックで先に登録します。</p>
+<pre><code>add_action( 'wp_abilities_api_categories_init', function () {
+	wp_register_ability_category( 'store-insights', array(
+		'label'       =&gt; __( 'Store insights', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Read-only questions about the store.', 'sawir-restock-notifier-for-woocommerce' ),
+	) );
+} );</code></pre>
+<h2>2. Ability を登録する</h2>
+<pre><code>add_action( 'wp_abilities_api_init', function () {
+	wp_register_ability( 'sawir-restock/waiting-list', array(
+		'label'       =&gt; __( 'Restock waiting list', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Out-of-stock products, with how many shoppers are waiting for each.', 'sawir-restock-notifier-for-woocommerce' ),
+		'category'    =&gt; 'store-insights',
+		'input_schema' =&gt; array(
+			'type'       =&gt; 'object',
+			'properties' =&gt; array(
+				'limit' =&gt; array( 'type' =&gt; 'integer', 'minimum' =&gt; 1, 'maximum' =&gt; 50, 'default' =&gt; 10 ),
+			),
+		),
+		'output_schema' =&gt; array(
+			'type'  =&gt; 'array',
+			'items' =&gt; array(
+				'type'       =&gt; 'object',
+				'properties' =&gt; array(
+					'product_id' =&gt; array( 'type' =&gt; 'integer' ),
+					'name'       =&gt; array( 'type' =&gt; 'string' ),
+					'waiting'    =&gt; array( 'type' =&gt; 'integer' ),
+				),
+			),
+		),
+		'execute_callback'    =&gt; 'sawir_restock_waiting_list',
+		'permission_callback' =&gt; function () {
+			return current_user_can( 'manage_woocommerce' );
+		},
+		'meta' =&gt; array(
+			'show_in_rest' =&gt; true,
+			'annotations'  =&gt; array( 'readonly' =&gt; true ),
+		),
+	) );
+} );</code></pre>
+<p>コールバックは、出力スキーマに合ったデータを返す、ごく普通のプラグインのコードです。AI に特化した要素はありません。</p>
+<h2>各項目の役割</h2>
+<ul>
+<li><strong>名前</strong>は <code>namespace/ability-name</code> の形式にします。名前空間には、プラグインのスラッグを使います。</li>
+<li><strong>説明。</strong>エージェントはこの説明を読んで、その Ability を使うかどうかを判断します。プラグインを一度も見たことがない人に向けて書いてください。</li>
+<li><strong>入力スキーマと出力スキーマ</strong>は JSON Schema で記述します。入力はコードが実行される前にスキーマで検証され、ツール側も返ってくるデータの形を把握できます。</li>
+<li><strong>パーミッションコールバック。</strong>実際に保護の役割を果たすのは、この部分だけです。管理画面を作るときと同じように、ここで権限を確認してください。</li>
+<li><strong>アノテーション。</strong><code>readonly</code>、<code>destructive</code>、<code>idempotent</code> は、ツールにどの程度慎重に扱うべきかを伝えるものです。あくまでヒントであり、セキュリティ対策ではありません。セキュリティを担うのはパーミッションコールバックです。</li>
+<li><strong><code>show_in_rest</code>。</strong>これを有効にしない限り、Ability は REST API に公開されません。</li>
+</ul>
+<h2>REST 経由で実行する</h2>
+<p>REST に公開された Ability は <code>/wp-json/wp-abilities/v1/abilities</code> で一覧表示され、それぞれに <code>/run</code> エンドポイントがあります。読み取り専用の Ability は GET で実行し、入力は URL エンコードした JSON として <code>input</code> パラメーターに渡します。データを変更する Ability は POST、破壊的な Ability は DELETE で実行します。どのリクエストも認証済みのユーザーが必要で、そのうえでパーミッションコールバックが可否を判断します。</p>
+<h2>MCP を通じてエージェントから使う</h2>
+<p>WordPress の AI プラグインと並行して開発されている MCP Adapter は、登録済みの Ability を Claude などの MCP クライアントに公開します。そのために追加で書くものはありません。説明が丁寧で、スキーマがきちんと定義された Ability は、そのまま使いやすいツールになります。</p>
+<h2>最初に公開するもの</h2>
+<p>まずは読み取り専用の Ability から始めましょう。すぐに役立ちますし（「青いスカーフの再入荷を待っている購入者は何人か」など）、被害が出ることもありません。メールの送信、価格の変更、データの削除を伴うものは、パーミッションチェックとアノテーションが正しいと確信できるまで公開しないでください。</p>
+<p>Abilities API には WordPress 6.9 以降が必要です。詳しいリファレンスは<a href="https://developer.wordpress.org/apis/abilities/" rel="noopener" target="_blank">公式ドキュメント</a>をご覧ください。お使いのプラグインに対応を追加したい場合は、<a href="/ja/contact/">お問い合わせ</a>ください。</p>
+<p><strong>あわせてお読みください：</strong><a href="/ja/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 は 12 月 8 日にリリース：当社プラグインで検証していること</a>、<a href="/ja/posts/making-our-sites-agent-ready/">当社サイトをエージェント対応にするまでにしたこと</a></p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>この記事は参考になりましたか？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>新しい記事を公開したときに、このような記事をお届けしたいので、メールアドレスを教えていただけますと幸いです。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="メールアドレス" class="formkit-input" name="email_address" placeholder="メールアドレス" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>登録する</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">迷惑メールは送りません。配信はいつでも解除できます。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-abilities-api-for-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/wordpress-abilities-api-for-plugins/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Product Image Zoom for WooCommerce | SawirStudio</title>
+<meta content="WooCommerce の商品ギャラリーに、ナビゲーションとクリックで拡大できる商品画像ライトボックスを追加します。" name="description"/>
+<meta content="Sawir Product Image Zoom for WooCommerce | SawirStudio" property="og:title"/>
+<meta content="WooCommerce の商品ギャラリーに、ナビゲーションとクリックで拡大できる商品画像ライトボックスを追加します。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-product-image-zoom-for-woocommerce.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Product Image Zoom for WooCommerce",
+          "description": "WooCommerce の商品ギャラリーに、ナビゲーションとクリックで拡大できる商品画像ライトボックスを追加します。",
+          "url": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress プラグイン",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Product Image Zoom",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/projects/wordpress-plugins/">WordPress プラグイン</a></li>
+<li><a aria-current="page" href="/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/">Sawir Product Image Zoom</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Product Image Zoom</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Product Image Zoom のバナー" height="500" src="/assets/images/plugins/sawir-product-image-zoom-for-woocommerce-banner.webp" width="1544"/></p>
+<p>Sawir Product Image Zoom は、商品写真をライトボックスで表示します。矢印でギャラリー内を移動でき、クリックすると細部を拡大して確認できます。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/" rel="noreferrer" target="_blank">WordPress.org で無料入手</a></p>
+<h2>主な機能</h2>
+<p>Sawir Product Image Zoom for WooCommerce は、WooCommerce 標準の商品ギャラリーで画像をクリックしたときの動作を、見たい画像に集中できるライトボックス表示に置き換えます。</p>
+<p>主な機能：</p>
+<ul>
+<li>商品画像を全画面のライトボックスで表示します。</li>
+<li>前へ・次へのナビゲーションに対応しています。</li>
+<li>Esc キー、左矢印キー、右矢印キーによるキーボード操作に対応しています。</li>
+<li>タッチデバイスでのスワイプ操作に対応しています。</li>
+<li>クリックで拡大でき、拡大中はドラッグで表示位置を移動できます。</li>
+<li>従来型の WooCommerce 商品ギャラリーにも、ブロックベースの商品ギャラリーにも対応しています。</li>
+</ul>
+<p>CSS と JavaScript は、商品の個別ページでのみ読み込まれます。</p>
+<h2>よくある質問</h2>
+<h3>他の選択肢と比べてどうですか？</h3>
+<p>Iconic WooThumbs や YITH Zoom Magnifier のようなギャラリースイートは、レイアウト、スライダー、動画、ズームなど、WooCommerce の商品ギャラリー全体を置き換えます。Sawir Product Image Zoom が変えるのは、お客様が画像をクリックしたときの動作ひとつだけです。テーマのギャラリーはそのまま使え、キーボード操作、スワイプ、クリックでの拡大に対応した軽快なライトボックスを、商品ページでのみアセットを読み込む形でお使いいただけます。ギャラリー自体を作り替えたい場合はスイートを、ギャラリーには満足していて見せ方だけを改善したい場合は、より軽量なこちらをお選びください。</p>
+<h3>WooCommerce は必須ですか？</h3>
+<p>はい。このプラグインは WooCommerce の商品ギャラリー向けに作られています。</p>
+<h3>サイト全体でアセットを読み込みますか？</h3>
+<p>いいえ。アセットは WooCommerce の商品個別ページでのみ読み込まれます。</p>
+<h3>タッチデバイスに対応していますか？</h3>
+<p>はい。タッチデバイスでは、ライトボックス内でのスワイプ操作と、拡大した画像の移動に対応しています。</p>
+<h2>あわせて使いたいプラグイン</h2>
+<ul>
+<li><a href="/ja/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/">Sawir Variation Gallery Tools</a>：商品のバリエーションごとに専用のギャラリーを設定できます。赤を選べば、赤い商品の写真が表示されます。</li>
+<li><a href="/ja/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a>：1つの商品、カテゴリー全体、または注文全体に対して、お客様が購入できる最小数量と最大数量を設定できます。</li>
+</ul>
+<p><a href="/ja/projects/wordpress-plugins/">無料の WordPress プラグイン</a>の一覧はこちらです。</p>
+</div>
+<ul class="project-meta">
+<li><strong>価格</strong> 無料</li>
+<li><strong>バージョン</strong> 1.0.1</li>
+<li><strong>動作要件</strong> WordPress 5.8、PHP 7.4、WooCommerce</li>
+<li><strong>ライセンス</strong> GPLv2 以降</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-product-image-zoom-for-woocommerce/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

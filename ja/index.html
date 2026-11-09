@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>SawirStudio | アプリ・ウェブプラットフォーム・Shopify &amp; Odoo</title>
+<meta content="SawirStudio は、使われるソフトウェアを作っています。お客様向けにはアプリ、ウェブプラットフォーム、Shopify と Odoo の開発、自社では iPhone、iPad、Mac 向けのアプリを提供しています。" name="description"/>
+<meta content="SawirStudio | アプリ・ウェブプラットフォーム・Shopify &amp; Odoo" property="og:title"/>
+<meta content="SawirStudio は、使われるソフトウェアを作っています。お客様向けにはアプリ、ウェブプラットフォーム、Shopify と Odoo の開発、自社では iPhone、iPad、Mac 向けのアプリを提供しています。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://sawirstudio.com/#organization",
+          "name": "SawirStudio",
+          "legalName": "Sawir Studio LLC",
+          "url": "https://sawirstudio.com/ja/",
+          "logo": "https://sawirstudio.com/favicon.png",
+          "sameAs": [
+            "https://www.linkedin.com/company/sawirstudio/",
+            "https://www.instagram.com/sawirstudioid/",
+            "https://github.com/sawirstudio"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sawirstudio.com/#website",
+          "name": "SawirStudio",
+          "url": "https://sawirstudio.com/ja/",
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a aria-current="page" href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner hero stack" role="banner">
+<canvas aria-hidden="true" class="dotfield"></canvas>
+<p class="hello">Sawir Studio です。はじめまして</p>
+<h1><span class="mark">使われる</span>ソフトウェアを、<span class="mark mark-coral">お客様</span>のためにも、<span class="mark mark-blue">自分たち</span>のためにも作っています。</h1>
+<div class="hero-body">
+<div class="hero-copy">
+<p class="lead">アプリ、ウェブプラットフォーム、システム連携。設計から開発、運用まで、小さなスタジオが<span class="wavy">何年でも</span>一貫して担当します。</p>
+<p class="lead-sm">AI を活用しつつ、判断は必ず人が行います。<a href="/ja/about-us/">私たちの考え方 →</a></p>
+<p class="hero-actions"><a class="button" href="/ja/contact/">プロジェクトを始める</a> <a class="see-all" href="#portfolio">制作実績を見る</a></p>
+</div>
+<div aria-hidden="true" class="pile">
+<p class="pile-label">自社アプリ</p>
+<a href="/ja/projects/par/" tabindex="-1" title="Par"><img alt="" draggable="false" height="96" src="/assets/images/projects/par-icon.webp" width="96"/></a>
+<a href="/ja/projects/cleanstorage/" tabindex="-1" title="CleanStorage"><img alt="" draggable="false" height="96" src="/assets/images/projects/cleanstorage-icon.webp" width="96"/></a>
+<a href="/ja/projects/pawlitics/" tabindex="-1" title="Pawlitics"><img alt="" draggable="false" height="96" src="/assets/images/projects/pawlitics-icon.webp" width="96"/></a>
+<a href="/ja/projects/squishu/" tabindex="-1" title="Squishu"><img alt="" draggable="false" height="96" src="/assets/images/projects/squishu-icon.webp" width="96"/></a>
+<a href="/ja/projects/rindraw/" tabindex="-1" title="Rindraw"><img alt="" draggable="false" height="96" src="/assets/images/projects/rindraw-icon.webp" width="96"/></a>
+<a href="/ja/projects/math-daily/" tabindex="-1" title="Math Daily"><img alt="" draggable="false" height="96" src="/assets/images/projects/math-daily-icon.webp" width="96"/></a>
+<a href="/ja/projects/sawirpost/" tabindex="-1" title="SawirPost"><img alt="" draggable="false" height="96" src="/assets/images/projects/sawirpost-icon.webp" width="96"/></a>
+<a href="/ja/projects/sawirly/" tabindex="-1" title="Sawirly"><img alt="" draggable="false" height="96" src="/assets/images/projects/sawirly-icon.webp" width="96"/></a>
+<a href="/ja/projects/nofapfit/" tabindex="-1" title="NoFapFit"><img alt="" draggable="false" height="96" src="/assets/images/projects/nofapfit-icon.webp" width="96"/></a>
+<p class="pile-hint">気軽に手に取って、ぽんと投げてみてください</p>
+</div>
+</div>
+<div aria-hidden="true" class="doodles">
+<svg class="doodle doodle-star" viewbox="0 0 48 48"><path d="M24 3l5.6 13.4L44 18l-11 9.6L36.4 42 24 34.6 11.6 42 15 27.6 4 18l14.4-1.6z" pathlength="1"></path></svg>
+<svg class="doodle doodle-plus" viewbox="0 0 24 24"><path d="M12 3v18M3 12h18" pathlength="1"></path></svg>
+<svg class="doodle doodle-circle" viewbox="0 0 40 40"><circle cx="20" cy="20" pathlength="1" r="16"></circle></svg>
+<svg class="doodle doodle-squiggle" viewbox="0 0 80 20"><path d="M3 10q9-9 18 0t18 0 18 0 18 0" pathlength="1"></path></svg>
+</div>
+</section>
+<section class="section">
+<ul class="stats">
+<li><strong>9</strong><span>年の開発実績（2017 年から）</span></li>
+<li><strong>7</strong><span>App Store で公開中の自社アプリ</span></li>
+<li><strong>12</strong><span>無料の WordPress プラグイン</span></li>
+<li><strong>2019</strong><span>PeopleBond とのお付き合いが始まった年。今も続いています。</span></li>
+</ul>
+</section>
+<section class="section">
+<h2 class="section-title">私たちが作るもの</h2>
+<ul class="offers">
+<li>
+<h3>アプリ</h3>
+<p>iPhone、iPad、Mac、Android のアプリを、最初のバージョンから App Store での公開、その後のアップデートまで担当します。</p>
+<p class="offer-proof"><a href="/ja/projects/dbtv-application/">DBTV</a> や <a href="/ja/projects/koperasi-hob-application/">Koperasi HOB</a> など</p>
+</li>
+<li>
+<h3>プラットフォームとシステム連携</h3>
+<p>ウェブアプリ、SaaS、管理画面、そしてシステム同士をつなぐ連携部分。Odoo、Shopify、WordPress、決済、配送に対応します。</p>
+<p class="offer-proof"><a href="/ja/projects/peoplebond-hcms-application/">PeopleBond</a> や、<a href="/ja/projects/odoo-shopify-connector/">Odoo 向け Shopify コネクタ</a>など。<a href="/ja/custom/">カスタムソフトウェア</a>はこちら</p>
+</li>
+<li>
+<h3>デザイン</h3>
+<p>ブランド、インターフェース、そのまわりのウェブサイトまで。実際に作る人間がデザインします。</p>
+<p class="offer-proof"><a href="/ja/projects/jakpod-hotel-design/">JakPod Hotel</a> や <a href="/ja/projects/fluindo-technology-indonesia-website/">Fluindo</a> など</p>
+</li>
+<li>
+<h3>公開とその後の成長支援</h3>
+<p>初日からの検索対策、地域検索、掲載情報の整備、被リンクの獲得、そして毎月の数値確認まで行います。</p>
+<p class="offer-proof"><a href="/ja/launch-and-growth/">サービス内容</a>はこちら</p>
+</li>
+<li>
+<h3>Shopify</h3>
+<p>Odoo や、すでにお使いのシステムと連携したストアを構築します。注文、在庫、入金、POS まで対応。Odoo 向けのオープンソース Shopify コネクタを開発した私たちが担当します。</p>
+<p class="offer-proof"><a href="/ja/shopify/">対応内容</a>はこちら</p>
+</li>
+<li>
+<h3>業務システム</h3>
+<p>POS、在庫、仕入、会計を一つのシステムに。Odoo でも、オーダーメイド開発でも対応します。スプレッドシート管理から卒業したい企業向けです。</p>
+<p class="offer-proof"><a href="/ja/odoo/">Odoo とカスタム開発、どちらが合う？</a></p>
+</li>
+</ul>
+</section>
+<section id="portfolio">
+<div class="section section-head">
+<h2 class="section-title">主な実績</h2>
+</div>
+<div class="section featured">
+<a class="featured-item" href="/ja/projects/colvaron-conquest-website/">
+<img alt="Colvaron Conquest ウェブサイト" class="thumb shadow-xl" height="900" loading="lazy" src="/assets/images/projects/colvaron-conquest-website.webp" style="view-transition-name: media-colvaron-conquest-website" width="1600"/>
+<div>
+<h3>Colvaron Conquest</h3>
+<p>戦略型トレーディングカードゲームのカードギャラリー、世界観紹介、チュートリアルサイト</p>
+</div>
+</a>
+<a class="featured-item" href="/ja/projects/vivaldy-skin-clinic-website/">
+<img alt="Vivaldy Skin Clinic ウェブサイト" class="thumb shadow-xl" height="872" loading="lazy" src="/assets/images/projects/vivaldy-skin-clinic-website.webp" style="view-transition-name: media-vivaldy-skin-clinic-website" width="1600"/>
+<div>
+<h3>Vivaldy Skin Clinic</h3>
+<p>皮膚科クリニックのウェブサイト。施術ごとのページと WhatsApp での予約に対応</p>
+</div>
+</a>
+<a class="featured-item" href="/ja/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS アプリケーション" class="thumb shadow-xl" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" style="view-transition-name: media-peoplebond-hcms-application" width="1600"/>
+<div>
+<h3>PeopleBond</h3>
+<p>HR プラットフォームと従業員向けアプリ。2019 年から先方のチームと共に開発</p>
+</div>
+</a>
+</div>
+<p class="text-center"><a class="see-all" href="/ja/projects/">すべてのプロジェクトを見る</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">自社アプリも公開しています</h2>
+<p class="lead-sm own-intro">リリースのやり方を一番よく知る方法は、自分たちで出してみることです。こちらが App Store とウェブで公開中の自社プロダクトです。アイコンをドラッグしてみてください。</p>
+<ul class="app-row">
+<li><a href="/ja/projects/par/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/par-icon.webp" style="view-transition-name: media-par" width="96"/> <span>Par</span> </a></li>
+<li><a href="/ja/projects/cleanstorage/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/cleanstorage-icon.webp" style="view-transition-name: media-cleanstorage" width="96"/> <span>CleanStorage</span> </a></li>
+<li><a href="/ja/projects/pawlitics/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/pawlitics-icon.webp" style="view-transition-name: media-pawlitics" width="96"/> <span>Pawlitics</span> </a></li>
+<li><a href="/ja/projects/squishu/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/squishu-icon.webp" style="view-transition-name: media-squishu" width="96"/> <span>Squishu</span> </a></li>
+<li><a href="/ja/projects/rindraw/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/rindraw-icon.webp" style="view-transition-name: media-rindraw" width="96"/> <span>Rindraw</span> </a></li>
+<li><a href="/ja/projects/math-daily/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/math-daily-icon.webp" style="view-transition-name: media-math-daily" width="96"/> <span>Math Daily</span> </a></li>
+<li><a href="/ja/projects/sawirpost/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/sawirpost-icon.webp" style="view-transition-name: media-sawirpost" width="96"/> <span>SawirPost</span> </a></li>
+<li><a href="/ja/projects/sawirly/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/sawirly-icon.webp" style="view-transition-name: media-sawirly" width="96"/> <span>Sawirly</span> </a></li>
+<li><a href="/ja/projects/nofapfit/"> <img alt="" height="96" loading="lazy" src="/assets/images/projects/nofapfit-icon.webp" style="view-transition-name: media-nofapfit" width="96"/> <span>NoFapFit</span> </a></li>
+</ul>
+<p class="lead-sm text-center">このほか、<a href="/ja/projects/wordpress-plugins/">無料の WordPress プラグイン 12 本</a>と、Odoo Community Association で保守している <a href="/ja/projects/odoo-shopify-connector/">Odoo 向け Shopify コネクタ</a>があります。</p>
+<p class="lead-sm text-center">各サイト：<a href="https://rindraw.com/">Rindraw</a> · <a href="https://getmathdaily.com/">Math Daily</a> · <a href="https://sawirpost.com/">SawirPost</a> · <a href="https://sawirly.com/">Sawirly</a> · <a href="https://nofapfit.com/">NoFapFit</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">進め方</h2>
+<ol class="values">
+<li>
+<h3>小さく始めて、早くリリースします。</h3>
+<p>まず動く最初のバージョンを早い段階で実際のユーザーに使ってもらい、その行動をもとに磨き込んでいきます。</p>
+</li>
+<li>
+<h3>入力は AI、考えるのは私たちです。</h3>
+<p>私たちは日々 AI を使って開発しているので、スピードには自信があります。ただし、リリースするコードは一行ずつ、必ず人が読み、テストし、責任を持ちます。</p>
+</li>
+<li>
+<h3>公開はスタートです。</h3>
+<p>作って終わりにせず、公開後の運用まで責任を持ちます。PeopleBond とは 2019 年からお付き合いが続いており、自社アプリにも同じ姿勢で向き合っています。</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<h2 class="section-title">主なお客様</h2>
+<ul class="clients">
+<li>Calvin Kain</li>
+<li>Skilabus</li>
+<li>TaniMilenial</li>
+<li>KantongSayur</li>
+<li>Fluindo Technology Indonesia</li>
+<li>Indonesia Research Institute Japan</li>
+<li>Growinc Indonesia</li>
+<li>HSBC (Growmint)</li>
+<li>PeopleBond</li>
+<li>Vivaldy Skin Clinic</li>
+<li>PT Sumasteel Indonesia</li>
+<li>PT SPP Indonesia</li>
+<li>PT Adiwarna Anugerah Abadi</li>
+<li>Jakpod Hotel Indonesia</li>
+<li>Capsule Indonesia</li>
+<li>Indonesia's Ministry of Communication and Informatic</li>
+<li>Roemah Matjak</li>
+<li>Astra International</li>
+<li>Digital Airport Hotel Indonesia</li>
+<li>Universitas Mataram Hospital</li>
+<li>Habitat Hills</li>
+<li>Alastair Fraser Forestry Foundation</li>
+<li>Aeroquote</li>
+<li>ADL Partnership</li>
+<li>Koperasi HOB</li>
+<li>DBTV</li>
+</ul>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

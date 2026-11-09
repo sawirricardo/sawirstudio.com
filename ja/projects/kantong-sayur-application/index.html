@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Kantong Sayur アプリ | SawirStudio</title>
+<meta content="KantongSayur 向けに SawirStudio が開発した、野菜と食料品の買い物アプリおよびウェブサイトです。" name="description"/>
+<meta content="Kantong Sayur アプリ | SawirStudio" property="og:title"/>
+<meta content="KantongSayur 向けに SawirStudio が開発した、野菜と食料品の買い物アプリおよびウェブサイトです。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/kantong-sayur-application/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/kantong-sayur-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/kantong-sayur-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Kantong Sayur アプリケーション",
+          "description": "KantongSayur 向けに SawirStudio が開発した、野菜と食料品の買い物アプリおよびウェブサイトです。",
+          "url": "https://sawirstudio.com/ja/projects/kantong-sayur-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kantong Sayur アプリケーション",
+              "item": "https://sawirstudio.com/ja/projects/kantong-sayur-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/kantong-sayur-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/kantong-sayur-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a aria-current="page" href="/ja/projects/kantong-sayur-application/">Kantong Sayur アプリ</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Kantong Sayur アプリケーション</h1>
+<img alt="Kantong Sayur ウェブサイト" class="project-hero" fetchpriority="high" height="883" src="/assets/images/projects/kantong-sayur-application.webp" style="view-transition-name: media-kantong-sayur-application" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>クライアントについて</h2>
+<p>Kantong Sayur は、伝統市場の商店主とお客様をつなぐオンラインマーケットプレイスです。野菜、果物、スパイス、魚介、肉、鶏肉、日用の食料品を扱っています。お客様は実際の市場の店舗から買い物をし、注文した商品を自宅で受け取れます。</p>
+<h2>制作したもの</h2>
+<p>このプラットフォームは、お客様向けのショッピングアプリ、商店主向けの別アプリ、カタログを運営するチーム向けの管理画面、そしてウェブサイトまで、すべて一貫して開発しました。</p>
+<ul>
+<li><strong>市場と店舗。</strong>伝統市場ごとに店舗、商店主、営業時間があり、お客様は買い物をする市場を選べます。</li>
+<li><strong>市場に合った検索。</strong>商品にはキーワードと独自の単位を設定しているため、買い物客が実際に入力する言葉で商品を探せます。</li>
+<li><strong>レシピ。</strong>レシピには材料が商品として登録されているので、料理まるごとの買い物ができます。</li>
+<li><strong>支払いと配送。</strong>Midtrans によるオンライン決済、配送ランクと地域ごとの配送料、配送が遅れた際の通知に対応しています。</li>
+<li><strong>クーポンと特典。</strong>地域や市場ごとのクーポン、KS Points、特典バウチャー、アフィリエイトプログラムを用意しています。</li>
+<li><strong>法人向け注文。</strong>独自の価格表を持つ卸売のお客様に対応し、請求書と出荷伝票を管理画面から印刷できます。</li>
+</ul>
+<h2>進め方</h2>
+<p>伝統市場はスーパーマーケットのようには運営されていません。店舗ごとに営業時間が異なり、価格は季節によって変わり、唐辛子1キロは整然と包装された商品ではありません。そのため、汎用的なオンラインストアに無理に当てはめず、市場、店舗、単位をそのままプラットフォームに組み込みました。のちに同じバックエンドを拡張し、法人のお客様向けの卸売機能も追加しています。Kantong Sayur には2021年から2025年まで携わりました。</p>
+<p><strong>使用技術</strong> Flutter、Firebase、Laravel、Filament</p>
+</div>
+<ul class="project-meta">
+<li><strong>クライアント</strong> KantongSayur</li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">その他の実績</h2>
+<div class="project-grid">
+<a class="card" href="/ja/projects/peoplebond-hcms-application/">
+<img alt="PeopleBond HCMS アプリケーション" class="thumb" height="878" loading="lazy" src="/assets/images/projects/peoplebond-hcms-application.webp" width="1600"/>
+<div class="card-body"><h3>PeopleBond HCMS アプリケーション</h3></div>
+</a>
+<a class="card" href="/ja/projects/tani-milenial-application/">
+<img alt="TaniMilenial アプリケーション" class="thumb" height="688" loading="lazy" src="/assets/images/projects/tani-milenial-application.webp" width="1410"/>
+<div class="card-body"><h3>TaniMilenial アプリケーション</h3></div>
+</a>
+<a class="card" href="/ja/projects/growinc-group-website/">
+<img alt="Growinc Group ウェブサイト" class="thumb" height="900" loading="lazy" src="/assets/images/projects/growinc-group-website.webp" width="1600"/>
+<div class="card-body"><h3>Growinc Group ウェブサイト</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/kantong-sayur-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/kantong-sayur-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/kantong-sayur-application/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/kantong-sayur-application/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

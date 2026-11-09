@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Insights | SawirStudio</title>
+<meta content="ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析。すべてお客様のサーバー上に保管されます。" name="description"/>
+<meta content="Sawir Insights | SawirStudio" property="og:title"/>
+<meta content="ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析。すべてお客様のサーバー上に保管されます。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-insights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析。すべてお客様のサーバー上に保管されます。",
+          "url": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress プラグイン",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/projects/wordpress-plugins/">WordPress プラグイン</a></li>
+<li><a aria-current="page" href="/ja/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Insights</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Insights のバナー" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" width="1544"/></p>
+<p>Sawir Insights は、ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析で訪問者のサイト上での行動を可視化し、そのデータをすべてお客様ご自身のサーバーに保管します。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">WordPress.org で無料入手</a></p>
+<h2>主な機能</h2>
+<p>Sawir Insights は WordPress 向けの行動分析プラグインです。ヒートマップ、セッション録画、アンケート、フィードバックウィジェット、フォーム分析、コンバージョンファネル、そしてそれらをまとめるダッシュボードを備えています。</p>
+<p>マルチサイト環境では、各サイトが分析の計測と設定をそれぞれ独立して行います。</p>
+<p>ひとことで言えば、Hotjar や Microsoft Clarity に代わるセルフホスト型のツールで、訪問者のデータは自社のデータベースに残ります。</p>
+<p>このプラグインを作った理由はシンプルです。この分野の既存ツールは優れていますが、訪問者の行動のあらゆる記録を他社のサーバーに送ることで成り立っています。特に EU 圏のサイトでは、これは抵抗があるか、場合によっては運用が難しいことも少なくありません。そこで、同じ種類のツールを、データが収集したサイトの外に出ない形で作りたいと考えました。このプラグインはその制約を軸に作られています。データベースも、アップロードディレクトリも、保持ルールも、すべてお客様のものです。裏側に SaaS はなく、アカウントの作成も不要で、外部への自動通信も一切ありません。</p>
+<h3>主な機能</h3>
+<ul>
+<li>クリック、マウス移動、スクロールのヒートマップを、実際に公開中のページ上に表示します。デスクトップ、タブレット、モバイルごとに分けて確認できます。</li>
+<li>セッション録画を wp-admin 上で再生できます。入力値は常にマスクされ、録画はお客様が有効にするまでオフのままです。</li>
+<li>ポップアップ式のアンケートと、常時表示のフィードバックタブを用意しています。URL、デバイス、トラフィックの割合、ページ滞在時間、スクロール深度、離脱意図で表示対象を絞り込めます。</li>
+<li>フォーム分析では、どこでためらったか、何が未入力のままか、どこで離脱したかが分かります。記録するのはセレクターとタイミングだけで、入力内容は一切取得しません。</li>
+<li>順序を設定できるコンバージョンファネルと、日次レポートを備えています。</li>
+<li>トラフィックの KPI と前期間との差分、日次トレンドのグラフ、さらにデバイス、ブラウザ、ページ、参照元、キャンペーン、ファネル、録画の内訳を表示するダッシュボードです。</li>
+</ul>
+<h3>あえて行わないこと</h3>
+<p>導入前に、そのツールが「やらないこと」を知っておいていただきたいと考えています。</p>
+<ul>
+<li>IP アドレスは保存しません。ハッシュ化も切り詰めもせず、一切保存しません。</li>
+<li>フォームの入力値は決して記録しません。取得の仕組みが送るのはメタデータだけなので、漏えいするものがそもそもありません。</li>
+<li>CDN からは何も読み込まず、CDN へは何も送信しません。rrweb のリプレイライブラリはプラグインに同梱されています。</li>
+<li>生データを無期限に保持することはありません。イベントは集計され、お客様が設定する保持スケジュールに従って削除されます。録画には独自の保持期間と、古いものから順に削除するディスク容量の上限があります。ホスティングのディスクを知らないうちに埋めてしまうプラグインは、よいプラグインとは言えないからです。</li>
+</ul>
+<p>フロントエンドのトラッカーは小さな素の JavaScript で、<code>sendBeacon</code> でまとめて送信し、サンプリングも調整できます。録画のサンプリング対象にならなかった訪問者は、リプレイライブラリをダウンロードすることもありません。</p>
+<h3>プライバシーへの姿勢</h3>
+<p>Do Not Track はデフォルトで尊重されます。同意モード API（<code>window.swinsConsent</code>）により、すでにお使いの同意管理ツールと連携できます。セッション、イベント、録画は、WordPress 標準の個人データのエクスポート機能および消去機能にも対応しています。お客様の具体的な運用が GDPR に準拠しているかどうかは、通知内容や法的根拠によって決まります。この部分はプラグインでは代行できませんが、データ最小化のための対応は済んでいます。</p>
+<h3>サポート</h3>
+<p>サポートは、このプラグインの wordpress.org フォーラム、またはメール（ricardo@sawirstudio.com）で承っています。</p>
+<h2>よくある質問</h2>
+<h3>他の選択肢と比べてどうですか？</h3>
+<p>Hotjar や Microsoft Clarity のようなホスト型の分析サービスは、無料枠も充実した優れたツールです。ただしその仕組みは、訪問者の行動の記録を各社のサーバーに送ることで成り立っています。Sawir Insights は、そうしたサイトをまたぐ基盤を使わず、すべてをお客様ご自身のサイトで収集、保存、閲覧するという一点を条件にしています。追加機能が欲しく、第三者による処理が気にならない場合はホスト型サービスを、訪問者のデータがサーバーの外に出ることが許容できない場合は Sawir Insights をお選びください。録画とヒートマップはお客様ご自身のデータベースとアップロードディレクトリに保存されるため、SaaS の場合以上に保持期間の設定が重要になります。</p>
+<h3>Sawir Insights は GDPR に準拠していますか？</h3>
+<p>このプラグインは、プライバシーに配慮した運用を前提に作られています。データはお客様のサーバーに残り、IP アドレスは一切保存されず、保持期間は設定でき、Do Not Track も尊重され、WordPress のエクスポート機能と消去機能にも対応しています。ただし、準拠できるかどうかは、設定、通知内容、法的根拠、同意の実装によって決まります。ご自身のサイトについては、資格のある専門家にご相談ください。</p>
+<h3>Hotjar や Microsoft Clarity とは何が違いますか？</h3>
+<p>それらはホスト型のサービスで、高機能なツールですが、訪問者の行動は各社の規約のもとで各社のサーバーに記録されます。Sawir Insights は、ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析という同じ分野をカバーしつつ、すべてをお客様ご自身のサーバーに保管するプラグインです。アカウントも外部サービスも不要で、データが共有されることもありません。</p>
+<h3>訪問者のデータはサーバーの外に出ますか？</h3>
+<p>いいえ。このプラグインは、行動データを Sawir Studio にも他の分析プロバイダーにも一切送信しません。イベントは WordPress のデータベースに、録画ファイルは保護されたアップロードディレクトリの下に保存されます。</p>
+<h2>あわせて使いたいプラグイン</h2>
+<ul>
+<li><a href="/ja/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：直近の注文、商品を閲覧中の人数、新着レビューなど、ストアで実際に起きていることを、画面の隅に表示される小さな通知でお客様に伝えます。</li>
+<li><a href="/ja/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>：ページをその場で翻訳します。言語を選んで表示中の内容を自動翻訳し、保存すれば、訪問者向けの言語切り替えも設置できます。</li>
+</ul>
+<p><a href="/ja/projects/wordpress-plugins/">無料の WordPress プラグイン</a>の一覧はこちらです。</p>
+</div>
+<ul class="project-meta">
+<li><strong>価格</strong> 無料</li>
+<li><strong>バージョン</strong> 1.0.0</li>
+<li><strong>動作要件</strong> WordPress 6.2、PHP 7.4</li>
+<li><strong>ライセンス</strong> GPLv2 以降</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-insights/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-insights/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-insights/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

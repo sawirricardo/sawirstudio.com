@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPressのようなCMSを自作する方法 | SawirStudio</title>
+<meta content="Laravelと現代的なソフトウェアアーキテクチャを使って、WordPressのようなコンテンツ管理システムを構築します。" name="description"/>
+<meta content="WordPressのようなCMSを自作する方法 | SawirStudio" property="og:title"/>
+<meta content="Laravelと現代的なソフトウェアアーキテクチャを使って、WordPressのようなコンテンツ管理システムを構築します。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "コンテンツ管理システム（WordPress風）を自作する方法",
+          "description": "Laravelと現代的なソフトウェアアーキテクチャを使って、WordPressのようなコンテンツ管理システムを構築します。",
+          "url": "https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/",
+          "datePublished": "2022-10-27",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ブログ",
+              "item": "https://sawirstudio.com/ja/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "コンテンツ管理システム（WordPress風）を自作する方法",
+              "item": "https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/how-to-build-your-own-content-management-system-like-wordpress/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="true" href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="パンくずリスト" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="page" href="/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/">コンテンツ管理システム（WordPress風）を自作する方法</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">コンテンツ管理システム（WordPress風）を自作する方法</h1>
+<div class="prose prose-xl">
+<p>コンテンツ管理システムをゼロから作る経験は、とても面白いものでした。</p>
+<p>WordPressは、特にコンテンツ管理システムの分野で事実上の標準となっています。公式サイトには次のように書かれています。</p>
+<blockquote>
+<p>WordPressはウェブ全体の43%以上で使われており、その数字は日々増え続けています。シンプルなウェブサイトからブログ、複雑なポータルサイトや企業サイト、さらにはアプリケーションまで、あらゆるものがWordPressで作られています。</p>
+</blockquote>
+<p>ただし、WordPressはアプリケーションを作ることが今ほど簡単ではなかった時代に開発されたものです。</p>
+<p>現在では、最近の<a href="https://www.php.net/">PHPのアップデート</a>に見られるようにPHP開発が加速し、ソフトウェア開発の手法も進化しています。</p>
+<p>たとえば、Ruby on Railsに影響を受けたMVC構造での開発や、いくつかのソフトウェアアーキテクチャの原則が、多くのソフトウェアフレームワークに取り入れられています。</p>
+<p>しかし、WordPressにはこれが当てはまらず、今も独自の構造を使い続けています。</p>
+<p>そこでこの記事では、WordPressのようなコンテンツ管理システムに現代的なソフトウェアアーキテクチャを適用すると何ができるのかを、理解していただくことを目指します。</p>
+<p>そのために、ソフトウェアエンジニアリングの実践手法を取り入れているPHPのウェブフレームワーク、<a href="https://laravel.com">Laravel</a>を使います。</p>
+<p>まず、今回作るコンテンツ管理システムにどんな機能を持たせるのかを簡単に整理しましょう。WordPressの機能をもとにすると、次のような主な機能を抜き出せます。</p>
+<ul>
+<li>簡単に公開 文書を作成したことがあれば、WordPressでのコンテンツ作成もすぐに使いこなせます。投稿や固定ページを作成し、簡単に書式を整え、メディアを挿入して、ボタンをクリックするだけでコンテンツをウェブ上に公開できます。</li>
+<li>公開ツール WordPressなら、コンテンツの管理も簡単です。下書きの作成、公開の予約、投稿のリビジョンの確認ができます。コンテンツを公開または非公開に設定したり、投稿や固定ページをパスワードで保護したりすることもできます。</li>
+<li>ユーザー管理 すべての人が同じ権限を必要とするわけではありません。管理者はサイトを管理し、編集者はコンテンツを扱い、投稿者と寄稿者はコンテンツを執筆し、購読者は自分で管理できるプロフィールを持ちます。これにより、さまざまな寄稿者をウェブサイトに迎えつつ、それ以外の方にはコミュニティの一員として参加してもらうことができます。</li>
+<li>メディア管理 「百聞は一見にしかず」と言うように、画像やメディアをすばやく簡単にWordPressへアップロードできることは大切です。メディアをアップローダーにドラッグ＆ドロップするだけで、ウェブサイトに追加できます。代替テキストやキャプションを設定したり、コンテンツに画像やギャラリーを挿入したりできます。気軽に試せる画像編集ツールも用意されています。</li>
+<li>コメント機能を標準搭載 ブログはいわば自分の家であり、コメントは友人やフォロワーがコンテンツに関わるための場所です。WordPressのコメント機能は、議論の場を作り、そのやり取りを管理するために必要なものをすべて備えています。</li>
+<li>検索エンジン最適化済み WordPressは、導入した状態ですでに検索エンジン向けに最適化されています。さらに細かくSEOを調整したい場合は、多数のSEOプラグインが対応してくれます。</li>
+</ul>
+<p>それでは、さっそく作り始めましょう。</p>
+<p>インストール</p>
+<pre><code>composer create-project laravel/laravel wp-laravel
+</code></pre>
+<p>アプリケーションにアクセスしてみましょう</p>
+<pre><code>php artisan serve
+</code></pre>
+<p>データベースの設定が必要です。この記事ではSQLiteを使います。</p>
+<pre><code>touch database/database.sqlite
+</code></pre>
+<p>.env を更新する必要があります</p>
+<pre><code>DB_CONNECTION=sqlite
+DB_DATABASE=database/database.sqlite
+DB_FOREIGN_KEYS=true
+</code></pre>
+<p><a href="https://laravel.com/docs/9.x/database#sqlite-configuration">参考</a></p>
+<p>最初のデータベース変更をマイグレーションしましょう</p>
+<pre><code>php artisan migrate
+</code></pre>
+<p>これで、データベースの変更を次のように確認できます</p>
+<pre><code>php artisan db:show
+</code></pre>
+<p>すべてのマイグレーションが適用されました。</p>
+<p>次に、WordPressの投稿のようなものを用意します。WordPressのテーブルを見たことがあれば、wp_postsというテーブルがあることをご存じでしょう。これを作ってみましょう</p>
+<pre><code>php artisan make:model Post
+</code></pre>
+<p>これにより、Postというモデルが作成されます。次に、データベースの変更を適用するマイグレーションを作成しましょう。</p>
+<pre><code>php artisan make:migration "create posts table"
+</code></pre>
+<p>次に、マイグレーションファイルを開いて、コードを次のように更新します。</p>
+<pre><code class="language-php">$table-&gt;string('title');
+$table-&gt;string('slug')-&gt;nullable();
+$table-&gt;text('excerpt')-&gt;nullable();
+$table-&gt;longText('content')-&gt;nullable();
+$table-&gt;dateTime('published_at')-&gt;nullable();
+$table-&gt;foreignIdFor(\App\Models\User::class)-&gt;constrained();
+</code></pre>
+<p><strong>あわせて読みたい：</strong><a href="/ja/posts/how-do-you-design-your-subscription-plan-restrictions/">サブスクリプションプランの制限をどう設計するか</a>、または<a href="/ja/projects/wordpress-plugins/">SawirStudioが提供する無料のWordPressプラグイン</a>もご覧ください。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>この記事は参考になりましたか？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>新しい記事を公開したときに、このような記事をお届けしたいので、メールアドレスを教えていただけますと幸いです。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="メールアドレス" class="formkit-input" name="email_address" placeholder="メールアドレス" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>登録する</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">迷惑メールは送りません。配信はいつでも解除できます。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

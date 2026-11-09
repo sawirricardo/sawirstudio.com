@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify と Odoo 19 Community を連携する | SawirStudio</title>
+<meta content="オープンソースの OCA Shopify コネクタを使って、Shopify ストアを Odoo 19 Community に連携する方法を解説します。Dev Dashboard のアプリ、スコープ、queue_job、Webhook、オンボーディングまで扱います。" name="description"/>
+<meta content="Shopify と Odoo 19 Community を連携する | SawirStudio" property="og:title"/>
+<meta content="オープンソースの OCA Shopify コネクタを使って、Shopify ストアを Odoo 19 Community に連携する方法を解説します。Dev Dashboard のアプリ、スコープ、queue_job、Webhook、オンボーディングまで扱います。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Shopify と Odoo 19 Community を連携する手順",
+          "description": "オープンソースの OCA Shopify コネクタを使って、Shopify ストアを Odoo 19 Community に連携する方法を解説します。Dev Dashboard のアプリ、スコープ、queue_job、Webhook、オンボーディングまで扱います。",
+          "url": "https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ブログ",
+              "item": "https://sawirstudio.com/ja/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Shopify と Odoo 19 Community を連携する手順",
+              "item": "https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/connect-shopify-to-odoo-19-community/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="true" href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="パンくずリスト" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="page" href="/ja/posts/connect-shopify-to-odoo-19-community/">Shopify と Odoo 19 Community を連携する手順</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Shopify と Odoo 19 Community を連携する手順</h1>
+<div class="prose prose-xl">
+<p>私たちは <a href="/ja/projects/odoo-shopify-connector/">Odoo 用の Shopify コネクタ</a>を開発し、Odoo Community Association（OCA）に提供しました。無料のオープンソース（AGPL-3）で、Odoo 19 Community に対応しています。ここでは、お客様向けに実際に行っているセットアップの流れを、最初から最後までご紹介します。</p>
+<p>商品、在庫、顧客、注文、返品、返金、出荷の情報を、1 店舗でも複数店舗でも同期できます。会計とポイントオブセールス（POS）は別のモジュールで、後から追加できます。</p>
+<h2>始める前に</h2>
+<ul>
+<li>公開 HTTPS でアクセスできる Odoo 19 Community。Shopify がここへ Webhook を送信し、商品画像もここからダウンロードします。</li>
+<li>Shopify ストア、およびそのストアを所有する Shopify 組織の管理者権限。</li>
+<li>自社で作成するアプリで保護された顧客データを利用できる Shopify プラン。Basic プランでは利用できず、この権限がないと Shopify が一部の注文 Webhook を拒否し、注文と顧客のインポートが失敗します。</li>
+</ul>
+<h2>1. Shopify Dev Dashboard でアプリを作成する</h2>
+<p>2026 年 1 月 1 日以降、Shopify ではストアの管理画面から従来の「カスタムアプリ」を作成できなくなりました。ストアを所有する組織の <strong>Dev Dashboard</strong> でアプリを作成してください。これは重要なポイントです。Odoo はクライアント認証情報グラントでアクセストークンを取得しますが、これはアプリとストアが同じ組織に属している場合にのみ機能します。</p>
+<p>アプリのバージョンを入力するときは、次のように設定します。</p>
+<ul>
+<li><strong>アプリ URL：</strong><code>https://shopify.dev/apps/default-app-home</code>。このコネクタには Shopify 内のページはありません。</li>
+<li><strong>Shopify 管理画面にアプリを埋め込む：</strong>オフ。</li>
+<li><strong>従来のインストールフローを使用する：</strong>オフ。これにより、アプリをインストールすると選択したスコープが付与されます。</li>
+<li><strong>Webhook：</strong>設定しません。Odoo がオンボーディング中に自動で作成します。</li>
+<li><strong>Webhook API バージョン：</strong><code>2026-01</code>。コネクタが使用するバージョンです。</li>
+<li><strong>スコープ：</strong><code>read_customers</code>、<code>write_customers</code>、<code>read_draft_orders</code>、<code>read_fulfillments</code>、<code>read_inventory</code>、<code>write_inventory</code>、<code>read_locations</code>、<code>read_merchant_managed_fulfillment_orders</code>、<code>write_merchant_managed_fulfillment_orders</code>、<code>read_orders</code>、<code>read_products</code>、<code>write_products</code>、<code>read_returns</code>。60 日より前の注文も取り込みたい場合は、<code>read_all_orders</code> を追加してください。</li>
+</ul>
+<p>バージョンをリリースし、ストアにアプリをインストールしたら、アプリの設定ページからクライアント ID とクライアントシークレットをコピーします。</p>
+<p>2026 年より前に作成した従来のカスタムアプリをお持ちの場合も、そのまま使えます。クライアント ID は空欄のままにして、代わりに Admin API アクセストークンと API シークレットキーを使用してください。</p>
+<h2>2. Odoo にモジュールをインストールする</h2>
+<p>OCA の <code>queue_job</code> と <a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">connector-shopify</a> リポジトリをアドオンパスに追加し、<strong>Shopify Connector</strong> をインストールします。処理はバックグラウンドジョブとして実行されるため、<code>queue_job</code> をサーバー全体で読み込み、Shopify のチャネルごとに処理容量を設定する必要があります。</p>
+<pre><code>[options]
+server_wide_modules = base,rpc,web,queue_job
+
+[queue_job]
+channels = root:4,root.shopify.import:2,root.shopify.export:1,root.shopify.webhook:1</code></pre>
+<p>次に、システムパラメータ <code>web.base.url</code> に Odoo の公開 HTTPS アドレスを設定し、<code>web.base.url.freeze</code> を <code>True</code> にします。こうしないと、管理者が別の場所からログインしたときにアドレスが変わり、Shopify の Webhook が誤った宛先に送られてしまいます。</p>
+<h2>3. オンボーディングを実行する</h2>
+<p>チームのメンバーに <strong>Shopify Manager</strong> グループを付与してから、<strong>Shopify &gt; Configuration &gt; Instances</strong> を開き、<strong>Start Onboarding</strong> をクリックします。</p>
+<ol>
+<li><code>yourstore.myshopify.com</code> のドメイン、クライアント ID、クライアントシークレットを入力し、接続をテストします。Odoo がトークンを取得し、24 時間ごとに自動で更新します。</li>
+<li>スコープを確認します。不足しているものがあれば、新しいアプリバージョンに追加してリリースし、ストア側で承認してください。</li>
+<li>Shopify のロケーションを Odoo の倉庫に対応付け、Odoo が生成する税のマッピングを確認して、同期ポリシーを選択します。</li>
+<li>Webhook をインストールし、最初のインポートをキューに登録します。</li>
+</ol>
+<p>注文や出荷を自動で動かす前に、決済ゲートウェイと配送業者のマッピングを確認してください。後から起こる想定外のトラブルの多くは、誰も見ていなかったマッピングが原因です。</p>
+<h2>4. 運用状況を確認する</h2>
+<p><strong>Shopify &gt; Dashboard</strong> では、同期の状態、ジョブの滞留状況、直近のエラー、Webhook の稼働状況を確認できます。このコネクタは、すべての Webhook が届くことを前提にしていません。Shopify 側で変更があったのに Odoo が受け取れなかったものは、スケジュールされたジョブが改めて取り込みます。エラーが発生したら、原因を修正してから <strong>Retry Failed Shopify Bindings</strong> を実行してください。ドメインや認証情報を変更した後は、<strong>Check Webhooks</strong> を実行します。</p>
+<h2>次のステップ</h2>
+<p><strong>Shopify Connector Accounting</strong> を追加すると、Shopify Payments の入金、手数料、ディスピュートを仕訳として取り込めます（入金の突合が難しい理由は、<a href="/ja/posts/why-shopify-payouts-dont-match-your-books/">別の記事</a>で解説しています）。店舗での販売には <strong>Shopify Connector POS</strong> をご利用ください。</p>
+<p>セットアップや、お客様の業務に合わせた設定、機能の拡張をご希望でしたら、<a href="/ja/shopify/">私たちが対応します</a>。</p>
+<p><strong>あわせてお読みください：</strong><a href="/ja/posts/why-shopify-payouts-dont-match-your-books/">Shopify の入金が帳簿と合わない理由</a>、または <a href="/ja/posts/shopify-2026-10-api-what-breaks/">Shopify の 2026-10 API：連携で何が動かなくなるか</a></p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>この記事は参考になりましたか？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>新しい記事を公開したときに、このような記事をお届けしたいので、メールアドレスを教えていただけますと幸いです。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="メールアドレス" class="formkit-input" name="email_address" placeholder="メールアドレス" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>登録する</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">迷惑メールは送りません。配信はいつでも解除できます。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/connect-shopify-to-odoo-19-community/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/connect-shopify-to-odoo-19-community/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/connect-shopify-to-odoo-19-community/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Referral – WooCommerce向け友達紹介プラグイン | SawirStudio</title>
+<meta content="WooCommerce向けの、紹介する側とされる側の双方に特典がある紹介プログラム。お友達には割引、紹介した方には特典クーポン。コードまたはリンクで共有でき、WhatsApp での共有を重視しています。" name="description"/>
+<meta content="Sawir Referral – WooCommerce向け友達紹介プラグイン | SawirStudio" property="og:title"/>
+<meta content="WooCommerce向けの、紹介する側とされる側の双方に特典がある紹介プログラム。お友達には割引、紹介した方には特典クーポン。コードまたはリンクで共有でき、WhatsApp での共有を重視しています。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-referral.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Referral – WooCommerce向け友達紹介プラグイン",
+          "description": "WooCommerce向けの、紹介する側とされる側の双方に特典がある紹介プログラム。お友達には割引、紹介した方には特典クーポン。コードまたはリンクで共有でき、WhatsApp での共有を重視しています。",
+          "url": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-referral-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress プラグイン",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Referral",
+              "item": "https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="true" href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/projects/wordpress-plugins/">WordPress プラグイン</a></li>
+<li><a aria-current="page" href="/ja/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Referral</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Referral のバナー" height="500" src="/assets/images/plugins/sawir-referral-banner.webp" width="1544"/></p>
+<p>Sawir Referral は、お客様のお友達紹介を後押しするプラグインです。紹介されたお友達は割引を受けられ、紹介したお客様には特典クーポンが贈られます。共有はコード、リンク、WhatsApp からそのまま行えます。</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-referral/" rel="noreferrer" target="_blank">WordPress.org で無料入手</a></p>
+<h2>主な機能</h2>
+<p>お客様を、そのまま販売チャネルに。お客様一人ひとりに、WooCommerce の本物のクーポンである専用の紹介コードと共有リンクが「マイアカウント」ページに用意され、WhatsApp ではワンタップで共有できます。</p>
+<ul>
+<li><strong>お友達には割引</strong> — 割合または固定額で、チェックアウト時に通常のクーポンと同じように適用されます。</li>
+<li><strong>紹介した方には特典</strong> — お友達の注文が完了し、保留期間が終わると、クーポンが自動的に発行されます。</li>
+<li><strong>Cookie ではなくコードで管理</strong> — 紹介の判定は、注文に使われたクーポンで行います。WhatsApp や Instagram の DM など、リンクが壊れてしまう場面でも、コードならそのまま貼り付けて使えます。共有リンク（<code>?ref=CODE</code>）は、コードを記憶してカートに自動で適用するだけのシンプルな仕組みです。</li>
+<li><strong>返金にも安心</strong> — 特典は、設定した日数のあいだ保留されます。保留期間中に全額返金やキャンセルがあった場合は特典も取り消され、一部返金の場合は特典がそのまま残ります。保留期間が過ぎたあとに注文が全額返金された場合は、特典クーポンが未使用であれば自動的に無効化され、すでに使用済みであれば、その紹介に確認用のフラグが付きます。</li>
+<li><strong>不正対策</strong> — 自己紹介はアカウントと請求先メールアドレスの両方でブロックされます。お友達ごとに、コード1つにつき1回までの注文に制限することもでき、コードの利用回数の上限や、新規のお客様のみに限定する設定も可能です。</li>
+<li><strong>HPOS とチェックアウトブロックに対応しています。</strong></li>
+</ul>
+<p>支払い管理の仕組みも、税務書類も、承認待ちの作業もありません。特典はストアのクーポンなので、お金はストアの中で回ります。</p>
+<h2>スクリーンショット</h2>
+<p><img alt="Sawir Referral のスクリーンショット 1" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Sawir Referral のスクリーンショット 2" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Sawir Referral のスクリーンショット 3" height="900" loading="lazy" src="/assets/images/plugins/sawir-referral-screenshot-3.webp" width="1280"/></p>
+<h2>よくある質問</h2>
+<h3>他の選択肢と比べてどうですか？</h3>
+<p>AffiliateWP、SliceWP、Solid Affiliate などのアフィリエイトプラットフォームは、外部のマーケターを集めるためのもので、登録フロー、トラッキング用ダッシュボード、報酬の支払い処理を備えています。ReferralCandy のようなホスト型サービスは、WordPress の外で紹介プログラムをサブスクリプションとして運営します。Sawir Referral は、あえて用途を絞っています。既存のお客様が専用のクーポンコードやリンクを共有し、お友達は割引を受け、特典はストアのクーポンとして贈られます。紹介の判定はクーポンそのもので行うため、チャットアプリに貼り付けても失われず、支払いのための仕組みも必要ありません。アフィリエイトのチャネルをつくりたい場合はアフィリエイトプラットフォームを、お客様にお友達を紹介してもらいたい場合は、こちらをお使いください。</p>
+<h3>紹介はどのように判定されますか？</h3>
+<p>注文に使われたクーポンで判定します。チェックアウト時に紹介コードが使われていれば、注文の完了時に、そのコードの持ち主である紹介者に実績が付きます。共有リンクは、コードを自社ドメインの Cookie に保存してカートに自動適用するだけで、別のトラッキングシステムはありません。</p>
+<h3>紹介による注文が返金された場合はどうなりますか？</h3>
+<p>一部返金の場合、特典はそのまま残ります。特典は注文額に応じて変わらない固定額だからです。保留期間中に全額返金またはキャンセルがあった場合は、特典が発行される前に取り消されます。特典の発行後に注文が全額返金された場合は、クーポンが未使用であれば自動的に無効化されます（ゴミ箱に移動され、クーポン画面から復元できます）。すでに使用された特典は、管理画面の一覧にフラグが付くので、内容をご確認いただけます。紹介は、WooCommerce → Referrals から、手動で解除、取り消し、無効化することもできます。</p>
+<h3>お客様が自分自身を紹介することはできますか？</h3>
+<p>できません。お客様がコードの持ち主本人である場合や、持ち主と同じメールアドレスを使っている場合、コードは拒否されます。このチェックは、注文の完了時にもう一度行われます。</p>
+<h2>あわせて使いたいプラグイン</h2>
+<ul>
+<li><a href="/ja/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>：WooCommerce のショップを、サブスクリプションのビジネスに。定期課金、トライアル、登録料、スマートなリトライに対応し、有料プランで機能が制限されることはありません。</li>
+<li><a href="/ja/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>：直近の注文、商品を閲覧中の人数、新着レビューなど、ストアで実際に起きていることを、画面の隅に表示される小さな通知でお客様に伝えます。</li>
+</ul>
+<p><a href="/ja/projects/wordpress-plugins/">無料の WordPress プラグイン</a>の一覧はこちらです。</p>
+</div>
+<ul class="project-meta">
+<li><strong>価格</strong> 無料</li>
+<li><strong>バージョン</strong> 1.0.0</li>
+<li><strong>動作環境</strong> WordPress 6.0、PHP 7.4、WooCommerce</li>
+<li><strong>ライセンス</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-referral/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-referral/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p>
+<h2>どのような<br/>ご相談でしょうか？</h2>
+<a class="button" href="/ja/contact/">プロジェクトを始める</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-referral/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-referral/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-referral/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-referral/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

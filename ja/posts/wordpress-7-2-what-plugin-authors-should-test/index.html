@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress 7.2：プラグイン開発者がテストしておきたいこと | SawirStudio</title>
+<meta content="WordPress 7.2 は 2026 年 12 月 8 日にリリース予定です。アプリケーションパスワードや提案中の Secrets API から Interactivity API のルーターまで、プラグイン開発者への影響と、今すぐできるテスト方法をご紹介します。" name="description"/>
+<meta content="WordPress 7.2：プラグイン開発者がテストしておきたいこと | SawirStudio" property="og:title"/>
+<meta content="WordPress 7.2 は 2026 年 12 月 8 日にリリース予定です。アプリケーションパスワードや提案中の Secrets API から Interactivity API のルーターまで、プラグイン開発者への影響と、今すぐできるテスト方法をご紹介します。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "WordPress 7.2 は 12 月 8 日にリリース予定：自社プラグインで確認していること",
+          "description": "WordPress 7.2 は 2026 年 12 月 8 日にリリース予定です。アプリケーションパスワードや提案中の Secrets API から Interactivity API のルーターまで、プラグイン開発者への影響と、今すぐできるテスト方法をご紹介します。",
+          "url": "https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ブログ",
+              "item": "https://sawirstudio.com/ja/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 7.2 は 12 月 8 日にリリース予定：自社プラグインで確認していること",
+              "item": "https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="true" href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="パンくずリスト" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a aria-current="page" href="/ja/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 は 12 月 8 日にリリース予定：自社プラグインで確認していること</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">WordPress 7.2 は 12 月 8 日にリリース予定：自社プラグインで確認していること</h1>
+<div class="prose prose-xl">
+<p>WordPress 7.2 は 2026 年 12 月 8 日のリリースを予定しています。最初のリリース候補（RC）は 11 月 17 日に公開される予定で、このタイミングで機能一覧が確定し、開発者向けノートをすべてまとめた Field Guide も公開されます。それまでは、ベータ版が、プラグインの問題を最も手軽に見つけられる場です。</p>
+<p>私たちは <a href="/ja/projects/wordpress-plugins/">WordPress.org で 12 個の無料プラグイン</a>を公開・保守しています。以下は、私たち自身が使っているチェックリストです。執筆時点ではまだ提案段階の項目も含まれていますので、最終的な内容は Field Guide でご確認ください。</p>
+<h2>今すぐテストする方法</h2>
+<ul>
+<li><strong>WP-CLI</strong>：テスト用サイトで <code>wp core update --version=7.2-beta4</code> を実行します。最新のベータ版または RC があれば、そのバージョンを指定してください。</li>
+<li><strong>WordPress Beta Tester プラグイン</strong>：「Bleeding edge」と「Beta/RC Only」に設定します。</li>
+<li><strong>WordPress Playground</strong>：何もインストールせず、ブラウザ上で動作を確認できます。</li>
+</ul>
+<p>本番サイトでは絶対に行わないでください。<code>WP_DEBUG</code> と <code>WP_DEBUG_LOG</code> を有効にして、非推奨の通知を確認しましょう。早い段階の警告は、ほとんどがここに表示されます。</p>
+<h2>確認している項目</h2>
+<h3>アプリケーションパスワード</h3>
+<p>7.2 ではアプリケーションパスワードが強化されます。ローカル環境や HTTPS 環境の判定の改善、追加時のメール通知、デフォルトロールのより安全な扱いなどです。お使いのプラグインや、お客様のツールがこの方法で REST API に認証している場合は、一連の流れを最初から最後まで試してください。</p>
+<h3>Secrets API</h3>
+<p>認証情報を暗号化して保存するための、コア標準の仕組みです。これによって、プラグインが API キーを平文のオプションとして保存することがなくなります。7.2 での導入が提案されており、管理画面は 7.3 に持ち越される見込みです。プラグインで API キーを保存している場合は、Field Guide での扱いに注目してください。提供が始まったら、キーはそこに保存するのが正解になります。当社の無料プラグインには、現在サードパーティのキーを保存するものはないため、当社にとってはお客様向けの開発案件に関わる話です。</p>
+<h3>Sudo モード</h3>
+<p>予定されている機能で、権限の高い操作の前に、ログイン中のユーザーにパスワードの再確認を求めるものです。プラグイン独自の画面や AJAX でそのような操作を行っている場合は、途中でコアから再確認を求められたときの挙動をテストしてください。</p>
+<h3>Interactivity API のルーター</h3>
+<p>クライアント側のナビゲーションを監視するための新しいルーターが追加され、非推奨となった <code>state.navigation.hasStarted</code> と <code>hasFinished</code> の組に代わります。また、信頼できるマークアップを描画するための <code>data-wp-html</code> ディレクティブも追加されます。</p>
+<h3>管理画面のアイコンと通知</h3>
+<p>管理バーとメニューの Dashicons が SVG アイコンに置き換えられ、管理画面の通知はスクリーンリーダーでより適切に読み上げられるようになります。プラグインでメニューアイコンのスタイルを指定している場合や、管理画面の CSS で Dashicons のクラスを対象にしている場合は、ベータ版で表示を確認してください。</p>
+<h3>DataViews とサイトエディター</h3>
+<p>プラグインは、サイトエディター内に独自の画面を登録できるようになり、DataViews のフィールドやレイアウトをサーバー側から制御できるようになります。ここで何かが動かなくなることはありませんが、プラグインに一覧画面がある場合は、今後の方向性を把握しておくとよいでしょう。</p>
+<h2>テストの後に</h2>
+<p>readme の「Tested up to」は、実際にテストを終えてから更新してください。事前に書き換えるのは避けましょう。直近のメジャーリリースでテストされていないプラグインには、WordPress.org でユーザー向けに警告が表示され、その警告はインストール数の減少につながります。当社のプラグインは現在「Tested up to: 7.1」となっており、RC で問題がないことを確認できしだい 7.2 に更新します。</p>
+<p>新しいデフォルトテーマ Ipsum も同時に提供されます。プラグインがフロントエンドに何かを出力する場合は、このテーマで表示を確認してください。新規サイトの見た目は、このテーマが基準になります。</p>
+<p>7.2 に向けて更新が必要なプラグインや、誰もメンテナンスしていないカスタムプラグインがありましたら、<a href="/ja/contact/">お気軽にご相談ください</a>。</p>
+<p><strong>あわせて読みたい：</strong><a href="/ja/posts/wordpress-abilities-api-for-plugins/">Abilities API で WordPress プラグインを AI エージェントから使えるようにする</a>、または<a href="/ja/posts/woocommerce-or-shopify-indonesia/">インドネシアの事業者にはWooCommerceとShopifyのどちらが向いている？</a></p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>この記事は参考になりましたか？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>新しい記事を公開したときに、このような記事をお届けしたいので、メールアドレスを教えていただけますと幸いです。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="メールアドレス" class="formkit-input" name="email_address" placeholder="メールアドレス" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>登録する</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">迷惑メールは送りません。配信はいつでも解除できます。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

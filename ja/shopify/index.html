@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Shopify連携・アプリ開発 | SawirStudio</title>
+<meta content="ShopifyをOdooなど、御社のビジネス全体につなぎます。注文、在庫、入金、POSに対応。開発するのは、Odoo向けのオープンソースShopifyコネクタを書いたメンバーです。" name="description"/>
+<meta content="Shopify連携・アプリ開発 | SawirStudio" property="og:title"/>
+<meta content="ShopifyをOdooなど、御社のビジネス全体につなぎます。注文、在庫、入金、POSに対応。開発するのは、Odoo向けのオープンソースShopifyコネクタを書いたメンバーです。" property="og:description"/>
+<meta content="https://sawirstudio.com/ja/shopify/" property="og:url"/>
+<link href="https://sawirstudio.com/ja/shopify/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "name": "Shopify連携・アプリ開発",
+          "serviceType": "Shopify連携・アプリ開発",
+          "description": "ShopifyをOdooなど、御社のビジネス全体につなぎます。注文、在庫、入金、POSに対応。開発するのは、Odoo向けのオープンソースShopifyコネクタを書いたメンバーです。",
+          "url": "https://sawirstudio.com/ja/shopify/",
+          "provider": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Shopify",
+              "item": "https://sawirstudio.com/ja/shopify/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/shopify/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/shopify/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/shopify/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/shopify/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/shopify/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<header class="site-header">
+<a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/posts/">ブログ</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a href="/ja/about-us/">私たちについて</a></li>
+<li><a href="/ja/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+<button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a aria-current="page" href="/ja/shopify/">Shopify</a></li>
+</ol>
+</nav>
+<p class="hello">新着：Shopify</p>
+<h1>数字がきちんと<span class="mark mark-green">合う</span>Shopify。</h1>
+<p class="lead">注文、在庫、入金、店舗のPOSを、ShopifyストアとOdoo、またはお使いのその他のシステムの間でやり取りします。開発するのは、Odoo向けのオープンソースShopifyコネクタを書いたメンバーです。<span class="wavy">だから帳簿がきちんと合います</span>。</p>
+<p class="hero-actions"><a class="button" href="/ja/contact/">プロジェクトを始める</a> <a class="see-all" href="/ja/projects/odoo-shopify-connector/">コネクタを見る</a></p>
+</section>
+<section class="section">
+<h2 class="section-title">できること</h2>
+<ul class="offers">
+<li>
+<h3>ShopifyとOdoo</h3>
+<p>私たちが開発した<a href="/ja/projects/odoo-shopify-connector/">OCAコネクタ</a>で、ストアをOdoo 19 Communityにつなぎます。商品、在庫、顧客、注文、返品、返金に対応し、1店舗でも複数店舗でも利用できます。導入から、業務に合わせた設定、お客様の環境で必要になる機能の拡張まで、私たちが行います。まだOdooをお使いでない場合は、<a href="/ja/odoo/">その導入も承ります</a>。</p>
+</li>
+<li>
+<h3>きちんと合う会計</h3>
+<p>Shopify Paymentsの入金、手数料、チャージバック、ギフトカード、複数通貨を、Shopifyの正確な金額から仕訳に変換します。数字が合わないときは、こっそり調整行を入れるのではなく、分かりやすいエラーでお知らせします。</p>
+</li>
+<li>
+<h3>POSと倉庫</h3>
+<p>各店舗のShopify POSの売上を注文として取り込み、適切なOdooの倉庫に振り分けます。どこで販売しても、在庫は正しい数に保たれます。</p>
+</li>
+<li>
+<h3>その他のシステム</h3>
+<p>Odooをお使いでなくても大丈夫です。すでに運用中のERP、会計、配送、独自のバックエンドとShopifyを、GraphQL Admin APIと署名付きWebhookでつなぎます。取りこぼしを見つけるチェックも備えています。</p>
+</li>
+<li>
+<h3>カスタムアプリと自動化</h3>
+<p>Shopifyの標準機能では対応できない作業のために、プライベートアプリや定期実行のジョブを開発します。注文の振り分け、一括編集、独自レポート、仕入先との同期などです。</p>
+</li>
+<li>
+<h3>ストアの制作も</h3>
+<p>ストアフロントの制作やリニューアルが必要な場合も、連携と並行して設計・構築します。フロントとバックエンドを一緒に計画できます。</p>
+</li>
+</ul>
+</section>
+<section class="section">
+<h2 class="section-title">進め方</h2>
+<ol class="values">
+<li>
+<h3>まず全体を整理します。</h3>
+<p>すべてのデータの流れを洗い出します。何を、どの方向に動かすのか、在庫、価格、お金について最終的にどのシステムを正とするのかを決めます。</p>
+</li>
+<li>
+<h3>一つずつ進めます。</h3>
+<p>多くの場合、最初に注文と在庫、次に会計、最後にPOSの順です。それぞれ実際のデータで動作を確認してから、次に進みます。</p>
+</li>
+<li>
+<h3>健全な状態を保ちます。</h3>
+<p>ヘルスチェック、同期ダッシュボード、定期的な照合に加えて、私たち自身も見守ります。ShopifyがAPIを変更したときも、引き続き対応します。</p>
+</li>
+</ol>
+</section>
+<section class="section">
+<div class="note founder-note narrow center">
+<p class="founder-hello">私たちが作らないもの</p>
+<p>ほとんどの場合は正しい、という程度の連携は作りません。在庫やお金に関しては、それでは不十分だからです。私たちの連携は、Webhookが届いたと決めつけず、定期的にShopifyと照合し、数字が合わないときは処理を止めてお知らせします。</p>
+<div class="founder-sign"><svg aria-label="Ricardo" class="signature" fill="none" role="img" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewbox="4.0 4.0 294.0 69.1"><path d="m 0,0 c -6.46907,4.33649,-10.32188,23.69396,-18.52175,19.41044,-6.26046,-3.27038,-1.29794,-13.21829,5.50043,-16.09828,5.01572,-2.12481,9.75236,-3.38691,13.95676,-0.0381,3.27136,2.60563,-1.24763,9.22586,-5.65941,7.39001,-0.24639,-0.10253,-0.47565,-1.07516,0.35808,-0.92742,6.61091,1.17143,-0.47262,8.87061,2.72883,9.95444,3.40956,1.15428,6.59488,-6.0336,6.59488,-6.0336" pathlength="1" stroke-width="1.122" style="--d:0.63s;--w:0.00s" transform="matrix(2.8532 0.0000 0.0000 2.8532 71.04 10.00)"></path><path d="m 0,0 c 0,0,-4.8682,5.76765,-2.7782,7.34219,1.5603,1.17547,4.6964,-3.50573,4.6964,-3.50573" pathlength="1" stroke-width="1.122" style="--d:0.09s;--w:0.67s" transform="matrix(2.8532 0.0000 0.0000 2.8532 100.83 38.44)"></path><path d="m 0,0 c 0.3633,-0.0304,0.4348,-0.30446,0.3157,-0.57296,-0.1562,-0.35196,-0.6165,-0.38945,-0.7951,-0.0117,-0.1647,0.34829,0.089,0.6173,0.4794,0.58463 z" pathlength="1" stroke-width="1.122" style="--d:0.08s;--w:0.80s" transform="matrix(2.8532 0.0000 0.0000 2.8532 106.15 32.94)"></path><path d="m 0,0 c 0.816,0.37091,2.23,-2.148,0.7951,-2.61924,-4.2509,-1.39609,-9.299,6.96144,-5.3321,8.65285,3.7702,1.60751,7.2029,-4.06918,7.2029,-4.06918" pathlength="1" stroke-width="1.122" style="--d:0.16s;--w:0.92s" transform="matrix(2.8532 0.0000 0.0000 2.8532 135.17 43.23)"></path><path d="m 0,0 c 0.4214,-0.37929,-0.8228,-2.67928,-3.2742,-1.81901,-3.0753,1.07921,-6.4591,6.18115,-3.9357,8.23515,2.9987,2.44096,8.2682,-8.13593,8.2682,-8.13593,0,0,-4.2712,6.43375,-2.4474,7.60677,1.7136,1.10213,4.6108,-3.78007,4.498,-3.83646" pathlength="1" stroke-width="1.122" style="--d:0.27s;--w:1.13s" transform="matrix(2.8532 0.0000 0.0000 2.8532 173.94 43.16)"></path><path d="m 0,0 c 1.0012,-1.24746,1.8827,-2.58465,2.6345,-4.01919,-1.1568,1.57328,1.8091,2.10129,1.2778,2.55063,-1.6478,1.39356,-3.3495,5.82822,-1.3987,6.13184,2.1806,0.33941,3.7023,-2.77011,4.8947,-4.49791" pathlength="1" stroke-width="1.122" style="--d:0.14s;--w:1.43s" transform="matrix(2.8532 0.0000 0.0000 2.8532 191.51 48.54)"></path><path d="m 0,0 c -1.4756,-2.14011,-6.7674,0.83709,-7.4835,4.11596,-1.0863,4.97461,3.3888,4.7069,5.9547,0.95619" pathlength="1" stroke-width="1.122" style="--d:0.13s;--w:1.61s" transform="matrix(2.8532 0.0000 0.0000 2.8532 242.21 37.89)"></path><path d="m 0,0 c 0.063,-0.007,-9.9893,12.40682,-6.0336,15.66867,1.4145,1.16638,4.116,-3.64822,4.116,-3.64822" pathlength="1" stroke-width="1.122" style="--d:0.15s;--w:1.78s" transform="matrix(2.8532 0.0000 0.0000 2.8532 257.82 14.67)"></path><path d="m 0,0 c -1.6214,0.53093,-6.4653,6.323,-3.175,8.40052,3.5611,2.2485,9.1684,-7.07952,5.8539,-8.63203,-0.8169,-0.38264,-1.5396,0.35488,-1.5938,1.53911,-0.2892,6.3222,4.4863,3.13263,4.2727,2.82651" pathlength="1" stroke-width="1.122" style="--d:0.21s;--w:1.97s" transform="matrix(2.8532 0.0000 0.0000 2.8532 276.69 37.41)"></path></svg><p><a href="/ja/ricardosawir/">Ricardo Sawir</a>（創業者）</p></div>
+</div>
+</section>
+<section class="section">
+<div class="prose center">
+<h2>これまでのコマース関連の実績</h2>
+<ul>
+<li><a href="/ja/projects/odoo-shopify-connector/">Odoo向けShopifyコネクタ</a>：私たちが開発し、2026年7月にOdoo Community Associationへ寄贈しました。会計とPOS用のモジュールも含まれます。<a href="https://github.com/OCA/connector-shopify" rel="noopener" target="_blank">GitHubでソースを見る</a>。</li>
+<li><a href="/ja/projects/kantong-sayur-application/">Kantong Sayur</a>：伝統市場向けの食料品マーケットプレイスです。買い物客向けアプリと店舗向けアプリ、管理画面を開発し、のちに卸売機能も追加しました。</li>
+<li><a href="/ja/projects/calvin-kain/">Calvin Kain</a>：ヒジャブとスカーフのブランドのオンラインストアを、Clicks&amp;coと共同で構築しました。</li>
+<li><a href="/ja/projects/wordpress-plugins/">WooCommerce向けプラグイン</a>：最小・最大購入数量、再入荷通知、商品画像のズーム、バリエーション別ギャラリーに対応した無料プラグインです。</li>
+</ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/shopify/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/shopify/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/shopify/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/shopify/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
