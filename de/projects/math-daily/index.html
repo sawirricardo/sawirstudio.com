@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Math Daily | SawirStudio</title>
+<meta content="Math Daily baut mit den Math Monsters in einer Minute am Tag eine tägliche Mathe-Routine auf: kurzes Üben von Addition, Subtraktion, Multiplikation und Division." name="description"/>
+<meta content="Math Daily | SawirStudio" property="og:title"/>
+<meta content="Math Daily baut mit den Math Monsters in einer Minute am Tag eine tägliche Mathe-Routine auf: kurzes Üben von Addition, Subtraktion, Multiplikation und Division." property="og:description"/>
+<meta content="https://sawirstudio.com/de/projects/math-daily/" property="og:url"/>
+<link href="https://sawirstudio.com/de/projects/math-daily/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="de_DE" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/math-daily.jpg" property="og:image"/>
+<meta content="summary" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Math Daily: Kopfrechnen-Spiele",
+          "description": "Math Daily baut mit den Math Monsters in einer Minute am Tag eine tägliche Mathe-Routine auf: kurzes Üben von Addition, Subtraktion, Multiplikation und Division.",
+          "url": "https://getmathdaily.com",
+          "image": "https://sawirstudio.com/assets/images/projects/math-daily-icon.webp",
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "EducationalApplication",
+          "installUrl": "https://apps.apple.com/us/app/math-daily-mental-math-games/id6817184750",
+          "screenshot": [
+            "https://sawirstudio.com/assets/images/projects/math-daily-1.webp",
+            "https://sawirstudio.com/assets/images/projects/math-daily-2.webp",
+            "https://sawirstudio.com/assets/images/projects/math-daily-3.webp"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://sawirstudio.com/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projekte",
+              "item": "https://sawirstudio.com/de/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Math Daily",
+              "item": "https://sawirstudio.com/de/projects/math-daily/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/math-daily/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/math-daily/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/math-daily/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/math-daily/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/math-daily/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/math-daily/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="logo" href="/de/" title="Startseite">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/posts/">Blog</a></li>
+<li><a aria-current="true" href="/de/projects/">Projekte</a></li>
+<li><a href="/de/about-us/">Über uns</a></li>
+<li><a href="/de/contact/">Kontakt</a></li>
+</ul>
+</nav>
+<button aria-label="Dunklen Modus umschalten" class="theme-toggle" title="Dunklen Modus umschalten" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Brotkrumennavigation" class="breadcrumbs">
+<ol>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/projects/">Projekte</a></li>
+<li><a aria-current="page" href="/de/projects/math-daily/">Math Daily</a></li>
+</ol>
+</nav>
+<div class="app-heading">
+<img alt="" class="app-icon" height="96" src="/assets/images/projects/math-daily-icon.webp" style="view-transition-name: media-math-daily" width="96"/>
+<h1 class="page-title heavy">Math Daily</h1>
+</div>
+<p class="lead-sm">Eine Minute am Tag: So bauen Sie mit den Math Monsters eine tägliche Mathe-Routine auf</p>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p>Math Daily bietet kurze, konzentrierte Übungseinheiten für Addition, Subtraktion, Multiplikation und Division. Lernen Sie Plumo, Mino, Tixi und Divvy kennen: vier freundliche Monster in Form von +, −, × und ÷, die in jeder Aufgabe die Rechenzeichen spielen, sich bei richtigen Antworten freuen und bei falschen die Köpfe hängen lassen. Jetzt gibt es auch ein fünftes: Perci in Form eines %, das Bruchrechnen, Prozente und Dezimalzahlen abfragt, etwa ¾ von 20 und 25 % von 60, dazu Alltagsrechnen mit Geld: Trinkgeld, Rabatte und die Rechnung teilen. Eine Einheit besteht aus 10 Aufgaben und dauert etwa eine Minute.</p>
+<p>Math Daily trainiert die Rechenflüssigkeit, also das schnelle und richtige Abrufen von Rechenfakten, die Sie bereits gelernt haben. Nutzen Sie die App ergänzend zu Schule oder Hausaufgaben, nicht als Ersatz. Aufgaben, die Sie falsch beantwortet haben, kommen am nächsten Tag wieder, und mit einem ausdruckbaren Übungsblatt üben Sie auch auf Papier.</p>
+<div class="shots">
+<img alt="Math Daily Screenshot 1" height="1304" loading="lazy" src="/assets/images/projects/math-daily-1.webp" width="600"/>
+<img alt="Math Daily Screenshot 2" height="1304" loading="lazy" src="/assets/images/projects/math-daily-2.webp" width="600"/>
+<img alt="Math Daily Screenshot 3" height="1304" loading="lazy" src="/assets/images/projects/math-daily-3.webp" width="600"/>
+</div>
+</div>
+<ul class="project-meta">
+<li><strong>Kunde</strong> Unsere eigene App</li>
+<li><strong>Plattformen</strong> iPhone, iPad</li>
+<li><strong>Website-URL</strong> <a href="https://getmathdaily.com" rel="noreferrer" target="_blank">https://getmathdaily.com</a></li>
+<li><strong>App-Store-URL</strong> <a href="https://apps.apple.com/us/app/math-daily-mental-math-games/id6817184750" rel="noreferrer" target="_blank">https://apps.apple.com/us/app/math-daily-mental-math-games/id6817184750</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Weitere Projekte</h2>
+<div class="project-grid">
+<a class="card" href="/de/projects/sawirpost/">
+<div class="thumb thumb-app"><img alt="SawirPost" height="256" loading="lazy" src="/assets/images/projects/sawirpost-icon.webp" width="256"/></div>
+<div class="card-body"><h3>SawirPost</h3></div>
+</a>
+<a class="card" href="/de/projects/sawirly/">
+<div class="thumb thumb-app"><img alt="Sawirly" height="196" loading="lazy" src="/assets/images/projects/sawirly-icon.webp" width="196"/></div>
+<div class="card-body"><h3>Sawirly</h3></div>
+</a>
+<a class="card" href="/de/projects/quill-word-counter/">
+<div class="thumb thumb-app"><img alt="Quill Word Counter" height="196" loading="lazy" src="/assets/images/projects/quill-word-counter-icon.webp" width="196"/></div>
+<div class="card-body"><h3>Quill Word Counter</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genug über uns.</p>
+<h2>Wie können wir<br/>Ihnen helfen?</h2>
+<a class="button" href="/de/contact/">Projekt starten</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/de/about-us/">Über uns</a> <a href="/de/projects/">Projekte</a> <a href="/de/contact/">Kontakt</a> <a href="/de/privacy/">Datenschutz</a> <a href="/de/terms/">AGB</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/math-daily/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/math-daily/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/math-daily/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/math-daily/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/math-daily/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

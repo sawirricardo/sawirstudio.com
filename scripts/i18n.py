@@ -46,6 +46,7 @@ LANGS = {
     "zh-Hans": ("zh-hans", "简体中文", "zh_CN", "Simplified Chinese, as written in mainland China and Singapore. Address the reader as 您"),
     "zh-Hant": ("zh-hant", "繁體中文", "zh_TW", "Traditional Chinese, as written in Taiwan (use Taiwan terminology). Address the reader as 您"),
     "ja": ("ja", "日本語", "ja_JP", "Japanese for business readers in Japan, in polite です/ます style. Address the reader politely (お客様, or leave the subject out as natural Japanese does); use common katakana for tech terms (アプリ, ウェブサイト)"),
+    "de": ("de", "Deutsch", "de_DE", "German for business readers in Germany, Austria and Switzerland. Address the reader formally as Sie. Keep common English tech terms Germans use (App, Website, Shop, Plugin, Backend); use German quotation marks „…“"),
 }
 RTL = {"ar", "he"}
 

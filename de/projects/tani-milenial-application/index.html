@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>TaniMilenial App | SawirStudio</title>
+<meta content="TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhaltung, entwickelt von SawirStudio mit Clicks&amp;Co." name="description"/>
+<meta content="TaniMilenial App | SawirStudio" property="og:title"/>
+<meta content="TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhaltung, entwickelt von SawirStudio mit Clicks&amp;Co." property="og:description"/>
+<meta content="https://sawirstudio.com/de/projects/tani-milenial-application/" property="og:url"/>
+<link href="https://sawirstudio.com/de/projects/tani-milenial-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="de_DE" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/tani-milenial-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "TaniMilenial Application",
+          "description": "TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhaltung, entwickelt von SawirStudio mit Clicks&Co.",
+          "url": "https://sawirstudio.com/de/projects/tani-milenial-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://sawirstudio.com/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projekte",
+              "item": "https://sawirstudio.com/de/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "TaniMilenial Application",
+              "item": "https://sawirstudio.com/de/projects/tani-milenial-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/tani-milenial-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/tani-milenial-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="logo" href="/de/" title="Startseite">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/posts/">Blog</a></li>
+<li><a aria-current="true" href="/de/projects/">Projekte</a></li>
+<li><a href="/de/about-us/">Über uns</a></li>
+<li><a href="/de/contact/">Kontakt</a></li>
+</ul>
+</nav>
+<button aria-label="Dunklen Modus umschalten" class="theme-toggle" title="Dunklen Modus umschalten" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Brotkrumennavigation" class="breadcrumbs">
+<ol>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/projects/">Projekte</a></li>
+<li><a aria-current="page" href="/de/projects/tani-milenial-application/">TaniMilenial App</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">TaniMilenial Application</h1>
+<img alt="Tani Milenial Banner" class="project-hero" fetchpriority="high" height="688" src="/assets/images/projects/tani-milenial-application.webp" style="view-transition-name: media-tani-milenial-application" width="1410"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>Der Kunde</h2>
+<p>TaniMilenial ist eine Plattform für Landwirtschaft, Fischerei und Viehhaltung mit dem Leitspruch „Ragam solusi untuk petani di era digital“ (Lösungen für Landwirte im digitalen Zeitalter). Sie wurde für indonesische Landwirte, Fischzüchter und Viehhalter entwickelt.</p>
+<h2>Was wir umgesetzt haben</h2>
+<p>Gemeinsam mit Clicks&amp;Co haben wir die Android-App dazu entwickelt, die bei Google Play veröffentlicht wurde.</p>
+<ul>
+<li><strong>Kebun Saya (Mein Betrieb).</strong> Verwaltung der eigenen Felder und Flächen, inklusive Statistiken.</li>
+<li><strong>Info Pasar (Marktinfo).</strong> Aktuelle Marktpreise, damit Landwirte vor dem Verkauf wissen, was ihre Ernte wert ist.</li>
+<li><strong>Artikel und Videos.</strong> Praxiswissen für Landwirtschaft, Fischerei und Viehhaltung.</li>
+<li><strong>Shop.</strong> Landwirtschaftlicher Bedarf direkt in der App, mit Aktionen wie vergünstigtem Dünger.</li>
+<li><strong>Bonusguthaben.</strong> Ein Saldo-Bonus-Guthaben, das oben auf dem Startbildschirm angezeigt wird.</li>
+</ul>
+<h2>Unser Vorgehen</h2>
+<p>Die App wurde für Menschen gemacht, die ihren Tag auf dem Feld verbringen und nicht in Apps. Deshalb liegt auf dem Startbildschirm jede Funktion nur einen Fingertipp entfernt in einem Raster großer Symbole, das Bonusguthaben steht ganz oben, und jeder Bereich verwendet einfache Begriffe, die Landwirte ohnehin benutzen, etwa Kebun Saya und Info Pasar, statt App-Fachsprache.</p>
+<p><img alt="Tani Milenial Screenshots aus dem Google Play Store" height="883" src="/assets/images/projects/tanimilenial-playstore.webp" width="1600"/></p>
+</div>
+<ul class="project-meta">
+<li><strong>Kunde</strong> TaniMilenial</li>
+<li><strong>Partner</strong> Clicks&amp;Co</li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Weitere Projekte</h2>
+<div class="project-grid">
+<a class="card" href="/de/projects/calvin-kain/">
+<img alt="Calvin Kain" class="thumb" height="764" loading="lazy" src="/assets/images/projects/calvin-kain.webp" width="1444"/>
+<div class="card-body"><h3>Calvin Kain</h3></div>
+</a>
+<a class="card" href="/de/projects/par/">
+<div class="thumb thumb-app"><img alt="Par" height="256" loading="lazy" src="/assets/images/projects/par-icon.webp" width="256"/></div>
+<div class="card-body"><h3>Par</h3></div>
+</a>
+<a class="card" href="/de/projects/cleanstorage/">
+<div class="thumb thumb-app"><img alt="CleanStorage" height="256" loading="lazy" src="/assets/images/projects/cleanstorage-icon.webp" width="256"/></div>
+<div class="card-body"><h3>CleanStorage</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genug über uns.</p>
+<h2>Wie können wir<br/>Ihnen helfen?</h2>
+<a class="button" href="/de/contact/">Projekt starten</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/de/about-us/">Über uns</a> <a href="/de/projects/">Projekte</a> <a href="/de/contact/">Kontakt</a> <a href="/de/privacy/">Datenschutz</a> <a href="/de/terms/">AGB</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/tani-milenial-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/tani-milenial-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/tani-milenial-application/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/tani-milenial-application/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/tani-milenial-application/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

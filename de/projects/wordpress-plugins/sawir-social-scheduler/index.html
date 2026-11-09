@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Social Scheduler | SawirStudio</title>
+<meta content="Einmal schreiben, aus wp-admin auf 27 Netzwerke planen. Anpassungen pro Kanal, Threads, Medien, Vorschau. Ihre Tokens bleiben auf Ihrem Server." name="description"/>
+<meta content="Sawir Social Scheduler | SawirStudio" property="og:title"/>
+<meta content="Einmal schreiben, aus wp-admin auf 27 Netzwerke planen. Anpassungen pro Kanal, Threads, Medien, Vorschau. Ihre Tokens bleiben auf Ihrem Server." property="og:description"/>
+<meta content="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" property="og:url"/>
+<link href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="de_DE" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-social-scheduler.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Social Scheduler",
+          "description": "Einmal schreiben, aus wp-admin auf 27 Netzwerke planen. Anpassungen pro Kanal, Threads, Medien, Vorschau. Ihre Tokens bleiben auf Ihrem Server.",
+          "url": "https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-social-scheduler-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://sawirstudio.com/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projekte",
+              "item": "https://sawirstudio.com/de/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress-Plugins",
+              "item": "https://sawirstudio.com/de/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Social Scheduler",
+              "item": "https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="logo" href="/de/" title="Startseite">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/posts/">Blog</a></li>
+<li><a aria-current="true" href="/de/projects/">Projekte</a></li>
+<li><a href="/de/about-us/">Über uns</a></li>
+<li><a href="/de/contact/">Kontakt</a></li>
+</ul>
+</nav>
+<button aria-label="Dunklen Modus umschalten" class="theme-toggle" title="Dunklen Modus umschalten" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Brotkrumennavigation" class="breadcrumbs">
+<ol>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/projects/">Projekte</a></li>
+<li><a href="/de/projects/wordpress-plugins/">WordPress-Plugins</a></li>
+<li><a aria-current="page" href="/de/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Social Scheduler</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Sawir Social Scheduler Banner" height="500" src="/assets/images/plugins/sawir-social-scheduler-banner.webp" width="1544"/></p>
+<p>Mit Sawir Social Scheduler schreiben Sie einen Beitrag einmal in wp-admin und planen ihn für 27 soziale Netzwerke, mit Anpassungen pro Kanal, Threads, Medien und Vorschau. Die Tokens Ihrer Konten bleiben auf Ihrem Server.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">Kostenlos auf WordPress.org herunterladen</a></p>
+<h2>Was es kann</h2>
+<p>Sawir Social Scheduler macht WordPress zu einem Planungstool für Social Media. Verbinden Sie Ihre Kanäle mit den Tokens, die jede Plattform Ihnen gibt, schreiben Sie einen Beitrag, wählen Sie die Kanäle, legen Sie ein Datum fest und veröffentlichen Sie. Jeder Versand läuft im Hintergrund und meldet sich mit einem Link oder der Fehlermeldung der jeweiligen Plattform zurück.</p>
+<p>Es gibt keinen gehosteten Dienst dazwischen. Zugangsdaten werden mit den Salts Ihrer Website verschlüsselt und verlassen Ihren Server nie.</p>
+<h3>Kanäle</h3>
+<p>Fügen Sie beliebig viele Kanäle hinzu, auch mehrere Konten pro Plattform. Jeder Kanal hat eine Schaltfläche <strong>Verbindung testen</strong>, die Kontonamen und Avatar abruft und bestätigt, dass der Token tatsächlich funktioniert, bevor Sie sich darauf verlassen.</p>
+<p><strong>Social:</strong> X (Twitter), Facebook-Seite, Instagram, Threads, LinkedIn-Seite, Bluesky, Mastodon, TikTok, YouTube, Pinterest, Tumblr, Dribbble, Google Business Profile</p>
+<p><strong>Community:</strong> Telegram, Discord, Slack, Reddit, Lemmy, VK, Kick, Twitch, Whop</p>
+<p><strong>Blog und Newsletter:</strong> WordPress, Medium, Dev.to, Hashnode, Listmonk</p>
+<p>Gruppieren Sie Kanäle nach Kunde oder Marke mit verschachtelten Gruppen und wählen Sie dann eine ganze Gruppe mit einem Klick aus.</p>
+<h3>Beiträge</h3>
+<ul>
+<li><strong>Ein Text, viele Kanäle.</strong> Wählen Sie Kanäle per Kontrollkästchen aus. Unveränderte Kanäle erhalten den Beitrag so, wie er geschrieben ist.</li>
+<li><strong>Pro Kanal anpassen.</strong> Aktivieren Sie bei einem Kanal „Anpassen“, um ihm eigene Teile zu geben: Text, Medien und Verzögerungen. Sie sind mit dem Beitrag vorausgefüllt, sodass Sie eine Kopie bearbeiten. Die anderen Kanäle behalten den Beitrag unverändert.</li>
+<li><strong>Threads.</strong> Fügen Sie Teile hinzu, um einen Thread auf X, Threads, Bluesky, Mastodon und Telegram zu veröffentlichen, jeweils mit eigenen Medien. Plattformen ohne Threads erhalten die Teile zusammengefügt.</li>
+<li><strong>Medien.</strong> Hängen Sie Bilder und Videos nur einmal an. Jede Plattform erhält, was sie unterstützt: Alben, Karussells, Reels, fortsetzbare Video-Uploads.</li>
+<li><strong>Planen.</strong> Nutzen Sie das übliche WordPress-Datum „Veröffentlichen am“ oder legen Sie für jeden Kanal eine eigene Zeit fest.</li>
+<li><strong>Posting-Zeiten.</strong> Legen Sie für einen Kanal die üblichen Tageszeiten fest. „Nächster freier Slot“ belegt den nächsten unbenutzten, der Kalender zeigt leere kommende Slots, die Sie per Klick füllen können, und die API akzeptiert <code>"date": "next"</code>.</li>
+<li><strong>Vorschau.</strong> Eine Live-Vorschau pro Kanal, die wie die echte Plattform aussieht. Zeichenlimits und Medienregeln werden angewendet, sodass Sie genau sehen, was veröffentlicht wird.</li>
+<li><strong>Kommentare und Verzögerungen.</strong> Auf Plattformen ohne Threads werden zusätzliche Teile als Kommentare unter dem Beitrag veröffentlicht. Jeder Teil kann eine festgelegte Anzahl von Minuten nach dem vorherigen warten.</li>
+<li><strong>Blogbeitrag teilen.</strong> Ein Feld im normalen Beitragseditor veröffentlicht auf Ihren Kanälen, sobald der Beitrag erscheint, mit eigenem Text und eigenen Medien.</li>
+<li><strong>Duplizieren.</strong> Kopieren Sie einen Beitrag samt Kanälen, Teilen und Anpassungen als neuen Entwurf. Entwürfe lassen sich als Vorlagen aufbewahren.</li>
+<li><strong>Erwähnungen.</strong> Tippen Sie <code>@handle</code>, und das Netzwerk löst es auf X, Instagram, Threads, Mastodon, Telegram, Reddit und Bluesky auf, wo Links und Handles zu echten Facets werden. LinkedIn-Unternehmensseiten schreiben Sie als <code>@[Name](org:12345)</code> mit der ID aus der Seiten-URL, Facebook-Seiten als <code>@[12345]</code>.</li>
+<li><strong>Wiederholen.</strong> Senden Sie Evergreen-Beiträge alle N Tage oder Wochen erneut, bis zu einem Datum oder eine bestimmte Anzahl von Malen. Jeder Durchlauf ist ein eigener Beitrag mit eigenen Sendungen und Statistiken. Setzen Sie <code>{n}</code> in den Text, um die Durchläufe zu nummerieren, da X, Threads und Bluesky identischen Text ablehnen.</li>
+</ul>
+<h3>Kalender</h3>
+<p>Jeder Beitrag verzweigt sich in einen Versand pro Kanal, und der Kalender zeigt jeden als Karte, eingefärbt nach Status: geplant, gesendet, fehlgeschlagen, angehalten, Entwurf, in Bearbeitung. Ziehen Sie eine Karte, um die Zeit dieses Kanals zu verschieben. Klicken Sie auf eine Karte für den Fehler, eine Schaltfläche „Erneut versuchen“, den Live-Link und Engagement-Zahlen. Klicken Sie auf einen leeren Slot, um zu dieser Zeit einen Beitrag zu beginnen. Monats-, Wochen-, Tages- und Listenansicht, filterbar nach Gruppe und Status.</p>
+<h3>Analytics</h3>
+<p>Likes, Kommentare, Shares, Aufrufe und Impressionen werden auf 16 Plattformen 1 Stunde, 1 Tag und 1 Woche nach jedem Versand sowie auf Abruf erfasst. Follower-Zahlen werden täglich pro Kanal aufgezeichnet, mit einer 30-Tage-Sparkline. Die Zahlen erscheinen auf den Kalenderkarten, im Analytics-Feld des Beitrags und in der Kanalliste. Die Analytics-Seite fasst die letzten 7, 30 oder 90 Tage im Vergleich zum vorherigen Zeitraum zusammen: gesendete Beiträge, Engagement, Reichweite und Follower samt Veränderung, ein Follower-Diagramm, Engagement nach Kanal und Ihre besten Beiträge.</p>
+<h3>Freigabe durch Kunden</h3>
+<p>Aktivieren Sie „Versand bis zur Freigabe anhalten“, kopieren Sie den Vorschau-Link und schicken Sie ihn Ihrem Kunden. Er sieht den Beitrag so, wie er auf jedem Kanal aussehen wird, ohne Login, und klickt auf „Freigeben“ oder „Änderungen anfordern“ mit einer Notiz. Mit der Freigabe werden die Sendungen losgeschickt. Jede Entscheidung bleibt als Verlauf erhalten.</p>
+<p>Große Video-Uploads zu X, YouTube und TikTok laufen in kurzen Abschnitten, die über Hintergrundjobs hinweg fortgesetzt werden. So überstehen sie die Zeitlimits des Hostings und laden nie eine ganze Datei in den Arbeitsspeicher.</p>
+<h3>REST-API</h3>
+<p>Alles, was das Backend kann, steht unter <code>/wp-json/sawir-social/v1</code> für Automatisierungen, mobile Apps und andere Websites bereit. Die Authentifizierung erfolgt mit einem Anwendungspasswort; die Berechtigungen folgen den Capabilities des Plugins, und Zugangsdaten der Kanäle werden nie zurückgegeben.</p>
+<ul>
+<li><code>GET /platforms</code>, <code>GET /channels</code>, <code>GET /channels/{id}</code>, <code>POST /channels/{id}/test</code></li>
+<li><code>GET|POST /posts</code>, <code>GET|PATCH|DELETE /posts/{id}</code>, <code>POST /posts/{id}/duplicate</code>, <code>GET /posts/{id}/analytics</code></li>
+<li><code>GET /sends</code>, <code>GET /sends/{id}</code>, <code>POST /sends/{id}/retry</code>, <code>POST /sends/{id}/stats</code></li>
+</ul>
+<p>Einen Beitrag erstellen Sie mit <code>{"title","content","status":"future","date":"2026-12-25 09:00","media":[12],"parts":[{"text","media","delay"}],"channels":[{"id":38,"parts":[{"text","media","delay"}],"date":"…"}],"groups":["Client A"],"hold":false}</code>. Die <code>parts</code> eines Kanals ersetzen den Beitrag für diesen Kanal; <code>text</code> ist die Kurzform für einen einzelnen Teil.</p>
+<h3>KI-Agenten</h3>
+<p>Dieselben Operationen sind bei der WordPress Abilities API registriert als <code>sawir-social/list-channels</code>, <code>create-post</code>, <code>update-post</code>, <code>list-posts</code>, <code>list-sends</code>, <code>retry-send</code>, <code>test-channel</code>, <code>get-analytics</code> und <code>list-platforms</code>, mit typisierten Ein- und Ausgabeschemata. Jeder Agent, der über den WordPress MCP Adapter verbunden ist, sieht sie als Tools, und sie lassen sich auch unter <code>/wp-json/wp-abilities/v1/abilities/{name}/run</code> aufrufen. Die Abilities API ist Teil von WordPress 6.9 und neuer; für ältere Versionen bringt das Plugin sie mit, sodass die Abilities überall verfügbar sind, wo das Plugin läuft.</p>
+<h3>Voraussetzungen</h3>
+<p>Sendungen laufen im Hintergrund über Action Scheduler, wenn Ihre Website es hat (WooCommerce und viele andere Plugins bringen es mit), sonst über WP-Cron. Beim integrierten Cron von WordPress kommen sie nur voran, wenn die Website Besuch bekommt. Für zügigen Versand richten Sie einen System-Cron ein; der Kalender-Bildschirm zeigt den genauen Befehl für Ihre Website.</p>
+<p>Medien müssen für Plattformen, die sie per URL abrufen (Instagram, Threads, Facebook, Pinterest, Telegram), aus dem Internet erreichbar sein. Eine lokale Entwicklungsumgebung kann ihnen keine Bilder liefern.</p>
+<h3>Credits</h3>
+<p>Enthält FullCalendar (MIT), die WordPress-Abilities-API-Bibliothek (GPL) und Markenzeichen von Simple Icons (CC0). Nutzt Action Scheduler, wenn ein anderes Plugin es bereitstellt.</p>
+<h2>Screenshots</h2>
+<p><img alt="Sawir Social Scheduler Screenshot 1" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler Screenshot 2" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler Screenshot 3" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-3.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler Screenshot 4" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-4.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler Screenshot 5" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-5.webp" width="1280"/></p>
+<p><img alt="Sawir Social Scheduler Screenshot 6" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-6.webp" width="1280"/></p>
+<h2>Fragen</h2>
+<h3>Woher bekomme ich die Tokens?</h3>
+<p>In den Entwicklereinstellungen der jeweiligen Plattform. Das Kanalformular nennt die genau benötigten Zugangsdaten, zum Beispiel ein Facebook-Seiten-Zugriffstoken, ein Telegram-Bot-Token oder ein Bluesky-App-Passwort. Langlebige Tokens sind am besten; Tokens von Meta und LinkedIn laufen nach etwa 60 Tagen ab und müssen neu eingefügt werden.</p>
+<h3>Mein Telegram-Test meldet „chat not found“</h3>
+<p>Private Kanäle haben keinen @Benutzernamen. Lassen Sie die Chat-ID leer und klicken Sie auf „Verbindung testen“: Das Plugin listet alle Chats auf, zu denen der Bot hinzugefügt wurde, mit der numerischen ID zum Einfügen.</p>
+<h3>Warum bleibt ein Versand bei „In Bearbeitung…“ hängen?</h3>
+<p>Die Hintergrundwarteschlange ist noch nicht gelaufen. Rufen Sie die Website auf oder richten Sie den System-Cron ein, der im Kalender-Bildschirm angezeigt wird.</p>
+<h3>Kann ich von einer lokalen Website aus ein Video auf Instagram veröffentlichen?</h3>
+<p>Nein. Instagram ruft Medien per URL ab und braucht eine öffentliche Adresse. Alles andere am Plugin funktioniert lokal.</p>
+<h2>Passt gut dazu</h2>
+<ul>
+<li><a href="/de/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: zeigt, wie Besucher Ihre Website nutzen, mit Heatmaps, Sitzungsaufzeichnungen, Umfragen, Funnels und Formular-Analysen, und behält alle Daten auf Ihrem eigenen Server..</li>
+<li><a href="/de/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: übersetzt Ihre Seiten direkt dort, wo sie stehen: Sprache wählen, sichtbare Inhalte automatisch übersetzen, speichern und Besuchern einen Sprachumschalter anbieten.</li>
+</ul>
+<p>Alle unsere <a href="/de/projects/wordpress-plugins/">kostenlosen WordPress-Plugins</a> finden Sie hier.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Preis</strong> Kostenlos</li>
+<li><strong>Version</strong> 0.1.0</li>
+<li><strong>Voraussetzungen</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>Lizenz</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-social-scheduler/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Genug über uns.</p>
+<h2>Wie können wir<br/>Ihnen helfen?</h2>
+<a class="button" href="/de/contact/">Projekt starten</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/de/about-us/">Über uns</a> <a href="/de/projects/">Projekte</a> <a href="/de/contact/">Kontakt</a> <a href="/de/privacy/">Datenschutz</a> <a href="/de/terms/">AGB</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

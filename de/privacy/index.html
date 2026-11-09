@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Datenschutz | SawirStudio</title>
+<meta content="Was sawirstudio.com erfasst, warum und welche Dienste die Daten verarbeiten: Microsoft Clarity, das Kontaktformular, Google Fonts und Cloudflare." name="description"/>
+<meta content="Datenschutz | SawirStudio" property="og:title"/>
+<meta content="Was sawirstudio.com erfasst, warum und welche Dienste die Daten verarbeiten: Microsoft Clarity, das Kontaktformular, Google Fonts und Cloudflare." property="og:description"/>
+<meta content="https://sawirstudio.com/de/privacy/" property="og:url"/>
+<link href="https://sawirstudio.com/de/privacy/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="de_DE" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://sawirstudio.com/de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Datenschutz",
+          "item": "https://sawirstudio.com/de/privacy/"
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/privacy/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/privacy/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/privacy/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/privacy/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/privacy/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/privacy/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="logo" href="/de/" title="Startseite">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/posts/">Blog</a></li>
+<li><a href="/de/projects/">Projekte</a></li>
+<li><a href="/de/about-us/">Über uns</a></li>
+<li><a href="/de/contact/">Kontakt</a></li>
+</ul>
+</nav>
+<button aria-label="Dunklen Modus umschalten" class="theme-toggle" title="Dunklen Modus umschalten" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner stack" role="banner">
+<nav aria-label="Brotkrumennavigation" class="breadcrumbs">
+<ol>
+<li><a href="/de/">Startseite</a></li>
+<li><a aria-current="page" href="/de/privacy/">Datenschutz</a></li>
+</ol>
+</nav>
+<h1>Was diese Website <span class="mark mark-blue">erfasst</span></h1>
+<p class="lead">Ganz klar: was wir messen, was Sie uns senden und wer es sonst noch verarbeitet.</p>
+</section>
+<section class="section">
+<div class="prose">
+<p><em>Zuletzt aktualisiert am 28. Oktober 2026</em></p>
+<h2>Wie wir die Website messen</h2>
+<p>Wir nutzen <a href="https://clarity.microsoft.com/" rel="noopener" target="_blank">Microsoft Clarity</a>, um zu sehen, wie diese Website genutzt wird: welche Seiten geöffnet werden, wo geklickt wird und wie weit gescrollt wird. Clarity zeichnet Sitzungen außerdem als Wiedergaben auf, zusammen mit Ihrem Browser, Ihrem Gerät, Ihrem ungefähren Standort und der Seite, über die Sie zu uns gekommen sind. Dabei können Cookies gesetzt werden, um einen Besuch vom nächsten zu unterscheiden.</p>
+<p>Das werten wir aus, um Unklares oder Fehlerhaftes zu finden und zu beheben. Wir verkaufen diese Daten nicht. Microsoft verarbeitet die Daten gemäß der <a href="https://privacy.microsoft.com/privacystatement" rel="noopener" target="_blank">Microsoft-Datenschutzerklärung</a>.</p>
+<h2>Wenn Sie uns kontaktieren</h2>
+<p>Das <a href="/de/contact/">Kontaktformular</a> sendet Ihren Namen, Ihre E-Mail-Adresse, Ihr Unternehmen (falls Sie eines angeben), Ihr Anliegen und Ihre Nachricht an ein Google Formular in unserem Google-Konto. Wir nutzen diese Angaben, um Ihnen zu antworten und mit Ihnen über Ihr Projekt zu sprechen. Auf Wunsch löschen wir sie.</p>
+<h2>Dienste, die die Website lädt</h2>
+<p>Die Schriften stammen von Google Fonts. Beim Abrufen teilt Ihr Browser deshalb Ihre IP-Adresse mit Google (<a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Datenschutzerklärung von Google</a>). Die Website wird bei Cloudflare gehostet, das jede Anfrage auf dem Weg zu Ihnen verarbeitet (<a href="https://www.cloudflare.com/privacypolicy/" rel="noopener" target="_blank">Datenschutzerklärung von Cloudflare</a>).</p>
+<h2>In Ihrem Browser gespeichert</h2>
+<p>Wenn Sie zwischen hellem und dunklem Modus wechseln, merkt sich Ihr Browser die Auswahl im lokalen Speicher. Sie bleibt auf Ihrem Gerät und wird nicht an uns übermittelt.</p>
+<h2>Unsere Apps</h2>
+<p>Jede unserer Apps hat eine eigene Datenschutzerklärung, die in ihrem Eintrag im App Store verlinkt ist. Alle finden Sie unter <a href="/de/projects/">Projekte</a>.</p>
+<h2>Fragen</h2>
+<p>Bei Fragen zu Ihren Daten oder wenn Sie diese löschen lassen möchten, schreiben Sie uns über das <a href="/de/contact/">Kontaktformular</a>.</p>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/de/about-us/">Über uns</a> <a href="/de/projects/">Projekte</a> <a href="/de/contact/">Kontakt</a> <a href="/de/privacy/">Datenschutz</a> <a href="/de/terms/">AGB</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/privacy/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/privacy/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/privacy/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

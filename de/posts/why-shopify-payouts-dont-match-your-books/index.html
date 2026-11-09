@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Warum Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen | SawirStudio</title>
+<meta content="Warum das Geld, das Shopify Payments auf Ihr Bankkonto überweist, nie zu Ihrem Umsatzbericht passt: Gebühren, Rückerstattungen, Zahlungsstreitigkeiten, Geschenkgutscheine, Währungsumrechnung und Zeitversatz, und wie Sie alles abstimmen." name="description"/>
+<meta content="Warum Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen | SawirStudio" property="og:title"/>
+<meta content="Warum das Geld, das Shopify Payments auf Ihr Bankkonto überweist, nie zu Ihrem Umsatzbericht passt: Gebühren, Rückerstattungen, Zahlungsstreitigkeiten, Geschenkgutscheine, Währungsumrechnung und Zeitversatz, und wie Sie alles abstimmen." property="og:description"/>
+<meta content="https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/" property="og:url"/>
+<link href="https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="de_DE" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Warum Ihre Shopify-Auszahlungen nie zu Ihrer Buchhaltung passen",
+          "description": "Warum das Geld, das Shopify Payments auf Ihr Bankkonto überweist, nie zu Ihrem Umsatzbericht passt: Gebühren, Rückerstattungen, Zahlungsstreitigkeiten, Geschenkgutscheine, Währungsumrechnung und Zeitversatz, und wie Sie alles abstimmen.",
+          "url": "https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://sawirstudio.com/de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/de/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Warum Ihre Shopify-Auszahlungen nie zu Ihrer Buchhaltung passen",
+              "item": "https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+<header class="site-header">
+<a class="logo" href="/de/" title="Startseite">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/de/">Startseite</a></li>
+<li><a aria-current="true" href="/de/posts/">Blog</a></li>
+<li><a href="/de/projects/">Projekte</a></li>
+<li><a href="/de/about-us/">Über uns</a></li>
+<li><a href="/de/contact/">Kontakt</a></li>
+</ul>
+</nav>
+<button aria-label="Dunklen Modus umschalten" class="theme-toggle" title="Dunklen Modus umschalten" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Brotkrumennavigation" class="breadcrumbs is-center">
+<ol>
+<li><a href="/de/">Startseite</a></li>
+<li><a href="/de/posts/">Blog</a></li>
+<li><a aria-current="page" href="/de/posts/why-shopify-payouts-dont-match-your-books/">Warum Ihre Shopify-Auszahlungen nie zu Ihrer Buchhaltung passen</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Warum Ihre Shopify-Auszahlungen nie zu Ihrer Buchhaltung passen</h1>
+<div class="prose prose-xl">
+<p>Ihr Umsatzbericht nennt eine Zahl. Ihre Bank eine andere. Dazwischen liegen Gebühren, Rückerstattungen, Rückbuchungen und ein paar Tage Zeitversatz, und jeden Monat verbringt jemand einen Nachmittag damit, das in einer Tabelle auseinanderzuklauben.</p>
+<p>Mit all dem haben wir uns beim Schreiben des Buchhaltungsmoduls unseres <a href="/de/projects/odoo-shopify-connector/">Shopify-Connectors für Odoo</a> beschäftigt. Hier sind die Gründe, warum die Zahlen abweichen, und wie Sie sie zur Deckung bringen.</p>
+<h2>Eine Auszahlung ist ein Nettobetrag</h2>
+<p>Shopify Payments überweist Ihnen nicht Ihre Umsätze. Es überweist, was übrig bleibt, nachdem alles andere verrechnet wurde: Umsätze, abzüglich Rückerstattungen, abzüglich Zahlungsgebühren, abzüglich Zahlungsstreitigkeiten, zuzüglich oder abzüglich Korrekturen. Wenn Sie die Auszahlung als Umsatz verbuchen, stimmt Ihr Umsatz nicht, und Ihre Gebühren sind unsichtbar.</p>
+<p>Die Lösung: Buchen Sie die Einzelposten, nicht die Summe. Umsätze gehen auf das Erlöskonto, Gebühren auf ein Aufwandskonto, Rückerstattungen werden gegen die Umsätze gebucht, und die Auszahlung selbst ist nur eine Geldbewegung von einem Verrechnungskonto auf die Bank.</p>
+<h2>Eine Auszahlung deckt nicht nur einen Tag ab</h2>
+<p>Eine Auszahlung enthält Transaktionen mehrerer Tage, je nach Ihrem Auszahlungsrhythmus, und eine Bestellung vom Freitag kann in der Auszahlung vom Dienstag landen. Bestellungen und Zahlungseingänge nach Datum abzugleichen funktioniert nie lange. Gleichen Sie stattdessen nach Auszahlung ab: Shopify erfasst, aus welchen Saldotransaktionen sich jede Auszahlung zusammensetzt, und diese Liste ist die einzige verlässliche Verbindung zwischen einer Bestellung und dem Geld auf dem Bankkonto.</p>
+<h2>Rückerstattungen werden von späteren Auszahlungen abgezogen</h2>
+<p>Wenn Sie eine Bestellung vom Vormonat erstatten, wird das Geld von einer Auszahlung in diesem Monat abgezogen. Ihr Umsatzbericht ordnet die Rückerstattung der ursprünglichen Bestellung zu. Ihre Bank zeigt heute einen kleineren Zahlungseingang. Beides stimmt.</p>
+<h2>Zahlungsstreitigkeiten kosten doppelt</h2>
+<p>Wenn ein Kunde eine Abbuchung anficht, werden der strittige Betrag und eine Rückbuchungsgebühr von Ihrem Guthaben abgezogen. Gewinnen Sie den Fall, kommt der Betrag zurück, meist erst nach Wochen. Das sind drei getrennte Einträge für eine Bestellung, verteilt auf zwei oder drei Auszahlungen.</p>
+<h2>Geschenkgutscheine sind beim Verkauf kein Umsatz</h2>
+<p>Wer einen Geschenkgutschein verkauft, nimmt Geld ein, das er später als Ware zurückgeben muss. Das gehört auf ein Verbindlichkeitskonto, bis der Gutschein eingelöst wird. Verbuchen Sie Gutscheinverkäufe als Umsatz, zählen Sie denselben Verkauf doppelt: einmal beim Kauf des Gutscheins und noch einmal bei der Einlösung.</p>
+<h2>Währungsumrechnung</h2>
+<p>Wenn Sie in mehreren Währungen verkaufen, erscheinen Umrechnungen als eigene Saldotransaktionen, und der Kurs am Verkaufstag ist nicht der Kurs am Auszahlungstag. Mit der Shopify-API-Version 2026-10 gibt es einen eigenen Transaktionstyp <code>CURRENCY_CONVERSION</code>, sodass die Umrechnung auf einer eigenen Zeile gebucht werden kann, statt sich in einer Rundungsdifferenz zu verstecken.</p>
+<h2>Rücklagen und Korrekturen</h2>
+<p>Shopify kann einen Teil Ihres Guthabens als Rücklage einbehalten, und Korrekturen erscheinen als Anpassungen. Beides ist weder ein Umsatz noch eine Gebühr, daher braucht beides ein eigenes Konto.</p>
+<h2>So geht die Rechnung auf</h2>
+<p>Behandeln Sie jede Auszahlung wie eine kleine Buchung, die aus ihren Saldotransaktionen aufgebaut wird: Jeder Verkauf, jede Rückerstattung, Gebühr, Zahlungsstreitigkeit und Korrektur steht auf einer eigenen Zeile, und alles landet auf einem Verrechnungskonto, das der Bankeingang anschließend ausgleicht. Wenn die Zeilen zusammen nicht die Auszahlung ergeben, ist etwas falsch zugeordnet, und das sollten Sie wissen.</p>
+<p>So arbeitet unser Buchhaltungsmodul für Odoo. Es plant jede Buchung anhand der exakten Beträge von Shopify, und wenn die Buchung nicht aufgeht, bricht es mit einer klaren Fehlermeldung ab. Es fügt nie eine „Ausgleichszeile“ hinzu, um die Differenz verschwinden zu lassen, denn diese Zeile ist nur der Fehler, aufgeschrieben an einer Stelle, wo ihn niemand sucht.</p>
+<p>Wenn Ihr Shopify-Geld und Ihre Buchhaltung jeden Monat auseinanderlaufen, <a href="/de/shopify/">helfen wir Ihnen gern</a>.</p>
+<p><strong>Weiterlesen:</strong> <a href="/de/posts/connect-shopify-to-odoo-19-community/">Shopify mit Odoo 19 Community verbinden, Schritt für Schritt</a> oder <a href="/de/posts/shopify-2026-10-api-what-breaks/">Shopifys 2026-10-API: Was in Ihren Integrationen kaputtgeht</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Haben Sie aus diesem Beitrag etwas mitgenommen?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Ich würde mich über Ihre E-Mail-Adresse freuen, damit ich Ihnen weitere Beiträge wie diesen schicken kann, sobald ein neuer erscheint.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="E-Mail-Adresse" class="formkit-input" name="email_address" placeholder="E-Mail-Adresse" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Abonnieren</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Ich verschicke keinen Spam. Sie können sich jederzeit abmelden.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/de/about-us/">Über uns</a> <a href="/de/projects/">Projekte</a> <a href="/de/contact/">Kontakt</a> <a href="/de/privacy/">Datenschutz</a> <a href="/de/terms/">AGB</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/why-shopify-payouts-dont-match-your-books/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/why-shopify-payouts-dont-match-your-books/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/why-shopify-payouts-dont-match-your-books/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
