@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>PeopleBond HCMS Application | SawirStudio</title>
+<meta content="Веб-приложение HCMS (система управления человеческим капиталом) для PeopleBond, созданное SawirStudio." name="description"/>
+<meta content="PeopleBond HCMS Application | SawirStudio" property="og:title"/>
+<meta content="Веб-приложение HCMS (система управления человеческим капиталом) для PeopleBond, созданное SawirStudio." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/projects/peoplebond-hcms-application/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/projects/peoplebond-hcms-application/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/peoplebond-hcms-application.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "PeopleBond HCMS Application",
+          "description": "Веб-приложение HCMS (система управления человеческим капиталом) для PeopleBond, созданное SawirStudio.",
+          "url": "https://sawirstudio.com/ru/projects/peoplebond-hcms-application/",
+          "image": "https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Проекты",
+              "item": "https://sawirstudio.com/ru/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "PeopleBond HCMS Application",
+              "item": "https://sawirstudio.com/ru/projects/peoplebond-hcms-application/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/peoplebond-hcms-application/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/peoplebond-hcms-application/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="true" href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Навигация по разделам" class="breadcrumbs">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a aria-current="page" href="/ru/projects/peoplebond-hcms-application/">PeopleBond HCMS Application</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">PeopleBond HCMS Application</h1>
+<p class="lead-sm">Система управления человеческим капиталом</p>
+<img alt="Скриншот панели управления PeopleBond" class="project-hero" fetchpriority="high" height="878" src="/assets/images/projects/peoplebond-hcms-application.webp" style="view-transition-name: media-peoplebond-hcms-application" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>Клиент</h2>
+<p>PeopleBond — это система управления человеческим капиталом (HCMS) для индонезийских компаний, охватывающая весь жизненный цикл сотрудника: от найма до расчёта зарплаты.</p>
+<h2>Что мы сделали</h2>
+<p>Мы создали HCMS для PeopleBond: веб-приложение для управления сотрудниками, подбором персонала, табелями учёта времени, расчётом зарплаты, отпусками, компетенциями, оценкой и обучением, а также мобильное приложение для сотрудников (PeopleBond Connect, или pbConnect) и сайт с документацией.</p>
+<p>pbConnect собирает повседневные HR-задачи в кармане каждого сотрудника. Разработка ведётся с 2021 года вместе с командой PeopleBond, приложение доступно в App Store и Google Play.</p>
+<ul>
+<li><strong>Отметка прихода и ухода.</strong> Учёт посещаемости с геометкой, селфи с проверкой лица прямо на устройстве (если компания включила эту функцию) или QR-код в офисе.</li>
+<li><strong>Заявки и согласования.</strong> Отпуск, отсутствие, сверхурочная работа и корректировка посещаемости, с согласованием для руководителей и обзором по подчинённым.</li>
+<li><strong>Зарплата и информация о компании.</strong> Расчётные листки, рабочий календарь, структура организации, корпоративные политики и новости.</li>
+<li><strong>Уведомления.</strong> Push-уведомления и входящие, чтобы ни одна заявка не осталась незамеченной.</li>
+<li><strong>Два языка.</strong> Английский и индонезийский.</li>
+</ul>
+<h2>Как мы подошли к задаче</h2>
+<p>Учёт посещаемости — это то, что HR-приложение проверяет каждый день, и именно здесь сильнее всего соблазн схитрить. Поэтому при отметке приложение проверяет, где находится сотрудник, может запросить лицо на селфи и не запускается на телефоне с джейлбрейком или root-доступом. Остальные функции построены на той же идее: то, что раньше требовало бланка и подписи, сотрудник должен успевать сделать за минуту на своём телефоне.</p>
+<p><strong>Технологии</strong> Laravel, Filament, Flutter и Firebase</p>
+</div>
+<ul class="project-meta">
+<li><strong>Клиент</strong> PeopleBond</li>
+<li><strong>Сайт</strong> <a href="http://peoplebond.id" rel="noreferrer" target="_blank">http://peoplebond.id</a></li>
+<li><strong>Ссылка в App Store</strong> <a href="https://apps.apple.com/app/peoplebond-connect/id1641479129" rel="noreferrer" target="_blank">https://apps.apple.com/app/peoplebond-connect/id1641479129</a></li>
+<li><strong>Ссылка в Google Play</strong> <a href="https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect" rel="noreferrer" target="_blank">https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Другие проекты</h2>
+<div class="project-grid">
+<a class="card" href="/ru/projects/tani-milenial-application/">
+<img alt="Приложение TaniMilenial" class="thumb" height="688" loading="lazy" src="/assets/images/projects/tani-milenial-application.webp" width="1410"/>
+<div class="card-body"><h3>Приложение TaniMilenial</h3></div>
+</a>
+<a class="card" href="/ru/projects/growinc-group-website/">
+<img alt="Сайт Growinc Group" class="thumb" height="900" loading="lazy" src="/assets/images/projects/growinc-group-website.webp" width="1600"/>
+<div class="card-body"><h3>Сайт Growinc Group</h3></div>
+</a>
+<a class="card" href="/ru/projects/fluindo-technology-indonesia-website/">
+<img alt="Сайт Fluindo Technology Indonesia" class="thumb" height="746" loading="lazy" src="/assets/images/projects/fluindo-technology-indonesia-website.webp" width="1448"/>
+<div class="card-body"><h3>Сайт Fluindo Technology Indonesia</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Хватит о нас.</p>
+<h2>Чем мы можем<br/>Вам помочь?</h2>
+<a class="button" href="/ru/contact/">Начать проект</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/peoplebond-hcms-application/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/peoplebond-hcms-application/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/peoplebond-hcms-application/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/peoplebond-hcms-application/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/peoplebond-hcms-application/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/peoplebond-hcms-application/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/peoplebond-hcms-application/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

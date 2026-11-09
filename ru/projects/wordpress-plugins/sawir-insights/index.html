@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Insights | SawirStudio</title>
+<meta content="Тепловые карты, записи сессий, опросы, воронки и аналитика форм. Все данные остаются на вашем сервере." name="description"/>
+<meta content="Sawir Insights | SawirStudio" property="og:title"/>
+<meta content="Тепловые карты, записи сессий, опросы, воронки и аналитика форм. Все данные остаются на вашем сервере." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-insights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "Тепловые карты, записи сессий, опросы, воронки и аналитика форм. Все данные остаются на вашем сервере.",
+          "url": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Проекты",
+              "item": "https://sawirstudio.com/ru/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Плагины для WordPress",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="true" href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Навигация по разделам" class="breadcrumbs">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/projects/wordpress-plugins/">Плагины для WordPress</a></li>
+<li><a aria-current="page" href="/ru/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Insights</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Баннер Sawir Insights" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" width="1544"/></p>
+<p>Sawir Insights показывает, как посетители пользуются вашим сайтом: тепловые карты, записи сессий, опросы, воронки и аналитика форм. Все данные хранятся на вашем собственном сервере.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">Скачать бесплатно на WordPress.org</a></p>
+<h2>Что он умеет</h2>
+<p>Sawir Insights — это поведенческая аналитика для WordPress: тепловые карты, записи сессий, опросы, виджет обратной связи, аналитика форм, воронки конверсии и дашборд, который объединяет все эти данные.</p>
+<p>В мультисайтовых сетях каждый сайт отслеживает и настраивает свою аналитику независимо от остальных.</p>
+<p>Коротко: это self-hosted альтернатива Hotjar и Microsoft Clarity, в которой данные посетителей остаются в вашей собственной базе данных.</p>
+<p>Причина появления плагина проста. Привычные инструменты в этой категории хороши, но работают они так: запись всего, что делают ваши посетители, уходит на чужие серверы. Для многих сайтов, особенно в ЕС, это в лучшем случае неудобно, а в худшем неприемлемо. Мне хотелось получить инструменты того же класса, но с данными, которые не покидают сайт, где их собрали. Поэтому плагин построен вокруг одного ограничения: ваша база данных, ваша папка uploads, ваши правила хранения. За ним нет никакого SaaS, не нужно создавать аккаунт, и он ничего не отправляет «домой».</p>
+<h3>Что он умеет</h3>
+<ul>
+<li>Тепловые карты кликов, движений курсора и прокрутки накладываются на ваши живые страницы, с разделением по десктопу, планшету и мобильным устройствам.</li>
+<li>Записи сессий с воспроизведением в wp-admin. Значения в полях ввода всегда маскируются, а запись отключена, пока вы сами её не включите.</li>
+<li>Всплывающие опросы и постоянная вкладка обратной связи с таргетингом по URL, устройству, проценту трафика, времени на странице, глубине прокрутки или намерению уйти со страницы.</li>
+<li>Аналитика форм: где люди колеблются, какие поля оставляют пустыми, на каком этапе уходят. Только селекторы и тайминги, никогда не то, что человек вводил.</li>
+<li>Упорядоченные воронки конверсии с ежедневными отчётами.</li>
+<li>Дашборд с ключевыми показателями трафика и динамикой по периодам, ежедневным графиком тренда и разбивкой по устройствам, браузерам, страницам, источникам переходов, кампаниям, воронкам и записям.</li>
+</ul>
+<h3>Чего плагин делать принципиально не будет</h3>
+<p>Мне кажется, о том, от чего инструмент отказывается, нужно знать до установки.</p>
+<ul>
+<li>Он не хранит IP-адреса. Ни в хешированном, ни в усечённом виде, вообще никак.</li>
+<li>Он никогда не записывает значения полей форм. Слой сбора отправляет только метаданные, так что утекать нечему.</li>
+<li>Он ничего не загружает с CDN и ничего не отправляет на CDN. Библиотека воспроизведения rrweb входит в состав плагина.</li>
+<li>Он не хранит сырые данные вечно. События агрегируются и удаляются по графику хранения, который задаёте вы, а у записей свои сроки хранения и лимит на дисковое пространство с удалением самых старых файлов в первую очередь: плагин, который незаметно забивает диск хостинга, никуда не годится.</li>
+</ul>
+<p>Трекер на фронтенде — это небольшой скрипт на чистом JavaScript, который отправляет данные пакетами через <code>sendBeacon</code> и поддерживает настройку выборки. Посетители, не попавшие в выборку для записи, вообще не загружают библиотеку воспроизведения.</p>
+<h3>Подход к конфиденциальности</h3>
+<p>Сигнал Do Not Track по умолчанию учитывается. API режима согласия (<code>window.swinsConsent</code>) интегрируется с любым менеджером согласий, который вы уже используете. Сессии, события и записи подключены к встроенным инструментам WordPress для экспорта и удаления персональных данных. Соответствует ли ваше конкретное решение GDPR, зависит от ваших уведомлений и правового основания, и этого за вас не сделает ни один плагин, но работа по минимизации данных уже выполнена.</p>
+<h3>Поддержка</h3>
+<p>Поддержка работает через форум этого плагина на wordpress.org, а также по почте ricardo@sawirstudio.com.</p>
+<h2>Вопросы</h2>
+<h3>Чем он отличается от аналогов?</h3>
+<p>Облачные сервисы аналитики, такие как Hotjar и Microsoft Clarity, — отличные инструменты с щедрыми бесплатными тарифами, но работают они так: данные о поведении ваших посетителей отправляются на их серверы. Sawir Insights отказывается от такой межсайтовой инфраструктуры ради одного ограничения: всё собирается, хранится и просматривается на вашем собственном сайте. Выбирайте облачный сервис, если вам нужны его дополнительные возможности и вас не смущает обработка данных третьей стороной. Выбирайте Sawir Insights, если выход данных посетителей за пределы вашего сервера для вас неприемлем. Записи и тепловые карты хранятся в вашей базе данных и папке uploads, поэтому настройки хранения здесь важнее, чем в SaaS.</p>
+<h3>Соответствует ли Sawir Insights требованиям GDPR?</h3>
+<p>Плагин рассчитан на тех, кто серьёзно относится к конфиденциальности: данные остаются на вашем сервере, IP-адреса не хранятся, срок хранения настраивается, сигнал Do Not Track учитывается, а инструменты экспорта и удаления данных WordPress подключены. Само соответствие требованиям зависит от вашей конфигурации, уведомлений, правового основания и реализации согласия, поэтому для своего сайта проконсультируйтесь с квалифицированным юристом.</p>
+<h3>Чем это отличается от Hotjar или Microsoft Clarity?</h3>
+<p>Это облачные сервисы: мощные инструменты, но поведение ваших посетителей записывается на их серверы на их условиях. Sawir Insights охватывает ту же категорию — тепловые карты, записи сессий, опросы, воронки, аналитику форм — но как плагин, который хранит всё на вашем собственном сервере: без аккаунта, без внешнего сервиса и без передачи данных третьим лицам.</p>
+<h3>Покидают ли данные посетителей мой сервер?</h3>
+<p>Нет. Плагин не отправляет поведенческие данные ни в Sawir Studio, ни какому-либо аналитическому провайдеру. События хранятся в базе данных WordPress, а файлы записей лежат в защищённой папке uploads.</p>
+<h2>Хорошо сочетается с</h2>
+<ul>
+<li><a href="/ru/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a> показывает покупателям, что на самом деле происходит в вашем магазине: недавние заказы, посетителей, которые смотрят товар, и свежие отзывы в виде небольших уведомлений в углу экрана.</li>
+<li><a href="/ru/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: переводит страницы прямо на месте — выберите язык, автоматически переведите то, что видно на экране, сохраните перевод и добавьте для посетителей переключатель языков.</li>
+</ul>
+<p>Посмотрите все наши <a href="/ru/projects/wordpress-plugins/">бесплатные плагины для WordPress</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Цена</strong> Бесплатно</li>
+<li><strong>Версия</strong> 1.0.0</li>
+<li><strong>Требования</strong> WordPress 6.2, PHP 7.4</li>
+<li><strong>Лицензия</strong> GPLv2 или новее</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-insights/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Хватит о нас.</p>
+<h2>Чем мы можем<br/>Вам помочь?</h2>
+<a class="button" href="/ru/contact/">Начать проект</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-insights/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-insights/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-insights/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-insights/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-insights/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

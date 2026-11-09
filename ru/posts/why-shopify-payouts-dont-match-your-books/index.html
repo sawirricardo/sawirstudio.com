@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Почему выплаты Shopify не совпадают с вашей бухгалтерией | SawirStudio</title>
+<meta content="Почему деньги, которые Shopify Payments отправляет в ваш банк, никогда не совпадают с отчётом о продажах: комиссии, возвраты, споры, подарочные карты, конвертация валют и задержки — и как всё это сверить." name="description"/>
+<meta content="Почему выплаты Shopify не совпадают с вашей бухгалтерией | SawirStudio" property="og:title"/>
+<meta content="Почему деньги, которые Shopify Payments отправляет в ваш банк, никогда не совпадают с отчётом о продажах: комиссии, возвраты, споры, подарочные карты, конвертация валют и задержки — и как всё это сверить." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Почему выплаты Shopify никогда не совпадают с вашей бухгалтерией",
+          "description": "Почему деньги, которые Shopify Payments отправляет в ваш банк, никогда не совпадают с отчётом о продажах: комиссии, возвраты, споры, подарочные карты, конвертация валют и задержки — и как всё это сверить.",
+          "url": "https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Блог",
+              "item": "https://sawirstudio.com/ru/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Почему выплаты Shopify никогда не совпадают с вашей бухгалтерией",
+              "item": "https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a aria-current="true" href="/ru/posts/">Блог</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Навигация по разделам" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="page" href="/ru/posts/why-shopify-payouts-dont-match-your-books/">Почему выплаты Shopify никогда не совпадают с вашей бухгалтерией</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Почему выплаты Shopify никогда не совпадают с вашей бухгалтерией</h1>
+<div class="prose prose-xl">
+<p>Отчёт о продажах показывает одну сумму, банк — другую. Где-то между ними — комиссии, возвраты, чарджбэки и несколько дней задержки, и каждый месяц кто-то тратит полдня, разбирая всё это в таблице.</p>
+<p>Со всем этим мы столкнулись, когда писали бухгалтерский модуль для нашего <a href="/ru/projects/odoo-shopify-connector/">коннектора Shopify для Odoo</a>. Ниже — причины расхождений и то, как добиться, чтобы цифры сходились.</p>
+<h2>Выплата — это сумма «нетто»</h2>
+<p>Shopify Payments отправляет вам не ваши продажи, а то, что остаётся после всех расчётов: продажи минус возвраты, минус комиссии за обработку платежей, минус споры, плюс-минус корректировки. Если учитывать выплату как выручку, выручка будет неверной, а комиссии останутся незаметными.</p>
+<p>Решение — учитывать составляющие, а не итог. Продажи идут в выручку, комиссии — на счёт расходов, возвраты — в уменьшение продаж, а сама выплата — это просто перемещение денег с промежуточного счёта на банковский.</p>
+<h2>Выплата охватывает не один день</h2>
+<p>В выплату входят транзакции за несколько дней, в зависимости от вашего графика выплат, и заказ, оформленный в пятницу, может прийти в выплате вторника. Сопоставлять заказы с поступлениями по дате долго не получится. Сопоставляйте их по выплатам: Shopify фиксирует, из каких балансовых транзакций состоит каждая выплата, и этот список — единственная надёжная связь между заказом и деньгами на банковском счёте.</p>
+<h2>Возвраты вычитаются из последующих выплат</h2>
+<p>Когда вы возвращаете деньги за заказ прошлого месяца, они вычитаются из выплаты текущего месяца. В отчёте о продажах возврат относится к исходному заказу. В банке сегодня видно меньшее поступление. Правы оба.</p>
+<h2>Споры забирают деньги дважды</h2>
+<p>Когда покупатель оспаривает платёж, из вашего баланса списываются оспариваемая сумма и комиссия за чарджбэк. Если вы выигрываете спор, сумма возвращается, обычно через несколько недель. Получается три отдельные записи по одному заказу, растянутые на две-три выплаты.</p>
+<h2>Подарочные карты в момент продажи — не выручка</h2>
+<p>Продажа подарочной карты — это получение денег, которые вы позже «вернёте» товарами. До использования карты эта сумма относится к обязательствам. Если учесть продажу подарочных карт как выручку, одна и та же продажа будет посчитана дважды: когда карту купили и когда по ней расплатились.</p>
+<h2>Конвертация валют</h2>
+<p>Если вы продаёте в нескольких валютах, конвертации отображаются отдельными балансовыми транзакциями, а курс на день продажи не равен курсу на день выплаты. В API Shopify версии 2026-10 появился отдельный тип транзакции <code>CURRENCY_CONVERSION</code>, поэтому конвертацию можно учесть отдельной строкой, а не прятать в округлении.</p>
+<h2>Резервы и корректировки</h2>
+<p>Shopify может удерживать часть вашего баланса в качестве резерва, а исправления отображаются как корректировки. Ни то ни другое не является ни продажей, ни комиссией, поэтому для каждого нужны отдельные счета.</p>
+<h2>Как добиться баланса</h2>
+<p>Рассматривайте каждую выплату как небольшую бухгалтерскую проводку, собранную из её балансовых транзакций: каждая продажа, возврат, комиссия, спор и корректировка — отдельной строкой, и всё это попадает на промежуточный счёт, который затем закрывается банковским поступлением. Если строки не сходятся с суммой выплаты, где-то неверное сопоставление, и об этом стоит знать.</p>
+<p>Именно так работает наш бухгалтерский модуль для Odoo. Он формирует каждую проводку по точным суммам из Shopify, и если проводка не сходится, останавливается с понятной ошибкой. Он никогда не добавляет «балансирующую строку», чтобы расхождение исчезло: такая строка — это та же ошибка, только записанная там, где её никто не заметит.</p>
+<p>Если ваши деньги в Shopify и бухгалтерия расходятся каждый месяц, <a href="/ru/shopify/">мы можем помочь</a>.</p>
+<p><strong>Читайте также:</strong> <a href="/ru/posts/connect-shopify-to-odoo-19-community/">Подключение Shopify к Odoo 19 Community: пошаговая инструкция</a> или <a href="/ru/posts/shopify-2026-10-api-what-breaks/">API Shopify 2026-10: что сломается в ваших интеграциях</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Узнали из этой статьи что-то новое?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Оставьте, пожалуйста, свой адрес электронной почты, и я буду присылать вам похожие материалы, как только выйдет новый.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Адрес электронной почты" class="formkit-input" name="email_address" placeholder="Адрес электронной почты" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Подписаться</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Никакого спама. Отписаться можно в любой момент.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/why-shopify-payouts-dont-match-your-books/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/why-shopify-payouts-dont-match-your-books/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/why-shopify-payouts-dont-match-your-books/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/why-shopify-payouts-dont-match-your-books/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/why-shopify-payouts-dont-match-your-books/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

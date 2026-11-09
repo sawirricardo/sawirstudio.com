@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>WordPress 7.2: что стоит протестировать авторам плагинов | SawirStudio</title>
+<meta content="WordPress 7.2 выходит 8 декабря 2026 года. Что меняется для авторов плагинов: от Application Passwords и предложенного Secrets API до роутера Interactivity API, и как протестировать всё уже сейчас." name="description"/>
+<meta content="WordPress 7.2: что стоит протестировать авторам плагинов | SawirStudio" property="og:title"/>
+<meta content="WordPress 7.2 выходит 8 декабря 2026 года. Что меняется для авторов плагинов: от Application Passwords и предложенного Secrets API до роутера Interactivity API, и как протестировать всё уже сейчас." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "WordPress 7.2 выходит 8 декабря: что мы тестируем в наших плагинах",
+          "description": "WordPress 7.2 выходит 8 декабря 2026 года. Что меняется для авторов плагинов: от Application Passwords и предложенного Secrets API до роутера Interactivity API, и как протестировать всё уже сейчас.",
+          "url": "https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Блог",
+              "item": "https://sawirstudio.com/ru/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "WordPress 7.2 выходит 8 декабря: что мы тестируем в наших плагинах",
+              "item": "https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a aria-current="true" href="/ru/posts/">Блог</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Навигация по разделам" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="page" href="/ru/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 выходит 8 декабря: что мы тестируем в наших плагинах</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">WordPress 7.2 выходит 8 декабря: что мы тестируем в наших плагинах</h1>
+<div class="prose prose-xl">
+<p>Выход WordPress 7.2 запланирован на 8 декабря 2026 года. Первый релиз-кандидат ожидается 17 ноября: к этому моменту список функций будет заморожен, а также опубликуют Field Guide — перечень всех заметок для разработчиков. До этого времени беты — самое дешёвое место, чтобы узнать, что с вашим плагином есть проблемы.</p>
+<p>Мы поддерживаем <a href="/ru/projects/wordpress-plugins/">12 бесплатных плагинов на WordPress.org</a>, так что это наш собственный чек-лист. Некоторые пункты на момент написания были ещё только предложениями; окончательным источником остаётся Field Guide.</p>
+<h2>Как тестировать уже сегодня</h2>
+<ul>
+<li><strong>WP-CLI</strong> на тестовом сайте: <code>wp core update --version=7.2-beta4</code> или любая другая самая свежая бета либо RC.</li>
+<li><strong>Плагин WordPress Beta Tester</strong> с настройками «Bleeding edge» и «Beta/RC Only».</li>
+<li><strong>WordPress Playground</strong> — чтобы посмотреть всё в браузере, ничего не устанавливая.</li>
+</ul>
+<p>Никогда не делайте этого на рабочем сайте. Включите <code>WP_DEBUG</code> и <code>WP_DEBUG_LOG</code> и следите за уведомлениями об устаревших функциях: именно там чаще всего появляются первые предупреждения.</p>
+<h2>Что мы проверяем</h2>
+<h3>Application Passwords</h3>
+<p>В 7.2 доработали Application Passwords: лучше определяются локальные окружения и HTTPS-конфигурации, при добавлении пароля приходит письмо, а роль по умолчанию обрабатывается безопаснее. Если ваш плагин или инструменты ваших клиентов проходят аутентификацию в REST API таким способом, проверьте этот сценарий от начала до конца.</p>
+<h3>Secrets API</h3>
+<p>Встроенный в ядро способ хранить учётные данные в зашифрованном виде, чтобы плагины больше не держали API-ключи в обычных опциях. Его предлагали для 7.2, а экран в админке отложили до 7.3. Если ваш плагин хранит API-ключи, следите за Field Guide: когда это появится, ключам место именно там. Ни один из наших бесплатных плагинов сейчас не хранит сторонние ключи, так что для нас это вопрос клиентских проектов.</p>
+<h3>Sudo mode</h3>
+<p>В планах: просить вошедшего пользователя повторно подтвердить пароль перед действиями с высокими привилегиями. Если ваш плагин выполняет такие действия со своих экранов или через AJAX, проверьте, что происходит, когда ядро запрашивает повторное подтверждение посреди процесса.</p>
+<h3>Роутер Interactivity API</h3>
+<p>Новый роутер для отслеживания клиентской навигации заменяет устаревшую пару <code>state.navigation.hasStarted</code> и <code>hasFinished</code>. Также появилась директива <code>data-wp-html</code> для вывода доверенной разметки.</p>
+<h3>Иконки и уведомления в админке</h3>
+<p>Dashicons в панели администратора и меню заменяют на SVG-иконки, а уведомления в админке получают более качественное озвучивание для программ чтения с экрана. Если ваш плагин стилизует иконку своего пункта меню или обращается к классам Dashicons в CSS админки, посмотрите, как это выглядит в бете.</p>
+<h3>DataViews и Site Editor</h3>
+<p>Плагины смогут регистрировать собственные экраны в Site Editor и управлять полями и макетами DataViews на стороне сервера. Ничего не сломается, но если в вашем плагине есть экран со списком, полезно знать, куда всё движется.</p>
+<h2>После тестирования</h2>
+<p>Меняйте «Tested up to» в readme только после того, как действительно всё проверили, и не раньше. WordPress.org показывает пользователям предупреждение, если плагин не тестировался с последними крупными релизами, и это предупреждение стоит установок. Сейчас в наших плагинах указано «Tested up to: 7.1»; на 7.2 они перейдут, когда пройдут проверку на RC.</p>
+<p>Вместе с ним выходит и новая тема по умолчанию — Ipsum. Если ваш плагин что-либо выводит на фронтенде, проверьте это именно там: так будут выглядеть новые сайты.</p>
+<p>Если у вас есть плагин, который нужно обновить под 7.2, или собственный плагин, который уже никто не поддерживает, <a href="/ru/contact/">мы можем взглянуть</a>.</p>
+<p><strong>Читайте также:</strong> <a href="/ru/posts/wordpress-abilities-api-for-plugins/">Как сделать WordPress-плагин доступным для ИИ-агентов с помощью Abilities API</a> или <a href="/ru/posts/woocommerce-or-shopify-indonesia/">WooCommerce или Shopify для бизнеса в Индонезии?</a></p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Узнали из этой статьи что-то новое?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>Оставьте, пожалуйста, свой адрес электронной почты, и я буду присылать вам похожие материалы, как только выйдет новый.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Адрес электронной почты" class="formkit-input" name="email_address" placeholder="Адрес электронной почты" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>Подписаться</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Никакого спама. Отписаться можно в любой момент.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/wordpress-7-2-what-plugin-authors-should-test/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Min Max Quantities for WooCommerce | SawirStudio</title>
+<meta content="Задавайте правила минимального и максимального количества покупки для товаров WooCommerce, категорий товаров и всего заказа." name="description"/>
+<meta content="Sawir Min Max Quantities for WooCommerce | SawirStudio" property="og:title"/>
+<meta content="Задавайте правила минимального и максимального количества покупки для товаров WooCommerce, категорий товаров и всего заказа." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-min-max-quantities-for-woocommerce.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Min Max Quantities for WooCommerce",
+          "description": "Задавайте правила минимального и максимального количества покупки для товаров WooCommerce, категорий товаров и всего заказа.",
+          "url": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-min-max-quantities-for-woocommerce-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Проекты",
+              "item": "https://sawirstudio.com/ru/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Плагины для WordPress",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Min Max Quantities",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="true" href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Навигация по разделам" class="breadcrumbs">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/projects/wordpress-plugins/">Плагины для WordPress</a></li>
+<li><a aria-current="page" href="/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/">Sawir Min Max Quantities</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Min Max Quantities</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Баннер Sawir Min Max Quantities" height="500" src="/assets/images/plugins/sawir-min-max-quantities-for-woocommerce-banner.webp" width="1544"/></p>
+<p>Sawir Min Max Quantities позволяет задать, сколько единиц товара покупатель может заказать — минимум и максимум: для одного товара, целой категории или всего заказа.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-min-max-quantities-for-woocommerce/" rel="noreferrer" target="_blank">Скачать бесплатно на WordPress.org</a></p>
+<h2>Что он умеет</h2>
+<p>Sawir Min Max Quantities for WooCommerce позволяет владельцам магазинов управлять тем, сколько товаров могут купить клиенты. Задавайте минимальное и максимальное количество, а также кратность («по N штук») для каждого товара, каждой вариации, каждой категории товаров и для общего числа позиций в заказе. Правила применяются в поле количества на странице товара, при добавлении в корзину, а также повторно на страницах корзины и оформления заказа.</p>
+<h2>Возможности</h2>
+<ul>
+<li>Добавляет поля минимального, максимального количества и кратности на вкладку «Запасы» (Inventory) в карточке товара.</li>
+<li>Добавляет для каждой вариации необязательные значения минимума, максимума и кратности, которые заменяют общие.</li>
+<li>Добавляет поля минимального, максимального количества и кратности в категории товаров.</li>
+<li>Позволяет применять правила категории к суммарному количеству товаров этой категории в корзине, а не как запасное правило для каждого товара отдельно.</li>
+<li>Добавляет ограничения на минимальное и максимальное число позиций во всём заказе в разделе WooCommerce &gt; Settings &gt; Products &gt; General.</li>
+<li>Работает по понятному порядку приоритета: правило вариации главнее всего; если его нет, действует правило товара; если и его нет, применяется самое строгое из запасных правил категорий, для которых не включён суммарный подсчёт.</li>
+<li>Вариации наследуют пустые поля от родительского товара или от запасного правила категории.</li>
+<li>Контролирует поля количества на странице товара и в вариациях, включая шаг для значений кратности.</li>
+<li>Блокирует добавление в корзину, если оно превысит максимум для товара.</li>
+<li>Проверяет все правила на страницах корзины и оформления заказа и показывает понятные сообщения об ошибках, в том числе о кратности, например «товар нужно покупать кратно N».</li>
+<li>Оставляет в корзине возможность уменьшить количество до нуля, чтобы товар можно было удалить.</li>
+<li>Не требует настройки после установки; правила везде необязательны.</li>
+<li>При удалении плагина полностью очищает все его настройки и метаданные.</li>
+</ul>
+<h2>Вопросы</h2>
+<h3>Чем он отличается от аналогов?</h3>
+<p>Официальное расширение WooCommerce Min/Max Quantities и более крупные коммерческие решения тоже закрывают эту задачу, часто вместе с правилами по ролям и по цене. Sawir Min Max Quantities бесплатно покрывает самые распространённые случаи: минимум, максимум и кратность («по N штук») для товара, вариации, категории и заказа в целом с проверкой на странице товара, при добавлении в корзину и ещё раз при оформлении заказа. Если ваши правила зависят от того, кто покупатель (оптовые роли, группы клиентов), лучше подойдёт коммерческое решение.</p>
+<h3>Нужен ли для работы WooCommerce?</h3>
+<p>Да. Плагин создан для товаров, корзины и оформления заказа WooCommerce и использует их хуки.</p>
+<h3>Что произойдёт, если у товара есть и собственное правило, и правило категории?</h3>
+<p>Приоритет у правила товара. Правила категории действуют только для товаров, у которых нет собственного правила.</p>
+<h3>Могут ли у вариаций быть свои правила?</h3>
+<p>Да. Для каждой вариации можно задать собственные минимум, максимум и кратность. Пустые поля вариации наследуются от родительского товара или от запасного правила категории.</p>
+<h2>Хорошо сочетается с</h2>
+<ul>
+<li><a href="/ru/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a>: позволяет покупателям оставить email на товар, которого нет в наличии, и один раз сообщает им, когда он снова появится.</li>
+<li><a href="/ru/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a>: превращает магазин на WooCommerce в бизнес по подписке: регулярные платежи, пробные периоды, плата за подключение и умные повторные попытки списания, причём ни одна функция не спрятана за платным тарифом..</li>
+</ul>
+<p>Посмотрите все наши <a href="/ru/projects/wordpress-plugins/">бесплатные плагины для WordPress</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Цена</strong> Бесплатно</li>
+<li><strong>Версия</strong> 1.0.1</li>
+<li><strong>Требуется</strong> WordPress 5.8, PHP 7.4, WooCommerce</li>
+<li><strong>Лицензия</strong> GPLv2 или новее</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-min-max-quantities-for-woocommerce/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-min-max-quantities-for-woocommerce/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Хватит о нас.</p>
+<h2>Чем мы можем<br/>Вам помочь?</h2>
+<a class="button" href="/ru/contact/">Начать проект</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -48,6 +48,7 @@ LANGS = {
     "ja": ("ja", "日本語", "ja_JP", "Japanese for business readers in Japan, in polite です/ます style. Address the reader politely (お客様, or leave the subject out as natural Japanese does); use common katakana for tech terms (アプリ, ウェブサイト)"),
     "de": ("de", "Deutsch", "de_DE", "German for business readers in Germany, Austria and Switzerland. Address the reader formally as Sie. Keep common English tech terms Germans use (App, Website, Shop, Plugin, Backend); use German quotation marks „…“"),
     "he": ("he", "עברית", "he_IL", "Modern Hebrew for business readers in Israel. Plain, direct professional tone; address the reader in plural or gender-neutral phrasing (אתם / לכם) rather than masculine singular. Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store)"),
+    "ru": ("ru", "Русский", "ru_RU", "Russian for business readers. Address the reader formally as Вы/вы (lowercase вы in running text). Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store, WordPress); use «ёлочки» quotation marks"),
 }
 RTL = {"ar", "he"}
 

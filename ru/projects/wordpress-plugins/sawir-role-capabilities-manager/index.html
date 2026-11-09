@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Role Capabilities Manager | SawirStudio</title>
+<meta content="Создавайте собственные роли пользователей и управляйте правами новых и существующих ролей WordPress." name="description"/>
+<meta content="Sawir Role Capabilities Manager | SawirStudio" property="og:title"/>
+<meta content="Создавайте собственные роли пользователей и управляйте правами новых и существующих ролей WordPress." property="og:description"/>
+<meta content="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/" property="og:url"/>
+<link href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="ru_RU" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-role-capabilities-manager.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Role Capabilities Manager",
+          "description": "Создавайте собственные роли пользователей и управляйте правами новых и существующих ролей WordPress.",
+          "url": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-role-capabilities-manager-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Главная",
+              "item": "https://sawirstudio.com/ru/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Проекты",
+              "item": "https://sawirstudio.com/ru/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Плагины для WordPress",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Role Capabilities Manager",
+              "item": "https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-role-capabilities-manager/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+<a class="logo" href="/ru/" title="Главная">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/posts/">Блог</a></li>
+<li><a aria-current="true" href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/about-us/">О студии</a></li>
+<li><a href="/ru/contact/">Свяжитесь с нами</a></li>
+</ul>
+</nav>
+<button aria-label="Переключить тёмный режим" class="theme-toggle" title="Переключить тёмный режим" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Навигация по разделам" class="breadcrumbs">
+<ol>
+<li><a href="/ru/">Главная</a></li>
+<li><a href="/ru/projects/">Проекты</a></li>
+<li><a href="/ru/projects/wordpress-plugins/">Плагины для WordPress</a></li>
+<li><a aria-current="page" href="/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Role Capabilities Manager</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Баннер Sawir Role Capabilities Manager" height="500" src="/assets/images/plugins/sawir-role-capabilities-manager-banner.webp" width="1544"/></p>
+<p>Sawir Role Capabilities Manager позволяет создавать собственные роли пользователей и точно определять, что может делать каждая роль — как новая, так и встроенная.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-role-capabilities-manager/" rel="noreferrer" target="_blank">Скачать бесплатно на WordPress.org</a></p>
+<h2>Что он умеет</h2>
+<p>Sawir Role Capabilities Manager добавляет в раздел «Пользователи» экран управления правами ролей, доступный только администраторам. Администраторы могут создавать роли, копировать права из существующих ролей, добавлять собственные ключи прав и управлять правами существующих ролей.</p>
+<h2>Вопросы</h2>
+<h3>Чем он отличается от аналогов?</h3>
+<p>User Role Editor, Members и PublishPress Capabilities — проверенные инструменты в этой области, а их платные версии добавляют ограничение доступа к контенту, защиту на стороне сайта для посетителей и управление пунктами меню админ-панели. Sawir Role Capabilities Manager решает основную административную задачу на одном экране в разделе «Пользователи» и бесплатно: создание ролей, копирование прав между ролями, добавление собственных ключей прав и редактирование существующих ролей. Если вам нужно ограничивать доступ к контенту или строить уровни членства, выбирайте Members или PublishPress; если нужно аккуратно управлять ролями и правами, этого плагина достаточно.</p>
+<h2>Хорошо сочетается с</h2>
+<ul>
+<li><a href="/ru/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a>: добавляет папки в медиатеку WordPress, сколько нужно, а файлы можно раскладывать перетаскиванием.</li>
+<li><a href="/ru/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a>: переводит страницы прямо на месте — выберите язык, автоматически переведите то, что видно на экране, сохраните перевод и добавьте для посетителей переключатель языков.</li>
+</ul>
+<p>Посмотрите все наши <a href="/ru/projects/wordpress-plugins/">бесплатные плагины для WordPress</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Цена</strong> Бесплатно</li>
+<li><strong>Версия</strong> 1.0.1</li>
+<li><strong>Требуется</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>Лицензия</strong> GPLv2 или новее</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-role-capabilities-manager/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-role-capabilities-manager/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Хватит о нас.</p>
+<h2>Чем мы можем<br/>Вам помочь?</h2>
+<a class="button" href="/ru/contact/">Начать проект</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ru/about-us/">О студии</a> <a href="/ru/projects/">Проекты</a> <a href="/ru/contact/">Свяжитесь с нами</a> <a href="/ru/privacy/">Конфиденциальность</a> <a href="/ru/terms/">Условия</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-role-capabilities-manager/" hreflang="ru" lang="ru" aria-current="true">Русский</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
