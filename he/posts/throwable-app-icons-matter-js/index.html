@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>אייקונים שאפשר לזרוק עם Matter.js | SawirStudio</title>
+<meta content="איך בנינו את קופסת האייקונים שאפשר לזרוק בדף הבית שלנו: Matter.js לפיזיקה, אלמנטי DOM במקום canvas, צל שנשאר במקום בזמן שהאייקונים מסתובבים, ופתרונות גיבוי." name="description"/>
+<meta content="אייקונים שאפשר לזרוק עם Matter.js | SawirStudio" property="og:title"/>
+<meta content="איך בנינו את קופסת האייקונים שאפשר לזרוק בדף הבית שלנו: Matter.js לפיזיקה, אלמנטי DOM במקום canvas, צל שנשאר במקום בזמן שהאייקונים מסתובבים, ופתרונות גיבוי." property="og:description"/>
+<meta content="https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/" property="og:url"/>
+<link href="https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="he_IL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "האייקונים שאפשר לזרוק בדף הבית שלנו",
+          "description": "איך בנינו את קופסת האייקונים שאפשר לזרוק בדף הבית שלנו: Matter.js לפיזיקה, אלמנטי DOM במקום canvas, צל שנשאר במקום בזמן שהאייקונים מסתובבים, ופתרונות גיבוי.",
+          "url": "https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/throwable-app-icons-matter-js/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "דף הבית",
+              "item": "https://sawirstudio.com/he/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "בלוג",
+              "item": "https://sawirstudio.com/he/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "האייקונים שאפשר לזרוק בדף הבית שלנו",
+              "item": "https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">דלגו לתוכן</a>
+<header class="site-header">
+<a class="logo" href="/he/" title="דף הבית">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/he/">דף הבית</a></li>
+<li><a aria-current="true" href="/he/posts/">בלוג</a></li>
+<li><a href="/he/projects/">פרויקטים</a></li>
+<li><a href="/he/about-us/">עלינו</a></li>
+<li><a href="/he/contact/">צרו קשר</a></li>
+</ul>
+</nav>
+<button aria-label="החלפת מצב כהה" class="theme-toggle" title="החלפת מצב כהה" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="פירורי לחם" class="breadcrumbs is-center">
+<ol>
+<li><a href="/he/">דף הבית</a></li>
+<li><a href="/he/posts/">בלוג</a></li>
+<li><a aria-current="page" href="/he/posts/throwable-app-icons-matter-js/">האייקונים שאפשר לזרוק בדף הבית שלנו</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">האייקונים שאפשר לזרוק בדף הבית שלנו</h1>
+<div class="prose prose-xl">
+<p>ב<a href="/he/">דף הבית</a> שלנו יש קופסה עם האייקונים של האפליקציות שלנו. הם נופלים פנימה כשאתם מגיעים, ואפשר להרים אותם ולזרוק אותם. לחיצה על אייקון בלי לגרור פותחת את הדף של האפליקציה. זה לקח לנו אחר צהריים אחד, ובכמה מהפרטים היה יותר עניין משציפינו.</p>
+<h2>למה קופסה</h2>
+<p>הרעיון הראשון היה לתת לאייקונים לעוף על פני כל החלק העליון של הדף. אבל שם נמצאים הכותרת והכפתורים שלנו, ואייקונים שנוחתים על “Start a project” הם מחיר גבוה מדי בשביל קצת כיף. קופסה ליד הפתיח, עם תווית בקצה שלה, שומרת על המשחק במקום מוגדר. היא גם התאימה לחלל שכבר היה קיים: המקום הריק מימין לפתיח ולכפתורים במסך רחב. בטלפונים היא ממוקמת מתחת לכפתורים.</p>
+<h2>פיזיקה אמיתית, מ-Matter.js</h2>
+<p>עיגולים שמתנגשים זה בזה קל לכתוב לבד. אבל אייקונים של אפליקציות הם ריבועים עם פינות מעוגלות, וריבוע שמתגלגל כמו מטבע נראה לא נכון מיד. כדי לקבל התהפכות ושכבות מסודרות כמו שצריך צריך מנוע פיזיקה אמיתי, ולכן השתמשנו ב-<a href="https://brm.io/matter-js/" rel="noopener" target="_blank">Matter.js</a>. כל אייקון הוא מלבן עם פינות מעוגלות (<code>chamfer</code>) שמתאים לרדיוס הפינות של האייקון, 22%, בתוך ארבעה קירות קבועים.</p>
+<p>המנוע שוקל 83KB, ולכן הוא נטען רק בדף הבית, רק אחרי שהדף עלה, ורק אם המבקרים לא ביקשו להפחית תנועה.</p>
+<h2>אלמנטי DOM, לא canvas</h2>
+<p>Matter.js יכול לצייר ל-canvas, אבל אנחנו משתמשים בו רק לחישובים. האייקונים הם קישורים רגילים עם תמונות, שממוקמים בכל פריים באמצעות CSS transform:</p>
+<pre><code>st.setProperty("--x", (b.position.x - size / 2) + "px");
+st.setProperty("--y", (b.position.y - size / 2) + "px");
+st.setProperty("--a", b.angle + "rad");</code></pre>
+<p>כך שהקשה היא קישור אמיתי, התמונות חדות בכל רמת זום, והאייקונים שומרים על אותה מסגרת ואותו סגנון כמו בשאר האתר.</p>
+<h2>הצל שנשאר במקום</h2>
+<p>בסגנון שלנו יש צל קשיח שיורד ימינה ומטה מכל דבר. אם שמים אותו על אלמנט שמסתובב, הצל מסתובב איתו, וכך הצל של אייקון מסתחרר מסתובב כמו מחוג שעון. התיקון הוא לסובב את הסטיית הצל בכיוון ההפוך בכל פריים:</p>
+<pre><code>// keep the shadow at (3px, 3px) in screen space while the icon turns by a
+st.setProperty("--shadow-x", 3 * (Math.cos(a) + Math.sin(a)) + "px");
+st.setProperty("--shadow-y", 3 * (Math.cos(a) - Math.sin(a)) + "px");</code></pre>
+<h2>תפיסה וזריקה</h2>
+<p>כשלוחצים, אנחנו מחברים קפיץ (אילוץ של Matter.js) בין המצביע לבין הנקודה המדויקת באייקון שבה אחזתם, ולא למרכז שלו, כך שהוא מתנדנד באופן טבעי כשאוחזים בו בפינה. כשמרפים, הוא שומר על המהירות שלו, עם הגבלה כדי שהטחה חזקה לא תשלח אותו דרך הקיר. אם המצביע זז פחות משש פיקסלים, זה נחשב להקשה והקישור נפתח.</p>
+<p>החלק העליון של הקופסה פתוח בזמן שהאייקונים נופלים פנימה מלמעלה, ונסגר כשכולם בפנים, כך שזריקה לא יכולה לאבד אייקון דרך הקצה העליון.</p>
+<h2>פרטים קטנים</h2>
+<ul>
+<li>נחיתה קשה שולחת אדווה דרך הרקע המנוקד של הדף.</li>
+<li>הסימולציה נרדמת כשהכול נח ומשהה את עצמה כשהקופסה מחוץ למסך, כך שהיא לא עולה כלום בזמן שאתם קוראים.</li>
+<li>האייקונים נופלים פנימה רק כשהקופסה על המסך. בטלפון, זה קורה כשגוללים אליה.</li>
+<li>בלי JavaScript, או כשהפחתת תנועה מופעלת, האייקונים נשארים במקומם בערימה מסודרת, והם עדיין קישורים.</li>
+</ul>
+<p>זה דבר קטן, אבל הוא אומר על האפליקציות שאנחנו בונים יותר מכל משפט. אם אתם רוצים משהו כזה לאתר שלכם, <a href="/he/contact/">ספרו לנו</a>.</p>
+<p><strong>להמשך קריאה:</strong> <a href="/he/posts/making-our-sites-agent-ready/">מה נדרש כדי להכין את האתרים שלנו לסוכנים</a>, או <a href="/he/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 יוצאת ב-8 בדצמבר: מה אנחנו בודקים בתוספים שלנו</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>למדתם משהו מהפוסט הזה?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>אשמח לקבל את כתובת האימייל שלכם, כדי לשלוח לכם פוסטים נוספים כמו זה בכל פעם שמתפרסם פוסט חדש.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="כתובת אימייל" class="formkit-input" name="email_address" placeholder="כתובת אימייל" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>הרשמה</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">לא אשלח לכם ספאם. אפשר לבטל את המנוי בכל עת.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">נבנה באמצעות ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/he/about-us/">אודות</a> <a href="/he/projects/">פרויקטים</a> <a href="/he/contact/">צרו קשר</a> <a href="/he/privacy/">פרטיות</a> <a href="/he/terms/">תנאי שימוש</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/throwable-app-icons-matter-js/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/throwable-app-icons-matter-js/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/throwable-app-icons-matter-js/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/throwable-app-icons-matter-js/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/throwable-app-icons-matter-js/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/throwable-app-icons-matter-js/" hreflang="he" lang="he" aria-current="true">עברית</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

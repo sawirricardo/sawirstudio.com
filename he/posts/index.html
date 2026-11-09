@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>בלוג | SawirStudio</title>
+<meta content="מאמרים של SawirStudio על בניית אפליקציות ווב עם Laravel ו-PHP." name="description"/>
+<meta content="בלוג | SawirStudio" property="og:title"/>
+<meta content="מאמרים של SawirStudio על בניית אפליקציות ווב עם Laravel ו-PHP." property="og:description"/>
+<meta content="https://sawirstudio.com/he/posts/" property="og:url"/>
+<link href="https://sawirstudio.com/he/posts/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="he_IL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "דף הבית",
+          "item": "https://sawirstudio.com/he/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "בלוג",
+          "item": "https://sawirstudio.com/he/posts/"
+        }
+      ]
+    }
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">דלגו לתוכן</a>
+<header class="site-header">
+<a class="logo" href="/he/" title="דף הבית">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/he/">דף הבית</a></li>
+<li><a aria-current="page" href="/he/posts/">בלוג</a></li>
+<li><a href="/he/projects/">פרויקטים</a></li>
+<li><a href="/he/about-us/">עלינו</a></li>
+<li><a href="/he/contact/">צרו קשר</a></li>
+</ul>
+</nav>
+<button aria-label="החלפת מצב כהה" class="theme-toggle" title="החלפת מצב כהה" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<nav aria-label="פירורי לחם" class="breadcrumbs is-center">
+<ol>
+<li><a href="/he/">דף הבית</a></li>
+<li><a aria-current="page" href="/he/posts/">בלוג</a></li>
+</ol>
+</nav>
+<h1 class="page-title text-center" style="margin-bottom: 2rem">בלוג</h1>
+<ul class="post-list center">
+<li><a href="/he/posts/shopify-2026-10-api-what-breaks/"><time datetime="2026-11-06">2026-11-06</time> ה-API של Shopify בגרסה 2026-10: מה עלול להישבר באינטגרציות שלכם</a></li>
+<li><a href="/he/posts/shopify-script-tags-stop-march-2027/"><time datetime="2026-11-06">2026-11-06</time> Script Tags ב-Shopify מפסיקים לעבוד ב-1 במרץ 2027. מה כדאי לבעלי חנויות לעשות</a></li>
+<li><a href="/he/posts/connect-shopify-to-odoo-19-community/"><time datetime="2026-11-06">2026-11-06</time> חיבור Shopify ל-Odoo 19 Community, שלב אחר שלב</a></li>
+<li><a href="/he/posts/why-shopify-payouts-dont-match-your-books/"><time datetime="2026-11-06">2026-11-06</time> למה תשלומי Shopify אף פעם לא מתאימים להנהלת החשבונות שלכם</a></li>
+<li><a href="/he/posts/wordpress-7-2-what-plugin-authors-should-test/"><time datetime="2026-11-06">2026-11-06</time> WordPress 7.2 יוצאת ב-8 בדצמבר: מה אנחנו בודקים בתוספים שלנו</a></li>
+<li><a href="/he/posts/wordpress-abilities-api-for-plugins/"><time datetime="2026-11-06">2026-11-06</time> איך להפוך תוסף WordPress לשמיש עבור סוכני AI בעזרת Abilities API</a></li>
+<li><a href="/he/posts/woocommerce-or-shopify-indonesia/"><time datetime="2026-11-06">2026-11-06</time> WooCommerce או Shopify לעסק באינדונזיה?</a></li>
+<li><a href="/he/posts/making-our-sites-agent-ready/"><time datetime="2026-11-06">2026-11-06</time> מה נדרש כדי להכין את האתרים שלנו לסוכני AI</a></li>
+<li><a href="/he/posts/throwable-app-icons-matter-js/"><time datetime="2026-11-06">2026-11-06</time> אייקוני האפליקציות הניתנים לזריקה בדף הבית שלנו</a></li>
+<li><a href="/he/posts/how-to-build-your-own-content-management-system-like-wordpress/"><time datetime="2022-10-27">2022-10-27</time> איך לבנות מערכת ניהול תוכן משלכם (כמו WordPress)</a></li>
+<li><a href="/he/posts/how-do-you-design-your-subscription-plan-restrictions/"><time datetime="2022-07-04">2022-07-04</time> איך מתכננים את המגבלות של תוכניות המנוי</a></li>
+</ul>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/he/about-us/">אודות</a> <a href="/he/projects/">פרויקטים</a> <a href="/he/contact/">צרו קשר</a> <a href="/he/privacy/">פרטיות</a> <a href="/he/terms/">תנאי שימוש</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/" hreflang="he" lang="he" aria-current="true">עברית</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

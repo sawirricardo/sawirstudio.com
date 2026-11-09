@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Media Folders | SawirStudio</title>
+<meta content="תיקיות מהירות וללא הגבלה לספריית המדיה של WordPress, עם גרירה ושחרור." name="description"/>
+<meta content="Sawir Media Folders | SawirStudio" property="og:title"/>
+<meta content="תיקיות מהירות וללא הגבלה לספריית המדיה של WordPress, עם גרירה ושחרור." property="og:description"/>
+<meta content="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-media-folders/" property="og:url"/>
+<link href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-media-folders/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="he_IL" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-media-folders.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Media Folders",
+          "description": "תיקיות מהירות וללא הגבלה לספריית המדיה של WordPress, עם גרירה ושחרור.",
+          "url": "https://sawirstudio.com/he/projects/wordpress-plugins/sawir-media-folders/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-media-folders-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "דף הבית",
+              "item": "https://sawirstudio.com/he/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "פרויקטים",
+              "item": "https://sawirstudio.com/he/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "תוספים ל-WordPress",
+              "item": "https://sawirstudio.com/he/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Media Folders",
+              "item": "https://sawirstudio.com/he/projects/wordpress-plugins/sawir-media-folders/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-media-folders/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-media-folders/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">דלגו לתוכן</a>
+<header class="site-header">
+<a class="logo" href="/he/" title="דף הבית">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/he/">דף הבית</a></li>
+<li><a href="/he/posts/">בלוג</a></li>
+<li><a aria-current="true" href="/he/projects/">פרויקטים</a></li>
+<li><a href="/he/about-us/">עלינו</a></li>
+<li><a href="/he/contact/">צרו קשר</a></li>
+</ul>
+</nav>
+<button aria-label="החלפת מצב כהה" class="theme-toggle" title="החלפת מצב כהה" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="פירורי לחם" class="breadcrumbs">
+<ol>
+<li><a href="/he/">דף הבית</a></li>
+<li><a href="/he/projects/">פרויקטים</a></li>
+<li><a href="/he/projects/wordpress-plugins/">תוספים ל-WordPress</a></li>
+<li><a aria-current="page" href="/he/projects/wordpress-plugins/sawir-media-folders/">Sawir Media Folders</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Media Folders</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="באנר של Sawir Media Folders" height="500" src="/assets/images/plugins/sawir-media-folders-banner.webp" width="1544"/></p>
+<p>Sawir Media Folders מוסיף תיקיות לספריית המדיה של WordPress, בכמה שתצטרכו, עם גרירה ושחרור לסידור הקבצים.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-media-folders/" rel="noreferrer" target="_blank">להורדה חינם מ-WordPress.org</a></p>
+<h2>מה זה עושה</h2>
+<p>ארגנו את ספריית המדיה בתיקיות ותתי-תיקיות. בלי הגבלה על מספר התיקיות ובלי לחצים לשדרוג.</p>
+<ul>
+<li><strong>תיקיות ותתי-תיקיות ללא הגבלה</strong> — בלי מגבלות.</li>
+<li><strong>מהיר</strong> — כל עץ התיקיות נטען בשתי שאילתות מסד נתונים בלבד, בלי קשר לגודל הספרייה. הסינון משתמש בשאילתת המדיה המובנית של WordPress.</li>
+<li><strong>בטוח</strong> — התיקיות וירטואליות (טקסונומיה). הקבצים עצמם לא זזים ממקומם, ולכן אף כתובת URL לא נשברת. מחיקת תיקייה אף פעם לא מוחקת קבצים.</li>
+</ul>
+<h2>שאלות</h2>
+<h3>איך זה משתווה לחלופות?</h3>
+<p>FileBird, HappyFiles ו-Real Media Library הם תוספים בשלים לניהול תיקיות, עם תוספות מלוטשות, ובדרך כלל הגרסאות החינמיות שלהם מגבילות את מספר התיקיות שאפשר ליצור. Sawir Media Folders שומר על תחום צר: תיקיות וירטואליות, גרירה ושחרור וסינון מהיר, בלי הגבלות ובלי גרסה בתשלום. התיקיות הן טקסונומיה, ולכן הקבצים לא עוברים פיזית ממקום למקום ואף כתובת URL לא נשברת. אם אתם צריכים תוספות כמו תיקיות לכל משתמש או אינטגרציות לגלריות, האפשרויות בתשלום שוות את המחיר שלהן. אם אתם רק רוצים לארגן את הספרייה, התוסף הזה נשאר חינמי ומהיר.</p>
+<h3>האם התיקיות משנות את כתובות ה-URL של הקבצים?</h3>
+<p>לא. התיקיות נועדו לארגון בלבד (טקסונומיה נסתרת על קבצים מצורפים). הקבצים נשארים בדיוק במקום שבו WordPress העלה אותם.</p>
+<h3>מה קורה אם אני מבטל את ההפעלה של התוסף או מוחק אותו?</h3>
+<p>שום דבר לא נשבר. הקבצים שלכם לא נפגעים, ושיוך הקבצים לתיקיות פשוט מפסיק להופיע. אם תפעילו את התוסף מחדש, השיוך יחזור.</p>
+<h3>האם יש הגבלה על מספר התיקיות בגרסה החינמית?</h3>
+<p>אין גרסה בתשלום. הכול חינמי וללא הגבלה.</p>
+<h2>משתלב היטב עם</h2>
+<ul>
+<li><a href="/he/projects/wordpress-plugins/sawir-role-capabilities-manager/">Sawir Role Capabilities Manager</a>: מאפשר ליצור תפקידי משתמשים משלכם ולקבוע בדיוק מה כל תפקיד, חדש או מובנה, יכול לעשות..</li>
+<li><a href="/he/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a>: מראה איך מבקרים משתמשים באתר שלכם, עם מפות חום, הקלטות סשן, סקרים, משפכי המרה וניתוח טפסים, ושומר את כל המידע על השרת שלכם.</li>
+</ul>
+<p>לכל <a href="/he/projects/wordpress-plugins/">התוספים החינמיים שלנו ל-WordPress</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>מחיר</strong> חינם</li>
+<li><strong>גרסה</strong> 1.0.1</li>
+<li><strong>דורש</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>רישיון</strong> GPLv2 ואילך</li>
+<li><strong>WordPress.org</strong> <a dir="ltr" href="https://wordpress.org/plugins/sawir-media-folders/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-media-folders/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>מספיק עלינו.</p>
+<h2>איך נוכל<br/>לעזור לכם?</h2>
+<a class="button" href="/he/contact/">בואו נתחיל פרויקט</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/he/about-us/">אודות</a> <a href="/he/projects/">פרויקטים</a> <a href="/he/contact/">צרו קשר</a> <a href="/he/privacy/">פרטיות</a> <a href="/he/terms/">תנאי שימוש</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-media-folders/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-media-folders/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-media-folders/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-media-folders/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-media-folders/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-media-folders/" hreflang="he" lang="he" aria-current="true">עברית</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

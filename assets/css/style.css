@@ -289,7 +289,7 @@ h1.page-title:not(.heavy)::after {
 .skip-link {
   position: absolute;
   top: 0.75rem;
-  left: var(--gutter);
+  inset-inline-start: var(--gutter);
   z-index: 30;
   padding: 0.5em 1em;
   border: 2px solid var(--ink);
@@ -308,7 +308,7 @@ h1.page-title:not(.heavy)::after {
 .theme-toggle {
   position: absolute;
   top: var(--gutter);
-  right: var(--gutter);
+  inset-inline-end: var(--gutter);
   display: grid;
   place-items: center;
   width: 2.5rem;
@@ -366,7 +366,8 @@ h1.page-title:not(.heavy)::after {
     scroll-padding-top: 6.5rem;
   }
   .logo {
-    margin: 0 4rem 0 0;
+    margin: 0;
+    margin-inline-end: 4rem;
     font-size: 2.25rem;
   }
   .site-nav {
@@ -1902,7 +1903,7 @@ label {
 .pile-label {
   position: absolute;
   top: -1.1rem;
-  left: 1.25rem;
+  inset-inline-start: 1.25rem;
   padding: 0 0.5em;
   border: 2px solid var(--ink);
   border-radius: 0.5rem;
@@ -1948,7 +1949,7 @@ label {
   display: block;
   position: absolute;
   top: 0.35rem;
-  right: 1rem;
+  inset-inline-end: 1rem;
   font-family: var(--font-hand);
   font-size: 1.35rem;
   font-weight: 700;
@@ -2031,5 +2032,28 @@ label {
     top: 6.5rem;
     right: 17%;
     bottom: auto;
+  }
+}
+
+/* Right-to-left pages (Hebrew, Arabic): flip what logical properties can't. */
+[dir="rtl"] .prose blockquote {
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+[dir="rtl"] .featured-item h3::after {
+  content: "←";
+  content: "←" / "";
+}
+@media (hover: hover) and (pointer: fine) {
+  [dir="rtl"] .featured-item:hover h3::after {
+    transform: translateX(-0.3em);
+  }
+}
+[dir="rtl"] .logo {
+  direction: ltr;
+}
+@media (min-width: 768px) {
+  /* direction: ltr flips the logo's logical margin, so set it physically. */
+  [dir="rtl"] .logo {
+    margin: 0 0 0 4rem;
   }
 }

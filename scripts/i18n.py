@@ -47,6 +47,7 @@ LANGS = {
     "zh-Hant": ("zh-hant", "繁體中文", "zh_TW", "Traditional Chinese, as written in Taiwan (use Taiwan terminology). Address the reader as 您"),
     "ja": ("ja", "日本語", "ja_JP", "Japanese for business readers in Japan, in polite です/ます style. Address the reader politely (お客様, or leave the subject out as natural Japanese does); use common katakana for tech terms (アプリ, ウェブサイト)"),
     "de": ("de", "Deutsch", "de_DE", "German for business readers in Germany, Austria and Switzerland. Address the reader formally as Sie. Keep common English tech terms Germans use (App, Website, Shop, Plugin, Backend); use German quotation marks „…“"),
+    "he": ("he", "עברית", "he_IL", "Modern Hebrew for business readers in Israel. Plain, direct professional tone; address the reader in plural or gender-neutral phrasing (אתם / לכם) rather than masculine singular. Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store)"),
 }
 RTL = {"ar", "he"}
 
@@ -322,6 +323,9 @@ def render(lang, path, src, cache, pages):
     soup.html["lang"] = lang
     if lang.split("-")[0] in RTL:
         soup.html["dir"] = "rtl"
+        # URLs and email addresses shown as link text stay left-to-right.
+        for a in soup.find_all("a", string=re.compile(r"^\s*(https?://|www\.|[\w.+-]+@)")):
+            a["dir"] = "ltr"
     for el in soup.find_all(href=True):
         if el.name == "a":
             el["href"] = lang_url(prefix, el["href"], pages)
