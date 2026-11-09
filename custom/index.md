@@ -25,7 +25,7 @@ When off-the-shelf tools make you work their way, we build one that works yours:
   Places where customers, merchants, members or partners sign in and get things done, each seeing only what's theirs, with the admin your team runs it from.
 - ### Payments, shipping & the rest
 
-  Payment gateways like Midtrans and iPaymu, delivery priced by region, and connections to [Odoo](https://sawirstudio.com/odoo/), [Shopify](https://sawirstudio.com/shopify/) and the tools you already pay for.
+  Payments through Stripe, PayPal and local gateways like Midtrans, delivery priced by region, and connections to [Odoo](https://sawirstudio.com/odoo/), [Shopify](https://sawirstudio.com/shopify/) and the tools you already pay for.
 - ### Ready for AI assistants
 
   A secure way for ChatGPT, Claude and other assistants to read and act in your system with each person's own permissions, like the MCP server we built for [SawirPost](https://sawirstudio.com/projects/sawirpost/).
@@ -69,9 +69,3 @@ The code, the data and the accounts, in your name. Everything is built on open, 
 - [TaniMilenial](https://sawirstudio.com/projects/tani-milenial-application/): an Android app for farmers, with farm records, market prices and a store for supplies.
 - [DBTV](https://sawirstudio.com/projects/dbtv-application/): sermons, prayer and daily devotionals on iOS and Android for a ministry's congregation.
 - [SawirPost](https://sawirstudio.com/projects/sawirpost/): our own social media scheduler for agencies, with an MCP server for AI assistants.
-
-## Dalam Bahasa Indonesia
-
-Butuh aplikasi atau sistem yang dibuat khusus untuk bisnis Anda? Kami membuat aplikasi iPhone dan Android, sistem internal kantor, marketplace dan portal, lengkap dengan panel admin dan integrasi pembayaran seperti Midtrans dan iPaymu. Kode, data dan akunnya milik Anda. Kalau aplikasi yang sudah jadi ternyata cukup, kami akan bilang terus terang.
-
-[Ceritakan kebutuhan Anda](https://sawirstudio.com/contact/)

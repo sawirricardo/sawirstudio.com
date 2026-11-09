@@ -68,9 +68,3 @@ Sell you a system you don't need. If Odoo's standard apps cover it, we'll say so
 - [Kantong Sayur](https://sawirstudio.com/projects/kantong-sayur-application/): a grocery marketplace for traditional markets, with apps for shoppers and merchants, an admin panel, and later a wholesale side.
 - [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/): an everyday grocery shopping app for a cooperative.
 - [Calvin Kain](https://sawirstudio.com/projects/calvin-kain/): the online store for a hijab and scarf label.
-
-## Dalam Bahasa Indonesia
-
-Punya toko, butik, distributor atau restoran yang masih mengandalkan catatan manual dan spreadsheet? Kami pasang sistem kasir (POS), stok, pembelian dan akuntansi dalam satu tempat: pakai Odoo kalau alur bisnis Anda cocok, dibuat khusus kalau alurnya berbeda, atau gabungan keduanya. Kami petakan alur bisnis Anda dulu, lalu jelaskan pilihan dan biayanya secara tertulis sebelum Anda memutuskan.
-
-[Ceritakan bisnis Anda](https://sawirstudio.com/contact/)
