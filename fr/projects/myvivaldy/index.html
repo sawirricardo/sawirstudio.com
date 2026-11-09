@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>MyVivaldy | SawirStudio</title>
+<meta content="MyVivaldy, le système de gestion et l'application patient de Vivaldy Skin Clinic : rendez-vous, historique des visites et ordonnances sur iPhone et Android, réalisés par SawirStudio." name="description"/>
+<meta content="MyVivaldy | SawirStudio" property="og:title"/>
+<meta content="MyVivaldy, le système de gestion et l'application patient de Vivaldy Skin Clinic : rendez-vous, historique des visites et ordonnances sur iPhone et Android, réalisés par SawirStudio." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/projects/myvivaldy/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/projects/myvivaldy/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/myvivaldy.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "MyVivaldy",
+          "description": "MyVivaldy, le système de gestion et l'application patient de Vivaldy Skin Clinic : rendez-vous, historique des visites et ordonnances sur iPhone et Android, réalisés par SawirStudio.",
+          "url": "https://sawirstudio.com/fr/projects/myvivaldy/",
+          "image": "https://sawirstudio.com/assets/images/projects/myvivaldy.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projets",
+              "item": "https://sawirstudio.com/fr/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "MyVivaldy",
+              "item": "https://sawirstudio.com/fr/projects/myvivaldy/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/myvivaldy/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/myvivaldy/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="true" href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a aria-current="page" href="/fr/projects/myvivaldy/">MyVivaldy</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">MyVivaldy</h1>
+<img alt="Écrans de l'application MyVivaldy : prise de rendez-vous, historique des visites et compte" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/myvivaldy.webp" style="view-transition-name: media-myvivaldy" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>Le client</h2>
+<p>Vivaldy Skin Clinic est une clinique de dermatologie et de vénéréologie dirigée par PT Viva Estemedika Indonesia. Nous avons également réalisé son <a href="/fr/projects/vivaldy-skin-clinic-website/">site web</a> et son <a href="/fr/projects/vivaldy-skin-clinic-marketing-design/">design marketing</a>.</p>
+<h2>Ce que nous avons réalisé</h2>
+<p>MyVivaldy, ce sont deux choses : le système sur lequel repose le fonctionnement de la clinique, et l'application que ses patients ont en poche.</p>
+<p>Côté clinique, le système gère la journée, des rendez-vous aux dossiers cliniques, en passant par la pharmacie.</p>
+<p>L'application patient, sur iPhone et Android :</p>
+<ul>
+<li><strong>Prise de rendez-vous.</strong> Vous choisissez la clinique, une consultation ou un soin, le médecin, la date et l'heure. Seuls les créneaux où le médecin est réellement disponible s'affichent.</li>
+<li><strong>Rappels.</strong> Le prochain rendez-vous apparaît sur l'écran d'accueil, et une notification push vous le rappelle avant l'heure.</li>
+<li><strong>Historique des visites.</strong> Les visites passées, avec les soins reçus et les médicaments prescrits.</li>
+<li><strong>Compte.</strong> Connexion par e-mail ou par numéro de téléphone, en anglais ou en bahasa indonésien, et suppression du compte directement depuis l'application.</li>
+</ul>
+<h2>Notre approche</h2>
+<p>Un seul système alimente les deux côtés. Les créneaux que le patient voit dans l'application proviennent du même planning que celui de la clinique, et une visite enregistrée par le médecin apparaît dans l'historique du patient. Les applications sont natives, en SwiftUI sur iPhone et en Jetpack Compose sur Android, et communiquent avec le système de la clinique via son API. Nous travaillons sur MyVivaldy depuis 2024.</p>
+<p><strong>Technologies utilisées</strong> Laravel, Filament, PostgreSQL, SwiftUI et Jetpack Compose</p>
+</div>
+<ul class="project-meta">
+<li><strong>Client</strong> Vivaldy Skin Clinic</li>
+<li><strong>Plateformes</strong> iPhone, Android, web</li>
+<li><strong>URL App Store</strong> <a href="https://apps.apple.com/id/app/myvivaldy/id6790103528" rel="noopener" target="_blank">https://apps.apple.com/id/app/myvivaldy/id6790103528</a></li>
+<li><strong>URL Google Play</strong> <a href="https://play.google.com/store/apps/details?id=com.myvivaldy.patient" rel="noopener" target="_blank">https://play.google.com/store/apps/details?id=com.myvivaldy.patient</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Autres projets</h2>
+<div class="project-grid">
+<a class="card" href="/fr/projects/koperasi-hob-application/">
+<img alt="Koperasi HOB Application" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/>
+<div class="card-body"><h3>Koperasi HOB Application</h3></div>
+</a>
+<a class="card" href="/fr/projects/dbtv-application/">
+<img alt="DBTV Application" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/>
+<div class="card-body"><h3>DBTV Application</h3></div>
+</a>
+<a class="card" href="/fr/projects/kantong-sayur-application/">
+<img alt="Kantong Sayur Application" class="thumb" height="883" loading="lazy" src="/assets/images/projects/kantong-sayur-application.webp" width="1600"/>
+<div class="card-body"><h3>Kantong Sayur Application</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Assez parlé de nous.</p>
+<h2>Comment pouvons-nous<br/>vous aider ?</h2>
+<a class="button" href="/fr/contact/">Démarrer un projet</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/myvivaldy/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/myvivaldy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/myvivaldy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/myvivaldy/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/myvivaldy/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/myvivaldy/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/myvivaldy/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/myvivaldy/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

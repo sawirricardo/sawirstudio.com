@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Rendre nos sites accessibles aux agents IA | SawirStudio</title>
+<meta content="Comment nous avons rendu nos sites produits lisibles par les agents IA : copies Markdown de chaque page, en-têtes Link, llms.txt, Content Signals dans robots.txt, catalogue d’API et Agent Skills." name="description"/>
+<meta content="Rendre nos sites accessibles aux agents IA | SawirStudio" property="og:title"/>
+<meta content="Comment nous avons rendu nos sites produits lisibles par les agents IA : copies Markdown de chaque page, en-têtes Link, llms.txt, Content Signals dans robots.txt, catalogue d’API et Agent Skills." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Ce qu’il a fallu pour rendre nos sites accessibles aux agents IA",
+          "description": "Comment nous avons rendu nos sites produits lisibles par les agents IA : copies Markdown de chaque page, en-têtes Link, llms.txt, Content Signals dans robots.txt, catalogue d’API et Agent Skills.",
+          "url": "https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/making-our-sites-agent-ready/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/fr/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Ce qu’il a fallu pour rendre nos sites accessibles aux agents IA",
+              "item": "https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/making-our-sites-agent-ready/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a aria-current="true" href="/fr/posts/">Blog</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs is-center">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="page" href="/fr/posts/making-our-sites-agent-ready/">Ce qu’il a fallu pour rendre nos sites accessibles aux agents IA</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Ce qu’il a fallu pour rendre nos sites accessibles aux agents IA</h1>
+<div class="prose prose-xl">
+<p>De plus en plus de visites sur un site web ne viennent pas de personnes, mais d’agents IA qui lisent des pages pour répondre à la question de quelqu’un, ou qui essaient d’utiliser un produit pour le compte d’un utilisateur. Cette semaine, nous avons passé en revue ce site et nos sites produits, <a href="/fr/projects/sawirpost/">SawirPost</a>, <a href="/fr/projects/sawirly/">Sawirly</a>, <a href="/fr/projects/rindraw/">Rindraw</a>, <a href="/fr/projects/math-daily/">Math Daily</a> et d’autres, pour qu’ils soient plus faciles à lire et à utiliser pour les agents.</p>
+<p>Nous avons utilisé <a href="https://isitagentready.com" rel="noopener" target="_blank">isitagentready.com</a> comme liste de contrôle. L’outil note un site par niveaux ; voici ce qu’a demandé chaque étape.</p>
+<h2>Une copie Markdown de chaque page</h2>
+<p>Un agent qui lit du HTML doit traverser menus, scripts et pieds de page pour trouver quelques paragraphes. Chaque page de ce site a donc désormais sa copie Markdown, à côté, sous <code>index.md</code>, avec uniquement le contenu principal de la page. Un petit script les génère à partir du HTML, si bien qu’elles ne divergent jamais.</p>
+<p>Les agents y accèdent de deux façons : en ajoutant <code>index.md</code> à une URL, ou en demandant <code>Accept: text/markdown</code>. Un minuscule Cloudflare Worker placé devant les fichiers statiques vérifie cet en-tête et renvoie la copie Markdown, avec une estimation du nombre de tokens dans un en-tête <code>x-markdown-tokens</code>. Les navigateurs, eux, reçoivent toujours la page habituelle.</p>
+<pre><code>curl -H "Accept: text/markdown" https://sawirstudio.com/shopify/</code></pre>
+<h2>En-têtes Link</h2>
+<p>Chaque page HTML indique désormais où se trouve sa copie Markdown, dans un en-tête HTTP <code>Link</code> avec <code>rel="alternate"</code>. La page d’accueil renvoie aussi vers <code>llms.txt</code> et le plan du site. Un agent peut tout trouver à partir d’une seule requête, sans deviner les URL.</p>
+<h2>llms.txt</h2>
+<p><code>llms.txt</code> est un index du site en texte brut destiné aux modèles de langage : un résumé en une ligne, puis la liste de toutes les pages avec leur description, qui renvoie vers les copies Markdown. Le nôtre est généré à partir du plan du site par le même script.</p>
+<h2>Content Signals</h2>
+<p><code>robots.txt</code> indique qui peut explorer le site, pas ce que les robots ont le droit de faire de ce qu’ils lisent. <a href="https://contentsignals.org/" rel="noopener" target="_blank">Content Signals</a> comble ce manque. Chez nous, il tient en une ligne et autorise les trois usages, car nous voulons être trouvés et cités :</p>
+<pre><code>Content-Signal: ai-train=yes, search=yes, ai-input=yes</code></pre>
+<p>Ces trois étapes ont suffi à amener tous nos sites au niveau 3.</p>
+<h2>Un catalogue d’API et des Agent Skills</h2>
+<p>SawirPost et Sawirly disposent d’API, nous sommes donc allés plus loin. Chacun publie un catalogue d’API à l’adresse <code>/.well-known/api-catalog</code> (RFC 9727) : un petit document JSON qui renvoie vers la description OpenAPI et la documentation. Un agent qui arrive sur le site peut trouver l’API sans lire une seule page.</p>
+<p>Ils publient aussi des Agent Skills, de courtes instructions qui expliquent aux agents comment réaliser les tâches courantes avec le produit. Cela a amené les deux sites au niveau 4.</p>
+<h2>Là où nous nous sommes arrêtés</h2>
+<p>Le niveau 5 exige que les agents puissent s’inscrire et s’authentifier seuls, via un flux d’enregistrement d’agent OAuth. Une page qui explique comment s’inscrire avec une adresse e-mail et un mot de passe ne compte pas. C’est une vraie fonctionnalité à développer, avec de vraies questions de sécurité : nous y réfléchissons donc plutôt que de la précipiter.</p>
+<h2>Cela en valait-il la peine ?</h2>
+<p>Pour un site statique, l’essentiel a pris un après-midi : un script, un petit Worker et une ligne dans <code>robots.txt</code>. Rien n’a changé pour les personnes qui visitent le site. Nous pensons que de plus en plus de questions trouveront leur réponse auprès d’agents qui lisent des sites comme le nôtre, et qu’une page Markdown propre est le meilleur moyen d’être cité correctement.</p>
+<p>Nous mettons en place la même chose pour nos clients dans le cadre de <a href="/fr/launch-and-growth/">Launch &amp; growth</a>.</p>
+<p><strong>À lire aussi :</strong> <a href="/fr/posts/wordpress-abilities-api-for-plugins/">Rendez votre plugin WordPress utilisable par les agents IA grâce à l’Abilities API</a>, ou <a href="/fr/posts/throwable-app-icons-matter-js/">Les icônes d’application lançables de notre page d’accueil</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Cet article vous a appris quelque chose ?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>J'aimerais avoir votre adresse e-mail pour vous envoyer d'autres articles comme celui-ci à chaque nouvelle publication.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Adresse e-mail" class="formkit-input" name="email_address" placeholder="Adresse e-mail" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>S'abonner</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Je n'enverrai pas de spam. Vous pouvez vous désabonner à tout moment.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Propulsé par ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/making-our-sites-agent-ready/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/making-our-sites-agent-ready/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/making-our-sites-agent-ready/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/making-our-sites-agent-ready/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/making-our-sites-agent-ready/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/making-our-sites-agent-ready/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/making-our-sites-agent-ready/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/making-our-sites-agent-ready/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

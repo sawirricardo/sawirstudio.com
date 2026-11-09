@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Icônes d'application lançables avec Matter.js | SawirStudio</title>
+<meta content="Comment nous avons créé la boîte d'icônes d'application que vous pouvez lancer sur notre page d'accueil : Matter.js pour la physique, des éléments DOM plutôt qu'un canvas, une ombre qui reste en place pendant que les icônes tournent, et des solutions de repli." name="description"/>
+<meta content="Icônes d'application lançables avec Matter.js | SawirStudio" property="og:title"/>
+<meta content="Comment nous avons créé la boîte d'icônes d'application que vous pouvez lancer sur notre page d'accueil : Matter.js pour la physique, des éléments DOM plutôt qu'un canvas, une ombre qui reste en place pendant que les icônes tournent, et des solutions de repli." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Les icônes d'application lançables de notre page d'accueil",
+          "description": "Comment nous avons créé la boîte d'icônes d'application que vous pouvez lancer sur notre page d'accueil : Matter.js pour la physique, des éléments DOM plutôt qu'un canvas, une ombre qui reste en place pendant que les icônes tournent, et des solutions de repli.",
+          "url": "https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/throwable-app-icons-matter-js/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/fr/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Les icônes d'application lançables de notre page d'accueil",
+              "item": "https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/throwable-app-icons-matter-js/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/throwable-app-icons-matter-js/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a aria-current="true" href="/fr/posts/">Blog</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs is-center">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="page" href="/fr/posts/throwable-app-icons-matter-js/">Les icônes d'application lançables de notre page d'accueil</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Les icônes d'application lançables de notre page d'accueil</h1>
+<div class="prose prose-xl">
+<p>Notre <a href="/fr/">page d'accueil</a> contient une boîte remplie des icônes de nos applications. Elles tombent à votre arrivée, et vous pouvez les attraper et les lancer. Un simple toucher, sans glisser, ouvre la page de l'application correspondante. Cela nous a pris un après-midi, et certains détails se sont révélés plus intéressants que prévu.</p>
+<h2>Pourquoi une boîte</h2>
+<p>Notre première idée était de laisser les icônes voler dans tout le haut de la page. Mais c'est là que se trouvent notre titre et nos boutons, et voir des icônes atterrir sur « Start a project » est un mauvais compromis pour un peu de plaisir. Une boîte à côté de l'introduction, avec une étiquette sur son bord, garde le jeu bien circonscrit. Elle comble aussi un vide déjà présent : l'espace libre à droite de l'introduction et des boutons sur un grand écran. Sur mobile, elle se place sous les boutons.</p>
+<h2>Une vraie physique, grâce à Matter.js</h2>
+<p>Des cercles qui s'entrechoquent, c'est facile à coder soi-même. Mais les icônes d'application sont des carrés aux coins arrondis, et un carré qui roule comme une pièce de monnaie paraît tout de suite faux. Pour des culbutes et des empilements crédibles, il faut un vrai moteur physique : nous avons donc utilisé <a href="https://brm.io/matter-js/" rel="noopener" target="_blank">Matter.js</a>. Chaque icône est un rectangle aux coins arrondis (<code>chamfer</code>) correspondant au rayon de 22 % de l'icône, placé entre quatre murs statiques.</p>
+<p>Le moteur pèse 83 Ko : il ne se charge donc que sur la page d'accueil, une fois la page affichée, et seulement si le visiteur n'a pas demandé de réduire les animations.</p>
+<h2>Des éléments DOM, pas un canvas</h2>
+<p>Matter.js peut dessiner dans un canvas, mais nous ne l'utilisons que pour les calculs. Les icônes sont de simples liens contenant des images, positionnés à chaque image avec une transformation CSS :</p>
+<pre><code>st.setProperty("--x", (b.position.x - size / 2) + "px");
+st.setProperty("--y", (b.position.y - size / 2) + "px");
+st.setProperty("--a", b.angle + "rad");</code></pre>
+<p>Ainsi, un toucher active un vrai lien, les images restent nettes à tous les niveaux de zoom, et les icônes gardent la même bordure et le même style que partout ailleurs sur le site.</p>
+<h2>L'ombre qui reste en place</h2>
+<p>Notre style applique une ombre franche en bas à droite de chaque élément. Sur un élément qui pivote, l'ombre pivote avec lui, et celle d'une icône qui tourne se met alors à balayer l'espace comme l'aiguille d'une horloge. La solution consiste à faire pivoter le décalage de l'ombre en sens inverse à chaque image :</p>
+<pre><code>// keep the shadow at (3px, 3px) in screen space while the icon turns by a
+st.setProperty("--shadow-x", 3 * (Math.cos(a) + Math.sin(a)) + "px");
+st.setProperty("--shadow-y", 3 * (Math.cos(a) - Math.sin(a)) + "px");</code></pre>
+<h2>Attraper et lancer</h2>
+<p>Quand on appuie, nous attachons un ressort (une contrainte Matter.js) entre le pointeur et l'endroit exact de l'icône que vous avez saisi, et non son centre, de sorte qu'elle se balance naturellement quand vous la tenez par un coin. Quand vous relâchez, elle conserve sa vitesse, plafonnée pour qu'un coup sec ne puisse pas la projeter à travers un mur. Si le pointeur a bougé de moins de six pixels, cela compte comme un toucher et le lien s'ouvre.</p>
+<p>Le haut de la boîte reste ouvert pendant que les icônes tombent d'en haut, puis se referme dès qu'elles sont toutes à l'intérieur, pour qu'un lancer ne puisse pas en faire sortir une par le haut.</p>
+<h2>Les petits détails</h2>
+<ul>
+<li>Un atterrissage brutal fait onduler le fond de points de la page.</li>
+<li>La simulation se met en veille quand tout est immobile et se met en pause quand la boîte est hors de l'écran : elle ne coûte donc rien pendant votre lecture.</li>
+<li>Les icônes ne tombent que lorsque la boîte est à l'écran. Sur mobile, c'est quand vous faites défiler la page jusqu'à elle.</li>
+<li>Sans JavaScript, ou avec la réduction des animations activée, les icônes restent immobiles en un tas bien rangé, et ce sont toujours des liens.</li>
+</ul>
+<p>C'est un petit détail, mais il en dit plus sur les applications que nous concevons qu'une simple phrase. Si vous souhaitez quelque chose de similaire pour votre propre site, <a href="/fr/contact/">parlez-nous-en</a>.</p>
+<p><strong>À lire aussi :</strong> <a href="/fr/posts/making-our-sites-agent-ready/">Ce qu'il a fallu pour rendre nos sites prêts pour les agents</a>, ou <a href="/fr/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 arrive le 8 décembre : ce que nous testons dans nos extensions</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Cet article vous a appris quelque chose ?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>J'aimerais avoir votre adresse e-mail pour vous envoyer d'autres articles comme celui-ci à chaque nouvelle publication.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Adresse e-mail" class="formkit-input" name="email_address" placeholder="Adresse e-mail" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>S'abonner</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Je n'enverrai pas de spam. Vous pouvez vous désabonner à tout moment.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Propulsé par ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/throwable-app-icons-matter-js/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/throwable-app-icons-matter-js/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/throwable-app-icons-matter-js/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/throwable-app-icons-matter-js/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/throwable-app-icons-matter-js/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/throwable-app-icons-matter-js/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/throwable-app-icons-matter-js/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/throwable-app-icons-matter-js/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

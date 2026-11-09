@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Social Scheduler | SawirStudio</title>
+<meta content="Rédigez une fois, programmez sur 27 réseaux depuis wp-admin. Modifications par canal, fils, médias, aperçus. Vos jetons restent sur votre serveur." name="description"/>
+<meta content="Sawir Social Scheduler | SawirStudio" property="og:title"/>
+<meta content="Rédigez une fois, programmez sur 27 réseaux depuis wp-admin. Modifications par canal, fils, médias, aperçus. Vos jetons restent sur votre serveur." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-social-scheduler.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Social Scheduler",
+          "description": "Rédigez une fois, programmez sur 27 réseaux depuis wp-admin. Modifications par canal, fils, médias, aperçus. Vos jetons restent sur votre serveur.",
+          "url": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-social-scheduler-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projets",
+              "item": "https://sawirstudio.com/fr/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Plugins WordPress",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Social Scheduler",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-social-scheduler/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="true" href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/projects/wordpress-plugins/">Plugins WordPress</a></li>
+<li><a aria-current="page" href="/fr/projects/wordpress-plugins/sawir-social-scheduler/">Sawir Social Scheduler</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Social Scheduler</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Bannière de Sawir Social Scheduler" height="500" src="/assets/images/plugins/sawir-social-scheduler-banner.webp" width="1544"/></p>
+<p>Sawir Social Scheduler vous permet de rédiger un message une seule fois dans wp-admin et de le programmer sur 27 réseaux sociaux, avec des modifications par canal, des fils, des médias et des aperçus. Les jetons de vos comptes restent sur votre serveur.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">Téléchargez-le gratuitement sur WordPress.org</a></p>
+<h2>Ce qu'il fait</h2>
+<p>Sawir Social Scheduler transforme WordPress en outil de programmation pour les réseaux sociaux. Connectez vos canaux avec les jetons fournis par chaque plateforme, rédigez un message, choisissez les canaux, fixez une date et publiez. Chaque envoi s'exécute en arrière-plan et vous renvoie un lien ou le message d'erreur de la plateforme elle-même.</p>
+<p>Aucun service hébergé ne s'interpose. Les identifiants sont chiffrés avec les clés (salts) de votre site et ne quittent jamais votre serveur.</p>
+<h3>Canaux</h3>
+<p>Ajoutez autant de canaux que vous le souhaitez, avec plusieurs comptes par plateforme. Chaque canal dispose d'un bouton <strong>Tester la connexion</strong> qui récupère le nom et l'avatar du compte et confirme que le jeton fonctionne vraiment avant que vous ne comptiez dessus.</p>
+<p><strong>Réseaux sociaux :</strong> X (Twitter), Page Facebook, Instagram, Threads, Page LinkedIn, Bluesky, Mastodon, TikTok, YouTube, Pinterest, Tumblr, Dribbble, Google Business Profile</p>
+<p><strong>Communautés :</strong> Telegram, Discord, Slack, Reddit, Lemmy, VK, Kick, Twitch, Whop</p>
+<p><strong>Blog et newsletter :</strong> WordPress, Medium, Dev.to, Hashnode, Listmonk</p>
+<p>Regroupez les canaux par client ou par marque grâce à des groupes imbriqués, puis sélectionnez un groupe entier en un clic.</p>
+<h3>Messages</h3>
+<ul>
+<li><strong>Un seul texte, plusieurs canaux.</strong> Choisissez les canaux avec des cases à cocher. Les canaux que vous ne modifiez pas reçoivent le message tel qu'il est rédigé.</li>
+<li><strong>Personnalisation par canal.</strong> Cochez « Personnaliser » sur un canal pour lui donner ses propres parties : texte, médias et délais, préremplis à partir du message pour que vous modifiiez une copie. Les autres canaux gardent le message tel qu'il est rédigé.</li>
+<li><strong>Fils.</strong> Ajoutez des parties pour publier un fil sur X, Threads, Bluesky, Mastodon et Telegram, chacune avec ses propres médias. Les plateformes sans fils reçoivent les parties réunies en un seul message.</li>
+<li><strong>Médias.</strong> Joignez images et vidéos une seule fois. Chaque plateforme reçoit ce qu'elle prend en charge : albums, carrousels, Reels, envois de vidéos reprenables.</li>
+<li><strong>Programmation.</strong> Utilisez la date « Publier le » habituelle de WordPress, ou donnez à chaque canal son propre horaire.</li>
+<li><strong>Horaires de publication.</strong> Définissez pour un canal ses horaires habituels dans la journée. « Prochain créneau libre » remplit le prochain créneau inutilisé, le calendrier affiche les prochains créneaux vides sur lesquels vous pouvez cliquer pour les remplir, et l'API accepte <code>"date": "next"</code>.</li>
+<li><strong>Aperçu.</strong> Un aperçu en direct par canal, fidèle à la vraie plateforme, avec les limites de caractères et les règles sur les médias appliquées, pour voir exactement ce qui sera publié.</li>
+<li><strong>Commentaires et délais.</strong> Sur les plateformes sans fils, les parties supplémentaires sont publiées en commentaires sous le message. Chaque partie peut attendre un nombre de minutes défini après la précédente.</li>
+<li><strong>Partager un article de blog.</strong> Un bloc dans l'éditeur d'articles habituel publie sur vos canaux au moment de la publication de l'article, avec son propre texte et ses propres médias.</li>
+<li><strong>Dupliquer.</strong> Copiez un message avec ses canaux, ses parties et ses personnalisations sous forme de nouveau brouillon. Conservez des brouillons comme modèles.</li>
+<li><strong>Mentions.</strong> Saisissez <code>@handle</code> et le réseau le résout sur X, Instagram, Threads, Mastodon, Telegram, Reddit et Bluesky, où les liens et les identifiants deviennent de vraies facettes. Les pages d'entreprise LinkedIn s'écrivent <code>@[Name](org:12345)</code> avec l'ID tiré de l'URL de la page ; les pages Facebook s'écrivent <code>@[12345]</code>.</li>
+<li><strong>Répétition.</strong> Renvoyez des messages intemporels tous les N jours ou toutes les N semaines, jusqu'à une date donnée ou un certain nombre de fois. Chaque exécution est un message à part entière, avec ses propres envois et statistiques. Placez <code>{n}</code> dans le texte pour numéroter les exécutions, car X, Threads et Bluesky rejettent les textes identiques.</li>
+</ul>
+<h3>Calendrier</h3>
+<p>Chaque message se décline en un envoi par canal, et le calendrier affiche chacun sous forme de carte colorée selon son état : programmé, envoyé, échoué, en attente, brouillon, en cours. Faites glisser une carte pour déplacer l'horaire de ce canal. Cliquez sur une carte pour voir l'erreur, un bouton Réessayer, le lien en ligne et les chiffres d'engagement. Cliquez sur un créneau vide pour créer un message à cette heure. Vues par mois, semaine, jour et liste, filtrables par groupe et par statut.</p>
+<h3>Statistiques</h3>
+<p>Les mentions J'aime, commentaires, partages, vues et impressions sont collectés 1 heure, 1 jour et 1 semaine après chaque envoi, ainsi qu'à la demande, sur 16 plateformes. Le nombre d'abonnés est enregistré chaque jour par canal, avec une courbe sur 30 jours. Les chiffres apparaissent sur les cartes du calendrier, dans le bloc Statistiques du message et dans la liste des canaux. La page Statistiques fait la synthèse des 7, 30 ou 90 derniers jours par rapport à la période précédente : messages envoyés, engagement, portée et abonnés avec leur évolution, un graphique des abonnés, l'engagement par canal et vos meilleurs messages.</p>
+<h3>Validation par le client</h3>
+<p>Cochez « Suspendre les envois jusqu'à validation », copiez le lien d'aperçu et envoyez-le à votre client. Il voit le message tel qu'il apparaîtra sur chaque canal, sans connexion, et clique sur Approuver ou sur Demander des modifications avec une note. L'approbation libère les envois. Chaque décision est conservée dans l'historique.</p>
+<p>Les envois de grosses vidéos vers X, YouTube et TikTok se font par petits segments qui reprennent d'une tâche en arrière-plan à l'autre. Ils résistent ainsi aux limites de temps des hébergeurs et ne chargent jamais un fichier entier en mémoire.</p>
+<h3>API REST</h3>
+<p>Tout ce que fait l'administration est disponible sur <code>/wp-json/sawir-social/v1</code> pour vos automatisations, applications mobiles et autres sites. L'authentification se fait avec un mot de passe d'application ; les permissions suivent les capacités du plugin et les identifiants des canaux ne sont jamais renvoyés.</p>
+<ul>
+<li><code>GET /platforms</code>, <code>GET /channels</code>, <code>GET /channels/{id}</code>, <code>POST /channels/{id}/test</code></li>
+<li><code>GET|POST /posts</code>, <code>GET|PATCH|DELETE /posts/{id}</code>, <code>POST /posts/{id}/duplicate</code>, <code>GET /posts/{id}/analytics</code></li>
+<li><code>GET /sends</code>, <code>GET /sends/{id}</code>, <code>POST /sends/{id}/retry</code>, <code>POST /sends/{id}/stats</code></li>
+</ul>
+<p>Créez un message avec <code>{"title","content","status":"future","date":"2026-12-25 09:00","media":[12],"parts":[{"text","media","delay"}],"channels":[{"id":38,"parts":[{"text","media","delay"}],"date":"…"}],"groups":["Client A"],"hold":false}</code>. Les <code>parts</code> d'un canal remplacent celles du message pour ce canal ; <code>text</code> est un raccourci pour une partie unique.</p>
+<h3>Agents IA</h3>
+<p>Les mêmes opérations sont enregistrées dans l'API Abilities de WordPress sous les noms <code>sawir-social/list-channels</code>, <code>create-post</code>, <code>update-post</code>, <code>list-posts</code>, <code>list-sends</code>, <code>retry-send</code>, <code>test-channel</code>, <code>get-analytics</code> et <code>list-platforms</code>, avec des schémas d'entrée et de sortie typés. Tout agent connecté via l'adaptateur WordPress MCP les voit comme des outils, et ils sont également appelables sur <code>/wp-json/wp-abilities/v1/abilities/{name}/run</code>. L'API Abilities fait partie de WordPress 6.9 et des versions ultérieures ; pour les versions plus anciennes, le plugin l'intègre, de sorte que les capacités sont disponibles partout où le plugin fonctionne.</p>
+<h3>Prérequis</h3>
+<p>Les envois s'exécutent en arrière-plan via Action Scheduler lorsque votre site l'a (WooCommerce et de nombreux autres plugins le fournissent), et via WP-Cron sinon. Avec le cron intégré de WordPress, ils n'avancent que lorsque le site reçoit du trafic. Pour des envois rapides, ajoutez un cron système : l'écran Calendrier affiche la commande exacte pour votre site.</p>
+<p>Les médias doivent être accessibles depuis Internet pour les plateformes qui les récupèrent par URL (Instagram, Threads, Facebook, Pinterest, Telegram). Un site de développement local ne peut pas leur transmettre d'images.</p>
+<h3>Crédits</h3>
+<p>Intègre FullCalendar (MIT), la bibliothèque WordPress Abilities API (GPL) et des logos de marques issus de Simple Icons (CC0). Utilise Action Scheduler lorsqu'un autre plugin le fournit.</p>
+<h2>Captures d'écran</h2>
+<p><img alt="Capture d'écran 1 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-1.webp" width="1280"/></p>
+<p><img alt="Capture d'écran 2 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-2.webp" width="1280"/></p>
+<p><img alt="Capture d'écran 3 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-3.webp" width="1280"/></p>
+<p><img alt="Capture d'écran 4 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-4.webp" width="1280"/></p>
+<p><img alt="Capture d'écran 5 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-5.webp" width="1280"/></p>
+<p><img alt="Capture d'écran 6 de Sawir Social Scheduler" height="900" loading="lazy" src="/assets/images/plugins/sawir-social-scheduler-screenshot-6.webp" width="1280"/></p>
+<h2>Questions</h2>
+<h3>Où trouver les jetons ?</h3>
+<p>Dans les paramètres développeur de chaque plateforme. Le formulaire du canal indique l'identifiant exact requis, par exemple un jeton d'accès de Page Facebook, un jeton de bot Telegram ou un mot de passe d'application Bluesky. Les jetons de longue durée sont préférables ; les jetons Meta et LinkedIn expirent après environ 60 jours et doivent être collés à nouveau.</p>
+<h3>Mon test Telegram affiche « chat not found »</h3>
+<p>Les canaux privés n'ont pas de @username. Laissez l'ID du chat vide et cliquez sur Tester la connexion : le plugin liste tous les chats auxquels le bot a été ajouté, avec l'ID numérique à coller.</p>
+<h3>Pourquoi un envoi reste-t-il bloqué sur « En cours… » ?</h3>
+<p>La file d'attente en arrière-plan ne s'est pas encore exécutée. Visitez le site, ou configurez le cron système indiqué sur l'écran Calendrier.</p>
+<h3>Puis-je publier une vidéo sur Instagram depuis un site local ?</h3>
+<p>Non. Instagram récupère les médias par URL et a besoin d'une adresse publique. Tout le reste du plugin fonctionne en local.</p>
+<h2>À associer avec</h2>
+<ul>
+<li><a href="/fr/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a> : montre comment les visiteurs utilisent votre site, avec des cartes de chaleur, des enregistrements de sessions, des sondages, des tunnels de conversion et des statistiques de formulaires, et conserve le tout sur votre propre serveur.</li>
+<li><a href="/fr/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a> : traduit vos pages directement là où elles se trouvent : choisissez une langue, traduisez automatiquement ce qui est affiché, enregistrez, puis proposez à vos visiteurs un sélecteur de langue.</li>
+</ul>
+<p>Découvrez tous nos <a href="/fr/projects/wordpress-plugins/">plugins WordPress gratuits</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prix</strong> Gratuit</li>
+<li><strong>Version</strong> 0.1.0</li>
+<li><strong>Prérequis</strong> WordPress 5.8, PHP 7.4</li>
+<li><strong>Licence</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-social-scheduler/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-social-scheduler/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Assez parlé de nous.</p>
+<h2>Comment pouvons-nous<br/>vous aider ?</h2>
+<a class="button" href="/fr/contact/">Démarrer un projet</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-social-scheduler/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

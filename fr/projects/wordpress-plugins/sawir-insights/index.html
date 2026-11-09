@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Insights | SawirStudio</title>
+<meta content="Cartes de chaleur, enregistrements de sessions, sondages, entonnoirs et analyse des formulaires. Tout reste sur votre serveur." name="description"/>
+<meta content="Sawir Insights | SawirStudio" property="og:title"/>
+<meta content="Cartes de chaleur, enregistrements de sessions, sondages, entonnoirs et analyse des formulaires. Tout reste sur votre serveur." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-insights.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Insights",
+          "description": "Cartes de chaleur, enregistrements de sessions, sondages, entonnoirs et analyse des formulaires. Tout reste sur votre serveur.",
+          "url": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-insights-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projets",
+              "item": "https://sawirstudio.com/fr/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Plugins WordPress",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Insights",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-insights/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="true" href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/projects/wordpress-plugins/">Plugins WordPress</a></li>
+<li><a aria-current="page" href="/fr/projects/wordpress-plugins/sawir-insights/">Sawir Insights</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Insights</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Bannière Sawir Insights" height="500" src="/assets/images/plugins/sawir-insights-banner.webp" width="1544"/></p>
+<p>Sawir Insights vous montre comment les visiteurs utilisent votre site, avec des cartes de chaleur, des enregistrements de sessions, des sondages, des entonnoirs de conversion et une analyse des formulaires, le tout hébergé sur votre propre serveur.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">Télécharger gratuitement sur WordPress.org</a></p>
+<h2>Ce qu'il fait</h2>
+<p>Sawir Insights est une extension d'analyse comportementale pour WordPress : cartes de chaleur, enregistrements de sessions, sondages, widget de feedback, analyse des formulaires, entonnoirs de conversion et un tableau de bord qui réunit le tout.</p>
+<p>Sur les réseaux multisites, chaque site suit et configure ses statistiques de façon indépendante.</p>
+<p>En bref : une alternative auto-hébergée à Hotjar ou Microsoft Clarity, où les données des visiteurs restent dans votre propre base de données.</p>
+<p>La raison d'être de cette extension est simple. Les outils établis dans cette catégorie sont bons, mais ils fonctionnent en envoyant sur les serveurs d'un tiers une trace de tout ce que font vos visiteurs. Pour beaucoup de sites, surtout dans l'UE, c'est au mieux gênant, au pire inenvisageable. Je voulais le même type d'outils, mais avec des données qui ne quittent jamais le site qui les a collectées. C'est donc la contrainte autour de laquelle cette extension est construite : votre base de données, votre répertoire d'uploads, vos règles de conservation. Il n'y a aucun SaaS derrière, aucun compte à créer et aucune communication avec un serveur externe, quelle qu'elle soit.</p>
+<h3>Ce qu'il fait</h3>
+<ul>
+<li>Cartes de chaleur des clics, des mouvements et du défilement, affichées sur vos pages en ligne, avec une séparation entre ordinateur, tablette et mobile.</li>
+<li>Enregistrements de sessions avec lecture dans wp-admin. Les valeurs saisies sont toujours masquées ; l'enregistrement est désactivé tant que vous ne l'activez pas.</li>
+<li>Sondages en fenêtre contextuelle et onglet de feedback permanent, avec ciblage par URL, appareil, pourcentage de trafic, temps passé sur la page, profondeur de défilement ou intention de sortie.</li>
+<li>Analyse des formulaires : où les gens hésitent, ce qu'ils laissent vide, où ils abandonnent. Uniquement des sélecteurs et des durées, jamais ce que quelqu'un a saisi.</li>
+<li>Entonnoirs de conversion ordonnés avec rapports quotidiens.</li>
+<li>Un tableau de bord avec les indicateurs clés de trafic et leurs variations d'une période à l'autre, un graphique de tendance quotidienne, et des répartitions par appareil, navigateur, page, source de provenance, campagne, entonnoir et enregistrement.</li>
+</ul>
+<h3>Ce que l'extension refuse volontairement de faire</h3>
+<p>Je pense que vous devez savoir ce qu'un outil refuse de faire avant de l'installer.</p>
+<ul>
+<li>Elle ne stocke aucune adresse IP. Ni hachée, ni tronquée : aucune.</li>
+<li>Elle n'enregistre jamais les valeurs des formulaires. La couche de capture n'envoie que des métadonnées, il n'y a donc rien à divulguer.</li>
+<li>Elle ne charge rien depuis un CDN et n'envoie rien vers un CDN. La bibliothèque de relecture rrweb est incluse dans l'extension.</li>
+<li>Elle ne conserve pas les données brutes indéfiniment. Les événements sont agrégés puis supprimés selon un calendrier de conservation que vous contrôlez, et les enregistrements ont leur propre durée de conservation ainsi qu'un plafond d'espace disque, avec suppression des plus anciens en premier, car une extension qui remplit discrètement le disque de votre hébergement est une mauvaise extension.</li>
+</ul>
+<p>Le traceur côté frontend est un petit script en JavaScript natif, envoyé par lots via <code>sendBeacon</code>, avec des réglages d'échantillonnage. Les visiteurs qui ne sont pas sélectionnés pour l'enregistrement ne téléchargent jamais la bibliothèque de relecture.</p>
+<h3>Respect de la vie privée</h3>
+<p>Le signal Do Not Track est respecté par défaut. Une API de gestion du consentement (<code>window.swinsConsent</code>) s'intègre au gestionnaire de consentement que vous utilisez déjà. Les sessions, les événements et les enregistrements sont reliés aux outils d'export et d'effacement des données personnelles de WordPress. La conformité de votre déploiement au RGPD dépend de vos mentions d'information et de votre base légale, et aucune extension ne peut s'en charger à votre place, mais le travail de minimisation des données est fait.</p>
+<h3>Assistance</h3>
+<p>L'assistance passe par le forum wordpress.org de cette extension, ou par e-mail à ricardo@sawirstudio.com.</p>
+<h2>Questions</h2>
+<h3>Comparaison avec les alternatives</h3>
+<p>Les services d'analyse hébergés comme Hotjar et Microsoft Clarity sont d'excellents outils, avec des offres gratuites généreuses, mais ils fonctionnent en envoyant une trace du comportement de vos visiteurs vers leurs serveurs. Sawir Insights renonce à cette infrastructure partagée entre sites au profit d'une seule contrainte : tout est collecté, stocké et consulté sur votre propre site. Choisissez un service hébergé si vous voulez ses fonctions supplémentaires et que le traitement par un tiers ne vous dérange pas ; choisissez Sawir Insights si le fait que les données des visiteurs quittent votre serveur est rédhibitoire. Les enregistrements et les cartes de chaleur sont stockés dans votre propre base de données et votre répertoire d'uploads : les réglages de conservation comptent donc davantage ici que dans un SaaS.</p>
+<h3>Sawir Insights est-il conforme au RGPD ?</h3>
+<p>L'extension est conçue pour les déploiements soucieux de la vie privée : les données restent sur votre serveur, les adresses IP ne sont jamais stockées, la conservation est configurable, Do Not Track est respecté et les outils d'export et d'effacement de WordPress sont intégrés. La conformité elle-même dépend de votre configuration, de vos mentions d'information, de votre base légale et de la mise en œuvre du consentement : consultez un juriste qualifié pour votre site.</p>
+<h3>En quoi est-ce différent de Hotjar ou de Microsoft Clarity ?</h3>
+<p>Ce sont des services hébergés : des outils performants, mais le comportement de vos visiteurs est enregistré sur leurs serveurs, selon leurs conditions. Sawir Insights couvre la même catégorie (cartes de chaleur, enregistrements de sessions, sondages, entonnoirs, analyse des formulaires) sous forme d'extension qui garde tout sur votre propre serveur, sans compte, sans service externe et sans partage de données.</p>
+<h3>Les données des visiteurs quittent-elles mon serveur ?</h3>
+<p>Non. L'extension n'envoie aucune donnée comportementale à Sawir Studio ni à aucun fournisseur d'analyse. Les événements sont stockés dans votre base de données WordPress ; les fichiers d'enregistrement se trouvent dans votre répertoire d'uploads protégé.</p>
+<h2>À associer avec</h2>
+<ul>
+<li><a href="/fr/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a> : montre à vos visiteurs ce qui se passe vraiment dans votre boutique (commandes récentes, personnes qui consultent un produit, nouveaux avis) sous forme de petites notifications dans un coin de l'écran.</li>
+<li><a href="/fr/projects/wordpress-plugins/sawir-live-translate/">Sawir Live Translate</a> : traduit vos pages directement là où elles se trouvent : choisissez une langue, traduisez automatiquement ce qui est affiché, enregistrez, puis proposez à vos visiteurs un sélecteur de langue.</li>
+</ul>
+<p>Découvrez tous nos <a href="/fr/projects/wordpress-plugins/">plugins WordPress gratuits</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prix</strong> Gratuit</li>
+<li><strong>Version</strong> 1.0.0</li>
+<li><strong>Prérequis</strong> : WordPress 6.2, PHP 7.4</li>
+<li><strong>Licence</strong> GPLv2 ou ultérieure</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-insights/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-insights/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Assez parlé de nous.</p>
+<h2>Comment pouvons-nous<br/>vous aider ?</h2>
+<a class="button" href="/fr/contact/">Démarrer un projet</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-insights/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-insights/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-insights/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-insights/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-insights/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-insights/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-insights/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

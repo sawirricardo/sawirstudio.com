@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawir Renew – Facturation récurrente pour WooCommerce | SawirStudio</title>
+<meta content="Des abonnements complets pour WooCommerce : facturation récurrente, périodes d'essai, frais d'inscription, pause et saut de renouvellement, changement de formule, relances de paiement et nouvelles tentatives intelligentes. Le tout gratuit." name="description"/>
+<meta content="Sawir Renew – Facturation récurrente pour WooCommerce | SawirStudio" property="og:title"/>
+<meta content="Des abonnements complets pour WooCommerce : facturation récurrente, périodes d'essai, frais d'inscription, pause et saut de renouvellement, changement de formule, relances de paiement et nouvelles tentatives intelligentes. Le tout gratuit." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawir-renew.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sawir Renew – Facturation récurrente pour WooCommerce",
+          "description": "Des abonnements complets pour WooCommerce : facturation récurrente, périodes d'essai, frais d'inscription, pause et saut de renouvellement, changement de formule, relances de paiement et nouvelles tentatives intelligentes. Le tout gratuit.",
+          "url": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/",
+          "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projets",
+              "item": "https://sawirstudio.com/fr/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Plugins WordPress",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Sawir Renew",
+              "item": "https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="true" href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/projects/wordpress-plugins/">Plugins WordPress</a></li>
+<li><a aria-current="page" href="/fr/projects/wordpress-plugins/sawir-renew/">Sawir Renew</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Sawir Renew</h1>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p><img alt="Bannière de Sawir Renew" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" width="1544"/></p>
+<p>Sawir Renew transforme une boutique WooCommerce en activité d'abonnement : facturation récurrente, périodes d'essai, frais d'inscription et relances intelligentes, sans offre payante qui bride une seule fonctionnalité.</p>
+<p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">Téléchargez-le gratuitement sur WordPress.org</a></p>
+<h2>Ce qu'il fait</h2>
+<p>Vendez des abonnements avec WooCommerce sans payer d'extension. Toutes les fonctionnalités sont gratuites : il n'existe pas de version pro et rien n'est verrouillé.</p>
+<h3>Produits et tarifs</h3>
+<ul>
+<li>Types de produits d'abonnement simples et variables</li>
+<li>Facturation tous les N jours, semaines, mois ou ans, avec prise en charge des prix promotionnels</li>
+<li>Périodes d'essai gratuites, frais d'inscription et abonnements qui expirent après N paiements</li>
+<li>Renouvellements synchronisés (tout le monde renouvelle le 1er du mois, ou le jour de votre choix), avec première période au prorata ou gratuite en option</li>
+<li>Frais de livraison uniques, limite d'« un abonnement actif par client »</li>
+</ul>
+<h3>Deux modes de paiement</h3>
+<ul>
+<li><strong>Paiement à chaque renouvellement (compatible avec toutes les passerelles de paiement) :</strong> lorsqu'un renouvellement arrive à échéance, le client reçoit une facture avec un lien de paiement : virement bancaire, portefeuilles électroniques, paiement à la livraison, tout ce que votre boutique accepte. Idéal pour les marchés où le prélèvement automatique par carte n'est pas la norme.</li>
+<li><strong>Facturation automatique via Stripe :</strong> si vous utilisez la passerelle officielle WooCommerce Stripe Gateway, les cartes sont enregistrées lors de la commande et les renouvellements sont prélevés automatiquement, sans que le client soit présent. Les relances intelligentes sont incluses, ainsi qu'un lien de paiement de secours lorsqu'une carte exige une authentification. D'autres passerelles peuvent se brancher sur le même contrat d'adaptateur (voir la FAQ).</li>
+</ul>
+<h3>Des renouvellements qui ne vous réveillent pas à 3 h du matin</h3>
+<ul>
+<li>Toute la planification repose sur Action Scheduler, avec un contrôle quotidien d'auto-réparation</li>
+<li>Relances de paiement configurables : délais entre les tentatives, calendrier des rappels, périodes de grâce, annulation automatique</li>
+<li>La détection des sites de préproduction ou dupliqués suspend la facturation dès que l'URL de votre site change : fini les doubles prélèvements dus à une copie de préproduction oubliée</li>
+<li>E-mails d'avis avant renouvellement, envoyés avant les prélèvements automatiques</li>
+</ul>
+<h3>Des clients autonomes</h3>
+<p>La section Mon compte → Abonnements permet aux clients d'annuler (immédiatement ou à la fin de la période, à vous de choisir), de mettre en pause et de reprendre, de sauter un renouvellement, de renouveler par anticipation, de modifier leur moyen de paiement ou leur adresse de livraison, et de passer d'une formule à une autre, avec un supplément calculé au prorata lors d'une montée en gamme.</p>
+<h3>Codes promo récurrents</h3>
+<p>Quatre types de codes promo pour abonnements : remises récurrentes en pourcentage ou en montant fixe (éventuellement limitées aux N premiers paiements) et remises sur les frais d'inscription. Les codes promo standard continuent de s'appliquer uniquement à la commande initiale.</p>
+<h3>Notifications</h3>
+<p>Treize e-mails activables ou désactivables (client et administrateur) pour chaque étape du cycle de vie d'un abonnement. Les développeurs peuvent répercuter n'importe quel événement vers d'autres canaux (WhatsApp, SMS, Slack, etc.) grâce au hook <code>swsb_notified</code>.</p>
+<h3>Conçu pour le WooCommerce d'aujourd'hui</h3>
+<p>Compatible HPOS en natif (les abonnements sont stockés dans le système de commandes de WooCommerce, sans table personnalisée), compatible avec les blocs panier et commande, liste d'administration et éditeur complets reprenant les écrans de commande de WooCommerce, page de rapports mise en cache toutes les heures (abonnements actifs, MRR, taux de désabonnement, prochains renouvellements, revenus des renouvellements) et API REST.</p>
+<h2>Questions</h2>
+<h3>Ce plugin est-il affilié à WooCommerce ou à Automattic ?</h3>
+<p>Non. « WooCommerce » est une marque d'Automattic ; ce plugin indépendant est conçu <em>pour</em> WooCommerce, dans le respect de leurs consignes de dénomination.</p>
+<h3>Quelles passerelles prennent en charge les renouvellements automatiques ?</h3>
+<p>Dès l'installation : la passerelle officielle WooCommerce Stripe Gateway. Toutes les autres passerelles fonctionnent en mode paiement à chaque renouvellement : le client reçoit un lien de paiement à chaque période. Les développeurs peuvent ajouter la prise en charge automatique de n'importe quelle passerelle avec deux filtres :</p>
+<p><code>swsb_order_supports_auto</code> : renvoyez true lorsque la passerelle de la commande parente a enregistré un moyen de paiement réutilisable. <code>swsb_charge_renewal</code> : prélevez la commande de renouvellement sans que le client soit présent, puis renvoyez <code>true</code> ou une <code>WP_Error</code>.</p>
+<h3>Peut-il fonctionner en même temps que WooCommerce Subscriptions ?</h3>
+<p>Non : faire tourner deux moteurs de facturation prélèverait deux fois les clients. Ce plugin désactive donc son moteur et affiche un avertissement si WooCommerce Subscriptions est actif.</p>
+<h3>Que se passe-t-il sur un site de préproduction ?</h3>
+<p>Si l'URL du site change, la facturation et les e-mails clients sont automatiquement suspendus jusqu'à ce que vous confirmiez s'il s'agit d'une copie de préproduction ou du site en production. Si vous choisissez « production », tous les calendriers sont reconstruits.</p>
+<h2>À associer avec</h2>
+<ul>
+<li><a href="/fr/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a> : permet à vos clients de faire venir leurs amis.</li>
+<li><a href="/fr/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a> : montre à vos visiteurs ce qui se passe vraiment dans votre boutique (commandes récentes, personnes qui consultent un produit, nouveaux avis) sous forme de petites notifications dans un coin de l'écran.</li>
+</ul>
+<p>Découvrez tous nos <a href="/fr/projects/wordpress-plugins/">plugins WordPress gratuits</a>.</p>
+</div>
+<ul class="project-meta">
+<li><strong>Prix</strong> Gratuit</li>
+<li><strong>Version</strong> 1.0.0</li>
+<li><strong>Prérequis</strong> : WordPress 6.0, PHP 7.4, WooCommerce</li>
+<li><strong>Licence</strong> GPL-2.0-or-later</li>
+<li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" rel="noreferrer" target="_blank">https://wordpress.org/plugins/sawir-renew/</a></li>
+</ul>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Assez parlé de nous.</p>
+<h2>Comment pouvons-nous<br/>vous aider ?</h2>
+<a class="button" href="/fr/contact/">Démarrer un projet</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/wordpress-plugins/sawir-renew/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/wordpress-plugins/sawir-renew/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/wordpress-plugins/sawir-renew/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/wordpress-plugins/sawir-renew/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/wordpress-plugins/sawir-renew/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/wordpress-plugins/sawir-renew/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/wordpress-plugins/sawir-renew/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

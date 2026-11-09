@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Limites des forfaits d’abonnement dans Laravel | SawirStudio</title>
+<meta content="Comment appliquer les limites des forfaits d’abonnement dans Laravel, d’une simple vérification dans le contrôleur jusqu’aux Gates et aux Policies." name="description"/>
+<meta content="Limites des forfaits d’abonnement dans Laravel | SawirStudio" property="og:title"/>
+<meta content="Comment appliquer les limites des forfaits d’abonnement dans Laravel, d’une simple vérification dans le contrôleur jusqu’aux Gates et aux Policies." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Comment concevoir les restrictions de vos forfaits d’abonnement",
+          "description": "Comment appliquer les limites des forfaits d’abonnement dans Laravel, d’une simple vérification dans le contrôleur jusqu’aux Gates et aux Policies.",
+          "url": "https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/",
+          "datePublished": "2022-07-04",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/fr/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Comment concevoir les restrictions de vos forfaits d’abonnement",
+              "item": "https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a aria-current="true" href="/fr/posts/">Blog</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs is-center">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="page" href="/fr/posts/how-do-you-design-your-subscription-plan-restrictions/">Comment concevoir les restrictions de vos forfaits d’abonnement</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Comment concevoir les restrictions de vos forfaits d’abonnement</h1>
+<div class="prose prose-xl">
+<p>Je stocke généralement le forfait d’abonnement de l’utilisateur dans la table <code>users</code>, par exemple avec un <code>plan_id</code> qui renvoie aux forfaits d’abonnement.</p>
+<p>Posons le décor…</p>
+<p>nos forfaits d’abonnement.php</p>
+<pre><code>return [
+
+	cheap_plan ⇒ [
+
+		‘maximum_list’ ⇒ 20,
+
+	],
+
+	expensive_plan ⇒ [
+
+		‘maximum_list’ ⇒ 50,
+
+	],
+
+];
+
+</code></pre>
+<p>On peut ensuite l’utiliser dans le contrôleur comme ceci (on suppose ici que seuls les utilisateurs connectés peuvent accéder à ce point d’accès)</p>
+<pre><code>public function create()
+{
+	$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+	if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+		abort(403, "You've reached your maximum list. Please upgrade your plan.");
+	}
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>C’est une méthode valable, et pour la plupart des applications, je pense qu’elle remplit son rôle pour contrôler la limite de création.</p>
+<p>Cependant, comme vous l’avez mentionné, il existe une autre approche, « plus centralisée » :</p>
+<p>Utiliser Gate et Policy.</p>
+<p>Refactorons notre code précédent avec un Gate</p>
+<pre><code>// AuthServiceProvider.php
+
+class AuthServiceProvider extends ServiceProvider
+{
+	//
+
+	public function boot()
+	{
+		$this-&gt;registerPolicies();
+
+		Gate::define('create-list', function($user) {
+			$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+			if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+				return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+			}
+
+			return Response::allow();
+		});
+	}
+}
+
+</code></pre>
+<p>Et dans votre contrôleur, on peut le refactoriser ainsi</p>
+<pre><code>public function create()
+{
+	$this-&gt;authorize('create-list');
+	// or Gate::allows('create-list');
+	// or Gate::inspect('create-list'); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>Cela devrait déjà répondre à vos besoins. Mais existe-t-il peut-être une approche plus encadrée ?</p>
+<p>Vous avez raison : il faut utiliser la policy.</p>
+<p>On dit que la Policy convient mieux quand on manipule une « ressource » ou des modèles d’un domaine métier, comme le modèle List dans notre cas.</p>
+<p>Et que le Gate convient mieux pour une « action ».</p>
+<p>Mais personnellement, je pense qu’il vaut mieux utiliser une policy dès que c’est possible, car… outre le fait que cela donne une bonne excuse pour créer des fichiers séparés, cela évite aussi d’encombrer votre <code>AuthServiceProvider</code>… (je n’aime pas trop modifier le service provider, d’ailleurs, sauf si c’est vraiment nécessaire).</p>
+<p>Refactorons notre code précédent avec une Policy</p>
+<pre><code>class ListPolicy
+{
+	use HandlesAuthorization;
+
+	public function create(User $user)
+	{
+		$postCount = Auth::user()-&gt;loadCount('posts')-&gt;posts_count;
+
+		if ($postCount &gt; Auth::user()-&gt;plan-&gt;maximum_list) {
+			return Response::deny("You've reached your maximum list. Please upgrade your plan.");
+		}
+
+		return Response::allow();
+	}
+
+}
+
+</code></pre>
+<p>Vous avez remarqué que les méthodes reprennent celles du contrôleur de ressources ? C’est voulu, je crois, de la part de l’équipe Laravel. Bravo à elle.</p>
+<p>et on peut simplement l’utiliser ainsi dans le contrôleur</p>
+<pre><code>public function create()
+{
+	$this-&gt;authorize('create', List::class);
+	// or Gate::allows('create-list', List::class);
+	// or Gate::inspect('create-list', List::class); // if you want more customized response.
+
+	// proceed to create the list
+	// $list = List::create(...)
+
+	// return redirect()-&gt;route('lists.show', ['list' =&gt; $list]);
+}
+
+</code></pre>
+<p>le <code>List::class</code> est là uniquement pour aider Laravel à déterminer quelle classe Policy utiliser.</p>
+<p>Au final, cette approche nous évite le problème où… on peut littéralement créer la liste depuis 10 contrôleurs différents. Il suffit d’y placer le <code>$this-&gt;authorize()</code> et l’affaire est réglée.</p>
+<p><strong>À lire aussi :</strong> <a href="/fr/posts/how-to-build-your-own-content-management-system-like-wordpress/">Comment créer votre propre système de gestion de contenu (comme WordPress)</a>, ou découvrez Sawir Renew, le plugin d’abonnements gratuit pour WooCommerce, dans nos <a href="/fr/projects/wordpress-plugins/">plugins WordPress</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Cet article vous a appris quelque chose ?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>J'aimerais avoir votre adresse e-mail pour vous envoyer d'autres articles comme celui-ci à chaque nouvelle publication.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Adresse e-mail" class="formkit-input" name="email_address" placeholder="Adresse e-mail" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>S'abonner</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Je n'enverrai pas de spam. Vous pouvez vous désabonner à tout moment.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Propulsé par ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/how-do-you-design-your-subscription-plan-restrictions/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

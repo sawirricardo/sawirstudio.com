@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Sawirly | SawirStudio</title>
+<meta content="Un raccourcisseur d’URL axé sur la confidentialité, sans suivi, avec des liens qui peuvent expirer" name="description"/>
+<meta content="Sawirly | SawirStudio" property="og:title"/>
+<meta content="Un raccourcisseur d’URL axé sur la confidentialité, sans suivi, avec des liens qui peuvent expirer" property="og:description"/>
+<meta content="https://sawirstudio.com/fr/projects/sawirly/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/projects/sawirly/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/sawirly.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "name": "Sawirly",
+          "description": "Un raccourcisseur d’URL axé sur la confidentialité, sans suivi, avec des liens qui peuvent expirer",
+          "url": "https://sawirly.com",
+          "mainEntityOfPage": "https://sawirstudio.com/projects/sawirly/",
+          "image": "https://sawirstudio.com/assets/images/projects/sawirly-icon.webp",
+          "operatingSystem": "Web",
+          "applicationCategory": "UtilitiesApplication",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projets",
+              "item": "https://sawirstudio.com/fr/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Sawirly",
+              "item": "https://sawirstudio.com/fr/projects/sawirly/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/sawirly/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/sawirly/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/sawirly/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/sawirly/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/sawirly/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/sawirly/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/sawirly/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/sawirly/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/sawirly/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="true" href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section banner narrow" role="banner">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a aria-current="page" href="/fr/projects/sawirly/">Sawirly</a></li>
+</ol>
+</nav>
+<div class="app-heading">
+<img alt="" class="app-icon" height="96" src="/assets/images/projects/sawirly-icon.webp" style="view-transition-name: media-sawirly" width="96"/>
+<h1 class="page-title heavy">Sawirly</h1>
+</div>
+<p class="lead-sm">Un raccourcisseur d’URL axé sur la confidentialité, sans suivi, avec des liens qui peuvent expirer</p>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<p>La plupart des raccourcisseurs d’URL suivent vos clics, affichent des publicités ou collectent des données personnelles. Pas Sawirly : il n’enregistre ni ne détecte votre adresse IP, votre localisation ou votre navigateur, et chaque lien est propre et privé par défaut.</p>
+<p>Chaque lien peut avoir un alias personnalisé, être actif entre une date de début et une date de fin, ou ne fonctionner qu’une seule fois. Sawirly est gratuit pour un usage personnel, et les développeurs disposent d’une API simple, qui respecte la vie privée.</p>
+<p><img alt="Sawirly : raccourcisseur d’URL axé sur la confidentialité" height="1024" loading="lazy" src="/assets/images/projects/sawirly.webp" width="1536"/></p>
+</div>
+<ul class="project-meta">
+<li><strong>Client</strong> Notre propre produit</li>
+<li><strong>Plateformes</strong> Web</li>
+<li><strong>Tarif</strong> Gratuit pour un usage personnel</li>
+<li><strong>URL du site</strong> <a href="https://sawirly.com" rel="noreferrer" target="_blank">https://sawirly.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related">
+<h2 class="section-title">Autres projets</h2>
+<div class="project-grid">
+<a class="card" href="/fr/projects/quill-word-counter/">
+<div class="thumb thumb-app"><img alt="Quill Word Counter" height="196" loading="lazy" src="/assets/images/projects/quill-word-counter-icon.webp" width="196"/></div>
+<div class="card-body"><h3>Quill Word Counter</h3></div>
+</a>
+<a class="card" href="/fr/projects/nofapfit/">
+<div class="thumb thumb-app"><img alt="NoFapFit" loading="lazy" src="/assets/images/projects/nofapfit-icon.webp"/></div>
+<div class="card-body"><h3>NoFapFit</h3></div>
+</a>
+<a class="card" href="/fr/projects/wordpress-plugins/">
+<img alt="Plugins WordPress" class="thumb" height="900" loading="lazy" src="/assets/images/projects/wordpress-plugins.webp" width="1600"/>
+<div class="card-body"><h3>Plugins WordPress</h3></div>
+</a>
+</div>
+</section>
+<section class="section" id="cta">
+<div class="cta-box shadow-xl">
+<p>Assez parlé de nous.</p>
+<h2>Comment pouvons-nous<br/>vous aider ?</h2>
+<a class="button" href="/fr/contact/">Démarrer un projet</a>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/sawirly/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/sawirly/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/sawirly/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/sawirly/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/sawirly/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/sawirly/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/sawirly/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/sawirly/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

@@ -49,6 +49,7 @@ LANGS = {
     "de": ("de", "Deutsch", "de_DE", "German for business readers in Germany, Austria and Switzerland. Address the reader formally as Sie. Keep common English tech terms Germans use (App, Website, Shop, Plugin, Backend); use German quotation marks „…“"),
     "he": ("he", "עברית", "he_IL", "Modern Hebrew for business readers in Israel. Plain, direct professional tone; address the reader in plural or gender-neutral phrasing (אתם / לכם) rather than masculine singular. Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store)"),
     "ru": ("ru", "Русский", "ru_RU", "Russian for business readers. Address the reader formally as Вы/вы (lowercase вы in running text). Keep brand, product and tech names in Latin script (Shopify, Odoo, iPhone, App Store, WordPress); use «ёлочки» quotation marks"),
+    "fr": ("fr", "Français", "fr_FR", "French for business readers in France, Belgium, Switzerland and Canada. Address the reader as vous. Use French typography: « guillemets » with non-breaking spaces, and a non-breaking space before : ; ! ?. Keep brand, product and tech names as-is (Shopify, Odoo, iPhone, App Store); prefer common French terms (application, site web, boutique)"),
 }
 RTL = {"ar", "he"}
 
@@ -67,6 +68,11 @@ MAP_START, MAP_END = "<!-- i18n -->", "<!-- /i18n -->"
 
 def norm(s):
     return " ".join(s.split())
+
+
+def norm_value(s):
+    """Like norm, but keeps non-breaking spaces (French « », : ; ! ?)."""
+    return re.sub(r"[ \t\r\n\f\v]+", " ", s).strip()
 
 
 # ---------------------------------------------------------------- source pages
@@ -230,11 +236,11 @@ def translate(lang, jobs):
             for i, k in ih.items():
                 v = (res.get("html") or {}).get(i)
                 if isinstance(v, str) and v.strip() and markup(v) == markup(k):
-                    got[k] = norm(v)
+                    got[k] = norm_value(v)
             for i, k in it.items():
                 v = (res.get("text") or {}).get(i)
                 if isinstance(v, str) and v.strip():
-                    got[k] = norm(html.unescape(v))
+                    got[k] = norm_value(html.unescape(v))
             with lock:
                 cache.update(got)
                 path.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n")

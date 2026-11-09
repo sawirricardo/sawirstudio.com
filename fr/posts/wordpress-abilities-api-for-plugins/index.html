@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>API Abilities de WordPress pour les extensions | SawirStudio</title>
+<meta content="Comment enregistrer des fonctionnalités (abilities) dans une extension WordPress pour que les agents IA et d'autres outils puissent les découvrir et les exécuter en toute sécurité : catégories, schémas, permissions, annotations et points de terminaison REST." name="description"/>
+<meta content="API Abilities de WordPress pour les extensions | SawirStudio" property="og:title"/>
+<meta content="Comment enregistrer des fonctionnalités (abilities) dans une extension WordPress pour que les agents IA et d'autres outils puissent les découvrir et les exécuter en toute sécurité : catégories, schémas, permissions, annotations et points de terminaison REST." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="SawirStudio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Rendez votre extension WordPress utilisable par des agents IA avec l'API Abilities",
+          "description": "Comment enregistrer des fonctionnalités (abilities) dans une extension WordPress pour que les agents IA et d'autres outils puissent les découvrir et les exécuter en toute sécurité : catégories, schémas, permissions, annotations et points de terminaison REST.",
+          "url": "https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/",
+          "datePublished": "2026-11-06",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/fr/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Rendez votre extension WordPress utilisable par des agents IA avec l'API Abilities",
+              "item": "https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a aria-current="true" href="/fr/posts/">Blog</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs is-center">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="page" href="/fr/posts/wordpress-abilities-api-for-plugins/">Rendez votre extension WordPress utilisable par des agents IA avec l'API Abilities</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Rendez votre extension WordPress utilisable par des agents IA avec l'API Abilities</h1>
+<div class="prose prose-xl">
+<p>L'API Abilities, introduite dans WordPress 6.9, est un point unique où une extension déclare ce qu'elle sait faire : un nom, une description, les données qu'elle attend en entrée, ce qu'elle renvoie et qui a le droit de l'exécuter. Les agents IA, l'extension WordPress AI, les adaptateurs MCP et de simples scripts peuvent alors trouver ces fonctionnalités et les utiliser, sans que chaque outil doive apprendre chaque extension à la main.</p>
+<p>Voici comment cela fonctionne, avec l'une de nos <a href="/fr/projects/wordpress-plugins/">extensions WordPress</a> comme exemple.</p>
+<h2>L'exemple</h2>
+<p><a href="/fr/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/">Sawir Restock Notifier</a> permet aux clients de demander à être prévenus par e-mail lorsqu'un produit est de nouveau en stock. Une question évidente à poser à un agent est « quels produits en rupture de stock ont le plus de personnes en attente ? » Il s'agit d'une fonctionnalité en lecture seule.</p>
+<h2>1. Enregistrer une catégorie</h2>
+<p>Chaque fonctionnalité appartient à une seule catégorie, et les catégories sont enregistrées en premier, sur leur propre hook :</p>
+<pre><code>add_action( 'wp_abilities_api_categories_init', function () {
+	wp_register_ability_category( 'store-insights', array(
+		'label'       =&gt; __( 'Store insights', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Read-only questions about the store.', 'sawir-restock-notifier-for-woocommerce' ),
+	) );
+} );</code></pre>
+<h2>2. Enregistrer la fonctionnalité</h2>
+<pre><code>add_action( 'wp_abilities_api_init', function () {
+	wp_register_ability( 'sawir-restock/waiting-list', array(
+		'label'       =&gt; __( 'Restock waiting list', 'sawir-restock-notifier-for-woocommerce' ),
+		'description' =&gt; __( 'Out-of-stock products, with how many shoppers are waiting for each.', 'sawir-restock-notifier-for-woocommerce' ),
+		'category'    =&gt; 'store-insights',
+		'input_schema' =&gt; array(
+			'type'       =&gt; 'object',
+			'properties' =&gt; array(
+				'limit' =&gt; array( 'type' =&gt; 'integer', 'minimum' =&gt; 1, 'maximum' =&gt; 50, 'default' =&gt; 10 ),
+			),
+		),
+		'output_schema' =&gt; array(
+			'type'  =&gt; 'array',
+			'items' =&gt; array(
+				'type'       =&gt; 'object',
+				'properties' =&gt; array(
+					'product_id' =&gt; array( 'type' =&gt; 'integer' ),
+					'name'       =&gt; array( 'type' =&gt; 'string' ),
+					'waiting'    =&gt; array( 'type' =&gt; 'integer' ),
+				),
+			),
+		),
+		'execute_callback'    =&gt; 'sawir_restock_waiting_list',
+		'permission_callback' =&gt; function () {
+			return current_user_can( 'manage_woocommerce' );
+		},
+		'meta' =&gt; array(
+			'show_in_rest' =&gt; true,
+			'annotations'  =&gt; array( 'readonly' =&gt; true ),
+		),
+	) );
+} );</code></pre>
+<p>La fonction de rappel (callback) est du code d'extension ordinaire qui renvoie des données conformes au schéma de sortie. Rien n'y est propre à l'IA.</p>
+<h2>À quoi sert chaque élément</h2>
+<ul>
+<li><strong>Nom</strong>, sous la forme <code>namespace/ability-name</code>. Utilisez le slug de votre extension comme espace de noms.</li>
+<li><strong>Description.</strong> C'est ce que lit un agent pour décider s'il doit utiliser la fonctionnalité : rédigez-la pour quelqu'un qui n'a jamais vu votre extension.</li>
+<li><strong>Schémas d'entrée et de sortie</strong>, en JSON Schema. Les données d'entrée sont vérifiées avant l'exécution de votre code, et les outils savent ce qu'ils vont recevoir en retour.</li>
+<li><strong>Callback de permission.</strong> La seule partie qui protège réellement quelque chose. Vérifiez-y les droits comme vous le feriez pour un écran d'administration.</li>
+<li><strong>Annotations.</strong> <code>readonly</code>, <code>destructive</code> et <code>idempotent</code> indiquent aux outils le niveau de prudence à adopter. Ce sont des indications, pas de la sécurité : la sécurité, c'est le callback de permission.</li>
+<li><strong><code>show_in_rest</code>.</strong> Les fonctionnalités sont masquées dans l'API REST tant que vous n'activez pas cette option.</li>
+</ul>
+<h2>L'exécuter via REST</h2>
+<p>Les fonctionnalités exposées dans REST sont listées à l'adresse <code>/wp-json/wp-abilities/v1/abilities</code>, et chacune dispose d'un point de terminaison <code>/run</code>. Une fonctionnalité en lecture seule s'exécute avec GET, ses données d'entrée étant transmises sous forme de JSON encodé dans l'URL, dans un paramètre <code>input</code>. Celle qui modifie des données s'exécute avec POST, et une fonctionnalité destructive avec DELETE. Chaque requête nécessite un utilisateur authentifié, puis c'est votre callback de permission qui tranche.</p>
+<h2>Et pour les agents, via MCP</h2>
+<p>L'adaptateur MCP (MCP Adapter), développé en parallèle de l'extension WordPress AI, expose les fonctionnalités enregistrées aux clients MCP tels que Claude. Vous n'avez rien de plus à écrire : une fonctionnalité bien décrite, avec de bons schémas, est déjà un bon outil.</p>
+<h2>Ce que nous exposerions en premier</h2>
+<p>Commencez par des fonctionnalités en lecture seule. Elles sont utiles tout de suite (« combien de clients attendent l'écharpe bleue ? ») et ne peuvent rien endommager. Gardez pour plus tard tout ce qui envoie des e-mails, modifie des prix ou supprime des données, le temps d'être certain que vos contrôles de permission et vos annotations sont corrects.</p>
+<p>L'API Abilities nécessite WordPress 6.9 ou une version ultérieure. La <a href="https://developer.wordpress.org/apis/abilities/" rel="noopener" target="_blank">documentation officielle</a> contient la référence complète. Si vous souhaitez ajouter cela à une extension sur laquelle vous comptez, <a href="/fr/contact/">contactez-nous</a>.</p>
+<p><strong>À lire aussi :</strong> <a href="/fr/posts/wordpress-7-2-what-plugin-authors-should-test/">WordPress 7.2 arrive le 8 décembre : ce que nous testons dans nos extensions</a>, ou <a href="/fr/posts/making-our-sites-agent-ready/">Ce qu'il nous a fallu pour rendre nos sites prêts pour les agents</a>.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Cet article vous a appris quelque chose ?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>J'aimerais avoir votre adresse e-mail pour vous envoyer d'autres articles comme celui-ci à chaque nouvelle publication.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Adresse e-mail" class="formkit-input" name="email_address" placeholder="Adresse e-mail" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>S'abonner</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Je n'enverrai pas de spam. Vous pouvez vous désabonner à tout moment.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Propulsé par ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Nous contacter</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/wordpress-abilities-api-for-plugins/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/wordpress-abilities-api-for-plugins/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/wordpress-abilities-api-for-plugins/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/wordpress-abilities-api-for-plugins/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/wordpress-abilities-api-for-plugins/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/wordpress-abilities-api-for-plugins/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/wordpress-abilities-api-for-plugins/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>
