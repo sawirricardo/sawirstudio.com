@@ -25,7 +25,7 @@ When off-the-shelf tools make you work their way, we build one that works yours:
   Places where customers, merchants, members or partners sign in and get things done, each seeing only what's theirs, with the admin your team runs it from.
 - ### Payments, shipping & the rest
 
-  Payments through Stripe, PayPal and local gateways like Midtrans, delivery priced by region, and connections to [Odoo](https://sawirstudio.com/odoo/), [Shopify](https://sawirstudio.com/shopify/) and the tools you already pay for.
+  Gateways we've already integrated: Stripe for recurring billing in [Sawir Renew](https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/), Midtrans in [Kantong Sayur](https://sawirstudio.com/projects/kantong-sayur-application/), iPaymu in [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/), and Shopify Payments payouts in [our Odoo connector](https://sawirstudio.com/projects/odoo-shopify-connector/). Plus delivery priced by region and connections to [Odoo](https://sawirstudio.com/odoo/), [Shopify](https://sawirstudio.com/shopify/) and the tools you already pay for.
 - ### Ready for AI assistants
 
   A secure way for ChatGPT, Claude and other assistants to read and act in your system with each person's own permissions, like the MCP server we built for [SawirPost](https://sawirstudio.com/projects/sawirpost/).
@@ -64,7 +64,7 @@ The code, the data and the accounts, in your name. Everything is built on open, 
 ## Custom work we've done
 
 - [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/): a cooperative's whole shop, with the members' app, stock per store, payment through iPaymu and the admin panel it's run from.
-- [Kantong Sayur](https://sawirstudio.com/projects/kantong-sayur-application/): a marketplace for traditional markets, with apps for shoppers and merchants, wholesale price lists, and invoices printed from the admin.
+- [Kantong Sayur](https://sawirstudio.com/projects/kantong-sayur-application/): a marketplace for traditional markets, with apps for shoppers and merchants, Midtrans payments, wholesale price lists, and invoices printed from the admin.
 - [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/): an HR platform covering hiring to payroll, and its employee app for attendance and approvals, built with their team since 2019.
 - [TaniMilenial](https://sawirstudio.com/projects/tani-milenial-application/): an Android app for farmers, with farm records, market prices and a store for supplies.
 - [DBTV](https://sawirstudio.com/projects/dbtv-application/): sermons, prayer and daily devotionals on iOS and Android for a ministry's congregation.
