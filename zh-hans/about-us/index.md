@@ -38,7 +38,7 @@ description: SawirStudio 快速交付应用、网站和设计，AI 参与其中�
 
 我们喜欢以伙伴的方式合作，既担任顾问，也担任技术难度较高的项目的架构师。请告诉我们您面临的问题，并尽可能多地提供您掌握的信息，这样我们可以在早期就把方向定准。
 
-我们常用的工具有：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL 和 MySQL；在服务器和数据方面，常用 Docker、Redis 和 ClickHouse，部署环境则视情况而定：普通 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或者您自己的服务器。我们会根据项目逐一选择，如果纯 HTML 就够用，我们就用纯 HTML。
+我们常用的工具有：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL 和 MySQL；服务器与数据方面，则有 Docker、Kubernetes、Redis 和 ClickHouse，可部署在合适的任何主机上：普通 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或您自己的服务器。我们会根据项目具体选择；如果纯 HTML 就够用，也会直接用纯 HTML。
 
 我们先聊到这里。
 

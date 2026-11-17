@@ -38,7 +38,7 @@ Eine Entscheidung kann ein Tool aber nicht verantworten, also tun wir es. Wir le
 
 Wir arbeiten gern partnerschaftlich, als Berater und als Architekten technisch anspruchsvoller Projekte. Erzählen Sie uns, womit Sie es zu tun haben, und geben Sie uns so viel Input, wie Sie haben, damit wir es früh richtig machen.
 
-Diese Tools setzen wir bevorzugt ein: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL und MySQL, für Server und Daten Docker, Redis und ClickHouse, jeweils auf dem passenden Hosting: einem einfachen VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare oder Ihren eigenen Servern. Wir entscheiden von Projekt zu Projekt – und greifen auf reines HTML zurück, wenn das genügt.
+Diese Tools setzen wir ein: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL und MySQL, für Server und Daten Docker, Kubernetes, Redis und ClickHouse. Das Hosting wählen wir passend zum Projekt: ein einfacher VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare oder Ihre eigenen Server. Wir entscheiden von Projekt zu Projekt – und greifen zu schlichtem HTML, wenn das genügt.
 
 Genug über uns.
 
