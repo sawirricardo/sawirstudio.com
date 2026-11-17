@@ -40,7 +40,7 @@ description: SawirStudio מוסרת אפליקציות, אתרים ועיצוב�
 
 הכלים שאנחנו פונים אליהם: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL ו-MySQL. אנחנו בוחרים לפי הפרויקט, ו-HTML פשוט כשזה מספיק.
 
-שרתים ונתונים: Docker, Kubernetes, Terraform, Redis ו-ClickHouse, על כל אירוח שמתאים לכם: VPS רגיל, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare או שרתים משלכם.
+שרתים ונתונים: Docker, Kubernetes, Terraform, Ansible, Redis ו-ClickHouse, על כל אחסון שמתאים: VPS רגיל, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare או השרתים שלכם.
 
 מספיק עלינו.
 

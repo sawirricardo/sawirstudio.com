@@ -40,7 +40,7 @@ SawirStudioは、使う人にとってきちんと長く使えるアプリ、ウ
 
 よく使う技術：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL、MySQL。プロジェクトごとに選び、十分な場合は素のHTMLを使います。
 
-サーバーとデータ：Docker、Kubernetes、Terraform、Redis、ClickHouse に対応しています。ホスティング先は、一般的な VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare、お客様ご自身のサーバーなど、ご要望に合わせて選べます。
+サーバーとデータ：Docker、Kubernetes、Terraform、Ansible、Redis、ClickHouse に対応しています。ホスティング先は、一般的な VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare、お客様ご自身のサーバーなど、状況に合わせて最適なものをお選びいただけます。
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

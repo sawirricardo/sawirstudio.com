@@ -40,7 +40,7 @@ description: SawirStudio быстро выпускает приложения, �
 
 Инструменты, к которым мы обращаемся чаще всего: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL и MySQL. Мы выбираем их под каждый проект, а когда достаточно обычного HTML, используем его.
 
-Серверы и данные: Docker, Kubernetes, Terraform, Redis и ClickHouse на любой подходящей площадке: обычный VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare или ваши собственные серверы.
+Серверы и данные: Docker, Kubernetes, Terraform, Ansible, Redis и ClickHouse на любом подходящем хостинге: обычный VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare или ваши собственные серверы.
 
 Хватит о нас.
 

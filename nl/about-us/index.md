@@ -40,7 +40,7 @@ We werken graag samen als partner, als adviseur en als architect van technisch l
 
 Tools waar we graag naar grijpen: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL en MySQL. We kiezen per project, en gewoon HTML als dat genoeg is.
 
-Servers & data: Docker, Kubernetes, Terraform, Redis en ClickHouse, op de host die past: een gewone VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare of je eigen servers.
+Servers & data: Docker, Kubernetes, Terraform, Ansible, Redis en ClickHouse, op de host die bij je past: een gewone VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare of je eigen servers.
 
 Genoeg over ons.
 

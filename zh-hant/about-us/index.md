@@ -40,7 +40,7 @@ description: SawirStudio 出手快，AI 協助作業，每個決定都由真人�
 
 我們常用的工具：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL 和 MySQL。我們會依專案挑選，如果純 HTML 就夠用，就用純 HTML。
 
-伺服器與資料：Docker、Kubernetes、Terraform、Redis 和 ClickHouse，可部署在最適合的主機上：一般 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或是您自己的伺服器。
+伺服器與資料：Docker、Kubernetes、Terraform、Ansible、Redis 和 ClickHouse，可部署在最適合的主機上：一般 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或是您自己的伺服器。
 
 關於我們就先說到這裡。
 

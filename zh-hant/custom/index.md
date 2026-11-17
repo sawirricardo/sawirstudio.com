@@ -31,7 +31,7 @@ description: 依照您的業務運作方式量身打造的 App、內部系統、
   提供一個安全的方式，讓 ChatGPT、Claude 和其他 AI 助理，以每位使用者各自的權限讀取並操作您的系統，就像我們為 [SawirPost](https://sawirstudio.com/zh-hant/projects/sawirpost/) 打造的 MCP 伺服器。
 - ### 長年代管與維運
 
-  伺服器以 Terraform 建置，並可依您的需求部署在任何地方：Hetzner 或 DigitalOcean 上的單一 VPS、AWS、Google Cloud、Azure，或是您自己的硬體。我們會用 Docker 封裝，日後要搬遷也不費力；需要擴充時，則採用 Kubernetes。快取與佇列使用 Redis，當分析資料量大到主資料庫負荷不了時，則搭配 ClickHouse。接著是安全性更新、應用程式商店的新規範，以及您清單上的下一個功能。我們會持續陪伴自己打造的系統：PeopleBond 自 2019 年起就一直與我們合作。
+  伺服器以 Terraform 建置、以 Ansible 設定，並依您的需求部署在合適的地方：單一台 Hetzner 或 DigitalOcean 的 VPS、AWS、Google Cloud、Azure，或是您自己的硬體。我們會以 Docker 封裝，讓日後搬遷依然輕鬆；需要擴充規模時，則使用 Kubernetes。快取與佇列使用 Redis，當您的分析資料量超出主資料庫的負荷時，則使用 ClickHouse。之後還有安全性更新、應用程式商店的新規範，以及您清單上的下一個功能。我們會長期陪伴所打造的系統：PeopleBond 自 2019 年起就一直與我們合作。
 
 ## 客製化值得嗎？
 

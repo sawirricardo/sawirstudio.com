@@ -31,7 +31,7 @@ Wenn Standardtools Sie zwingen, so zu arbeiten, wie sie es vorgeben, bauen wir e
   Ein sicherer Weg für ChatGPT, Claude und andere Assistenten, in Ihrem System zu lesen und zu handeln, jeweils mit den Berechtigungen der einzelnen Person, wie bei dem MCP-Server, den wir für [SawirPost](https://sawirstudio.com/de/projects/sawirpost/) gebaut haben.
 - ### Über Jahre gehostet und betreut
 
-  Server, die mit Terraform eingerichtet werden und dort laufen, wo es für Sie passt: ein einzelner VPS bei Hetzner oder DigitalOcean, AWS, Google Cloud, Azure oder Ihre eigene Hardware. Mit Docker verpackt, damit ein späterer Umzug einfach bleibt, und auf Kubernetes, wenn es skalieren muss. Redis für Caching und Warteschlangen, und ClickHouse, wenn Ihre Analysen der Hauptdatenbank entwachsen. Dazu kommen Sicherheitsupdates, neue App-Store-Regeln und das nächste Feature auf Ihrer Liste. Wir bleiben bei dem, was wir bauen: PeopleBond arbeitet seit 2019 mit uns zusammen.
+  Server, die mit Terraform aufgesetzt, mit Ansible konfiguriert und dort betrieben werden, wo es für Sie passt: ein einzelner VPS bei Hetzner oder DigitalOcean, AWS, Google Cloud, Azure oder Ihre eigene Hardware. Mit Docker verpackt, damit ein späterer Umzug einfach bleibt, und auf Kubernetes, wenn es skalieren muss. Redis für Caching und Queues und ClickHouse, wenn Ihre Analysen der Hauptdatenbank entwachsen. Dazu kommen Sicherheitsupdates, neue Regeln der App Stores und das nächste Feature auf Ihrer Liste. Wir bleiben bei dem, was wir bauen: PeopleBond arbeitet seit 2019 mit uns zusammen.
 
 ## Lohnt sich Individualsoftware?
 

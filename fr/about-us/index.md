@@ -40,7 +40,7 @@ Nous aimons travailler en partenariat, comme conseillers et comme architectes de
 
 Les outils que nous utilisons volontiers : Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL et MySQL. Nous choisissons selon le projet, et du HTML simple quand cela suffit.
 
-Serveurs et données : Docker, Kubernetes, Terraform, Redis et ClickHouse, sur l’hébergeur qui vous convient : un simple VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare ou vos propres serveurs.
+Serveurs et données : Docker, Kubernetes, Terraform, Ansible, Redis et ClickHouse, sur l’hébergement qui vous convient : un simple VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare ou vos propres serveurs.
 
 Assez parlé de nous.
 

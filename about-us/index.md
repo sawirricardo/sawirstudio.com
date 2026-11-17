@@ -40,7 +40,7 @@ We like to work in partnership, as advisors and as architects of technically har
 
 Tools we reach for: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL and MySQL. We pick per project, and plain HTML when that's enough.
 
-Servers & data: Docker, Kubernetes, Terraform, Redis and ClickHouse, on whichever host fits: a plain VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare or your own servers.
+Servers & data: Docker, Kubernetes, Terraform, Ansible, Redis and ClickHouse, on whichever host fits: a plain VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare or your own servers.
 
 Enough about us.
 
