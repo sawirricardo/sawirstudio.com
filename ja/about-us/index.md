@@ -38,7 +38,7 @@ SawirStudioは、使う人にとってきちんと長く使えるアプリ、ウ
 
 私たちは、アドバイザーとして、また技術的に難しいプロジェクトの設計者として、パートナーのような関係で進めるのが好きです。お困りのことをお聞かせください。お持ちの情報はできるだけ多くいただけると、早い段階で的確に進められます。
 
-私たちがよく使うツールは、Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL、MySQL です。サーバーやデータ基盤には、シンプルな VPS、Docker、AWS、Cloudflare、Redis、ClickHouse を使います。技術はプロジェクトごとに選び、十分な場合はシンプルな HTML だけで構築します。
+私たちがよく使うツールは、Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL、MySQL です。サーバーやデータ基盤には Docker、Redis、ClickHouse を使い、ホスティングはシンプルな VPS、AWS、Google Cloud、Azure、Cloudflare、お客様ご自身のサーバーなど、案件に合ったものを選びます。技術は案件ごとに選定し、プレーンな HTML で足りる場合はそれを使います。
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

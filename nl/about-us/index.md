@@ -38,7 +38,7 @@ Een tool kan alleen geen beslissing verantwoorden, dus doen wij dat. We lezen de
 
 We werken graag samen als partner, als adviseur en als architect van technisch lastige projecten. Vertel ons waar je mee zit en geef ons zoveel input als je hebt, zodat we het vroeg goed krijgen.
 
-Tools waar we graag mee werken: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL en MySQL, en voor servers en data een gewone VPS, Docker, AWS, Cloudflare, Redis en ClickHouse. We kiezen per project, en gewoon HTML als dat genoeg is.
+Tools waar we graag mee werken: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL en MySQL, en voor servers en data Docker, Redis en ClickHouse, op de hosting die past: een gewone VPS, AWS, Google Cloud, Azure, Cloudflare of je eigen servers. We kiezen per project, en gewoon HTML als dat genoeg is.
 
 Genoeg over ons.
 

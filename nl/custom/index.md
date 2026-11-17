@@ -31,7 +31,7 @@ Als standaardtools je dwingen te werken zoals zij dat willen, bouwen wij er een 
   Een veilige manier voor ChatGPT, Claude en andere assistenten om in je systeem te lezen en te handelen, met de eigen rechten van elke gebruiker, zoals de MCP-server die we bouwden voor [SawirPost](https://sawirstudio.com/nl/projects/sawirpost/).
 - ### Jarenlang gehost en onderhouden
 
-  We zetten servers op en houden ze draaiend, verpakt met Docker: één VPS als dat genoeg is, AWS als het project meer nodig heeft, Redis voor caching en wachtrijen, en ClickHouse als je analytics te groot worden voor de hoofddatabase. Daarna volgen beveiligingsupdates, nieuwe app store-regels en de volgende feature op je lijst. Wij blijven bij wat we bouwen: PeopleBond werkt sinds 2019 met ons samen.
+  Servers die op de plek draaien die jou het beste uitkomt, en die we voor je opzetten en draaiend houden: één VPS, AWS, Google Cloud, Azure of je eigen hardware, verpakt met Docker zodat verhuizen later eenvoudig blijft. Redis voor caching en wachtrijen, en ClickHouse wanneer je analytics te groot worden voor de hoofddatabase. Daarna volgen beveiligingsupdates, nieuwe regels van de app stores en de volgende feature op je lijst. We blijven bij wat we bouwen: PeopleBond werkt sinds 2019 met ons samen.
 
 ## Is maatwerk het waard?
 
