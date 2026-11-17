@@ -38,7 +38,7 @@ description: SawirStudio 出手快，AI 協助作業，每個決定都由真人�
 
 我們喜歡以夥伴的方式合作，無論是擔任顧問，或是技術難度高的專案的架構設計者。請告訴我們您遇到的狀況，也請盡量提供您手上的資訊，讓我們能在早期就把方向抓準。
 
-我們常用的工具：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL 和 MySQL。我們會依專案挑選，如果純 HTML 就夠用，就用純 HTML。
+我們常用的工具有：Laravel、Livewire、Go、Swift、Flutter、React、Vue、Tailwind、PostgreSQL 和 MySQL；伺服器與資料方面，則有一般的 VPS、AWS、Cloudflare 和 ClickHouse。我們會依專案挑選合適的工具，純 HTML 就夠用時，就用純 HTML。
 
 關於我們就先說到這裡。
 

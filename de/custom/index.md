@@ -29,9 +29,9 @@ Wenn Standardtools Sie zwingen, so zu arbeiten, wie sie es vorgeben, bauen wir e
 - ### Bereit für KI-Assistenten
 
   Ein sicherer Weg für ChatGPT, Claude und andere Assistenten, in Ihrem System zu lesen und zu handeln, jeweils mit den Berechtigungen der einzelnen Person, wie bei dem MCP-Server, den wir für [SawirPost](https://sawirstudio.com/de/projects/sawirpost/) gebaut haben.
-- ### Langfristig betreut
+- ### Über Jahre gehostet und betreut
 
-  Hosting, Sicherheitsupdates, neue App-Store-Regeln und das nächste Feature auf Ihrer Liste. Wir bleiben bei dem, was wir bauen: PeopleBond arbeitet seit 2019 mit uns zusammen.
+  Wir richten Server ein und halten sie am Laufen: ein VPS, wenn das genügt, AWS, wenn das Projekt mehr braucht, und ClickHouse, wenn Ihre Analysen der Hauptdatenbank entwachsen. Danach kümmern wir uns um Sicherheitsupdates, neue Regeln der App Stores und die nächste Funktion auf Ihrer Liste. Wir bleiben bei dem, was wir bauen: PeopleBond arbeitet seit 2019 mit uns zusammen.
 
 ## Lohnt sich Individualsoftware?
 

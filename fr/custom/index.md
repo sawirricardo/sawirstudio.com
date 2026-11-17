@@ -29,9 +29,9 @@ Quand les outils standard vous obligent à travailler à leur façon, nous en cr
 - ### Prêt pour les assistants IA
 
   Un moyen sécurisé pour ChatGPT, Claude et d'autres assistants de consulter et d'agir dans votre système avec les droits propres à chaque personne, comme le serveur MCP que nous avons créé pour [SawirPost](https://sawirstudio.com/fr/projects/sawirpost/).
-- ### Un suivi pendant des années
+- ### Hébergé et suivi pendant des années
 
-  Hébergement, mises à jour de sécurité, nouvelles règles des app stores et prochaine fonctionnalité de votre liste. Nous restons aux côtés de ce que nous construisons : PeopleBond travaille avec nous depuis 2019.
+  Serveurs installés et maintenus en service : un seul VPS quand cela suffit, AWS quand le projet demande plus, et ClickHouse quand vos analyses dépassent les capacités de la base de données principale. Puis les mises à jour de sécurité, les nouvelles règles des stores d'applications et la prochaine fonctionnalité de votre liste. Nous restons aux côtés de ce que nous construisons : PeopleBond travaille avec nous depuis 2019.
 
 ## Le sur mesure est-il rentable ?
 

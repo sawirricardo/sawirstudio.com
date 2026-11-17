@@ -29,9 +29,9 @@ When off-the-shelf tools make you work their way, we build one that works yours:
 - ### Ready for AI assistants
 
   A secure way for ChatGPT, Claude and other assistants to read and act in your system with each person's own permissions, like the MCP server we built for [SawirPost](https://sawirstudio.com/projects/sawirpost/).
-- ### Looked after for years
+- ### Hosted and looked after for years
 
-  Hosting, security updates, new app store rules and the next feature on your list. We stay with what we build: PeopleBond has worked with us since 2019.
+  Servers set up and kept running: one VPS when that's enough, AWS when the project needs more, and ClickHouse when your analytics outgrow the main database. Then security updates, new app store rules and the next feature on your list. We stay with what we build: PeopleBond has worked with us since 2019.
 
 ## Is custom worth it?
 

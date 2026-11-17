@@ -38,7 +38,7 @@ description: SawirStudio מוסרת אפליקציות, אתרים ועיצוב�
 
 אנחנו אוהבים לעבוד בשותפות, כיועצים וכאדריכלים של פרויקטים מורכבים מבחינה טכנית. ספרו לנו עם מה אתם מתמודדים, ותנו לנו כמה שיותר מידע שיש לכם, כדי שנוכל לכוון נכון כבר בהתחלה.
 
-הכלים שאנחנו פונים אליהם: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL ו-MySQL. אנחנו בוחרים לפי הפרויקט, ו-HTML פשוט כשזה מספיק.
+הכלים שאנחנו מגיעים אליהם: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL ו-MySQL, ולשרתים ולנתונים: VPS רגיל, AWS, Cloudflare ו-ClickHouse. אנחנו בוחרים לפי הפרויקט, ומסתפקים ב-HTML פשוט כשזה מספיק.
 
 מספיק עלינו.
 

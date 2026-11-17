@@ -29,9 +29,9 @@ Quando gli strumenti già pronti vi costringono a lavorare a modo loro, noi ne c
 - ### Pronto per gli assistenti AI
 
   Un modo sicuro per permettere a ChatGPT, Claude e ad altri assistenti di leggere e agire nel vostro sistema con i permessi di ciascuna persona, come il server MCP che abbiamo realizzato per [SawirPost](https://sawirstudio.com/it/projects/sawirpost/).
-- ### Seguito per anni
+- ### In hosting da noi, seguiti nel tempo
 
-  Hosting, aggiornamenti di sicurezza, nuove regole degli store di app e la prossima funzione della vostra lista. Restiamo accanto a ciò che costruiamo: PeopleBond lavora con noi dal 2019.
+  Configuriamo i server e li teniamo attivi: una VPS quando basta, AWS quando il progetto richiede di più, ClickHouse quando le vostre analisi superano le capacità del database principale. Poi aggiornamenti di sicurezza, nuove regole degli store di app e la prossima funzionalità della vostra lista. Restiamo accanto a ciò che costruiamo: PeopleBond lavora con noi dal 2019.
 
 ## Il su misura vale la pena?
 
