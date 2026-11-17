@@ -38,7 +38,9 @@ description: SawirStudio ऐप, वेबसाइट और डिज़ाइ
 
 हमें साझेदारी में काम करना पसंद है, सलाहकार के तौर पर भी और तकनीकी रूप से मुश्किल प्रोजेक्ट के आर्किटेक्ट के तौर पर भी। आप किस चुनौती से जूझ रहे हैं, यह हमें बताइए और जितनी जानकारी आपके पास है, हमें दीजिए, ताकि हम शुरू में ही सही दिशा पकड़ सकें।
 
-हम इन टूल्स का इस्तेमाल करते हैं: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL और MySQL, और सर्वर व डेटा के लिए Docker, Kubernetes, Terraform, Redis और ClickHouse, जो भी होस्ट सही बैठे: साधारण VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare या आपके अपने सर्वर। हम हर प्रोजेक्ट के हिसाब से चुनते हैं, और जहाँ काम चल जाए वहाँ सादा HTML।
+जिन टूल्स को हम अक्सर चुनते हैं: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL और MySQL। हम हर प्रोजेक्ट के हिसाब से चुनते हैं, और जब सादा HTML काफ़ी हो तो वही।
+
+सर्वर और डेटा: Docker, Kubernetes, Terraform, Redis और ClickHouse, जो भी होस्ट आपके लिए सही बैठे: साधारण VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare या आपके अपने सर्वर।
 
 हमारी बात बहुत हुई।
 

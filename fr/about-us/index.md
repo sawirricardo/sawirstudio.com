@@ -38,7 +38,9 @@ Mais un outil ne peut pas assumer une décision, alors c'est nous qui le faisons
 
 Nous aimons travailler en partenariat, comme conseillers et comme architectes de projets techniquement complexes. Dites-nous ce à quoi vous faites face et transmettez-nous tous les éléments dont vous disposez, afin que nous voyions juste dès le départ.
 
-Nos outils de prédilection : Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL et MySQL. Côté serveurs et données : Docker, Kubernetes, Terraform, Redis et ClickHouse, sur l'hébergeur qui convient : un simple VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare ou vos propres serveurs. Nous choisissons au cas par cas, et du simple HTML quand cela suffit.
+Les outils que nous utilisons volontiers : Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL et MySQL. Nous choisissons selon le projet, et du HTML simple quand cela suffit.
+
+Serveurs et données : Docker, Kubernetes, Terraform, Redis et ClickHouse, sur l’hébergeur qui vous convient : un simple VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare ou vos propres serveurs.
 
 Assez parlé de nous.
 

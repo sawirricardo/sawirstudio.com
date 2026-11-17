@@ -38,7 +38,9 @@ description: يبني SawirStudio التطبيقات والمواقع والتص
 
 نحب العمل بروح الشراكة، بصفتنا مستشارين ومهندسي حلول للمشاريع المعقدة تقنيًا. أخبرونا بما تواجهونه، وشاركونا كل ما لديكم من معلومات، حتى نصل إلى الحل الصحيح مبكرًا.
 
-الأدوات التي نلجأ إليها: Laravel وLivewire وGo وSwift وFlutter وReact وVue وTailwind وPostgreSQL وMySQL، أما للخوادم والبيانات فنستخدم Docker وKubernetes وTerraform وRedis وClickHouse على الاستضافة التي تناسب المشروع: خادم VPS عادي، أو Hetzner، أو DigitalOcean، أو AWS، أو Google Cloud، أو Azure، أو Cloudflare، أو خوادمكم الخاصة. نختار الأنسب لكل مشروع، ونكتفي بـ HTML البسيط عندما يكفي ذلك.
+الأدوات التي نلجأ إليها: Laravel وLivewire وGo وSwift وFlutter وReact وVue وTailwind وPostgreSQL وMySQL. نختار حسب كل مشروع، ونكتفي بـ HTML العادي حين يكفي.
+
+الخوادم والبيانات: Docker وKubernetes وTerraform وRedis وClickHouse، على الاستضافة التي تناسبكم: خادم VPS عادي، أو Hetzner أو DigitalOcean أو AWS أو Google Cloud أو Azure أو Cloudflare، أو على خوادمكم الخاصة.
 
 يكفي حديثًا عن أنفسنا.
 
