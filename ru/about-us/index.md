@@ -38,7 +38,7 @@ description: SawirStudio быстро выпускает приложения, �
 
 Нам нравится работать в партнёрстве: как консультанты и как архитекторы технически сложных проектов. Расскажите, с чем вы столкнулись, и поделитесь всем, что у вас есть, чтобы мы с самого начала всё сделали правильно.
 
-Инструменты, к которым мы обращаемся чаще всего: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL и MySQL, а для серверов и данных — Docker, Kubernetes, Redis и ClickHouse. Размещаем проект там, где он будет работать лучше всего: на обычном VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare или на ваших собственных серверах. Решение принимаем под конкретный проект, а если достаточно простого HTML — используем его.
+Инструменты, к которым мы обращаемся чаще всего: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL и MySQL, а для серверов и данных — Docker, Kubernetes, Terraform, Redis и ClickHouse. Работаем на любой подходящей площадке: обычный VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare или ваши собственные серверы. Выбираем под каждый проект, а если хватает простого HTML, используем его.
 
 Хватит о нас.
 

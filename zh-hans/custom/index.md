@@ -31,7 +31,7 @@ description: 围绕您的业务运作方式打造的应用、内部系统、交�
   为 ChatGPT、Claude 等助手提供安全的方式，按每位用户各自的权限读取您的系统并执行操作，就像我们为 [SawirPost](https://sawirstudio.com/zh-hans/projects/sawirpost/) 打造的 MCP 服务器一样。
 - ### 多年托管，长期维护
 
-  我们会根据您的需求搭建并维护服务器：可以是 Hetzner 或 DigitalOcean 上的单台 VPS，也可以是 AWS、Google Cloud、Azure 或您自己的硬件。我们用 Docker 打包部署，日后迁移也很方便；业务需要扩展时，则使用 Kubernetes。缓存和队列用 Redis，当分析数据量超出主数据库的承载能力时，就用 ClickHouse。此外，我们还负责安全更新、应对应用商店的新规则，以及处理您清单上的下一个功能。我们会一直陪伴自己交付的产品：PeopleBond 自 2019 年起就与我们合作至今。
+  我们使用 Terraform 搭建服务器，并让它们在您选定的环境中稳定运行：可以是 Hetzner 或 DigitalOcean 上的单台 VPS，也可以是 AWS、Google Cloud、Azure 或您自己的硬件。我们用 Docker 打包，日后迁移也不费力；业务需要扩展时，再上 Kubernetes。缓存和队列用 Redis，当分析数据量超出主数据库的承载能力时，则用 ClickHouse。之后还有安全更新、应用商店的新规则，以及您清单上的下一个功能。我们会一直陪伴自己做出的产品：PeopleBond 自 2019 年起就与我们合作。
 
 ## 定制值得吗？
 

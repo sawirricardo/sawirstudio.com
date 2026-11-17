@@ -38,7 +38,7 @@ A tool can't own a decision, though, so we do. We read the code, test it on real
 
 We like to work in partnership, as advisors and as architects of technically hard projects. Tell us what you're dealing with, and give us as much input as you have, so we can get it right early.
 
-Tools we reach for: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL and MySQL, and for servers and data, Docker, Kubernetes, Redis and ClickHouse on whichever host fits: a plain VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare or your own servers. We pick per project, and plain HTML when that's enough.
+Tools we reach for: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL and MySQL, and for servers and data, Docker, Kubernetes, Terraform, Redis and ClickHouse on whichever host fits: a plain VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare or your own servers. We pick per project, and plain HTML when that's enough.
 
 Enough about us.
 

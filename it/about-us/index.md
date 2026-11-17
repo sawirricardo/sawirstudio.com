@@ -38,7 +38,7 @@ Ma uno strumento non può farsi carico di una decisione, quindi lo facciamo noi.
 
 Ci piace lavorare in partnership, come consulenti e come architetti di progetti tecnicamente complessi. Raccontateci cosa state affrontando e dateci tutte le informazioni che avete, così possiamo impostare bene le cose fin dall'inizio.
 
-Gli strumenti che usiamo più volentieri: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL e MySQL; per server e dati, Docker, Kubernetes, Redis e ClickHouse sull'hosting più adatto: un semplice VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare o i vostri server. Scegliamo progetto per progetto, e quando basta, usiamo semplice HTML.
+Gli strumenti che usiamo più spesso: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind, PostgreSQL e MySQL; per server e dati, Docker, Kubernetes, Terraform, Redis e ClickHouse, sull'hosting più adatto: un semplice VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare o i vostri server. Scegliamo progetto per progetto, e se basta, puntiamo su semplice HTML.
 
 Basta parlare di noi.
 
