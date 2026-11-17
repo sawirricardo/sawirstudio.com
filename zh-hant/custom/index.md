@@ -31,7 +31,7 @@ description: 依照您的業務運作方式量身打造的 App、內部系統、
   提供一個安全的方式，讓 ChatGPT、Claude 和其他 AI 助理，以每位使用者各自的權限讀取並操作您的系統，就像我們為 [SawirPost](https://sawirstudio.com/zh-hant/projects/sawirpost/) 打造的 MCP 伺服器。
 - ### 長年代管與維運
 
-  我們會依您的需求，在任何合適的環境中架設並維運伺服器：單一 VPS、AWS、Google Cloud、Azure，或是您自己的硬體，並以 Docker 封裝，讓日後遷移依然輕鬆。使用 Redis 處理快取與佇列；當分析資料量大到主資料庫負荷不了時，則採用 ClickHouse。之後的安全性更新、應用程式商店的新規範，以及您清單上的下一項功能，我們也會持續處理。我們會一路陪伴自己打造的系統：PeopleBond 自 2019 年起就與我們合作至今。
+  我們會依您的需求，在合適的環境中架設並持續維運伺服器：可以是 Hetzner 或 DigitalOcean 上的單一 VPS，也可以是 AWS、Google Cloud、Azure，或您自己的硬體，並以 Docker 封裝，日後要遷移也很容易。快取與佇列使用 Redis；當分析資料量超出主資料庫的負荷時，則搭配 ClickHouse。之後的安全性更新、應用程式商店的新規範，以及您清單上的下一個功能，我們也都會持續處理。我們會一路陪伴自己打造的系統：PeopleBond 從 2019 年起就一直與我們合作。
 
 ## 客製化值得嗎？
 
