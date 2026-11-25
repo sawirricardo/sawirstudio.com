@@ -27,9 +27,9 @@ description: تحدٍّ رياضي فوري لحظة الرغبة الملحّة
 [![موصل Shopify لـ Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### موصل Shopify لـ Odoo](https://sawirstudio.com/ar/projects/odoo-shopify-connector/)
-[![موقع Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### موقع Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
 
 يكفي حديثًا عن أنفسنا.
 

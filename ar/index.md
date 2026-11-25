@@ -54,11 +54,11 @@ description: تبني Sawir Studio برمجيات يستخدمها الناس: �
 
 ## أعمال مختارة
 
-[![موقع Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-معرض بطاقات وقصة عالم اللعبة ودروس تعليمية للعبة بطاقات تداول استراتيجية](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
+لعبة بطاقات تداول استراتيجية ننشرها، ويمكنكم لعبها مجانًا في المتصفح](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
 [![موقع Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

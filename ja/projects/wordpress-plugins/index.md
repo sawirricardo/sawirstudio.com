@@ -45,12 +45,12 @@ WordPress はウェブの大きな割合を占めており、WooCommerce も数�
 [![Odoo 向け Shopify コネクタ](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
-[![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

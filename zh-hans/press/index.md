@@ -15,6 +15,7 @@ description: Sawir Studio 的媒体资料包：标志、品牌色彩和字体、
 - **成立时间** 2017 年 12 月成立，2025 年 1 月注册为公司
 - **创始人** [Ricardo Sawir](https://sawirstudio.com/zh-hans/ricardosawir/)
 - **业务范围** 应用、网站和设计，既为客户服务，也打造自有产品
+- [Colvaron Conquest](https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/) 的**发行方**，这是一款由 Coco JM 创作的集换式卡牌游戏
 - **网站** [sawirstudio.com](https://sawirstudio.com/zh-hans/)
 - **媒体联系方式** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio 是一家软件工作室，开发应用、网站和设计作品，�
 
 ### 一段话介绍
 
-Sawir Studio 开发应用、网站和设计作品，既为客户服务，也打造自己的产品。Ricardo Sawir 于 2017 年 12 月创办了这家工作室，并于 2025 年 1 月将其注册为 Sawir Studio LLC。工作室每天都借助 AI 进行开发，而每一行上线的代码，都有专人阅读、测试并负责。正因如此，工作室在不到四周的时间里，将自己的六款应用上架到了 App Store。其自有作品包括绘画应用 Rindraw、金融计算器 Par、社交媒体排期工具 SawirPost、12 款免费的 WordPress 插件，以及一个面向 Odoo 的开源 Shopify 连接器，该连接器在 Odoo Community Association 中维护。
+Sawir Studio 开发应用、网站和设计，既为客户服务，也打造自有产品。Ricardo Sawir 于 2017 年 12 月创立这家工作室，并于 2025 年 1 月将其注册为 Sawir Studio LLC。工作室每天都借助 AI 进行开发，交付的每一行代码都由专人审阅、测试并负责。凭借这种方式，工作室在不到四周内就在 App Store 上架了六款自有应用。其自有作品包括绘画应用 Rindraw、金融计算器 Par、社交媒体定时发布工具 SawirPost、12 款免费 WordPress 插件，以及一个由 Odoo Community Association 维护的开源 Odoo Shopify 连接器。Sawir Studio 同时也是 Colvaron Conquest 的发行方，这是一款由 Coco JM 创作的策略类集换式卡牌游戏，可在浏览器中免费畅玩。
 
 ## 标志
 
@@ -86,6 +87,10 @@ Ricardo Sawir 于 2017 年 12 月创办了 Sawir Studio。Ricardo 曾在 Institu
 - [Sawirly](https://sawirstudio.com/zh-hans/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/zh-hans/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/zh-hans/projects/nofapfit/)
+
+还有我们发行的游戏：
+
+- [Colvaron Conquest](https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/)
 
 正在撰写关于我们的内容？
 

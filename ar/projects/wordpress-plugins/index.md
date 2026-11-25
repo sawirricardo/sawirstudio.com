@@ -45,12 +45,12 @@ description: اثنتا عشرة إضافة WordPress مجانية من Sawir St
 [![موصل Shopify لـ Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### موصل Shopify لـ Odoo](https://sawirstudio.com/ar/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
-[![تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### تطبيق Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
 
 يكفي حديثًا عن أنفسنا.
 

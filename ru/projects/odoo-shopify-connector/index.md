@@ -36,15 +36,15 @@ Odoo Community Association (OCA) — некоммерческая организ
 
 ## Другие проекты
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/ru/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
 [![Приложение Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Приложение Koperasi HOB](https://sawirstudio.com/ru/projects/koperasi-hob-application/)
-[![Приложение DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### Приложение DBTV](https://sawirstudio.com/ru/projects/dbtv-application/)
 
 Хватит о нас.
 

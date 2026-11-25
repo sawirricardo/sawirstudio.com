@@ -36,15 +36,15 @@ Odoo Community Association（OCA）は、Odoo Community のユーザーの多く
 
 ## その他の実績
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
 [![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
-[![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV アプリケーション](https://sawirstudio.com/ja/projects/dbtv-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

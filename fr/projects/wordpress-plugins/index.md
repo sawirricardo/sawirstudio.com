@@ -45,12 +45,12 @@ Les extensions vivent au cœur de l’activité des autres : nous leur appliquo
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/fr/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/fr/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB Application](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
 
 Assez parlé de nous.
 

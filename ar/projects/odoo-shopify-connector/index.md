@@ -36,15 +36,15 @@ description: موصل Shopify مفتوح المصدر لـ Odoo 19 Community، �
 
 ## مشاريع أخرى
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
 [![تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### تطبيق Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
-[![تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### تطبيق DBTV](https://sawirstudio.com/ar/projects/dbtv-application/)
 
 يكفي حديثًا عن أنفسنا.
 

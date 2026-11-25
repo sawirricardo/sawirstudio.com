@@ -1,20 +1,26 @@
 ---
-title: Colvaron Conquest Website | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/projects/colvaron-conquest-website/
-description: Website for Colvaron Conquest, a strategic trading card game, designed and built by Sawir Studio.
+description: Colvaron Conquest is a strategic trading card game by Coco JM, published by Sawir Studio and free to play in the browser. We also designed and built its website.
 ---
 
-# Colvaron Conquest Website
+# Colvaron Conquest
 
 ![Colvaron Conquest home page](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## The client
+## The game
 
 Colvaron Conquest is a strategic trading card game created by Coco JM. Its world, where magic and advanced technology collide, began in Coco’s childhood imagination and became a card game in 2025, played with five elements and a two-dice action system.
 
-## What we made
+## Published by Sawir Studio
 
-We designed and built the game’s website, where players discover the cards, learn the world and learn to play.
+Sawir Studio is now the publisher of Colvaron Conquest. We run and sell the game at [colvaronconquest.com](https://colvaronconquest.com), where anyone can [play it free in the browser](https://colvaronconquest.com/play/): against the AI, two players on one device, or online against other players.
+
+We built the online game as well. It installs to a phone's home screen and plays offline there. Coins and the 30-day Octastar's Blessing are optional purchases; everything else in the game is free.
+
+## The website
+
+We also designed and built the game’s website, where players discover the cards, learn the world and learn to play.
 
 - **Card gallery.** More than 200 cards that players can search, sort and filter by element, faction and type.
 - **A page for every card,** so each one can be found, linked and shared on its own.
@@ -31,7 +37,11 @@ A trading card game sells on its art, so the site gets out of the way: dark page
 
 ![Colvaron Conquest card gallery](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **Client** Colvaron Conquest
+- **Role** Publisher; we also built the website and the online game
+- **Game by** Coco JM
+- **Platforms** Web browser, installable on phones
+- **Pricing** Free to play, with optional in-game purchases
+- **Play** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **Website URL** <https://colvaronconquest.com>
 
 ## More projects
@@ -39,12 +49,12 @@ A trading card game sells on its art, so the site gets out of the way: dark page
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
-[![Kantong Sayur Application](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/)
-[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
+[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/)
+### DBTV Application](https://sawirstudio.com/projects/dbtv-application/)
 
 Enough about us.
 

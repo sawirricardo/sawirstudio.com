@@ -29,7 +29,7 @@ description: يبني Sawir Studio التطبيقات والمواقع والت�
    نختار أبسط أداة تؤدي المهمة. هذا الموقع مبني بـ HTML وCSS فقط. كلما قلّت الأجزاء المتحركة قلّ ما قد يتعطل، وقلّ ما تدفعونه لاحقًا.
 4. ### نستخدم ما نصنعه.
 
-   [Par](https://sawirstudio.com/ar/projects/par/) و[Rindraw](https://sawirstudio.com/ar/projects/rindraw/) و[Squishu](https://sawirstudio.com/ar/projects/squishu/) وغيرها منتجات خاصة بنا. نتولى بأنفسنا إطلاقها ومراجعة App Review والدعم، فنعرف هذا العمل من الداخل، لا من مشاريع العملاء فقط.
+   أما [Par](https://sawirstudio.com/ar/projects/par/) و[Rindraw](https://sawirstudio.com/ar/projects/rindraw/) و[Squishu](https://sawirstudio.com/ar/projects/squishu/) وغيرها فهي منتجاتنا الخاصة. نتولى بأنفسنا إطلاقها وإجراءات App Review ودعم مستخدميها، ولذلك نعرف هذا العمل من الداخل، لا من مشاريع العملاء فقط. كما ننشر [Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)، وهي لعبة بطاقات تداول من Coco JM.
 5. ### نقول ما الذي يحدث.
 
    سياسات خصوصية واضحة، وملاحظات صريحة حول البيانات التي يرسلها التطبيق، وبلا أنماط تصميم خادعة. في تطبيقاتنا وفي أعمال العملاء على حد سواء.

@@ -54,11 +54,11 @@ L'AI al lavoro, ma ogni decisione resta a una persona. [In cosa crediamo →](ht
 
 ## Lavori selezionati
 
-[![Sito web Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-Galleria di carte, storia e tutorial per un gioco di carte collezionabili strategico](https://sawirstudio.com/it/projects/colvaron-conquest-website/)
+Un gioco di carte collezionabili strategico che pubblichiamo noi, gratis da giocare nel browser](https://sawirstudio.com/it/projects/colvaron-conquest-website/)
 [![Sito web Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

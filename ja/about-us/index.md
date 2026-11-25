@@ -29,7 +29,7 @@ Sawir Studioは、使う人にとってきちんと長く使えるアプリ、�
    目的を果たせる、いちばんシンプルな道具を選びます。このサイトも素のHTMLとCSSでできています。構成要素が少なければ、壊れにくく、後々のコストも抑えられます。
 4. ### 自分たちでも使う。
 
-   [Par](https://sawirstudio.com/ja/projects/par/)、[Rindraw](https://sawirstudio.com/ja/projects/rindraw/)、[Squishu](https://sawirstudio.com/ja/projects/squishu/)をはじめとする各アプリは、私たち自身のプロダクトです。公開準備、App Review、サポートまで自分たちで対応しているので、お客様のプロジェクトだけでなく、その仕事を内側から理解しています。
+   [Par](https://sawirstudio.com/ja/projects/par/)、[Rindraw](https://sawirstudio.com/ja/projects/rindraw/)、[Squishu](https://sawirstudio.com/ja/projects/squishu/) などは、当社の自社製品です。リリース、App Review への対応、サポートも自社で行っているため、こうした業務はお客様の案件を通じてだけでなく、当事者としても熟知しています。また、Coco JM によるトレーディングカードゲーム [Colvaron Conquest](https://sawirstudio.com/ja/projects/colvaron-conquest-website/) のパブリッシングも手がけています。
 5. ### 何が起きているかを正直に伝える。
 
    わかりやすいプライバシーポリシー、アプリが送信するデータについての正直な説明、ユーザーを惑わすダークパターンは使いません。自社アプリでも、お客様のプロジェクトでも同じです。

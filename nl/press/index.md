@@ -15,6 +15,7 @@ Onze logo's, de feiten en een korte bio, vrij te gebruiken als je over Sawir Stu
 - **Opgericht** in december 2017, als LLC geregistreerd in januari 2025
 - **Oprichter** [Ricardo Sawir](https://sawirstudio.com/nl/ricardosawir/)
 - **Wat we doen** Apps, websites en designs, voor klanten en als eigen producten
+- **Uitgever van** [Colvaron Conquest](https://sawirstudio.com/nl/projects/colvaron-conquest-website/), een ruilkaartspel van Coco JM
 - **Website** [sawirstudio.com](https://sawirstudio.com/nl/)
 - **Perscontact** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio is een softwarestudio die apps, websites en designs maakt, voor kla
 
 ### In één alinea
 
-Sawir Studio maakt apps, websites en designs, voor klanten en als eigen producten. Ricardo Sawir startte de studio in december 2017 en richtte in januari 2025 Sawir Studio LLC op. De studio bouwt elke dag met AI, waarbij een mens elke regel die live gaat leest, test en er verantwoordelijk voor is. Zo zette de studio in minder dan vier weken zes eigen apps in de App Store. Tot het eigen werk behoren de teken-app Rindraw, de financiële calculator Par, de social media planner SawirPost, 12 gratis WordPress-plugins en een open-source Shopify-connector voor Odoo, die binnen de Odoo Community Association wordt onderhouden.
+Sawir Studio bouwt apps, websites en designs, voor klanten en als eigen producten. Ricardo Sawir begon de studio in december 2017 en richtte die in januari 2025 op als Sawir Studio LLC. De studio bouwt elke dag met AI, waarbij een mens elke regel die live gaat leest, test en ervoor instaat. Zo zette de studio in minder dan vier weken zes eigen apps in de App Store. Tot het eigen werk horen de tekenapp Rindraw, de financiële rekenmachine Par, de social media-planner SawirPost, 12 gratis WordPress-plugins en een opensource Shopify-connector voor Odoo, die wordt onderhouden binnen de Odoo Community Association. Sawir Studio is ook de uitgever van Colvaron Conquest, een strategisch ruilkaartspel van Coco JM dat je gratis in de browser kunt spelen.
 
 ## Logo's
 
@@ -86,6 +87,10 @@ Op elke pagina vind je de beschrijving, screenshots en links van het product. De
 - [Sawirly](https://sawirstudio.com/nl/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/nl/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/nl/projects/nofapfit/)
+
+En het spel dat we uitgeven:
+
+- [Colvaron Conquest](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
 
 Schrijf je over ons?
 

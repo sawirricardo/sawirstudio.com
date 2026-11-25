@@ -45,12 +45,12 @@ WordPress מניעה חלק גדול מהאינטרנט, ו-WooCommerce מפעי
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
-[![אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### אפליקציית Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
 
 מספיק עלינו.
 

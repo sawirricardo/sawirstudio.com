@@ -29,7 +29,7 @@ A tool can't own a decision, though, so we do. We read the code, test it on real
    We pick the simplest tool that does the job. This site is plain HTML and CSS. Fewer moving parts means less to break, and less to pay for later.
 4. ### We use what we make.
 
-   [Par](https://sawirstudio.com/projects/par/), [Rindraw](https://sawirstudio.com/projects/rindraw/), [Squishu](https://sawirstudio.com/projects/squishu/) and the rest are our own products. We handle their launches, App Review and support ourselves, so we know that work from the inside, not just from client projects.
+   [Par](https://sawirstudio.com/projects/par/), [Rindraw](https://sawirstudio.com/projects/rindraw/), [Squishu](https://sawirstudio.com/projects/squishu/) and the rest are our own products. We handle their launches, App Review and support ourselves, so we know that work from the inside, not just from client projects. We also publish [Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/), a trading card game by Coco JM.
 5. ### Say what's happening.
 
    Clear privacy policies, honest notes on what data an app sends, and no dark patterns. In our apps and in client work.

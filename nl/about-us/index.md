@@ -29,7 +29,7 @@ Een tool kan alleen geen beslissing verantwoorden, dus doen wij dat. We lezen de
    We kiezen de eenvoudigste tool die de klus klaart. Deze website is gewoon HTML en CSS. Minder bewegende delen betekent minder dat kan breken, en minder kosten later.
 4. ### We gebruiken wat we maken.
 
-   [Par](https://sawirstudio.com/nl/projects/par/), [Rindraw](https://sawirstudio.com/nl/projects/rindraw/), [Squishu](https://sawirstudio.com/nl/projects/squishu/) en de rest zijn onze eigen producten. We regelen de lanceringen, de App Review en de support zelf, dus we kennen dat werk van binnenuit, en niet alleen van klantprojecten.
+   [Par](https://sawirstudio.com/nl/projects/par/), [Rindraw](https://sawirstudio.com/nl/projects/rindraw/), [Squishu](https://sawirstudio.com/nl/projects/squishu/) en de rest zijn onze eigen producten. De lanceringen, App Review en support regelen we zelf, dus we kennen dat werk van binnenuit, niet alleen van klantprojecten. We geven ook [Colvaron Conquest](https://sawirstudio.com/nl/projects/colvaron-conquest-website/) uit, een ruilkaartspel van Coco JM.
 5. ### Zeg wat er gebeurt.
 
    Duidelijke privacybeleidsteksten, eerlijke uitleg over welke data een app verstuurt en geen dark patterns. In onze eigen apps en in klantwerk.

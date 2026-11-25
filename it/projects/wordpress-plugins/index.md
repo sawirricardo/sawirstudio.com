@@ -45,12 +45,12 @@ I plugin vivono dentro le attività di altre persone, per questo ci imponiamo qu
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/it/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/it/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
-[![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
 
 Basta parlare di noi.
 

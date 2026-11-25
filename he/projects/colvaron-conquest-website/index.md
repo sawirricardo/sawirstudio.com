@@ -1,20 +1,26 @@
 ---
-title: אתר Colvaron Conquest | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/he/projects/colvaron-conquest-website/
-description: אתר עבור Colvaron Conquest, משחק קלפי אסטרטגיה אספנותי, שתוכנן ונבנה על ידי Sawir Studio.
+description: Colvaron Conquest הוא משחק קלפים אסטרטגי לאיסוף ולהחלפה מאת Coco JM, בהוצאת Sawir Studio, שאפשר לשחק בו בחינם בדפדפן. גם את האתר שלו עיצבנו ובנינו.
 ---
 
-# אתר Colvaron Conquest
+# Colvaron Conquest
 
 ![דף הבית של Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## הלקוח
+## המשחק
 
 Colvaron Conquest הוא משחק קלפי אסטרטגיה אספנותי שיצר Coco JM. עולם שבו קסם וטכנולוגיה מתקדמת מתנגשים התחיל בדמיון של Coco בילדותו, והפך למשחק קלפים ב-2025. משחקים בו עם חמישה יסודות ומערכת פעולות של שתי קוביות.
 
-## מה בנינו
+## בהוצאת Sawir Studio
 
-תכננו ובנינו את האתר של המשחק, שבו שחקנים מגלים את הקלפים, מכירים את העולם ולומדים לשחק.
+Sawir Studio היא כיום המוציאה לאור של Colvaron Conquest. אנחנו מפעילים ומוכרים את המשחק באתר [colvaronconquest.com](https://colvaronconquest.com), שבו כל אחד ואחת יכולים [לשחק בו בחינם בדפדפן](https://colvaronconquest.com/play/): נגד הבינה המלאכותית, שני שחקנים על אותו מכשיר, או אונליין נגד שחקנים אחרים.
+
+גם את המשחק המקוון בנינו בעצמנו. אפשר להתקין אותו על מסך הבית של הטלפון, ושם הוא פועל גם ללא חיבור לאינטרנט. מטבעות ו-Octastar's Blessing ל-30 יום הם רכישות אופציונליות, וכל שאר המשחק בחינם.
+
+## האתר
+
+בנוסף, עיצבנו ובנינו את אתר המשחק, שבו השחקנים מגלים את הקלפים, מכירים את העולם ולומדים לשחק.
 
 - **גלריית קלפים.** יותר מ-200 קלפים שאפשר לחפש, למיין ולסנן לפי יסוד, פלג וסוג.
 - **עמוד לכל קלף,** כך שאפשר למצוא כל קלף, לקשר אליו ולשתף אותו בנפרד.
@@ -31,7 +37,11 @@ Colvaron Conquest הוא משחק קלפי אסטרטגיה אספנותי שי�
 
 ![גלריית הקלפים של Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **לקוח** Colvaron Conquest
+- **התפקיד שלנו** הוצאה לאור, וכן בניית האתר והמשחק המקוון
+- **משחק מאת** Coco JM
+- **פלטפורמות** דפדפן אינטרנט, עם אפשרות התקנה בטלפונים
+- **תמחור** משחק חינמי, עם רכישות אופציונליות בתוך המשחק
+- **לשחק** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **כתובת האתר** <https://colvaronconquest.com>
 
 ## עוד פרויקטים
@@ -39,12 +49,12 @@ Colvaron Conquest הוא משחק קלפי אסטרטגיה אספנותי שי�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
-[![אפליקציית Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### אפליקציית Kantong Sayur](https://sawirstudio.com/he/projects/kantong-sayur-application/)
-[![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### אפליקציית Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
+[![אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+### אפליקציית DBTV](https://sawirstudio.com/he/projects/dbtv-application/)
 
 מספיק עלינו.
 

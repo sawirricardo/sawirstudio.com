@@ -15,6 +15,7 @@ description: Sawir Studio की प्रेस किट: लोगो, ब्
 - **स्थापना** दिसंबर 2017, कंपनी के रूप में रजिस्ट्रेशन जनवरी 2025 में
 - **संस्थापक** [Ricardo Sawir](https://sawirstudio.com/hi/ricardosawir/)
 - **हमारा काम** ऐप, वेबसाइट और डिज़ाइन, क्लाइंट के लिए भी और अपने प्रोडक्ट के तौर पर भी
+- [Colvaron Conquest](https://sawirstudio.com/hi/projects/colvaron-conquest-website/) के **प्रकाशक**, जो Coco JM का एक ट्रेडिंग कार्ड गेम है
 - **वेबसाइट** [sawirstudio.com](https://sawirstudio.com/hi/)
 - **प्रेस संपर्क** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio एक सॉफ़्टवेयर स्टूडियो ह�
 
 ### एक पैराग्राफ़ में
 
-Sawir Studio क्लाइंट्स के लिए और अपने खुद के प्रोडक्ट के तौर पर ऐप, वेबसाइट और डिज़ाइन बनाता है। Ricardo Sawir ने दिसंबर 2017 में यह स्टूडियो शुरू किया और जनवरी 2025 में इसे Sawir Studio LLC के नाम से रजिस्टर किया। स्टूडियो हर दिन AI की मदद से काम करता है, और रिलीज़ होने वाली कोड की हर लाइन को एक व्यक्ति पढ़ता है, टेस्ट करता है और उसकी ज़िम्मेदारी लेता है। इसी तरीके से स्टूडियो ने चार हफ़्तों से भी कम समय में अपने छह ऐप App Store पर पहुँचाए। स्टूडियो के अपने काम में ड्रॉइंग ऐप Rindraw, फ़ाइनेंशियल कैलकुलेटर Par, सोशल मीडिया शेड्यूलर SawirPost, 12 मुफ़्त WordPress प्लगइन और Odoo के लिए एक ओपन-सोर्स Shopify कनेक्टर शामिल हैं, जिसका रखरखाव Odoo Community Association में होता है।
+Sawir Studio ऐप, वेबसाइट और डिज़ाइन बनाता है, क्लाइंट के लिए भी और अपने प्रोडक्ट के तौर पर भी। Ricardo Sawir ने दिसंबर 2017 में स्टूडियो शुरू किया और जनवरी 2025 में इसे Sawir Studio LLC के नाम से रजिस्टर कराया। स्टूडियो हर दिन AI की मदद से काम करता है, और रिलीज़ होने वाली हर लाइन को एक व्यक्ति पढ़ता है, टेस्ट करता है और उसकी ज़िम्मेदारी लेता है। इसी तरह स्टूडियो ने चार हफ़्ते से भी कम समय में अपने छह ऐप App Store पर पहुँचाए। इसके अपने काम में ड्रॉइंग ऐप Rindraw, फ़ाइनेंशियल कैलकुलेटर Par, सोशल मीडिया शेड्यूलर SawirPost, 12 मुफ़्त WordPress प्लगइन और Odoo के लिए एक ओपन-सोर्स Shopify कनेक्टर शामिल हैं, जिसका रखरखाव Odoo Community Association में होता है। Sawir Studio, Colvaron Conquest का प्रकाशक भी है। यह Coco JM का एक स्ट्रैटेजी ट्रेडिंग कार्ड गेम है, जिसे ब्राउज़र में मुफ़्त खेला जा सकता है।
 
 ## लोगो
 
@@ -86,6 +87,10 @@ Ricardo Sawir ने दिसंबर 2017 में Sawir Studio की स�
 - [Sawirly](https://sawirstudio.com/hi/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/hi/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/hi/projects/nofapfit/)
+
+और वह गेम जिसे हम प्रकाशित करते हैं:
+
+- [Colvaron Conquest](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
 
 हमारे बारे में लिख रहे हैं?
 

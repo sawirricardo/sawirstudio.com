@@ -1,20 +1,26 @@
 ---
-title: Colvaron Conquest-website | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/nl/projects/colvaron-conquest-website/
-description: Website voor Colvaron Conquest, een strategisch kaartspel, ontworpen en gebouwd door Sawir Studio.
+description: Colvaron Conquest is een strategische ruilkaartgame van Coco JM, uitgegeven door Sawir Studio en gratis te spelen in de browser. We hebben ook de website ontworpen en gebouwd.
 ---
 
-# Colvaron Conquest Website
+# Colvaron Conquest
 
 ![Startpagina van Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## De klant
+## De game
 
 Colvaron Conquest is een strategisch kaartspel (trading card game) van Coco JM. De wereld waarin magie en geavanceerde technologie botsen, ontstond in Coco's kinderfantasie en werd in 2025 een kaartspel dat wordt gespeeld met vijf elementen en een actiesysteem met twee dobbelstenen.
 
-## Wat we hebben gemaakt
+## Uitgegeven door Sawir Studio
 
-Wij ontwierpen en bouwden de website van het spel, waar spelers de kaarten ontdekken, de wereld leren kennen en leren spelen.
+Sawir Studio is nu de uitgever van Colvaron Conquest. Wij beheren en verkopen de game op [colvaronconquest.com](https://colvaronconquest.com), waar iedereen hem [gratis in de browser kan spelen](https://colvaronconquest.com/play/): tegen de AI, met twee spelers op één apparaat of online tegen andere spelers.
+
+We hebben ook de online game gebouwd. Je kunt hem op het beginscherm van je telefoon installeren en daar offline spelen. Munten en de Octastar's Blessing van 30 dagen zijn optionele aankopen; al het andere in de game is gratis.
+
+## De website
+
+We hebben ook de website van de game ontworpen en gebouwd. Daar ontdekken spelers de kaarten, leren ze de wereld kennen en leren ze hoe je speelt.
 
 - **Kaartengalerij.** Meer dan 200 kaarten die spelers kunnen doorzoeken, sorteren en filteren op element, factie en type.
 - **Een pagina voor elke kaart,** zodat je elke kaart los kunt vinden, linken en delen.
@@ -31,7 +37,11 @@ Een trading card game verkoopt op de kunst van de kaarten, dus de site houdt zic
 
 ![Kaartengalerij van Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **Klant** Colvaron Conquest
+- **Rol** Uitgever; we hebben ook de website en de online game gebouwd
+- **Game van** Coco JM
+- **Platforms** Webbrowser, te installeren op telefoons
+- **Prijs** Gratis te spelen, met optionele in-game aankopen
+- **Spelen** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **Website-URL** <https://colvaronconquest.com>
 
 ## Meer projecten
@@ -39,12 +49,12 @@ Een trading card game verkoopt op de kunst van de kaarten, dus de site houdt zic
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
-[![Kantong Sayur Application](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Kantong Sayur Application](https://sawirstudio.com/nl/projects/kantong-sayur-application/)
-[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
+[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS Application](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/)
+### DBTV Application](https://sawirstudio.com/nl/projects/dbtv-application/)
 
 Genoeg over ons.
 

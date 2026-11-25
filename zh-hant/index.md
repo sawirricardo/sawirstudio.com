@@ -54,11 +54,11 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 
 ## 精選作品
 
-[![Colvaron Conquest 網站](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-策略型集換式卡牌遊戲的卡牌圖鑑、世界觀設定與教學](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
+我們推出的策略型集換式卡牌遊戲，開啟瀏覽器即可免費遊玩](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic 網站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

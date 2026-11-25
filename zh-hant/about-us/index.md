@@ -29,7 +29,7 @@ description: Sawir Studio 出手快，AI 協助作業，每個決定都由真人
    我們會選擇能把事情做好的最簡單工具。這個網站就是純 HTML 和 CSS。零組件越少，出問題的地方就越少，日後要付出的成本也越低。
 4. ### 自己做的，自己用。
 
-   [Par](https://sawirstudio.com/zh-hant/projects/par/)、[Rindraw](https://sawirstudio.com/zh-hant/projects/rindraw/)、[Squishu](https://sawirstudio.com/zh-hant/projects/squishu/) 以及其他產品，都是我們自己的作品。從上架、App Review 到客戶支援，我們都親自處理，因此對這些工作的了解，不只來自客戶專案，更來自第一線的親身經驗。
+   [Par](https://sawirstudio.com/zh-hant/projects/par/)、[Rindraw](https://sawirstudio.com/zh-hant/projects/rindraw/)、[Squishu](https://sawirstudio.com/zh-hant/projects/squishu/) 等都是我們自家的產品。產品上線、App Review 和客服支援都由我們自己處理，因此我們對這些工作的了解來自親身經驗，而不只是靠客戶專案。我們也發行 Coco JM 的集換式卡牌遊戲 [Colvaron Conquest](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)。
 5. ### 把狀況說清楚。
 
    隱私權政策清楚易懂，App 會傳送哪些資料也如實說明，不使用任何誘導式的暗黑模式設計。無論是我們自己的 App，還是客戶的專案，都是如此。

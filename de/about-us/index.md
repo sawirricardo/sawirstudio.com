@@ -29,7 +29,7 @@ Eine Entscheidung kann ein Tool aber nicht verantworten, also tun wir es. Wir le
    Wir wählen das einfachste Werkzeug, das die Aufgabe erfüllt. Diese Website besteht aus reinem HTML und CSS. Weniger bewegliche Teile bedeuten weniger, das kaputtgehen kann, und weniger Kosten später.
 4. ### Wir nutzen, was wir bauen.
 
-   [Par](https://sawirstudio.com/de/projects/par/), [Rindraw](https://sawirstudio.com/de/projects/rindraw/), [Squishu](https://sawirstudio.com/de/projects/squishu/) und die übrigen sind unsere eigenen Produkte. Launch, App Review und Support übernehmen wir selbst. So kennen wir diese Arbeit von innen und nicht nur aus Kundenprojekten.
+   [Par](https://sawirstudio.com/de/projects/par/), [Rindraw](https://sawirstudio.com/de/projects/rindraw/), [Squishu](https://sawirstudio.com/de/projects/squishu/) und die übrigen sind unsere eigenen Produkte. Um ihre Veröffentlichung, das App Review und den Support kümmern wir uns selbst. Deshalb kennen wir diese Arbeit aus eigener Erfahrung und nicht nur aus Kundenprojekten. Außerdem veröffentlichen wir [Colvaron Conquest](https://sawirstudio.com/de/projects/colvaron-conquest-website/), ein Sammelkartenspiel von Coco JM.
 5. ### Offen sagen, was passiert.
 
    Klare Datenschutzerklärungen, ehrliche Hinweise darauf, welche Daten eine App sendet, und keine Dark Patterns. In unseren eigenen Apps ebenso wie in Kundenprojekten.

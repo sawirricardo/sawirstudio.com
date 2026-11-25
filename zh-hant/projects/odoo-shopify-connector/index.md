@@ -36,15 +36,15 @@ Odoo Community Association（OCA）是一個非營利組織，負責維護多數
 
 ## 更多專案
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
-[![DBTV 應用程式](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV 應用程式](https://sawirstudio.com/zh-hant/projects/dbtv-application/)
 
 關於我們就先說到這裡。
 

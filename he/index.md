@@ -54,11 +54,11 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 
 ## עבודות נבחרות
 
-[![אתר Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-גלריית קלפים, לורה ומדריכים למשחק קלפי אסטרטגיה](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
+משחק קלפים אסטרטגי לאיסוף ולהחלפה בהוצאתנו, בחינם בדפדפן](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 [![אתר Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

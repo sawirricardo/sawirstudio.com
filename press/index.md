@@ -15,6 +15,7 @@ Our logos, the facts and a short bio, free to use when you write about Sawir Stu
 - **Founded** December 2017, incorporated in January 2025
 - **Founder** [Ricardo Sawir](https://sawirstudio.com/ricardosawir/)
 - **What we do** Apps, websites and designs, for clients and as our own products
+- **Publisher of** [Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/), a trading card game by Coco JM
 - **Website** [sawirstudio.com](https://sawirstudio.com/)
 - **Press contact** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio is a software studio that builds apps, websites and designs, for cl
 
 ### In a paragraph
 
-Sawir Studio builds apps, websites and designs, for clients and as its own products. Ricardo Sawir started the studio in December 2017 and incorporated it as Sawir Studio LLC in January 2025. The studio builds with AI every day, with a person reading, testing and answering for every line that ships. That's how it put six of its own apps on the App Store in under four weeks. Its own work includes the drawing app Rindraw, the financial calculator Par, the social media scheduler SawirPost, 12 free WordPress plugins and an open-source Shopify connector for Odoo, maintained in the Odoo Community Association.
+Sawir Studio builds apps, websites and designs, for clients and as its own products. Ricardo Sawir started the studio in December 2017 and incorporated it as Sawir Studio LLC in January 2025. The studio builds with AI every day, with a person reading, testing and answering for every line that ships. That's how it put six of its own apps on the App Store in under four weeks. Its own work includes the drawing app Rindraw, the financial calculator Par, the social media scheduler SawirPost, 12 free WordPress plugins and an open-source Shopify connector for Odoo, maintained in the Odoo Community Association. Sawir Studio is also the publisher of Colvaron Conquest, a strategic trading card game by Coco JM that's free to play in the browser.
 
 ## Logos
 
@@ -86,6 +87,10 @@ Each page has the product's description, screenshots and links. The download abo
 - [Sawirly](https://sawirstudio.com/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/projects/nofapfit/)
+
+And the game we publish:
+
+- [Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/)
 
 Writing about us?
 

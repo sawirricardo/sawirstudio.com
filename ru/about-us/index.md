@@ -29,7 +29,7 @@ description: Sawir Studio быстро выпускает приложения, 
    Мы выбираем самый простой инструмент, который справляется с задачей. Этот сайт написан на обычных HTML и CSS. Чем меньше подвижных частей, тем меньше шансов, что что-то сломается, и тем меньше придётся платить потом.
 4. ### Мы пользуемся тем, что делаем.
 
-   [Par](https://sawirstudio.com/ru/projects/par/), [Rindraw](https://sawirstudio.com/ru/projects/rindraw/), [Squishu](https://sawirstudio.com/ru/projects/squishu/) и другие — наши собственные продукты. Запуски, App Review и поддержку мы ведём сами, поэтому знаем эту работу изнутри, а не только по проектам для клиентов.
+   [Par](https://sawirstudio.com/ru/projects/par/), [Rindraw](https://sawirstudio.com/ru/projects/rindraw/), [Squishu](https://sawirstudio.com/ru/projects/squishu/) и другие — это наши собственные продукты. Мы сами занимаемся их запуском, прохождением App Review и поддержкой, поэтому знаем эту работу изнутри, а не только по клиентским проектам. Кроме того, мы издаем [Colvaron Conquest](https://sawirstudio.com/ru/projects/colvaron-conquest-website/) — коллекционную карточную игру от Coco JM.
 5. ### Говорить, что происходит.
 
    Понятные политики конфиденциальности, честные пояснения о том, какие данные отправляет приложение, и никаких «тёмных паттернов». И в наших приложениях, и в работе для клиентов.

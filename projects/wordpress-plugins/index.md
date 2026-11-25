@@ -45,12 +45,12 @@ Plugins live inside other people’s businesses, so we hold them to a few rules.
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
 
 Enough about us.
 

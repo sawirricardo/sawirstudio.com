@@ -15,6 +15,7 @@ description: الملف الصحفي لـ Sawir Studio: الشعارات وأل�
 - **التأسيس** ديسمبر 2017، وسُجّل كشركة في يناير 2025
 - **المؤسس** [Ricardo Sawir](https://sawirstudio.com/ar/ricardosawir/)
 - **مجال عملنا** تطبيقات ومواقع إلكترونية وتصاميم، للعملاء وكمنتجات خاصة بنا
+- **ناشرة** [Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)، وهي لعبة بطاقات تداول من تطوير Coco JM
 - **الموقع الإلكتروني** [sawirstudio.com](https://sawirstudio.com/ar/)
 - **للتواصل الإعلامي** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio استوديو برمجيات يبني التطبيقات والم�
 
 ### في فقرة واحدة
 
-يبني Sawir Studio التطبيقات والمواقع والتصاميم، لعملائه وكمنتجات خاصة به. أسّس Ricardo Sawir الاستوديو في ديسمبر 2017، وسجّله كشركة باسم Sawir Studio LLC في يناير 2025. يعتمد الاستوديو على الذكاء الاصطناعي في عمله يوميًا، مع وجود شخص يقرأ كل سطر يصل إلى المستخدمين ويختبره ويتحمّل مسؤوليته. وبهذه الطريقة نشر ستة من تطبيقاته الخاصة على App Store في أقل من أربعة أسابيع. ومن أعماله الخاصة تطبيق الرسم Rindraw، والحاسبة المالية Par، وأداة جدولة منشورات وسائل التواصل الاجتماعي SawirPost، و12 إضافة مجانية لـ WordPress، وأداة مفتوحة المصدر لربط Shopify مع Odoo تجري صيانتها ضمن Odoo Community Association.
+تبني Sawir Studio التطبيقات والمواقع الإلكترونية والتصاميم، لعملائها ولمنتجاتها الخاصة. أسّس Ricardo Sawir الاستوديو في ديسمبر 2017، ثم سجّله شركةً باسم Sawir Studio LLC في يناير 2025. يعتمد الاستوديو على الذكاء الاصطناعي يوميًا في عمله، على أن يتولى شخص قراءة كل سطر برمجي يُطلَق واختباره وتحمّل مسؤوليته. وبهذه الطريقة نشر ستة من تطبيقاته الخاصة على App Store في أقل من أربعة أسابيع. تشمل أعماله الخاصة تطبيق الرسم Rindraw، والحاسبة المالية Par، وأداة جدولة منشورات وسائل التواصل الاجتماعي SawirPost، و12 إضافة مجانية لمنصة WordPress، وموصّلًا مفتوح المصدر يربط Shopify بنظام Odoo، وتجري صيانته ضمن Odoo Community Association. كما تتولى Sawir Studio نشر Colvaron Conquest، وهي لعبة بطاقات تداول استراتيجية من تطوير Coco JM، يمكن لعبها مجانًا في المتصفح.
 
 ## الشعارات
 
@@ -86,6 +87,10 @@ Sawir Studio استوديو برمجيات يبني التطبيقات والم�
 - [Sawirly](https://sawirstudio.com/ar/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/ar/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/ar/projects/nofapfit/)
+
+واللعبة التي ننشرها:
+
+- [Colvaron Conquest](https://sawirstudio.com/ar/projects/colvaron-conquest-website/)
 
 تكتبون عنا؟
 

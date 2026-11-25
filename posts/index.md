@@ -6,6 +6,7 @@ description: Articles from Sawir Studio on building web applications with Larave
 
 # Blog
 
+- [2026-11-25 Sawir Studio Is Now the Publisher of Colvaron Conquest](https://sawirstudio.com/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopify's 2026-10 API: What Breaks in Your Integrations](https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Shopify Script Tags Stop Working on March 1, 2027. What Store Owners Should Do](https://sawirstudio.com/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 Connecting Shopify to Odoo 19 Community, Step by Step](https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/)

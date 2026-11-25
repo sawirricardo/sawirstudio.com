@@ -29,7 +29,7 @@ description: Sawir Studio 快速交付应用、网站和设计，AI 参与其中
    我们会选择能完成任务的最简单的工具。这个网站就是纯 HTML 和 CSS 写成的。环节越少，出问题的地方就越少，日后需要花的钱也越少。
 4. ### 我们自己也用自己做的产品。
 
-   [Par](https://sawirstudio.com/zh-hans/projects/par/)、[Rindraw](https://sawirstudio.com/zh-hans/projects/rindraw/)、[Squishu](https://sawirstudio.com/zh-hans/projects/squishu/) 等都是我们自己的产品。它们的发布、App Review 和客户支持都由我们亲自处理，因此我们对这些工作的了解，不只来自客户项目，更来自亲身实践。
+   [Par](https://sawirstudio.com/zh-hans/projects/par/)、[Rindraw](https://sawirstudio.com/zh-hans/projects/rindraw/)、[Squishu](https://sawirstudio.com/zh-hans/projects/squishu/) 等都是我们自己的产品。发布上线、App Review 和用户支持都由我们亲自负责，因此我们对这些工作的了解来自亲身实践，而不只是来自客户项目。我们还发行了 Coco JM 的集换式卡牌游戏 [Colvaron Conquest](https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/)。
 5. ### 把实情说清楚。
 
    隐私政策清晰易懂，如实说明应用会发送哪些数据，不使用任何诱导性的暗黑设计。我们自己的应用如此，客户项目也是如此。

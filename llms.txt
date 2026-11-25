@@ -33,7 +33,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [Math Daily](https://sawirstudio.com/projects/math-daily/index.md): Math Daily builds a daily math habit in a minute a day with the Math Monsters: quick practice in addition, subtraction, multiplication and division.
 - [WordPress Plugins](https://sawirstudio.com/projects/wordpress-plugins/index.md): Twelve free WordPress plugins by Sawir Studio: subscriptions, referrals, restock alerts and more for WooCommerce, plus tools for any WordPress site.
 - [Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/index.md): An open-source Shopify connector for Odoo 19 Community, written by Sawir Studio and maintained in the Odoo Community Association (OCA).
-- [Colvaron Conquest Website](https://sawirstudio.com/projects/colvaron-conquest-website/index.md): Website for Colvaron Conquest, a strategic trading card game, designed and built by Sawir Studio.
+- [Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/index.md): Colvaron Conquest is a strategic trading card game by Coco JM, published by Sawir Studio and free to play in the browser. We also designed and built its website.
 - [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/index.md): MyVivaldy, the clinic system and patient app for Vivaldy Skin Clinic: booking, visit history and prescriptions on iPhone and Android, built by Sawir Studio.
 - [Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/index.md): Koperasi HOB’s shopping app: members browse household goods by category, choose delivery or pick-up, and pay with their cooperative balance.
 - [DBTV Application](https://sawirstudio.com/projects/dbtv-application/index.md): DBTV brings Ps. Debby Basjir’s sermons, prayer services, worship, podcasts and daily devotionals to iOS and Android. Built by Sawir Studio.
@@ -73,6 +73,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 ## Blog
 
 - [Blog](https://sawirstudio.com/posts/index.md): Articles from Sawir Studio on building web applications with Laravel and PHP.
+- [Sawir Studio Now Publishes Colvaron Conquest](https://sawirstudio.com/posts/sawir-studio-publishes-colvaron-conquest/index.md): Sawir Studio is now the publisher of Colvaron Conquest, Coco JM's strategic trading card game. Play it free in your browser at colvaronconquest.com.
 - [Shopify 2026-10 API: What Breaks](https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/index.md): The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more.
 - [Shopify Script Tags End March 2027](https://sawirstudio.com/posts/shopify-script-tags-stop-march-2027/index.md): Shopify stops running online store script tags on March 1, 2027. Which apps it affects, how to check your store, and what replaces them.
 - [Connect Shopify to Odoo 19 Community](https://sawirstudio.com/posts/connect-shopify-to-odoo-19-community/index.md): How to connect a Shopify store to Odoo 19 Community with the open-source OCA Shopify connector: the Dev Dashboard app, scopes, queue_job, webhooks and onboarding.

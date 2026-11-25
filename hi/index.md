@@ -54,11 +54,11 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 
 ## चुनिंदा काम
 
-[![Colvaron Conquest वेबसाइट](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-एक स्ट्रैटेजिक ट्रेडिंग कार्ड गेम के लिए कार्ड गैलरी, कहानी और ट्यूटोरियल](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
+एक स्ट्रैटेजिक ट्रेडिंग कार्ड गेम जिसे हम पब्लिश करते हैं, ब्राउज़र में मुफ़्त खेलें](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

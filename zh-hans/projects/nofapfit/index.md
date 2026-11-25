@@ -27,9 +27,9 @@ NoFapFit 把冲动变成一次锻炼。当诱惑出现时，您只需按下一�
 [![Odoo 的 Shopify 连接器](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Odoo 的 Shopify 连接器](https://sawirstudio.com/zh-hans/projects/odoo-shopify-connector/)
-[![Colvaron Conquest 网站](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### Colvaron Conquest 网站](https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/zh-hans/projects/colvaron-conquest-website/)
 
 我们先聊到这里。
 

@@ -27,9 +27,9 @@ NoFapFit आपकी तलब को वर्कआउट में बदल
 [![Odoo के लिए Shopify Connector](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Odoo के लिए Shopify Connector](https://sawirstudio.com/hi/projects/odoo-shopify-connector/)
-[![Colvaron Conquest वेबसाइट](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### Colvaron Conquest वेबसाइट](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
 
 हमारी बात बहुत हुई।
 

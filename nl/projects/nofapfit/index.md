@@ -27,9 +27,9 @@ Elke uitdaging die je afrondt, telt mee voor je streak. In het weekoverzicht zie
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/nl/projects/odoo-shopify-connector/)
-[![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### Colvaron Conquest Website](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
 
 Genoeg over ons.
 

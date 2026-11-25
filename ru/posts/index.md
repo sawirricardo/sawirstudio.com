@@ -6,6 +6,7 @@ description: Статьи Sawir Studio о разработке веб-прило
 
 # Блог
 
+- [2026-11-25 Sawir Studio теперь издатель Colvaron Conquest](https://sawirstudio.com/ru/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 API Shopify 2026-10: что сломается в ваших интеграциях](https://sawirstudio.com/ru/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Script Tags в Shopify перестанут работать 1 марта 2027 года. Что делать владельцам магазинов](https://sawirstudio.com/ru/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 Подключаем Shopify к Odoo 19 Community: пошаговая инструкция](https://sawirstudio.com/ru/posts/connect-shopify-to-odoo-19-community/)

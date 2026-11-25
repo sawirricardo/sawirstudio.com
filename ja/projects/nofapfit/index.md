@@ -27,9 +27,9 @@ NoFapFit は、衝動をトレーニングに変えるアプリです。誘惑�
 [![Odoo 向け Shopify コネクタ](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)
-[![Colvaron Conquest ウェブサイト](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### Colvaron Conquest ウェブサイト](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

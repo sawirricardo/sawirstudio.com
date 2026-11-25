@@ -6,6 +6,7 @@ description: Articoli di Sawir Studio sullo sviluppo di web application con Lara
 
 # Blog
 
+- [2026-11-25 Sawir Studio è ora l’editore di Colvaron Conquest](https://sawirstudio.com/it/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 L'API Shopify 2026-10: cosa smette di funzionare nelle vostre integrazioni](https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Gli Script Tag di Shopify smettono di funzionare il 1° marzo 2027: cosa devono fare i titolari di negozi](https://sawirstudio.com/it/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 Collegare Shopify a Odoo 19 Community, passo dopo passo](https://sawirstudio.com/it/posts/connect-shopify-to-odoo-19-community/)

@@ -1,20 +1,26 @@
 ---
-title: Sito web di Colvaron Conquest | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/it/projects/colvaron-conquest-website/
-description: Sito web di Colvaron Conquest, un gioco di carte collezionabili strategico, progettato e realizzato da Sawir Studio.
+description: Colvaron Conquest è un gioco di carte collezionabili strategico di Coco JM, pubblicato da Sawir Studio e gratuito nel browser. Ne abbiamo anche progettato e realizzato il sito web.
 ---
 
-# Sito web Colvaron Conquest
+# Colvaron Conquest
 
 ![Home page di Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## Il cliente
+## Il gioco
 
 Colvaron Conquest è un gioco di carte collezionabili strategico creato da Coco JM. Il suo mondo, in cui magia e tecnologia avanzata si scontrano, è nato nell’immaginazione di Coco da bambino e nel 2025 è diventato un gioco di carte, che si gioca con cinque elementi e un sistema di azioni a due dadi.
 
-## Cosa abbiamo realizzato
+## Pubblicato da Sawir Studio
 
-Abbiamo progettato e realizzato il sito del gioco, dove i giocatori scoprono le carte, conoscono il mondo e imparano a giocare.
+Oggi Sawir Studio è l’editore di Colvaron Conquest. Gestiamo e vendiamo il gioco su [colvaronconquest.com](https://colvaronconquest.com), dove chiunque può [giocare gratis nel browser](https://colvaronconquest.com/play/): contro l’IA, in due sullo stesso dispositivo oppure online contro altri giocatori.
+
+Abbiamo realizzato anche il gioco online. Si può installare nella schermata Home del telefono, e da lì funziona anche offline. Le monete e la Octastar's Blessing della durata di 30 giorni sono acquisti facoltativi; tutto il resto del gioco è gratuito.
+
+## Il sito web
+
+Abbiamo inoltre progettato e realizzato il sito web del gioco, dove i giocatori scoprono le carte, esplorano il suo mondo e imparano a giocare.
 
 - **Galleria delle carte.** Più di 200 carte che i giocatori possono cercare, ordinare e filtrare per elemento, fazione e tipo.
 - **Una pagina per ogni carta,** così ognuna può essere trovata, linkata e condivisa singolarmente.
@@ -31,7 +37,11 @@ Un gioco di carte collezionabili vive della sua grafica, quindi il sito si fa da
 
 ![Galleria delle carte di Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **Cliente** Colvaron Conquest
+- **Ruolo** Editore; abbiamo realizzato anche il sito web e il gioco online
+- **Un gioco di** Coco JM
+- **Piattaforme** Browser web, installabile sui telefoni
+- **Prezzo** Gratuito, con acquisti in-game facoltativi
+- **Giocate** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **URL del sito** <https://colvaronconquest.com>
 
 ## Altri progetti
@@ -39,12 +49,12 @@ Un gioco di carte collezionabili vive della sua grafica, quindi il sito si fa da
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
-[![Applicazione Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Applicazione Kantong Sayur](https://sawirstudio.com/it/projects/kantong-sayur-application/)
-[![Applicazione PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
+[![Applicazione DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### Applicazione PeopleBond HCMS](https://sawirstudio.com/it/projects/peoplebond-hcms-application/)
+### Applicazione DBTV](https://sawirstudio.com/it/projects/dbtv-application/)
 
 Basta parlare di noi.
 

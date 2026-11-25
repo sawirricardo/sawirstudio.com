@@ -6,6 +6,7 @@ description: Articles de Sawir Studio sur la création d'applications web avec L
 
 # Blog
 
+- [2026-11-25 Sawir Studio est désormais l’éditeur de Colvaron Conquest](https://sawirstudio.com/fr/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 L'API Shopify 2026-10 : ce qui risque de casser dans vos intégrations](https://sawirstudio.com/fr/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Les Script Tags de Shopify cessent de fonctionner le 1er mars 2027 : ce que les propriétaires de boutique doivent faire](https://sawirstudio.com/fr/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 Connecter Shopify à Odoo 19 Community, étape par étape](https://sawirstudio.com/fr/posts/connect-shopify-to-odoo-19-community/)

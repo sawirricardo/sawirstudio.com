@@ -54,11 +54,11 @@ AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven â
 
 ## Uitgelicht werk
 
-[![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-Kaartengalerij, achtergrondverhaal en tutorials voor een strategisch ruilkaartspel](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
+Een strategisch ruilkaartspel dat we zelf uitgeven, gratis te spelen in de browser](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

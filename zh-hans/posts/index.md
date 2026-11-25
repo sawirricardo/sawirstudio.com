@@ -6,6 +6,7 @@ description: Sawir Studio 发布的文章，主要讲解如何使用 Laravel 和
 
 # 博客
 
+- [2026-11-25 Sawir Studio 现已成为 Colvaron Conquest 的发行商](https://sawirstudio.com/zh-hans/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopify 2026-10 版 API：哪些集成会失效](https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Shopify Script Tags 将于 2027 年 3 月 1 日停止运作，店主该怎么做](https://sawirstudio.com/zh-hans/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 手把手教您连接 Shopify 与 Odoo 19 Community](https://sawirstudio.com/zh-hans/posts/connect-shopify-to-odoo-19-community/)

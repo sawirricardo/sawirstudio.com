@@ -36,15 +36,15 @@ Wil je dat we het voor jouw winkels instellen of uitbreiden? Bekijk [Shopify-int
 
 ## Meer projecten
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
-[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV Application](https://sawirstudio.com/nl/projects/dbtv-application/)
 
 Genoeg over ons.
 

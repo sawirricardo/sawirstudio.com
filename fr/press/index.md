@@ -15,6 +15,7 @@ Nos logos, les informations clés et une courte biographie, à utiliser libremen
 - **Création** Décembre 2017, constitution en société en janvier 2025
 - **Fondateur** [Ricardo Sawir](https://sawirstudio.com/fr/ricardosawir/)
 - **Activité** Applications, sites web et design, pour des clients et pour nos propres produits
+- **Éditeur de** [Colvaron Conquest](https://sawirstudio.com/fr/projects/colvaron-conquest-website/), un jeu de cartes à collectionner de Coco JM
 - **Site web** [sawirstudio.com](https://sawirstudio.com/fr/)
 - **Contact presse** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio est un studio logiciel qui crée des applications, des sites web et
 
 ### En un paragraphe
 
-Sawir Studio crée des applications, des sites web et des designs, pour ses clients comme pour ses propres produits. Ricardo Sawir a lancé le studio en décembre 2017 et l’a constitué en société sous le nom de Sawir Studio LLC en janvier 2025. Le studio travaille chaque jour avec l’IA, et une personne relit, teste et assume chaque ligne mise en production. C’est ainsi qu’il a publié six de ses propres applications sur l’App Store en moins de quatre semaines. Parmi ses réalisations figurent l’application de dessin Rindraw, la calculatrice financière Par, l’outil de planification pour les réseaux sociaux SawirPost, 12 extensions WordPress gratuites et un connecteur Shopify open source pour Odoo, maintenu au sein de l’Odoo Community Association.
+Sawir Studio conçoit des applications, des sites web et des designs, pour ses clients comme pour ses propres produits. Ricardo Sawir a lancé le studio en décembre 2017 et l’a constitué en société sous le nom de Sawir Studio LLC en janvier 2025. Le studio développe chaque jour avec l’IA, et une personne relit, teste et assume chaque ligne mise en production. C’est ainsi qu’il a publié six de ses propres applications sur l’App Store en moins de quatre semaines. Parmi ses réalisations figurent l’application de dessin Rindraw, la calculatrice financière Par, l’outil de planification pour les réseaux sociaux SawirPost, 12 extensions WordPress gratuites et un connecteur Shopify open source pour Odoo, maintenu au sein de l’Odoo Community Association. Sawir Studio est aussi l’éditeur de Colvaron Conquest, un jeu de cartes à collectionner et de stratégie de Coco JM, jouable gratuitement dans le navigateur.
 
 ## Logos
 
@@ -86,6 +87,10 @@ Chaque page présente la description du produit, des captures d’écran et des 
 - [Sawirly](https://sawirstudio.com/fr/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/fr/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/fr/projects/nofapfit/)
+
+Et le jeu que nous éditons :
+
+- [Colvaron Conquest](https://sawirstudio.com/fr/projects/colvaron-conquest-website/)
 
 Vous écrivez sur nous ?
 

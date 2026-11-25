@@ -36,15 +36,15 @@ Vous souhaitez le faire installer ou l’adapter à vos boutiques ? Découvrez 
 
 ## Autres projets
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/fr/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
-[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV Application](https://sawirstudio.com/fr/projects/dbtv-application/)
 
 Assez parlé de nous.
 

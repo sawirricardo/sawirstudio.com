@@ -15,6 +15,7 @@ description: ערכת העיתונות של Sawir Studio: לוגואים, צבע
 - **הקמה** דצמבר 2017, התאגדות כחברה בינואר 2025
 - **מייסד** [Ricardo Sawir](https://sawirstudio.com/he/ricardosawir/)
 - **תחומי עיסוק** אפליקציות, אתרים ועיצובים, ללקוחות וכמוצרים שלנו
+- **המו״ל של** [Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/), משחק קלפים אספניים מאת Coco JM
 - **אתר** [sawirstudio.com](https://sawirstudio.com/he/)
 - **איש קשר לעיתונות** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
@@ -26,7 +27,7 @@ Sawir Studio הוא סטודיו לתוכנה שבונה אפליקציות, א�
 
 ### בפסקה אחת
 
-Sawir Studio בונה אפליקציות, אתרים ועיצובים, ללקוחות וכמוצרים משלו. Ricardo Sawir הקים את הסטודיו בדצמבר 2017, ובינואר 2025 רשם אותו כחברה בשם Sawir Studio LLC. בסטודיו עובדים עם AI מדי יום, ואדם קורא, בודק ולוקח אחריות על כל שורת קוד שיוצאת לאוויר. כך הסטודיו העלה ל-App Store שש אפליקציות משלו בתוך פחות מארבעה שבועות. בין המוצרים שלו: אפליקציית הציור Rindraw, המחשבון הפיננסי Par, כלי תזמון הפוסטים לרשתות חברתיות SawirPost, ‏12 תוספים חינמיים ל-WordPress ומחבר קוד פתוח בין Shopify ל-Odoo, שמתוחזק במסגרת Odoo Community Association.
+Sawir Studio בונה אפליקציות, אתרים ועיצובים, גם ללקוחות וגם כמוצרים משלה. Ricardo Sawir הקים את הסטודיו בדצמבר 2017, ובינואר 2025 התאגד הסטודיו כחברת Sawir Studio LLC. בסטודיו בונים עם AI מדי יום, ועל כל שורה שיוצאת ללקוחות יש אדם שקורא, בודק ואחראי לה. כך העלה הסטודיו שש אפליקציות משלו ל-App Store בתוך פחות מארבעה שבועות. בין המוצרים שלו: אפליקציית הציור Rindraw, המחשבון הפיננסי Par, כלי תזמון הפוסטים לרשתות החברתיות SawirPost, 12 תוספים חינמיים ל-WordPress ומחבר Shopify ל-Odoo בקוד פתוח, שמתוחזק במסגרת Odoo Community Association. Sawir Studio היא גם המו״ל של Colvaron Conquest, משחק קלפים אספניים אסטרטגי מאת Coco JM, שאפשר לשחק בו בחינם בדפדפן.
 
 ## לוגואים
 
@@ -86,6 +87,10 @@ Ricardo Sawir ייסד את Sawir Studio בדצמבר 2017. Ricardo למד עי�
 - [Sawirly](https://sawirstudio.com/he/projects/sawirly/)
 - [Quill Word Counter](https://sawirstudio.com/he/projects/quill-word-counter/)
 - [NoFapFit](https://sawirstudio.com/he/projects/nofapfit/)
+
+והמשחק שאנחנו מוציאים לאור:
+
+- [Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 
 כותבים עלינו?
 

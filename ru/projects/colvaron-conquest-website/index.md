@@ -1,20 +1,26 @@
 ---
-title: Сайт Colvaron Conquest | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/ru/projects/colvaron-conquest-website/
-description: Сайт стратегической коллекционной карточной игры Colvaron Conquest, разработанный Sawir Studio: дизайн и реализация.
+description: Colvaron Conquest — стратегическая коллекционная карточная игра от Coco JM. Издатель — Sawir Studio, играть можно бесплатно в браузере. Мы также создали дизайн сайта игры и разработали его.
 ---
 
-# Сайт Colvaron Conquest
+# Colvaron Conquest
 
 ![Главная страница Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## Клиент
+## Об игре
 
 Colvaron Conquest — стратегическая коллекционная карточная игра, придуманная Coco JM. Её мир, где магия сталкивается с передовыми технологиями, родился в детских фантазиях Coco, а в 2025 году стал карточной игрой с пятью стихиями и системой действий на двух кубиках.
 
-## Что мы сделали
+## Издатель — Sawir Studio
 
-Мы разработали дизайн и создали сайт игры: здесь игроки знакомятся с картами, изучают мир и учатся играть.
+Теперь Sawir Studio — издатель Colvaron Conquest. Мы поддерживаем работу игры и занимаемся её продажами на сайте [colvaronconquest.com](https://colvaronconquest.com), где любой может [бесплатно сыграть в браузере](https://colvaronconquest.com/play/): против ИИ, вдвоём на одном устройстве или онлайн против других игроков.
+
+Онлайн-версию игры тоже разработали мы. Её можно добавить на главный экран телефона и там играть без интернета. Монеты и 30-дневное благословение Octastar's Blessing можно приобрести по желанию, всё остальное в игре бесплатно.
+
+## Сайт
+
+Мы также создали дизайн сайта игры и разработали сам сайт: здесь игроки открывают для себя карты, знакомятся с миром игры и учатся играть.
 
 - **Галерея карт.** Более 200 карт, которые можно искать, сортировать и фильтровать по стихии, фракции и типу.
 - **Отдельная страница для каждой карты,** чтобы любую карту можно было найти, дать на неё ссылку и поделиться ею.
@@ -31,7 +37,11 @@ Colvaron Conquest — стратегическая коллекционная к
 
 ![Галерея карт Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **Клиент:** Colvaron Conquest
+- **Наша роль** Издатель; мы также разработали сайт и онлайн-версию игры
+- **Автор игры** Coco JM
+- **Платформы** Веб-браузер, с возможностью установки на телефон
+- **Стоимость** Бесплатная игра с необязательными внутриигровыми покупками
+- **Играть** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **Адрес сайта:** <https://colvaronconquest.com>
 
 ## Другие проекты
@@ -39,12 +49,12 @@ Colvaron Conquest — стратегическая коллекционная к
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
-[![Приложение Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Приложение Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Приложение Kantong Sayur](https://sawirstudio.com/ru/projects/kantong-sayur-application/)
-[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Приложение Koperasi HOB](https://sawirstudio.com/ru/projects/koperasi-hob-application/)
+[![Приложение DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
+### Приложение DBTV](https://sawirstudio.com/ru/projects/dbtv-application/)
 
 Хватит о нас.
 

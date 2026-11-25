@@ -54,11 +54,11 @@ KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben �
 
 ## Ausgewählte Projekte
 
-[![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-Kartengalerie, Hintergrundgeschichte und Tutorials für ein strategisches Sammelkartenspiel](https://sawirstudio.com/de/projects/colvaron-conquest-website/)
+Ein strategisches Sammelkartenspiel, das wir selbst herausgeben, kostenlos im Browser spielbar](https://sawirstudio.com/de/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

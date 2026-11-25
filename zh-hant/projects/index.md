@@ -54,9 +54,9 @@ Sawir Studio 近期專案精選
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ## Shopify Connector for Odoo](https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/)
-[![Colvaron Conquest 網站](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## Colvaron Conquest 網站](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
+## Colvaron Conquest](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)

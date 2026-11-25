@@ -54,11 +54,11 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
 
 ## Réalisations choisies
 
-[![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-Galerie de cartes, univers et tutoriels pour un jeu de cartes à collectionner stratégique](https://sawirstudio.com/fr/projects/colvaron-conquest-website/)
+Un jeu de cartes à collectionner et de stratégie que nous éditons, jouable gratuitement dans le navigateur](https://sawirstudio.com/fr/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

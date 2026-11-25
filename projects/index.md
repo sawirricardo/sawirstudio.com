@@ -54,9 +54,9 @@ Clear Filter
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ## Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/)
-[![Colvaron Conquest Website](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## Colvaron Conquest Website](https://sawirstudio.com/projects/colvaron-conquest-website/)
+## Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)

@@ -1,20 +1,26 @@
 ---
-title: موقع Colvaron Conquest | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/ar/projects/colvaron-conquest-website/
-description: موقع Colvaron Conquest، لعبة بطاقات تداول استراتيجية، صممه وبناه Sawir Studio.
+description: Colvaron Conquest لعبة بطاقات تداول استراتيجية من ابتكار Coco JM، ينشرها Sawir Studio ويمكن لعبها مجانًا في المتصفح. كما صمّمنا وطوّرنا موقعها الإلكتروني.
 ---
 
-# موقع Colvaron Conquest
+# Colvaron Conquest
 
 ![الصفحة الرئيسية لموقع Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## العميل
+## اللعبة
 
 Colvaron Conquest لعبة بطاقات تداول استراتيجية من ابتكار Coco JM. عالمها، حيث يلتقي السحر بالتقنيات المتقدمة، وُلد من خيال Coco في طفولته، ثم تحوّل إلى لعبة بطاقات في عام 2025، تُلعب بخمسة عناصر ونظام أفعال بنردين.
 
-## ماذا أنجزنا
+## من نشر Sawir Studio
 
-صممنا وبنينا موقع اللعبة، حيث يتعرّف اللاعبون على البطاقات ويكتشفون العالم ويتعلمون طريقة اللعب.
+أصبح Sawir Studio الآن ناشر لعبة Colvaron Conquest. نتولى تشغيل اللعبة وبيعها على [colvaronconquest.com](https://colvaronconquest.com)، حيث يمكن للجميع [لعبها مجانًا في المتصفح](https://colvaronconquest.com/play/): ضد الذكاء الاصطناعي، أو بلاعبَين على جهاز واحد، أو عبر الإنترنت ضد لاعبين آخرين.
+
+طوّرنا أيضًا نسخة اللعب عبر الإنترنت. ويمكن تثبيتها على الشاشة الرئيسية للهاتف، حيث تعمل دون اتصال بالإنترنت. أما العملات وميزة Octastar's Blessing لمدة 30 يومًا فهي مشتريات اختيارية، وكل ما عدا ذلك في اللعبة مجاني.
+
+## الموقع الإلكتروني
+
+صمّمنا وطوّرنا كذلك الموقع الإلكتروني للعبة، حيث يكتشف اللاعبون البطاقات ويتعرفون على عالم اللعبة ويتعلمون طريقة لعبها.
 
 - **معرض البطاقات.** أكثر من 200 بطاقة يمكن للاعبين البحث فيها وترتيبها وتصفيتها حسب العنصر والفصيل والنوع.
 - **صفحة لكل بطاقة،** بحيث يمكن العثور على كل بطاقة وربطها ومشاركتها بشكل مستقل.
@@ -31,7 +37,11 @@ Colvaron Conquest لعبة بطاقات تداول استراتيجية من ا�
 
 ![معرض بطاقات Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **العميل** Colvaron Conquest
+- **دورنا** ناشر اللعبة، كما طوّرنا موقعها الإلكتروني ونسخة اللعب عبر الإنترنت
+- **اللعبة من ابتكار** Coco JM
+- **المنصات** متصفح الويب، مع إمكانية التثبيت على الهواتف
+- **السعر** اللعب مجاني، مع مشتريات اختيارية داخل اللعبة
+- **رابط اللعب** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **رابط الموقع** <https://colvaronconquest.com>
 
 ## مشاريع أخرى
@@ -39,12 +49,12 @@ Colvaron Conquest لعبة بطاقات تداول استراتيجية من ا�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
-[![تطبيق Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### تطبيق Kantong Sayur](https://sawirstudio.com/ar/projects/kantong-sayur-application/)
-[![تطبيق PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### تطبيق Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
+[![تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### تطبيق PeopleBond HCMS](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
+### تطبيق DBTV](https://sawirstudio.com/ar/projects/dbtv-application/)
 
 يكفي حديثًا عن أنفسنا.
 

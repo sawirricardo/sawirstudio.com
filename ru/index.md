@@ -54,11 +54,11 @@ description: Sawir Studio создаёт ПО, которым пользуютс
 
 ## Избранные работы
 
-[![Сайт Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-Галерея карт, история мира и обучающие материалы для стратегической коллекционной карточной игры](https://sawirstudio.com/ru/projects/colvaron-conquest-website/)
+Стратегическая коллекционная карточная игра нашего издания: играйте бесплатно в браузере](https://sawirstudio.com/ru/projects/colvaron-conquest-website/)
 [![Сайт Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

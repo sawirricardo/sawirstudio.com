@@ -6,6 +6,7 @@ description: Laravel और PHP से वेब एप्लिकेशन ब
 
 # ब्लॉग
 
+- [2026-11-25 Sawir Studio अब Colvaron Conquest का पब्लिशर है](https://sawirstudio.com/hi/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopify की 2026-10 API: आपके इंटीग्रेशन में क्या टूटेगा](https://sawirstudio.com/hi/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Shopify Script Tags 1 मार्च 2027 से काम करना बंद कर देंगे। स्टोर मालिकों को क्या करना चाहिए](https://sawirstudio.com/hi/posts/shopify-script-tags-stop-march-2027/)
 - [2026-11-06 Shopify को Odoo 19 Community से जोड़ना, स्टेप बाय स्टेप](https://sawirstudio.com/hi/posts/connect-shopify-to-odoo-19-community/)

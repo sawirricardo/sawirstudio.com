@@ -1,20 +1,26 @@
 ---
-title: Colvaron Conquest वेबसाइट | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/hi/projects/colvaron-conquest-website/
-description: रणनीतिक ट्रेडिंग कार्ड गेम Colvaron Conquest की वेबसाइट, जिसे Sawir Studio ने डिज़ाइन किया और बनाया।
+description: Colvaron Conquest, Coco JM का बनाया एक स्ट्रैटेजी ट्रेडिंग कार्ड गेम है, जिसे Sawir Studio ने प्रकाशित किया है और जिसे ब्राउज़र में मुफ़्त खेला जा सकता है। इसकी वेबसाइट भी हमने ही डिज़ाइन की और बनाई है।
 ---
 
-# Colvaron Conquest वेबसाइट
+# Colvaron Conquest
 
 ![Colvaron Conquest का होम पेज](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## क्लाइंट
+## गेम
 
 Colvaron Conquest एक रणनीतिक ट्रेडिंग कार्ड गेम है, जिसे Coco JM ने बनाया है। इसकी दुनिया, जहाँ जादू और उन्नत तकनीक आपस में टकराते हैं, Coco के बचपन की कल्पना से शुरू हुई और 2025 में एक कार्ड गेम बन गई। इसे पाँच तत्वों और दो पासों वाले एक्शन सिस्टम के साथ खेला जाता है।
 
-## हमने क्या बनाया
+## Sawir Studio द्वारा प्रकाशित
 
-हमने गेम की वेबसाइट डिज़ाइन की और बनाई, जहाँ खिलाड़ी कार्ड देखते हैं, इसकी दुनिया को जानते हैं और खेलना सीखते हैं।
+अब Sawir Studio, Colvaron Conquest का पब्लिशर है। हम इस गेम को [colvaronconquest.com](https://colvaronconquest.com) पर चलाते और बेचते हैं, जहाँ कोई भी इसे [ब्राउज़र में मुफ़्त खेल सकता है](https://colvaronconquest.com/play/): AI के ख़िलाफ़, एक ही डिवाइस पर दो खिलाड़ी, या दूसरे खिलाड़ियों के साथ ऑनलाइन।
+
+ऑनलाइन गेम भी हमने ही बनाया है। इसे फ़ोन की होम स्क्रीन पर इंस्टॉल किया जा सकता है और वहाँ यह ऑफ़लाइन भी चलता है। कॉइन और 30 दिन का Octastar's Blessing वैकल्पिक ख़रीदारी हैं; गेम में बाकी सब कुछ मुफ़्त है।
+
+## वेबसाइट
+
+हमने गेम की वेबसाइट भी डिज़ाइन की और बनाई है, जहाँ खिलाड़ी कार्ड के बारे में जानते हैं, गेम की दुनिया से परिचित होते हैं और खेलना सीखते हैं।
 
 - **कार्ड गैलरी।** 200 से ज़्यादा कार्ड, जिन्हें खिलाड़ी तत्व, गुट और प्रकार के हिसाब से खोज, सॉर्ट और फ़िल्टर कर सकते हैं।
 - **हर कार्ड का अपना पेज,** ताकि हर कार्ड को अलग से ढूँढा, लिंक किया और शेयर किया जा सके।
@@ -31,7 +37,11 @@ Colvaron Conquest एक रणनीतिक ट्रेडिंग का�
 
 ![Colvaron Conquest की कार्ड गैलरी](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **क्लाइंट** Colvaron Conquest
+- **भूमिका** पब्लिशर; वेबसाइट और ऑनलाइन गेम भी हमने ही बनाए
+- **गेम के रचनाकार** Coco JM
+- **प्लेटफ़ॉर्म** वेब ब्राउज़र, फ़ोन पर इंस्टॉल करने की सुविधा
+- **कीमत** खेलना मुफ़्त, गेम के अंदर वैकल्पिक ख़रीदारी
+- **खेलें** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **वेबसाइट URL** <https://colvaronconquest.com>
 
 ## और प्रोजेक्ट
@@ -39,12 +49,12 @@ Colvaron Conquest एक रणनीतिक ट्रेडिंग का�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
-[![Kantong Sayur ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Kantong Sayur ऐप्लिकेशन](https://sawirstudio.com/hi/projects/kantong-sayur-application/)
-[![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
+[![DBTV ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
+### DBTV ऐप्लिकेशन](https://sawirstudio.com/hi/projects/dbtv-application/)
 
 हमारी बात बहुत हुई।
 

@@ -27,9 +27,9 @@ NoFapFit הופכת דחף לאימון. כשהפיתוי מופיע, לוחצי
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ### Shopify Connector for Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/)
-[![אתר Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-### אתר Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
+### Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 
 מספיק עלינו.
 

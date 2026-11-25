@@ -54,11 +54,11 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
 
 ## 主な実績
 
-[![Colvaron Conquest ウェブサイト](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
 ### Colvaron Conquest
 
-戦略型トレーディングカードゲームのカードギャラリー、世界観紹介、チュートリアルサイト](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
+当社が提供する、ブラウザで無料で遊べる戦略型トレーディングカードゲーム](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic

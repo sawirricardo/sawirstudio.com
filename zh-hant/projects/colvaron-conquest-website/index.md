@@ -1,20 +1,26 @@
 ---
-title: Colvaron Conquest 網站 | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/
-description: Colvaron Conquest 策略型集換式卡牌遊戲的官方網站，由 Sawir Studio 設計並打造。
+description: Colvaron Conquest 是 Coco JM 創作的策略集換式卡牌遊戲，由 Sawir Studio 發行，可在瀏覽器上免費遊玩。遊戲網站也是由我們設計並架設。
 ---
 
-# Colvaron Conquest 網站
+# Colvaron Conquest
 
 ![Colvaron Conquest 首頁](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## 客戶
+## 遊戲介紹
 
 Colvaron Conquest 是由 Coco JM 創作的策略型集換式卡牌遊戲。遊戲世界觀融合魔法與尖端科技，源自 Coco 童年時的想像，並在 2025 年化為卡牌遊戲，以五大元素與雙骰行動系統進行對戰。
 
-## 我們的作品
+## 由 Sawir Studio 發行
 
-我們設計並打造了這款遊戲的官方網站，讓玩家在這裡探索卡牌、認識世界觀，並學會如何遊玩。
+Sawir Studio 現在是 Colvaron Conquest 的發行商。我們在 [colvaronconquest.com](https://colvaronconquest.com) 營運並販售這款遊戲，任何人都能[在瀏覽器上免費遊玩](https://colvaronconquest.com/play/)：可以對戰 AI、兩人共用一台裝置對戰，或在線上與其他玩家對戰。
+
+線上版遊戲也是由我們開發。您可以將它安裝到手機主畫面，並在手機上離線遊玩。金幣和為期 30 天的 Octastar's Blessing 可自由選購，遊戲中的其他內容全部免費。
+
+## 網站
+
+我們也設計並架設了這款遊戲的網站，讓玩家認識卡牌、了解遊戲世界，並學習玩法。
 
 - **卡牌圖鑑。** 超過 200 張卡牌，玩家可依元素、陣營與類型搜尋、排序及篩選。
 - **每張卡牌都有專屬頁面，** 方便單獨查找、連結與分享。
@@ -31,7 +37,11 @@ Colvaron Conquest 是由 Coco JM 創作的策略型集換式卡牌遊戲。遊�
 
 ![Colvaron Conquest 卡牌圖鑑](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **客戶** Colvaron Conquest
+- **我們的角色** 發行商；網站和線上版遊戲也由我們製作
+- **遊戲創作者** Coco JM
+- **平台** 網頁瀏覽器，可安裝至手機
+- **價格** 免費遊玩，提供選購性遊戲內購買項目
+- **立即遊玩** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **網站網址** <https://colvaronconquest.com>
 
 ## 更多專案
@@ -39,12 +49,12 @@ Colvaron Conquest 是由 Coco JM 創作的策略型集換式卡牌遊戲。遊�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)
-[![Kantong Sayur 應用程式](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Kantong Sayur 應用程式](https://sawirstudio.com/zh-hant/projects/kantong-sayur-application/)
-[![PeopleBond HCMS 應用程式](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Koperasi HOB Application](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
+[![DBTV 應用程式](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS 應用程式](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)
+### DBTV 應用程式](https://sawirstudio.com/zh-hant/projects/dbtv-application/)
 
 關於我們就先說到這裡。
 

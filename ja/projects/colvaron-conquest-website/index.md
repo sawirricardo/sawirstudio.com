@@ -1,20 +1,26 @@
 ---
-title: Colvaron Conquest ウェブサイト | Sawir Studio
+title: Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/ja/projects/colvaron-conquest-website/
-description: 戦略型トレーディングカードゲーム Colvaron Conquest のウェブサイト。Sawir Studio がデザインと開発を担当しました。
+description: Colvaron Conquest は、Coco JM が制作した戦略トレーディングカードゲームです。Sawir Studio がパブリッシャーを務め、ブラウザで無料でプレイできます。ウェブサイトのデザインと制作も当社が担当しました。
 ---
 
-# Colvaron Conquest ウェブサイト
+# Colvaron Conquest
 
 ![Colvaron Conquest のホームページ](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## クライアントについて
+## ゲームについて
 
 Colvaron Conquest は、Coco JM が生み出した戦略型トレーディングカードゲームです。魔法と高度な科学技術がぶつかり合うその世界は、Coco の子どもの頃の空想から生まれ、2025 年に 5 つの属性と 2 つのダイスによるアクションシステムを備えたカードゲームになりました。
 
-## 制作したもの
+## Sawir Studio がパブリッシャーです
 
-私たちは、プレイヤーがカードを探し、世界観に触れ、遊び方を学べるゲーム公式ウェブサイトのデザインと開発を担当しました。
+現在、Sawir Studio は Colvaron Conquest のパブリッシャーを務めています。ゲームの運営と販売は [colvaronconquest.com](https://colvaronconquest.com) で行っており、どなたでも[ブラウザで無料でプレイできます](https://colvaronconquest.com/play/)。AI との対戦、1 台の端末での 2 人対戦、ほかのプレイヤーとのオンライン対戦に対応しています。
+
+オンライン版のゲームも当社が開発しました。スマートフォンのホーム画面に追加でき、追加後はオフラインでもプレイできます。コインと 30 日間有効の Octastar's Blessing は任意の購入アイテムで、ゲーム内のそのほかの要素はすべて無料です。
+
+## ウェブサイトについて
+
+ゲームの公式ウェブサイトも当社がデザイン・制作しました。プレイヤーはこのサイトで、カードを見たり、ゲームの世界観や遊び方を学んだりできます。
 
 - **カードギャラリー。** 200 枚以上のカードを、属性・勢力・タイプで検索、並べ替え、絞り込みできます。
 - **カードごとに専用ページを用意。** 1 枚ずつ見つけやすく、リンクや共有もできます。
@@ -31,7 +37,11 @@ Colvaron Conquest は、Coco JM が生み出した戦略型トレーディング
 
 ![Colvaron Conquest のカードギャラリー](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
-- **クライアント** Colvaron Conquest
+- **役割** パブリッシャー（ウェブサイトとオンライン版の制作も担当）
+- **ゲーム制作** Coco JM
+- **対応プラットフォーム** ウェブブラウザ（スマートフォンにインストール可能）
+- **料金** 基本プレイ無料（ゲーム内で任意の購入あり）
+- **プレイする** [colvaronconquest.com/play](https://colvaronconquest.com/play/)
 - **ウェブサイト URL** <https://colvaronconquest.com>
 
 ## その他の実績
@@ -39,12 +49,12 @@ Colvaron Conquest は、Coco JM が生み出した戦略型トレーディング
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
-[![Kantong Sayur アプリケーション](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
+[![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-### Kantong Sayur アプリケーション](https://sawirstudio.com/ja/projects/kantong-sayur-application/)
-[![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
+[![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-### PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+### DBTV アプリケーション](https://sawirstudio.com/ja/projects/dbtv-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

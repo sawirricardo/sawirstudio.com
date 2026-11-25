@@ -29,7 +29,7 @@ description: Sawir Studio ऐप, वेबसाइट और डिज़ा�
    हम वह सबसे सरल टूल चुनते हैं जो काम कर दे। यह साइट सादे HTML और CSS पर बनी है। जितने कम पुर्ज़े, उतना कम टूटने का डर और आगे उतना कम ख़र्च।
 4. ### जो बनाते हैं, उसे ख़ुद भी इस्तेमाल करते हैं।
 
-   [Par](https://sawirstudio.com/hi/projects/par/), [Rindraw](https://sawirstudio.com/hi/projects/rindraw/), [Squishu](https://sawirstudio.com/hi/projects/squishu/) और बाकी ऐप हमारे अपने प्रोडक्ट हैं। इनके लॉन्च, App Review और सपोर्ट हम ख़ुद संभालते हैं, इसलिए हम यह काम सिर्फ़ क्लाइंट प्रोजेक्ट से नहीं, अंदर से भी जानते हैं।
+   [Par](https://sawirstudio.com/hi/projects/par/), [Rindraw](https://sawirstudio.com/hi/projects/rindraw/), [Squishu](https://sawirstudio.com/hi/projects/squishu/) और बाकी हमारे अपने प्रोडक्ट्स हैं। इनके लॉन्च, App Review और सपोर्ट हम खुद संभालते हैं, इसलिए हम इस काम को सिर्फ़ क्लाइंट प्रोजेक्ट्स से नहीं, बल्कि अंदर से जानते हैं। हम [Colvaron Conquest](https://sawirstudio.com/hi/projects/colvaron-conquest-website/) भी पब्लिश करते हैं, जो Coco JM का एक ट्रेडिंग कार्ड गेम है।
 5. ### जो हो रहा है, साफ़ बताएँ।
 
    साफ़ प्राइवेसी पॉलिसी, इस बारे में ईमानदार जानकारी कि कोई ऐप कौन-सा डेटा भेजता है, और कोई डार्क पैटर्न नहीं। हमारे अपने ऐप में भी और क्लाइंट के काम में भी।

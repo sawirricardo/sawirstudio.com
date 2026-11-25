@@ -36,15 +36,15 @@ Odoo Community Association (OCA) הוא הארגון ללא מטרות רווח 
 
 ## עוד פרויקטים
 
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+
+### Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
 [![אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### אפליקציית Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
-[![אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### אפליקציית DBTV](https://sawirstudio.com/he/projects/dbtv-application/)
 
 מספיק עלינו.
 

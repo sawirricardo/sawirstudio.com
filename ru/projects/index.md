@@ -54,9 +54,9 @@ description: Приложения, сайты и дизайн от Sawir Studio:
 [![Shopify Connector for Odoo](https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp)
 
 ## Shopify Connector for Odoo](https://sawirstudio.com/ru/projects/odoo-shopify-connector/)
-[![Сайт Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
+[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
 
-## Сайт Colvaron Conquest](https://sawirstudio.com/ru/projects/colvaron-conquest-website/)
+## Colvaron Conquest](https://sawirstudio.com/ru/projects/colvaron-conquest-website/)
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)

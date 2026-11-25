@@ -29,7 +29,7 @@ description: Sawir Studio מוסרת אפליקציות, אתרים ועיצוב
    אנחנו בוחרים בכלי הפשוט ביותר שעושה את העבודה. האתר הזה בנוי מ-HTML ו-CSS פשוטים. פחות חלקים נעים אומרים פחות דברים שיכולים להישבר, ופחות לשלם עליהם בהמשך.
 4. ### אנחנו משתמשים במה שאנחנו בונים.
 
-   [Par](https://sawirstudio.com/he/projects/par/), [Rindraw](https://sawirstudio.com/he/projects/rindraw/), [Squishu](https://sawirstudio.com/he/projects/squishu/) ושאר המוצרים הם מוצרים שלנו. אנחנו מטפלים בעצמנו בהשקות, ב-App Review ובתמיכה, ולכן אנחנו מכירים את העבודה הזו מבפנים, ולא רק מפרויקטים של לקוחות.
+   [Par](https://sawirstudio.com/he/projects/par/), [Rindraw](https://sawirstudio.com/he/projects/rindraw/), [Squishu](https://sawirstudio.com/he/projects/squishu/) והשאר הם מוצרים שלנו. את ההשקות, את תהליך App Review ואת התמיכה אנחנו מנהלים בעצמנו, כך שאנחנו מכירים את העבודה הזו מבפנים, ולא רק מפרויקטים של לקוחות. אנחנו גם המוציאים לאור של [Colvaron Conquest](https://sawirstudio.com/he/projects/colvaron-conquest-website/), משחק קלפים אספניים מאת Coco JM.
 5. ### לומר מה קורה.
 
    מדיניות פרטיות ברורה, הסברים כנים על המידע שאפליקציה שולחת, וללא דפוסי עיצוב מניפולטיביים (dark patterns). גם באפליקציות שלנו וגם בעבודה עבור לקוחות.
