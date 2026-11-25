@@ -107,6 +107,7 @@
  "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">Download photo</a> · <a href=\"/ricardosawir/\">Full profile</a>": "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">写真をダウンロード</a> · <a href=\"/ricardosawir/\">詳しいプロフィール</a>",
  "<a href=\"/\">Home</a>": "<a href=\"/\">ホーム</a>",
  "<a href=\"/about-us/\">About us</a>": "<a href=\"/about-us/\">私たちについて</a>",
+ "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/press/\">Press</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">会社概要</a> <a href=\"/projects/\">制作実績</a> <a href=\"/contact/\">お問い合わせ</a> <a href=\"/press/\">プレス</a> <a href=\"/privacy/\">プライバシー</a> <a href=\"/terms/\">利用規約</a>",
  "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">会社概要</a> <a href=\"/projects/\">実績</a> <a href=\"/contact/\">お問い合わせ</a> <a href=\"/privacy/\">プライバシー</a> <a href=\"/terms/\">利用規約</a>",
  "<a href=\"/contact/\">Contact Us</a>": "<a href=\"/contact/\">お問い合わせ</a>",
  "<a href=\"/posts/\">Blog</a>": "<a href=\"/posts/\">ブログ</a>",

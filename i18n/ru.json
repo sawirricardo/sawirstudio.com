@@ -107,6 +107,7 @@
  "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">Download photo</a> · <a href=\"/ricardosawir/\">Full profile</a>": "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">Скачать фото</a> · <a href=\"/ricardosawir/\">Полный профиль</a>",
  "<a href=\"/\">Home</a>": "<a href=\"/\">Главная</a>",
  "<a href=\"/about-us/\">About us</a>": "<a href=\"/about-us/\">О студии</a>",
+ "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/press/\">Press</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">О нас</a> <a href=\"/projects/\">Проекты</a> <a href=\"/contact/\">Связаться с нами</a> <a href=\"/press/\">Для прессы</a> <a href=\"/privacy/\">Конфиденциальность</a> <a href=\"/terms/\">Условия</a>",
  "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">О студии</a> <a href=\"/projects/\">Проекты</a> <a href=\"/contact/\">Свяжитесь с нами</a> <a href=\"/privacy/\">Конфиденциальность</a> <a href=\"/terms/\">Условия</a>",
  "<a href=\"/contact/\">Contact Us</a>": "<a href=\"/contact/\">Свяжитесь с нами</a>",
  "<a href=\"/posts/\">Blog</a>": "<a href=\"/posts/\">Блог</a>",

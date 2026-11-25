@@ -107,6 +107,7 @@
  "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">Download photo</a> · <a href=\"/ricardosawir/\">Full profile</a>": "<a download=\"ricardo-sawir.webp\" href=\"/assets/images/ricardo-sawir.webp\">تنزيل الصورة</a> · <a href=\"/ricardosawir/\">الملف التعريفي الكامل</a>",
  "<a href=\"/\">Home</a>": "<a href=\"/\">الرئيسية</a>",
  "<a href=\"/about-us/\">About us</a>": "<a href=\"/about-us/\">من نحن</a>",
+ "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/press/\">Press</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">من نحن</a> <a href=\"/projects/\">مشاريعنا</a> <a href=\"/contact/\">تواصلوا معنا</a> <a href=\"/press/\">الصحافة</a> <a href=\"/privacy/\">الخصوصية</a> <a href=\"/terms/\">الشروط</a>",
  "<a href=\"/about-us/\">About</a> <a href=\"/projects/\">Projects</a> <a href=\"/contact/\">Contact Us</a> <a href=\"/privacy/\">Privacy</a> <a href=\"/terms/\">Terms</a>": "<a href=\"/about-us/\">من نحن</a> <a href=\"/projects/\">المشاريع</a> <a href=\"/contact/\">تواصلوا معنا</a> <a href=\"/privacy/\">الخصوصية</a> <a href=\"/terms/\">الشروط</a>",
  "<a href=\"/contact/\">Contact Us</a>": "<a href=\"/contact/\">تواصلوا معنا</a>",
  "<a href=\"/posts/\">Blog</a>": "<a href=\"/posts/\">المدونة</a>",
