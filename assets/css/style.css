@@ -2110,3 +2110,86 @@ label {
     transform: translateY(1rem);
   }
 }
+
+/* Press kit: facts note beside the boilerplate, logo tiles and color swatches. */
+.press-intro {
+  display: grid;
+  gap: 2.5rem;
+  align-items: start;
+}
+.press-facts {
+  max-width: 24rem;
+}
+@media (min-width: 768px) {
+  .press-intro {
+    grid-template-columns: minmax(16rem, 1fr) 2fr;
+  }
+}
+.press-assets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.press-assets li {
+  display: grid;
+  gap: 0.5rem;
+}
+/* Tiles keep fixed backgrounds so each logo shows on the color it's meant for, in either theme. */
+.press-preview {
+  display: grid;
+  place-items: center;
+  min-height: 9rem;
+  padding: 1.5rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: 4px 4px 0 var(--pop-shadow);
+}
+.press-preview-light {
+  background: #fffcf5;
+}
+.press-preview-dark {
+  background: #1a1916;
+}
+.press-preview img {
+  max-width: 100%;
+  height: auto;
+}
+.press-assets p {
+  font-weight: 700;
+}
+.press-links {
+  display: flex;
+  gap: 1rem;
+}
+.press-links a,
+.press-facts + .prose a {
+  text-decoration: underline wavy var(--coral);
+  text-underline-offset: 0.2em;
+}
+.press-usage {
+  max-width: 42rem;
+  margin-top: 1.5rem;
+}
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+.swatches li {
+  display: grid;
+  gap: 0.25rem;
+}
+.swatch {
+  display: block;
+  height: 4.5rem;
+  margin-bottom: 0.4rem;
+  border: 2px solid var(--ink);
+  border-radius: 0.75rem;
+}
+.swatches code {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--muted);
+}

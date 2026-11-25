@@ -42,6 +42,8 @@ Tools waar we graag naar grijpen: Laravel, Livewire, Go, Swift, Flutter, React, 
 
 Servers & data: Docker, Kubernetes, Terraform, Ansible, Redis en ClickHouse, op de host die bij je past: een gewone VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare of je eigen servers.
 
+Schrijf je over ons? Logo's, feiten en een bio van de oprichter vind je in onze [perskit](https://sawirstudio.com/nl/press/).
+
 Genoeg over ons.
 
 ## Waar kunnen we je mee helpen?

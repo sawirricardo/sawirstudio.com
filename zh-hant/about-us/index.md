@@ -42,6 +42,8 @@ description: SawirStudio 出手快，AI 協助作業，每個決定都由真人�
 
 伺服器與資料：Docker、Kubernetes、Terraform、Ansible、Redis 和 ClickHouse，可部署在最適合的主機上：一般 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或是您自己的伺服器。
 
+要撰寫關於我們的報導嗎？標誌、基本資料和創辦人簡介都收錄在我們的[媒體資料包](https://sawirstudio.com/zh-hant/press/)中。
+
 關於我們就先說到這裡。
 
 ## 有什麼我們 能幫上忙的嗎？

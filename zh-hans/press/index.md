@@ -1,0 +1,94 @@
+---
+title: 媒体资料包 | SawirStudio
+url: https://sawirstudio.com/zh-hans/press/
+description: SawirStudio 媒体资料包：包含标志、品牌颜色和字体、公司基本信息、简短的标准介绍，以及创始人简介和照片，可免费使用。
+---
+
+# 媒体资料包
+
+这里有我们的标志、基本信息和简短介绍，您在撰写有关 SawirStudio 的内容时可以免费使用。
+
+[下载全部资料（.zip）](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
+
+- **名称** SawirStudio，连写为一个词
+- **法定名称** Sawir Studio LLC
+- **成立时间** 2017 年 12 月成立，2025 年 1 月注册为公司
+- **创始人** [Ricardo Sawir](https://sawirstudio.com/zh-hans/ricardosawir/)
+- **业务范围** 应用、网站和设计，既为客户服务，也打造自有产品
+- **网站** [sawirstudio.com](https://sawirstudio.com/zh-hans/)
+- **媒体联系方式** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
+
+## 关于 SawirStudio
+
+### 一句话介绍
+
+SawirStudio 是一家软件工作室，开发应用、网站并提供设计，既为客户服务，也打造自有产品。
+
+### 一段话介绍
+
+SawirStudio 开发应用、网站并提供设计，既为客户服务，也打造自有产品。Ricardo Sawir 于 2017 年 12 月创办这家工作室，并于 2025 年 1 月将其注册为 Sawir Studio LLC。工作室每天都借助 AI 进行开发，每一行上线的代码都有专人阅读、测试并负责。凭借这种方式，工作室在不到四周的时间里在 App Store 上架了六款自有应用。自有作品包括绘画应用 Rindraw、金融计算器 Par、社交媒体排期发布工具 SawirPost、12 款免费的 WordPress 插件，以及一款适用于 Odoo 的开源 Shopify 连接器，该连接器在 Odoo Community Association 中维护。
+
+## 标志
+
+- ![SawirStudio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+
+  文字标志，用于浅色背景
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
+- ![深色背景上的 SawirStudio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+
+  文字标志，用于深色背景
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
+- ![SawirStudio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+
+  图标，用于浅色背景
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
+- ![深色背景上的 SawirStudio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+
+  图标，用于深色背景
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
+
+请保持黄色方框及其倾斜角度和配色原样不变，也不要拉伸或重新绘制标志。如果标志不适合您的版面，请直接用纯文字写出名称：SawirStudio。
+
+## 颜色与字体
+
+- **黄色** `#FFD84D`
+- **墨色** `#1F1D1A`
+- **纸色** `#FFFCF5`
+- **珊瑚色** `#FF7A59`
+- **蓝色** `#5B93FF`
+- **绿色** `#3FC283`
+
+标题和正文使用 [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) 字体，手写批注使用 [Caveat](https://fonts.google.com/specimen/Caveat) 字体。两款字体都可在 Google Fonts 上免费获取。
+
+## 创始人
+
+![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
+
+Ricardo Sawir 于 2017 年 12 月创立了 SawirStudio。Ricardo 曾在万隆理工学院（ITB）学习视觉传达设计，之后进入 Apple Developer Academy，从设计走向了编程。自 2019 年起，Ricardo 一直担任 PeopleBond 人力资源平台的首席开发者，同时也是 Vivaldy Skin Clinic 背后的公司 Viva Estemedika Indonesia 的 IT 主管。
+
+[下载照片](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [完整简介](https://sawirstudio.com/zh-hans/ricardosawir/)
+
+## 我们的产品
+
+每个产品页面都有产品说明、截图和链接。上方的下载包包含所有产品图标。
+
+- [Rindraw](https://sawirstudio.com/zh-hans/projects/rindraw/)
+- [Par](https://sawirstudio.com/zh-hans/projects/par/)
+- [CleanStorage](https://sawirstudio.com/zh-hans/projects/cleanstorage/)
+- [Math Daily](https://sawirstudio.com/zh-hans/projects/math-daily/)
+- [Squishu](https://sawirstudio.com/zh-hans/projects/squishu/)
+- [Pawlitics](https://sawirstudio.com/zh-hans/projects/pawlitics/)
+- [SawirPost](https://sawirstudio.com/zh-hans/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/zh-hans/projects/sawirly/)
+- [Quill Word Counter](https://sawirstudio.com/zh-hans/projects/quill-word-counter/)
+- [NoFapFit](https://sawirstudio.com/zh-hans/projects/nofapfit/)
+
+正在撰写关于我们的内容？
+
+## 这里没有 您需要的资料？
+
+[给 Ricardo 发邮件](mailto:ricardo@sawirstudio.com)

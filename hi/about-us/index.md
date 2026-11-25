@@ -42,6 +42,8 @@ description: SawirStudio ऐप, वेबसाइट और डिज़ाइ
 
 सर्वर और डेटा: Docker, Kubernetes, Terraform, Ansible, Redis और ClickHouse, जो भी होस्ट आपके लिए सही बैठे: सादा VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare या आपके अपने सर्वर।
 
+हमारे बारे में लिख रहे हैं? लोगो, तथ्य और फ़ाउंडर का परिचय हमारी [प्रेस किट](https://sawirstudio.com/hi/press/) में हैं।
+
 हमारी बात बहुत हुई।
 
 ## हम आपकी कैसे मदद करें?

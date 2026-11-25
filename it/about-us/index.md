@@ -42,6 +42,8 @@ Gli strumenti a cui ricorriamo di solito: Laravel, Livewire, Go, Swift, Flutter,
 
 Server e dati: Docker, Kubernetes, Terraform, Ansible, Redis e ClickHouse, sull'host più adatto alle vostre esigenze: un semplice VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare o i vostri server.
 
+Scrivete di noi? Loghi, dati e una biografia del fondatore sono nel nostro [press kit](https://sawirstudio.com/it/press/).
+
 Basta parlare di noi.
 
 ## Come possiamo aiutarvi?

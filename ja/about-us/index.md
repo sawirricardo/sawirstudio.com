@@ -42,6 +42,8 @@ SawirStudioは、使う人にとってきちんと長く使えるアプリ、ウ
 
 サーバーとデータ：Docker、Kubernetes、Terraform、Ansible、Redis、ClickHouse に対応しています。ホスティング先は、一般的な VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare、お客様ご自身のサーバーなど、状況に合わせて最適なものをお選びいただけます。
 
+当社を記事で取り上げる方へ：ロゴ、基本情報、創業者の略歴は[プレスキット](https://sawirstudio.com/ja/press/)にまとめています。
+
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 
 ## どのような ご相談でしょうか？

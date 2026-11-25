@@ -42,6 +42,8 @@ description: SawirStudio 快速交付应用、网站和设计，AI 参与其中�
 
 服务器与数据：Docker、Kubernetes、Terraform、Ansible、Redis 和 ClickHouse，可部署在任何合适的主机上：普通 VPS、Hetzner、DigitalOcean、AWS、Google Cloud、Azure、Cloudflare，或者您自己的服务器。
 
+想写一写我们？Logo、基本资料和创始人简介都在我们的[媒体资料包](https://sawirstudio.com/zh-hans/press/)里。
+
 我们先聊到这里。
 
 ## 我们能为您 做些什么？

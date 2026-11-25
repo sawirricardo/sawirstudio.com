@@ -42,6 +42,8 @@ Tools we reach for: Laravel, Livewire, Go, Swift, Flutter, React, Vue, Tailwind,
 
 Servers & data: Docker, Kubernetes, Terraform, Ansible, Redis and ClickHouse, on whichever host fits: a plain VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare or your own servers.
 
+Writing about us? Logos, facts and a founder bio are in our [press kit](https://sawirstudio.com/press/).
+
 Enough about us.
 
 ## How can we help you?

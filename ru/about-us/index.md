@@ -42,6 +42,8 @@ description: SawirStudio быстро выпускает приложения, �
 
 Серверы и данные: Docker, Kubernetes, Terraform, Ansible, Redis и ClickHouse на любом подходящем хостинге: обычный VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare или ваши собственные серверы.
 
+Пишете о нас? Логотипы, факты и биография основателя собраны в нашем [пресс-ките](https://sawirstudio.com/ru/press/).
+
 Хватит о нас.
 
 ## Чем мы можем Вам помочь?

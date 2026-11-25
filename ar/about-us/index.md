@@ -42,6 +42,8 @@ description: يبني SawirStudio التطبيقات والمواقع والتص
 
 الخوادم والبيانات: Docker وKubernetes وTerraform وAnsible وRedis وClickHouse، على أي استضافة تناسبكم: خادم VPS عادي، أو Hetzner أو DigitalOcean أو AWS أو Google Cloud أو Azure أو Cloudflare، أو على خوادمكم الخاصة.
 
+هل تكتبون عنّا؟ تجدون الشعارات والمعلومات الأساسية ونبذة عن المؤسس في [الملف الصحفي](https://sawirstudio.com/ar/press/).
+
 يكفي حديثًا عن أنفسنا.
 
 ## كيف يمكننا مساعدتكم؟

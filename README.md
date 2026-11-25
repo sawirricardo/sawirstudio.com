@@ -6,6 +6,7 @@ Plain static site: HTML, CSS and a little JavaScript. No build step, no dependen
 index.html                 Home
 about-us/index.html        About
 contact/index.html         Contact (inquiry form)
+press/index.html           Press kit (logos in assets/press/, rebuilt with scripts/press_kit.py)
 projects/index.html        Project list (search + category filter)
 projects/<slug>/index.html Project pages
 posts/index.html           Blog list

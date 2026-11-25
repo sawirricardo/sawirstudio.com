@@ -1,0 +1,94 @@
+---
+title: Press kit | SawirStudio
+url: https://sawirstudio.com/it/press/
+description: Il press kit di SawirStudio: loghi, colori e font del brand, dati sull’azienda, una breve presentazione standard, oltre alla biografia e alla foto del fondatore, da usare liberamente.
+---
+
+# Press kit
+
+I nostri loghi, i dati principali e una breve presentazione, da usare liberamente quando scrivete di SawirStudio.
+
+[Scaricate tutto (.zip)](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
+
+- **Nome** SawirStudio, tutto attaccato
+- **Ragione sociale** Sawir Studio LLC
+- **Fondazione** Dicembre 2017, costituita in società a gennaio 2025
+- **Fondatore** [Ricardo Sawir](https://sawirstudio.com/it/ricardosawir/)
+- **Cosa facciamo** App, siti web e progetti di design, per i clienti e come prodotti nostri
+- **Sito web** [sawirstudio.com](https://sawirstudio.com/it/)
+- **Contatto per la stampa** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
+
+## Chi è SawirStudio
+
+### In una riga
+
+SawirStudio è uno studio di software che realizza app, siti web e progetti di design, per i clienti e come prodotti propri.
+
+### In un paragrafo
+
+SawirStudio realizza app, siti web e progetti di design, per i clienti e come prodotti propri. Ricardo Sawir ha avviato lo studio a dicembre 2017 e lo ha costituito in società come Sawir Studio LLC a gennaio 2025. Lo studio sviluppa ogni giorno con l’AI, e c’è sempre una persona che legge, testa e si assume la responsabilità di ogni riga pubblicata. È così che ha portato sei app proprie sull’App Store in meno di quattro settimane. Tra i suoi progetti ci sono l’app di disegno Rindraw, la calcolatrice finanziaria Par, SawirPost per programmare i contenuti sui social media, 12 plugin WordPress gratuiti e un connettore Shopify open source per Odoo, mantenuto all’interno della Odoo Community Association.
+
+## Loghi
+
+- ![Logotipo SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+
+  Logotipo, per sfondi chiari
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
+- ![Logotipo SawirStudio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+
+  Logotipo, per sfondi scuri
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
+- ![Icona SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+
+  Icona, per sfondi chiari
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
+- ![Icona SawirStudio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+
+  Icona, per sfondi scuri
+
+  [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
+
+Vi chiediamo di lasciare invariati il riquadro giallo, la sua inclinazione e i colori, e di non deformare né ridisegnare il logo. Se non si adatta al vostro layout, scrivete invece il nome come semplice testo: SawirStudio.
+
+## Colori e caratteri
+
+- **Giallo** `#FFD84D`
+- **Inchiostro** `#1F1D1A`
+- **Carta** `#FFFCF5`
+- **Corallo** `#FF7A59`
+- **Blu** `#5B93FF`
+- **Verde** `#3FC283`
+
+Per titoli e testi usiamo [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque), e per le note scritte a mano [Caveat](https://fonts.google.com/specimen/Caveat). Entrambi sono disponibili gratuitamente su Google Fonts.
+
+## Fondatore
+
+![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
+
+Ricardo Sawir ha fondato SawirStudio nel dicembre 2017. Ha studiato design della comunicazione visiva all’Institut Teknologi Bandung (ITB), ha poi frequentato la Apple Developer Academy ed è arrivato al codice partendo dal design. Dal 2019 è lead developer della piattaforma HR di PeopleBond ed è Head of IT di Viva Estemedika Indonesia, l’azienda a cui fa capo Vivaldy Skin Clinic.
+
+[Scaricate la foto](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [Profilo completo](https://sawirstudio.com/it/ricardosawir/)
+
+## I nostri prodotti
+
+Ogni pagina contiene la descrizione del prodotto, le schermate e i link. Il download qui sopra include tutte le icone.
+
+- [Rindraw](https://sawirstudio.com/it/projects/rindraw/)
+- [Par](https://sawirstudio.com/it/projects/par/)
+- [CleanStorage](https://sawirstudio.com/it/projects/cleanstorage/)
+- [Math Daily](https://sawirstudio.com/it/projects/math-daily/)
+- [Squishu](https://sawirstudio.com/it/projects/squishu/)
+- [Pawlitics](https://sawirstudio.com/it/projects/pawlitics/)
+- [SawirPost](https://sawirstudio.com/it/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/it/projects/sawirly/)
+- [Quill Word Counter](https://sawirstudio.com/it/projects/quill-word-counter/)
+- [NoFapFit](https://sawirstudio.com/it/projects/nofapfit/)
+
+State scrivendo di noi?
+
+## Vi serve qualcosa che qui non c’è?
+
+[Scrivete a Ricardo](mailto:ricardo@sawirstudio.com)

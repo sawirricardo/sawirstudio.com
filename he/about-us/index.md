@@ -42,6 +42,8 @@ description: SawirStudio מוסרת אפליקציות, אתרים ועיצוב�
 
 שרתים ונתונים: Docker, Kubernetes, Terraform, Ansible, Redis ו-ClickHouse, על כל אחסון שמתאים: VPS רגיל, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare או השרתים שלכם.
 
+כותבים עלינו? לוגואים, עובדות וביוגרפיה של המייסד נמצאים ב[ערכת העיתונות](https://sawirstudio.com/he/press/) שלנו.
+
 מספיק עלינו.
 
 ## איך נוכל לעזור לכם?

@@ -42,6 +42,8 @@ Les outils que nous utilisons volontiers : Laravel, Livewire, Go, Swift, Flutte
 
 Serveurs et données : Docker, Kubernetes, Terraform, Ansible, Redis et ClickHouse, sur l’hébergement qui vous convient : un simple VPS, Hetzner, DigitalOcean, AWS, Google Cloud, Azure, Cloudflare ou vos propres serveurs.
 
+Vous écrivez à notre sujet ? Logos, informations clés et biographie du fondateur sont disponibles dans notre [dossier de presse](https://sawirstudio.com/fr/press/).
+
 Assez parlé de nous.
 
 ## Comment pouvons-nous vous aider ?
