@@ -31,6 +31,11 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
   Web apps, SaaS, admin panels and the glue between systems: Odoo, Shopify, WordPress, payments and shipping.
 
   Like [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/) and our [Shopify connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/). See [custom software](https://sawirstudio.com/custom/)
+- ### Forward deployed engineers
+
+  An engineer inside your team for as long as the job takes, putting AI to work in your systems and connecting what you already run.
+
+  See [how it works](https://sawirstudio.com/forward-deployed-engineering/)
 - ### Design
 
   Brands, interfaces and the websites around them, drawn by people who also build what they draw.

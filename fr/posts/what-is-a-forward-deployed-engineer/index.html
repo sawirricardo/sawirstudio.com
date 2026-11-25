@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>Qu’est-ce qu’un Forward Deployed Engineer ? | Sawir Studio</title>
+<meta content="Les Forward Deployed Engineers travaillent au sein de l’équipe du client et mettent des logiciels en production dans ses systèmes. Pourquoi ce métier est soudain partout, et quand une petite entreprise a intérêt à en emprunter un plutôt qu’à recruter." name="description"/>
+<meta content="Qu’est-ce qu’un Forward Deployed Engineer ? | Sawir Studio" property="og:title"/>
+<meta content="Les Forward Deployed Engineers travaillent au sein de l’équipe du client et mettent des logiciels en production dans ses systèmes. Pourquoi ce métier est soudain partout, et quand une petite entreprise a intérêt à en emprunter un plutôt qu’à recruter." property="og:description"/>
+<meta content="https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/" property="og:url"/>
+<link href="https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Qu’est-ce qu’un Forward Deployed Engineer, et quand en emprunter un ?",
+          "description": "Les Forward Deployed Engineers travaillent au sein de l’équipe du client et mettent des logiciels en production dans ses systèmes. Pourquoi ce métier est soudain partout, et quand une petite entreprise a intérêt à en emprunter un plutôt qu’à recruter.",
+          "url": "https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/",
+          "datePublished": "2026-11-25",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Accueil",
+              "item": "https://sawirstudio.com/fr/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://sawirstudio.com/fr/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Qu’est-ce qu’un Forward Deployed Engineer, et quand en emprunter un ?",
+              "item": "https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header class="site-header">
+<a class="logo" href="/fr/" title="Accueil">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/fr/">Accueil</a></li>
+<li><a aria-current="true" href="/fr/posts/">Blog</a></li>
+<li><a href="/fr/projects/">Projets</a></li>
+<li><a href="/fr/about-us/">À propos de nous</a></li>
+<li><a href="/fr/contact/">Nous contacter</a></li>
+</ul>
+</nav>
+<button aria-label="Activer/désactiver le mode sombre" class="theme-toggle" title="Activer/désactiver le mode sombre" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="Fil d'Ariane" class="breadcrumbs is-center">
+<ol>
+<li><a href="/fr/">Accueil</a></li>
+<li><a href="/fr/posts/">Blog</a></li>
+<li><a aria-current="page" href="/fr/posts/what-is-a-forward-deployed-engineer/">Qu’est-ce qu’un Forward Deployed Engineer, et quand en emprunter un ?</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">Qu’est-ce qu’un Forward Deployed Engineer, et quand en emprunter un ?</h1>
+<div class="prose prose-xl">
+<p>Un Forward Deployed Engineer, ou ingénieur déployé chez le client, est un ingénieur logiciel qui travaille au sein de l’équipe du client, et non depuis les bureaux de son propre employeur. Il s’installe là où se trouve le problème, apprend comment le travail se déroule réellement chez le client et y met des logiciels en production. En 2026, c’est devenu l’un des métiers dont on parle le plus dans la tech.</p>
+<h2>D’où vient ce titre</h2>
+<p>C’est Palantir qui a fait connaître ce métier. <a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">Dès 2009</a>, l’entreprise envoyait des ingénieurs « forward deployed » (« déployés à l’avant », une expression empruntée au vocabulaire militaire) travailler sur place, chez ses clients. L’idée était simple : le plus difficile avec un logiciel d’entreprise, ce n’est pas le produit lui-même, c’est de l’adapter aux données désordonnées, aux systèmes et aux habitudes d’une organisation précise. On envoie donc des ingénieurs capables d’écrire du code directement sur le terrain.</p>
+<h2>Pourquoi on le voit partout aujourd’hui</h2>
+<p>L’IA a rendu très visible l’écart entre acheter un logiciel et en tirer de la valeur. Une entreprise peut obtenir une licence pour un modèle en un après-midi, mais le raccorder à ses données, à ses droits d’accès et à son travail quotidien demande de l’ingénierie. Les entreprises qui vendent de l’IA se sont donc mises à recruter des personnes pour faire exactement cela :</p>
+<ul>
+<li><strong>OpenAI</strong> a lancé l’OpenAI Deployment Company le 11 mai 2026, une structure organisée autour d’ingénieurs intégrés aux équipes de ses clients (<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>).</li>
+<li><strong>AWS</strong> a investi 1 milliard de dollars dans une nouvelle unité chargée d’intégrer des ingénieurs chez ses clients, et <strong>Microsoft</strong> a consacré 2,5 milliards de dollars et 6 000 personnes à une unité de mise en œuvre de l’IA. CNBC a rapporté ces deux annonces mi-2026 (<a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">résumé sur Wikipédia</a>).</li>
+<li>Les offres d’emploi ont suivi. Selon Indeed et le Financial Times, le nombre d’annonces publiées chaque mois pour ce poste a augmenté de plus de 800 % entre janvier et septembre 2025 (<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>).</li>
+</ul>
+<h2>La différence avec un consultant</h2>
+<p>Un consultant vous dit quoi changer. Un Forward Deployed Engineer fait le changement : il a accès à vos systèmes et il livre du code. Au sens strict, le titre est réservé aux ingénieurs des éditeurs de produits, et ce qu’ils apprennent chez le client oriente ce que leur entreprise développe ensuite. Sans ce retour vers le produit, disent certains, c’est du conseil avec un titre plus flatteur.</p>
+<p>Pour une entreprise qui cherche de l’aide, l’étiquette compte toutefois moins que la forme de la mission : un ingénieur qui rejoint votre équipe pendant un temps, apprend à connaître vos systèmes et vous laisse un logiciel qui fonctionne.</p>
+<h2>Faut-il en recruter un ?</h2>
+<p>Probablement pas, si vous dirigez une petite ou moyenne entreprise. Les grands acteurs de l’IA se disputent ces profils, et les postes seniors sont proposés à des niveaux de rémunération que la plupart des entreprises ne peuvent pas suivre. Beaucoup n’en ont besoin que pour quelques mois : le temps de faire fonctionner ensemble l’IA et leurs systèmes, pas indéfiniment.</p>
+<p>C’est là qu’il devient logique d’en emprunter un. Vous faites venir un ingénieur qui travaille au sein de votre équipe, dans votre messagerie et vos dépôts de code, aussi longtemps que la mission l’exige. Cela vaut la peine lorsque :</p>
+<ul>
+<li>vous avez acheté des outils d’IA et rien n’a changé dans la façon de travailler,</li>
+<li>le problème touche plusieurs systèmes, par exemple un ERP, une boutique, des paiements et une pile de feuilles de calcul,</li>
+<li>et personne en interne n’a le temps de le prendre en charge.</li>
+</ul>
+<p>Ce n’est pas le cas si vous savez déjà exactement ce qu’il faut développer. Un projet au périmètre défini coûte alors moins cher. Et si vous avez besoin de ce rôle de façon permanente, recrutez.</p>
+<h2>Ce que nous faisons</h2>
+<p>C’est ainsi que nous travaillons avec nos clients depuis des années. Depuis 2019, notre fondateur est le développeur principal de la plateforme RH de <a href="/fr/projects/peoplebond-hcms-application/">PeopleBond</a> et travaille avec son équipe. Nous proposons désormais ce service à part entière : l’<a href="/fr/forward-deployed-engineering/">ingénierie déployée chez le client</a>, pour mettre l’IA au travail dans vos systèmes et connecter les outils que vous utilisez déjà. Si c’est ce qui vous manque, <a href="/fr/contact/">dites-nous ce qui bloque</a>.</p>
+<p><strong>À lire aussi :</strong> <a href="/fr/posts/making-our-sites-agent-ready/">comment nous avons préparé nos propres sites aux agents IA</a>, ou notre page sur les <a href="/fr/custom/">logiciels sur mesure</a> si vous savez déjà ce qu’il vous faut.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>Cet article vous a appris quelque chose ?</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>J'aimerais avoir votre adresse e-mail pour vous envoyer d'autres articles comme celui-ci à chaque nouvelle publication.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="Adresse e-mail" class="formkit-input" name="email_address" placeholder="Adresse e-mail" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>S'abonner</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">Je n'enverrai pas de spam. Vous pouvez vous désabonner à tout moment.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Propulsé par ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/fr/about-us/">À propos</a> <a href="/fr/projects/">Projets</a> <a href="/fr/contact/">Contactez-nous</a> <a href="/fr/press/">Presse</a> <a href="/fr/privacy/">Confidentialité</a> <a href="/fr/terms/">Conditions d’utilisation</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/what-is-a-forward-deployed-engineer/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/what-is-a-forward-deployed-engineer/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/what-is-a-forward-deployed-engineer/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/what-is-a-forward-deployed-engineer/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/what-is-a-forward-deployed-engineer/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/what-is-a-forward-deployed-engineer/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+        <li><a href="/hi/posts/what-is-a-forward-deployed-engineer/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/what-is-a-forward-deployed-engineer/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/what-is-a-forward-deployed-engineer/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/posts/what-is-a-forward-deployed-engineer/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

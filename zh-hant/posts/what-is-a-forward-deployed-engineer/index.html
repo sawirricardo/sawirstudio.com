@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>什麼是前進部署工程師？| Sawir Studio</title>
+<meta content="前進部署工程師進駐客戶團隊，把軟體導入客戶的系統。了解這個職務為何突然隨處可見，以及規模較小的公司什麼時候該借調一位，而不是直接聘用。" name="description"/>
+<meta content="什麼是前進部署工程師？| Sawir Studio" property="og:title"/>
+<meta content="前進部署工程師進駐客戶團隊，把軟體導入客戶的系統。了解這個職務為何突然隨處可見，以及規模較小的公司什麼時候該借調一位，而不是直接聘用。" property="og:description"/>
+<meta content="https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/" property="og:url"/>
+<link href="https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "什麼是前進部署工程師？什麼時候該借調一位？",
+          "description": "前進部署工程師進駐客戶團隊，把軟體導入客戶的系統。了解這個職務為何突然隨處可見，以及規模較小的公司什麼時候該借調一位，而不是直接聘用。",
+          "url": "https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/",
+          "datePublished": "2026-11-25",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "什麼是前進部署工程師？什麼時候該借調一位？",
+              "item": "https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header">
+<a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a href="/zh-hant/about-us/">關於我們</a></li>
+<li><a href="/zh-hant/contact/">聯絡我們</a></li>
+</ul>
+</nav>
+<button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/what-is-a-forward-deployed-engineer/">什麼是前進部署工程師？什麼時候該借調一位？</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">什麼是前進部署工程師？什麼時候該借調一位？</h1>
+<div class="prose prose-xl">
+<p>前進部署工程師（forward deployed engineer）是進駐客戶團隊工作的軟體工程師，而不是待在自家公司辦公室。他們就在問題發生的地方，了解客戶的工作實際上如何運作，再把軟體導入其中。到了 2026 年，這已成為科技業討論度最高的職務之一。</p>
+<h2>這個職稱的由來</h2>
+<p>讓這個職稱出名的是 Palantir。<a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">到了 2009 年</a>，該公司已經派遣「前線部署」（forward deployed）工程師到客戶現場工作，這個說法借自軍事用語。背後的想法很簡單：企業軟體最難的部分不在產品本身，而在於讓它配合某個組織雜亂的資料、系統和工作習慣。所以要派出能當場寫程式的工程師。</p>
+<h2>為什麼現在到處都看得到</h2>
+<p>AI 讓「買到軟體」和「從中獲得價值」之間的落差變得非常明顯。公司一個下午就能取得模型授權，但要把它串接到自家的資料、權限和日常工作中，仍需要工程能力。於是，銷售 AI 的公司開始招募專門做這件事的人：</p>
+<ul>
+<li><strong>OpenAI</strong> 於 2026 年 5 月 11 日成立 OpenAI Deployment Company，以進駐客戶端的工程師為核心來組織運作（<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>）。</li>
+<li><strong>AWS</strong> 投入 10 億美元成立新部門，讓工程師進駐客戶端；<strong>Microsoft</strong> 則對一個 AI 導入部門投入 25 億美元和 6,000 名人力。兩則消息皆由 CNBC 於 2026 年年中報導（<a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">Wikipedia 的整理</a>）。</li>
+<li>徵才職缺也隨之增加。Indeed 和《金融時報》發現，2025 年 1 月到 9 月間，這個職務的每月職缺數成長超過 800%（<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>）。</li>
+</ul>
+<h2>和顧問有什麼不同</h2>
+<p>顧問告訴您該改什麼，前進部署工程師則是直接動手改：他們有您系統的存取權限，也會實際交付程式碼。嚴格來說，這個職稱屬於產品公司的工程師，他們在客戶端學到的經驗，會影響自家公司接下來開發什麼。有些人認為，少了這個回饋循環，就只是換了個好聽職稱的顧問服務。</p>
+<p>不過，對花錢尋求協助的公司來說，名稱並沒有合作方式來得重要：一位工程師進駐您的團隊一段時間，熟悉您的系統，離開時留下可以正常運作的軟體。</p>
+<h2>您該聘一位嗎？</h2>
+<p>如果您是中小型企業，大概不需要。大型 AI 公司正在爭搶這類人才，資深職缺開出的薪資是多數企業負擔不起的。許多公司也只需要這樣的人幾個月：時間長到足以讓 AI 和自家系統順利協作就好，不必一直留任。</p>
+<p>這時候，借調一位就很合理。請一位工程師進入您的團隊，加入您的聊天群組和程式碼儲存庫，工作需要多久就待多久。以下情況值得這麼做：</p>
+<ul>
+<li>您買了 AI 工具，做事的方式卻毫無改變；</li>
+<li>問題橫跨多個系統，例如 ERP、商店、金流，再加上一大堆試算表；</li>
+<li>而且公司內部沒有人有時間負責處理。</li>
+</ul>
+<p>如果您已經很清楚要打造什麼，就不值得這麼做，固定範圍的專案會比較省錢。如果您長期都需要這個職務，那就直接聘人。</p>
+<h2>我們的服務</h2>
+<p>多年來，我們一直是這樣和客戶合作。我們的創辦人自 2019 年起擔任 <a href="/zh-hant/projects/peoplebond-hcms-application/">PeopleBond</a> 人資平台的主要開發者，與他們的團隊一起工作。現在，我們把它列為獨立的服務：<a href="/zh-hant/forward-deployed-engineering/">前進部署工程服務</a>，讓 AI 在您的系統中發揮作用，並串接您現有的工具。如果這聽起來正是您缺少的，請<a href="/zh-hant/contact/">告訴我們卡在哪裡</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/making-our-sites-agent-ready/">我們如何讓自家網站做好迎接 AI 代理的準備</a>；如果您已經知道自己需要什麼，請參考<a href="/zh-hant/custom/">客製化軟體</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">作品案例</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/press/">媒體專區</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/what-is-a-forward-deployed-engineer/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+        <li><a href="/ja/posts/what-is-a-forward-deployed-engineer/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/what-is-a-forward-deployed-engineer/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/what-is-a-forward-deployed-engineer/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/what-is-a-forward-deployed-engineer/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/what-is-a-forward-deployed-engineer/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/what-is-a-forward-deployed-engineer/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/what-is-a-forward-deployed-engineer/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/what-is-a-forward-deployed-engineer/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/posts/what-is-a-forward-deployed-engineer/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

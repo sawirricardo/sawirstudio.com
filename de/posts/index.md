@@ -6,6 +6,7 @@ description: Artikel von Sawir Studio über die Entwicklung von Webanwendungen m
 
 # Blog
 
+- [2026-11-25 Was ist ein Forward Deployed Engineer, und wann sollten Sie sich einen ausleihen?](https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio ist jetzt Publisher von Colvaron Conquest](https://sawirstudio.com/de/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopifys 2026-10-API: Was in Ihren Integrationen kaputtgehen kann](https://sawirstudio.com/de/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Shopify Script Tags funktionieren ab dem 1. März 2027 nicht mehr. Was Shop-Betreiber jetzt tun sollten](https://sawirstudio.com/de/posts/shopify-script-tags-stop-march-2027/)

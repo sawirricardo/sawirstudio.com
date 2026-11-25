@@ -31,6 +31,11 @@ description: Sawir Studio создаёт ПО, которым пользуютс
   Веб-приложения, SaaS, панели администратора и связки между системами: Odoo, Shopify, WordPress, платежи и доставка.
 
   Например, [PeopleBond](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/) и наш [коннектор Shopify для Odoo](https://sawirstudio.com/ru/projects/odoo-shopify-connector/). Подробнее: [индивидуальная разработка](https://sawirstudio.com/ru/custom/)
+- ### Инженеры внутри вашей команды
+
+  Инженер работает внутри вашей команды столько, сколько требует задача: внедряет ИИ в ваши системы и связывает между собой то, чем вы уже пользуетесь.
+
+  Узнайте, [как это работает](https://sawirstudio.com/ru/forward-deployed-engineering/)
 - ### Дизайн
 
   Бренды, интерфейсы и сайты вокруг них. Рисуют те, кто сам же и воплощает нарисованное.

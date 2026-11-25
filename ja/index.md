@@ -31,6 +31,11 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
   ウェブアプリ、SaaS、管理画面、そしてシステム同士をつなぐ連携部分。Odoo、Shopify、WordPress、決済、配送に対応します。
 
   [PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/) や、[Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)など。[カスタムソフトウェア](https://sawirstudio.com/ja/custom/)はこちら
+- ### フォワード・デプロイド・エンジニア
+
+  必要な期間、エンジニアがお客様のチームに加わり、お使いのシステムに AI を取り入れて活用し、すでに運用中の仕組み同士をつなぎます。
+
+  [サービスの仕組み](https://sawirstudio.com/ja/forward-deployed-engineering/)をご覧ください
 - ### デザイン
 
   ブランド、インターフェース、そのまわりのウェブサイトまで。実際に作る人間がデザインします。

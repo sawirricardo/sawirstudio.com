@@ -31,6 +31,11 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
   אפליקציות ווב, SaaS, לוחות ניהול והחיבור בין מערכות: Odoo, Shopify, WordPress, תשלומים ומשלוחים.
 
   כמו [PeopleBond](https://sawirstudio.com/he/projects/peoplebond-hcms-application/) ו[מחבר Shopify ל-Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/) שלנו. ראו [פיתוח תוכנה בהתאמה אישית](https://sawirstudio.com/he/custom/)
+- ### מהנדסי פריסה בשטח (FDE)
+
+  מהנדס או מהנדסת שמשתלבים בצוות שלכם למשך כל הזמן שהמשימה דורשת, מטמיעים AI במערכות שלכם ומחברים בין הכלים שכבר פועלים אצלכם.
+
+  ראו [איך זה עובד](https://sawirstudio.com/he/forward-deployed-engineering/)
 - ### עיצוב
 
   מותגים, ממשקים והאתרים שמסביבם, מעוצבים על ידי אנשים שגם בונים את מה שהם מעצבים.

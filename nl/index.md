@@ -31,6 +31,11 @@ AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven â
   Webapps, SaaS, beheerpanelen en de koppelingen tussen systemen: Odoo, Shopify, WordPress, betalingen en verzending.
 
   Zoals [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) en onze [Shopify-connector voor Odoo](https://sawirstudio.com/nl/projects/odoo-shopify-connector/). Bekijk [maatwerksoftware](https://sawirstudio.com/nl/custom/)
+- ### Forward deployed engineers
+
+  Een engineer in je team, zolang de klus duurt, die AI voor je aan het werk zet in je systemen en koppelt wat je al gebruikt.
+
+  Bekijk [hoe het werkt](https://sawirstudio.com/nl/forward-deployed-engineering/)
 - ### Design
 
   Merken, interfaces en de websites eromheen, getekend door mensen die ook bouwen wat ze tekenen.

@@ -31,6 +31,11 @@ AI साथ में, पर हर फ़ैसला इंसान का�
   वेब ऐप, SaaS, एडमिन पैनल और सिस्टम्स को जोड़ने वाला काम: Odoo, Shopify, WordPress, पेमेंट और शिपिंग।
 
   जैसे [PeopleBond](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/) और Odoo के लिए हमारा [Shopify कनेक्टर](https://sawirstudio.com/hi/projects/odoo-shopify-connector/)। देखें [कस्टम सॉफ़्टवेयर](https://sawirstudio.com/hi/custom/)
+- ### फ़ॉरवर्ड डिप्लॉइड इंजीनियर्स
+
+  जब तक काम पूरा न हो, एक इंजीनियर आपकी टीम का हिस्सा बनकर रहता है, आपके सिस्टम्स में AI को काम पर लगाता है और आपके मौजूदा सिस्टम्स को आपस में जोड़ता है।
+
+  देखें कि [यह कैसे काम करता है](https://sawirstudio.com/hi/forward-deployed-engineering/)
 - ### डिज़ाइन
 
   ब्रांड, इंटरफ़ेस और उनके आसपास की वेबसाइटें, उन लोगों के हाथों से जो जो डिज़ाइन करते हैं, उसे बनाते भी हैं।

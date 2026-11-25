@@ -31,6 +31,11 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
   Applications web, SaaS, interfaces d'administration et tout ce qui relie vos systèmes : Odoo, Shopify, WordPress, paiements et expédition.
 
   Par exemple [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/) et notre [connecteur Shopify pour Odoo](https://sawirstudio.com/fr/projects/odoo-shopify-connector/). Découvrez nos [logiciels sur mesure](https://sawirstudio.com/fr/custom/)
+- ### Ingénieurs déployés chez vous
+
+  Un ingénieur intégré à votre équipe aussi longtemps que la mission l’exige, pour mettre l’IA au travail dans vos systèmes et connecter les outils que vous utilisez déjà.
+
+  Découvrez [comment ça fonctionne](https://sawirstudio.com/fr/forward-deployed-engineering/)
 - ### Design
 
   Identités de marque, interfaces et sites web qui les accompagnent, dessinés par des personnes qui développent aussi ce qu'elles dessinent.

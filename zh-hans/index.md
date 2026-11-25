@@ -31,6 +31,11 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
   网页应用、SaaS、管理后台，以及系统之间的衔接：Odoo、Shopify、WordPress、支付和物流。
 
   例如 [PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/) 和我们的 [Odoo 的 Shopify 连接器](https://sawirstudio.com/zh-hans/projects/odoo-shopify-connector/)。了解[定制软件](https://sawirstudio.com/zh-hans/custom/)
+- ### 前线部署工程师
+
+  工程师加入您的团队，项目需要多久就驻多久，让 AI 在您的系统中真正发挥作用，并把您现有的系统连接起来。
+
+  了解[合作方式](https://sawirstudio.com/zh-hans/forward-deployed-engineering/)
 - ### 设计
 
   品牌、界面以及相关网站，由同样懂开发的人来设计。

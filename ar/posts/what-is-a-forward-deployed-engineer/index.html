@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="light dark" name="color-scheme"/>
+<script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+<title>ما هو المهندس الميداني المدمج؟ | Sawir Studio</title>
+<meta content="يعمل المهندسون الميدانيون المدمجون ضمن فريق العميل ويقدّمون برمجيات تعمل داخل أنظمته. تعرّفوا على سبب الانتشار المفاجئ لهذا الدور، ومتى يجدر بالشركات الأصغر الاستعانة بأحدهم مؤقتًا بدلًا من توظيفه." name="description"/>
+<meta content="ما هو المهندس الميداني المدمج؟ | Sawir Studio" property="og:title"/>
+<meta content="يعمل المهندسون الميدانيون المدمجون ضمن فريق العميل ويقدّمون برمجيات تعمل داخل أنظمته. تعرّفوا على سبب الانتشار المفاجئ لهذا الدور، ومتى يجدر بالشركات الأصغر الاستعانة بأحدهم مؤقتًا بدلًا من توظيفه." property="og:description"/>
+<meta content="https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/" property="og:url"/>
+<link href="https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/" rel="canonical"/>
+<meta content="article" property="og:type"/>
+<meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="ar_SA" property="og:locale"/>
+<meta content="https://sawirstudio.com/assets/og/default.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="/favicon.ico" rel="icon" sizes="48x48"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/convertkit.css" rel="stylesheet"/>
+<script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+<script defer="" src="/assets/js/main.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "ما هو المهندس الميداني المدمج، ومتى تستعينون بواحد مؤقتًا؟",
+          "description": "يعمل المهندسون الميدانيون المدمجون ضمن فريق العميل ويقدّمون برمجيات تعمل داخل أنظمته. تعرّفوا على سبب الانتشار المفاجئ لهذا الدور، ومتى يجدر بالشركات الأصغر الاستعانة بأحدهم مؤقتًا بدلًا من توظيفه.",
+          "url": "https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/",
+          "datePublished": "2026-11-25",
+          "image": "https://sawirstudio.com/assets/og/default.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://sawirstudio.com/ar/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "المدونة",
+              "item": "https://sawirstudio.com/ar/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "ما هو المهندس الميداني المدمج، ومتى تستعينون بواحد مؤقتًا؟",
+              "item": "https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+<script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>
+    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/" />
+    <!-- /i18n:alternates -->
+</head>
+<body>
+<a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+<header class="site-header">
+<a class="logo" href="/ar/" title="الرئيسية">Sawir<span>Studio</span></a>
+<nav class="site-nav">
+<ul>
+<li><a href="/ar/">الرئيسية</a></li>
+<li><a aria-current="true" href="/ar/posts/">المدونة</a></li>
+<li><a href="/ar/projects/">المشاريع</a></li>
+<li><a href="/ar/about-us/">من نحن</a></li>
+<li><a href="/ar/contact/">تواصلوا معنا</a></li>
+</ul>
+</nav>
+<button aria-label="تبديل الوضع الداكن" class="theme-toggle" title="تبديل الوضع الداكن" type="button">
+<svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+<svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+</button>
+<hr/>
+</header>
+<main id="main">
+<section class="section">
+<article class="narrow center">
+<nav aria-label="مسار التنقل" class="breadcrumbs is-center">
+<ol>
+<li><a href="/ar/">الرئيسية</a></li>
+<li><a href="/ar/posts/">المدونة</a></li>
+<li><a aria-current="page" href="/ar/posts/what-is-a-forward-deployed-engineer/">ما هو المهندس الميداني المدمج، ومتى تستعينون بواحد مؤقتًا؟</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">ما هو المهندس الميداني المدمج، ومتى تستعينون بواحد مؤقتًا؟</h1>
+<div class="prose prose-xl">
+<p>المهندس الميداني المدمج (Forward Deployed Engineer) هو مهندس برمجيات يعمل ضمن فريق العميل، لا من مكتب شركته. يكون حيث توجد المشكلة، ويتعرّف على سير عمل العميل في الواقع، ويقدّم برمجيات تصبح جزءًا من هذا العمل. وقد أصبحت هذه الوظيفة في عام 2026 من أكثر الوظائف تداولًا في قطاع التقنية.</p>
+<h2>من أين جاء المسمّى؟</h2>
+<p>كانت Palantir هي من اشتهرت بهذا المفهوم. فبحلول <a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">عام 2009</a> كانت ترسل مهندسين «منتشرين ميدانيًا» (forward deployed)، وهو تعبير مستعار من المجال العسكري، للعمل في مواقع عملائها. كانت الفكرة بسيطة: الجزء الصعب في برمجيات المؤسسات ليس المنتج نفسه، بل مواءمته مع ما لدى مؤسسة بعينها من بيانات غير منظمة وأنظمة وأساليب عمل. لذلك ترسلون مهندسين قادرين على كتابة الشيفرة في الموقع مباشرة.</p>
+<h2>لماذا أصبح في كل مكان الآن؟</h2>
+<p>أظهر الذكاء الاصطناعي بوضوح شديد المسافة بين شراء البرمجيات والاستفادة منها. تستطيع أي شركة الحصول على ترخيص لاستخدام نموذج خلال ساعات قليلة، لكن ربطه ببياناتها وصلاحياتها وعملها اليومي يتطلب عملًا هندسيًا. ولهذا بدأت الشركات التي تبيع الذكاء الاصطناعي بتوظيف أشخاص لهذه المهمة تحديدًا:</p>
+<ul>
+<li>أطلقت <strong>OpenAI</strong> شركة OpenAI Deployment Company في 11 مايو 2026، وهي قائمة على مهندسين يعملون ضمن فرق العملاء (<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>).</li>
+<li>استثمرت <strong>AWS</strong> مليار دولار في وحدة جديدة لإلحاق المهندسين بفرق العملاء، وخصصت <strong>Microsoft</strong> مبلغ 2.5 مليار دولار و6,000 موظف لوحدة معنية بتطبيق الذكاء الاصطناعي، وقد نقلت CNBC الخبرين في منتصف 2026 (<a href="https://en.wikipedia.org/wiki/Forward_Deployed_Engineer" rel="noopener" target="_blank">ملخص Wikipedia</a>).</li>
+<li>ثم تبعتها إعلانات التوظيف. فقد وجدت Indeed وصحيفة Financial Times أن الإعلانات الشهرية عن هذه الوظيفة ارتفعت بأكثر من 800% بين يناير وسبتمبر 2025 (<a href="https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title" rel="noopener" target="_blank">KDnuggets</a>).</li>
+</ul>
+<h2>بماذا يختلف عن المستشار؟</h2>
+<p>المستشار يخبركم بما ينبغي تغييره، أما المهندس الميداني المدمج فينفّذ التغيير: لديه صلاحية الوصول إلى أنظمتكم، ويكتب شيفرة تدخل حيز التشغيل. وبالمعنى الدقيق، يقتصر هذا المسمّى على المهندسين في الشركات صاحبة المنتجات، حيث يؤثر ما يتعلمونه لدى العميل في ما تطوّره شركاتهم لاحقًا. ويرى البعض أنه من دون هذه الحلقة لا يعدو الأمر أن يكون استشارات بمسمّى أفضل.</p>
+<p>لكن بالنسبة إلى شركة تبحث عن المساعدة، فالمسمّى أقل أهمية من طبيعة العمل: مهندس ينضم إلى فريقكم لفترة، ويتعرّف على أنظمتكم، ويترك لكم برمجيات تعمل.</p>
+<h2>هل ينبغي لكم توظيف واحد؟</h2>
+<p>على الأرجح لا، إذا كانت شركتكم صغيرة أو متوسطة. فشركات الذكاء الاصطناعي الكبرى تتنافس على هؤلاء المهندسين، والوظائف المخصصة لذوي الخبرة العالية منهم تُعلن بأجور لا تقدر معظم الشركات على مجاراتها. كما أن شركات كثيرة لا تحتاج إلى مهندس كهذا إلا لبضعة أشهر: مدة تكفي لجعل الذكاء الاصطناعي وأنظمتها تعمل معًا، لا إلى الأبد.</p>
+<p>هنا تصبح الاستعانة المؤقتة خيارًا منطقيًا. استعينوا بمهندس يعمل ضمن فريقكم، في محادثاتكم ومستودعات الشيفرة لديكم، طوال المدة التي تتطلبها المهمة. ويستحق الأمر ذلك عندما:</p>
+<ul>
+<li>تكونون قد اشتريتم أدوات ذكاء اصطناعي ولم يتغير شيء في طريقة إنجاز العمل،</li>
+<li>وتمتد المشكلة عبر عدة أنظمة، مثل نظام ERP ومتجر ووسائل دفع وكمّ كبير من جداول البيانات،</li>
+<li>ولا يملك أحد داخل شركتكم الوقت لتولّي أمرها.</li>
+</ul>
+<p>ولا يستحق ذلك إذا كنتم تعرفون بالضبط ما تريدون بناءه، فالمشروع المحدد يكون عندئذ أقل تكلفة. وإذا كنتم ستحتاجون إلى هذا الدور بصفة دائمة، فوظّفوا من يشغله.</p>
+<h2>ماذا نقدّم</h2>
+<p>هكذا نعمل مع عملائنا منذ سنوات. فمؤسس الاستوديو هو المطور الرئيسي لمنصة الموارد البشرية لدى <a href="/ar/projects/peoplebond-hcms-application/">PeopleBond</a>، ويعمل مع فريقهم منذ 2019. واليوم نقدّم ذلك خدمةً قائمة بذاتها: <a href="/ar/forward-deployed-engineering/">الهندسة الميدانية المدمجة</a>، لتوظيف الذكاء الاصطناعي في أنظمتكم وربط الأدوات التي تستخدمونها حاليًا. إذا بدا لكم أن هذا ما ينقصكم، <a href="/ar/contact/">فأخبرونا أين تعثّر العمل</a>.</p>
+<p><strong>تابعوا القراءة:</strong> <a href="/ar/posts/making-our-sites-agent-ready/">كيف جهّزنا مواقعنا لوكلاء الذكاء الاصطناعي</a>، أو اطّلعوا على <a href="/ar/custom/">البرمجيات المخصصة</a> إذا كنتم تعرفون ما تحتاجون إليه.</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>هل استفدتم من هذا المقال؟</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>يسعدني الحصول على بريدكم الإلكتروني لأرسل لكم مقالات مثل هذا كلما نُشر مقال جديد.</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="البريد الإلكتروني" class="formkit-input" name="email_address" placeholder="البريد الإلكتروني" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>اشتركوا</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">لن أرسل لكم رسائل مزعجة. يمكنكم إلغاء الاشتراك في أي وقت.</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">مدعوم من ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+<nav class="footer-links"><a href="/ar/about-us/">من نحن</a> <a href="/ar/projects/">مشاريعنا</a> <a href="/ar/contact/">تواصلوا معنا</a> <a href="/ar/press/">الصحافة</a> <a href="/ar/privacy/">الخصوصية</a> <a href="/ar/terms/">الشروط</a></nav>
+<hr/>
+<ul class="social-links">
+<li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li>
+<li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li>
+<li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li>
+</ul>
+      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/what-is-a-forward-deployed-engineer/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/what-is-a-forward-deployed-engineer/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/posts/what-is-a-forward-deployed-engineer/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/what-is-a-forward-deployed-engineer/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/what-is-a-forward-deployed-engineer/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/what-is-a-forward-deployed-engineer/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/what-is-a-forward-deployed-engineer/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/what-is-a-forward-deployed-engineer/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/what-is-a-forward-deployed-engineer/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/what-is-a-forward-deployed-engineer/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/posts/what-is-a-forward-deployed-engineer/" hreflang="ar" lang="ar" aria-current="true">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer>
+</body>
+</html>

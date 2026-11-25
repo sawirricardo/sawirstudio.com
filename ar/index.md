@@ -31,6 +31,11 @@ description: تبني Sawir Studio برمجيات يستخدمها الناس: �
   تطبيقات ويب، وSaaS، ولوحات إدارة، وكل ما يربط الأنظمة ببعضها: Odoo وShopify وWordPress والمدفوعات والشحن.
 
   مثل [PeopleBond](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/) و[موصّل Shopify لنظام Odoo](https://sawirstudio.com/ar/projects/odoo-shopify-connector/) لدينا. اطلعوا على [البرمجيات المخصصة](https://sawirstudio.com/ar/custom/)
+- ### مهندسون ميدانيون ضمن فريقكم
+
+  مهندس يعمل ضمن فريقكم طوال المدة التي يتطلبها العمل، يوظّف الذكاء الاصطناعي في أنظمتكم ويربط بين ما تستخدمونه منها بالفعل.
+
+  اطّلعوا على [طريقة العمل](https://sawirstudio.com/ar/forward-deployed-engineering/)
 - ### التصميم
 
   هويات وواجهات ومواقع إلكترونية متكاملة، يرسمها أشخاص يبنون أيضًا ما يصممونه.

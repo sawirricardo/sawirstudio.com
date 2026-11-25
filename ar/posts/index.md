@@ -6,6 +6,7 @@ description: مقالات من Sawir Studio حول بناء تطبيقات ال�
 
 # المدونة
 
+- [2026-11-25 ما هو المهندس الميداني المنتدب (Forward Deployed Engineer)، ومتى يجدر بكم الاستعانة بواحد؟](https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio تتولّى الآن نشر Colvaron Conquest](https://sawirstudio.com/ar/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 واجهة Shopify البرمجية إصدار 2026-10: ما الذي سيتعطل في تكاملاتكم](https://sawirstudio.com/ar/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 توقف Script Tags في Shopify بتاريخ 1 مارس 2027: ما الذي ينبغي لأصحاب المتاجر فعله](https://sawirstudio.com/ar/posts/shopify-script-tags-stop-march-2027/)

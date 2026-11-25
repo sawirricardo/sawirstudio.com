@@ -31,6 +31,11 @@ L'AI al lavoro, ma ogni decisione resta a una persona. [In cosa crediamo →](ht
   Web app, SaaS, pannelli di amministrazione e il collante tra i sistemi: Odoo, Shopify, WordPress, pagamenti e spedizioni.
 
   Come [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/) e il nostro [connettore Shopify per Odoo](https://sawirstudio.com/it/projects/odoo-shopify-connector/). Scoprite il [software su misura](https://sawirstudio.com/it/custom/)
+- ### Forward deployed engineer
+
+  Un ingegnere all’interno del vostro team per tutta la durata del lavoro, che mette l’AI al servizio dei vostri sistemi e collega gli strumenti che già utilizzate.
+
+  Scoprite [come funziona](https://sawirstudio.com/it/forward-deployed-engineering/)
 - ### Design
 
   Brand, interfacce e i siti web che le accompagnano, disegnati da persone che sviluppano anche ciò che disegnano.

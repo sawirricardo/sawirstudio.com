@@ -6,6 +6,7 @@ description: מאמרים של Sawir Studio על בניית אפליקציות �
 
 # בלוג
 
+- [2026-11-25 מהו Forward Deployed Engineer, ומתי כדאי "לשאול" כזה?](https://sawirstudio.com/he/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio היא מעכשיו המוציאה לאור של Colvaron Conquest](https://sawirstudio.com/he/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 ה-API של Shopify בגרסה 2026-10: מה עלול להישבר באינטגרציות שלכם](https://sawirstudio.com/he/posts/shopify-2026-10-api-what-breaks/)
 - [2026-11-06 Script Tags ב-Shopify מפסיקים לעבוד ב-1 במרץ 2027. מה כדאי לבעלי חנויות לעשות](https://sawirstudio.com/he/posts/shopify-script-tags-stop-march-2027/)

@@ -31,6 +31,11 @@ KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben �
   Web-Apps, SaaS, Admin-Bereiche und die Verbindungen zwischen Systemen: Odoo, Shopify, WordPress, Zahlungen und Versand.
 
   Zum Beispiel [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/) und unser [Shopify-Connector für Odoo](https://sawirstudio.com/de/projects/odoo-shopify-connector/). Siehe [individuelle Software](https://sawirstudio.com/de/custom/)
+- ### Forward Deployed Engineers
+
+  Ein Engineer, der so lange in Ihrem Team mitarbeitet, wie die Aufgabe dauert, KI in Ihren Systemen zum Einsatz bringt und verbindet, was Sie bereits nutzen.
+
+  So [funktioniert es](https://sawirstudio.com/de/forward-deployed-engineering/)
 - ### Design
 
   Marken, Oberflächen und die Websites drumherum, gestaltet von Menschen, die auch umsetzen, was sie zeichnen.
