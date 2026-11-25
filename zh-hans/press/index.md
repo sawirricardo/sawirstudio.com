@@ -1,16 +1,16 @@
 ---
 title: 媒体资料包 | SawirStudio
 url: https://sawirstudio.com/zh-hans/press/
-description: SawirStudio 媒体资料包：包含标志、品牌颜色和字体、公司基本信息、简短的标准介绍，以及创始人简介和照片，可免费使用。
+description: Sawir Studio 的媒体资料包：标志、品牌色彩和字体、公司基本信息、一段简短的标准介绍，以及创始人的简介和照片，可在报道时免费使用。
 ---
 
 # 媒体资料包
 
-这里有我们的标志、基本信息和简短介绍，您在撰写有关 SawirStudio 的内容时可以免费使用。
+我们的标志、基本信息和一段简短介绍，您在报道 Sawir Studio 时可以免费使用。
 
 [下载全部资料（.zip）](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **名称** SawirStudio，连写为一个词
+- **名称** Sawir Studio
 - **法定名称** Sawir Studio LLC
 - **成立时间** 2017 年 12 月成立，2025 年 1 月注册为公司
 - **创始人** [Ricardo Sawir](https://sawirstudio.com/zh-hans/ricardosawir/)
@@ -18,40 +18,40 @@ description: SawirStudio 媒体资料包：包含标志、品牌颜色和字体�
 - **网站** [sawirstudio.com](https://sawirstudio.com/zh-hans/)
 - **媒体联系方式** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## 关于 SawirStudio
+## 关于 Sawir Studio
 
 ### 一句话介绍
 
-SawirStudio 是一家软件工作室，开发应用、网站并提供设计，既为客户服务，也打造自有产品。
+Sawir Studio 是一家软件工作室，开发应用、网站和设计作品，既为客户服务，也打造自己的产品。
 
 ### 一段话介绍
 
-SawirStudio 开发应用、网站并提供设计，既为客户服务，也打造自有产品。Ricardo Sawir 于 2017 年 12 月创办这家工作室，并于 2025 年 1 月将其注册为 Sawir Studio LLC。工作室每天都借助 AI 进行开发，每一行上线的代码都有专人阅读、测试并负责。凭借这种方式，工作室在不到四周的时间里在 App Store 上架了六款自有应用。自有作品包括绘画应用 Rindraw、金融计算器 Par、社交媒体排期发布工具 SawirPost、12 款免费的 WordPress 插件，以及一款适用于 Odoo 的开源 Shopify 连接器，该连接器在 Odoo Community Association 中维护。
+Sawir Studio 开发应用、网站和设计作品，既为客户服务，也打造自己的产品。Ricardo Sawir 于 2017 年 12 月创办了这家工作室，并于 2025 年 1 月将其注册为 Sawir Studio LLC。工作室每天都借助 AI 进行开发，而每一行上线的代码，都有专人阅读、测试并负责。正因如此，工作室在不到四周的时间里，将自己的六款应用上架到了 App Store。其自有作品包括绘画应用 Rindraw、金融计算器 Par、社交媒体排期工具 SawirPost、12 款免费的 WordPress 插件，以及一个面向 Odoo 的开源 Shopify 连接器，该连接器在 Odoo Community Association 中维护。
 
 ## 标志
 
-- ![SawirStudio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Sawir Studio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   文字标志，用于浅色背景
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![深色背景上的 SawirStudio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![深色背景上的 Sawir Studio 文字标志](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   文字标志，用于深色背景
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![SawirStudio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Sawir Studio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   图标，用于浅色背景
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![深色背景上的 SawirStudio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![深色背景上的 Sawir Studio 图标](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   图标，用于深色背景
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-请保持黄色方框及其倾斜角度和配色原样不变，也不要拉伸或重新绘制标志。如果标志不适合您的版面，请直接用纯文字写出名称：SawirStudio。
+请保持黄色方框、它的倾斜角度和配色不变，也不要拉伸或重新绘制标志。如果标志不适合您的版面，请改用纯文本写出名称：Sawir Studio。
 
 ## 颜色与字体
 
@@ -68,7 +68,7 @@ SawirStudio 开发应用、网站并提供设计，既为客户服务，也打�
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir 于 2017 年 12 月创立了 SawirStudio。Ricardo 曾在万隆理工学院（ITB）学习视觉传达设计，之后进入 Apple Developer Academy，从设计走向了编程。自 2019 年起，Ricardo 一直担任 PeopleBond 人力资源平台的首席开发者，同时也是 Vivaldy Skin Clinic 背后的公司 Viva Estemedika Indonesia 的 IT 主管。
+Ricardo Sawir 于 2017 年 12 月创办了 Sawir Studio。Ricardo 曾在 Institut Teknologi Bandung（ITB）学习视觉传达设计，之后进入 Apple Developer Academy 学习，从设计走向了编程。自 2019 年起，Ricardo 一直担任 PeopleBond 人力资源平台的首席开发者，同时也是 Vivaldy Skin Clinic 背后的公司 Viva Estemedika Indonesia 的 IT 主管。
 
 [下载照片](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [完整简介](https://sawirstudio.com/zh-hans/ricardosawir/)
 

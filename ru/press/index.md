@@ -1,16 +1,16 @@
 ---
 title: Пресс-кит | SawirStudio
 url: https://sawirstudio.com/ru/press/
-description: Пресс-кит SawirStudio: логотипы, фирменные цвета и шрифты, факты о компании, краткое стандартное описание, а также биография и фото основателя. Всё можно использовать свободно.
+description: Пресс-кит Sawir Studio: логотипы, фирменные цвета и шрифты, факты о компании, краткая справка о ней, а также биография и фото основателя. Всё это можно свободно использовать.
 ---
 
 # Пресс-кит
 
-Наши логотипы, факты и краткая информация о студии. Всё это можно свободно использовать, когда Вы пишете о SawirStudio.
+Наши логотипы, факты и краткая справка о студии: используйте их свободно, когда пишете о Sawir Studio.
 
 [Скачать всё (.zip)](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **Название** SawirStudio, в одно слово
+- **Название** Sawir Studio
 - **Юридическое название** Sawir Studio LLC
 - **Основана** в декабре 2017 года, зарегистрирована как компания в январе 2025 года
 - **Основатель** [Ricardo Sawir](https://sawirstudio.com/ru/ricardosawir/)
@@ -18,40 +18,40 @@ description: Пресс-кит SawirStudio: логотипы, фирменные
 - **Сайт** [sawirstudio.com](https://sawirstudio.com/ru/)
 - **Контакт для прессы** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## О SawirStudio
+## О Sawir Studio
 
 ### Одной строкой
 
-SawirStudio — студия разработки ПО, которая создаёт приложения, сайты и дизайн для клиентов и в виде собственных продуктов.
+Sawir Studio — это студия разработки ПО, которая создаёт приложения, сайты и дизайн для клиентов и в качестве собственных продуктов.
 
 ### Одним абзацем
 
-SawirStudio создаёт приложения, сайты и дизайн для клиентов и в виде собственных продуктов. Ricardo Sawir основал студию в декабре 2017 года, а в январе 2025 года зарегистрировал её как компанию Sawir Studio LLC. В студии каждый день используют ИИ в разработке, при этом каждую строку кода, которая идёт в релиз, читает и тестирует человек, и он же за неё отвечает. Благодаря такому подходу студия менее чем за четыре недели выпустила в App Store шесть собственных приложений. Среди её разработок — приложение для рисования Rindraw, финансовый калькулятор Par, планировщик публикаций в соцсетях SawirPost, 12 бесплатных плагинов для WordPress и коннектор Shopify для Odoo с открытым исходным кодом, который поддерживается в рамках Odoo Community Association.
+Sawir Studio создаёт приложения, сайты и дизайн для клиентов и в качестве собственных продуктов. Ricardo Sawir основал студию в декабре 2017 года, а в январе 2025 года зарегистрировал её как Sawir Studio LLC. Студия ежедневно использует в разработке ИИ, при этом каждую строку кода, которая уходит в релиз, читает и тестирует человек, и он же за неё отвечает. Именно так студия меньше чем за четыре недели выпустила в App Store шесть собственных приложений. Среди собственных разработок — приложение для рисования Rindraw, финансовый калькулятор Par, планировщик публикаций в соцсетях SawirPost, 12 бесплатных плагинов для WordPress и коннектор Shopify для Odoo с открытым исходным кодом, который поддерживается в Odoo Community Association.
 
 ## Логотипы
 
-- ![Логотип SawirStudio с названием](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Текстовый логотип Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   Логотип с названием для светлого фона
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![Логотип SawirStudio с названием на тёмном фоне](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![Текстовый логотип Sawir Studio на тёмном фоне](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   Логотип с названием для тёмного фона
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![Значок SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Значок Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   Значок для светлого фона
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![Значок SawirStudio на тёмном фоне](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![Значок Sawir Studio на тёмном фоне](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   Значок для тёмного фона
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-Пожалуйста, сохраняйте жёлтый прямоугольник, его наклон и цвета без изменений, не растягивайте и не перерисовывайте логотип. Если он не вписывается в Ваш макет, просто напишите название текстом: SawirStudio.
+Пожалуйста, сохраняйте жёлтый прямоугольник, его наклон и цвета без изменений, не растягивайте и не перерисовывайте логотип. Если он не вписывается в ваш макет, просто напишите название обычным текстом: Sawir Studio.
 
 ## Цвета и шрифты
 
@@ -68,7 +68,7 @@ SawirStudio создаёт приложения, сайты и дизайн дл
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir основал SawirStudio в декабре 2017 года. Ricardo изучал дизайн визуальных коммуникаций в Institut Teknologi Bandung (ITB), затем прошел обучение в Apple Developer Academy и пришел в программирование из дизайна. С 2019 года Ricardo работает ведущим разработчиком HR-платформы PeopleBond. Он также руководит ИТ-направлением в Viva Estemedika Indonesia, компании, которой принадлежит Vivaldy Skin Clinic.
+Ricardo Sawir основал Sawir Studio в декабре 2017 года. Ricardo изучал дизайн визуальных коммуникаций в Institut Teknologi Bandung (ITB), затем прошёл обучение в Apple Developer Academy и пришёл в программирование из дизайна. С 2019 года Ricardo — ведущий разработчик HR-платформы PeopleBond, а также руководитель ИТ-направления в Viva Estemedika Indonesia — компании, которой принадлежит Vivaldy Skin Clinic.
 
 [Скачать фото](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [Полный профиль](https://sawirstudio.com/ru/ricardosawir/)
 

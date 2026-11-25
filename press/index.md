@@ -1,16 +1,16 @@
 ---
 title: Press kit | SawirStudio
 url: https://sawirstudio.com/press/
-description: SawirStudio's press kit: logos, brand colors and fonts, company facts, a short boilerplate and the founder's bio and photo, free to use.
+description: Sawir Studio's press kit: logos, brand colors and fonts, company facts, a short boilerplate and the founder's bio and photo, free to use.
 ---
 
 # Press kit
 
-Our logos, the facts and a short bio, free to use when you write about SawirStudio.
+Our logos, the facts and a short bio, free to use when you write about Sawir Studio.
 
 [Download everything (.zip)](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **Name** SawirStudio, one word
+- **Name** Sawir Studio
 - **Legal name** Sawir Studio LLC
 - **Founded** December 2017, incorporated in January 2025
 - **Founder** [Ricardo Sawir](https://sawirstudio.com/ricardosawir/)
@@ -18,40 +18,40 @@ Our logos, the facts and a short bio, free to use when you write about SawirStud
 - **Website** [sawirstudio.com](https://sawirstudio.com/)
 - **Press contact** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## About SawirStudio
+## About Sawir Studio
 
 ### In one line
 
-SawirStudio is a software studio that builds apps, websites and designs, for clients and as its own products.
+Sawir Studio is a software studio that builds apps, websites and designs, for clients and as its own products.
 
 ### In a paragraph
 
-SawirStudio builds apps, websites and designs, for clients and as its own products. Ricardo Sawir started the studio in December 2017 and incorporated it as Sawir Studio LLC in January 2025. The studio builds with AI every day, with a person reading, testing and answering for every line that ships. That's how it put six of its own apps on the App Store in under four weeks. Its own work includes the drawing app Rindraw, the financial calculator Par, the social media scheduler SawirPost, 12 free WordPress plugins and an open-source Shopify connector for Odoo, maintained in the Odoo Community Association.
+Sawir Studio builds apps, websites and designs, for clients and as its own products. Ricardo Sawir started the studio in December 2017 and incorporated it as Sawir Studio LLC in January 2025. The studio builds with AI every day, with a person reading, testing and answering for every line that ships. That's how it put six of its own apps on the App Store in under four weeks. Its own work includes the drawing app Rindraw, the financial calculator Par, the social media scheduler SawirPost, 12 free WordPress plugins and an open-source Shopify connector for Odoo, maintained in the Odoo Community Association.
 
 ## Logos
 
-- ![SawirStudio wordmark](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Sawir Studio wordmark](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   Wordmark, for light backgrounds
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![SawirStudio wordmark on a dark background](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![Sawir Studio wordmark on a dark background](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   Wordmark, for dark backgrounds
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![SawirStudio icon](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Sawir Studio icon](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   Icon, for light backgrounds
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![SawirStudio icon on a dark background](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![Sawir Studio icon on a dark background](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   Icon, for dark backgrounds
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-Please keep the yellow box, its tilt and the colors as they are, and don't stretch or redraw the logo. If it doesn't fit your layout, write the name in plain text instead: SawirStudio.
+Please keep the yellow box, its tilt and the colors as they are, and don't stretch or redraw the logo. If it doesn't fit your layout, write the name in plain text instead: Sawir Studio.
 
 ## Colors and type
 
@@ -68,7 +68,7 @@ Headings and text are set in [Bricolage Grotesque](https://fonts.google.com/spec
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir founded SawirStudio in December 2017. Ricardo studied visual communication design at Institut Teknologi Bandung (ITB), then went through the Apple Developer Academy, and came to code from design. Ricardo has been the lead developer on PeopleBond's HR platform since 2019 and is Head of IT at Viva Estemedika Indonesia, the company behind Vivaldy Skin Clinic.
+Ricardo Sawir founded Sawir Studio in December 2017. Ricardo studied visual communication design at Institut Teknologi Bandung (ITB), then went through the Apple Developer Academy, and came to code from design. Ricardo has been the lead developer on PeopleBond's HR platform since 2019 and is Head of IT at Viva Estemedika Indonesia, the company behind Vivaldy Skin Clinic.
 
 [Download photo](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [Full profile](https://sawirstudio.com/ricardosawir/)
 

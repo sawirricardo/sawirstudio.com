@@ -1,16 +1,16 @@
 ---
 title: Perskit | SawirStudio
 url: https://sawirstudio.com/nl/press/
-description: De perskit van SawirStudio: logo's, merkkleuren en lettertypes, bedrijfsgegevens, een korte standaardtekst en de bio en foto van de oprichter, vrij te gebruiken.
+description: De perskit van Sawir Studio: logo's, merkkleuren en lettertypes, bedrijfsgegevens, een korte standaardtekst en de bio en foto van de oprichter, vrij te gebruiken.
 ---
 
 # Perskit
 
-Onze logo's, de feiten en een korte bio, vrij te gebruiken als je over SawirStudio schrijft.
+Onze logo's, de feiten en een korte bio, vrij te gebruiken als je over Sawir Studio schrijft.
 
 [Alles downloaden (.zip)](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **Naam** SawirStudio, één woord
+- **Naam** Sawir Studio
 - **Juridische naam** Sawir Studio LLC
 - **Opgericht** in december 2017, als LLC geregistreerd in januari 2025
 - **Oprichter** [Ricardo Sawir](https://sawirstudio.com/nl/ricardosawir/)
@@ -18,40 +18,40 @@ Onze logo's, de feiten en een korte bio, vrij te gebruiken als je over SawirStud
 - **Website** [sawirstudio.com](https://sawirstudio.com/nl/)
 - **Perscontact** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## Over SawirStudio
+## Over Sawir Studio
 
 ### In één zin
 
-SawirStudio is een softwarestudio die apps, websites en designs maakt, voor klanten en als eigen producten.
+Sawir Studio is een softwarestudio die apps, websites en designs maakt, voor klanten en als eigen producten.
 
 ### In één alinea
 
-SawirStudio maakt apps, websites en designs, voor klanten en als eigen producten. Ricardo Sawir begon de studio in december 2017 en liet die in januari 2025 registreren als Sawir Studio LLC. De studio bouwt elke dag met AI, waarbij een mens elke regel code die live gaat leest, test en er verantwoordelijk voor is. Zo zette de studio in minder dan vier weken zes eigen apps in de App Store. Tot het eigen werk behoren de teken-app Rindraw, de financiële rekenmachine Par, de socialmediaplanner SawirPost, 12 gratis WordPress-plugins en een opensource Shopify-connector voor Odoo, die wordt onderhouden binnen de Odoo Community Association.
+Sawir Studio maakt apps, websites en designs, voor klanten en als eigen producten. Ricardo Sawir startte de studio in december 2017 en richtte in januari 2025 Sawir Studio LLC op. De studio bouwt elke dag met AI, waarbij een mens elke regel die live gaat leest, test en er verantwoordelijk voor is. Zo zette de studio in minder dan vier weken zes eigen apps in de App Store. Tot het eigen werk behoren de teken-app Rindraw, de financiële calculator Par, de social media planner SawirPost, 12 gratis WordPress-plugins en een open-source Shopify-connector voor Odoo, die binnen de Odoo Community Association wordt onderhouden.
 
 ## Logo's
 
-- ![Woordmerk van SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Woordmerk van Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   Woordmerk, voor lichte achtergronden
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![Woordmerk van SawirStudio op een donkere achtergrond](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![Woordmerk van Sawir Studio op een donkere achtergrond](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   Woordmerk, voor donkere achtergronden
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![Icoon van SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Icoon van Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   Icoon, voor lichte achtergronden
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![Icoon van SawirStudio op een donkere achtergrond](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![Icoon van Sawir Studio op een donkere achtergrond](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   Icoon, voor donkere achtergronden
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-Laat het gele vlak, de schuine stand en de kleuren zoals ze zijn, en rek het logo niet uit of teken het niet na. Past het niet in je lay-out? Schrijf de naam dan in gewone tekst: SawirStudio.
+Laat het gele vak, de schuine stand en de kleuren zoals ze zijn, en rek het logo niet uit en teken het niet na. Past het niet in je layout? Schrijf de naam dan in gewone tekst: Sawir Studio.
 
 ## Kleuren en lettertypes
 
@@ -68,7 +68,7 @@ Koppen en tekst staan in [Bricolage Grotesque](https://fonts.google.com/specimen
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir richtte SawirStudio op in december 2017. Ricardo studeerde visuele communicatie en design aan het Institut Teknologi Bandung (ITB), volgde daarna de Apple Developer Academy en kwam zo vanuit design bij programmeren terecht. Ricardo is sinds 2019 lead developer van het HR-platform van PeopleBond en is Head of IT bij Viva Estemedika Indonesia, het bedrijf achter Vivaldy Skin Clinic.
+Ricardo Sawir richtte Sawir Studio op in december 2017. Ricardo studeerde visuele communicatie en design aan Institut Teknologi Bandung (ITB), volgde daarna de Apple Developer Academy en kwam vanuit design bij programmeren terecht. Ricardo is sinds 2019 lead developer van het HR-platform van PeopleBond en is Head of IT bij Viva Estemedika Indonesia, het bedrijf achter Vivaldy Skin Clinic.
 
 [Foto downloaden](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [Volledig profiel](https://sawirstudio.com/nl/ricardosawir/)
 

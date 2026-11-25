@@ -1,16 +1,16 @@
 ---
 title: プレスキット | SawirStudio
 url: https://sawirstudio.com/ja/press/
-description: SawirStudio のプレスキットです。ロゴ、ブランドカラーと書体、会社の基本情報、短い定型紹介文、創業者の経歴と写真を無料でご利用いただけます。
+description: Sawir Studio のプレスキットです。ロゴ、ブランドカラーとフォント、会社の基本情報、短い定型紹介文、創業者の経歴と写真を掲載しており、自由にお使いいただけます。
 ---
 
 # プレスキット
 
-ロゴ、基本情報、短い紹介文をまとめました。SawirStudio についての記事に、無料でご利用いただけます。
+ロゴ、基本情報、簡単な紹介文をご用意しました。Sawir Studio について書く際は、自由にお使いください。
 
 [一括ダウンロード（.zip）](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **名称** SawirStudio（スペースを入れず 1 語で表記）
+- **名称** Sawir Studio
 - **正式名称** Sawir Studio LLC
 - **設立** 2017 年 12 月創業、2025 年 1 月法人化
 - **創業者** [Ricardo Sawir](https://sawirstudio.com/ja/ricardosawir/)
@@ -18,40 +18,40 @@ description: SawirStudio のプレスキットです。ロゴ、ブランドカ�
 - **ウェブサイト** [sawirstudio.com](https://sawirstudio.com/ja/)
 - **報道関係のお問い合わせ先** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## SawirStudio について
+## Sawir Studio について
 
 ### 一文での紹介
 
-SawirStudio は、アプリ、ウェブサイト、デザインを受託と自社プロダクトの両方で手がけるソフトウェアスタジオです。
+Sawir Studio は、アプリ、ウェブサイト、デザインを制作するソフトウェアスタジオです。お客様向けの制作に加え、自社プロダクトも手がけています。
 
 ### 詳しい紹介文
 
-SawirStudio は、アプリ、ウェブサイト、デザインを受託と自社プロダクトの両方で手がけています。Ricardo Sawir が 2017 年 12 月にスタジオを立ち上げ、2025 年 1 月に Sawir Studio LLC として法人化しました。開発には毎日 AI を活用していますが、リリースするコードはすべての行を人が読んでテストし、責任を持ちます。この方法で、4 週間足らずの間に自社アプリ 6 本を App Store で公開しました。自社で手がけたものには、お絵かきアプリの Rindraw、金融電卓の Par、SNS 予約投稿ツールの SawirPost、12 個の無料 WordPress プラグイン、そして Odoo 向けのオープンソース Shopify コネクターがあります。このコネクターは Odoo Community Association で保守されています。
+Sawir Studio は、お客様向けと自社プロダクトの両方で、アプリ、ウェブサイト、デザインを制作しています。2017 年 12 月に Ricardo Sawir がスタジオを立ち上げ、2025 年 1 月に Sawir Studio LLC として法人化しました。日々の開発には AI を活用していますが、リリースするコードは 1 行残らず人が読み、テストし、責任を持ちます。この方法で、自社アプリ 6 本を 4 週間足らずで App Store に公開しました。自社の制作物には、お絵描きアプリの Rindraw、金融電卓の Par、SNS 投稿予約ツールの SawirPost、12 個の無料 WordPress プラグイン、そして Odoo Community Association で保守されているオープンソースの Odoo 向け Shopify コネクタなどがあります。
 
 ## ロゴ
 
-- ![SawirStudio のロゴタイプ](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Sawir Studio のワードマーク](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   ロゴタイプ（明るい背景用）
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![暗い背景に配置した SawirStudio のロゴタイプ](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![暗い背景に配置した Sawir Studio のワードマーク](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   ロゴタイプ（暗い背景用）
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![SawirStudio のアイコン](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Sawir Studio のアイコン](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   アイコン（明るい背景用）
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![暗い背景に配置した SawirStudio のアイコン](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![暗い背景に配置した Sawir Studio のアイコン](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   アイコン（暗い背景用）
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-黄色いボックス、その傾き、配色は変えずにお使いください。ロゴを引き伸ばしたり、描き直したりしないようお願いします。レイアウトに合わない場合は、ロゴの代わりに SawirStudio とテキストで表記してください。
+黄色いボックス、その傾き、配色は変更せずにお使いください。また、ロゴを引き伸ばしたり、描き直したりしないようお願いします。レイアウトに合わない場合は、代わりに名称を通常のテキストで「Sawir Studio」と表記してください。
 
 ## カラーと書体
 
@@ -68,7 +68,7 @@ SawirStudio は、アプリ、ウェブサイト、デザインを受託と自�
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir は 2017 年 12 月に SawirStudio を創業しました。Institut Teknologi Bandung（ITB）でビジュアルコミュニケーションデザインを学んだ後、Apple Developer Academy を経て、デザインの分野からプログラミングの道に進みました。2019 年から PeopleBond の人事プラットフォームでリードデベロッパーを務めているほか、Vivaldy Skin Clinic の運営会社である Viva Estemedika Indonesia では IT 部門の責任者を務めています。
+Ricardo Sawir は、2017 年 12 月に Sawir Studio を創業しました。バンドン工科大学（ITB）でビジュアルコミュニケーションデザインを学んだ後、Apple Developer Academy を経て、デザインの分野からプログラミングの道に進みました。2019 年から PeopleBond の人事プラットフォームでリード開発者を務めているほか、Vivaldy Skin Clinic の運営会社である Viva Estemedika Indonesia で IT 部門の責任者を務めています。
 
 [写真をダウンロード](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [詳しいプロフィール](https://sawirstudio.com/ja/ricardosawir/)
 

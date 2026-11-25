@@ -1,16 +1,16 @@
 ---
 title: Press kit | SawirStudio
 url: https://sawirstudio.com/it/press/
-description: Il press kit di SawirStudio: loghi, colori e font del brand, dati sull’azienda, una breve presentazione standard, oltre alla biografia e alla foto del fondatore, da usare liberamente.
+description: Il press kit di Sawir Studio: loghi, colori e font del brand, dati sull’azienda, un breve testo di presentazione e la biografia e la foto del fondatore, da usare liberamente.
 ---
 
 # Press kit
 
-I nostri loghi, i dati principali e una breve presentazione, da usare liberamente quando scrivete di SawirStudio.
+I nostri loghi, i dati principali e una breve biografia, da usare liberamente quando scrivete di Sawir Studio.
 
 [Scaricate tutto (.zip)](https://sawirstudio.com/assets/press/sawirstudio-press-kit.zip)
 
-- **Nome** SawirStudio, tutto attaccato
+- **Nome** Sawir Studio
 - **Ragione sociale** Sawir Studio LLC
 - **Fondazione** Dicembre 2017, costituita in società a gennaio 2025
 - **Fondatore** [Ricardo Sawir](https://sawirstudio.com/it/ricardosawir/)
@@ -18,40 +18,40 @@ I nostri loghi, i dati principali e una breve presentazione, da usare liberament
 - **Sito web** [sawirstudio.com](https://sawirstudio.com/it/)
 - **Contatto per la stampa** [ricardo@sawirstudio.com](mailto:ricardo@sawirstudio.com)
 
-## Chi è SawirStudio
+## Chi è Sawir Studio
 
 ### In una riga
 
-SawirStudio è uno studio di software che realizza app, siti web e progetti di design, per i clienti e come prodotti propri.
+Sawir Studio è uno studio di software che realizza app, siti web e progetti di design, sia per i clienti sia come prodotti propri.
 
 ### In un paragrafo
 
-SawirStudio realizza app, siti web e progetti di design, per i clienti e come prodotti propri. Ricardo Sawir ha avviato lo studio a dicembre 2017 e lo ha costituito in società come Sawir Studio LLC a gennaio 2025. Lo studio sviluppa ogni giorno con l’AI, e c’è sempre una persona che legge, testa e si assume la responsabilità di ogni riga pubblicata. È così che ha portato sei app proprie sull’App Store in meno di quattro settimane. Tra i suoi progetti ci sono l’app di disegno Rindraw, la calcolatrice finanziaria Par, SawirPost per programmare i contenuti sui social media, 12 plugin WordPress gratuiti e un connettore Shopify open source per Odoo, mantenuto all’interno della Odoo Community Association.
+Sawir Studio realizza app, siti web e progetti di design, sia per i clienti sia come prodotti propri. Ricardo Sawir ha avviato lo studio nel dicembre 2017 e lo ha costituito come Sawir Studio LLC nel gennaio 2025. Lo studio lavora ogni giorno con l’AI, e c’è sempre una persona che legge, testa e risponde di ogni riga che va in produzione. È così che ha pubblicato sei app proprie sull’App Store in meno di quattro settimane. Tra i suoi progetti ci sono l’app di disegno Rindraw, la calcolatrice finanziaria Par, SawirPost per programmare i post sui social media, 12 plugin WordPress gratuiti e un connettore Shopify open source per Odoo, mantenuto all’interno della Odoo Community Association.
 
 ## Loghi
 
-- ![Logotipo SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
+- ![Logotipo di Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg)
 
   Logotipo, per sfondi chiari
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark.png)
-- ![Logotipo SawirStudio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
+- ![Logotipo di Sawir Studio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg)
 
   Logotipo, per sfondi scuri
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-wordmark-on-dark.png)
-- ![Icona SawirStudio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
+- ![Icona di Sawir Studio](https://sawirstudio.com/assets/press/sawirstudio-mark.svg)
 
   Icona, per sfondi chiari
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark.png)
-- ![Icona SawirStudio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
+- ![Icona di Sawir Studio su sfondo scuro](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg)
 
   Icona, per sfondi scuri
 
   [SVG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.svg) [PNG](https://sawirstudio.com/assets/press/sawirstudio-mark-on-dark.png)
 
-Vi chiediamo di lasciare invariati il riquadro giallo, la sua inclinazione e i colori, e di non deformare né ridisegnare il logo. Se non si adatta al vostro layout, scrivete invece il nome come semplice testo: SawirStudio.
+Vi chiediamo di mantenere invariati il riquadro giallo, la sua inclinazione e i colori, e di non deformare né ridisegnare il logo. Se non si adatta al vostro layout, scrivete invece il nome in testo semplice: Sawir Studio.
 
 ## Colori e caratteri
 
@@ -68,7 +68,7 @@ Per titoli e testi usiamo [Bricolage Grotesque](https://fonts.google.com/specime
 
 ![Ricardo Sawir](https://sawirstudio.com/assets/images/ricardo-sawir.webp)
 
-Ricardo Sawir ha fondato SawirStudio nel dicembre 2017. Ha studiato design della comunicazione visiva all’Institut Teknologi Bandung (ITB), ha poi frequentato la Apple Developer Academy ed è arrivato al codice partendo dal design. Dal 2019 è lead developer della piattaforma HR di PeopleBond ed è Head of IT di Viva Estemedika Indonesia, l’azienda a cui fa capo Vivaldy Skin Clinic.
+Ricardo Sawir ha fondato Sawir Studio nel dicembre 2017. Ricardo ha studiato design della comunicazione visiva all’Institut Teknologi Bandung (ITB), ha poi frequentato la Apple Developer Academy ed è arrivato alla programmazione partendo dal design. Dal 2019 Ricardo è lead developer della piattaforma HR di PeopleBond ed è Head of IT di Viva Estemedika Indonesia, l’azienda a cui fa capo Vivaldy Skin Clinic.
 
 [Scaricate la foto](https://sawirstudio.com/assets/images/ricardo-sawir.webp) · [Profilo completo](https://sawirstudio.com/it/ricardosawir/)
 
