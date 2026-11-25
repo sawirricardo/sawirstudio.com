@@ -1,5 +1,5 @@
 ---
-title: واجهة Shopify البرمجية 2026-10: ما الذي قد يتعطل | SawirStudio
+title: واجهة Shopify البرمجية 2026-10: ما الذي قد يتعطل | Sawir Studio
 url: https://sawirstudio.com/ar/posts/shopify-2026-10-api-what-breaks/
 description: تغييرات Shopify Admin API في الإصدار 2026-10 التي قد تعطّل التكاملات، وما الذي يجب تعديله: أسعار الشحن، وخصومات طلبات المسودة، والضرائب، والباركود وغيرها.
 ---

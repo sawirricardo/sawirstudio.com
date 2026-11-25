@@ -1,5 +1,5 @@
 ---
-title: Sawir Media Folders | SawirStudio
+title: Sawir Media Folders | Sawir Studio
 url: https://sawirstudio.com/de/projects/wordpress-plugins/sawir-media-folders/
 description: Schnelle, unbegrenzte Ordner für die WordPress-Mediathek mit Drag & Drop.
 ---

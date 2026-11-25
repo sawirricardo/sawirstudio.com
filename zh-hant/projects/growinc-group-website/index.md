@@ -1,7 +1,7 @@
 ---
-title: Growinc Group 官方網站 | SawirStudio
+title: Growinc Group 官方網站 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/growinc-group-website/
-description: Growinc Group Indonesia 的企業官方網站。Growinc 是雅加達的行銷與廣告集團，網站介紹其服務、案例與旗下代理公司。由 SawirStudio 打造。
+description: Growinc Group Indonesia 的企業官方網站。Growinc 是雅加達的行銷與廣告集團，網站介紹其服務、案例與旗下代理公司。由 Sawir Studio 打造。
 ---
 
 # Growinc Group 網站

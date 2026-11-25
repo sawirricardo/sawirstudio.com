@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/fr/projects/par/
 description: Par est une calculatrice financière RPN complète pour iPhone et iPad, avec les séquences de touches dorées d’origine : TVM, prêts, VAN, TRI, obligations et plus encore.
 ---

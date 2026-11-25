@@ -1,7 +1,7 @@
 ---
-title: Корпоративный сайт Adiwarna | SawirStudio
+title: Корпоративный сайт Adiwarna | Sawir Studio
 url: https://sawirstudio.com/ru/projects/adiwarna-company-profile-website/
-description: Корпоративный сайт для PT Adiwarna Anugerah Abadi, разработанный и созданный SawirStudio.
+description: Корпоративный сайт для PT Adiwarna Anugerah Abadi, разработанный и созданный Sawir Studio.
 ---
 
 # Сайт-визитка компании Adiwarna

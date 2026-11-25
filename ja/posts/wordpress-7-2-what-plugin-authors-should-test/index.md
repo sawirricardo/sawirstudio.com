@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2：プラグイン開発者がテストしておきたいこと | SawirStudio
+title: WordPress 7.2：プラグイン開発者がテストしておきたいこと | Sawir Studio
 url: https://sawirstudio.com/ja/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 は 2026 年 12 月 8 日にリリース予定です。アプリケーションパスワードや提案中の Secrets API から Interactivity API のルーターまで、プラグイン開発者への影響と、今すぐできるテスト方法をご紹介します。
 ---

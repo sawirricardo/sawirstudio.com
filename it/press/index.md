@@ -1,5 +1,5 @@
 ---
-title: Press kit | SawirStudio
+title: Press kit | Sawir Studio
 url: https://sawirstudio.com/it/press/
 description: Il press kit di Sawir Studio: loghi, colori e font del brand, dati sull’azienda, un breve testo di presentazione e la biografia e la foto del fondatore, da usare liberamente.
 ---

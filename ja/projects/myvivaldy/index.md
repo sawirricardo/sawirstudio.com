@@ -1,7 +1,7 @@
 ---
-title: MyVivaldy | SawirStudio
+title: MyVivaldy | Sawir Studio
 url: https://sawirstudio.com/ja/projects/myvivaldy/
-description: MyVivaldy は Vivaldy Skin Clinic のクリニックシステムと患者さま向けアプリです。iPhone と Android で予約、受診履歴、処方の確認ができます。SawirStudio が開発しました。
+description: MyVivaldy は Vivaldy Skin Clinic のクリニックシステムと患者さま向けアプリです。iPhone と Android で予約、受診履歴、処方の確認ができます。Sawir Studio が開発しました。
 ---
 
 # MyVivaldy

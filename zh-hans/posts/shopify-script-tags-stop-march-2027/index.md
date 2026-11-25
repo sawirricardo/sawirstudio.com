@@ -1,5 +1,5 @@
 ---
-title: Shopify Script Tags 将于 2027 年 3 月停用 | SawirStudio
+title: Shopify Script Tags 将于 2027 年 3 月停用 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/shopify-script-tags-stop-march-2027/
 description: Shopify 将于 2027 年 3 月 1 日停止运行在线商店的 script tag。本文介绍受影响的应用、如何检查您的店铺，以及用什么来替代。
 ---

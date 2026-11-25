@@ -1,7 +1,7 @@
 ---
-title: Adiwarna 企業プロフィールサイト | SawirStudio
+title: Adiwarna 企業プロフィールサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/adiwarna-company-profile-website/
-description: PT Adiwarna Anugerah Abadi の企業プロフィールサイト。SawirStudio が設計・構築しました。
+description: PT Adiwarna Anugerah Abadi の企業プロフィールサイト。Sawir Studio が設計・構築しました。
 ---
 
 # Adiwarna 企業プロフィールウェブサイト

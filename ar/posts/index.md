@@ -1,7 +1,7 @@
 ---
-title: المدونة | SawirStudio
+title: المدونة | Sawir Studio
 url: https://sawirstudio.com/ar/posts/
-description: مقالات من SawirStudio حول بناء تطبيقات الويب باستخدام Laravel وPHP.
+description: مقالات من Sawir Studio حول بناء تطبيقات الويب باستخدام Laravel وPHP.
 ---
 
 # المدونة

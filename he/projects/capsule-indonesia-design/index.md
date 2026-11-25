@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia Design | SawirStudio
+title: Capsule Indonesia Design | Sawir Studio
 url: https://sawirstudio.com/he/projects/capsule-indonesia-design/
-description: חוברת מוצר ליחידות הקפסולה של Capsule Indonesia, בעיצוב SawirStudio בכסף וכחול, עם מאפייני כל קפסולה והמקומות שבהם היא מתאימה.
+description: חוברת מוצר ליחידות הקפסולה של Capsule Indonesia, בעיצוב Sawir Studio בכסף וכחול, עם מאפייני כל קפסולה והמקומות שבהם היא מתאימה.
 ---
 
 # עיצוב Capsule Indonesia

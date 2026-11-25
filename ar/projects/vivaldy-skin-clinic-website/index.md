@@ -1,7 +1,7 @@
 ---
-title: موقع عيادة Vivaldy Skin Clinic | SawirStudio
+title: موقع عيادة Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/
-description: موقع عيادة Vivaldy Skin Clinic للأمراض الجلدية والتناسلية، يعرض علاجاتها ومتجرها وبيانات التواصل معها. من تطوير SawirStudio.
+description: موقع عيادة Vivaldy Skin Clinic للأمراض الجلدية والتناسلية، يعرض علاجاتها ومتجرها وبيانات التواصل معها. من تطوير Sawir Studio.
 ---
 
 # موقع Vivaldy Skin Clinic

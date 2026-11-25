@@ -1,12 +1,12 @@
 ---
-title: 项目 | SawirStudio
+title: 项目 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/
-description: SawirStudio 打造的应用、网站和设计，从客户项目到我们自己在 App Store 上的应用。
+description: Sawir Studio 打造的应用、网站和设计，从客户项目到我们自己在 App Store 上的应用。
 ---
 
 # 最新项目
 
-SawirStudio 最新项目合集
+Sawir Studio 最新项目合集
 
 应用程序
 

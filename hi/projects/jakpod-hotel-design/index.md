@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel डिज़ाइन | SawirStudio
+title: JakPod Hotel डिज़ाइन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/jakpod-hotel-design/
-description: जकार्ता के थामरिन में स्थित पॉड होटल JakPod Hotel के लिए आइडेंटिटी डिज़ाइन: गुलाबी से नीले ग्रेडिएंट वाले गोले में JAK मोनोग्राम। SawirStudio द्वारा।
+description: जकार्ता के थामरिन में स्थित पॉड होटल JakPod Hotel के लिए आइडेंटिटी डिज़ाइन: गुलाबी से नीले ग्रेडिएंट वाले गोले में JAK मोनोग्राम। Sawir Studio द्वारा।
 ---
 
 # JakPod Hotel डिज़ाइन

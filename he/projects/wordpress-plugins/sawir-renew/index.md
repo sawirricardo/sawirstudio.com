@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – חיוב מחזורי ל-WooCommerce | SawirStudio
+title: Sawir Renew – חיוב מחזורי ל-WooCommerce | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/sawir-renew/
 description: מנויים מלאים ל-WooCommerce: חיוב מחזורי, תקופות ניסיון, דמי הצטרפות, השהיה ודילוג, מעבר בין תוכניות, ניהול חובות וניסיונות חיוב חוזרים חכמים. הכול בחינם.
 ---

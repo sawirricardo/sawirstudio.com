@@ -1,5 +1,5 @@
 ---
-title: Odoo & sistemi gestionali su misura | SawirStudio
+title: Odoo & sistemi gestionali su misura | Sawir Studio
 url: https://sawirstudio.com/it/odoo/
 description: Punto cassa, magazzino, acquisti e contabilità in un unico sistema: Odoo configurato sul vostro modo di lavorare, sviluppo su misura quando non si adatta, oppure entrambi. Da chi scrive moduli per Odoo.
 ---

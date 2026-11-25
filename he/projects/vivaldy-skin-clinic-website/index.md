@@ -1,7 +1,7 @@
 ---
-title: אתר Vivaldy Skin Clinic | SawirStudio
+title: אתר Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/he/projects/vivaldy-skin-clinic-website/
-description: אתר של Vivaldy Skin Clinic, מרפאה לדרמטולוגיה ולמחלות מין, שמציג את הטיפולים, את החנות ואת פרטי הקשר של המרפאה. נבנה על ידי SawirStudio.
+description: אתר של Vivaldy Skin Clinic, מרפאה לדרמטולוגיה ולמחלות מין, שמציג את הטיפולים, את החנות ואת פרטי הקשר של המרפאה. נבנה על ידי Sawir Studio.
 ---
 
 # אתר Vivaldy Skin Clinic

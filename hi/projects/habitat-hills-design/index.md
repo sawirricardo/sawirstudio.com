@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/hi/projects/habitat-hills-design/
-description: Habitat Hills के लिए ट्राई-फोल्ड ब्रोशर। यह बोगोर के मेगामेंदुंग में 27 हेक्टेयर में फैला एक नेचर रिसॉर्ट है। इसे SawirStudio ने फ़ॉरेस्ट ग्रीन और टेराकोटा रंगों में डिज़ाइन किया है।
+description: Habitat Hills के लिए ट्राई-फोल्ड ब्रोशर। यह बोगोर के मेगामेंदुंग में 27 हेक्टेयर में फैला एक नेचर रिसॉर्ट है। इसे Sawir Studio ने फ़ॉरेस्ट ग्रीन और टेराकोटा रंगों में डिज़ाइन किया है।
 ---
 
 # Habitat Hills डिज़ाइन

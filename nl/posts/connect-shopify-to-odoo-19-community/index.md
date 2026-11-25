@@ -1,5 +1,5 @@
 ---
-title: Shopify koppelen aan Odoo 19 Community | SawirStudio
+title: Shopify koppelen aan Odoo 19 Community | Sawir Studio
 url: https://sawirstudio.com/nl/posts/connect-shopify-to-odoo-19-community/
 description: Zo koppel je een Shopify-winkel aan Odoo 19 Community met de open source OCA Shopify-connector: de app in het Dev Dashboard, scopes, queue_job, webhooks en onboarding.
 ---

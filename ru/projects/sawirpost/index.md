@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/ru/projects/sawirpost/
 description: Напишите пост один раз и публикуйте его в 25+ соцсетях по расписанию — сервис создан для агентств
 ---

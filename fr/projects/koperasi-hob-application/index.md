@@ -1,5 +1,5 @@
 ---
-title: Application Koperasi HOB | SawirStudio
+title: Application Koperasi HOB | Sawir Studio
 url: https://sawirstudio.com/fr/projects/koperasi-hob-application/
 description: L’application de courses de Koperasi HOB : les membres parcourent les produits ménagers par catégorie, choisissent la livraison ou le retrait, et paient avec le solde de leur coopérative.
 ---

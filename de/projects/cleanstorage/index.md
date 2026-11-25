@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/de/projects/cleanstorage/
 description: CleanStorage findet doppelte Fotos, große Videos und mehrfach vorhandene Kontakte auf Ihrem iPhone, damit Sie entscheiden können, was bleibt. Keine Werbung, kein Abo.
 ---

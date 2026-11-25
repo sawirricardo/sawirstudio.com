@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – WooCommerce 老客推荐好友插件 | SawirStudio
+title: Sawir Referral – WooCommerce 老客推荐好友插件 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-referral/
 description: 适用于 WooCommerce 的双向奖励推荐计划。朋友获得折扣，推荐人获得奖励优惠券——可通过推荐码或链接分享，以 WhatsApp 为先。
 ---

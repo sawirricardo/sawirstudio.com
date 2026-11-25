@@ -1,5 +1,5 @@
 ---
-title: プラグイン向け WordPress Abilities API | SawirStudio
+title: プラグイン向け WordPress Abilities API | Sawir Studio
 url: https://sawirstudio.com/ja/posts/wordpress-abilities-api-for-plugins/
 description: AI エージェントなどのツールが WordPress プラグインの機能を見つけて安全に実行できるようにするための、Ability の登録方法を解説します。カテゴリー、スキーマ、パーミッション、アノテーション、REST エンドポイントを取り上げます。
 ---

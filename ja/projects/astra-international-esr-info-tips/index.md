@@ -1,7 +1,7 @@
 ---
-title: Astra International ESR Info & Tips | SawirStudio
+title: Astra International ESR Info & Tips | Sawir Studio
 url: https://sawirstudio.com/ja/projects/astra-international-esr-info-tips/
-description: Astra International 向けに SawirStudio が制作した、安全・衛生・環境をテーマにしたイラスト入りの本「ESR Info & Tips」。親しみやすい2人のキャラクターを軸にデザインしました。
+description: Astra International 向けに Sawir Studio が制作した、安全・衛生・環境をテーマにしたイラスト入りの本「ESR Info & Tips」。親しみやすい2人のキャラクターを軸にデザインしました。
 ---
 
 # Astra International ESR 情報＆ヒント

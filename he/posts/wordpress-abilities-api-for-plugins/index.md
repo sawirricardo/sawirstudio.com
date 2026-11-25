@@ -1,5 +1,5 @@
 ---
-title: WordPress Abilities API לתוספים | SawirStudio
+title: WordPress Abilities API לתוספים | Sawir Studio
 url: https://sawirstudio.com/he/posts/wordpress-abilities-api-for-plugins/
 description: איך לרשום abilities בתוסף WordPress כדי שסוכני AI וכלים אחרים יוכלו לגלות ולהפעיל אותן בבטחה: קטגוריות, סכמות, הרשאות, annotations ונקודות הקצה של ה-REST.
 ---

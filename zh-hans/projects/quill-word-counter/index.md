@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/quill-word-counter/
 description: 一款免费的字数统计工具，还能显示阅读时间、各类帖子的字数上限和您重复使用的词
 ---

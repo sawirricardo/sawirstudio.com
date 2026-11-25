@@ -1,5 +1,5 @@
 ---
-title: Laravel में सब्सक्रिप्शन प्लान की सीमाएँ | SawirStudio
+title: Laravel में सब्सक्रिप्शन प्लान की सीमाएँ | Sawir Studio
 url: https://sawirstudio.com/hi/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Laravel में सब्सक्रिप्शन प्लान की सीमाएँ कैसे लागू करें, कंट्रोलर में एक साधारण जाँच से लेकर Gate और Policy तक।
 ---

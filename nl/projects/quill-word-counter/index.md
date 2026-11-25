@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/nl/projects/quill-word-counter/
 description: Een gratis woordenteller die ook leestijd, lengtelimieten voor posts en je herhaalde woorden laat zien
 ---

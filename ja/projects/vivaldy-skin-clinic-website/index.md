@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic ウェブサイト | SawirStudio
+title: Vivaldy Skin Clinic ウェブサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/
-description: 皮膚科・性病科クリニック Vivaldy Skin Clinic のウェブサイト。施術内容、ショップ、連絡先をご紹介しています。制作は SawirStudio です。
+description: 皮膚科・性病科クリニック Vivaldy Skin Clinic のウェブサイト。施術内容、ショップ、連絡先をご紹介しています。制作は Sawir Studio です。
 ---
 
 # Vivaldy Skin Clinic ウェブサイト

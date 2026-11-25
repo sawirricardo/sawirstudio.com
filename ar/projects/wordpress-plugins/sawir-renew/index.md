@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – الفوترة المتكررة لـ WooCommerce | SawirStudio
+title: Sawir Renew – الفوترة المتكررة لـ WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/sawir-renew/
 description: اشتراكات متكاملة لـ WooCommerce: فوترة متكررة، وفترات تجريبية، ورسوم اشتراك، وإيقاف مؤقت وتخطي، وتبديل الخطط، ومتابعة المدفوعات المتأخرة، وإعادة محاولة ذكية. كل ذلك مجانًا.
 ---

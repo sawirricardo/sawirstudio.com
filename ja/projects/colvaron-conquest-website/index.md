@@ -1,7 +1,7 @@
 ---
-title: Colvaron Conquest ウェブサイト | SawirStudio
+title: Colvaron Conquest ウェブサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/colvaron-conquest-website/
-description: 戦略型トレーディングカードゲーム Colvaron Conquest のウェブサイト。SawirStudio がデザインと開発を担当しました。
+description: 戦略型トレーディングカードゲーム Colvaron Conquest のウェブサイト。Sawir Studio がデザインと開発を担当しました。
 ---
 
 # Colvaron Conquest ウェブサイト

@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic マーケティングデザイン | SawirStudio
+title: Vivaldy Skin Clinic マーケティングデザイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-marketing-design/
-description: SawirStudio による Vivaldy Skin Clinic のマーケティングデザイン。やわらかなホワイトとターコイズを基調にした、イード・アル＝フィトルのグリーティングカードなどを手がけました。
+description: Sawir Studio による Vivaldy Skin Clinic のマーケティングデザイン。やわらかなホワイトとターコイズを基調にした、イード・アル＝フィトルのグリーティングカードなどを手がけました。
 ---
 
 # Vivaldy Skin Clinic マーケティングデザイン
@@ -14,7 +14,7 @@ Vivaldy Skin Clinic は、ロンボク島マタラムにある皮膚科・性病
 
 ## 制作したもの
 
-SawirStudio では、このイード・アル＝フィトル（断食明け大祭）のグリーティングカード（「Wajah bersih dan bersinar di hari yang fitri」）など、クリニックのマーケティング素材をデザインしました。色は、クリニックのやわらかなホワイトとターコイズを基調にしています。
+Sawir Studio では、このイード・アル＝フィトル（断食明け大祭）のグリーティングカード（「Wajah bersih dan bersinar di hari yang fitri」）など、クリニックのマーケティング素材をデザインしました。色は、クリニックのやわらかなホワイトとターコイズを基調にしています。
 
 - **メッセージ。**「Wajah bersih dan bersinar di hari yang fitri」（聖なる日に、清らかで輝く素肌を）という言葉に、2019 年のイスラム暦 1440 年のイードのご挨拶を添えています。
 - **パーソナルな心遣い。** 宛名（To）と差出人（From）の欄を設け、クリニックが患者様一人ひとりにお名前入りでカードをお渡しできるようにしました。

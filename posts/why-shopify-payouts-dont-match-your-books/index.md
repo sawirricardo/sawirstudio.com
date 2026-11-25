@@ -1,5 +1,5 @@
 ---
-title: Why Shopify Payouts Don't Match Your Books | SawirStudio
+title: Why Shopify Payouts Don't Match Your Books | Sawir Studio
 url: https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/
 description: Why the money Shopify Payments sends to your bank never matches your sales report: fees, refunds, disputes, gift cards, currency conversion and timing, and how to reconcile it.
 ---

@@ -1,7 +1,7 @@
 ---
-title: Adiwarna 公司官网 | SawirStudio
+title: Adiwarna 公司官网 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/adiwarna-company-profile-website/
-description: PT Adiwarna Anugerah Abadi 的公司官网，由 SawirStudio 设计并搭建。
+description: PT Adiwarna Anugerah Abadi 的公司官网，由 Sawir Studio 设计并搭建。
 ---
 
 # Adiwarna 公司简介网站

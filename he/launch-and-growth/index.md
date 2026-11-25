@@ -1,5 +1,5 @@
 ---
-title: השקה וצמיחה | SawirStudio
+title: השקה וצמיחה | Sawir Studio
 url: https://sawirstudio.com/he/launch-and-growth/
 description: אנחנו בונים אתרים ואפליקציות כך שיהיה אפשר למצוא אותם, ואז עוזרים לאנשים למצוא אותם: הגדרות חיפוש, חיפוש מקומי, רישומים וקישורים נכנסים שהרווחנו, ומעקב חודשי.
 ---

@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | ऐप, वेब प्लेटफ़ॉर्म, Shopify और Odoo
+title: Sawir Studio | ऐप, वेब प्लेटफ़ॉर्म, Shopify और Odoo
 url: https://sawirstudio.com/hi/
-description: SawirStudio ऐसा सॉफ़्टवेयर बनाता है जिसे लोग इस्तेमाल करते हैं: क्लाइंट्स के लिए ऐप, वेब प्लेटफ़ॉर्म, और Odoo के साथ Shopify, और अपने खुद के iPhone, iPad और Mac ऐप।
+description: Sawir Studio ऐसा सॉफ़्टवेयर बनाता है जिसे लोग इस्तेमाल करते हैं: क्लाइंट्स के लिए ऐप, वेब प्लेटफ़ॉर्म, और Odoo के साथ Shopify, और अपने खुद के iPhone, iPad और Mac ऐप।
 ---
 
 नमस्ते, हम हैं Sawir Studio

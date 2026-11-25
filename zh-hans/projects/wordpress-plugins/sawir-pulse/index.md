@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – WooCommerce 实时销售与社交证明 | SawirStudio
+title: Sawir Pulse – WooCommerce 实时销售与社交证明 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse 会以角落里的小通知，向买家展示您店铺里真实发生的事情，例如最近的订单、正在浏览商品的人数和最新评价……
 ---

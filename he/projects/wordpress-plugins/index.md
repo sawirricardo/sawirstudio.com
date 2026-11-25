@@ -1,7 +1,7 @@
 ---
-title: תוספי WordPress | SawirStudio
+title: תוספי WordPress | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/
-description: שנים-עשר תוספי WordPress חינמיים מבית SawirStudio: מנויים, הפניות, התראות על חזרה למלאי ועוד ל-WooCommerce, וגם כלים לכל אתר WordPress.
+description: שנים-עשר תוספי WordPress חינמיים מבית Sawir Studio: מנויים, הפניות, התראות על חזרה למלאי ועוד ל-WooCommerce, וגם כלים לכל אתר WordPress.
 ---
 
 # תוספים ל-WordPress

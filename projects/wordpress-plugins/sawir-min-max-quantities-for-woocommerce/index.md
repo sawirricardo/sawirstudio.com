@@ -1,5 +1,5 @@
 ---
-title: Sawir Min Max Quantities for WooCommerce | SawirStudio
+title: Sawir Min Max Quantities for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/
 description: Set minimum and maximum purchase quantity rules for WooCommerce products, product categories, and the whole order.
 ---

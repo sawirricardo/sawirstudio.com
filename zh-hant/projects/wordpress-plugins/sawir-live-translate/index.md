@@ -1,5 +1,5 @@
 ---
-title: Sawir Live Translate | SawirStudio
+title: Sawir Live Translate | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-live-translate/
 description: Sawir Live Translate 讓您直接在原頁面上完成翻譯：選擇語言、自動翻譯畫面上的文字、儲存，再為訪客提供語言切換器。
 ---

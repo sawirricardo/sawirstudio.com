@@ -1,7 +1,7 @@
 ---
-title: אתר פרופיל החברה של Adiwarna | SawirStudio
+title: אתר פרופיל החברה של Adiwarna | Sawir Studio
 url: https://sawirstudio.com/he/projects/adiwarna-company-profile-website/
-description: אתר פרופיל החברה של PT Adiwarna Anugerah Abadi, שעוצב ונבנה על ידי SawirStudio.
+description: אתר פרופיל החברה של PT Adiwarna Anugerah Abadi, שעוצב ונבנה על ידי Sawir Studio.
 ---
 
 # אתר Adiwarna Company Profile

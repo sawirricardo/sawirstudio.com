@@ -1,5 +1,5 @@
 ---
-title: אייקונים שאפשר לזרוק עם Matter.js | SawirStudio
+title: אייקונים שאפשר לזרוק עם Matter.js | Sawir Studio
 url: https://sawirstudio.com/he/posts/throwable-app-icons-matter-js/
 description: איך בנינו את קופסת האייקונים שאפשר לזרוק בדף הבית שלנו: Matter.js לפיזיקה, אלמנטי DOM במקום canvas, צל שנשאר במקום בזמן שהאייקונים מסתובבים, ופתרונות גיבוי.
 ---

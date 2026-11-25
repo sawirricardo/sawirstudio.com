@@ -1,7 +1,7 @@
 ---
-title: تصميم المواد التسويقية لعيادة Vivaldy Skin Clinic | SawirStudio
+title: تصميم المواد التسويقية لعيادة Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-marketing-design/
-description: تصميم مواد تسويقية لعيادة Vivaldy Skin Clinic من SawirStudio، مثل بطاقة تهنئة بعيد الفطر بلوني العيادة الأبيض الهادئ والفيروزي.
+description: تصميم مواد تسويقية لعيادة Vivaldy Skin Clinic من Sawir Studio، مثل بطاقة تهنئة بعيد الفطر بلوني العيادة الأبيض الهادئ والفيروزي.
 ---
 
 # تصميم تسويقي لـ Vivaldy Skin Clinic

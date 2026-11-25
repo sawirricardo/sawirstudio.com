@@ -1,5 +1,5 @@
 ---
-title: Sawir Product Image Zoom for WooCommerce | SawirStudio
+title: Sawir Product Image Zoom for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/
 description: מוסיף ל-lightbox של תמונות מוצר ניווט והגדלה בלחיצה בגלריות המוצר של WooCommerce.
 ---

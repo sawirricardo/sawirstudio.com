@@ -1,7 +1,7 @@
 ---
-title: Tanda Tangan Digital Campaign | SawirStudio
+title: Tanda Tangan Digital Campaign | Sawir Studio
 url: https://sawirstudio.com/hi/projects/tanda-tangan-digital-campaign/
-description: SawirStudio द्वारा इंडोनेशिया के संचार और सूचना मंत्रालय के लिए डिजिटल सिग्नेचर कैंपेन का डिज़ाइन।
+description: Sawir Studio द्वारा इंडोनेशिया के संचार और सूचना मंत्रालय के लिए डिजिटल सिग्नेचर कैंपेन का डिज़ाइन।
 ---
 
 # Tanda Tangan Digital कैंपेन

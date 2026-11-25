@@ -1,7 +1,7 @@
 ---
-title: Site web de SPP Indonesia | SawirStudio
+title: Site web de SPP Indonesia | Sawir Studio
 url: https://sawirstudio.com/fr/projects/spp-indonesia-website/
-description: Site web de PT SPP Indonesia, spécialiste des pompes incendie, avec une page pour chaque type de pompe, de l’aspiration axiale à la turbine verticale. Réalisé par SawirStudio.
+description: Site web de PT SPP Indonesia, spécialiste des pompes incendie, avec une page pour chaque type de pompe, de l’aspiration axiale à la turbine verticale. Réalisé par Sawir Studio.
 ---
 
 # SPP Indonesia Website

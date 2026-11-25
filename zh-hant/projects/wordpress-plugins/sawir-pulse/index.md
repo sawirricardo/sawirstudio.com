@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – WooCommerce 即時銷售與社群證明外掛 | SawirStudio
+title: Sawir Pulse – WooCommerce 即時銷售與社群證明外掛 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse 會以角落的小型通知，讓購物者看到您商店裡真正發生的事，例如最新訂單、正在瀏覽商品的人數，以及最新評價……
 ---

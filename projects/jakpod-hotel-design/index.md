@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel Design | SawirStudio
+title: JakPod Hotel Design | Sawir Studio
 url: https://sawirstudio.com/projects/jakpod-hotel-design/
-description: Identity design for JakPod Hotel, a pod hotel in Thamrin, Jakarta: a JAK monogram in a pink-to-blue gradient circle, by SawirStudio.
+description: Identity design for JakPod Hotel, a pod hotel in Thamrin, Jakarta: a JAK monogram in a pink-to-blue gradient circle, by Sawir Studio.
 ---
 
 # JakPod Hotel Design

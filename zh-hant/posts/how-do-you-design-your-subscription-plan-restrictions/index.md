@@ -1,5 +1,5 @@
 ---
-title: Laravel 訂閱方案限制 | SawirStudio
+title: Laravel 訂閱方案限制 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: 如何在 Laravel 中落實訂閱方案的使用限制，從 controller 裡的簡單檢查，到 Gate 與 Policy。
 ---

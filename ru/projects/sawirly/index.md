@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/ru/projects/sawirly/
 description: Сервис сокращения ссылок с упором на приватность: без отслеживания и со ссылками, срок действия которых можно ограничить
 ---

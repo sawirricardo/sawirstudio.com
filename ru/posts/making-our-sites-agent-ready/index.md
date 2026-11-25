@@ -1,5 +1,5 @@
 ---
-title: Как мы подготовили сайты для AI-агентов | SawirStudio
+title: Как мы подготовили сайты для AI-агентов | Sawir Studio
 url: https://sawirstudio.com/ru/posts/making-our-sites-agent-ready/
 description: Как мы сделали сайты наших продуктов читаемыми для AI-агентов: Markdown-копии всех страниц, заголовки Link, llms.txt, Content Signals в robots.txt, каталог API и Agent Skills.
 ---

@@ -1,7 +1,7 @@
 ---
-title: אפליקציית PeopleBond HCMS | SawirStudio
+title: אפליקציית PeopleBond HCMS | Sawir Studio
 url: https://sawirstudio.com/he/projects/peoplebond-hcms-application/
-description: אפליקציית ווב של מערכת לניהול הון אנושי (HCMS) עבור PeopleBond, שנבנתה על ידי SawirStudio.
+description: אפליקציית ווב של מערכת לניהול הון אנושי (HCMS) עבור PeopleBond, שנבנתה על ידי Sawir Studio.
 ---
 
 # אפליקציית PeopleBond HCMS

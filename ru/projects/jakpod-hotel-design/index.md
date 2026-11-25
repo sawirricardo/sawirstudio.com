@@ -1,7 +1,7 @@
 ---
-title: Дизайн JakPod Hotel | SawirStudio
+title: Дизайн JakPod Hotel | Sawir Studio
 url: https://sawirstudio.com/ru/projects/jakpod-hotel-design/
-description: Разработка фирменного стиля для JakPod Hotel, капсульного отеля на улице Тамрин в Джакарте: монограмма JAK в круге с розово-голубым градиентом. Работа SawirStudio.
+description: Разработка фирменного стиля для JakPod Hotel, капсульного отеля на улице Тамрин в Джакарте: монограмма JAK в круге с розово-голубым градиентом. Работа Sawir Studio.
 ---
 
 # Дизайн JakPod Hotel

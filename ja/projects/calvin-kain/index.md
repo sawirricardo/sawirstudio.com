@@ -1,7 +1,7 @@
 ---
-title: Calvin Kain | SawirStudio
+title: Calvin Kain | Sawir Studio
 url: https://sawirstudio.com/ja/projects/calvin-kain/
-description: SawirStudio が Clicks&co と協力して Calvin Kain 向けに構築したアプリケーションです。
+description: Sawir Studio が Clicks&co と協力して Calvin Kain 向けに構築したアプリケーションです。
 ---
 
 # Calvin Kain

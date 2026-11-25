@@ -1,7 +1,7 @@
 ---
-title: DBTVアプリ | SawirStudio
+title: DBTVアプリ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/dbtv-application/
-description: DBTVは、Ps. Debby Basjirの説教、祈りの集会、賛美礼拝、ポッドキャスト、毎日のデボーションをiOSとAndroidでお届けするアプリです。開発はSawirStudioが担当しました。
+description: DBTVは、Ps. Debby Basjirの説教、祈りの集会、賛美礼拝、ポッドキャスト、毎日のデボーションをiOSとAndroidでお届けするアプリです。開発はSawir Studioが担当しました。
 ---
 
 # DBTV アプリケーション
@@ -16,7 +16,7 @@ DBTVは、Ps. Debby Basjirの教会活動のメディアチャンネルです。
 
 ## 制作したもの
 
-SawirStudioは、会衆の皆さまがスマートフォンから活動をフォローできるよう、iOSとAndroid向けのDBTVアプリを開発しました。
+Sawir Studioは、会衆の皆さまがスマートフォンから活動をフォローできるよう、iOSとAndroid向けのDBTVアプリを開発しました。
 
 - **説教と賛美礼拝。** 限定の説教動画、賛美礼拝（praise & worship）、ポッドキャストを配信します。動画はアプリ内でそのまま再生できます。
 - **祈り。** 子ども向けのMezbah Doaを含む、オンラインの祈りの集会に参加できます。

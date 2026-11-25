@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/it/projects/nofapfit/
 description: Una sfida di allenamento immediata per il momento in cui arriva l’impulso, con serie di giorni consecutivi per costruire disciplina
 ---

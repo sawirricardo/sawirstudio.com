@@ -1,5 +1,5 @@
 ---
-title: 自己动手搭建类似 WordPress 的 CMS | SawirStudio
+title: 自己动手搭建类似 WordPress 的 CMS | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: 使用 Laravel 和现代软件架构，搭建类似 WordPress 的内容管理系统。
 ---

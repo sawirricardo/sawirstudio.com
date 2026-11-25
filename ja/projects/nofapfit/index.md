@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/ja/projects/nofapfit/
 description: 衝動が起きたその瞬間に挑戦できる、即時エクササイズチャレンジ。連続記録で自己管理力を育てます
 ---

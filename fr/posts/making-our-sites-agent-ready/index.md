@@ -1,5 +1,5 @@
 ---
-title: Rendre nos sites accessibles aux agents IA | SawirStudio
+title: Rendre nos sites accessibles aux agents IA | Sawir Studio
 url: https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/
 description: Comment nous avons rendu nos sites produits lisibles par les agents IA : copies Markdown de chaque page, en-têtes Link, llms.txt, Content Signals dans robots.txt, catalogue d’API et Agent Skills.
 ---

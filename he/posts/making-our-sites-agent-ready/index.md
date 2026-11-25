@@ -1,5 +1,5 @@
 ---
-title: הכנת האתרים שלנו לסוכני AI | SawirStudio
+title: הכנת האתרים שלנו לסוכני AI | Sawir Studio
 url: https://sawirstudio.com/he/posts/making-our-sites-agent-ready/
 description: איך הפכנו את אתרי המוצרים שלנו לקריאים עבור סוכני AI: עותקי Markdown של כל דף, כותרות Link, llms.txt, Content Signals ב-robots.txt, קטלוג API ו-Agent Skills.
 ---

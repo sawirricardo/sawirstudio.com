@@ -1,5 +1,5 @@
 ---
-title: תנאי שימוש | SawirStudio
+title: תנאי שימוש | Sawir Studio
 url: https://sawirstudio.com/he/terms/
 description: התנאים לשימוש ב-sawirstudio.com: התוכן והפורטפוליו שלנו, תוספי ה-WordPress והאפליקציות בחינם, קישורים לאתרים אחרים, והדרך שבה עבודה עם לקוחות מוסכמת.
 ---

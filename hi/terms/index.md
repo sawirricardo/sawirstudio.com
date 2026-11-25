@@ -1,5 +1,5 @@
 ---
-title: उपयोग की शर्तें | SawirStudio
+title: उपयोग की शर्तें | Sawir Studio
 url: https://sawirstudio.com/hi/terms/
 description: sawirstudio.com के उपयोग की शर्तें: हमारा कंटेंट और पोर्टफ़ोलियो, मुफ़्त WordPress प्लगइन और ऐप, दूसरी साइटों के लिंक, और क्लाइंट के काम पर सहमति कैसे बनती है।
 ---

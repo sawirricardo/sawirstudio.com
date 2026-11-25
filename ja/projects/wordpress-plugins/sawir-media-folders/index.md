@@ -1,5 +1,5 @@
 ---
-title: Sawir Media Folders | SawirStudio
+title: Sawir Media Folders | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-media-folders/
 description: WordPress のメディアライブラリに、高速で無制限のフォルダを追加。ドラッグ&ドロップで整理できます。
 ---

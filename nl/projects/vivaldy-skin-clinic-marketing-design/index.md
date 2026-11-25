@@ -1,7 +1,7 @@
 ---
-title: Marketingdesign voor Vivaldy Skin Clinic | SawirStudio
+title: Marketingdesign voor Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-marketing-design/
-description: Marketingdesign voor Vivaldy Skin Clinic door SawirStudio, zoals een Eid al-Fitr-wenskaart in het zachte wit en turquoise van de kliniek.
+description: Marketingdesign voor Vivaldy Skin Clinic door Sawir Studio, zoals een Eid al-Fitr-wenskaart in het zachte wit en turquoise van de kliniek.
 ---
 
 # Vivaldy Skin Clinic Marketing Design

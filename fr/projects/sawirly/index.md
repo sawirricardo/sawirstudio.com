@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/fr/projects/sawirly/
 description: Un raccourcisseur d’URL axé sur la confidentialité, sans suivi, avec des liens qui peuvent expirer
 ---

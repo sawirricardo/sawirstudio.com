@@ -1,5 +1,5 @@
 ---
-title: Конфиденциальность | SawirStudio
+title: Конфиденциальность | Sawir Studio
 url: https://sawirstudio.com/ru/privacy/
 description: Какие данные собирает sawirstudio.com, зачем и какие сервисы их обрабатывают: Microsoft Clarity, форма обратной связи, Google Fonts и Cloudflare.
 ---

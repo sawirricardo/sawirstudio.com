@@ -1,7 +1,7 @@
 ---
-title: ブログ | SawirStudio
+title: ブログ | Sawir Studio
 url: https://sawirstudio.com/ja/posts/
-description: LaravelとPHPによるウェブアプリケーション開発について、SawirStudioが書いた記事をご紹介します。
+description: LaravelとPHPによるウェブアプリケーション開発について、Sawir Studioが書いた記事をご紹介します。
 ---
 
 # ブログ

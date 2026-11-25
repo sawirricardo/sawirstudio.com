@@ -1,7 +1,7 @@
 ---
-title: Сайт Vivaldy Skin Clinic | SawirStudio
+title: Сайт Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/ru/projects/vivaldy-skin-clinic-website/
-description: Сайт Vivaldy Skin Clinic — клиники дерматологии и венерологии: процедуры, магазин и контакты. Разработан SawirStudio.
+description: Сайт Vivaldy Skin Clinic — клиники дерматологии и венерологии: процедуры, магазин и контакты. Разработан Sawir Studio.
 ---
 
 # Сайт Vivaldy Skin Clinic

@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-insights/
 description: Тепловые карты, записи сессий, опросы, воронки и аналитика форм. Все данные остаются на вашем сервере.
 ---

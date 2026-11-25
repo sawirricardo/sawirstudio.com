@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/he/projects/habitat-hills-design/
-description: חוברת מקופלת בשלושה חלקים עבור Habitat Hills, אתר נופש בטבע בשטח של 27 הקטרים במגמנדונג (Megamendung), בוגור (Bogor), שעוצבה על ידי SawirStudio בירוק יער ובטרקוטה.
+description: חוברת מקופלת בשלושה חלקים עבור Habitat Hills, אתר נופש בטבע בשטח של 27 הקטרים במגמנדונג (Megamendung), בוגור (Bogor), שעוצבה על ידי Sawir Studio בירוק יער ובטרקוטה.
 ---
 
 # עיצוב Habitat Hills

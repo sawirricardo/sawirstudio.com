@@ -1,5 +1,5 @@
 ---
-title: Shopify Script Tags enden im März 2027 | SawirStudio
+title: Shopify Script Tags enden im März 2027 | Sawir Studio
 url: https://sawirstudio.com/de/posts/shopify-script-tags-stop-march-2027/
 description: Shopify stellt am 1. März 2027 die Ausführung von Script Tags im Online-Shop ein. Welche Apps betroffen sind, wie Sie Ihren Shop prüfen und was an ihre Stelle tritt.
 ---

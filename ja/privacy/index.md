@@ -1,5 +1,5 @@
 ---
-title: プライバシー | SawirStudio
+title: プライバシー | Sawir Studio
 url: https://sawirstudio.com/ja/privacy/
 description: sawirstudio.comが収集する情報とその目的、そして情報を取り扱うサービス（Microsoft Clarity、お問い合わせフォーム、Google Fonts、Cloudflare）についてご説明します。
 ---

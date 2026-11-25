@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – برنامج «أحضر صديقاً» لـ WooCommerce | SawirStudio
+title: Sawir Referral – برنامج «أحضر صديقاً» لـ WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/sawir-referral/
 description: برنامج إحالة قائم على المنفعة المتبادلة لـ WooCommerce. الأصدقاء يحصلون على خصم، وأصحاب الإحالة يكسبون كوبون مكافأة — بالمشاركة عبر رمز أو رابط، مع أولوية لـ WhatsApp.
 ---

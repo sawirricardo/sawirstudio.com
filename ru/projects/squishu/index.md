@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/ru/projects/squishu/
 description: Squishu — милая кликер-игра для iPhone, iPad и Apple Watch: мните пельмени и побеждайте босса каждого мира, пока не закончился пар.
 ---

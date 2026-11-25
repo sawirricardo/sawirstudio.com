@@ -1,5 +1,5 @@
 ---
-title: 適用於外掛的 WordPress Abilities API | SawirStudio
+title: 適用於外掛的 WordPress Abilities API | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/wordpress-abilities-api-for-plugins/
 description: 如何在 WordPress 外掛中註冊 abilities，讓 AI 代理與其他工具能安全地探索並執行這些功能：分類、schema、權限、註記與 REST 端點。
 ---

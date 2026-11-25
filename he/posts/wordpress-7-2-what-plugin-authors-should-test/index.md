@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: מה כדאי לבדוק לפני העדכון, למפתחי תוספים | SawirStudio
+title: WordPress 7.2: מה כדאי לבדוק לפני העדכון, למפתחי תוספים | Sawir Studio
 url: https://sawirstudio.com/he/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 צפוי לצאת ב-8 בדצמבר 2026. מה משתנה למפתחי תוספים, מ-Application Passwords וה-Secrets API המוצע ועד הראוטר של Interactivity API, ואיך בודקים כבר עכשיו.
 ---

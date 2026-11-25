@@ -1,7 +1,7 @@
 ---
-title: TaniMilenial 应用 | SawirStudio
+title: TaniMilenial 应用 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/tani-milenial-application/
-description: TaniMilenial 农业、渔业和畜牧业移动应用，由 SawirStudio 与 Clicks&Co 合作开发。
+description: TaniMilenial 农业、渔业和畜牧业移动应用，由 Sawir Studio 与 Clicks&Co 合作开发。
 ---
 
 # TaniMilenial 应用

@@ -1,5 +1,5 @@
 ---
-title: Shopify のスクリプトタグは2027年3月で終了 | SawirStudio
+title: Shopify のスクリプトタグは2027年3月で終了 | Sawir Studio
 url: https://sawirstudio.com/ja/posts/shopify-script-tags-stop-march-2027/
 description: Shopify は2027年3月1日にオンラインストアのスクリプトタグの実行を停止します。影響を受けるアプリ、ストアの確認方法、代わりに使う仕組みを解説します。
 ---

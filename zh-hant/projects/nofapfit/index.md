@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/nofapfit/
 description: 衝動來襲的當下，立即開始的運動挑戰，用連續天數培養自律
 ---

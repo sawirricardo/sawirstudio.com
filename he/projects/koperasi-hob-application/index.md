@@ -1,5 +1,5 @@
 ---
-title: אפליקציית Koperasi HOB | SawirStudio
+title: אפליקציית Koperasi HOB | Sawir Studio
 url: https://sawirstudio.com/he/projects/koperasi-hob-application/
 description: אפליקציית הקניות של Koperasi HOB: החברים מדפדפים במוצרי בית לפי קטגוריה, בוחרים משלוח או איסוף עצמי, ומשלמים מיתרת הקואופרטיב שלהם.
 ---

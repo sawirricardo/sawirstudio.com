@@ -1,5 +1,5 @@
 ---
-title: 打造專屬於您的 CMS，就像 WordPress 一樣 | SawirStudio
+title: 打造專屬於您的 CMS，就像 WordPress 一樣 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: 使用 Laravel 與現代軟體架構，打造類似 WordPress 的內容管理系統。
 ---

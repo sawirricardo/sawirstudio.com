@@ -1,5 +1,5 @@
 ---
-title: 使用條款 | SawirStudio
+title: 使用條款 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/terms/
 description: 使用 sawirstudio.com 的條款：我們的內容與作品集、免費的 WordPress 外掛與應用程式、其他網站的連結，以及客戶專案的約定方式。
 ---

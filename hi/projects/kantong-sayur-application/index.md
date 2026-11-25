@@ -1,7 +1,7 @@
 ---
-title: Kantong Sayur ऐप्लिकेशन | SawirStudio
+title: Kantong Sayur ऐप्लिकेशन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/kantong-sayur-application/
-description: KantongSayur के लिए सब्ज़ी और किराना खरीदारी का ऐप और वेबसाइट, जिसे SawirStudio ने बनाया है।
+description: KantongSayur के लिए सब्ज़ी और किराना खरीदारी का ऐप और वेबसाइट, जिसे Sawir Studio ने बनाया है।
 ---
 
 # Kantong Sayur ऐप्लिकेशन

@@ -1,5 +1,5 @@
 ---
-title: Subscription Plan Limits in Laravel | SawirStudio
+title: Subscription Plan Limits in Laravel | Sawir Studio
 url: https://sawirstudio.com/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: How to enforce subscription plan limits in Laravel, from a simple check in the controller to Gates and Policies.
 ---

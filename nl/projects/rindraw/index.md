@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/nl/projects/rindraw/
 description: Een tekenapp waarin elke streek bewerkbaar blijft. Eén keer betalen voor iPad, iPhone en Mac.
 ---

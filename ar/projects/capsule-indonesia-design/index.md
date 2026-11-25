@@ -1,7 +1,7 @@
 ---
-title: تصميم كتيب Capsule Indonesia | SawirStudio
+title: تصميم كتيب Capsule Indonesia | Sawir Studio
 url: https://sawirstudio.com/ar/projects/capsule-indonesia-design/
-description: كتيب منتجات لوحدات Capsule Indonesia الكبسولية، صممته SawirStudio بالفضي والأزرق، ويعرض مزايا كل كبسولة والأماكن التي تناسبها.
+description: كتيب منتجات لوحدات Capsule Indonesia الكبسولية، صممته Sawir Studio بالفضي والأزرق، ويعرض مزايا كل كبسولة والأماكن التي تناسبها.
 ---
 
 # تصميم Capsule Indonesia

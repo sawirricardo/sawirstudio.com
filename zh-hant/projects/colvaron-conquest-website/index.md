@@ -1,7 +1,7 @@
 ---
-title: Colvaron Conquest 網站 | SawirStudio
+title: Colvaron Conquest 網站 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/
-description: Colvaron Conquest 策略型集換式卡牌遊戲的官方網站，由 SawirStudio 設計並打造。
+description: Colvaron Conquest 策略型集換式卡牌遊戲的官方網站，由 Sawir Studio 設計並打造。
 ---
 
 # Colvaron Conquest 網站

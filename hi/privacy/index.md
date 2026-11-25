@@ -1,5 +1,5 @@
 ---
-title: गोपनीयता | SawirStudio
+title: गोपनीयता | Sawir Studio
 url: https://sawirstudio.com/hi/privacy/
 description: sawirstudio.com क्या एकत्र करता है, क्यों करता है, और कौन-सी सेवाएँ इसे संभालती हैं: Microsoft Clarity, कॉन्टैक्ट फ़ॉर्म, Google Fonts और Cloudflare।
 ---

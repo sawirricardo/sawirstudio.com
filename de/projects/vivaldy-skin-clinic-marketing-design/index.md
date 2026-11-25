@@ -1,7 +1,7 @@
 ---
-title: Marketing-Design für die Vivaldy Skin Clinic | SawirStudio
+title: Marketing-Design für die Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/de/projects/vivaldy-skin-clinic-marketing-design/
-description: Marketing-Design für die Vivaldy Skin Clinic von SawirStudio, etwa eine Grußkarte zum Fest des Fastenbrechens in der weichen Farbwelt der Klinik aus Weiß und Türkis.
+description: Marketing-Design für die Vivaldy Skin Clinic von Sawir Studio, etwa eine Grußkarte zum Fest des Fastenbrechens in der weichen Farbwelt der Klinik aus Weiß und Türkis.
 ---
 
 # Vivaldy Skin Clinic Marketing Design

@@ -1,5 +1,5 @@
 ---
-title: למה תשלומי Shopify לא תואמים להנהלת החשבונות | SawirStudio
+title: למה תשלומי Shopify לא תואמים להנהלת החשבונות | Sawir Studio
 url: https://sawirstudio.com/he/posts/why-shopify-payouts-dont-match-your-books/
 description: למה הכסף ש-Shopify Payments מעבירה לבנק שלכם אף פעם לא תואם לדוח המכירות: עמלות, החזרים, מחלוקות, גיפט קארד, המרת מטבע ותזמון, ואיך מבצעים התאמה.
 ---

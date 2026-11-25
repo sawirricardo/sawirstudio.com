@@ -1,7 +1,7 @@
 ---
-title: SPP Indonesia Website | SawirStudio
+title: SPP Indonesia Website | Sawir Studio
 url: https://sawirstudio.com/nl/projects/spp-indonesia-website/
-description: Website voor PT SPP Indonesia, een specialist in brandblespompen, met een pagina voor elk type pomp, van end suction tot vertical turbine. Gebouwd door SawirStudio.
+description: Website voor PT SPP Indonesia, een specialist in brandblespompen, met een pagina voor elk type pomp, van end suction tot vertical turbine. Gebouwd door Sawir Studio.
 ---
 
 # SPP Indonesia Website

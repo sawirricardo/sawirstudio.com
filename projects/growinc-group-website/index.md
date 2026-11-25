@@ -1,7 +1,7 @@
 ---
-title: Growinc Group Website | SawirStudio
+title: Growinc Group Website | Sawir Studio
 url: https://sawirstudio.com/projects/growinc-group-website/
-description: Corporate website for Growinc Group Indonesia, a Jakarta marketing and advertising group, with its services, case studies and agencies. Built by SawirStudio.
+description: Corporate website for Growinc Group Indonesia, a Jakarta marketing and advertising group, with its services, case studies and agencies. Built by Sawir Studio.
 ---
 
 # Growinc Group Website

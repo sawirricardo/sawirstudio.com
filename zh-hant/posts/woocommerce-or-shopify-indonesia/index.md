@@ -1,5 +1,5 @@
 ---
-title: 印尼該選 WooCommerce 還是 Shopify？｜SawirStudio
+title: 印尼該選 WooCommerce 還是 Shopify？｜Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/woocommerce-or-shopify-indonesia/
 description: 印尼商店該選 WooCommerce 還是 Shopify：以印尼盾計算的每月費用、金流與 QRIS、Shopify 加收的交易手續費、物流，以及各自適合哪種企業。
 ---

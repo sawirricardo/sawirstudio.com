@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – Refer a Friend for WooCommerce | SawirStudio
+title: Sawir Referral – Refer a Friend for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/projects/wordpress-plugins/sawir-referral/
 description: Give-and-get referral program for WooCommerce. Friends get a discount, advocates earn a reward coupon — shared by code or link, WhatsApp-first.
 ---

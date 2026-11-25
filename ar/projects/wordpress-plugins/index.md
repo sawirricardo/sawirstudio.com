@@ -1,7 +1,7 @@
 ---
-title: إضافات WordPress | SawirStudio
+title: إضافات WordPress | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/
-description: اثنتا عشرة إضافة WordPress مجانية من SawirStudio: اشتراكات وإحالات وتنبيهات عودة المخزون وغيرها لـ WooCommerce، إضافة إلى أدوات لأي موقع WordPress.
+description: اثنتا عشرة إضافة WordPress مجانية من Sawir Studio: اشتراكات وإحالات وتنبيهات عودة المخزون وغيرها لـ WooCommerce، إضافة إلى أدوات لأي موقع WordPress.
 ---
 
 # إضافات WordPress

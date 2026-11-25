@@ -1,5 +1,5 @@
 ---
-title: Contact | SawirStudio
+title: Contact | Sawir Studio
 url: https://sawirstudio.com/contact/
 description: Tell us about your project. Applications, websites, and digital design.
 ---

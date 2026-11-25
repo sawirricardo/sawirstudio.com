@@ -1,5 +1,5 @@
 ---
-title: 為什麼 Shopify 撥款金額與您的帳面對不上 | SawirStudio
+title: 為什麼 Shopify 撥款金額與您的帳面對不上 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/
 description: 為什麼 Shopify Payments 匯到您銀行帳戶的金額，永遠與銷售報表對不上：手續費、退款、爭議款項、禮品卡、幣別轉換和時間差，以及如何完成對帳。
 ---

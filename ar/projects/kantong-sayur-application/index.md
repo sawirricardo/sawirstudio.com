@@ -1,7 +1,7 @@
 ---
-title: تطبيق Kantong Sayur | SawirStudio
+title: تطبيق Kantong Sayur | Sawir Studio
 url: https://sawirstudio.com/ar/projects/kantong-sayur-application/
-description: تطبيق وموقع للتسوّق من الخضروات والبقالة لصالح KantongSayur، من تطوير SawirStudio.
+description: تطبيق وموقع للتسوّق من الخضروات والبقالة لصالح KantongSayur، من تطوير Sawir Studio.
 ---
 
 # تطبيق Kantong Sayur

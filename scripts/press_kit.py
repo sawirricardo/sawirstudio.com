@@ -91,7 +91,7 @@ f = lambda v: f"{v:.1f}"
 
 def wordmark(word_color, border_color):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{vb}">'
-            f'<title>SawirStudio</title>'
+            f'<title>Sawir Studio</title>'
             f'<path fill="{word_color}" d="{sawir_d}"/>'
             f'<g transform="rotate(-3 {f(cx)} {f(cy)})">'
             f'<rect x="{f(box_x + border / 2)}" y="{f(box_y + border / 2)}" width="{f(box_w - border)}" height="{f(box_h - border)}" rx="{f(radius - border / 2)}" fill="#ffd84d" stroke="{border_color}" stroke-width="{f(border)}"/>'
@@ -100,7 +100,7 @@ def wordmark(word_color, border_color):
 fav = favicon.read_text()
 fav = re.sub(r"<style>.*?</style>", "", fav)
 def mark(shadow):
-    return fav.replace('class="shadow" ', "").replace('fill="#1f1d1a"/><rect', f'fill="{shadow}"/><rect', 1).replace("<svg ", "<svg ", 1).replace('viewBox="0 0 64 64">', 'viewBox="0 0 64 64"><title>SawirStudio</title>', 1)
+    return fav.replace('class="shadow" ', "").replace('fill="#1f1d1a"/><rect', f'fill="{shadow}"/><rect', 1).replace("<svg ", "<svg ", 1).replace('viewBox="0 0 64 64">', 'viewBox="0 0 64 64"><title>Sawir Studio</title>', 1)
 
 files = {
     "sawirstudio-wordmark.svg": wordmark("#1f1d1a", "#1f1d1a"),
@@ -120,7 +120,7 @@ soup = BeautifulSoup((ROOT / "press/index.html").read_text(), "html.parser")
 clean = lambda el: re.sub(r" ([,.;:])", r"\1", re.sub(r"\s+", " ", el.get_text(" "))).strip()
 facts = [f"{clean(li.strong)}: {clean(li)[len(clean(li.strong)):].strip()}" for li in soup.select(".press-facts li")]
 paras = soup.select(".press-intro .prose p")
-about = ("SawirStudio press kit\nhttps://sawirstudio.com/press/\n\n" + "\n".join(facts)
+about = ("Sawir Studio press kit\nhttps://sawirstudio.com/press/\n\n" + "\n".join(facts)
          + "\n\nIn one line\n" + clean(paras[0]) + "\n\nIn a paragraph\n" + clean(paras[1])
          + "\n\nFounder\n" + clean(soup.select_one(".press-bio p"))
          + "\n\nColors\n" + "\n".join(f"{clean(li.strong)}: {clean(li.code)}" for li in soup.select(".swatches li"))

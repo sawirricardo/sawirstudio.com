@@ -178,7 +178,7 @@ def pieces(path, f):
 
 # ---------------------------------------------------------------- translation
 
-PROMPT = """You translate the website of SawirStudio, a small software studio (apps, web platforms, Shopify and Odoo integrations, WordPress plugins), into {lang}.
+PROMPT = """You translate the website of Sawir Studio, a small software studio (apps, web platforms, Shopify and Odoo integrations, WordPress plugins), into {lang}.
 
 You get a JSON object: "page" is the page's URL, "html" maps ids to HTML fragments, "text" maps ids to plain text. Reply with one JSON object with the same two keys and the same ids, each value translated. Nothing else, no code fences.
 

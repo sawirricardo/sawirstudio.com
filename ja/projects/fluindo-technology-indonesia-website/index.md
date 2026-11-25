@@ -1,7 +1,7 @@
 ---
-title: Fluindo Technology Indonesia ウェブサイト | SawirStudio
+title: Fluindo Technology Indonesia ウェブサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/fluindo-technology-indonesia-website/
-description: SawirStudio が設計・構築した、Fluindo Technology Indonesia のウェブサイトです。
+description: Sawir Studio が設計・構築した、Fluindo Technology Indonesia のウェブサイトです。
 ---
 
 # Fluindo Technology Indonesia ウェブサイト
@@ -14,7 +14,7 @@ PT Fluindo Technology Indonesia は、ポンプ、バルブ、シール機器、
 
 ## 制作したもの
 
-SawirStudio は、同社のウェブサイトの設計と構築を担当しました。カテゴリー別・ブランド別に整理した製品カタログ、納入実績の紹介、お問い合わせへの導線を備えています。
+Sawir Studio は、同社のウェブサイトの設計と構築を担当しました。カテゴリー別・ブランド別に整理した製品カタログ、納入実績の紹介、お問い合わせへの導線を備えています。
 
 - **カタログ。** ポンプ、バルブ、シール機器、熱交換器・セパレーターの 4 カテゴリーを用意し、ANSI や API 610 のプロセスポンプからスラリーポンプ、サンプポンプまで、すべてのポンプシリーズを掲載しています。
 - **納入実績。** インドネシア各地の納入事例を、機器名、型式、サイズまで具体的に掲載しています。たとえば、PLN の発電所に納入した Goulds のポンプや、Alfa Laval のオイルピュリファイヤーなどです。

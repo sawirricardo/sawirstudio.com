@@ -1,5 +1,5 @@
 ---
-title: Limits für Abo-Pläne in Laravel | SawirStudio
+title: Limits für Abo-Pläne in Laravel | Sawir Studio
 url: https://sawirstudio.com/de/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: So setzen Sie Limits für Abo-Pläne in Laravel durch, von der einfachen Prüfung im Controller bis zu Gates und Policies.
 ---

@@ -1,5 +1,5 @@
 ---
-title: प्लगइन के लिए WordPress Abilities API | SawirStudio
+title: प्लगइन के लिए WordPress Abilities API | Sawir Studio
 url: https://sawirstudio.com/hi/posts/wordpress-abilities-api-for-plugins/
 description: WordPress प्लगइन में एबिलिटीज़ कैसे रजिस्टर करें, ताकि AI एजेंट्स और दूसरे टूल्स उन्हें खोज सकें और सुरक्षित तरीके से चला सकें: कैटेगरी, स्कीमा, परमिशन, एनोटेशन और REST एंडपॉइंट।
 ---

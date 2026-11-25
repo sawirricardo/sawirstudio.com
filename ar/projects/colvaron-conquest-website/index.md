@@ -1,7 +1,7 @@
 ---
-title: موقع Colvaron Conquest | SawirStudio
+title: موقع Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/ar/projects/colvaron-conquest-website/
-description: موقع Colvaron Conquest، لعبة بطاقات تداول استراتيجية، صممه وبناه SawirStudio.
+description: موقع Colvaron Conquest، لعبة بطاقات تداول استراتيجية، صممه وبناه Sawir Studio.
 ---
 
 # موقع Colvaron Conquest

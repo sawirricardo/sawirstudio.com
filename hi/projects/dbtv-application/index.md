@@ -1,7 +1,7 @@
 ---
-title: DBTV ऐप्लिकेशन | SawirStudio
+title: DBTV ऐप्लिकेशन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/dbtv-application/
-description: DBTV, Ps. Debby Basjir के उपदेश, प्रार्थना सभाएँ, worship, पॉडकास्ट और रोज़ाना के भक्ति-संदेश iOS और Android पर लाता है। SawirStudio द्वारा बनाया गया।
+description: DBTV, Ps. Debby Basjir के उपदेश, प्रार्थना सभाएँ, worship, पॉडकास्ट और रोज़ाना के भक्ति-संदेश iOS और Android पर लाता है। Sawir Studio द्वारा बनाया गया।
 ---
 
 # DBTV ऐप्लिकेशन

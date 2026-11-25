@@ -1,5 +1,5 @@
 ---
-title: Sawir Product Image Zoom for WooCommerce | SawirStudio
+title: Sawir Product Image Zoom for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-product-image-zoom-for-woocommerce/
 description: WooCommerce प्रोडक्ट गैलरी में नेविगेशन और क्लिक-टू-ज़ूम वाला प्रोडक्ट इमेज लाइटबॉक्स जोड़ता है।
 ---

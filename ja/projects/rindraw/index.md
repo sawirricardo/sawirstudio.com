@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/ja/projects/rindraw/
 description: すべてのストロークを後から編集できるお絵かきアプリ。iPad、iPhone、Macで一度のお支払いだけでご利用いただけます。
 ---

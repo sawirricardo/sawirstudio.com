@@ -1,5 +1,5 @@
 ---
-title: अपनी साइटों को एजेंट-रेडी बनाना | SawirStudio
+title: अपनी साइटों को एजेंट-रेडी बनाना | Sawir Studio
 url: https://sawirstudio.com/hi/posts/making-our-sites-agent-ready/
 description: हमने अपनी प्रोडक्ट साइटों को AI एजेंट के लिए पढ़ने लायक कैसे बनाया: हर पेज की Markdown कॉपी, Link हेडर, llms.txt, robots.txt में Content Signals, एक API कैटलॉग और Agent Skills।
 ---

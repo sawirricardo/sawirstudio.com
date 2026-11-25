@@ -1,7 +1,7 @@
 ---
-title: تطبيق TaniMilenial | SawirStudio
+title: تطبيق TaniMilenial | Sawir Studio
 url: https://sawirstudio.com/ar/projects/tani-milenial-application/
-description: تطبيق TaniMilenial للجوال في مجال الزراعة والثروة السمكية والثروة الحيوانية، من تطوير SawirStudio بالتعاون مع Clicks&Co.
+description: تطبيق TaniMilenial للجوال في مجال الزراعة والثروة السمكية والثروة الحيوانية، من تطوير Sawir Studio بالتعاون مع Clicks&Co.
 ---
 
 # تطبيق TaniMilenial

@@ -1,7 +1,7 @@
 ---
-title: Odoo 的 Shopify 連接器 | SawirStudio
+title: Odoo 的 Shopify 連接器 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/
-description: 適用於 Odoo 19 Community 的開源 Shopify 連接器，由 SawirStudio 開發，並由 Odoo Community Association（OCA）維護。
+description: 適用於 Odoo 19 Community 的開源 Shopify 連接器，由 Sawir Studio 開發，並由 Odoo Community Association（OCA）維護。
 ---
 
 # Shopify Connector for Odoo

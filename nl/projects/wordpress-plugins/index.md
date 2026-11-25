@@ -1,7 +1,7 @@
 ---
-title: WordPress-plugins | SawirStudio
+title: WordPress-plugins | Sawir Studio
 url: https://sawirstudio.com/nl/projects/wordpress-plugins/
-description: Twaalf gratis WordPress-plugins van SawirStudio: abonnementen, verwijzingen, voorraadmeldingen en meer voor WooCommerce, plus tools voor elke WordPress-site.
+description: Twaalf gratis WordPress-plugins van Sawir Studio: abonnementen, verwijzingen, voorraadmeldingen en meer voor WooCommerce, plus tools voor elke WordPress-site.
 ---
 
 # WordPress-plugins

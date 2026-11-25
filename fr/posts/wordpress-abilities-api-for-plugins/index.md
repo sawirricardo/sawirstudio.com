@@ -1,5 +1,5 @@
 ---
-title: API Abilities de WordPress pour les extensions | SawirStudio
+title: API Abilities de WordPress pour les extensions | Sawir Studio
 url: https://sawirstudio.com/fr/posts/wordpress-abilities-api-for-plugins/
 description: Comment enregistrer des fonctionnalités (abilities) dans une extension WordPress pour que les agents IA et d'autres outils puissent les découvrir et les exécuter en toute sécurité : catégories, schémas, permissions, annotations et points de terminaison REST.
 ---

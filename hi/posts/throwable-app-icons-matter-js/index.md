@@ -1,5 +1,5 @@
 ---
-title: Matter.js के साथ फेंके जा सकने वाले ऐप आइकन | SawirStudio
+title: Matter.js के साथ फेंके जा सकने वाले ऐप आइकन | Sawir Studio
 url: https://sawirstudio.com/hi/posts/throwable-app-icons-matter-js/
 description: हमने अपने होम पेज पर फेंके जा सकने वाले ऐप आइकन का बॉक्स कैसे बनाया: फ़िज़िक्स के लिए Matter.js, कैनवास की जगह DOM एलिमेंट, आइकन घूमने पर भी अपनी जगह टिकी रहने वाली परछाईं, और फ़ॉलबैक।
 ---

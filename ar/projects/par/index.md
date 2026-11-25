@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/ar/projects/par/
 description: Par آلة حاسبة مالية كاملة بنظام RPN لأجهزة iPhone وiPad مع تسلسل المفاتيح الذهبية الكلاسيكي: القيمة الزمنية للنقود (TVM)، والقروض، وصافي القيمة الحالية (NPV)، ومعدل العائد الداخلي (IRR)، والسندات وغيرها.
 ---

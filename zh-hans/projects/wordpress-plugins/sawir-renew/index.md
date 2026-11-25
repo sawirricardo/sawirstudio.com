@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – WooCommerce 周期性计费插件 | SawirStudio
+title: Sawir Renew – WooCommerce 周期性计费插件 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-renew/
 description: WooCommerce 完整订阅方案：周期性计费、试用、开通费、暂停/跳过、套餐切换、催款、智能重试，全部免费。
 ---

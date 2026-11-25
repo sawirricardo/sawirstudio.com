@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/par/
 description: Par 是一款適用於 iPhone 和 iPad 的完整 RPN 財務計算機，支援經典的金色功能鍵按鍵順序：TVM、貸款、NPV、IRR、債券等功能一應俱全。
 ---

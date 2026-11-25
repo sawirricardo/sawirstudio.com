@@ -1,5 +1,5 @@
 ---
-title: בונים מערכת ניהול תוכן משלכם, כמו WordPress | SawirStudio
+title: בונים מערכת ניהול תוכן משלכם, כמו WordPress | Sawir Studio
 url: https://sawirstudio.com/he/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: בונים מערכת ניהול תוכן כמו WordPress עם Laravel וארכיטקטורת תוכנה מודרנית.
 ---

@@ -1,7 +1,7 @@
 ---
-title: Tanda Tangan Digital Campaign | SawirStudio
+title: Tanda Tangan Digital Campaign | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/tanda-tangan-digital-campaign/
-description: SawirStudio 为印度尼西亚通信与信息部设计的数字签名宣传活动。
+description: Sawir Studio 为印度尼西亚通信与信息部设计的数字签名宣传活动。
 ---
 
 # Tanda Tangan Digital 宣传活动

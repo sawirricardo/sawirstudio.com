@@ -1,5 +1,5 @@
 ---
-title: פרטיות | SawirStudio
+title: פרטיות | Sawir Studio
 url: https://sawirstudio.com/he/privacy/
 description: מה sawirstudio.com אוסף, למה, ואילו שירותים מטפלים במידע: Microsoft Clarity, טופס יצירת הקשר, Google Fonts ו-Cloudflare.
 ---

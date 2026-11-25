@@ -1,5 +1,5 @@
 ---
-title: Shopify इंटीग्रेशन और ऐप | SawirStudio
+title: Shopify इंटीग्रेशन और ऐप | Sawir Studio
 url: https://sawirstudio.com/hi/shopify/
 description: Shopify, Odoo और आपके बाकी बिज़नेस से जुड़ा हुआ: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन्हीं लोगों द्वारा जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।
 ---

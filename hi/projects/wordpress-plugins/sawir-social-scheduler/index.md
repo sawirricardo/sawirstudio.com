@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-social-scheduler/
 description: एक बार लिखें, wp-admin से 27 नेटवर्क पर शेड्यूल करें। हर चैनल के लिए अलग एडिट, थ्रेड, मीडिया और प्रीव्यू। आपके टोकन आपके सर्वर पर ही रहते हैं।
 ---

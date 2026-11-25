@@ -1,7 +1,7 @@
 ---
-title: SPP Indonesia ウェブサイト | SawirStudio
+title: SPP Indonesia ウェブサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/spp-indonesia-website/
-description: 消火ポンプ専門会社 PT SPP Indonesia のウェブサイト。エンドサクションからバーティカルタービンまで、ポンプの種類ごとにページを用意しました。制作は SawirStudio です。
+description: 消火ポンプ専門会社 PT SPP Indonesia のウェブサイト。エンドサクションからバーティカルタービンまで、ポンプの種類ごとにページを用意しました。制作は Sawir Studio です。
 ---
 
 # SPP Indonesia ウェブサイト

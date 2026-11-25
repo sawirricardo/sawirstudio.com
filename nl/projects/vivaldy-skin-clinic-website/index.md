@@ -1,7 +1,7 @@
 ---
-title: Website Vivaldy Skin Clinic | SawirStudio
+title: Website Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/
-description: Website voor Vivaldy Skin Clinic, een kliniek voor dermatologie en venereologie, met de behandelingen, de shop en de contactgegevens. Gebouwd door SawirStudio.
+description: Website voor Vivaldy Skin Clinic, een kliniek voor dermatologie en venereologie, met de behandelingen, de shop en de contactgegevens. Gebouwd door Sawir Studio.
 ---
 
 # Vivaldy Skin Clinic Website

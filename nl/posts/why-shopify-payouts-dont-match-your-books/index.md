@@ -1,5 +1,5 @@
 ---
-title: Waarom Shopify-uitbetalingen nooit kloppen met je boekhouding | SawirStudio
+title: Waarom Shopify-uitbetalingen nooit kloppen met je boekhouding | Sawir Studio
 url: https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/
 description: Waarom het geld dat Shopify Payments naar je bank stuurt nooit klopt met je verkooprapport: kosten, terugbetalingen, betwiste betalingen, cadeaubonnen, valutaomrekening en timing, en hoe je het sluitend krijgt.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – Facturation récurrente pour WooCommerce | SawirStudio
+title: Sawir Renew – Facturation récurrente pour WooCommerce | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-renew/
 description: Des abonnements complets pour WooCommerce : facturation récurrente, périodes d'essai, frais d'inscription, pause et saut de renouvellement, changement de formule, relances de paiement et nouvelles tentatives intelligentes. Le tout gratuit.
 ---

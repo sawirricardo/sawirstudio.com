@@ -1,5 +1,5 @@
 ---
-title: WordPressのようなCMSを自作する方法 | SawirStudio
+title: WordPressのようなCMSを自作する方法 | Sawir Studio
 url: https://sawirstudio.com/ja/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: Laravelと現代的なソフトウェアアーキテクチャを使って、WordPressのようなコンテンツ管理システムを構築します。
 ---
@@ -100,4 +100,4 @@ $table->dateTime('published_at')->nullable();
 $table->foreignIdFor(\App\Models\User::class)->constrained();
 ```
 
-**あわせて読みたい：** [サブスクリプションプランの制限をどう設計するか](https://sawirstudio.com/ja/posts/how-do-you-design-your-subscription-plan-restrictions/)、または[SawirStudioが提供する無料のWordPressプラグイン](https://sawirstudio.com/ja/projects/wordpress-plugins/)もご覧ください。
+**あわせて読みたい：** [サブスクリプションプランの制限をどう設計するか](https://sawirstudio.com/ja/posts/how-do-you-design-your-subscription-plan-restrictions/)、または[Sawir Studioが提供する無料のWordPressプラグイン](https://sawirstudio.com/ja/projects/wordpress-plugins/)もご覧ください。

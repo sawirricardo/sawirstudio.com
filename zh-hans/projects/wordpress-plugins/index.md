@@ -1,7 +1,7 @@
 ---
-title: WordPress 插件 | SawirStudio
+title: WordPress 插件 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/
-description: SawirStudio 出品的十二款免费 WordPress 插件：为 WooCommerce 提供订阅、推荐、到货提醒等功能，另有适用于任何 WordPress 网站的工具。
+description: Sawir Studio 出品的十二款免费 WordPress 插件：为 WooCommerce 提供订阅、推荐、到货提醒等功能，另有适用于任何 WordPress 网站的工具。
 ---
 
 # WordPress 插件

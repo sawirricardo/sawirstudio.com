@@ -1,5 +1,5 @@
 ---
-title: API Shopify 2026-10 : ce qui casse | SawirStudio
+title: API Shopify 2026-10 : ce qui casse | Sawir Studio
 url: https://sawirstudio.com/fr/posts/shopify-2026-10-api-what-breaks/
 description: Les changements de l'API Admin de Shopify dans la version 2026-10 qui peuvent casser une intégration, et ce qu'il faut modifier : tarifs de livraison, remises des commandes brouillon, taxes, codes-barres et plus encore.
 ---

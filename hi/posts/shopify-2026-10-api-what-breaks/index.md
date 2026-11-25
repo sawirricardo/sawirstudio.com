@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API: क्या टूट सकता है | SawirStudio
+title: Shopify 2026-10 API: क्या टूट सकता है | Sawir Studio
 url: https://sawirstudio.com/hi/posts/shopify-2026-10-api-what-breaks/
 description: Shopify Admin API के वर्ज़न 2026-10 में वे बदलाव जो किसी इंटीग्रेशन को तोड़ सकते हैं, और आपको क्या बदलना चाहिए: शिपिंग रेट, ड्राफ़्ट ऑर्डर डिस्काउंट, टैक्स, बारकोड और बहुत कुछ।
 ---

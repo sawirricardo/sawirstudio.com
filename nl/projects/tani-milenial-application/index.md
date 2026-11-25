@@ -1,7 +1,7 @@
 ---
-title: TaniMilenial-app | SawirStudio
+title: TaniMilenial-app | Sawir Studio
 url: https://sawirstudio.com/nl/projects/tani-milenial-application/
-description: TaniMilenial-app voor landbouw, visserij en veeteelt, gebouwd door SawirStudio met Clicks&Co.
+description: TaniMilenial-app voor landbouw, visserij en veeteelt, gebouwd door Sawir Studio met Clicks&Co.
 ---
 
 # TaniMilenial Application

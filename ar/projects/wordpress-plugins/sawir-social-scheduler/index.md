@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/sawir-social-scheduler/
 description: اكتبوا مرة واحدة وجدولوا على 27 شبكة من wp-admin. تعديلات لكل قناة، وسلاسل منشورات، ووسائط، ومعاينات. رموزكم تبقى على خادمكم.
 ---

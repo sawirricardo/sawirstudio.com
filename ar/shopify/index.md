@@ -1,5 +1,5 @@
 ---
-title: تكاملات وتطبيقات Shopify | SawirStudio
+title: تكاملات وتطبيقات Shopify | Sawir Studio
 url: https://sawirstudio.com/ar/shopify/
 description: ربط Shopify بـ Odoo وببقية أعمالكم: الطلبات والمخزون والمدفوعات ونقاط البيع، من تنفيذ من كتبوا موصّل Shopify مفتوح المصدر لـ Odoo.
 ---

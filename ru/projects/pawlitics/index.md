@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/ru/projects/pawlitics/
 description: Уютный мультяшный симулятор политики, где городок зверей реагирует на каждое решение
 ---

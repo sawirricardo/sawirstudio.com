@@ -1,7 +1,7 @@
 ---
-title: Colvaron Conquest-website | SawirStudio
+title: Colvaron Conquest-website | Sawir Studio
 url: https://sawirstudio.com/nl/projects/colvaron-conquest-website/
-description: Website voor Colvaron Conquest, een strategisch kaartspel, ontworpen en gebouwd door SawirStudio.
+description: Website voor Colvaron Conquest, een strategisch kaartspel, ontworpen en gebouwd door Sawir Studio.
 ---
 
 # Colvaron Conquest Website

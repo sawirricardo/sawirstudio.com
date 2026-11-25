@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/sawir-insights/
 description: خرائط حرارية وتسجيلات جلسات واستبيانات ومسارات تحويل وتحليلات نماذج. كل شيء يبقى على خادمكم.
 ---

@@ -1,7 +1,7 @@
 ---
-title: Indonesia Research Institute Japan 网站 | SawirStudio
+title: Indonesia Research Institute Japan 网站 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/indonesia-research-institute-japan-website/
-description: Indonesia Research Institute Japan 的企业形象网站，由 SawirStudio 设计并开发。
+description: Indonesia Research Institute Japan 的企业形象网站，由 Sawir Studio 设计并开发。
 ---
 
 # Indonesia Research Institute Japan 网站

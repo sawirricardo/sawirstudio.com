@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/ar/projects/squishu/
 description: Squishu لعبة نقر لطيفة لأجهزة iPhone وiPad وApple Watch: اسحقوا الدمبلنغ واهزموا زعيم كل عالم قبل أن ينفد البخار.
 ---

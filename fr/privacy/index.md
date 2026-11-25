@@ -1,5 +1,5 @@
 ---
-title: Confidentialité | SawirStudio
+title: Confidentialité | Sawir Studio
 url: https://sawirstudio.com/fr/privacy/
 description: Ce que sawirstudio.com collecte, pourquoi, et quels services traitent ces données : Microsoft Clarity, le formulaire de contact, Google Fonts et Cloudflare.
 ---

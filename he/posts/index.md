@@ -1,7 +1,7 @@
 ---
-title: בלוג | SawirStudio
+title: בלוג | Sawir Studio
 url: https://sawirstudio.com/he/posts/
-description: מאמרים של SawirStudio על בניית אפליקציות ווב עם Laravel ו-PHP.
+description: מאמרים של Sawir Studio על בניית אפליקציות ווב עם Laravel ו-PHP.
 ---
 
 # בלוג

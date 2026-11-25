@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/hi/projects/math-daily/
 description: Math Daily, Math Monsters के साथ रोज़ सिर्फ़ एक मिनट में डेली मैथ की आदत बनाता है: जोड़, घटाव, गुणा और भाग की तेज़ प्रैक्टिस।
 ---

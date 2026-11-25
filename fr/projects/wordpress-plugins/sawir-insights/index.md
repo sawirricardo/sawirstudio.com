@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-insights/
 description: Cartes de chaleur, enregistrements de sessions, sondages, entonnoirs et analyse des formulaires. Tout reste sur votre serveur.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sawir Restock Notifier for WooCommerce | SawirStudio
+title: Sawir Restock Notifier for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-restock-notifier-for-woocommerce/
 description: Laat klanten een e-mailmelding aanvragen als een WooCommerce-product dat niet op voorraad is weer beschikbaar komt.
 ---

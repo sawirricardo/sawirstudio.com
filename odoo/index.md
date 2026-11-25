@@ -1,5 +1,5 @@
 ---
-title: Odoo & Custom Business Systems | SawirStudio
+title: Odoo & Custom Business Systems | Sawir Studio
 url: https://sawirstudio.com/odoo/
 description: Point of sale, stock, purchasing and accounting in one system: Odoo set up for how you work, built to measure when it doesn't fit, or both. From the people who write Odoo modules.
 ---

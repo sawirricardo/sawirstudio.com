@@ -1,5 +1,5 @@
 ---
-title: Datenschutz | SawirStudio
+title: Datenschutz | Sawir Studio
 url: https://sawirstudio.com/de/privacy/
 description: Was sawirstudio.com erfasst, warum und welche Dienste die Daten verarbeiten: Microsoft Clarity, das Kontaktformular, Google Fonts und Cloudflare.
 ---

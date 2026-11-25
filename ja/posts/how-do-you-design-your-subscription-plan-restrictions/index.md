@@ -1,5 +1,5 @@
 ---
-title: Laravelでのサブスクリプションプラン制限 | SawirStudio
+title: Laravelでのサブスクリプションプラン制限 | Sawir Studio
 url: https://sawirstudio.com/ja/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Laravelでサブスクリプションプランの上限を実装する方法を、コントローラーでの簡単なチェックから、GateとPolicyまで解説します。
 ---

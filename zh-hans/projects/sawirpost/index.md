@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/sawirpost/
 description: 一次撰写，按计划发布到 25+ 个社交渠道，专为代理机构打造
 ---

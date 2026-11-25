@@ -1,5 +1,5 @@
 ---
-title: 为什么 Shopify 打款与您的账目总是对不上 | SawirStudio
+title: 为什么 Shopify 打款与您的账目总是对不上 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/
 description: 为什么 Shopify Payments 打到您银行账户的金额，总是与销售报表对不上：手续费、退款、争议、礼品卡、货币换算和时间差，以及如何对账。
 ---

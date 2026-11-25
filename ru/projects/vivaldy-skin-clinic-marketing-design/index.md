@@ -1,7 +1,7 @@
 ---
-title: Маркетинговый дизайн для Vivaldy Skin Clinic | SawirStudio
+title: Маркетинговый дизайн для Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/ru/projects/vivaldy-skin-clinic-marketing-design/
-description: Маркетинговый дизайн для Vivaldy Skin Clinic от SawirStudio, например поздравительная открытка к Ураза-байраму в мягкой бело-бирюзовой палитре клиники.
+description: Маркетинговый дизайн для Vivaldy Skin Clinic от Sawir Studio, например поздравительная открытка к Ураза-байраму в мягкой бело-бирюзовой палитре клиники.
 ---
 
 # Маркетинговый дизайн для Vivaldy Skin Clinic

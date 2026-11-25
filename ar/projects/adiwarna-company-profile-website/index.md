@@ -1,7 +1,7 @@
 ---
-title: موقع التعريف بشركة Adiwarna | SawirStudio
+title: موقع التعريف بشركة Adiwarna | Sawir Studio
 url: https://sawirstudio.com/ar/projects/adiwarna-company-profile-website/
-description: موقع تعريفي بشركة PT Adiwarna Anugerah Abadi، من تصميم SawirStudio وتطويرها.
+description: موقع تعريفي بشركة PT Adiwarna Anugerah Abadi، من تصميم Sawir Studio وتطويرها.
 ---
 
 # موقع Adiwarna للتعريف بالشركة

@@ -1,7 +1,7 @@
 ---
-title: SPP Indonesia 網站｜SawirStudio
+title: SPP Indonesia 網站｜Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/spp-indonesia-website/
-description: 為消防泵浦專業廠商 PT SPP Indonesia 打造的網站，從端吸式到立式渦輪式，每一種泵浦都有專屬頁面。由 SawirStudio 製作。
+description: 為消防泵浦專業廠商 PT SPP Indonesia 打造的網站，從端吸式到立式渦輪式，每一種泵浦都有專屬頁面。由 Sawir Studio 製作。
 ---
 
 # SPP Indonesia 網站

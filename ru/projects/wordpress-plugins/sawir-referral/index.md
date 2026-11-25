@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – «Приведи друга» для WooCommerce | SawirStudio
+title: Sawir Referral – «Приведи друга» для WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-referral/
 description: Реферальная программа «дай и получи» для WooCommerce. Друзья получают скидку, приглашающие — купон в награду. Поделиться можно кодом или ссылкой, с упором на WhatsApp.
 ---

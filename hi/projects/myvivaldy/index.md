@@ -1,7 +1,7 @@
 ---
-title: MyVivaldy | SawirStudio
+title: MyVivaldy | Sawir Studio
 url: https://sawirstudio.com/hi/projects/myvivaldy/
-description: MyVivaldy, Vivaldy Skin Clinic का क्लिनिक सिस्टम और मरीज़ों का ऐप: iPhone और Android पर बुकिंग, विज़िट हिस्ट्री और प्रिस्क्रिप्शन, SawirStudio द्वारा बनाया गया।
+description: MyVivaldy, Vivaldy Skin Clinic का क्लिनिक सिस्टम और मरीज़ों का ऐप: iPhone और Android पर बुकिंग, विज़िट हिस्ट्री और प्रिस्क्रिप्शन, Sawir Studio द्वारा बनाया गया।
 ---
 
 # MyVivaldy

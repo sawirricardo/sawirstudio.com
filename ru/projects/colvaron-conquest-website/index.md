@@ -1,7 +1,7 @@
 ---
-title: Сайт Colvaron Conquest | SawirStudio
+title: Сайт Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/ru/projects/colvaron-conquest-website/
-description: Сайт стратегической коллекционной карточной игры Colvaron Conquest, разработанный SawirStudio: дизайн и реализация.
+description: Сайт стратегической коллекционной карточной игры Colvaron Conquest, разработанный Sawir Studio: дизайн и реализация.
 ---
 
 # Сайт Colvaron Conquest

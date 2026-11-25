@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/ja/projects/sawirly/
 description: トラッキングなし、有効期限も設定できるプライバシー重視のURL短縮サービス
 ---

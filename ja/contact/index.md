@@ -1,5 +1,5 @@
 ---
-title: お問い合わせ | SawirStudio
+title: お問い合わせ | Sawir Studio
 url: https://sawirstudio.com/ja/contact/
 description: ご相談内容をお聞かせください。アプリ、ウェブサイト、デジタルデザインに対応しています。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – مبيعات مباشرة وإثبات اجتماعي لـ WooCommerce | SawirStudio
+title: Sawir Pulse – مبيعات مباشرة وإثبات اجتماعي لـ WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ar/projects/wordpress-plugins/sawir-pulse/
 description: يعرض Sawir Pulse لزوار متجركم ما يحدث فيه فعلاً، مثل الطلبات الأخيرة وعدد من يتصفحون منتجاً الآن والتقييمات الجديدة، في إشعارات صغيرة…
 ---

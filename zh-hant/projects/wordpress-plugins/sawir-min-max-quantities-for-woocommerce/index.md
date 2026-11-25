@@ -1,5 +1,5 @@
 ---
-title: 適用於 WooCommerce 的 Sawir Min Max Quantities | SawirStudio
+title: 適用於 WooCommerce 的 Sawir Min Max Quantities | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-min-max-quantities-for-woocommerce/
 description: 為 WooCommerce 商品、商品分類和整張訂單設定最低與最高購買數量規則。
 ---

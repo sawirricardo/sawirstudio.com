@@ -1,5 +1,5 @@
 ---
-title: Shopify の入金額が帳簿と合わない理由 | SawirStudio
+title: Shopify の入金額が帳簿と合わない理由 | Sawir Studio
 url: https://sawirstudio.com/ja/posts/why-shopify-payouts-dont-match-your-books/
 description: Shopify Payments から銀行に入金される金額が売上レポートと合わない理由を解説します。手数料、返金、ディスピュート、ギフトカード、通貨換算、タイミングのずれ、そして帳簿を一致させる方法をご紹介します。
 ---

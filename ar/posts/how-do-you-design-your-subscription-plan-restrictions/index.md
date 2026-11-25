@@ -1,5 +1,5 @@
 ---
-title: حدود خطط الاشتراك في Laravel | SawirStudio
+title: حدود خطط الاشتراك في Laravel | Sawir Studio
 url: https://sawirstudio.com/ar/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: كيف تفرضون حدود خطط الاشتراك في Laravel، بدءًا من فحص بسيط في الـ controller وصولًا إلى Gates وPolicies.
 ---

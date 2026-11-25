@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-insights/
 description: 热力图、会话录制、问卷调查、漏斗和表单分析。所有数据都保存在您的服务器上。
 ---

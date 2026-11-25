@@ -1,5 +1,5 @@
 ---
-title: Odoo & 定制业务系统 | SawirStudio
+title: Odoo & 定制业务系统 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/odoo/
 description: 收银、库存、采购和会计，尽在一套系统：按您的工作方式配置 Odoo，不适合时量身定制，或者两者结合。来自编写 Odoo 模块的团队。
 ---

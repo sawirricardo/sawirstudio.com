@@ -1,5 +1,5 @@
 ---
-title: Shopify 集成与应用开发 | SawirStudio
+title: Shopify 集成与应用开发 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/shopify/
 description: Shopify 与 Odoo 及您的其他业务系统连接：订单、库存、结算款和门店收银，由编写 Shopify 开源 Odoo 连接器的团队打造。
 ---

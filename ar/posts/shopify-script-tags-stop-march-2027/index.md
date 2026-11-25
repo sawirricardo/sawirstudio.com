@@ -1,5 +1,5 @@
 ---
-title: انتهاء دعم Script Tags في Shopify في مارس 2027 | SawirStudio
+title: انتهاء دعم Script Tags في Shopify في مارس 2027 | Sawir Studio
 url: https://sawirstudio.com/ar/posts/shopify-script-tags-stop-march-2027/
 description: ستتوقف Shopify عن تشغيل script tags الخاصة بالمتجر الإلكتروني في 1 مارس 2027. تعرفوا على التطبيقات المتأثرة، وكيف تفحصون متجركم، وما الذي يحل محلها.
 ---

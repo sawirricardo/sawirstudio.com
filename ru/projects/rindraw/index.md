@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/ru/projects/rindraw/
 description: Приложение для рисования, где каждый штрих остаётся редактируемым. Один платёж за iPad, iPhone и Mac.
 ---

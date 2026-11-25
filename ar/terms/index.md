@@ -1,5 +1,5 @@
 ---
-title: شروط الاستخدام | SawirStudio
+title: شروط الاستخدام | Sawir Studio
 url: https://sawirstudio.com/ar/terms/
 description: شروط استخدام موقع sawirstudio.com: محتوانا وأعمالنا، وإضافات WordPress والتطبيقات المجانية، والروابط إلى مواقع أخرى، وكيفية الاتفاق على أعمال العملاء.
 ---

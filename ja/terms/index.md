@@ -1,5 +1,5 @@
 ---
-title: 利用規約 | SawirStudio
+title: 利用規約 | Sawir Studio
 url: https://sawirstudio.com/ja/terms/
 description: sawirstudio.com のご利用条件：コンテンツと実績紹介、無料の WordPress プラグインとアプリ、他サイトへのリンク、そしてお客様との制作に関する取り決めについて。
 ---

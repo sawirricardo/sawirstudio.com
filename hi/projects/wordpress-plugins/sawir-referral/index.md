@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – WooCommerce के लिए रेफ़र-अ-फ़्रेंड | SawirStudio
+title: Sawir Referral – WooCommerce के लिए रेफ़र-अ-फ़्रेंड | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-referral/
 description: WooCommerce के लिए दोनों को फ़ायदा देने वाला रेफ़रल प्रोग्राम। दोस्तों को डिस्काउंट मिलता है, सिफ़ारिश करने वालों को रिवॉर्ड कूपन — कोड या लिंक से शेयर करें, WhatsApp सबसे पहले।
 ---

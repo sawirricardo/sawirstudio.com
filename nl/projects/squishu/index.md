@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/nl/projects/squishu/
 description: Squishu is een schattig klikspel voor iPhone, iPad en Apple Watch: squish dumplings en versla de eindbaas van elke wereld voordat de stoom op is.
 ---

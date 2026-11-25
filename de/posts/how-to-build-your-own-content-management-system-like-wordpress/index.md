@@ -1,5 +1,5 @@
 ---
-title: Eigenes CMS wie WordPress bauen | SawirStudio
+title: Eigenes CMS wie WordPress bauen | Sawir Studio
 url: https://sawirstudio.com/de/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: Ein Content-Management-System wie WordPress mit Laravel und moderner Softwarearchitektur bauen.
 ---

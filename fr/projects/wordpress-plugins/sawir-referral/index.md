@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – Parrainage pour WooCommerce | SawirStudio
+title: Sawir Referral – Parrainage pour WooCommerce | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-referral/
 description: Programme de parrainage gagnant-gagnant pour WooCommerce. Les amis obtiennent une remise, les parrains gagnent un coupon de récompense — partage par code ou par lien, WhatsApp en priorité.
 ---

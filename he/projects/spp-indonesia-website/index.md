@@ -1,7 +1,7 @@
 ---
-title: אתר SPP Indonesia | SawirStudio
+title: אתר SPP Indonesia | Sawir Studio
 url: https://sawirstudio.com/he/projects/spp-indonesia-website/
-description: אתר עבור PT SPP Indonesia, מומחית למשאבות כיבוי אש, עם עמוד לכל סוג משאבה, מ-End Suction ועד Vertical Turbine. נבנה על ידי SawirStudio.
+description: אתר עבור PT SPP Indonesia, מומחית למשאבות כיבוי אש, עם עמוד לכל סוג משאבה, מ-End Suction ועד Vertical Turbine. נבנה על ידי Sawir Studio.
 ---
 
 # אתר SPP Indonesia

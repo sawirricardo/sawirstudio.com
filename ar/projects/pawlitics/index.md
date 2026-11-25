@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/ar/projects/pawlitics/
 description: لعبة محاكاة سياسية كرتونية مريحة، تتفاعل فيها بلدة من الحيوانات مع كل سياسة تقرّونها
 ---

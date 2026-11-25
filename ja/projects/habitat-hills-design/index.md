@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/ja/projects/habitat-hills-design/
-description: ボゴール県ムガメンドゥンにある 27 ヘクタールの自然リゾート、Habitat Hills の三つ折りブローシャー。SawirStudio がフォレストグリーンとテラコッタを基調にデザインしました。
+description: ボゴール県ムガメンドゥンにある 27 ヘクタールの自然リゾート、Habitat Hills の三つ折りブローシャー。Sawir Studio がフォレストグリーンとテラコッタを基調にデザインしました。
 ---
 
 # Habitat Hills デザイン

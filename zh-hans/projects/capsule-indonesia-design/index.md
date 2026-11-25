@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia 设计 | SawirStudio
+title: Capsule Indonesia 设计 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/capsule-indonesia-design/
-description: Capsule Indonesia 胶囊舱产品手册，由 SawirStudio 以银蓝配色设计，展示每款舱体的特点和适用场所。
+description: Capsule Indonesia 胶囊舱产品手册，由 Sawir Studio 以银蓝配色设计，展示每款舱体的特点和适用场所。
 ---
 
 # Capsule Indonesia 设计

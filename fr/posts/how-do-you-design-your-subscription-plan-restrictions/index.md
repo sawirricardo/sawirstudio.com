@@ -1,5 +1,5 @@
 ---
-title: Limites des forfaits d’abonnement dans Laravel | SawirStudio
+title: Limites des forfaits d’abonnement dans Laravel | Sawir Studio
 url: https://sawirstudio.com/fr/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Comment appliquer les limites des forfaits d’abonnement dans Laravel, d’une simple vérification dans le contrôleur jusqu’aux Gates et aux Policies.
 ---

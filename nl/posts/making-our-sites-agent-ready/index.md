@@ -1,5 +1,5 @@
 ---
-title: Je sites klaar maken voor AI-agents | SawirStudio
+title: Je sites klaar maken voor AI-agents | Sawir Studio
 url: https://sawirstudio.com/nl/posts/making-our-sites-agent-ready/
 description: Zo maakten we onze productsites leesbaar voor AI-agents: Markdown-kopieën van elke pagina, Link-headers, llms.txt, Content Signals in robots.txt, een API-catalogus en Agent Skills.
 ---

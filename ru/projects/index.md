@@ -1,12 +1,12 @@
 ---
-title: Проекты | SawirStudio
+title: Проекты | Sawir Studio
 url: https://sawirstudio.com/ru/projects/
-description: Приложения, сайты и дизайн от SawirStudio: от проектов для клиентов до наших собственных приложений в App Store.
+description: Приложения, сайты и дизайн от Sawir Studio: от проектов для клиентов до наших собственных приложений в App Store.
 ---
 
 # Последние проекты
 
-Подборка новых проектов SawirStudio
+Подборка новых проектов Sawir Studio
 
 Приложение
 

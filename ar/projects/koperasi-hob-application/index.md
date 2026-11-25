@@ -1,5 +1,5 @@
 ---
-title: تطبيق Koperasi HOB | SawirStudio
+title: تطبيق Koperasi HOB | Sawir Studio
 url: https://sawirstudio.com/ar/projects/koperasi-hob-application/
 description: تطبيق التسوق من Koperasi HOB: يتصفح الأعضاء المستلزمات المنزلية حسب الفئة، ويختارون التوصيل أو الاستلام، ويدفعون من رصيدهم في التعاونية.
 ---

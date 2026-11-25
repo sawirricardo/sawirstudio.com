@@ -1,5 +1,5 @@
 ---
-title: Shopify 整合與應用程式開發 | SawirStudio
+title: Shopify 整合與應用程式開發 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/shopify/
 description: Shopify 與 Odoo 及您其他業務系統串接：訂單、庫存、撥款與 POS 門市銷售，由開發開源 Shopify Odoo 連接器的團隊負責。
 ---

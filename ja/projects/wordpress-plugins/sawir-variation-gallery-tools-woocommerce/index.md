@@ -1,5 +1,5 @@
 ---
-title: Sawir Variation Gallery Tools for WooCommerce | SawirStudio
+title: Sawir Variation Gallery Tools for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-variation-gallery-tools-woocommerce/
 description: WooCommerce でバリエーション別のギャラリー画像を管理できます。Sawir Product Image Zoom for WooCommerce と連携します。
 ---

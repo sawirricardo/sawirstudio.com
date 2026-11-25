@@ -1,5 +1,5 @@
 ---
-title: Пресс-кит | SawirStudio
+title: Пресс-кит | Sawir Studio
 url: https://sawirstudio.com/ru/press/
 description: Пресс-кит Sawir Studio: логотипы, фирменные цвета и шрифты, факты о компании, краткая справка о ней, а также биография и фото основателя. Всё это можно свободно использовать.
 ---

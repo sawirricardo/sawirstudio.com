@@ -1,7 +1,7 @@
 ---
-title: デジタル・エアポート・ホテルのデザイン | SawirStudio
+title: デジタル・エアポート・ホテルのデザイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/digital-airport-hotel-design/
-description: SawirStudio が Capsule Indonesia 様のために手がけた、Digital Airport Hotel のデザイン事例です。
+description: Sawir Studio が Capsule Indonesia 様のために手がけた、Digital Airport Hotel のデザイン事例です。
 ---
 
 # Digital Airport Hotel デザイン
@@ -14,7 +14,7 @@ Digital Airport Hotel は、スカルノ・ハッタ空港の第3ターミナル
 
 ## 制作したもの
 
-SawirStudio では、このホテルの名刺をデザインしました。ホテルのラインアートのロゴを配したダークカラーの用紙に、ターミナル内の連絡先を記載し、裏面には Capsule Indonesia と JakPod Hotel のブランドを入れています。
+Sawir Studio では、このホテルの名刺をデザインしました。ホテルのラインアートのロゴを配したダークカラーの用紙に、ターミナル内の連絡先を記載し、裏面には Capsule Indonesia と JakPod Hotel のブランドを入れています。
 
 - **表面** Digital Airport Hotel のロゴに加え、電話番号、メールアドレス、ウェブサイト、そして第3ターミナル Ultimate の国内線到着エリアまでの道順を、明るいブルーの文字で載せています。
 - **裏面** Capsule Indonesia のマークと、JakPod Hotel、Digital Airport Hotel を並べ、1枚の名刺でグループ全体をご紹介できるようにしました。

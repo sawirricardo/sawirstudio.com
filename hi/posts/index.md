@@ -1,7 +1,7 @@
 ---
-title: ब्लॉग | SawirStudio
+title: ब्लॉग | Sawir Studio
 url: https://sawirstudio.com/hi/posts/
-description: Laravel और PHP से वेब एप्लिकेशन बनाने पर SawirStudio के लेख।
+description: Laravel और PHP से वेब एप्लिकेशन बनाने पर Sawir Studio के लेख।
 ---
 
 # ब्लॉग

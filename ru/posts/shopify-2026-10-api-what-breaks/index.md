@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API: что сломается | SawirStudio
+title: Shopify 2026-10 API: что сломается | Sawir Studio
 url: https://sawirstudio.com/ru/posts/shopify-2026-10-api-what-breaks/
 description: Изменения в Shopify Admin API версии 2026-10, которые могут сломать интеграцию, и что нужно поправить: тарифы доставки, скидки в черновиках заказов, налоги, штрихкоды и другое.
 ---

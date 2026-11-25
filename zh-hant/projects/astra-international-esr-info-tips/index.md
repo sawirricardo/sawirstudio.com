@@ -1,7 +1,7 @@
 ---
-title: Astra International ESR 資訊與小撇步 | SawirStudio
+title: Astra International ESR 資訊與小撇步 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/astra-international-esr-info-tips/
-description: 《ESR 資訊與小撇步》是 SawirStudio 為 Astra International 設計的安全、健康與環境圖文書，以兩個親切的角色貫穿全書。
+description: 《ESR 資訊與小撇步》是 Sawir Studio 為 Astra International 設計的安全、健康與環境圖文書，以兩個親切的角色貫穿全書。
 ---
 
 # Astra International ESR 資訊與小撇步

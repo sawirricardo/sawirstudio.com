@@ -1,5 +1,5 @@
 ---
-title: Odoo & カスタム業務システム | SawirStudio
+title: Odoo & カスタム業務システム | Sawir Studio
 url: https://sawirstudio.com/ja/odoo/
 description: POS、在庫、仕入、会計をひとつのシステムに。業務に合わせた Odoo の設定、合わない場合のオーダーメイド開発、あるいはその両方に対応します。Odoo のモジュールを開発しているチームがお手伝いします。
 ---

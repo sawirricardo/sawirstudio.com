@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/sawir-insights/
 description: מפות חום, הקלטות סשן, סקרים, משפכי המרה וניתוח טפסים. הכול נשאר על השרת שלכם.
 ---

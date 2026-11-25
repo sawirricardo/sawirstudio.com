@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/nl/projects/math-daily/
 description: Math Daily bouwt met de Math Monsters een dagelijkse rekengewoonte op in één minuut per dag: korte oefensessies voor optellen, aftrekken, vermenigvuldigen en delen.
 ---

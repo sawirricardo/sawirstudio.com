@@ -1,5 +1,5 @@
 ---
-title: الخصوصية | SawirStudio
+title: الخصوصية | Sawir Studio
 url: https://sawirstudio.com/ar/privacy/
 description: ما الذي يجمعه موقع sawirstudio.com ولماذا، وما الخدمات التي تتولى معالجته: Microsoft Clarity ونموذج التواصل وGoogle Fonts وCloudflare.
 ---

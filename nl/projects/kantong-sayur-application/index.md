@@ -1,7 +1,7 @@
 ---
-title: Kantong Sayur-app | SawirStudio
+title: Kantong Sayur-app | Sawir Studio
 url: https://sawirstudio.com/nl/projects/kantong-sayur-application/
-description: App en website voor groenten en boodschappen van KantongSayur, gebouwd door SawirStudio.
+description: App en website voor groenten en boodschappen van KantongSayur, gebouwd door Sawir Studio.
 ---
 
 # Kantong Sayur Application

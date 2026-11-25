@@ -1,5 +1,5 @@
 ---
-title: Odoo & systèmes de gestion sur mesure | SawirStudio
+title: Odoo & systèmes de gestion sur mesure | Sawir Studio
 url: https://sawirstudio.com/fr/odoo/
 description: Caisse, stock, achats et comptabilité dans un seul système : Odoo configuré selon votre façon de travailler, du sur-mesure quand il ne convient pas, ou les deux. Par une équipe qui développe des modules Odoo.
 ---

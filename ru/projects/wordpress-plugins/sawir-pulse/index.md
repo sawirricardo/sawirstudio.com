@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – актуальные продажи и социальное доказательство для WooCommerce | SawirStudio
+title: Sawir Pulse – актуальные продажи и социальное доказательство для WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse показывает покупателям, что на самом деле происходит в вашем магазине: недавние заказы, посетителей, которые смотрят товар, и свежие отзывы, в виде небольших уведомлений…
 ---

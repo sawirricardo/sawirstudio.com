@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-social-scheduler/
 description: wp-admin から一度書くだけで、27 のネットワークに予約投稿。チャンネルごとの編集、スレッド、メディア、プレビューに対応。トークンはお客様のサーバー内に保管されます。
 ---

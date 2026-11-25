@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/nofapfit/
 description: 冲动来袭时的即时运动挑战，用连续打卡培养自律
 ---

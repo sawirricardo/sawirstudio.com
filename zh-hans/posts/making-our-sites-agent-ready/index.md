@@ -1,5 +1,5 @@
 ---
-title: 让我们的网站对智能体友好 | SawirStudio
+title: 让我们的网站对智能体友好 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/making-our-sites-agent-ready/
 description: 我们如何让产品网站可供 AI 智能体读取：为每个页面提供 Markdown 副本、Link 响应头、llms.txt、robots.txt 中的 Content Signals、API 目录和 Agent Skills。
 ---

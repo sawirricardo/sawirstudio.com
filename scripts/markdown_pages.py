@@ -95,7 +95,7 @@ def llms_txt(pages):
         groups[group].append(f"- [{name}]({url}index.md): {desc}")
 
     home_title, home_desc = by_url[SITE + "/"]
-    out = [f"# SawirStudio\n\n> {home_desc}\n"]
+    out = [f"# Sawir Studio\n\n> {home_desc}\n"]
     out.append(
         "Every page below is also available as Markdown: request it with "
         "`Accept: text/markdown`, or add `index.md` to its URL as linked here.\n"

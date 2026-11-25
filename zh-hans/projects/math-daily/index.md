@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/math-daily/
 description: Math Daily 跟着数学小怪兽，每天一分钟养成数学练习的习惯：快速练习加、减、乘、除。
 ---

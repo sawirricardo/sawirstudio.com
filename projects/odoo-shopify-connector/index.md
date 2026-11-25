@@ -1,7 +1,7 @@
 ---
-title: Shopify Connector for Odoo | SawirStudio
+title: Shopify Connector for Odoo | Sawir Studio
 url: https://sawirstudio.com/projects/odoo-shopify-connector/
-description: An open-source Shopify connector for Odoo 19 Community, written by SawirStudio and maintained in the Odoo Community Association (OCA).
+description: An open-source Shopify connector for Odoo 19 Community, written by Sawir Studio and maintained in the Odoo Community Association (OCA).
 ---
 
 # Shopify Connector for Odoo

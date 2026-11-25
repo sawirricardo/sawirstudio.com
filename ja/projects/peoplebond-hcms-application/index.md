@@ -1,7 +1,7 @@
 ---
-title: PeopleBond HCMS アプリケーション | SawirStudio
+title: PeopleBond HCMS アプリケーション | Sawir Studio
 url: https://sawirstudio.com/ja/projects/peoplebond-hcms-application/
-description: SawirStudio が開発した、PeopleBond 向けの人的資本管理システム（HCMS）ウェブアプリケーション。
+description: Sawir Studio が開発した、PeopleBond 向けの人的資本管理システム（HCMS）ウェブアプリケーション。
 ---
 
 # PeopleBond HCMS アプリケーション
@@ -16,7 +16,7 @@ PeopleBond は、インドネシア企業向けの人的資本管理システム
 
 ## 制作したもの
 
-SawirStudio は PeopleBond の HCMS を開発しました。従業員管理、採用、勤怠、給与計算、休暇、コンピテンシー、評価、研修を網羅するウェブアプリケーションに加え、従業員向けのモバイルアプリ（PeopleBond Connect、通称 pbConnect）と、ドキュメントサイトも手がけています。
+Sawir Studio は PeopleBond の HCMS を開発しました。従業員管理、採用、勤怠、給与計算、休暇、コンピテンシー、評価、研修を網羅するウェブアプリケーションに加え、従業員向けのモバイルアプリ（PeopleBond Connect、通称 pbConnect）と、ドキュメントサイトも手がけています。
 
 pbConnect は、日々の人事業務を従業員一人ひとりの手元に届けるアプリです。2021 年から PeopleBond 自社のチームと共同で開発を続けており、App Store と Google Play で公開されています。
 

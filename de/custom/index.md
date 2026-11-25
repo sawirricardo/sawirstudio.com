@@ -1,5 +1,5 @@
 ---
-title: Individuelle Software & Apps | SawirStudio
+title: Individuelle Software & Apps | Sawir Studio
 url: https://sawirstudio.com/de/custom/
 description: Apps, interne Systeme, Marktplätze und Portale, zugeschnitten auf die Arbeitsweise Ihres Unternehmens, mit Zahlungen, Integrationen und dem Backend dahinter. Code und Daten gehören Ihnen.
 ---

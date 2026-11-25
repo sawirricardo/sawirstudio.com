@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/ru/projects/quill-word-counter/
 description: Бесплатный счётчик слов, который также показывает время чтения, ограничения длины постов и повторяющиеся слова
 ---

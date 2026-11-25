@@ -1,7 +1,7 @@
 ---
-title: تطبيق PeopleBond HCMS | SawirStudio
+title: تطبيق PeopleBond HCMS | Sawir Studio
 url: https://sawirstudio.com/ar/projects/peoplebond-hcms-application/
-description: تطبيق ويب لنظام إدارة رأس المال البشري (HCMS) لصالح PeopleBond، من تنفيذ SawirStudio.
+description: تطبيق ويب لنظام إدارة رأس المال البشري (HCMS) لصالح PeopleBond، من تنفيذ Sawir Studio.
 ---
 
 # تطبيق PeopleBond HCMS

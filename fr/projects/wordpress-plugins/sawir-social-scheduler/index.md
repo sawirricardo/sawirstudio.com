@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-social-scheduler/
 description: Rédigez une fois, programmez sur 27 réseaux depuis wp-admin. Modifications par canal, fils, médias, aperçus. Vos jetons restent sur votre serveur.
 ---

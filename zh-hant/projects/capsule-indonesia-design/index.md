@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia 設計｜SawirStudio
+title: Capsule Indonesia 設計｜Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/capsule-indonesia-design/
-description: SawirStudio 為 Capsule Indonesia 的膠囊艙設計的產品型錄，以銀色與藍色為主調，呈現每款艙體的特色與適用場所。
+description: Sawir Studio 為 Capsule Indonesia 的膠囊艙設計的產品型錄，以銀色與藍色為主調，呈現每款艙體的特色與適用場所。
 ---
 
 # Capsule Indonesia 設計

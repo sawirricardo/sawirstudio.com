@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: wat pluginontwikkelaars moeten testen | SawirStudio
+title: WordPress 7.2: wat pluginontwikkelaars moeten testen | Sawir Studio
 url: https://sawirstudio.com/nl/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 verschijnt op 8 december 2026. Wat verandert er voor pluginontwikkelaars, van Application Passwords en de voorgestelde Secrets API tot de Interactivity API-router, en hoe test je nu al.
 ---

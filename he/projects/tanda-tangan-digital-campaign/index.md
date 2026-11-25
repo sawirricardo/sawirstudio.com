@@ -1,7 +1,7 @@
 ---
-title: קמפיין Tanda Tangan Digital | SawirStudio
+title: קמפיין Tanda Tangan Digital | Sawir Studio
 url: https://sawirstudio.com/he/projects/tanda-tangan-digital-campaign/
-description: עיצוב קמפיין חתימה דיגיטלית עבור משרד התקשורת והמידע של אינדונזיה, מאת SawirStudio.
+description: עיצוב קמפיין חתימה דיגיטלית עבור משרד התקשורת והמידע של אינדונזיה, מאת Sawir Studio.
 ---
 
 # קמפיין Tanda Tangan Digital

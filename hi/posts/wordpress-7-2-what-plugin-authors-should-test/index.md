@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: प्लगइन डेवलपर्स को क्या टेस्ट करना चाहिए | SawirStudio
+title: WordPress 7.2: प्लगइन डेवलपर्स को क्या टेस्ट करना चाहिए | Sawir Studio
 url: https://sawirstudio.com/hi/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 की रिलीज़ 8 दिसंबर 2026 को तय है। प्लगइन डेवलपर्स के लिए क्या बदल रहा है, Application Passwords और प्रस्तावित Secrets API से लेकर Interactivity API राउटर तक, और अभी टेस्ट कैसे करें।
 ---

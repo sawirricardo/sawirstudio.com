@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API: What Breaks | SawirStudio
+title: Shopify 2026-10 API: What Breaks | Sawir Studio
 url: https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/
 description: The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more.
 ---

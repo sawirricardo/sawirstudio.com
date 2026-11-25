@@ -1,7 +1,7 @@
 ---
-title: 关于我们 | SawirStudio
+title: 关于我们 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/about-us/
-description: SawirStudio 快速交付应用、网站和设计，AI 参与其中，每个决定都由人来负责。欢迎阅读创始人的话，了解我们的理念。
+description: Sawir Studio 快速交付应用、网站和设计，AI 参与其中，每个决定都由人来负责。欢迎阅读创始人的话，了解我们的理念。
 ---
 
 # 很高兴您找到了我们
@@ -10,7 +10,7 @@ description: SawirStudio 快速交付应用、网站和设计，AI 参与其中�
 
 创始人的话
 
-我创办 SawirStudio，是想打造真正经得起用户使用的应用、网站和设计。如今，我们每天都在借助 AI 开发。它负责写出大量初稿，SawirStudio 也因此在不到四周的时间里，把自家的六款应用上架到了 App Store。
+我创办 Sawir Studio，是想打造真正经得起用户使用的应用、网站和设计。如今，我们每天都在借助 AI 开发。它负责写出大量初稿，Sawir Studio 也因此在不到四周的时间里，把自家的六款应用上架到了 App Store。
 
 不过，工具无法为决定负责，所以由我们来负责。我们会阅读代码，在真机上测试，并对上线的每一处内容负责。客户项目同样如此。
 

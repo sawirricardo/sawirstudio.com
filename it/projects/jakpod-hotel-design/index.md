@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel Design | SawirStudio
+title: JakPod Hotel Design | Sawir Studio
 url: https://sawirstudio.com/it/projects/jakpod-hotel-design/
-description: Identità visiva per JakPod Hotel, un pod hotel a Thamrin, Giacarta: un monogramma JAK in un cerchio sfumato dal rosa al blu, firmato SawirStudio.
+description: Identità visiva per JakPod Hotel, un pod hotel a Thamrin, Giacarta: un monogramma JAK in un cerchio sfumato dal rosa al blu, firmato Sawir Studio.
 ---
 
 # Design JakPod Hotel

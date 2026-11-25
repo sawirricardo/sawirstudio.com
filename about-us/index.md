@@ -1,7 +1,7 @@
 ---
-title: About | SawirStudio
+title: About | Sawir Studio
 url: https://sawirstudio.com/about-us/
-description: SawirStudio ships apps, websites and designs fast, with AI in the loop and a human owning every call. Read our founder's note and what we believe.
+description: Sawir Studio ships apps, websites and designs fast, with AI in the loop and a human owning every call. Read our founder's note and what we believe.
 ---
 
 # Glad you found us
@@ -10,7 +10,7 @@ A studio that ships fast, with AI in the loop and a human owning every call.
 
 A note from the founder
 
-I started SawirStudio to build apps, websites and designs that hold up for the people who use them. Today we build with AI every day. It writes a lot of the first drafts, and that's how SawirStudio put six of its own apps on the App Store in under four weeks.
+I started Sawir Studio to build apps, websites and designs that hold up for the people who use them. Today we build with AI every day. It writes a lot of the first drafts, and that's how Sawir Studio put six of its own apps on the App Store in under four weeks.
 
 A tool can't own a decision, though, so we do. We read the code, test it on real devices and answer for what ships. Client work gets the same deal.
 

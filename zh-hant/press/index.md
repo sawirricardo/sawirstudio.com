@@ -1,5 +1,5 @@
 ---
-title: 媒體資料包 | SawirStudio
+title: 媒體資料包 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/press/
 description: Sawir Studio 的媒體資料包：標誌、品牌色彩和字型、公司基本資料、簡短的制式介紹，以及創辦人的簡介和照片，歡迎自由使用。
 ---

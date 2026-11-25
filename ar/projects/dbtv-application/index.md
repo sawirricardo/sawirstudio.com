@@ -1,7 +1,7 @@
 ---
-title: تطبيق DBTV | SawirStudio
+title: تطبيق DBTV | Sawir Studio
 url: https://sawirstudio.com/ar/projects/dbtv-application/
-description: يقدّم DBTV عظات القس Debby Basjir وجلسات الصلاة والترانيم والبودكاست والتأملات اليومية على iOS وAndroid. من تطوير SawirStudio.
+description: يقدّم DBTV عظات القس Debby Basjir وجلسات الصلاة والترانيم والبودكاست والتأملات اليومية على iOS وAndroid. من تطوير Sawir Studio.
 ---
 
 # تطبيق DBTV

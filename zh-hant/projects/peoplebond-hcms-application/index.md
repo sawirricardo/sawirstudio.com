@@ -1,7 +1,7 @@
 ---
-title: PeopleBond HCMS 應用程式 | SawirStudio
+title: PeopleBond HCMS 應用程式 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/
-description: 由 SawirStudio 為 PeopleBond 打造的人力資本管理系統（HCMS）網頁應用程式。
+description: 由 Sawir Studio 為 PeopleBond 打造的人力資本管理系統（HCMS）網頁應用程式。
 ---
 
 # PeopleBond HCMS 應用程式

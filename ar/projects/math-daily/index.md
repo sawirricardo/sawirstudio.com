@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/ar/projects/math-daily/
 description: يبني Math Daily عادة يومية في الرياضيات بدقيقة واحدة في اليوم مع وحوش الرياضيات: تدريب سريع على الجمع والطرح والضرب والقسمة.
 ---

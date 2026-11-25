@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/ja/projects/cleanstorage/
 description: CleanStorageは、iPhone内の重複した写真、容量の大きい動画、重複した連絡先を見つけ、残すものを選べるアプリです。広告もサブスクリプションもありません。
 ---

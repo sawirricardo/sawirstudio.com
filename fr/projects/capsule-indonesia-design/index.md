@@ -1,7 +1,7 @@
 ---
-title: Conception pour Capsule Indonesia | SawirStudio
+title: Conception pour Capsule Indonesia | Sawir Studio
 url: https://sawirstudio.com/fr/projects/capsule-indonesia-design/
-description: Brochure produit pour les unités capsules de Capsule Indonesia, conçue par SawirStudio en argenté et bleu, avec les caractéristiques de chaque capsule et les lieux où l'installer.
+description: Brochure produit pour les unités capsules de Capsule Indonesia, conçue par Sawir Studio en argenté et bleu, avec les caractéristiques de chaque capsule et les lieux où l'installer.
 ---
 
 # Capsule Indonesia Design

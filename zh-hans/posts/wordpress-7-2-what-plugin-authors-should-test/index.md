@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2：插件作者应该测试什么 | SawirStudio
+title: WordPress 7.2：插件作者应该测试什么 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 将于 2026 年 12 月 8 日发布。从 Application Passwords、拟议中的 Secrets API 到 Interactivity API 路由器，插件作者需要关注哪些变化，以及现在如何开始测试。
 ---

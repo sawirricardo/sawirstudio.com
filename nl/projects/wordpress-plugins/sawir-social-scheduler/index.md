@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-social-scheduler/
 description: Schrijf één keer, plan in op 27 netwerken vanuit wp-admin. Aanpassingen per kanaal, threads, media, voorbeelden. Je tokens blijven op je eigen server.
 ---

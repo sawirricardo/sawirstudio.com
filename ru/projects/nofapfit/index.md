@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/ru/projects/nofapfit/
 description: Мгновенное упражнение на момент, когда накатывает желание, и серии для развития дисциплины
 ---

@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/pawlitics/
 description: 一款溫馨卡通風的政治模擬遊戲，小鎮裡的動物會對每項政策做出反應
 ---

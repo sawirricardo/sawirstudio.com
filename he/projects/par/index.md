@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/he/projects/par/
 description: Par הוא מחשבון פיננסי RPN מלא ל-iPhone ול-iPad, עם רצפי המקשים הזהובים הקלאסיים: TVM, הלוואות, NPV, IRR, אג"ח ועוד.
 ---

@@ -1,7 +1,7 @@
 ---
-title: 部落格 | SawirStudio
+title: 部落格 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/
-description: SawirStudio 發表的文章，主題是使用 Laravel 與 PHP 開發網頁應用程式。
+description: Sawir Studio 發表的文章，主題是使用 Laravel 與 PHP 開發網頁應用程式。
 ---
 
 # 部落格

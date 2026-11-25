@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/rindraw/
 description: 一款每一筆都能繼續編輯的繪圖 App。iPad、iPhone 和 Mac 只需一次付費。
 ---

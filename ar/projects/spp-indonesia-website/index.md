@@ -1,7 +1,7 @@
 ---
-title: موقع SPP Indonesia | SawirStudio
+title: موقع SPP Indonesia | Sawir Studio
 url: https://sawirstudio.com/ar/projects/spp-indonesia-website/
-description: موقع شركة PT SPP Indonesia المتخصصة في مضخات الحريق، مع صفحة لكل نوع من المضخات، من الشفط الطرفي إلى التوربينية العمودية. من تنفيذ SawirStudio.
+description: موقع شركة PT SPP Indonesia المتخصصة في مضخات الحريق، مع صفحة لكل نوع من المضخات، من الشفط الطرفي إلى التوربينية العمودية. من تنفيذ Sawir Studio.
 ---
 
 # موقع SPP Indonesia

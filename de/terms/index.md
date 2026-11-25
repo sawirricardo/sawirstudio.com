@@ -1,5 +1,5 @@
 ---
-title: Nutzungsbedingungen | SawirStudio
+title: Nutzungsbedingungen | Sawir Studio
 url: https://sawirstudio.com/de/terms/
 description: Die Bedingungen für die Nutzung von sawirstudio.com: unsere Inhalte und unser Portfolio, die kostenlosen WordPress-Plugins und Apps, Links zu anderen Websites und wie Kundenprojekte vereinbart werden.
 ---

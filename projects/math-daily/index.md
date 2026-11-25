@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/projects/math-daily/
 description: Math Daily builds a daily math habit in a minute a day with the Math Monsters: quick practice in addition, subtraction, multiplication and division.
 ---

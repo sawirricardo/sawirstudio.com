@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – WooCommerce 推薦好友外掛 | SawirStudio
+title: Sawir Referral – WooCommerce 推薦好友外掛 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-referral/
 description: WooCommerce 互惠型推薦計畫。朋友享有折扣，推薦人獲得回饋優惠券，可透過代碼或連結分享，並以 WhatsApp 分享為優先。
 ---

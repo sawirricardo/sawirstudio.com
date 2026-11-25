@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia のデザイン | SawirStudio
+title: Capsule Indonesia のデザイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/capsule-indonesia-design/
-description: Capsule Indonesia のカプセルユニットの製品パンフレット。SawirStudio がシルバーとブルーでデザインし、各ポッドの特長と設置先を紹介しています。
+description: Capsule Indonesia のカプセルユニットの製品パンフレット。Sawir Studio がシルバーとブルーでデザインし、各ポッドの特長と設置先を紹介しています。
 ---
 
 # Capsule Indonesia デザイン

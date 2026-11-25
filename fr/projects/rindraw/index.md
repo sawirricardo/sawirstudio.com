@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/fr/projects/rindraw/
 description: Une application de dessin où chaque trait reste modifiable. Un seul paiement pour iPad, iPhone et Mac.
 ---

@@ -1,5 +1,5 @@
 ---
-title: आपके Shopify पेआउट आपकी बहियों से मेल क्यों नहीं खाते | SawirStudio
+title: आपके Shopify पेआउट आपकी बहियों से मेल क्यों नहीं खाते | Sawir Studio
 url: https://sawirstudio.com/hi/posts/why-shopify-payouts-dont-match-your-books/
 description: Shopify Payments आपके बैंक में जो पैसा भेजता है, वह आपकी सेल्स रिपोर्ट से कभी मेल क्यों नहीं खाता: फ़ीस, रिफ़ंड, डिस्प्यूट, गिफ़्ट कार्ड, करेंसी कन्वर्ज़न और समय का अंतर, और हिसाब कैसे मिलाएँ।
 ---

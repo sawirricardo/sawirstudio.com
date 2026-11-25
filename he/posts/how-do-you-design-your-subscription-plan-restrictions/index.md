@@ -1,5 +1,5 @@
 ---
-title: מגבלות תוכניות מנוי ב-Laravel | SawirStudio
+title: מגבלות תוכניות מנוי ב-Laravel | Sawir Studio
 url: https://sawirstudio.com/he/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: איך להגביל את תוכניות המנוי ב-Laravel, מבדיקה פשוטה ב-controller ועד Gates ו-Policies.
 ---

@@ -1,5 +1,5 @@
 ---
-title: ローンチ＆グロース | SawirStudio
+title: ローンチ＆グロース | Sawir Studio
 url: https://sawirstudio.com/ja/launch-and-growth/
 description: 見つけてもらえるサイトとアプリをつくり、見つけてもらうところまでお手伝いします。検索対策の設定、ローカル検索、掲載、獲得型のバックリンク、毎月の振り返りが含まれます。
 ---

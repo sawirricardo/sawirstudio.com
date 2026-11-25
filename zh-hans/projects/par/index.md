@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/par/
 description: Par 是一款适用于 iPhone 和 iPad 的完整 RPN 金融计算器，沿用经典的金色功能键按键流程：TVM、贷款、NPV、IRR、债券等功能一应俱全。
 ---

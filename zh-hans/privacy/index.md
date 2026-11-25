@@ -1,5 +1,5 @@
 ---
-title: 隐私 | SawirStudio
+title: 隐私 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/privacy/
 description: sawirstudio.com 收集哪些信息、收集的原因，以及哪些服务会处理这些信息：Microsoft Clarity、联系表单、Google Fonts 和 Cloudflare。
 ---

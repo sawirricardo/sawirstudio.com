@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/ar/projects/cleanstorage/
 description: يعثر CleanStorage على الصور المكررة ومقاطع الفيديو الكبيرة وجهات الاتصال المتكررة في iPhone، لتقرروا ما تحتفظون به. بلا إعلانات وبلا اشتراك.
 ---

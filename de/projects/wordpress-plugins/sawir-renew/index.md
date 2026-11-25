@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – Wiederkehrende Abrechnung für WooCommerce | SawirStudio
+title: Sawir Renew – Wiederkehrende Abrechnung für WooCommerce | Sawir Studio
 url: https://sawirstudio.com/de/projects/wordpress-plugins/sawir-renew/
 description: Komplette Abonnements für WooCommerce – wiederkehrende Abrechnung, Testphasen, Einrichtungsgebühren, Pausieren/Überspringen, Tarifwechsel, Mahnwesen, intelligente Wiederholungen. Alles kostenlos.
 ---

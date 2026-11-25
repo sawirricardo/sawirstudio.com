@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/sawirly/
 description: 注重隱私的短網址服務，不追蹤使用者，連結還能設定到期
 ---

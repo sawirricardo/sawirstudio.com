@@ -1,5 +1,5 @@
 ---
-title: Подключение Shopify к Odoo 19 Community | SawirStudio
+title: Подключение Shopify к Odoo 19 Community | Sawir Studio
 url: https://sawirstudio.com/ru/posts/connect-shopify-to-odoo-19-community/
 description: Как подключить магазин Shopify к Odoo 19 Community с помощью открытого коннектора Shopify от OCA: приложение в Dev Dashboard, scopes, queue_job, вебхуки и первичная настройка.
 ---

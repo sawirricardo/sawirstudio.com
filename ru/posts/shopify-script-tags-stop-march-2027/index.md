@@ -1,5 +1,5 @@
 ---
-title: Script tags Shopify перестанут работать в марте 2027 года | SawirStudio
+title: Script tags Shopify перестанут работать в марте 2027 года | Sawir Studio
 url: https://sawirstudio.com/ru/posts/shopify-script-tags-stop-march-2027/
 description: 1 марта 2027 года Shopify перестанет запускать script tags в онлайн-магазинах. Каких приложений это касается, как проверить свой магазин и что приходит на замену.
 ---

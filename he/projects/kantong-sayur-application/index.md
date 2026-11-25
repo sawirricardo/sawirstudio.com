@@ -1,7 +1,7 @@
 ---
-title: אפליקציית Kantong Sayur | SawirStudio
+title: אפליקציית Kantong Sayur | Sawir Studio
 url: https://sawirstudio.com/he/projects/kantong-sayur-application/
-description: אפליקציית ואתר לקניית ירקות ומצרכים עבור KantongSayur, שנבנו על ידי SawirStudio.
+description: אפליקציית ואתר לקניית ירקות ומצרכים עבור KantongSayur, שנבנו על ידי Sawir Studio.
 ---
 
 # אפליקציית Kantong Sayur

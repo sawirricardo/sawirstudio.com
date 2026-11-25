@@ -1,5 +1,5 @@
 ---
-title: יצירת קשר | SawirStudio
+title: יצירת קשר | Sawir Studio
 url: https://sawirstudio.com/he/contact/
 description: ספרו לנו על הפרויקט שלכם. אפליקציות, אתרים ועיצוב דיגיטלי.
 ---

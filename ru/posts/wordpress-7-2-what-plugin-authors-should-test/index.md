@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: что стоит протестировать авторам плагинов | SawirStudio
+title: WordPress 7.2: что стоит протестировать авторам плагинов | Sawir Studio
 url: https://sawirstudio.com/ru/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 выходит 8 декабря 2026 года. Что меняется для авторов плагинов: от Application Passwords и предложенного Secrets API до роутера Interactivity API, и как протестировать всё уже сейчас.
 ---

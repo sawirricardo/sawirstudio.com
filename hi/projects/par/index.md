@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/hi/projects/par/
 description: Par iPhone और iPad के लिए पूरा RPN फ़ाइनेंशियल कैलकुलेटर है, जिसमें क्लासिक गोल्ड-की कीस्ट्रोक्स हैं: TVM, लोन, NPV, IRR, बॉन्ड और बहुत कुछ।
 ---

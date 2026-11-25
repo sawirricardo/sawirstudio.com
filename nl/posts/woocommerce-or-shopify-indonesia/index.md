@@ -1,5 +1,5 @@
 ---
-title: WooCommerce of Shopify in Indonesië? | SawirStudio
+title: WooCommerce of Shopify in Indonesië? | Sawir Studio
 url: https://sawirstudio.com/nl/posts/woocommerce-or-shopify-indonesia/
 description: WooCommerce of Shopify voor een webshop in Indonesië: maandelijkse kosten in rupiah, betaalgateways en QRIS, de transactievergoeding die Shopify erbij rekent, verzending en welke optie bij welk bedrijf past.
 ---

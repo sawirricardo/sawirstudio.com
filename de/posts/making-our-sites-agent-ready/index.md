@@ -1,5 +1,5 @@
 ---
-title: Website agententauglich machen | SawirStudio
+title: Website agententauglich machen | Sawir Studio
 url: https://sawirstudio.com/de/posts/making-our-sites-agent-ready/
 description: So haben wir unsere Produkt-Websites für KI-Agenten lesbar gemacht: Markdown-Kopien jeder Seite, Link-Header, llms.txt, Content Signals in der robots.txt, ein API-Katalog und Agent Skills.
 ---

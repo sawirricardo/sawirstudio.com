@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia डिज़ाइन | SawirStudio
+title: Capsule Indonesia डिज़ाइन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/capsule-indonesia-design/
-description: Capsule Indonesia की कैप्सूल यूनिट्स के लिए प्रोडक्ट ब्रोशर, जिसे SawirStudio ने सिल्वर और ब्लू रंगों में डिज़ाइन किया है, जिसमें हर पॉड के फ़ीचर और उसके लगने की जगहें दी गई हैं।
+description: Capsule Indonesia की कैप्सूल यूनिट्स के लिए प्रोडक्ट ब्रोशर, जिसे Sawir Studio ने सिल्वर और ब्लू रंगों में डिज़ाइन किया है, जिसमें हर पॉड के फ़ीचर और उसके लगने की जगहें दी गई हैं।
 ---
 
 # Capsule Indonesia डिज़ाइन

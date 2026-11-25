@@ -1,5 +1,5 @@
 ---
-title: プレスキット | SawirStudio
+title: プレスキット | Sawir Studio
 url: https://sawirstudio.com/ja/press/
 description: Sawir Studio のプレスキットです。ロゴ、ブランドカラーとフォント、会社の基本情報、短い定型紹介文、創業者の経歴と写真を掲載しており、自由にお使いいただけます。
 ---

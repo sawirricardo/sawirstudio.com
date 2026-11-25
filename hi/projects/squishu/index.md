@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/hi/projects/squishu/
 description: Squishu iPhone, iPad और Apple Watch के लिए एक प्यारा क्लिकर गेम है: डम्पलिंग्स को स्क्विश कीजिए और भाप खत्म होने से पहले हर दुनिया के बॉस को हराइए।
 ---

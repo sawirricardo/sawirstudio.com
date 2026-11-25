@@ -1,7 +1,7 @@
 ---
-title: Astra International ESR Info & Tips | SawirStudio
+title: Astra International ESR Info & Tips | Sawir Studio
 url: https://sawirstudio.com/ru/projects/astra-international-esr-info-tips/
-description: ESR Info & Tips — иллюстрированная книга о безопасности, здоровье и охране окружающей среды для Astra International. Разработана SawirStudio вокруг двух дружелюбных персонажей.
+description: ESR Info & Tips — иллюстрированная книга о безопасности, здоровье и охране окружающей среды для Astra International. Разработана Sawir Studio вокруг двух дружелюбных персонажей.
 ---
 
 # Astra International: советы и информация по ESR

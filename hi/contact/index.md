@@ -1,5 +1,5 @@
 ---
-title: संपर्क करें | SawirStudio
+title: संपर्क करें | Sawir Studio
 url: https://sawirstudio.com/hi/contact/
 description: अपने प्रोजेक्ट के बारे में हमें बताइए। ऐप, वेबसाइट और डिजिटल डिज़ाइन।
 ---

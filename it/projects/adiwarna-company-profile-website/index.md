@@ -1,7 +1,7 @@
 ---
-title: Sito web aziendale Adiwarna | SawirStudio
+title: Sito web aziendale Adiwarna | Sawir Studio
 url: https://sawirstudio.com/it/projects/adiwarna-company-profile-website/
-description: Sito web aziendale per PT Adiwarna Anugerah Abadi, progettato e realizzato da SawirStudio.
+description: Sito web aziendale per PT Adiwarna Anugerah Abadi, progettato e realizzato da Sawir Studio.
 ---
 
 # Sito web aziendale Adiwarna

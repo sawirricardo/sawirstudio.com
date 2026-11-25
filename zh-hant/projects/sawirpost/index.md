@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/sawirpost/
 description: 撰寫一次貼文，即可依排程發布到 25 個以上的社群管道，專為代理商打造
 ---

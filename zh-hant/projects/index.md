@@ -1,12 +1,12 @@
 ---
-title: 專案 | SawirStudio
+title: 專案 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/
-description: SawirStudio 打造的應用程式、網站與設計作品，從客戶專案到我們在 App Store 上架的自家 App。
+description: Sawir Studio 打造的應用程式、網站與設計作品，從客戶專案到我們在 App Store 上架的自家 App。
 ---
 
 # 最新專案
 
-SawirStudio 近期專案精選
+Sawir Studio 近期專案精選
 
 應用程式
 

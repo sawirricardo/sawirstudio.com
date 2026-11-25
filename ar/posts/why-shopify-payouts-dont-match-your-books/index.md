@@ -1,5 +1,5 @@
 ---
-title: لماذا لا تتطابق مدفوعات Shopify مع دفاتركم المحاسبية | SawirStudio
+title: لماذا لا تتطابق مدفوعات Shopify مع دفاتركم المحاسبية | Sawir Studio
 url: https://sawirstudio.com/ar/posts/why-shopify-payouts-dont-match-your-books/
 description: لماذا لا يتطابق المبلغ الذي يرسله Shopify Payments إلى بنككم مع تقرير مبيعاتكم أبدًا: الرسوم، والمبالغ المستردة، والنزاعات، وبطاقات الهدايا، وتحويل العملات، والتوقيت، وكيف تطابقونها.
 ---

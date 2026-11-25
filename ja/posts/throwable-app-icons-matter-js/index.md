@@ -1,5 +1,5 @@
 ---
-title: Matter.js で作る、投げられるアプリアイコン | SawirStudio
+title: Matter.js で作る、投げられるアプリアイコン | Sawir Studio
 url: https://sawirstudio.com/ja/posts/throwable-app-icons-matter-js/
 description: ホームページにある、投げて遊べるアプリアイコンのボックスの作り方をご紹介します。物理演算には Matter.js を使い、canvas ではなく DOM 要素で描画し、アイコンが回転しても影は動かず、フォールバックも用意しています。
 ---

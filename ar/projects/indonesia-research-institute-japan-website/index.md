@@ -1,7 +1,7 @@
 ---
-title: موقع Indonesia Research Institute Japan | SawirStudio
+title: موقع Indonesia Research Institute Japan | Sawir Studio
 url: https://sawirstudio.com/ar/projects/indonesia-research-institute-japan-website/
-description: موقع الملف التعريفي لشركة Indonesia Research Institute Japan، صممه وبناه SawirStudio.
+description: موقع الملف التعريفي لشركة Indonesia Research Institute Japan، صممه وبناه Sawir Studio.
 ---
 
 # موقع Indonesia Research Institute Japan

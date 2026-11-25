@@ -1,7 +1,7 @@
 ---
-title: Site web d’Indonesia Research Institute Japan | SawirStudio
+title: Site web d’Indonesia Research Institute Japan | Sawir Studio
 url: https://sawirstudio.com/fr/projects/indonesia-research-institute-japan-website/
-description: Site vitrine d’entreprise pour Indonesia Research Institute Japan, conçu et réalisé par SawirStudio.
+description: Site vitrine d’entreprise pour Indonesia Research Institute Japan, conçu et réalisé par Sawir Studio.
 ---
 
 # Indonesia Research Institute Japan Website

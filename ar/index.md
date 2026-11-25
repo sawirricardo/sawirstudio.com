@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | تطبيقات ومنصات ويب وحلول Shopify وOdoo
+title: Sawir Studio | تطبيقات ومنصات ويب وحلول Shopify وOdoo
 url: https://sawirstudio.com/ar/
-description: تبني SawirStudio برمجيات يستخدمها الناس: تطبيقات ومنصات ويب وحلول Shopify مع Odoo للعملاء، إضافة إلى تطبيقاتنا الخاصة لأجهزة iPhone وiPad وMac.
+description: تبني Sawir Studio برمجيات يستخدمها الناس: تطبيقات ومنصات ويب وحلول Shopify مع Odoo للعملاء، إضافة إلى تطبيقاتنا الخاصة لأجهزة iPhone وiPad وMac.
 ---
 
 مرحبًا، نحن Sawir Studio

@@ -1,5 +1,5 @@
 ---
-title: Shopify連携・アプリ開発 | SawirStudio
+title: Shopify連携・アプリ開発 | Sawir Studio
 url: https://sawirstudio.com/ja/shopify/
 description: ShopifyをOdooなど、御社のビジネス全体につなぎます。注文、在庫、入金、POSに対応。開発するのは、Odoo向けのオープンソースShopifyコネクタを書いたメンバーです。
 ---

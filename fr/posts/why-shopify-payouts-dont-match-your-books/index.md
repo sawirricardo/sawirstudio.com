@@ -1,5 +1,5 @@
 ---
-title: Pourquoi les versements Shopify ne correspondent pas à votre comptabilité | SawirStudio
+title: Pourquoi les versements Shopify ne correspondent pas à votre comptabilité | Sawir Studio
 url: https://sawirstudio.com/fr/posts/why-shopify-payouts-dont-match-your-books/
 description: Pourquoi l'argent que Shopify Payments verse sur votre compte bancaire ne correspond jamais à votre rapport de ventes : frais, remboursements, litiges, cartes cadeaux, conversion de devises et décalages, et comment rapprocher le tout.
 ---

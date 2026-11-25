@@ -1,7 +1,7 @@
 ---
-title: Дизайн Capsule Indonesia | SawirStudio
+title: Дизайн Capsule Indonesia | Sawir Studio
 url: https://sawirstudio.com/ru/projects/capsule-indonesia-design/
-description: Продуктовый буклет для капсульных модулей Capsule Indonesia. Дизайн SawirStudio в серебристо-синих тонах: особенности каждой капсулы и места, где она подойдёт.
+description: Продуктовый буклет для капсульных модулей Capsule Indonesia. Дизайн Sawir Studio в серебристо-синих тонах: особенности каждой капсулы и места, где она подойдёт.
 ---
 
 # Дизайн для Capsule Indonesia

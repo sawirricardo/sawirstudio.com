@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/fr/projects/habitat-hills-design/
-description: Brochure à trois volets pour Habitat Hills, un resort nature de 27 hectares à Megamendung, dans la région de Bogor, conçue par SawirStudio en vert forêt et terre cuite.
+description: Brochure à trois volets pour Habitat Hills, un resort nature de 27 hectares à Megamendung, dans la région de Bogor, conçue par Sawir Studio en vert forêt et terre cuite.
 ---
 
 # Habitat Hills Design

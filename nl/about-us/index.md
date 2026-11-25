@@ -1,7 +1,7 @@
 ---
-title: Over ons | SawirStudio
+title: Over ons | Sawir Studio
 url: https://sawirstudio.com/nl/about-us/
-description: SawirStudio levert apps, websites en ontwerpen snel op, met AI als hulpmiddel en een mens die elke beslissing verantwoordt. Lees het woord van onze oprichter en waar we in geloven.
+description: Sawir Studio levert apps, websites en ontwerpen snel op, met AI als hulpmiddel en een mens die elke beslissing verantwoordt. Lees het woord van onze oprichter en waar we in geloven.
 ---
 
 # Fijn dat je ons gevonden hebt
@@ -10,7 +10,7 @@ Een studio die snel oplevert, met AI als hulpmiddel en een mens die elke besliss
 
 Een woord van de oprichter
 
-Ik begon SawirStudio om apps, websites en ontwerpen te bouwen die standhouden voor de mensen die ze gebruiken. Tegenwoordig bouwen we elke dag met AI. Die schrijft veel van de eerste versies, en zo zette SawirStudio zes eigen apps in minder dan vier weken in de App Store.
+Ik begon Sawir Studio om apps, websites en ontwerpen te bouwen die standhouden voor de mensen die ze gebruiken. Tegenwoordig bouwen we elke dag met AI. Die schrijft veel van de eerste versies, en zo zette Sawir Studio zes eigen apps in minder dan vier weken in de App Store.
 
 Een tool kan alleen geen beslissing verantwoorden, dus doen wij dat. We lezen de code, testen op echte apparaten en staan in voor wat we opleveren. Voor klantwerk geldt dezelfde afspraak.
 

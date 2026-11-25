@@ -1,5 +1,5 @@
 ---
-title: ערכת עיתונות | SawirStudio
+title: ערכת עיתונות | Sawir Studio
 url: https://sawirstudio.com/he/press/
 description: ערכת העיתונות של Sawir Studio: לוגואים, צבעי המותג והגופנים שלו, עובדות על החברה, תיאור קצר קבוע, וכן פרטי רקע ותמונה של המייסד, לשימוש חופשי.
 ---

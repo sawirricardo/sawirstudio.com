@@ -1,5 +1,5 @@
 ---
-title: WooCommerce or Shopify in Indonesia? | SawirStudio
+title: WooCommerce or Shopify in Indonesia? | Sawir Studio
 url: https://sawirstudio.com/posts/woocommerce-or-shopify-indonesia/
 description: WooCommerce or Shopify for a store in Indonesia: monthly costs in rupiah, payment gateways and QRIS, the transaction fee Shopify adds, shipping, and which fits which business.
 ---

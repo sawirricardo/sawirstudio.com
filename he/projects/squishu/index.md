@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/he/projects/squishu/
 description: Squishu הוא משחק קליקר חמוד ל-iPhone, ל-iPad ול-Apple Watch: מועכים כופתאות ומנצחים את הבוס של כל עולם לפני שהקיטור נגמר.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/ja/projects/par/
 description: Parは、iPhoneとiPad向けの本格的なRPN方式のファイナンシャル電卓です。ゴールドキー操作に対応し、TVM、ローン、NPV、IRR、債券などの計算ができます。
 ---

@@ -1,5 +1,5 @@
 ---
-title: واجهة WordPress Abilities API للإضافات | SawirStudio
+title: واجهة WordPress Abilities API للإضافات | Sawir Studio
 url: https://sawirstudio.com/ar/posts/wordpress-abilities-api-for-plugins/
 description: كيف تسجّلون القدرات في إضافة WordPress ليتمكن وكلاء الذكاء الاصطناعي والأدوات الأخرى من اكتشافها وتشغيلها بأمان: الفئات، والمخططات، والصلاحيات، والتوصيفات، ونقاط نهاية REST.
 ---

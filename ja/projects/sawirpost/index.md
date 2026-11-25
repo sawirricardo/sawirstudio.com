@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/ja/projects/sawirpost/
 description: 投稿を一度書くだけで、25以上のSNSチャネルにスケジュール配信。代理店向けに作りました
 ---

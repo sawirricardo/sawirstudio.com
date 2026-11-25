@@ -1,7 +1,7 @@
 ---
-title: WordPress 外掛 | SawirStudio
+title: WordPress 外掛 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/
-description: SawirStudio 推出的十二個免費 WordPress 外掛：為 WooCommerce 提供訂閱、推薦、補貨通知等功能，另有適用於任何 WordPress 網站的工具。
+description: Sawir Studio 推出的十二個免費 WordPress 外掛：為 WooCommerce 提供訂閱、推薦、補貨通知等功能，另有適用於任何 WordPress 網站的工具。
 ---
 
 # WordPress 外掛

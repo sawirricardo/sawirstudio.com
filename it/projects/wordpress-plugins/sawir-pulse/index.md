@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – Vendite in tempo reale e riprova sociale per WooCommerce | SawirStudio
+title: Sawir Pulse – Vendite in tempo reale e riprova sociale per WooCommerce | Sawir Studio
 url: https://sawirstudio.com/it/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse mostra ai vostri clienti cosa succede davvero nel vostro negozio, come gli ordini recenti, le persone che stanno guardando un prodotto e le recensioni più fresche, con piccole notifiche…
 ---

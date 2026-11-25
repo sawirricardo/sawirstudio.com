@@ -1,7 +1,7 @@
 ---
-title: TaniMilenial ऐप्लिकेशन | SawirStudio
+title: TaniMilenial ऐप्लिकेशन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/tani-milenial-application/
-description: खेती, मत्स्य पालन और पशुपालन के लिए TaniMilenial मोबाइल ऐप, जिसे SawirStudio ने Clicks&Co के साथ मिलकर बनाया।
+description: खेती, मत्स्य पालन और पशुपालन के लिए TaniMilenial मोबाइल ऐप, जिसे Sawir Studio ने Clicks&Co के साथ मिलकर बनाया।
 ---
 
 # TaniMilenial ऐप्लिकेशन

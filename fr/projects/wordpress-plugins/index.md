@@ -1,7 +1,7 @@
 ---
-title: Extensions WordPress | SawirStudio
+title: Extensions WordPress | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/
-description: Douze extensions WordPress gratuites signées SawirStudio : abonnements, parrainage, alertes de réapprovisionnement et plus encore pour WooCommerce, ainsi que des outils pour tout site WordPress.
+description: Douze extensions WordPress gratuites signées Sawir Studio : abonnements, parrainage, alertes de réapprovisionnement et plus encore pour WooCommerce, ainsi que des outils pour tout site WordPress.
 ---
 
 # Plugins WordPress

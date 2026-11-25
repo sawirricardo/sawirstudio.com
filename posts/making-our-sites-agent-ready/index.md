@@ -1,5 +1,5 @@
 ---
-title: Making Our Sites Agent-Ready | SawirStudio
+title: Making Our Sites Agent-Ready | Sawir Studio
 url: https://sawirstudio.com/posts/making-our-sites-agent-ready/
 description: How we made our product sites readable by AI agents: Markdown copies of every page, Link headers, llms.txt, Content Signals in robots.txt, an API catalog and Agent Skills.
 ---

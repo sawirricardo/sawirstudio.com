@@ -1,7 +1,7 @@
 ---
-title: Vivaldy 皮肤诊所营销设计 | SawirStudio
+title: Vivaldy 皮肤诊所营销设计 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/vivaldy-skin-clinic-marketing-design/
-description: SawirStudio 为 Vivaldy Skin Clinic 制作的营销设计，例如采用诊所柔和白色与青绿色调的开斋节贺卡。
+description: Sawir Studio 为 Vivaldy Skin Clinic 制作的营销设计，例如采用诊所柔和白色与青绿色调的开斋节贺卡。
 ---
 
 # Vivaldy Skin Clinic 营销设计

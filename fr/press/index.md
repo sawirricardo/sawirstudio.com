@@ -1,5 +1,5 @@
 ---
-title: Kit presse | SawirStudio
+title: Kit presse | Sawir Studio
 url: https://sawirstudio.com/fr/press/
 description: Le kit presse de Sawir Studio : logos, couleurs et polices de la marque, informations sur l’entreprise, courte présentation type, ainsi que la biographie et la photo du fondateur, à utiliser librement.
 ---

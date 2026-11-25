@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel のデザイン | SawirStudio
+title: JakPod Hotel のデザイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/jakpod-hotel-design/
-description: ジャカルタ・タムリンにあるポッドホテル、JakPod Hotel のアイデンティティデザイン。ピンクからブルーへのグラデーションの円に JAK のモノグラムを配置。制作は SawirStudio です。
+description: ジャカルタ・タムリンにあるポッドホテル、JakPod Hotel のアイデンティティデザイン。ピンクからブルーへのグラデーションの円に JAK のモノグラムを配置。制作は Sawir Studio です。
 ---
 
 # JakPod Hotel デザイン

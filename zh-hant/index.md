@@ -1,7 +1,7 @@
 ---
-title: SawirStudio｜App、網站平台、Shopify 與 Odoo
+title: Sawir Studio｜App、網站平台、Shopify 與 Odoo
 url: https://sawirstudio.com/zh-hant/
-description: SawirStudio 打造大家真的會用的軟體：為客戶開發 App、網站平台，以及 Shopify 與 Odoo 整合，也推出我們自己的 iPhone、iPad 與 Mac App。
+description: Sawir Studio 打造大家真的會用的軟體：為客戶開發 App、網站平台，以及 Shopify 與 Odoo 整合，也推出我們自己的 iPhone、iPad 與 Mac App。
 ---
 
 嗨，我們是 Sawir Studio

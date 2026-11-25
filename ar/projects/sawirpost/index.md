@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/ar/projects/sawirpost/
 description: اكتبوا المنشور مرة واحدة وانشروه على أكثر من 25 قناة اجتماعية في موعده، مصمم للوكالات
 ---

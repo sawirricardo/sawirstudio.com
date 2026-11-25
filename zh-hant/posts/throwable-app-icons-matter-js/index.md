@@ -1,5 +1,5 @@
 ---
-title: 使用 Matter.js 製作可拋擲的 App 圖示 | SawirStudio
+title: 使用 Matter.js 製作可拋擲的 App 圖示 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/throwable-app-icons-matter-js/
 description: 我們如何製作首頁上可以拋擲 App 圖示的盒子：用 Matter.js 做物理效果、以 DOM 元素取代 canvas、讓圖示旋轉時陰影保持不動，以及備援方案。
 ---

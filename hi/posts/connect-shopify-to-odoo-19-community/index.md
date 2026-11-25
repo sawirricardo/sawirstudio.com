@@ -1,5 +1,5 @@
 ---
-title: Shopify को Odoo 19 Community से कनेक्ट करें | SawirStudio
+title: Shopify को Odoo 19 Community से कनेक्ट करें | Sawir Studio
 url: https://sawirstudio.com/hi/posts/connect-shopify-to-odoo-19-community/
 description: ओपन सोर्स OCA Shopify कनेक्टर की मदद से Shopify स्टोर को Odoo 19 Community से कैसे जोड़ें: Dev Dashboard ऐप, scopes, queue_job, वेबहुक और ऑनबोर्डिंग।
 ---

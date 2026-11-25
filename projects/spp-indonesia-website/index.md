@@ -1,7 +1,7 @@
 ---
-title: SPP Indonesia Website | SawirStudio
+title: SPP Indonesia Website | Sawir Studio
 url: https://sawirstudio.com/projects/spp-indonesia-website/
-description: Website for PT SPP Indonesia, a fire pump specialist, with a page for each pump type from end suction to vertical turbine. Built by SawirStudio.
+description: Website for PT SPP Indonesia, a fire pump specialist, with a page for each pump type from end suction to vertical turbine. Built by Sawir Studio.
 ---
 
 # SPP Indonesia Website

@@ -1,5 +1,5 @@
 ---
-title: Приложение Koperasi HOB | SawirStudio
+title: Приложение Koperasi HOB | Sawir Studio
 url: https://sawirstudio.com/ru/projects/koperasi-hob-application/
 description: Приложение Koperasi HOB для покупок: участники просматривают товары для дома по категориям, выбирают доставку или самовывоз и оплачивают заказ балансом в кооперативе.
 ---

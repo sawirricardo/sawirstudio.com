@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – Recurring Billing for WooCommerce | SawirStudio
+title: Sawir Renew – Recurring Billing for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/
 description: Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free.
 ---

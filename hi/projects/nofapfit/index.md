@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/hi/projects/nofapfit/
 description: जब मन भटके, तब तुरंत एक्सरसाइज़ चैलेंज, और अनुशासन बनाने के लिए स्ट्रीक
 ---

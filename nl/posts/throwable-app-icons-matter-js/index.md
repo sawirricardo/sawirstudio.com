@@ -1,5 +1,5 @@
 ---
-title: Gooibare app-iconen met Matter.js | SawirStudio
+title: Gooibare app-iconen met Matter.js | Sawir Studio
 url: https://sawirstudio.com/nl/posts/throwable-app-icons-matter-js/
 description: Hoe we de box met gooibare app-iconen op onze homepage bouwden: Matter.js voor de fysica, DOM-elementen in plaats van een canvas, een schaduw die blijft staan terwijl iconen draaien, en fallbacks.
 ---

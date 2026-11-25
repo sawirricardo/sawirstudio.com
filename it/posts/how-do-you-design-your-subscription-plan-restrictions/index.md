@@ -1,5 +1,5 @@
 ---
-title: Limiti dei piani di abbonamento in Laravel | SawirStudio
+title: Limiti dei piani di abbonamento in Laravel | Sawir Studio
 url: https://sawirstudio.com/it/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Come applicare i limiti dei piani di abbonamento in Laravel, da un semplice controllo nel controller fino a Gate e Policy.
 ---

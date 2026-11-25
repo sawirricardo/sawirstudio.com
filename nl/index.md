@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | Apps, webplatforms, Shopify & Odoo
+title: Sawir Studio | Apps, webplatforms, Shopify & Odoo
 url: https://sawirstudio.com/nl/
-description: SawirStudio bouwt software die mensen gebruiken: apps, webplatforms, en Shopify met Odoo voor klanten, plus onze eigen apps voor iPhone, iPad en Mac.
+description: Sawir Studio bouwt software die mensen gebruiken: apps, webplatforms, en Shopify met Odoo voor klanten, plus onze eigen apps voor iPhone, iPad en Mac.
 ---
 
 hoi, wij zijn Sawir Studio

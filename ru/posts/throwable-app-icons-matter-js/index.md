@@ -1,5 +1,5 @@
 ---
-title: Иконки приложений, которые можно бросать, на Matter.js | SawirStudio
+title: Иконки приложений, которые можно бросать, на Matter.js | Sawir Studio
 url: https://sawirstudio.com/ru/posts/throwable-app-icons-matter-js/
 description: Как мы сделали на главной странице рамку с иконками приложений, которые можно бросать: Matter.js для физики, элементы DOM вместо canvas, тень, остающаяся на месте, пока иконки вращаются, и запасные варианты.
 ---

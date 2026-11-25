@@ -1,7 +1,7 @@
 ---
-title: WordPress प्लगइन | SawirStudio
+title: WordPress प्लगइन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/
-description: SawirStudio के बारह मुफ़्त WordPress प्लगइन: WooCommerce के लिए सब्सक्रिप्शन, रेफ़रल, स्टॉक अलर्ट और बहुत कुछ, साथ ही किसी भी WordPress साइट के लिए टूल।
+description: Sawir Studio के बारह मुफ़्त WordPress प्लगइन: WooCommerce के लिए सब्सक्रिप्शन, रेफ़रल, स्टॉक अलर्ट और बहुत कुछ, साथ ही किसी भी WordPress साइट के लिए टूल।
 ---
 
 # WordPress प्लगइन

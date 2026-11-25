@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/hi/projects/pawlitics/
 description: एक प्यारा-सा कार्टून पॉलिटिक्स सिम, जहाँ जानवरों का पूरा क़स्बा हर नीति पर अपनी प्रतिक्रिया देता है
 ---

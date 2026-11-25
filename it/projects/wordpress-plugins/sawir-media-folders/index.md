@@ -1,5 +1,5 @@
 ---
-title: Sawir Media Folders | SawirStudio
+title: Sawir Media Folders | Sawir Studio
 url: https://sawirstudio.com/it/projects/wordpress-plugins/sawir-media-folders/
 description: Cartelle veloci e illimitate per la libreria media di WordPress, con drag & drop.
 ---

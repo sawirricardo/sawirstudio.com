@@ -1,7 +1,7 @@
 ---
-title: Tanda Tangan Digital Campaign | SawirStudio
+title: Tanda Tangan Digital Campaign | Sawir Studio
 url: https://sawirstudio.com/projects/tanda-tangan-digital-campaign/
-description: Digital signature campaign design for Indonesia's Ministry of Communication and Informatics by SawirStudio.
+description: Digital signature campaign design for Indonesia's Ministry of Communication and Informatics by Sawir Studio.
 ---
 
 # Tanda Tangan Digital Campaign

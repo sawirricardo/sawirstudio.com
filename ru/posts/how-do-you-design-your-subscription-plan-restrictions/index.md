@@ -1,5 +1,5 @@
 ---
-title: Ограничения тарифных планов в Laravel | SawirStudio
+title: Ограничения тарифных планов в Laravel | Sawir Studio
 url: https://sawirstudio.com/ru/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Как внедрить ограничения тарифных планов в Laravel: от простой проверки в контроллере до Gate и Policy.
 ---

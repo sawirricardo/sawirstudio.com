@@ -1,12 +1,12 @@
 ---
-title: प्रोजेक्ट | SawirStudio
+title: प्रोजेक्ट | Sawir Studio
 url: https://sawirstudio.com/hi/projects/
-description: SawirStudio के बनाए ऐप, वेबसाइट और डिज़ाइन, क्लाइंट प्रोजेक्ट से लेकर App Store पर हमारे अपने ऐप तक।
+description: Sawir Studio के बनाए ऐप, वेबसाइट और डिज़ाइन, क्लाइंट प्रोजेक्ट से लेकर App Store पर हमारे अपने ऐप तक।
 ---
 
 # नवीनतम प्रोजेक्ट
 
-SawirStudio के नवीनतम प्रोजेक्ट का संग्रह
+Sawir Studio के नवीनतम प्रोजेक्ट का संग्रह
 
 ऐप्लिकेशन
 

@@ -1,5 +1,5 @@
 ---
-title: 使用 Matter.js 制作可抛掷的应用图标 | SawirStudio
+title: 使用 Matter.js 制作可抛掷的应用图标 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/throwable-app-icons-matter-js/
 description: 我们如何制作首页上可以抛掷的应用图标盒子：用 Matter.js 实现物理效果，用 DOM 元素而不是 canvas，图标旋转时阴影保持不动，以及相应的降级方案。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Terms of Use | SawirStudio
+title: Terms of Use | Sawir Studio
 url: https://sawirstudio.com/terms/
 description: The terms for using sawirstudio.com: our content and portfolio, the free WordPress plugins and apps, links to other sites, and how client work is agreed.
 ---

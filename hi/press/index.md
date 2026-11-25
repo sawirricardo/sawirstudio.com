@@ -1,5 +1,5 @@
 ---
-title: प्रेस किट | SawirStudio
+title: प्रेस किट | Sawir Studio
 url: https://sawirstudio.com/hi/press/
 description: Sawir Studio की प्रेस किट: लोगो, ब्रांड के रंग और फ़ॉन्ट, कंपनी से जुड़े तथ्य, एक छोटा मानक परिचय और संस्थापक का परिचय व फ़ोटो, जिन्हें आप मुफ़्त में इस्तेमाल कर सकते हैं।
 ---

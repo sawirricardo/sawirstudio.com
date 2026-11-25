@@ -1,7 +1,7 @@
 ---
-title: Сайт Growinc Group | SawirStudio
+title: Сайт Growinc Group | Sawir Studio
 url: https://sawirstudio.com/ru/projects/growinc-group-website/
-description: Корпоративный сайт Growinc Group Indonesia, маркетинговой и рекламной группы из Джакарты: услуги, кейсы и агентства. Разработан SawirStudio.
+description: Корпоративный сайт Growinc Group Indonesia, маркетинговой и рекламной группы из Джакарты: услуги, кейсы и агентства. Разработан Sawir Studio.
 ---
 
 # Сайт Growinc Group

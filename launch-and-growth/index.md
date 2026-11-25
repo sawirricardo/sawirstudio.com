@@ -1,5 +1,5 @@
 ---
-title: Launch & Growth | SawirStudio
+title: Launch & Growth | Sawir Studio
 url: https://sawirstudio.com/launch-and-growth/
 description: We build sites and apps to be found, then help people find them: search setup, local search, listings and earned backlinks, and a monthly check-in.
 ---

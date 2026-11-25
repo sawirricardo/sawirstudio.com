@@ -1,5 +1,5 @@
 ---
-title: Privacy | SawirStudio
+title: Privacy | Sawir Studio
 url: https://sawirstudio.com/nl/privacy/
 description: Wat sawirstudio.com verzamelt, waarom, en welke diensten het verwerken: Microsoft Clarity, het contactformulier, Google Fonts en Cloudflare.
 ---

@@ -1,7 +1,7 @@
 ---
-title: 關於我們 | SawirStudio
+title: 關於我們 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/about-us/
-description: SawirStudio 出手快，AI 協助作業，每個決定都由真人負責，為您打造 App、網站與設計。歡迎閱讀創辦人的話，了解我們的信念。
+description: Sawir Studio 出手快，AI 協助作業，每個決定都由真人負責，為您打造 App、網站與設計。歡迎閱讀創辦人的話，了解我們的信念。
 ---
 
 # 很高興您找到我們
@@ -10,7 +10,7 @@ description: SawirStudio 出手快，AI 協助作業，每個決定都由真人�
 
 創辦人的話
 
-我創立 SawirStudio，是為了打造經得起使用者考驗的 App、網站與設計。如今我們每天都用 AI 來開發，許多初稿都由它完成，SawirStudio 也因此在不到四週內，把六款自家 App 上架到 App Store。
+我創立 Sawir Studio，是為了打造經得起使用者考驗的 App、網站與設計。如今我們每天都用 AI 來開發，許多初稿都由它完成，Sawir Studio 也因此在不到四週內，把六款自家 App 上架到 App Store。
 
 不過，工具無法為決策負責，所以由我們來負責。我們會閱讀程式碼、在真實裝置上測試，並對上線的成果負責。客戶專案也是同樣的標準。
 

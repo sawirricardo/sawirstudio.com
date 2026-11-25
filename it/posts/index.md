@@ -1,7 +1,7 @@
 ---
-title: Blog | SawirStudio
+title: Blog | Sawir Studio
 url: https://sawirstudio.com/it/posts/
-description: Articoli di SawirStudio sullo sviluppo di web application con Laravel e PHP.
+description: Articoli di Sawir Studio sullo sviluppo di web application con Laravel e PHP.
 ---
 
 # Blog

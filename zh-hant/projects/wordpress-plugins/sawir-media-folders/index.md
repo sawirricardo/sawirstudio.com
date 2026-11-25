@@ -1,5 +1,5 @@
 ---
-title: Sawir Media Folders | SawirStudio
+title: Sawir Media Folders | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-media-folders/
 description: 為 WordPress 媒體庫提供快速、數量不限的資料夾，支援拖放操作。
 ---

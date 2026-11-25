@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/fr/projects/cleanstorage/
 description: CleanStorage détecte les photos en double, les vidéos volumineuses et les contacts en doublon sur votre iPhone, pour que vous décidiez de ce que vous gardez. Sans publicité, sans abonnement.
 ---

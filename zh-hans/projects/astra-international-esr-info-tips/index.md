@@ -1,7 +1,7 @@
 ---
-title: Astra International ESR Info & Tips | SawirStudio
+title: Astra International ESR Info & Tips | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/astra-international-esr-info-tips/
-description: ESR Info & Tips，SawirStudio 为 Astra International 设计的一本关于安全、健康与环境的插图手册，围绕两个亲切的角色展开。
+description: ESR Info & Tips，Sawir Studio 为 Astra International 设计的一本关于安全、健康与环境的插图手册，围绕两个亲切的角色展开。
 ---
 
 # Astra International ESR 资讯与小贴士

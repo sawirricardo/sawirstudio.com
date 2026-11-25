@@ -1,7 +1,7 @@
 ---
-title: Calvin Kain | SawirStudio
+title: Calvin Kain | Sawir Studio
 url: https://sawirstudio.com/it/projects/calvin-kain/
-description: Applicazione realizzata per Calvin Kain da SawirStudio, in collaborazione con Clicks&co.
+description: Applicazione realizzata per Calvin Kain da Sawir Studio, in collaborazione con Clicks&co.
 ---
 
 # Calvin Kain

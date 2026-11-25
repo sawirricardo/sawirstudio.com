@@ -1,7 +1,7 @@
 ---
-title: تصميم Habitat Hills | SawirStudio
+title: تصميم Habitat Hills | Sawir Studio
 url: https://sawirstudio.com/ar/projects/habitat-hills-design/
-description: كتيب ثلاثي الطيات لمنتجع Habitat Hills الطبيعي الذي تبلغ مساحته 27 هكتارًا في Megamendung بمنطقة Bogor، صممته SawirStudio بلونَي الأخضر الغابي والتيراكوتا.
+description: كتيب ثلاثي الطيات لمنتجع Habitat Hills الطبيعي الذي تبلغ مساحته 27 هكتارًا في Megamendung بمنطقة Bogor، صممته Sawir Studio بلونَي الأخضر الغابي والتيراكوتا.
 ---
 
 # تصميم Habitat Hills

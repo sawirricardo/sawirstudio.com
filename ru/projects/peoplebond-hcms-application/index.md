@@ -1,7 +1,7 @@
 ---
-title: PeopleBond HCMS Application | SawirStudio
+title: PeopleBond HCMS Application | Sawir Studio
 url: https://sawirstudio.com/ru/projects/peoplebond-hcms-application/
-description: Веб-приложение HCMS (система управления человеческим капиталом) для PeopleBond, созданное SawirStudio.
+description: Веб-приложение HCMS (система управления человеческим капиталом) для PeopleBond, созданное Sawir Studio.
 ---
 
 # PeopleBond HCMS Application

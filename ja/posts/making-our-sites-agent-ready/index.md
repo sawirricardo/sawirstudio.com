@@ -1,5 +1,5 @@
 ---
-title: サイトをエージェント対応にするために行ったこと | SawirStudio
+title: サイトをエージェント対応にするために行ったこと | Sawir Studio
 url: https://sawirstudio.com/ja/posts/making-our-sites-agent-ready/
 description: 製品サイトを AI エージェントが読めるようにした方法：全ページの Markdown 版、Link ヘッダー、llms.txt、robots.txt の Content Signals、API カタログ、Agent Skills。
 ---

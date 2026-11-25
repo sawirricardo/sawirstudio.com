@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/nl/projects/sawirpost/
 description: Schrijf een post één keer en publiceer hem op tijd op 25+ social kanalen, gebouwd voor bureaus
 ---

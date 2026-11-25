@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2：外掛作者該測試什麼 | SawirStudio
+title: WordPress 7.2：外掛作者該測試什麼 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 預定於 2026 年 12 月 8 日發布。本文說明外掛作者會遇到哪些變化，從 Application Passwords、提案中的 Secrets API 到 Interactivity API 路由器，以及現在該如何測試。
 ---

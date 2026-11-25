@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/he/projects/pawlitics/
 description: סימולציית פוליטיקה מצוירת ונעימה, שבה עיר שלמה של בעלי חיים מגיבה לכל מדיניות
 ---

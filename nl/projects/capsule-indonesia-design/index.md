@@ -1,7 +1,7 @@
 ---
-title: Capsule Indonesia Design | SawirStudio
+title: Capsule Indonesia Design | Sawir Studio
 url: https://sawirstudio.com/nl/projects/capsule-indonesia-design/
-description: Productbrochure voor de capsule-units van Capsule Indonesia, door SawirStudio ontworpen in zilver en blauw, met de kenmerken van elke pod en waar die past.
+description: Productbrochure voor de capsule-units van Capsule Indonesia, door Sawir Studio ontworpen in zilver en blauw, met de kenmerken van elke pod en waar die past.
 ---
 
 # Capsule Indonesia Design

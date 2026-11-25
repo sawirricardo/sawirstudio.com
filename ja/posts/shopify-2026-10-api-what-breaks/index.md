@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API：何が壊れるか | SawirStudio
+title: Shopify 2026-10 API：何が壊れるか | Sawir Studio
 url: https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/
 description: 連携を壊す可能性のある、バージョン 2026-10 の Shopify Admin API の変更点と対処方法：配送料金、ドラフト注文の割引、税金、バーコードなど。
 ---

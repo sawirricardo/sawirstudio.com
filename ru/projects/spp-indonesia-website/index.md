@@ -1,7 +1,7 @@
 ---
-title: Сайт SPP Indonesia | SawirStudio
+title: Сайт SPP Indonesia | Sawir Studio
 url: https://sawirstudio.com/ru/projects/spp-indonesia-website/
-description: Сайт для PT SPP Indonesia, специалиста по противопожарным насосам, со страницей для каждого типа насоса: от консольных до вертикальных турбинных. Разработан SawirStudio.
+description: Сайт для PT SPP Indonesia, специалиста по противопожарным насосам, со страницей для каждого типа насоса: от консольных до вертикальных турбинных. Разработан Sawir Studio.
 ---
 
 # Сайт SPP Indonesia

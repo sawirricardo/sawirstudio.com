@@ -1,5 +1,5 @@
 ---
-title: Laravel 订阅套餐限制 | SawirStudio
+title: Laravel 订阅套餐限制 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: 如何在 Laravel 中限制订阅套餐的使用额度，从控制器里的简单检查，到 Gate 和 Policy。
 ---

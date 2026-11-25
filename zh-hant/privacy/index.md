@@ -1,5 +1,5 @@
 ---
-title: 隱私權 | SawirStudio
+title: 隱私權 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/privacy/
 description: sawirstudio.com 蒐集哪些資料、原因，以及哪些服務會處理這些資料：Microsoft Clarity、聯絡表單、Google Fonts 和 Cloudflare。
 ---

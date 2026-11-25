@@ -1,7 +1,7 @@
 ---
-title: Приложение TaniMilenial | SawirStudio
+title: Приложение TaniMilenial | Sawir Studio
 url: https://sawirstudio.com/ru/projects/tani-milenial-application/
-description: Мобильное приложение TaniMilenial для земледелия, рыбоводства и животноводства, разработанное SawirStudio совместно с Clicks&Co.
+description: Мобильное приложение TaniMilenial для земледелия, рыбоводства и животноводства, разработанное Sawir Studio совместно с Clicks&Co.
 ---
 
 # Приложение TaniMilenial

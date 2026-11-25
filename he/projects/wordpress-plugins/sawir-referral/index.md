@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – הפנו חבר ב-WooCommerce | SawirStudio
+title: Sawir Referral – הפנו חבר ב-WooCommerce | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/sawir-referral/
 description: תוכנית הפניות של תן וקבל ל-WooCommerce. חברים מקבלים הנחה, ומי ששיתף מקבל קופון תגמול — שיתוף בקוד או בקישור, עם דגש על WhatsApp.
 ---

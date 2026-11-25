@@ -1,5 +1,5 @@
 ---
-title: Koperasi HOB Application | SawirStudio
+title: Koperasi HOB Application | Sawir Studio
 url: https://sawirstudio.com/projects/koperasi-hob-application/
 description: Koperasi HOB’s shopping app: members browse household goods by category, choose delivery or pick-up, and pay with their cooperative balance.
 ---

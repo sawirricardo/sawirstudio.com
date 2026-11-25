@@ -1,5 +1,5 @@
 ---
-title: Contatti | SawirStudio
+title: Contatti | Sawir Studio
 url: https://sawirstudio.com/it/contact/
 description: Raccontateci il vostro progetto. Applicazioni, siti web e design digitale.
 ---

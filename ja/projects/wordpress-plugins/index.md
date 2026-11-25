@@ -1,7 +1,7 @@
 ---
-title: WordPress プラグイン | SawirStudio
+title: WordPress プラグイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/
-description: SawirStudio が提供する 12 個の無料 WordPress プラグイン。WooCommerce 向けのサブスクリプション、紹介プログラム、再入荷通知などに加え、あらゆる WordPress サイトで使えるツールも揃えています。
+description: Sawir Studio が提供する 12 個の無料 WordPress プラグイン。WooCommerce 向けのサブスクリプション、紹介プログラム、再入荷通知などに加え、あらゆる WordPress サイトで使えるツールも揃えています。
 ---
 
 # WordPress プラグイン

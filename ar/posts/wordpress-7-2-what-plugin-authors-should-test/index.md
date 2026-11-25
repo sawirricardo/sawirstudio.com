@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: ما الذي ينبغي لمطوري الإضافات اختباره | SawirStudio
+title: WordPress 7.2: ما الذي ينبغي لمطوري الإضافات اختباره | Sawir Studio
 url: https://sawirstudio.com/ar/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: من المقرر أن يصدر WordPress 7.2 في 8 ديسمبر 2026. ما الذي يتغير بالنسبة لمطوري الإضافات، من Application Passwords وSecrets API المقترح إلى موجّه Interactivity API، وكيف تبدؤون الاختبار الآن.
 ---

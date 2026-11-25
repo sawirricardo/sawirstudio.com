@@ -1,7 +1,7 @@
 ---
-title: Chi siamo | SawirStudio
+title: Chi siamo | Sawir Studio
 url: https://sawirstudio.com/it/about-us/
-description: SawirStudio consegna app, siti web e progetti di design in tempi rapidi, con l'AI nel flusso di lavoro e una persona che si assume la responsabilità di ogni decisione. Leggete la nota del nostro fondatore e scoprite in cosa crediamo.
+description: Sawir Studio consegna app, siti web e progetti di design in tempi rapidi, con l'AI nel flusso di lavoro e una persona che si assume la responsabilità di ogni decisione. Leggete la nota del nostro fondatore e scoprite in cosa crediamo.
 ---
 
 # Siamo contenti che ci abbiate trovato
@@ -10,7 +10,7 @@ Uno studio che consegna in fretta, con l'AI nel flusso di lavoro e una persona c
 
 Una nota del fondatore
 
-Ho fondato SawirStudio per costruire app, siti web e progetti di design che reggano nel tempo per chi li usa. Oggi lavoriamo con l'AI ogni giorno: scrive buona parte delle prime bozze, ed è così che SawirStudio ha portato sei app proprie sull'App Store in meno di quattro settimane.
+Ho fondato Sawir Studio per costruire app, siti web e progetti di design che reggano nel tempo per chi li usa. Oggi lavoriamo con l'AI ogni giorno: scrive buona parte delle prime bozze, ed è così che Sawir Studio ha portato sei app proprie sull'App Store in meno di quattro settimane.
 
 Ma uno strumento non può farsi carico di una decisione, quindi lo facciamo noi. Leggiamo il codice, lo proviamo su dispositivi reali e rispondiamo di ciò che viene rilasciato. Per i progetti dei clienti vale lo stesso patto.
 

@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic: design per il marketing | SawirStudio
+title: Vivaldy Skin Clinic: design per il marketing | Sawir Studio
 url: https://sawirstudio.com/it/projects/vivaldy-skin-clinic-marketing-design/
-description: Design per il marketing di Vivaldy Skin Clinic realizzato da SawirStudio, come un biglietto d'auguri per l'Eid al-Fitr nella palette bianco tenue e turchese della clinica.
+description: Design per il marketing di Vivaldy Skin Clinic realizzato da Sawir Studio, come un biglietto d'auguri per l'Eid al-Fitr nella palette bianco tenue e turchese della clinica.
 ---
 
 # Design marketing Vivaldy Skin Clinic

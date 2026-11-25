@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/de/projects/pawlitics/
 description: Eine gemütliche Cartoon-Politiksimulation, in der eine Stadt voller Tiere auf jede Entscheidung reagiert
 ---

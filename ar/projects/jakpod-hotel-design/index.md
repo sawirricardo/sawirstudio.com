@@ -1,7 +1,7 @@
 ---
-title: تصميم هوية JakPod Hotel | SawirStudio
+title: تصميم هوية JakPod Hotel | Sawir Studio
 url: https://sawirstudio.com/ar/projects/jakpod-hotel-design/
-description: تصميم هوية JakPod Hotel، فندق كبسولات في ثامرين بجاكرتا: شعار أحادي بالأحرف JAK داخل دائرة بتدرج لوني من الوردي إلى الأزرق، من SawirStudio.
+description: تصميم هوية JakPod Hotel، فندق كبسولات في ثامرين بجاكرتا: شعار أحادي بالأحرف JAK داخل دائرة بتدرج لوني من الوردي إلى الأزرق، من Sawir Studio.
 ---
 
 # تصميم JakPod Hotel

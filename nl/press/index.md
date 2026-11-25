@@ -1,5 +1,5 @@
 ---
-title: Perskit | SawirStudio
+title: Perskit | Sawir Studio
 url: https://sawirstudio.com/nl/press/
 description: De perskit van Sawir Studio: logo's, merkkleuren en lettertypes, bedrijfsgegevens, een korte standaardtekst en de bio en foto van de oprichter, vrij te gebruiken.
 ---

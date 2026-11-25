@@ -1,7 +1,7 @@
 ---
-title: אתר Colvaron Conquest | SawirStudio
+title: אתר Colvaron Conquest | Sawir Studio
 url: https://sawirstudio.com/he/projects/colvaron-conquest-website/
-description: אתר עבור Colvaron Conquest, משחק קלפי אסטרטגיה אספנותי, שתוכנן ונבנה על ידי SawirStudio.
+description: אתר עבור Colvaron Conquest, משחק קלפי אסטרטגיה אספנותי, שתוכנן ונבנה על ידי Sawir Studio.
 ---
 
 # אתר Colvaron Conquest

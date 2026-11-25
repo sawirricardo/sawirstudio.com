@@ -1,5 +1,5 @@
 ---
-title: Sawir Role Capabilities Manager | SawirStudio
+title: Sawir Role Capabilities Manager | Sawir Studio
 url: https://sawirstudio.com/fr/projects/wordpress-plugins/sawir-role-capabilities-manager/
 description: Créez des rôles utilisateur personnalisés et gérez les capacités des rôles WordPress, nouveaux comme existants.
 ---

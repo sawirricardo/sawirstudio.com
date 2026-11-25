@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-insights/
 description: हीटमैप, सेशन रिकॉर्डिंग, सर्वे, फ़नल और फ़ॉर्म एनालिटिक्स। सब कुछ आपके सर्वर पर रहता है।
 ---

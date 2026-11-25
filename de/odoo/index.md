@@ -1,5 +1,5 @@
 ---
-title: Odoo & individuelle Business-Systeme | SawirStudio
+title: Odoo & individuelle Business-Systeme | Sawir Studio
 url: https://sawirstudio.com/de/odoo/
 description: Kasse, Lager, Einkauf und Buchhaltung in einem System: Odoo passend zu Ihrer Arbeitsweise eingerichtet, individuell gebaut, wenn es nicht passt, oder beides. Von den Leuten, die Odoo-Module schreiben.
 ---

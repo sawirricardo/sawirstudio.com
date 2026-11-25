@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/squishu/
 description: Squishu 是一款適用於 iPhone、iPad 和 Apple Watch 的可愛點擊遊戲：壓扁餃子，在蒸氣散盡前打敗每個世界的魔王。
 ---

@@ -1,7 +1,7 @@
 ---
-title: אפליקציית TaniMilenial | SawirStudio
+title: אפליקציית TaniMilenial | Sawir Studio
 url: https://sawirstudio.com/he/projects/tani-milenial-application/
-description: אפליקציית מובייל TaniMilenial לחקלאות, דיג וגידול בעלי חיים, שנבנתה על ידי SawirStudio בשיתוף Clicks&Co.
+description: אפליקציית מובייל TaniMilenial לחקלאות, דיג וגידול בעלי חיים, שנבנתה על ידי Sawir Studio בשיתוף Clicks&Co.
 ---
 
 # אפליקציית TaniMilenial

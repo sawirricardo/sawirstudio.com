@@ -1,7 +1,7 @@
 ---
-title: Приложение DBTV | SawirStudio
+title: Приложение DBTV | Sawir Studio
 url: https://sawirstudio.com/ru/projects/dbtv-application/
-description: DBTV приносит проповеди Ps. Debby Basjir, молитвенные собрания, поклонение, подкасты и ежедневные размышления на iOS и Android. Разработано SawirStudio.
+description: DBTV приносит проповеди Ps. Debby Basjir, молитвенные собрания, поклонение, подкасты и ежедневные размышления на iOS и Android. Разработано Sawir Studio.
 ---
 
 # Приложение DBTV

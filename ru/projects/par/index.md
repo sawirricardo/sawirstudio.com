@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/ru/projects/par/
 description: Par — это полноценный финансовый RPN-калькулятор для iPhone и iPad с классическими последовательностями нажатий «золотой» клавиши: TVM, кредиты, NPV, IRR, облигации и многое другое.
 ---

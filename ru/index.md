@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | Приложения, веб-платформы, Shopify и Odoo
+title: Sawir Studio | Приложения, веб-платформы, Shopify и Odoo
 url: https://sawirstudio.com/ru/
-description: SawirStudio создаёт ПО, которым пользуются: приложения, веб-платформы, а также Shopify с Odoo для клиентов и собственные приложения для iPhone, iPad и Mac.
+description: Sawir Studio создаёт ПО, которым пользуются: приложения, веб-платформы, а также Shopify с Odoo для клиентов и собственные приложения для iPhone, iPad и Mac.
 ---
 
 привет, мы Sawir Studio

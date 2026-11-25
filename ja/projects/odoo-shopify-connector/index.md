@@ -1,7 +1,7 @@
 ---
-title: Odoo 向け Shopify コネクタ | SawirStudio
+title: Odoo 向け Shopify コネクタ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/odoo-shopify-connector/
-description: SawirStudio が開発し、Odoo Community Association（OCA）で管理されている、Odoo 19 Community 向けのオープンソース Shopify コネクタです。
+description: Sawir Studio が開発し、Odoo Community Association（OCA）で管理されている、Odoo 19 Community 向けのオープンソース Shopify コネクタです。
 ---
 
 # Odoo 向け Shopify コネクタ
@@ -14,7 +14,7 @@ Odoo Community Association（OCA）は、Odoo Community のユーザーの多く
 
 ## 制作したもの
 
-このコネクタは SawirStudio が開発し、2026 年 7 月に OCA へ提供しました。対象は、コアとなる Shopify Connector、Shopify Connector Accounting、Shopify Connector POS です。現在も開発を続けており、直近では Shopify の 2026-01 Admin API に対応させました。ほかの OCA コントリビューターもこのコネクタをベースに開発を進めており、eCommerce の商品メディア用モジュールもその一つです。
+このコネクタは Sawir Studio が開発し、2026 年 7 月に OCA へ提供しました。対象は、コアとなる Shopify Connector、Shopify Connector Accounting、Shopify Connector POS です。現在も開発を続けており、直近では Shopify の 2026-01 Admin API に対応させました。ほかの OCA コントリビューターもこのコネクタをベースに開発を進めており、eCommerce の商品メディア用モジュールもその一つです。
 
 - **コマース連携。** 商品、在庫、顧客、注文、返品、返金、出荷を同期します。1 つの Odoo データベースで複数の Shopify ストアを扱うことができ、会社ごとに管理できます。
 - **確実に動く設計。** 署名付き Webhook で素早く受信し、OCA の queue\_job で処理を確実に実行します。さらに定期的な照合で、取りこぼしや遅延したイベントを補正します。

@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/projects/habitat-hills-design/
-description: Tri-fold brochure for Habitat Hills, a 27-hectare nature resort in Megamendung, Bogor, designed by SawirStudio in forest green and terracotta.
+description: Tri-fold brochure for Habitat Hills, a 27-hectare nature resort in Megamendung, Bogor, designed by Sawir Studio in forest green and terracotta.
 ---
 
 # Habitat Hills Design

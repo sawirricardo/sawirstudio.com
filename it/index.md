@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | App, piattaforme web, Shopify & Odoo
+title: Sawir Studio | App, piattaforme web, Shopify & Odoo
 url: https://sawirstudio.com/it/
-description: SawirStudio sviluppa software che la gente usa: app, piattaforme web, Shopify con Odoo per i clienti e le nostre app per iPhone, iPad e Mac.
+description: Sawir Studio sviluppa software che la gente usa: app, piattaforme web, Shopify con Odoo per i clienti e le nostre app per iPhone, iPad e Mac.
 ---
 
 ciao, siamo Sawir Studio

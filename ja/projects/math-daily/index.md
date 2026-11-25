@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/ja/projects/math-daily/
 description: Math Daily は、マス・モンスターたちと一緒に、1日1分で毎日の算数習慣を身につけるアプリです。たし算、ひき算、かけ算、わり算を手軽に練習できます。
 ---

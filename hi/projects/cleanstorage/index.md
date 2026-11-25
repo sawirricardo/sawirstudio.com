@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/hi/projects/cleanstorage/
 description: CleanStorage आपके iPhone में डुप्लिकेट फ़ोटो, बड़े वीडियो और दोहराए गए कॉन्टैक्ट ढूँढता है, ताकि आप तय कर सकें कि क्या रखना है। न विज्ञापन, न सब्सक्रिप्शन।
 ---

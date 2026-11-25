@@ -1,5 +1,5 @@
 ---
-title: Sawir Social Scheduler | SawirStudio
+title: Sawir Social Scheduler | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-social-scheduler/
 description: 撰寫一次，就能在 wp-admin 排程發佈到 27 個社群網路。支援各頻道個別編輯、串文、媒體與預覽。您的權杖只會保存在您自己的伺服器上。
 ---

@@ -1,5 +1,5 @@
 ---
-title: WordPress Abilities API для плагинов | SawirStudio
+title: WordPress Abilities API для плагинов | Sawir Studio
 url: https://sawirstudio.com/ru/posts/wordpress-abilities-api-for-plugins/
 description: Как зарегистрировать abilities в плагине для WordPress, чтобы ИИ-агенты и другие инструменты могли безопасно находить и запускать их: категории, схемы, права доступа, аннотации и REST endpoints.
 ---

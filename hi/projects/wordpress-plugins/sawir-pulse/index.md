@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – WooCommerce के लिए लाइव सेल्स और सोशल प्रूफ़ | SawirStudio
+title: Sawir Pulse – WooCommerce के लिए लाइव सेल्स और सोशल प्रूफ़ | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse ग्राहकों को दिखाता है कि आपके स्टोर में सच में क्या हो रहा है, जैसे हाल के ऑर्डर, किसी प्रोडक्ट को देख रहे लोग और नए रिव्यू, और यह सब कोने में छोटे नोटिफ़िकेशन…
 ---

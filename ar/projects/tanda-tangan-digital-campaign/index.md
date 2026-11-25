@@ -1,7 +1,7 @@
 ---
-title: حملة Tanda Tangan Digital | SawirStudio
+title: حملة Tanda Tangan Digital | Sawir Studio
 url: https://sawirstudio.com/ar/projects/tanda-tangan-digital-campaign/
-description: تصميم حملة التوقيع الرقمي لوزارة الاتصالات والمعلوماتية في إندونيسيا من SawirStudio.
+description: تصميم حملة التوقيع الرقمي لوزارة الاتصالات والمعلوماتية في إندونيسيا من Sawir Studio.
 ---
 
 # حملة Tanda Tangan Digital

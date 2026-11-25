@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/ja/projects/quill-word-counter/
 description: 読了時間や投稿の文字数制限、繰り返し使っている単語まで確認できる無料の文字数カウンター
 ---

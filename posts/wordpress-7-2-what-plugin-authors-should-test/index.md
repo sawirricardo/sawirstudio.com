@@ -1,5 +1,5 @@
 ---
-title: WordPress 7.2: What Plugin Authors Should Test | SawirStudio
+title: WordPress 7.2: What Plugin Authors Should Test | Sawir Studio
 url: https://sawirstudio.com/posts/wordpress-7-2-what-plugin-authors-should-test/
 description: WordPress 7.2 is due December 8, 2026. What changes for plugin authors, from Application Passwords and the proposed Secrets API to the Interactivity API router, and how to test now.
 ---

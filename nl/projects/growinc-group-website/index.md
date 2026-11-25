@@ -1,7 +1,7 @@
 ---
-title: Growinc Group Website | SawirStudio
+title: Growinc Group Website | Sawir Studio
 url: https://sawirstudio.com/nl/projects/growinc-group-website/
-description: Bedrijfswebsite voor Growinc Group Indonesia, een marketing- en reclamegroep uit Jakarta, met diensten, cases en bureaus. Gebouwd door SawirStudio.
+description: Bedrijfswebsite voor Growinc Group Indonesia, een marketing- en reclamegroep uit Jakarta, met diensten, cases en bureaus. Gebouwd door Sawir Studio.
 ---
 
 # Growinc Group Website

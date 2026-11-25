@@ -1,5 +1,5 @@
 ---
-title: Odoo & 客製化商業系統 | SawirStudio
+title: Odoo & 客製化商業系統 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/odoo/
 description: POS 銷售、庫存、採購與會計整合在同一套系統：依照您的作業方式設定 Odoo，不適合時就量身打造，或兩者並用。由會撰寫 Odoo 模組的團隊為您服務。
 ---

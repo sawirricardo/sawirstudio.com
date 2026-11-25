@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/hi/projects/sawirly/
 description: प्राइवेसी को पहली प्राथमिकता देने वाला URL शॉर्टनर: न कोई ट्रैकिंग, और लिंक की समय-सीमा भी तय की जा सकती है
 ---

@@ -1,7 +1,7 @@
 ---
-title: אפליקציית DBTV | SawirStudio
+title: אפליקציית DBTV | Sawir Studio
 url: https://sawirstudio.com/he/projects/dbtv-application/
-description: DBTV מביאה את הדרשות, אירועי התפילה, שירי ההלל, הפודקאסטים והמדיטציות היומיות של Ps. Debby Basjir ל-iOS ול-Android. נבנתה על ידי SawirStudio.
+description: DBTV מביאה את הדרשות, אירועי התפילה, שירי ההלל, הפודקאסטים והמדיטציות היומיות של Ps. Debby Basjir ל-iOS ול-Android. נבנתה על ידי Sawir Studio.
 ---
 
 # אפליקציית DBTV

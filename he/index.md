@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | אפליקציות, פלטפורמות ווב, Shopify ו-Odoo
+title: Sawir Studio | אפליקציות, פלטפורמות ווב, Shopify ו-Odoo
 url: https://sawirstudio.com/he/
-description: SawirStudio בונה תוכנה שאנשים משתמשים בה: אפליקציות, פלטפורמות ווב, ו-Shopify עם Odoo ללקוחות, ואפליקציות משלנו ל-iPhone, ל-iPad ול-Mac.
+description: Sawir Studio בונה תוכנה שאנשים משתמשים בה: אפליקציות, פלטפורמות ווב, ו-Shopify עם Odoo ללקוחות, ואפליקציות משלנו ל-iPhone, ל-iPad ול-Mac.
 ---
 
 היי, אנחנו Sawir Studio

@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API：哪些地方會出問題 | SawirStudio
+title: Shopify 2026-10 API：哪些地方會出問題 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/shopify-2026-10-api-what-breaks/
 description: Shopify Admin API 2026-10 版本中可能讓整合出問題的變更，以及該如何調整：運費、草稿訂單折扣、稅額、條碼等。
 ---

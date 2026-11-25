@@ -1,7 +1,7 @@
 ---
-title: Plugin WordPress | SawirStudio
+title: Plugin WordPress | Sawir Studio
 url: https://sawirstudio.com/it/projects/wordpress-plugins/
-description: Dodici plugin WordPress gratuiti di SawirStudio: abbonamenti, referral, avvisi di riassortimento e altro per WooCommerce, più strumenti per qualsiasi sito WordPress.
+description: Dodici plugin WordPress gratuiti di Sawir Studio: abbonamenti, referral, avvisi di riassortimento e altro per WooCommerce, più strumenti per qualsiasi sito WordPress.
 ---
 
 # Plugin WordPress

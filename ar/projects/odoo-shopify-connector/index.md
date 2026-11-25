@@ -1,7 +1,7 @@
 ---
-title: موصل Shopify لـ Odoo | SawirStudio
+title: موصل Shopify لـ Odoo | Sawir Studio
 url: https://sawirstudio.com/ar/projects/odoo-shopify-connector/
-description: موصل Shopify مفتوح المصدر لـ Odoo 19 Community، كتبته SawirStudio وتتم صيانته ضمن Odoo Community Association (OCA).
+description: موصل Shopify مفتوح المصدر لـ Odoo 19 Community، كتبته Sawir Studio وتتم صيانته ضمن Odoo Community Association (OCA).
 ---
 
 # موصل Shopify لـ Odoo

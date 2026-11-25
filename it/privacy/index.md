@@ -1,5 +1,5 @@
 ---
-title: Privacy | SawirStudio
+title: Privacy | Sawir Studio
 url: https://sawirstudio.com/it/privacy/
 description: Cosa raccoglie sawirstudio.com, perché e quali servizi lo gestiscono: Microsoft Clarity, il modulo di contatto, Google Fonts e Cloudflare.
 ---

@@ -1,7 +1,7 @@
 ---
-title: Application Kantong Sayur | SawirStudio
+title: Application Kantong Sayur | Sawir Studio
 url: https://sawirstudio.com/fr/projects/kantong-sayur-application/
-description: Application et site web de courses de légumes et d’épicerie pour KantongSayur, réalisés par SawirStudio.
+description: Application et site web de courses de légumes et d’épicerie pour KantongSayur, réalisés par Sawir Studio.
 ---
 
 # Kantong Sayur Application

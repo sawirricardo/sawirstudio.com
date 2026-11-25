@@ -1,7 +1,7 @@
 ---
-title: Digital Airport Hotel 设计 | SawirStudio
+title: Digital Airport Hotel 设计 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/digital-airport-hotel-design/
-description: SawirStudio 为客户 Capsule Indonesia 完成的 Digital Airport Hotel 设计作品。
+description: Sawir Studio 为客户 Capsule Indonesia 完成的 Digital Airport Hotel 设计作品。
 ---
 
 # Digital Airport Hotel 设计

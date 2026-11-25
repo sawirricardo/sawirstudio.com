@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/ja/projects/pawlitics/
 description: 動物たちの町がすべての政策に反応する、ほのぼのカートゥーン政治シム
 ---

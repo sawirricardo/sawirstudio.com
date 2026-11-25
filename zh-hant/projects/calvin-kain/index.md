@@ -1,7 +1,7 @@
 ---
-title: Calvin Kain | SawirStudio
+title: Calvin Kain | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/calvin-kain/
-description: 由 SawirStudio 為 Calvin Kain 打造的應用程式，與 Clicks&co 合作完成。
+description: 由 Sawir Studio 為 Calvin Kain 打造的應用程式，與 Clicks&co 合作完成。
 ---
 
 # Calvin Kain

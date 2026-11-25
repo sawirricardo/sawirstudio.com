@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-insights/
 description: 熱點圖、工作階段錄影、問卷調查、轉換漏斗與表單分析，所有資料都留在您的伺服器上。
 ---

@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/he/projects/sawirpost/
 description: כותבים פוסט פעם אחת ומפרסמים אותו ביותר מ-25 ערוצי סושיאל בזמן שקבעתם, בנוי לסוכנויות
 ---

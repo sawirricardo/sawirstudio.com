@@ -1,7 +1,7 @@
 ---
-title: Kantong Sayur アプリ | SawirStudio
+title: Kantong Sayur アプリ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/kantong-sayur-application/
-description: KantongSayur 向けに SawirStudio が開発した、野菜と食料品の買い物アプリおよびウェブサイトです。
+description: KantongSayur 向けに Sawir Studio が開発した、野菜と食料品の買い物アプリおよびウェブサイトです。
 ---
 
 # Kantong Sayur アプリケーション

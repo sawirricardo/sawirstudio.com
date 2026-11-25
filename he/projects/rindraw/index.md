@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/he/projects/rindraw/
 description: אפליקציית ציור שבה כל קו נשאר ניתן לעריכה. משלמים פעם אחת ומקבלים iPad, iPhone ו-Mac.
 ---

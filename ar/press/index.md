@@ -1,5 +1,5 @@
 ---
-title: الملف الصحفي | SawirStudio
+title: الملف الصحفي | Sawir Studio
 url: https://sawirstudio.com/ar/press/
 description: الملف الصحفي لـ Sawir Studio: الشعارات وألوان العلامة التجارية وخطوطها، ومعلومات عن الشركة، ونبذة تعريفية قصيرة، ونبذة عن المؤسس وصورته، وكلها متاحة للاستخدام مجانًا.
 ---

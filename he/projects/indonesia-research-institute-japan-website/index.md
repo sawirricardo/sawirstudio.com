@@ -1,7 +1,7 @@
 ---
-title: אתר Indonesia Research Institute Japan | SawirStudio
+title: אתר Indonesia Research Institute Japan | Sawir Studio
 url: https://sawirstudio.com/he/projects/indonesia-research-institute-japan-website/
-description: אתר פרופיל חברה עבור Indonesia Research Institute Japan, שתוכנן ונבנה על ידי SawirStudio.
+description: אתר פרופיל חברה עבור Indonesia Research Institute Japan, שתוכנן ונבנה על ידי Sawir Studio.
 ---
 
 # אתר Indonesia Research Institute Japan

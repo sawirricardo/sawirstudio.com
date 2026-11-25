@@ -1,5 +1,5 @@
 ---
-title: インドネシアで WooCommerce と Shopify、どちらを選ぶ？ | SawirStudio
+title: インドネシアで WooCommerce と Shopify、どちらを選ぶ？ | Sawir Studio
 url: https://sawirstudio.com/ja/posts/woocommerce-or-shopify-indonesia/
 description: インドネシアのストアに WooCommerce と Shopify のどちらが合うかを解説します。ルピアでの月額費用、決済ゲートウェイと QRIS、Shopify が上乗せする取引手数料、配送、そして事業のタイプ別の選び方をまとめました。
 ---

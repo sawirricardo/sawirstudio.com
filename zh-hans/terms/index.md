@@ -1,5 +1,5 @@
 ---
-title: 使用条款 | SawirStudio
+title: 使用条款 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/terms/
 description: 使用 sawirstudio.com 的条款：我们的内容和作品集、免费的 WordPress 插件和应用、指向其他网站的链接，以及客户项目如何约定。
 ---

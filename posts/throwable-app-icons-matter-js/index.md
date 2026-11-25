@@ -1,5 +1,5 @@
 ---
-title: Throwable App Icons with Matter.js | SawirStudio
+title: Throwable App Icons with Matter.js | Sawir Studio
 url: https://sawirstudio.com/posts/throwable-app-icons-matter-js/
 description: How we built the box of app icons you can throw on our home page: Matter.js for physics, DOM elements instead of a canvas, a shadow that stays put while icons spin, and fallbacks.
 ---

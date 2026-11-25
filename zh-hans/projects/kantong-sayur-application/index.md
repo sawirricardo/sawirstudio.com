@@ -1,7 +1,7 @@
 ---
-title: Kantong Sayur 应用 | SawirStudio
+title: Kantong Sayur 应用 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/kantong-sayur-application/
-description: 由 SawirStudio 为 KantongSayur 打造的蔬菜和杂货购物应用及网站。
+description: 由 Sawir Studio 为 KantongSayur 打造的蔬菜和杂货购物应用及网站。
 ---
 
 # Kantong Sayur 应用

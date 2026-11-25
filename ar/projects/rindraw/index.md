@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/ar/projects/rindraw/
 description: تطبيق رسم تبقى فيه كل ضربة قابلة للتعديل. تدفعون مرة واحدة لتستخدموه على iPad وiPhone وMac.
 ---

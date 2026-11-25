@@ -1,5 +1,5 @@
 ---
-title: Контакты | SawirStudio
+title: Контакты | Sawir Studio
 url: https://sawirstudio.com/ru/contact/
 description: Расскажите о своём проекте: приложения, сайты и цифровой дизайн.
 ---

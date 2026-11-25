@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/ar/projects/sawirly/
 description: خدمة اختصار روابط تضع الخصوصية أولاً، بلا تتبّع وبروابط يمكن أن تنتهي صلاحيتها
 ---

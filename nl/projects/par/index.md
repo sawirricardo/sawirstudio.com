@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/nl/projects/par/
 description: Par is een complete RPN-financiële rekenmachine voor iPhone en iPad met de klassieke gold-key-toetsencombinaties: TVM, leningen, NPV, IRR, obligaties en meer.
 ---

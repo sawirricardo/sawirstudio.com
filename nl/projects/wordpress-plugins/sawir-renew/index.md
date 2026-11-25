@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – Terugkerende betalingen voor WooCommerce | SawirStudio
+title: Sawir Renew – Terugkerende betalingen voor WooCommerce | Sawir Studio
 url: https://sawirstudio.com/nl/projects/wordpress-plugins/sawir-renew/
 description: Complete abonnementen voor WooCommerce: terugkerende betalingen, proefperiodes, aanmeldkosten, pauzeren/overslaan, van abonnement wisselen, betalingsherinneringen en slimme nieuwe pogingen. Allemaal gratis.
 ---

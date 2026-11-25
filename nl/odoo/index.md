@@ -1,5 +1,5 @@
 ---
-title: Odoo & maatwerk bedrijfssystemen | SawirStudio
+title: Odoo & maatwerk bedrijfssystemen | Sawir Studio
 url: https://sawirstudio.com/nl/odoo/
 description: Kassa, voorraad, inkoop en boekhouding in één systeem: Odoo ingericht op hoe je werkt, op maat gebouwd als het niet past, of allebei. Van de mensen die Odoo-modules schrijven.
 ---

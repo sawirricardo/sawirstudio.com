@@ -1,5 +1,5 @@
 ---
-title: Koperasi HOB アプリ | SawirStudio
+title: Koperasi HOB アプリ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/koperasi-hob-application/
 description: Koperasi HOB のショッピングアプリ。組合員はカテゴリ別に日用品を探し、配送または店頭受け取りを選んで、協同組合の残高で支払えます。
 ---

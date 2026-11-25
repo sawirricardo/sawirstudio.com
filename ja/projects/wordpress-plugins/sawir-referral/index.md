@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – WooCommerce向け友達紹介プラグイン | SawirStudio
+title: Sawir Referral – WooCommerce向け友達紹介プラグイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-referral/
 description: WooCommerce向けの、紹介する側とされる側の双方に特典がある紹介プログラム。お友達には割引、紹介した方には特典クーポン。コードまたはリンクで共有でき、WhatsApp での共有を重視しています。
 ---

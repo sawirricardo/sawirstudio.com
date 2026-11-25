@@ -1,5 +1,5 @@
 ---
-title: 讓網站為 AI 代理做好準備 | SawirStudio
+title: 讓網站為 AI 代理做好準備 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/posts/making-our-sites-agent-ready/
 description: 我們如何讓產品網站可供 AI 代理閱讀：每個頁面的 Markdown 版本、Link 標頭、llms.txt、robots.txt 中的 Content Signals、API 目錄，以及 Agent Skills。
 ---

@@ -1,5 +1,5 @@
 ---
-title: Pawlitics | SawirStudio
+title: Pawlitics | Sawir Studio
 url: https://sawirstudio.com/nl/projects/pawlitics/
 description: Een gezellige cartoon-politieksim waarin een dorp vol dieren op elk beleid reageert
 ---

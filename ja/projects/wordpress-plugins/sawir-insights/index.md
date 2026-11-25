@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-insights/
 description: ヒートマップ、セッション録画、アンケート、ファネル、フォーム分析。すべてお客様のサーバー上に保管されます。
 ---

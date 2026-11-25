@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/ar/projects/nofapfit/
 description: تحدٍّ رياضي فوري لحظة الرغبة الملحّة، مع سلاسل إنجاز لبناء الانضباط
 ---

@@ -1,5 +1,5 @@
 ---
-title: Shopify-Integrationen & Apps | SawirStudio
+title: Shopify-Integrationen & Apps | Sawir Studio
 url: https://sawirstudio.com/de/shopify/
 description: Shopify verbunden mit Odoo und dem Rest Ihres Unternehmens: Bestellungen, Lagerbestand, Auszahlungen und Kassensystem, von den Entwicklern des Open-Source-Shopify-Connectors für Odoo.
 ---

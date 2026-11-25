@@ -1,5 +1,5 @@
 ---
-title: Условия использования | SawirStudio
+title: Условия использования | Sawir Studio
 url: https://sawirstudio.com/ru/terms/
 description: Условия использования sawirstudio.com: наши материалы и портфолио, бесплатные плагины для WordPress и приложения, ссылки на другие сайты и порядок согласования работы для клиентов.
 ---

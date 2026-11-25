@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – WooCommerce 定期扣款外掛 | SawirStudio
+title: Sawir Renew – WooCommerce 定期扣款外掛 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/wordpress-plugins/sawir-renew/
 description: WooCommerce 完整訂閱功能：定期扣款、試用期、註冊費、暫停／略過、方案切換、催繳、智慧重試，全部免費。
 ---

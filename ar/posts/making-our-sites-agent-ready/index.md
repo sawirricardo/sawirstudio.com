@@ -1,5 +1,5 @@
 ---
-title: جعل مواقعنا جاهزة للوكلاء الذكيين | SawirStudio
+title: جعل مواقعنا جاهزة للوكلاء الذكيين | Sawir Studio
 url: https://sawirstudio.com/ar/posts/making-our-sites-agent-ready/
 description: كيف جعلنا مواقع منتجاتنا قابلة للقراءة من وكلاء الذكاء الاصطناعي: نسخ Markdown لكل صفحة، وترويسات Link، وllms.txt، وContent Signals في robots.txt، وكتالوج API وAgent Skills.
 ---

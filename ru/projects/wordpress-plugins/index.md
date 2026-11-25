@@ -1,7 +1,7 @@
 ---
-title: Плагины для WordPress | SawirStudio
+title: Плагины для WordPress | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/
-description: Двенадцать бесплатных плагинов SawirStudio для WordPress: подписки, реферальные программы, уведомления о поступлении товара и другое для WooCommerce, а также инструменты для любого сайта на WordPress.
+description: Двенадцать бесплатных плагинов Sawir Studio для WordPress: подписки, реферальные программы, уведомления о поступлении товара и другое для WooCommerce, а также инструменты для любого сайта на WordPress.
 ---
 
 # Плагины для WordPress

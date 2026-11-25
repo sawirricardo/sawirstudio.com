@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/projects/rindraw/
 description: A drawing app where every stroke stays editable. Pay once for iPad, iPhone and Mac.
 ---

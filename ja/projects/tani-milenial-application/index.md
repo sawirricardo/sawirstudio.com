@@ -1,7 +1,7 @@
 ---
-title: TaniMilenial アプリ | SawirStudio
+title: TaniMilenial アプリ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/tani-milenial-application/
-description: SawirStudio が Clicks&Co と共同で開発した、農業・水産業・畜産業向けのモバイルアプリ TaniMilenial。
+description: Sawir Studio が Clicks&Co と共同で開発した、農業・水産業・畜産業向けのモバイルアプリ TaniMilenial。
 ---
 
 # TaniMilenial アプリケーション

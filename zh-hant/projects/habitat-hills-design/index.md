@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills 設計｜SawirStudio
+title: Habitat Hills 設計｜Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/habitat-hills-design/
-description: Habitat Hills 三折頁摺頁手冊。Habitat Hills 是位於印尼茂物 Megamendung、佔地 27 公頃的自然度假村，由 SawirStudio 以森林綠和赤陶色設計。
+description: Habitat Hills 三折頁摺頁手冊。Habitat Hills 是位於印尼茂物 Megamendung、佔地 27 公頃的自然度假村，由 Sawir Studio 以森林綠和赤陶色設計。
 ---
 
 # Habitat Hills 設計

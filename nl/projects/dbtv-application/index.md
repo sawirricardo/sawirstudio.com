@@ -1,7 +1,7 @@
 ---
-title: DBTV-app | SawirStudio
+title: DBTV-app | Sawir Studio
 url: https://sawirstudio.com/nl/projects/dbtv-application/
-description: DBTV brengt de preken, gebedsdiensten, aanbidding, podcasts en dagelijkse devotionals van Ps. Debby Basjir naar iOS en Android. Gebouwd door SawirStudio.
+description: DBTV brengt de preken, gebedsdiensten, aanbidding, podcasts en dagelijkse devotionals van Ps. Debby Basjir naar iOS en Android. Gebouwd door Sawir Studio.
 ---
 
 # DBTV Application

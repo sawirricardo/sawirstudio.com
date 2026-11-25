@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – регулярные платежи для WooCommerce | SawirStudio
+title: Sawir Renew – регулярные платежи для WooCommerce | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-renew/
 description: Полноценные подписки для WooCommerce: регулярные платежи, пробные периоды, плата за подключение, пауза и пропуск продления, смена тарифа, работа с неудачными платежами, умные повторные попытки. Всё бесплатно.
 ---

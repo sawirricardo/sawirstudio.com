@@ -1,5 +1,5 @@
 ---
-title: Pressekit | SawirStudio
+title: Pressekit | Sawir Studio
 url: https://sawirstudio.com/de/press/
 description: Das Pressekit von Sawir Studio: Logos, Markenfarben und Schriften, Fakten zum Unternehmen, ein kurzer Standardtext sowie Biografie und Foto des Gründers, frei nutzbar.
 ---

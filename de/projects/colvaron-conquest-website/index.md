@@ -1,7 +1,7 @@
 ---
-title: Colvaron Conquest Website | SawirStudio
+title: Colvaron Conquest Website | Sawir Studio
 url: https://sawirstudio.com/de/projects/colvaron-conquest-website/
-description: Website für Colvaron Conquest, ein strategisches Sammelkartenspiel, gestaltet und umgesetzt von SawirStudio.
+description: Website für Colvaron Conquest, ein strategisches Sammelkartenspiel, gestaltet und umgesetzt von Sawir Studio.
 ---
 
 # Colvaron Conquest Website

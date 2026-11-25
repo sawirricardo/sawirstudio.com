@@ -1,5 +1,5 @@
 ---
-title: Software e app su misura | SawirStudio
+title: Software e app su misura | Sawir Studio
 url: https://sawirstudio.com/it/custom/
 description: App, sistemi interni, marketplace e portali costruiti attorno al modo in cui lavora la vostra azienda, con pagamenti, integrazioni e l'area di amministrazione che sta dietro. Il codice e i dati sono vostri.
 ---

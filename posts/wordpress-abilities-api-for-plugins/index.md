@@ -1,5 +1,5 @@
 ---
-title: WordPress Abilities API for Plugins | SawirStudio
+title: WordPress Abilities API for Plugins | Sawir Studio
 url: https://sawirstudio.com/posts/wordpress-abilities-api-for-plugins/
 description: How to register abilities in a WordPress plugin so AI agents and other tools can discover and run them safely: categories, schemas, permissions, annotations and the REST endpoints.
 ---

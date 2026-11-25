@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel 設計｜SawirStudio
+title: JakPod Hotel 設計｜Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/jakpod-hotel-design/
-description: JakPod Hotel 的品牌識別設計。這是一間位於雅加達 Thamrin 的膠囊旅館，標誌是粉紅到藍色漸層圓形中的 JAK 字母組合，由 SawirStudio 設計。
+description: JakPod Hotel 的品牌識別設計。這是一間位於雅加達 Thamrin 的膠囊旅館，標誌是粉紅到藍色漸層圓形中的 JAK 字母組合，由 Sawir Studio 設計。
 ---
 
 # JakPod Hotel 設計

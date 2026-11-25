@@ -1,12 +1,12 @@
 ---
-title: プロジェクト | SawirStudio
+title: プロジェクト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/
-description: SawirStudio が手がけたアプリ、ウェブサイト、デザイン。お客様のプロジェクトから、App Store で公開している自社アプリまで。
+description: Sawir Studio が手がけたアプリ、ウェブサイト、デザイン。お客様のプロジェクトから、App Store で公開している自社アプリまで。
 ---
 
 # 最新のプロジェクト
 
-SawirStudio の最新プロジェクト一覧
+Sawir Studio の最新プロジェクト一覧
 
 アプリ
 

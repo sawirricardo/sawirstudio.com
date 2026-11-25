@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/he/projects/sawirly/
 description: מקצר קישורים שמעמיד את הפרטיות במקום הראשון, בלי מעקב, ועם קישורים שיכולים לפוג
 ---

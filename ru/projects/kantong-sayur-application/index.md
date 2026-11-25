@@ -1,7 +1,7 @@
 ---
-title: Приложение Kantong Sayur | SawirStudio
+title: Приложение Kantong Sayur | Sawir Studio
 url: https://sawirstudio.com/ru/projects/kantong-sayur-application/
-description: Приложение и сайт для покупки овощей и продуктов для KantongSayur, созданные SawirStudio.
+description: Приложение и сайт для покупки овощей и продуктов для KantongSayur, созданные Sawir Studio.
 ---
 
 # Приложение Kantong Sayur

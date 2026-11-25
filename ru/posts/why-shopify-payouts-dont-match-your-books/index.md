@@ -1,5 +1,5 @@
 ---
-title: Почему выплаты Shopify не совпадают с вашей бухгалтерией | SawirStudio
+title: Почему выплаты Shopify не совпадают с вашей бухгалтерией | Sawir Studio
 url: https://sawirstudio.com/ru/posts/why-shopify-payouts-dont-match-your-books/
 description: Почему деньги, которые Shopify Payments отправляет в ваш банк, никогда не совпадают с отчётом о продажах: комиссии, возвраты, споры, подарочные карты, конвертация валют и задержки — и как всё это сверить.
 ---

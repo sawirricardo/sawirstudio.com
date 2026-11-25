@@ -1,5 +1,5 @@
 ---
-title: Sawir Insights | SawirStudio
+title: Sawir Insights | Sawir Studio
 url: https://sawirstudio.com/it/projects/wordpress-plugins/sawir-insights/
 description: Heatmap, registrazioni delle sessioni, sondaggi, funnel e analisi dei moduli. Tutto resta sul vostro server.
 ---

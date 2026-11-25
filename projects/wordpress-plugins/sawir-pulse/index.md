@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – Live Sales & Social Proof for WooCommerce | SawirStudio
+title: Sawir Pulse – Live Sales & Social Proof for WooCommerce | Sawir Studio
 url: https://sawirstudio.com/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications…
 ---

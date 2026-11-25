@@ -1,5 +1,5 @@
 ---
-title: Par | SawirStudio
+title: Par | Sawir Studio
 url: https://sawirstudio.com/de/projects/par/
 description: Par ist ein vollständiger RPN-Finanzrechner für iPhone und iPad mit den klassischen Gold-Key-Tastenfolgen: TVM, Kredite, NPV, IRR, Anleihen und mehr.
 ---

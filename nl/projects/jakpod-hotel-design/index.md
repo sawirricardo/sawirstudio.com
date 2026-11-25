@@ -1,7 +1,7 @@
 ---
-title: JakPod Hotel Design | SawirStudio
+title: JakPod Hotel Design | Sawir Studio
 url: https://sawirstudio.com/nl/projects/jakpod-hotel-design/
-description: Huisstijlontwerp voor JakPod Hotel, een podhotel in Thamrin, Jakarta: een JAK-monogram in een cirkel met een verloop van roze naar blauw, door SawirStudio.
+description: Huisstijlontwerp voor JakPod Hotel, een podhotel in Thamrin, Jakarta: een JAK-monogram in een cirkel met een verloop van roze naar blauw, door Sawir Studio.
 ---
 
 # JakPod Hotel Design

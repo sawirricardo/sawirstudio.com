@@ -1,7 +1,7 @@
 ---
-title: WordPress Plugins | SawirStudio
+title: WordPress Plugins | Sawir Studio
 url: https://sawirstudio.com/projects/wordpress-plugins/
-description: Twelve free WordPress plugins by SawirStudio: subscriptions, referrals, restock alerts and more for WooCommerce, plus tools for any WordPress site.
+description: Twelve free WordPress plugins by Sawir Studio: subscriptions, referrals, restock alerts and more for WooCommerce, plus tools for any WordPress site.
 ---
 
 # WordPress Plugins

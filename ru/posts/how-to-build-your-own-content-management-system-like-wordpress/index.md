@@ -1,5 +1,5 @@
 ---
-title: Собственная CMS наподобие WordPress | SawirStudio
+title: Собственная CMS наподобие WordPress | Sawir Studio
 url: https://sawirstudio.com/ru/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: Создание системы управления контентом наподобие WordPress на Laravel с использованием современной архитектуры ПО.
 ---

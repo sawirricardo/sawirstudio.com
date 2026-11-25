@@ -1,5 +1,5 @@
 ---
-title: Интеграции и приложения для Shopify | SawirStudio
+title: Интеграции и приложения для Shopify | Sawir Studio
 url: https://sawirstudio.com/ru/shopify/
 description: Shopify, подключённый к Odoo и остальному вашему бизнесу: заказы, остатки, выплаты и розничные продажи. Работу выполняют авторы открытого коннектора Shopify для Odoo.
 ---

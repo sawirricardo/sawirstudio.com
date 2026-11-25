@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/quill-word-counter/
 description: 免費字數計算工具，還能顯示閱讀時間、貼文長度限制，以及您重複使用的字詞
 ---

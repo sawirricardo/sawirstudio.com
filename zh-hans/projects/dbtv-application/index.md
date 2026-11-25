@@ -1,7 +1,7 @@
 ---
-title: DBTV 应用 | SawirStudio
+title: DBTV 应用 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/dbtv-application/
-description: DBTV 将 Ps. Debby Basjir 的讲道、祷告聚会、敬拜、播客和每日灵修带到 iOS 和 Android 平台。由 SawirStudio 开发。
+description: DBTV 将 Ps. Debby Basjir 的讲道、祷告聚会、敬拜、播客和每日灵修带到 iOS 和 Android 平台。由 Sawir Studio 开发。
 ---
 
 # DBTV 应用

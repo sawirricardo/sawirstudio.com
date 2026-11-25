@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – WooCommerce向けリアルタイム販売通知＆ソーシャルプルーフ | SawirStudio
+title: Sawir Pulse – WooCommerce向けリアルタイム販売通知＆ソーシャルプルーフ | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulseは、最近の注文、商品を閲覧中の人数、新着レビューなど、お店で実際に起きていることを、画面の隅に表示する小さな通知で…
 ---

@@ -1,7 +1,7 @@
 ---
-title: Über uns | SawirStudio
+title: Über uns | Sawir Studio
 url: https://sawirstudio.com/de/about-us/
-description: SawirStudio liefert Apps, Websites und Designs schnell: mit KI im Team und einem Menschen, der jede Entscheidung verantwortet. Lesen Sie die Worte unseres Gründers und woran wir glauben.
+description: Sawir Studio liefert Apps, Websites und Designs schnell: mit KI im Team und einem Menschen, der jede Entscheidung verantwortet. Lesen Sie die Worte unseres Gründers und woran wir glauben.
 ---
 
 # Schön, dass Sie zu uns gefunden haben
@@ -10,7 +10,7 @@ Ein Studio, das schnell liefert: mit KI im Team und einem Menschen, der jede Ent
 
 Ein paar Worte des Gründers
 
-Ich habe SawirStudio gegründet, um Apps, Websites und Designs zu bauen, die für die Menschen, die sie nutzen, dauerhaft funktionieren. Heute entwickeln wir jeden Tag mit KI. Sie schreibt viele der ersten Entwürfe, und so hat SawirStudio sechs eigene Apps in weniger als vier Wochen in den App Store gebracht.
+Ich habe Sawir Studio gegründet, um Apps, Websites und Designs zu bauen, die für die Menschen, die sie nutzen, dauerhaft funktionieren. Heute entwickeln wir jeden Tag mit KI. Sie schreibt viele der ersten Entwürfe, und so hat Sawir Studio sechs eigene Apps in weniger als vier Wochen in den App Store gebracht.
 
 Eine Entscheidung kann ein Tool aber nicht verantworten, also tun wir es. Wir lesen den Code, testen ihn auf echten Geräten und stehen für alles ein, was live geht. Für Kundenprojekte gilt dasselbe.
 

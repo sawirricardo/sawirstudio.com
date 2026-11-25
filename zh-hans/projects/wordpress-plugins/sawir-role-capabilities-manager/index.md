@@ -1,5 +1,5 @@
 ---
-title: Sawir Role Capabilities Manager | SawirStudio
+title: Sawir Role Capabilities Manager | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/wordpress-plugins/sawir-role-capabilities-manager/
 description: 创建自定义用户角色，并管理新建和现有 WordPress 角色的权限。
 ---

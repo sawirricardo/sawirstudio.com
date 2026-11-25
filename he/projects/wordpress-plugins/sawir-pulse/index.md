@@ -1,5 +1,5 @@
 ---
-title: Sawir Pulse – מכירות בזמן אמת והוכחה חברתית ל-WooCommerce | SawirStudio
+title: Sawir Pulse – מכירות בזמן אמת והוכחה חברתית ל-WooCommerce | Sawir Studio
 url: https://sawirstudio.com/he/projects/wordpress-plugins/sawir-pulse/
 description: Sawir Pulse מראה לגולשים מה באמת קורה בחנות שלכם, כמו הזמנות אחרונות, אנשים שצופים במוצר וביקורות חדשות, בהתראות קטנות…
 ---

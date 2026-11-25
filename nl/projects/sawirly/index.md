@@ -1,5 +1,5 @@
 ---
-title: Sawirly | SawirStudio
+title: Sawirly | Sawir Studio
 url: https://sawirstudio.com/nl/projects/sawirly/
 description: Een privacyvriendelijke URL-shortener zonder tracking en met links die kunnen verlopen
 ---

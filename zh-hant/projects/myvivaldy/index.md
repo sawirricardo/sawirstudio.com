@@ -1,7 +1,7 @@
 ---
-title: MyVivaldy | SawirStudio
+title: MyVivaldy | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/myvivaldy/
-description: MyVivaldy 是 Vivaldy Skin Clinic 的診所系統與患者 App，提供預約、就診紀錄與處方功能，支援 iPhone 與 Android，由 SawirStudio 打造。
+description: MyVivaldy 是 Vivaldy Skin Clinic 的診所系統與患者 App，提供預約、就診紀錄與處方功能，支援 iPhone 與 Android，由 Sawir Studio 打造。
 ---
 
 # MyVivaldy

@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API: מה נשבר | SawirStudio
+title: Shopify 2026-10 API: מה נשבר | Sawir Studio
 url: https://sawirstudio.com/he/posts/shopify-2026-10-api-what-breaks/
 description: שינויים ב-Shopify Admin API בגרסה 2026-10 שעלולים לשבור אינטגרציה, ומה צריך לשנות: תעריפי משלוח, הנחות בהזמנות טיוטה, מסים, ברקודים ועוד.
 ---

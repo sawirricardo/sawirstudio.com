@@ -1,5 +1,5 @@
 ---
-title: Warum Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen | SawirStudio
+title: Warum Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen | Sawir Studio
 url: https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/
 description: Warum das Geld, das Shopify Payments auf Ihr Bankkonto überweist, nie zu Ihrem Umsatzbericht passt: Gebühren, Rückerstattungen, Zahlungsstreitigkeiten, Geschenkgutscheine, Währungsumrechnung und Zeitversatz, und wie Sie alles abstimmen.
 ---

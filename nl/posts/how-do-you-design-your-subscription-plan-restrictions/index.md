@@ -1,5 +1,5 @@
 ---
-title: Limieten van abonnementen in Laravel | SawirStudio
+title: Limieten van abonnementen in Laravel | Sawir Studio
 url: https://sawirstudio.com/nl/posts/how-do-you-design-your-subscription-plan-restrictions/
 description: Zo dwing je limieten van abonnementen af in Laravel, van een simpele check in de controller tot Gates en Policies.
 ---

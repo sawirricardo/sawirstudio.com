@@ -1,7 +1,7 @@
 ---
-title: À propos | SawirStudio
+title: À propos | Sawir Studio
 url: https://sawirstudio.com/fr/about-us/
-description: SawirStudio livre vite des applications, des sites web et des designs, avec l'IA dans la boucle et un humain qui assume chaque décision. Découvrez le mot de notre fondateur et nos convictions.
+description: Sawir Studio livre vite des applications, des sites web et des designs, avec l'IA dans la boucle et un humain qui assume chaque décision. Découvrez le mot de notre fondateur et nos convictions.
 ---
 
 # Ravis que vous nous ayez trouvés
@@ -10,7 +10,7 @@ Un studio qui livre vite, avec l'IA dans la boucle et un humain qui assume chaqu
 
 Un mot du fondateur
 
-J'ai créé SawirStudio pour concevoir des applications, des sites web et des designs qui tiennent la route pour ceux qui les utilisent. Aujourd'hui, nous développons avec l'IA au quotidien. Elle rédige une bonne partie des premières versions, et c'est ainsi que SawirStudio a mis six de ses propres applications sur l'App Store en moins de quatre semaines.
+J'ai créé Sawir Studio pour concevoir des applications, des sites web et des designs qui tiennent la route pour ceux qui les utilisent. Aujourd'hui, nous développons avec l'IA au quotidien. Elle rédige une bonne partie des premières versions, et c'est ainsi que Sawir Studio a mis six de ses propres applications sur l'App Store en moins de quatre semaines.
 
 Mais un outil ne peut pas assumer une décision, alors c'est nous qui le faisons. Nous lisons le code, le testons sur de vrais appareils et répondons de ce qui est livré. Les projets de nos clients bénéficient du même engagement.
 

@@ -1,7 +1,7 @@
 ---
-title: Application DBTV | SawirStudio
+title: Application DBTV | Sawir Studio
 url: https://sawirstudio.com/fr/projects/dbtv-application/
-description: DBTV rassemble sur iOS et Android les prédications, temps de prière, moments de louange, podcasts et méditations quotidiennes de Ps. Debby Basjir. Développée par SawirStudio.
+description: DBTV rassemble sur iOS et Android les prédications, temps de prière, moments de louange, podcasts et méditations quotidiennes de Ps. Debby Basjir. Développée par Sawir Studio.
 ---
 
 # DBTV Application

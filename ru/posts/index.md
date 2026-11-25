@@ -1,7 +1,7 @@
 ---
-title: Блог | SawirStudio
+title: Блог | Sawir Studio
 url: https://sawirstudio.com/ru/posts/
-description: Статьи SawirStudio о разработке веб-приложений на Laravel и PHP.
+description: Статьи Sawir Studio о разработке веб-приложений на Laravel и PHP.
 ---
 
 # Блог

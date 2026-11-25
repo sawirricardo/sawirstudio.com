@@ -1,7 +1,7 @@
 ---
-title: Calvin Kain | SawirStudio
+title: Calvin Kain | Sawir Studio
 url: https://sawirstudio.com/ru/projects/calvin-kain/
-description: Приложение, созданное SawirStudio для Calvin Kain в партнёрстве с Clicks&co.
+description: Приложение, созданное Sawir Studio для Calvin Kain в партнёрстве с Clicks&co.
 ---
 
 # Calvin Kain

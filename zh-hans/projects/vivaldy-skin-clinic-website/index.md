@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic 网站 | SawirStudio
+title: Vivaldy Skin Clinic 网站 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/vivaldy-skin-clinic-website/
-description: Vivaldy Skin Clinic 的网站。该诊所是一家皮肤性病诊所，网站展示其诊疗项目、商店和联系方式。由 SawirStudio 开发。
+description: Vivaldy Skin Clinic 的网站。该诊所是一家皮肤性病诊所，网站展示其诊疗项目、商店和联系方式。由 Sawir Studio 开发。
 ---
 
 # Vivaldy Skin Clinic 网站

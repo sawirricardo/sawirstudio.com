@@ -1,7 +1,7 @@
 ---
-title: Кампания Tanda Tangan Digital | SawirStudio
+title: Кампания Tanda Tangan Digital | Sawir Studio
 url: https://sawirstudio.com/ru/projects/tanda-tangan-digital-campaign/
-description: Дизайн кампании по цифровой подписи для Министерства связи и информатики Индонезии от SawirStudio.
+description: Дизайн кампании по цифровой подписи для Министерства связи и информатики Индонезии от Sawir Studio.
 ---
 
 # Кампания Tanda Tangan Digital

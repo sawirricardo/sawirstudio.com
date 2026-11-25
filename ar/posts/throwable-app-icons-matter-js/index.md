@@ -1,5 +1,5 @@
 ---
-title: أيقونات التطبيقات القابلة للرمي باستخدام Matter.js | SawirStudio
+title: أيقونات التطبيقات القابلة للرمي باستخدام Matter.js | Sawir Studio
 url: https://sawirstudio.com/ar/posts/throwable-app-icons-matter-js/
 description: كيف بنينا صندوق أيقونات التطبيقات القابلة للرمي في صفحتنا الرئيسية: Matter.js للفيزياء، وعناصر DOM بدل canvas، وظل يبقى في مكانه بينما تدور الأيقونات، وحلول بديلة.
 ---

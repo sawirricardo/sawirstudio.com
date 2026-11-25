@@ -1,5 +1,5 @@
 ---
-title: Sawir Live Translate | SawirStudio
+title: Sawir Live Translate | Sawir Studio
 url: https://sawirstudio.com/de/projects/wordpress-plugins/sawir-live-translate/
 description: Sawir Live Translate übersetzt Ihre Seiten direkt dort, wo sie stehen: Sprache wählen, sichtbare Texte automatisch übersetzen, speichern und Besuchern einen Sprachumschalter anbieten.
 ---

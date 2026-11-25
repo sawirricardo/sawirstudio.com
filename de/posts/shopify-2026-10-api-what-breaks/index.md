@@ -1,5 +1,5 @@
 ---
-title: Shopify 2026-10 API: Was kaputtgeht | SawirStudio
+title: Shopify 2026-10 API: Was kaputtgeht | Sawir Studio
 url: https://sawirstudio.com/de/posts/shopify-2026-10-api-what-breaks/
 description: Die Änderungen der Shopify Admin API in Version 2026-10, die eine Integration kaputtmachen können, und was Sie anpassen müssen: Versandraten, Rabatte in Draft Orders, Steuern, Barcodes und mehr.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Koperasi HOB 应用 | SawirStudio
+title: Koperasi HOB 应用 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/koperasi-hob-application/
 description: Koperasi HOB 的购物应用：社员按分类浏览家居用品，选择配送或到店自提，并使用合作社余额付款。
 ---

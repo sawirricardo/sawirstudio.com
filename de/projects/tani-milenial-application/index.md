@@ -1,7 +1,7 @@
 ---
-title: TaniMilenial App | SawirStudio
+title: TaniMilenial App | Sawir Studio
 url: https://sawirstudio.com/de/projects/tani-milenial-application/
-description: TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhaltung, entwickelt von SawirStudio mit Clicks&Co.
+description: TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhaltung, entwickelt von Sawir Studio mit Clicks&Co.
 ---
 
 # TaniMilenial Application

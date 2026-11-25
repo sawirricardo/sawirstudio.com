@@ -1,5 +1,5 @@
 ---
-title: Math Daily | SawirStudio
+title: Math Daily | Sawir Studio
 url: https://sawirstudio.com/he/projects/math-daily/
 description: Math Daily בונה הרגל יומי של חשבון בדקה ביום עם Math Monsters: תרגול קצר בחיבור, חיסור, כפל וחילוק.
 ---

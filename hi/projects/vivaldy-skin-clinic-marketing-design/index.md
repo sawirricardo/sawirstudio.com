@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic मार्केटिंग डिज़ाइन | SawirStudio
+title: Vivaldy Skin Clinic मार्केटिंग डिज़ाइन | Sawir Studio
 url: https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-marketing-design/
-description: SawirStudio द्वारा Vivaldy Skin Clinic के लिए मार्केटिंग डिज़ाइन, जैसे क्लिनिक के सॉफ़्ट सफ़ेद और टर्क्वॉइज़ रंगों में बना ईद-उल-फ़ित्र ग्रीटिंग कार्ड।
+description: Sawir Studio द्वारा Vivaldy Skin Clinic के लिए मार्केटिंग डिज़ाइन, जैसे क्लिनिक के सॉफ़्ट सफ़ेद और टर्क्वॉइज़ रंगों में बना ईद-उल-फ़ित्र ग्रीटिंग कार्ड।
 ---
 
 # Vivaldy Skin Clinic मार्केटिंग डिज़ाइन

@@ -1,7 +1,7 @@
 ---
-title: SawirStudio | アプリ・ウェブプラットフォーム・Shopify & Odoo
+title: Sawir Studio | アプリ・ウェブプラットフォーム・Shopify & Odoo
 url: https://sawirstudio.com/ja/
-description: SawirStudio は、使われるソフトウェアを作っています。お客様向けにはアプリ、ウェブプラットフォーム、Shopify と Odoo の開発、自社では iPhone、iPad、Mac 向けのアプリを提供しています。
+description: Sawir Studio は、使われるソフトウェアを作っています。お客様向けにはアプリ、ウェブプラットフォーム、Shopify と Odoo の開発、自社では iPhone、iPad、Mac 向けのアプリを提供しています。
 ---
 
 Sawir Studio です。はじめまして

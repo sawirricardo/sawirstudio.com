@@ -1,5 +1,5 @@
 ---
-title: Icone di app da lanciare con Matter.js | SawirStudio
+title: Icone di app da lanciare con Matter.js | Sawir Studio
 url: https://sawirstudio.com/it/posts/throwable-app-icons-matter-js/
 description: Come abbiamo costruito il box di icone di app che potete lanciare sulla nostra home page: Matter.js per la fisica, elementi DOM invece di un canvas, un'ombra che resta ferma mentre le icone girano, e soluzioni di ripiego.
 ---

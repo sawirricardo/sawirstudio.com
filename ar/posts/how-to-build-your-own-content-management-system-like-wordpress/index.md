@@ -1,5 +1,5 @@
 ---
-title: ابنوا نظام إدارة المحتوى الخاص بكم على غرار WordPress | SawirStudio
+title: ابنوا نظام إدارة المحتوى الخاص بكم على غرار WordPress | Sawir Studio
 url: https://sawirstudio.com/ar/posts/how-to-build-your-own-content-management-system-like-wordpress/
 description: بناء نظام لإدارة المحتوى مثل WordPress باستخدام Laravel وهندسة برمجيات حديثة.
 ---

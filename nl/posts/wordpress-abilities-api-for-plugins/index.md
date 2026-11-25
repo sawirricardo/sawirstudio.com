@@ -1,5 +1,5 @@
 ---
-title: WordPress Abilities API voor plugins | SawirStudio
+title: WordPress Abilities API voor plugins | Sawir Studio
 url: https://sawirstudio.com/nl/posts/wordpress-abilities-api-for-plugins/
 description: Zo registreer je abilities in een WordPress-plugin, zodat AI-agents en andere tools ze veilig kunnen vinden en uitvoeren: categorieën, schema's, rechten, annotations en de REST-endpoints.
 ---

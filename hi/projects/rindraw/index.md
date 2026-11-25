@@ -1,5 +1,5 @@
 ---
-title: Rindraw | SawirStudio
+title: Rindraw | Sawir Studio
 url: https://sawirstudio.com/hi/projects/rindraw/
 description: ड्रॉइंग ऐप, जिसमें हर स्ट्रोक एडिट किया जा सकता है। iPad, iPhone और Mac के लिए बस एक बार भुगतान करें।
 ---

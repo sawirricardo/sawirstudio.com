@@ -1,5 +1,5 @@
 ---
-title: NoFapFit | SawirStudio
+title: NoFapFit | Sawir Studio
 url: https://sawirstudio.com/nl/projects/nofapfit/
 description: Een directe workout-uitdaging voor het moment dat de drang opkomt, met streaks om discipline op te bouwen
 ---

@@ -1,5 +1,5 @@
 ---
-title: Sawir Referral – Freunde werben für WooCommerce | SawirStudio
+title: Sawir Referral – Freunde werben für WooCommerce | Sawir Studio
 url: https://sawirstudio.com/de/projects/wordpress-plugins/sawir-referral/
 description: Empfehlungsprogramm mit Gewinn für beide Seiten für WooCommerce. Freunde erhalten einen Rabatt, Empfehler verdienen einen Belohnungs-Gutschein – geteilt per Code oder Link, WhatsApp zuerst.
 ---

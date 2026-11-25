@@ -1,7 +1,7 @@
 ---
-title: Identité visuelle JakPod Hotel | SawirStudio
+title: Identité visuelle JakPod Hotel | Sawir Studio
 url: https://sawirstudio.com/fr/projects/jakpod-hotel-design/
-description: Conception de l’identité visuelle de JakPod Hotel, un hôtel-capsules à Thamrin, Jakarta : un monogramme JAK dans un cercle au dégradé du rose au bleu, par SawirStudio.
+description: Conception de l’identité visuelle de JakPod Hotel, un hôtel-capsules à Thamrin, Jakarta : un monogramme JAK dans un cercle au dégradé du rose au bleu, par Sawir Studio.
 ---
 
 # JakPod Hotel Design

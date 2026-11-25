@@ -1,7 +1,7 @@
 ---
-title: עיצוב JakPod Hotel | SawirStudio
+title: עיצוב JakPod Hotel | Sawir Studio
 url: https://sawirstudio.com/he/projects/jakpod-hotel-design/
-description: עיצוב זהות מותגית ל-JakPod Hotel, מלון פודים בתמרין (Thamrin) שבג'קרטה: מונוגרמה של JAK בתוך עיגול בגרדיאנט מוורוד לכחול, מאת SawirStudio.
+description: עיצוב זהות מותגית ל-JakPod Hotel, מלון פודים בתמרין (Thamrin) שבג'קרטה: מונוגרמה של JAK בתוך עיגול בגרדיאנט מוורוד לכחול, מאת Sawir Studio.
 ---
 
 # עיצוב JakPod Hotel

@@ -1,7 +1,7 @@
 ---
-title: עיצוב שיווקי למרפאת העור Vivaldy Skin Clinic | SawirStudio
+title: עיצוב שיווקי למרפאת העור Vivaldy Skin Clinic | Sawir Studio
 url: https://sawirstudio.com/he/projects/vivaldy-skin-clinic-marketing-design/
-description: עיצוב שיווקי למרפאת העור Vivaldy Skin Clinic מאת SawirStudio, כמו כרטיס ברכה לחג Eid al-Fitr בפלטת הצבעים של המרפאה: לבן רך וטורקיז.
+description: עיצוב שיווקי למרפאת העור Vivaldy Skin Clinic מאת Sawir Studio, כמו כרטיס ברכה לחג Eid al-Fitr בפלטת הצבעים של המרפאה: לבן רך וטורקיז.
 ---
 
 # עיצוב שיווקי ל-Vivaldy Skin Clinic

@@ -1,7 +1,7 @@
 ---
-title: Habitat Hills Design | SawirStudio
+title: Habitat Hills Design | Sawir Studio
 url: https://sawirstudio.com/ru/projects/habitat-hills-design/
-description: Буклет в три сложения для Habitat Hills, природного курорта площадью 27 гектаров в Мегамендунге, Богор. Дизайн SawirStudio в лесном зелёном и терракотовом цветах.
+description: Буклет в три сложения для Habitat Hills, природного курорта площадью 27 гектаров в Мегамендунге, Богор. Дизайн Sawir Studio в лесном зелёном и терракотовом цветах.
 ---
 
 # Дизайн Habitat Hills

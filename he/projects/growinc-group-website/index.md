@@ -1,7 +1,7 @@
 ---
-title: אתר Growinc Group | SawirStudio
+title: אתר Growinc Group | Sawir Studio
 url: https://sawirstudio.com/he/projects/growinc-group-website/
-description: אתר תאגידי עבור Growinc Group Indonesia, קבוצת שיווק ופרסום מג'קרטה, עם השירותים, סיפורי הלקוח והסוכנויות שלה. נבנה על ידי SawirStudio.
+description: אתר תאגידי עבור Growinc Group Indonesia, קבוצת שיווק ופרסום מג'קרטה, עם השירותים, סיפורי הלקוח והסוכנויות שלה. נבנה על ידי Sawir Studio.
 ---
 
 # אתר Growinc Group

@@ -1,5 +1,5 @@
 ---
-title: تواصلوا معنا | SawirStudio
+title: تواصلوا معنا | Sawir Studio
 url: https://sawirstudio.com/ar/contact/
 description: حدثونا عن مشروعكم: تطبيقات ومواقع إلكترونية وتصميم رقمي.
 ---

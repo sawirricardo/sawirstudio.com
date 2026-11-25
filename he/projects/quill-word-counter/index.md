@@ -1,5 +1,5 @@
 ---
-title: Quill Word Counter | SawirStudio
+title: Quill Word Counter | Sawir Studio
 url: https://sawirstudio.com/he/projects/quill-word-counter/
 description: מונה מילים חינמי שמראה גם זמן קריאה, מגבלות אורך לפוסטים והמילים שחוזרות אצלכם יותר מדי
 ---

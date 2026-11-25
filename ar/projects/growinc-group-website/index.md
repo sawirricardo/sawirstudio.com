@@ -1,7 +1,7 @@
 ---
-title: الموقع الإلكتروني لمجموعة Growinc | SawirStudio
+title: الموقع الإلكتروني لمجموعة Growinc | Sawir Studio
 url: https://sawirstudio.com/ar/projects/growinc-group-website/
-description: موقع إلكتروني لمجموعة Growinc Group Indonesia، وهي مجموعة تسويق وإعلان في جاكرتا، يعرض خدماتها ودراسات الحالة والوكالات التابعة لها. من تنفيذ SawirStudio.
+description: موقع إلكتروني لمجموعة Growinc Group Indonesia، وهي مجموعة تسويق وإعلان في جاكرتا، يعرض خدماتها ودراسات الحالة والوكالات التابعة لها. من تنفيذ Sawir Studio.
 ---
 
 # موقع Growinc Group

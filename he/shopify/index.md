@@ -1,5 +1,5 @@
 ---
-title: אינטגרציות ואפליקציות ל-Shopify | SawirStudio
+title: אינטגרציות ואפליקציות ל-Shopify | Sawir Studio
 url: https://sawirstudio.com/he/shopify/
 description: Shopify מחובר ל-Odoo ולשאר העסק: הזמנות, מלאי, העברות תשלום ונקודות מכירה, בידי מי שכתבו את מחבר ה-Shopify בקוד פתוח עבור Odoo.
 ---

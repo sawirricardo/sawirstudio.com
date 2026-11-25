@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/de/projects/squishu/
 description: Squishu ist ein niedliches Clicker-Spiel für iPhone, iPad und Apple Watch: Quetschen Sie Dumplings und besiegen Sie den Boss jeder Welt, bevor der Dampf verflogen ist.
 ---

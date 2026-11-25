@@ -1,5 +1,5 @@
 ---
-title: ربط Shopify بـ Odoo 19 Community | SawirStudio
+title: ربط Shopify بـ Odoo 19 Community | Sawir Studio
 url: https://sawirstudio.com/ar/posts/connect-shopify-to-odoo-19-community/
 description: كيف تربطون متجر Shopify بـ Odoo 19 Community عبر موصل Shopify المفتوح المصدر من OCA: تطبيق Dev Dashboard، والصلاحيات (scopes)، وqueue_job، والـ webhooks، والإعداد الأولي.
 ---

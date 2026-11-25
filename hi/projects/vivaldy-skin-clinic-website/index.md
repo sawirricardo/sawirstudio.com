@@ -1,7 +1,7 @@
 ---
-title: Vivaldy Skin Clinic वेबसाइट | SawirStudio
+title: Vivaldy Skin Clinic वेबसाइट | Sawir Studio
 url: https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-website/
-description: Vivaldy Skin Clinic की वेबसाइट, जो एक डर्मेटोलॉजी और वेनेरियोलॉजी क्लिनिक है। साइट पर क्लिनिक के ट्रीटमेंट, शॉप और संपर्क की जानकारी दी गई है। SawirStudio द्वारा बनाई गई।
+description: Vivaldy Skin Clinic की वेबसाइट, जो एक डर्मेटोलॉजी और वेनेरियोलॉजी क्लिनिक है। साइट पर क्लिनिक के ट्रीटमेंट, शॉप और संपर्क की जानकारी दी गई है। Sawir Studio द्वारा बनाई गई।
 ---
 
 # Vivaldy Skin Clinic वेबसाइट

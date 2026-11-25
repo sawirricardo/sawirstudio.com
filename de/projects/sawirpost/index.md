@@ -1,5 +1,5 @@
 ---
-title: SawirPost | SawirStudio
+title: SawirPost | Sawir Studio
 url: https://sawirstudio.com/de/projects/sawirpost/
 description: Einmal schreiben, planmäßig auf über 25 Social-Media-Kanälen veröffentlichen – entwickelt für Agenturen
 ---

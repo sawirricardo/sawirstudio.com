@@ -1,5 +1,5 @@
 ---
-title: Gebruiksvoorwaarden | SawirStudio
+title: Gebruiksvoorwaarden | Sawir Studio
 url: https://sawirstudio.com/nl/terms/
 description: De voorwaarden voor het gebruik van sawirstudio.com: onze content en portfolio, de gratis WordPress-plugins en apps, links naar andere websites en hoe we klantwerk afspreken.
 ---

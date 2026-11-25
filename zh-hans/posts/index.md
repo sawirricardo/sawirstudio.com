@@ -1,7 +1,7 @@
 ---
-title: 博客 | SawirStudio
+title: 博客 | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/
-description: SawirStudio 发布的文章，主要讲解如何使用 Laravel 和 PHP 构建 Web 应用。
+description: Sawir Studio 发布的文章，主要讲解如何使用 Laravel 和 PHP 构建 Web 应用。
 ---
 
 # 博客

@@ -1,5 +1,5 @@
 ---
-title: CleanStorage | SawirStudio
+title: CleanStorage | Sawir Studio
 url: https://sawirstudio.com/zh-hans/projects/cleanstorage/
 description: CleanStorage 可找出 iPhone 上的重复照片、大体积视频和重复联系人，由您决定哪些留下。没有广告，无需订阅。
 ---

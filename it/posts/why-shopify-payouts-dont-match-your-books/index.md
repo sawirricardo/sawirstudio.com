@@ -1,5 +1,5 @@
 ---
-title: Perché i payout di Shopify non coincidono con la vostra contabilità | SawirStudio
+title: Perché i payout di Shopify non coincidono con la vostra contabilità | Sawir Studio
 url: https://sawirstudio.com/it/posts/why-shopify-payouts-dont-match-your-books/
 description: Perché il denaro che Shopify Payments accredita sulla vostra banca non coincide mai con il report delle vendite: commissioni, rimborsi, contestazioni, gift card, conversione di valuta e tempistiche, e come riconciliare tutto.
 ---

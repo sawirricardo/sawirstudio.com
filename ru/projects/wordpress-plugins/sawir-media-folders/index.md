@@ -1,5 +1,5 @@
 ---
-title: Sawir Media Folders | SawirStudio
+title: Sawir Media Folders | Sawir Studio
 url: https://sawirstudio.com/ru/projects/wordpress-plugins/sawir-media-folders/
 description: Быстрые папки без ограничений для медиатеки WordPress с перетаскиванием.
 ---

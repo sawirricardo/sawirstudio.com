@@ -1,5 +1,5 @@
 ---
-title: Maatwerksoftware & apps | SawirStudio
+title: Maatwerksoftware & apps | Sawir Studio
 url: https://sawirstudio.com/nl/custom/
 description: Apps, interne systemen, marktplaatsen en portalen die zijn gebouwd rond hoe jouw bedrijf werkt, met betalingen, koppelingen en de admin erachter. Je bent eigenaar van de code en de data.
 ---

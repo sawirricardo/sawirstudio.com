@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – WooCommerce向け定期課金プラグイン | SawirStudio
+title: Sawir Renew – WooCommerce向け定期課金プラグイン | Sawir Studio
 url: https://sawirstudio.com/ja/projects/wordpress-plugins/sawir-renew/
 description: WooCommerce 向けの本格的なサブスクリプション機能：定期課金、無料トライアル、初期費用、一時停止／スキップ、プラン変更、督促、スマートリトライ。すべて無料です。
 ---

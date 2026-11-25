@@ -1,7 +1,7 @@
 ---
-title: Growinc Group ウェブサイト | SawirStudio
+title: Growinc Group ウェブサイト | Sawir Studio
 url: https://sawirstudio.com/ja/projects/growinc-group-website/
-description: ジャカルタのマーケティング・広告グループ、Growinc Group Indonesia のコーポレートサイトです。サービス、ケーススタディ、傘下のエージェンシーを紹介しています。制作は SawirStudio です。
+description: ジャカルタのマーケティング・広告グループ、Growinc Group Indonesia のコーポレートサイトです。サービス、ケーススタディ、傘下のエージェンシーを紹介しています。制作は Sawir Studio です。
 ---
 
 # Growinc Group ウェブサイト

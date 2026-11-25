@@ -1,5 +1,5 @@
 ---
-title: Sawir Renew – WooCommerce के लिए रिकरिंग बिलिंग | SawirStudio
+title: Sawir Renew – WooCommerce के लिए रिकरिंग बिलिंग | Sawir Studio
 url: https://sawirstudio.com/hi/projects/wordpress-plugins/sawir-renew/
 description: WooCommerce के लिए पूरा सब्सक्रिप्शन सिस्टम — रिकरिंग बिलिंग, ट्रायल, साइन-अप फ़ीस, पॉज़/स्किप, प्लान बदलना, डनिंग, स्मार्ट रिट्राई। सब मुफ़्त।
 ---

@@ -1,7 +1,7 @@
 ---
-title: Fluindo Technology Indonesia 網站 | SawirStudio
+title: Fluindo Technology Indonesia 網站 | Sawir Studio
 url: https://sawirstudio.com/zh-hant/projects/fluindo-technology-indonesia-website/
-description: Fluindo Technology Indonesia 的網站，由 SawirStudio 設計與建置。
+description: Fluindo Technology Indonesia 的網站，由 Sawir Studio 設計與建置。
 ---
 
 # Fluindo Technology Indonesia 網站

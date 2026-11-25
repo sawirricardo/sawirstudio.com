@@ -1,5 +1,5 @@
 ---
-title: WordPress Abilities API for Plugins | SawirStudio
+title: WordPress Abilities API for Plugins | Sawir Studio
 url: https://sawirstudio.com/zh-hans/posts/wordpress-abilities-api-for-plugins/
 description: 如何在 WordPress 插件中注册 ability，让 AI 代理和其他工具能够安全地发现并运行它们：分类、schema、权限、注解和 REST 端点。
 ---

@@ -1,7 +1,7 @@
 ---
-title: Сайт Fluindo Technology Indonesia | SawirStudio
+title: Сайт Fluindo Technology Indonesia | Sawir Studio
 url: https://sawirstudio.com/ru/projects/fluindo-technology-indonesia-website/
-description: Сайт для Fluindo Technology Indonesia, разработанный и созданный SawirStudio.
+description: Сайт для Fluindo Technology Indonesia, разработанный и созданный Sawir Studio.
 ---
 
 # Сайт Fluindo Technology Indonesia

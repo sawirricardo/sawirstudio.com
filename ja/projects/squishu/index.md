@@ -1,5 +1,5 @@
 ---
-title: Squishu | SawirStudio
+title: Squishu | Sawir Studio
 url: https://sawirstudio.com/ja/projects/squishu/
 description: Squishuは、iPhone、iPad、Apple Watch で遊べるかわいいクリッカーゲームです。餃子をつぶして、蒸気が切れる前に各ワールドのボスを倒しましょう。
 ---

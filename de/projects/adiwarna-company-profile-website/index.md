@@ -1,7 +1,7 @@
 ---
-title: Adiwarna Company-Profile-Website | SawirStudio
+title: Adiwarna Company-Profile-Website | Sawir Studio
 url: https://sawirstudio.com/de/projects/adiwarna-company-profile-website/
-description: Company-Profile-Website für die PT Adiwarna Anugerah Abadi, gestaltet und umgesetzt von SawirStudio.
+description: Company-Profile-Website für die PT Adiwarna Anugerah Abadi, gestaltet und umgesetzt von Sawir Studio.
 ---
 
 # Adiwarna Company Profile Website
