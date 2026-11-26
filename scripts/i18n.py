@@ -62,7 +62,8 @@ INLINE = {"a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "
 NO_TEXT = {"script", "style", "pre", "svg", "noscript", "template", "textarea", "code"}
 ATTRS = ["title", "alt", "aria-label", "placeholder", "data-sending"]
 META = [("name", "description"), ("property", "og:title"), ("property", "og:description"),
-        ("name", "twitter:title"), ("name", "twitter:description")]
+        ("name", "twitter:title"), ("name", "twitter:description"),
+        ("property", "og:image:alt"), ("name", "twitter:image:alt")]
 LD_KEYS = {"name", "headline", "alternativeHeadline", "description", "serviceType", "jobTitle", "text"}
 
 ALT_START, ALT_END = "<!-- i18n:alternates -->", "<!-- /i18n:alternates -->"

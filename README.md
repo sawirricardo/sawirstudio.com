@@ -21,6 +21,7 @@ sitemap.xml, robots.txt
 **/index.md, llms.txt    Markdown copies of the pages for AI agents (generated)
 scripts/related_projects.py Rebuilds the "More projects" rows (not deployed)
 scripts/markdown_pages.py   Rebuilds index.md for every page, and llms.txt (not deployed)
+scripts/og_images.py        Draws the share cards in assets/og/cards/ and adds the og:image tags (not deployed)
 ```
 
 ## Run locally
@@ -50,6 +51,15 @@ python3 scripts/related_projects.py
 ```
 
 Run it again after renaming or removing a project. `scripts/` isn't deployed (see `.assetsignore`).
+
+After adding a page or changing a page's title, redraw its share card (the picture shown when the link is
+shared) and its image tags. Project pages keep their own picture in `assets/og/`; every other page gets a card
+with its title. Then rebuild the translations:
+
+```bash
+uv run scripts/og_images.py
+uv run scripts/i18n.py --no-translate
+```
 
 After changing any page's text, or adding a page to `sitemap.xml`, rebuild the Markdown copies and `llms.txt`:
 
