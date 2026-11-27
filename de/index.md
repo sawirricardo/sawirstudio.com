@@ -8,7 +8,7 @@ Hallo, wir sind Sawir Studio
 
 # Wir finden, was Ihr Unternehmen ausbremst, und beheben es.
 
-Manchmal ist das ein System anstelle all der Tabellen, manchmal KI, die Ihnen lästige Routinearbeit abnimmt, manchmal eine Website, die Kunden bringt. Ein kleines Studio, von der ersten Lösung bis Jahre danach.
+Manchmal ist das ein System, das die Excel-Listen ersetzt, manchmal KI, die Routineaufgaben übernimmt, manchmal eine Website, die Kunden bringt. Ein Partner, von der ersten Korrektur bis Jahre danach.
 
 KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben →](https://sawirstudio.com/de/about-us/)
 

@@ -8,7 +8,7 @@ bonjour, nous sommes Sawir Studio
 
 # Nous trouvons ce qui freine votre entreprise, et nous y remédions.
 
-Parfois, c’est un système unique à la place des tableurs, parfois une IA qui prend en charge les tâches fastidieuses, parfois un site web qui vous amène des clients. Un seul petit studio, du premier correctif jusqu’à des années plus tard.
+Parfois, c’est un système unique qui remplace les tableurs, parfois l’IA qui prend en charge les tâches répétitives, parfois un site web qui vous amène des clients. Un seul partenaire, de la première correction jusqu’aux années suivantes.
 
 L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous croyons →](https://sawirstudio.com/fr/about-us/)
 

@@ -8,7 +8,7 @@ hi, we're Sawir Studio
 
 # We find what's slowing your business down, and fix it.
 
-Sometimes that's one system in place of the spreadsheets, sometimes AI taking over the busywork, sometimes a website that brings customers in. One small studio, from the first fix to years after.
+Sometimes that's one system in place of the spreadsheets, sometimes AI taking over the busywork, sometimes a website that brings customers in. One partner, from the first fix to years after.
 
 AI in the loop, a human owning every call. [What we believe →](https://sawirstudio.com/about-us/)
 

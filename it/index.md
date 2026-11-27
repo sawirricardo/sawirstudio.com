@@ -8,7 +8,7 @@ ciao, siamo Sawir Studio
 
 # Troviamo ciò che rallenta la vostra azienda e lo risolviamo.
 
-A volte serve un unico sistema al posto dei fogli di calcolo, a volte l’AI che si fa carico delle attività ripetitive, a volte un sito web che porta clienti. Un solo piccolo studio, dal primo intervento a molti anni dopo.
+A volte è un unico sistema al posto dei fogli di calcolo, a volte è l’AI che si fa carico delle attività ripetitive, a volte è un sito web che vi porta clienti. Un solo partner, dal primo intervento e per gli anni a venire.
 
 L'AI al lavoro, ma ogni decisione resta a una persona. [In cosa crediamo →](https://sawirstudio.com/it/about-us/)
 

@@ -8,7 +8,7 @@ hoi, wij zijn Sawir Studio
 
 # Wij zoeken uit wat je bedrijf afremt en lossen het op.
 
-Soms is dat één systeem in plaats van al die spreadsheets, soms AI die het routinewerk overneemt, soms een website die klanten oplevert. Eén kleine studio, van de eerste oplossing tot jaren daarna.
+Soms is dat één systeem in plaats van al die spreadsheets, soms AI die het routinewerk overneemt, soms een website die klanten oplevert. Eén partner, van de eerste fix tot jaren later.
 
 AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven →](https://sawirstudio.com/nl/about-us/)
 
