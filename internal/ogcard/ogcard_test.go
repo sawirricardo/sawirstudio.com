@@ -66,3 +66,25 @@ func TestLayoutWraps(t *testing.T) {
 		}
 	}
 }
+
+func TestPostFormats(t *testing.T) {
+	d := drawer(t)
+	long := "How Do You Design Your Subscription Plan Restrictions, Feature Flags and Usage Limits Without Rewriting Everything"
+	desc := strings.Repeat("A description long enough to be cut short with an ellipsis. ", 8)
+	for _, f := range Formats {
+		jpg, err := d.Post(f, long, desc, "Blog")
+		if err != nil {
+			t.Fatal(err)
+		}
+		img, err := jpeg.Decode(bytes.NewReader(jpg))
+		if err != nil {
+			t.Fatal(err)
+		}
+		if b := img.Bounds(); b.Dx() != f.W || b.Dy() != f.H {
+			t.Errorf("%s is %v, want %dx%d", f.Name, b, f.W, f.H)
+		}
+	}
+	if lines := d.wrap(d.text, desc, 40, 936, 3); len(lines) != 3 || !strings.HasSuffix(lines[2], "…") {
+		t.Errorf("a long description should be cut to 3 lines ending in …, got %q", lines)
+	}
+}

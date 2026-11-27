@@ -730,3 +730,120 @@
   bar.append(p, go, no);
   document.body.append(bar);
 })();
+
+// Blog posts: "Share to your story". The dialog offers the post's picture in four sizes
+// (drawn by the builder) to download or hand to the phone's share sheet (Instagram, Messages…),
+// and copies the post's link for a link sticker. The picture is fetched as soon as a size is
+// picked, so Share can call navigator.share within the tap (Safari drops the tap after a wait).
+(function () {
+  const box = document.querySelector(".share-card");
+  if (!box || !window.HTMLDialogElement) return;
+  const dialog = box.querySelector(".share-dialog");
+  const options = [...box.querySelectorAll(".share-formats [role=radio]")];
+  const img = box.querySelector(".share-preview img");
+  const download = box.querySelector(".share-download");
+  const shareBtn = box.querySelector(".share-file");
+  const copyBtn = box.querySelector(".share-copy");
+  const files = {}; // format -> Promise<File>
+  let current = options[0];
+  let ready = null; // the current format's File, once fetched
+  let copiedTimer;
+  box.hidden = false;
+
+  // The page's own address (the translation the visitor is reading), without query or hash.
+  const pageURL = location.origin + location.pathname;
+
+  function fileFor(opt) {
+    const key = opt.dataset.format;
+    files[key] ||= fetch(opt.dataset.src)
+      .then((r) => (r.ok ? r.blob() : Promise.reject(r.status)))
+      .then((b) => new File([b], opt.dataset.file, { type: b.type || "image/jpeg" }))
+      .catch(() => {
+        delete files[key];
+        return null;
+      });
+    return files[key];
+  }
+
+  function pick(opt) {
+    current = opt;
+    options.forEach((o) => o.setAttribute("aria-checked", String(o === opt)));
+    img.width = +opt.dataset.w;
+    img.height = +opt.dataset.h;
+    img.src = opt.dataset.src;
+    download.href = opt.dataset.src;
+    download.download = opt.dataset.file;
+    ready = null;
+    fileFor(opt).then((file) => {
+      if (current !== opt || !file) return;
+      ready = file;
+      shareBtn.hidden = !(navigator.canShare && navigator.canShare({ files: [file] }));
+    });
+  }
+
+  // The old way, for browsers without the Clipboard API or that refuse it: copy from a
+  // selected, off-screen text field, within the same tap.
+  function copyByCommand() {
+    const field = document.createElement("textarea");
+    field.value = pageURL;
+    field.setAttribute("readonly", "");
+    field.style.cssText = "position:fixed;top:0;left:-9999px;opacity:0";
+    dialog.append(field);
+    field.select();
+    let ok = false;
+    try {
+      ok = document.execCommand("copy");
+    } catch (e) {}
+    field.remove();
+    return ok ? Promise.resolve() : Promise.reject();
+  }
+
+  function copyLink() {
+    const write = navigator.clipboard
+      ? navigator.clipboard.writeText(pageURL).catch(copyByCommand)
+      : copyByCommand();
+    return write.then(() => {
+      copyBtn.classList.add("is-done");
+      copyBtn.querySelector(".share-copy-idle").hidden = true;
+      copyBtn.querySelector(".share-copy-done").hidden = false;
+      clearTimeout(copiedTimer);
+      copiedTimer = setTimeout(() => {
+        copyBtn.classList.remove("is-done");
+        copyBtn.querySelector(".share-copy-idle").hidden = false;
+        copyBtn.querySelector(".share-copy-done").hidden = true;
+      }, 2500);
+    });
+  }
+
+  box.querySelector(".share-open").addEventListener("click", () => {
+    dialog.showModal();
+    if (!img.getAttribute("src")) pick(current);
+  });
+  box.querySelector(".share-close").addEventListener("click", () => dialog.close());
+  // A tap on the backdrop closes the dialog.
+  dialog.addEventListener("click", (e) => {
+    if (e.target === dialog) dialog.close();
+  });
+  options.forEach((o) => o.addEventListener("click", () => pick(o)));
+  // Arrow keys move between the sizes, as in any radio group.
+  box.querySelector(".share-formats").addEventListener("keydown", (e) => {
+    let step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+    if (!step) return;
+    e.preventDefault();
+    // Right-to-left pages (Arabic, Hebrew) lay the sizes out the other way.
+    if (e.key.match(/Left|Right/) && getComputedStyle(dialog).direction === "rtl") step = -step;
+    const next = options[(options.indexOf(current) + step + options.length) % options.length];
+    pick(next);
+    next.focus();
+  });
+
+  copyBtn.addEventListener("click", () => copyLink().catch(() => {}));
+
+  shareBtn.addEventListener("click", () => {
+    if (!ready) return;
+    // Copy the link first, so it's ready to paste into the story's link sticker. The file goes
+    // alone: with a url or text beside it, some apps (Instagram among them) drop the picture.
+    copyLink().catch(() => {});
+    navigator.share({ files: [ready] }).catch(() => {});
+  });
+})();

@@ -62,8 +62,8 @@ def page(html_path):
     url = soup.find("link", rel="canonical")["href"]
 
     main = soup.find("main")
-    # Drawings, scripts, the breadcrumb trail and form controls aren't content.
-    for el in main.select("svg, script, style, canvas, noscript, template, nav.breadcrumbs, form, [aria-hidden=true]"):
+    # Drawings, scripts, the breadcrumb trail, form controls and the share dialog aren't content.
+    for el in main.select("svg, script, style, canvas, noscript, template, nav.breadcrumbs, form, .share-card, [aria-hidden=true]"):
         el.decompose()
     space_out(main)
     body = Converter(heading_style="ATX", bullets="-", strip=["button"]).convert_soup(main)

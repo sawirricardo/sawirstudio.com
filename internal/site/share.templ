@@ -1,0 +1,67 @@
+package site
+
+import "strconv"
+
+// shareFormat is one size in a post's share dialog.
+type shareFormat struct {
+	Key, Label, Ratio string
+	Src               string // the picture's URL, with its content hash
+	File              string // the downloaded file's name
+	W, H              int
+}
+
+// shareCard is the "Share this post" button and its dialog: the post's picture as an Instagram
+// story, a feed post, a square or a link card, to download or hand to the phone's share sheet,
+// and the post's link to paste into a link sticker. The builder puts it at the end of every
+// blog post's <article>. It stays hidden until main.js wires it up; all its text is here, in
+// the page, so the translations cover it.
+templ shareCard(formats []shareFormat) {
+	<div class="share-card" hidden>
+		<button type="button" class="button share-open" aria-haspopup="dialog">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"></circle></svg>
+			<span>Share to your story</span>
+		</button>
+		<dialog class="share-dialog" aria-labelledby="share-dialog-title">
+			<div class="share-head">
+				<h2 id="share-dialog-title">Shareable image</h2>
+				<button type="button" class="share-close" aria-label="Close">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+				</button>
+			</div>
+			<div class="share-formats" role="radiogroup" aria-label="Size">
+				for i, f := range formats {
+					<button
+						type="button"
+						role="radio"
+						aria-checked={ strconv.FormatBool(i == 0) }
+						data-format={ f.Key }
+						data-src={ f.Src }
+						data-file={ f.File }
+						data-w={ strconv.Itoa(f.W) }
+						data-h={ strconv.Itoa(f.H) }
+					>
+						<span>{ f.Label }</span> <small dir="ltr">{ f.Ratio }</small>
+					</button>
+				}
+			</div>
+			<div class="share-preview">
+				<img alt="The post's picture in the size picked above" width={ strconv.Itoa(formats[0].W) } height={ strconv.Itoa(formats[0].H) }/>
+			</div>
+			<div class="share-actions">
+				<a class="button share-download" href={ templ.SafeURL(formats[0].Src) } download={ formats[0].File }>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg>
+					<span>Download</span>
+				</a>
+				<button type="button" class="button share-file" hidden>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>
+					<span>Share</span>
+				</button>
+			</div>
+			<button type="button" class="share-copy">
+				<span class="share-copy-idle">Copy link</span>
+				<span class="share-copy-done" hidden>Link copied</span>
+			</button>
+			<p class="share-hint">On Instagram, add a link sticker to your story and paste the link. Share copies it for you.</p>
+		</dialog>
+	</div>
+}

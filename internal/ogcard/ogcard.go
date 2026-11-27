@@ -50,8 +50,9 @@ const Home = "We find what's [coral]slowing your business down[/], and [yellow]f
 
 // Drawer draws cards. It isn't safe for concurrent use.
 type Drawer struct {
-	bold, semi *face
-	wordmark   string // <g> with the wordmark, placed at the card's top left
+	bold, semi, text *face
+	wordmark         string // <g> with the wordmark, placed at the card's top left
+	wordmarkSVG      string // the wordmark's own SVG, for the other formats
 }
 
 // New prepares a Drawer; wordmarkSVG is assets/press/sawirstudio-wordmark.svg.
@@ -64,24 +65,37 @@ func New(wordmarkSVG []byte) (*Drawer, error) {
 	if err != nil {
 		return nil, err
 	}
+	text, err := newFace(map[string]float32{"wght": 500, "opsz": 24, "wdth": 100})
+	if err != nil {
+		return nil, err
+	}
 	wm, err := wordmark(string(wordmarkSVG), 72, 58, 66)
 	if err != nil {
 		return nil, err
 	}
-	return &Drawer{bold: bold, semi: semi, wordmark: wm}, nil
+	return &Drawer{bold: bold, semi: semi, text: text, wordmark: wm, wordmarkSVG: string(wordmarkSVG)}, nil
 }
 
 // Card returns the card for a page as a JPEG.
 func (d *Drawer) Card(title, label string) ([]byte, error) {
 	svg := d.SVG(title, label)
-	icon, err := oksvg.ReadIconStream(strings.NewReader(svg), oksvg.StrictErrorMode)
+	jpg, err := rasterize(svg, W, H)
 	if err != nil {
 		return nil, fmt.Errorf("card %q: %w", title, err)
 	}
-	img := image.NewRGBA(image.Rect(0, 0, W, H))
+	return jpg, nil
+}
+
+// rasterize draws the SVG at w×h and returns it as a JPEG.
+func rasterize(svg string, w, h int) ([]byte, error) {
+	icon, err := oksvg.ReadIconStream(strings.NewReader(svg), oksvg.StrictErrorMode)
+	if err != nil {
+		return nil, err
+	}
+	img := image.NewRGBA(image.Rect(0, 0, w, h))
 	draw.Draw(img, img.Bounds(), &image.Uniform{color.White}, image.Point{}, draw.Src)
-	icon.SetTarget(0, 0, W, H)
-	icon.Draw(rasterx.NewDasher(W, H, rasterx.NewScannerGV(W, H, img, img.Bounds())), 1)
+	icon.SetTarget(0, 0, float64(w), float64(h))
+	icon.Draw(rasterx.NewDasher(w, h, rasterx.NewScannerGV(w, h, img, img.Bounds())), 1)
 	var buf bytes.Buffer
 	if err := jpeg.Encode(&buf, img, &jpeg.Options{Quality: 88}); err != nil {
 		return nil, err
@@ -261,10 +275,15 @@ func (d *Drawer) layout(words []word, size, maxW float64) [][]word {
 
 // title draws the title as big as it fits (100px down to 48px), centred in its area.
 func (d *Drawer) title(text string, x, top, maxW, maxH float64) string {
+	lines, size, lh := d.fitTitle(text, maxW, maxH, 100)
+	top += (maxH - float64(len(lines))*lh) / 2
+	return d.drawTitle(lines, size, lh, x, top)
+}
+
+// fitTitle wraps the title at the biggest size that fits the area (maxSize px down to 48px).
+func (d *Drawer) fitTitle(text string, maxW, maxH float64, maxSize int) (lines [][]word, size, lh float64) {
 	words := runs(text)
-	var size, lh float64
-	var lines [][]word
-	for s := 100; s > 47; s -= 2 {
+	for s := maxSize; s > 47; s -= 2 {
 		size, lh = float64(s), float64(s)*1.12
 		lines = d.layout(words, size, maxW)
 		fits := float64(len(lines))*lh <= maxH
@@ -275,7 +294,11 @@ func (d *Drawer) title(text string, x, top, maxW, maxH float64) string {
 			break
 		}
 	}
-	top += (maxH - float64(len(lines))*lh) / 2
+	return lines, size, lh
+}
+
+// drawTitle draws wrapped title lines from top, each lh tall.
+func (d *Drawer) drawTitle(lines [][]word, size, lh, x, top float64) string {
 	space := d.bold.width(" ", size, 0)
 	sc := size / d.bold.upem
 	y := top + (lh-(d.bold.asc-d.bold.desc)*sc)/2 + d.bold.asc*sc

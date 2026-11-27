@@ -127,6 +127,16 @@ func TestBuildRepo(t *testing.T) {
 			t.Errorf("rindraw page is missing %s", want)
 		}
 	}
+	if _, err := os.Stat(filepath.Join(root, "assets/og/cards/posts-services-is-next-story.jpg")); err != nil {
+		t.Error("a post's story picture wasn't drawn")
+	}
+	post, _ := os.ReadFile(filepath.Join(root, "posts/services-is-next/index.html"))
+	if i, j := strings.Index(string(post), `class="share-card"`), strings.Index(string(post), "</article>"); i < 0 || i > j {
+		t.Error("a post should have the share dialog inside its <article>")
+	}
+	if strings.Contains(string(page), "share-card") {
+		t.Error("only blog posts get the share dialog")
+	}
 	contact, _ := os.ReadFile(filepath.Join(root, "contact/index.html"))
 	if !strings.Contains(string(contact), `id="inquiry-form"`) {
 		t.Error("contact page has no form")

@@ -16,6 +16,7 @@ type pageData struct {
 	Page              *Page
 	OGImageW, OGImageH int
 	OGImageV           string // a hash of the share picture, added to its URL
+	Share              []shareFormat // a blog post's share dialog, nil elsewhere
 	Projects          []Project
 	Clients           []Client
 	Opts              Options

@@ -88,6 +88,12 @@ and the home page's picture too if the project is featured there; the card gets 
 `assets/og/cards/`: the page's title on the site's card design, with a Blog or Services label where it
 fits. Project pages keep their own picture in `assets/og/` (`og_image`). Cards no page uses are removed.
 
+Every blog post also gets its picture as an Instagram story (1080x1920), feed post (1080x1350) and
+square (1080x1080), `assets/og/cards/posts-<slug>-<story|feed|square>.jpg`, with the title and the
+description. The builder puts a "Share to your story" button at the end of the post's `<article>`
+(`internal/site/share.templ`): a dialog to pick a size, download it or share it from the phone (which
+also copies the post's link for Instagram's link sticker). Its text is translated like the rest of the page.
+
 `make site` also rebuilds the Markdown copies and `llms.txt`. The server sends a page's `index.md` to
 requests with `Accept: text/markdown` (agents), and adds `Link` headers pointing to it, `llms.txt` and the sitemap. Check with https://isitagentready.com/sawirstudio.com.
 

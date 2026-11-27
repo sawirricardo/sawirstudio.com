@@ -13,6 +13,7 @@ import (
 	"io"
 	"io/fs"
 	"os"
+	"path"
 	"path/filepath"
 	"strings"
 
@@ -71,8 +72,12 @@ func build(root string, write bool) ([]string, error) {
 		if p.Related && related(projects, slugOf(p.Path)) == nil {
 			return nil, fmt.Errorf("%s: related: true, but it isn't in content/projects.yaml", p.Path)
 		}
+		var share []shareFormat
+		if p.isPost() {
+			share = shareFormats(root, p, w, h, ogV)
+		}
 		var buf bytes.Buffer
-		d := pageData{Page: p, OGImageW: w, OGImageH: h, OGImageV: ogV, Projects: projects, Clients: clients, Opts: opts, Versions: versions}
+		d := pageData{Page: p, OGImageW: w, OGImageH: h, OGImageV: ogV, Share: share, Projects: projects, Clients: clients, Opts: opts, Versions: versions}
 		if err := Layout(d).Render(context.Background(), &buf); err != nil {
 			return nil, fmt.Errorf("%s: %w", p.Path, err)
 		}
@@ -107,20 +112,52 @@ var placeholders = map[string]func(d pageData) templ.Component{
 	},
 }
 
-// expand is the page's <main> HTML with its placeholders rendered.
+// expand is the page's <main> HTML with its placeholders rendered, and on a blog post the
+// share button at the end of its <article>.
 func expand(d pageData) string {
 	s := d.Page.Main
 	for marker, c := range placeholders {
 		if !strings.Contains(s, marker) {
 			continue
 		}
-		var buf bytes.Buffer
-		if err := c(d).Render(context.Background(), &buf); err != nil {
-			panic(err)
+		s = strings.ReplaceAll(s, marker, render(c(d)))
+	}
+	if len(d.Share) > 0 {
+		share := render(shareCard(d.Share)) + "\n"
+		if i := strings.Index(s, "</article>"); i >= 0 {
+			s = s[:i] + share + "        " + s[i:]
+		} else {
+			s += share
 		}
-		s = strings.ReplaceAll(s, marker, buf.String())
 	}
 	return s
+}
+
+func render(c templ.Component) string {
+	var buf bytes.Buffer
+	if err := c.Render(context.Background(), &buf); err != nil {
+		panic(err)
+	}
+	return buf.String()
+}
+
+// shareFormats are the sizes in a post's share dialog: its pictures in ogcard.Formats, then
+// its link card (w×h, content hash ogV). In a check before the pictures are drawn their
+// hashes are empty, like the link card's.
+func shareFormats(root string, p *Page, w, h int, ogV string) []shareFormat {
+	slug := path.Base(strings.Trim(p.Path, "/"))
+	labels := map[string][2]string{"story": {"Story", "9:16"}, "feed": {"Feed", "4:5"}, "square": {"Square", "1:1"}}
+	var out []shareFormat
+	for _, f := range ogcard.Formats {
+		src := "/assets/og/cards/" + p.shareCardName(f.Name) + ".jpg"
+		v, _ := fileVersion(filepath.Join(root, filepath.FromSlash(src)))
+		l := labels[f.Name]
+		out = append(out, shareFormat{Key: f.Name, Label: l[0], Ratio: l[1], Src: src + "?v=" + v,
+			File: "sawirstudio-" + slug + "-" + f.Name + ".jpg", W: f.W, H: f.H})
+	}
+	ext := path.Ext(p.ogImagePath())
+	return append(out, shareFormat{Key: "link", Label: "Link", Ratio: "1.91:1", Src: p.ogImagePath() + "?v=" + ogV,
+		File: "sawirstudio-" + slug + "-link" + ext, W: w, H: h})
 }
 
 func slugOf(path string) string {
