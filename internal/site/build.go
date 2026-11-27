@@ -64,11 +64,15 @@ func build(root string, write bool) ([]string, error) {
 		if err != nil {
 			return nil, fmt.Errorf("%s: share picture: %w", p.Path, err)
 		}
+		// Link previews cache the picture by URL, so its URL carries a hash of the picture.
+		// (In a check before the card is drawn there's nothing to hash yet; Check compares
+		// pages, which a real build then writes with the hash.)
+		ogV, _ := fileVersion(filepath.Join(root, filepath.FromSlash(p.ogImagePath())))
 		if p.Related && related(projects, slugOf(p.Path)) == nil {
 			return nil, fmt.Errorf("%s: related: true, but it isn't in content/projects.yaml", p.Path)
 		}
 		var buf bytes.Buffer
-		d := pageData{Page: p, OGImageW: w, OGImageH: h, Projects: projects, Clients: clients, Opts: opts, Versions: versions}
+		d := pageData{Page: p, OGImageW: w, OGImageH: h, OGImageV: ogV, Projects: projects, Clients: clients, Opts: opts, Versions: versions}
 		if err := Layout(d).Render(context.Background(), &buf); err != nil {
 			return nil, fmt.Errorf("%s: %w", p.Path, err)
 		}
