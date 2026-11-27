@@ -14,8 +14,26 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 
 [启动项目](https://sawirstudio.com/zh-hans/contact/) [查看客户案例](#portfolio)
 
+信赖我们的客户
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/zh-hans/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/zh-hans/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/zh-hans/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/zh-hans/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/zh-hans/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/zh-hans/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/zh-hans/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/zh-hans/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/zh-hans/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/zh-hans/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/zh-hans/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/zh-hans/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/zh-hans/clients/#kantongsayur "KantongSayur")
+
 - **9** 年客户项目开发经验，始于 2017 年
-- **29** 家企业和机构选择了我们为其开发
+- **28** 家企业和机构由我们提供过开发服务
 - **2019** PeopleBond 开始与我们合作的年份，至今仍在继续。
 - **7** 款自有应用已上架 App Store
 
@@ -116,7 +134,6 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

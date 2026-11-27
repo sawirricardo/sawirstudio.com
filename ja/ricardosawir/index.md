@@ -16,7 +16,7 @@ description: Ricardo Sawir は Sawir Studio の創業者です。Rindraw から 
 
 バンドン工科大学（ITB）でビジュアルコミュニケーションデザインを学び、その後 Apple Developer Academy で学びました。2017 年 12 月に個人事業として Sawir Studio を始め、2025 年 1 月に Sawir Studio LLC として法人化しました。
 
-2019 年から、PeopleBond の人事プラットフォームと従業員向けアプリのリード開発者を務めています。Kantong Sayur のマーケットプレイスを企画から開発まで一貫して手がけ、Jetfly グループの Fly7 プラットフォームの開発をリードしました。現在は、Vivaldy Skin Clinic を運営する Viva Estemedika Indonesia で Head of IT を務めています。
+2019 年から、PeopleBond の人事プラットフォームと従業員向けアプリのリード開発者を務めています。マーケットプレイス Kantong Sayur は最初から最後まで一貫して開発し、Jetfly のオーナー向けポータルでは開発を率いました（Jetfly On-Demand に社名が変わる前の Fly7 時代に、Fly7 のポータルとして開発したものです）。また、Vivaldy Skin Clinic を運営する Viva Estemedika Indonesia では、IT 責任者を務めています。
 
 私はデザインからコードの世界に入りました。キャリアは OMD Indonesia – BBDO と Brilio.net から始まり、インドネシア通信情報省、Astra International、Capsule Indonesia などのために、ブランド、印刷物、キャンペーンのデザインを手がけてきました。だからこそ、私が作るものは見た目や使い心地を大切にしています。
 

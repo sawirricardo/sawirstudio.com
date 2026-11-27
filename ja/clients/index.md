@@ -49,7 +49,7 @@ description: Sawir Studio が開発を手がけた企業・機関と、それぞ
 
 ## Jetfly
 
-Fly7 を含め、ヨーロッパ全域でプライベート航空事業を展開しています。当社は 2023 年から、航空機オーナー向けポータルのメイン開発者を務めています。
+ヨーロッパ全域でプライベート航空サービスを展開しています（Jetfly On-Demand、旧 Fly7 を含みます）。当社は 2023 年から、航空機オーナー向けポータルのメイン開発を担当しています。
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

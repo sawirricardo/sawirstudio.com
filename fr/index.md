@@ -14,8 +14,26 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
 
 [Lancer un projet](https://sawirstudio.com/fr/contact/) [Voir nos projets clients](#portfolio)
 
+Ils nous font confiance
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/fr/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/fr/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/fr/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/fr/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/fr/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/fr/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/fr/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/fr/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/fr/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/fr/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/fr/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/fr/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/fr/clients/#kantongsayur "KantongSayur")
+
 - **9** ans de projets pour nos clients, depuis 2017
-- **29** entreprises et institutions pour lesquelles nous avons développé des projets
+- **28** entreprises et institutions pour lesquelles nous avons développé des solutions
 - **2019** l'année où PeopleBond a commencé à travailler avec nous. Et ça continue.
 - **7** applications à nous sur l'App Store
 
@@ -116,7 +134,6 @@ Les prédications, la prière et les méditations quotidiennes d’un ministère
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

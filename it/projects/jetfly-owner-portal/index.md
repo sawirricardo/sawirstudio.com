@@ -28,7 +28,7 @@ Offrire a ogni proprietario un unico posto in cui consultare i dati del proprio 
 
 Siamo stati gli sviluppatori principali del portale per i proprietari, lavorando direttamente con il team di Jetfly.
 
-- **Dashboard.** Costi orari, ricavi e ore di volo, suddivisi tra proprietario, contratti affiliati e Fly7, con un riepilogo annuale.
+- **Dashboard.** Costi orari, ricavi e ore di volo, suddivisi tra proprietario, contratti affiliati e Fly7 (ora Jetfly On-Demand), con un riepilogo annuale.
 - **Il registro dei voli.** Ogni volo con i relativi costi, i riaddebiti per i piloti e i costi variabili, controllato dal team e poi pubblicato per il proprietario.
 - **Fatture.** Tutte le fatture e i documenti di spesa del proprietario, con funzione di ricerca.
 - **Allineato alle operazioni.** Voli, contratti e nomi degli equipaggi sincronizzati dai sistemi operativi di Jetfly.

@@ -28,7 +28,7 @@ Offrir à chaque propriétaire un endroit unique où consulter les chiffres de s
 
 Nous avons été le principal développeur du portail des propriétaires, en collaboration directe avec l’équipe de Jetfly.
 
-- **Tableaux de bord.** Coûts par heure, revenus et heures de vol, répartis entre le propriétaire, les contrats affiliés et Fly7, avec une synthèse annuelle.
+- **Tableaux de bord.** Coûts par heure, chiffre d’affaires et heures de vol, répartis entre le propriétaire, les contrats affiliés et Fly7 (devenu Jetfly On-Demand), avec une synthèse annuelle.
 - **Le carnet de vol.** Chaque vol avec ses coûts, la refacturation des pilotes et les coûts variables, vérifié par l’équipe puis publié pour le propriétaire.
 - **Factures.** Toutes les factures et tous les justificatifs de dépenses du propriétaire, avec recherche.
 - **En phase avec les opérations.** Vols, contrats et noms des membres d’équipage synchronisés depuis les systèmes d’exploitation de Jetfly.

@@ -49,7 +49,7 @@ Des modules capsules pour les séjours en espace compact, et la famille d’hôt
 
 ## Jetfly
 
-Aviation privée à travers l’Europe, dont Fly7. Nous sommes le développeur principal de son portail destiné aux propriétaires d’avions depuis 2023.
+Aviation privée à travers l’Europe, notamment Jetfly On-Demand, anciennement Fly7. Nous sommes le développeur principal de son portail destiné aux propriétaires d’avions depuis 2023.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

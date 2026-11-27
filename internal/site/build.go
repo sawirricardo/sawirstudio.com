@@ -88,6 +88,7 @@ var placeholders = map[string]func(d pageData) templ.Component{
 	"<!-- @project-cards -->": func(d pageData) templ.Component { return projectCards(d.Projects) },
 	"<!-- @inquiry-form -->":  func(d pageData) templ.Component { return inquiryForm(d.Opts.InquiryAPI) },
 	"<!-- @client-list -->":   func(d pageData) templ.Component { return clientList(d.Clients, d.Projects) },
+	"<!-- @client-logos -->":  func(d pageData) templ.Component { return clientLogos(d.Clients, d.Projects) },
 	"<!-- @client-page -->": func(d pageData) templ.Component {
 		c := clientBySlug(d.Clients, d.Page.Client)
 		return clientPage(c, clientProjects(d.Projects, c.Name))

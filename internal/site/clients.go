@@ -6,6 +6,7 @@ import (
 	"os"
 	"strings"
 
+	"github.com/a-h/templ"
 	"gopkg.in/yaml.v3"
 )
 
@@ -16,6 +17,12 @@ type Client struct {
 	Name  string `yaml:"name"`
 	Intro string `yaml:"intro"` // HTML, one or two sentences
 	Quote string `yaml:"quote"` // HTML, an approved quote from the client, shown on its page
+	// Logo is the client's logo for the homepage strip (/assets/images/clients/...). LogoDark
+	// draws it in ink, for logos made for dark backgrounds; LogoLabel puts the name beside a
+	// logo that is only a mark.
+	Logo      string `yaml:"logo"`
+	LogoDark  bool   `yaml:"logo_dark"`
+	LogoLabel bool   `yaml:"logo_label"`
 }
 
 // LoadClients reads the client list and checks it against the projects: every project's
@@ -120,4 +127,20 @@ func clientBySlug(cs []Client, slug string) Client {
 		}
 	}
 	return Client{}
+}
+
+// tabindex takes the copy of the logo strip out of the tab order.
+func tabindex(copy bool) templ.Attributes {
+	if copy {
+		return templ.Attributes{"tabindex": "-1"}
+	}
+	return templ.Attributes{}
+}
+
+// alt is a logo's alt text: the client's name, or empty in the hidden copy.
+func alt(name string, copy bool) string {
+	if copy {
+		return ""
+	}
+	return name
 }

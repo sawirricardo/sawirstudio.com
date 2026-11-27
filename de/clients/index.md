@@ -49,7 +49,7 @@ Kapseleinheiten für Kurzaufenthalte und die dazugehörige Familie von Kapselhot
 
 ## Jetfly
 
-Privatluftfahrt in ganz Europa, einschließlich Fly7. Seit 2023 sind wir Hauptentwickler des Portals für die Flugzeugeigentümer.
+Privatluftfahrt in ganz Europa, darunter Jetfly On-Demand, ehemals Fly7. Seit 2023 sind wir Hauptentwickler des Portals für die Flugzeugeigentümer des Unternehmens.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

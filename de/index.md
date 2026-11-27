@@ -14,8 +14,26 @@ KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben �
 
 [Projekt starten](https://sawirstudio.com/de/contact/) [Kundenprojekte ansehen](#portfolio)
 
+Unsere Kunden
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/de/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/de/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/de/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/de/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/de/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/de/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/de/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/de/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/de/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/de/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/de/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/de/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/de/clients/#kantongsayur "KantongSayur")
+
 - **9** Jahre Entwicklung für Kunden, seit 2017
-- **29** Unternehmen und Institutionen, für die wir entwickelt haben
+- **28** Unternehmen und Institutionen, für die wir entwickelt haben
 - **2019** das Jahr, in dem PeopleBond mit uns startete. Bis heute.
 - **7** eigene Apps im App Store
 
@@ -116,7 +134,6 @@ Predigten, Gebete und tägliche Andachten eines kirchlichen Dienstes in einer Ap
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

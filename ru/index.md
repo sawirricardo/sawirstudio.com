@@ -14,8 +14,26 @@ description: Sawir Studio проектирует, разрабатывает и 
 
 [Начать проект](https://sawirstudio.com/ru/contact/) [Посмотреть работы для клиентов](#portfolio)
 
+Нам доверяют
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/ru/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/ru/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/ru/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/ru/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/ru/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/ru/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/ru/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/ru/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/ru/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/ru/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/ru/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/ru/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/ru/clients/#kantongsayur "KantongSayur")
+
 - **9** лет работаем для клиентов, с 2017 года
-- **29** компаний и организаций, для которых мы разрабатывали проекты
+- **28** компаний и организаций, для которых мы разрабатывали проекты
 - **2019** год, когда PeopleBond начал работать с нами. Работаем до сих пор.
 - **7** собственных приложений в App Store
 
@@ -116,7 +134,6 @@ HR-платформа и приложение для сотрудников, к�
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

@@ -16,7 +16,7 @@ Oprichter van [Sawir Studio](https://sawirstudio.com/nl/). Ik bouw apps en softw
 
 Ik studeerde visuele communicatie en design aan het Institut Teknologi Bandung (ITB) en volgde daarna de Apple Developer Academy. In december 2017 begon ik Sawir Studio, eerst onder mijn eigen naam. In januari 2025 werd het Sawir Studio LLC.
 
-Sinds 2019 ben ik lead developer van het HR-platform van PeopleBond en de bijbehorende medewerkersapp. Ik bouwde de Kantong Sayur-marktplaats van begin tot eind, leidde de ontwikkeling van het Fly7-platform voor de Jetfly-groep en ben Head of IT bij Viva Estemedika Indonesia, het bedrijf achter Vivaldy Skin Clinic.
+Sinds 2019 ben ik lead developer van het HR-platform van PeopleBond en de bijbehorende medewerkersapp. Ik heb de marketplace Kantong Sayur van begin tot eind gebouwd en de ontwikkeling geleid van het eigenarenportaal van Jetfly (gebouwd als dat van Fly7, voordat Fly7 Jetfly On-Demand werd). Daarnaast ben ik Head of IT bij Viva Estemedika Indonesia, het bedrijf achter Vivaldy Skin Clinic.
 
 Ik kwam via design bij het programmeren terecht. Ik begon bij OMD Indonesia – BBDO en Brilio.net en ontwierp merken, drukwerk en campagnes voor onder meer het Indonesische Ministerie van Communicatie en Informatica, Astra International en Capsule Indonesia. Daarom letten de dingen die ik bouw ook op hoe ze eruitzien en aanvoelen.
 

@@ -14,8 +14,26 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
 
 [Start a project](https://sawirstudio.com/contact/) [See client work](#portfolio)
 
+Trusted by
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/clients/#kantongsayur "KantongSayur")
+
 - **9** years building for clients, since 2017
-- **29** businesses and institutions we've built for
+- **28** businesses and institutions we've built for
 - **2019** the year PeopleBond started with us. Still going.
 - **7** apps of our own on the App Store
 
@@ -116,7 +134,6 @@ A ministry's sermons, prayer and daily devotionals in an app for iOS and Android
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

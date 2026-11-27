@@ -49,7 +49,7 @@ description: الشركات والمؤسسات التي طوّرت لها Sawir 
 
 ## Jetfly
 
-طيران خاص في أنحاء أوروبا، ويشمل ذلك Fly7. ونحن المطوّر الرئيسي لبوابة مالكي الطائرات التابعة لها منذ 2023.
+طيران خاص في أنحاء أوروبا، ويشمل Jetfly On-Demand (المعروفة سابقاً باسم Fly7). ونحن المطوّر الرئيسي لبوابة مالكي الطائرات التابعة لها منذ 2023.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

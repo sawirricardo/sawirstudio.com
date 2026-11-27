@@ -28,7 +28,7 @@ Give every owner one place to see their aircraft’s numbers, kept in step with 
 
 We were the main developer on the owners’ portal, working directly with Jetfly’s team.
 
-- **Dashboards.** Costs per hour, revenue and hours flown, split between the owner, affiliated contracts and Fly7, with a yearly summary.
+- **Dashboards.** Costs per hour, revenue and hours flown, split between the owner, affiliated contracts and Fly7 (now Jetfly On-Demand), with a yearly summary.
 - **The logbook.** Each flight with its costs, pilot rebilling and variable costs, checked by the team and then published to the owner.
 - **Invoices.** Every invoice and expense file for the owner, searchable.
 - **In step with operations.** Flights, contracts and crew names synchronised from Jetfly’s operations systems.

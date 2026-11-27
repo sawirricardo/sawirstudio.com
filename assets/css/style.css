@@ -2257,3 +2257,85 @@ label {
   font-size: 0.9rem;
   color: var(--muted);
 }
+
+/* Home: the rolling strip of client logos under the hero. Two copies of the list scroll as one
+   loop; hovering or focusing pauses it, and with reduced motion it stands still and wraps. */
+.logo-strip {
+  padding-block: 0.5rem 1rem;
+  overflow: hidden;
+}
+.logo-strip-label {
+  margin-bottom: 0.75rem;
+  font-family: var(--font-hand);
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--muted);
+}
+.logo-marquee {
+  --gap: 1.25rem;
+  display: flex;
+  gap: var(--gap);
+  padding-block: 0.25rem 0.5rem;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+.logo-track {
+  display: flex;
+  flex-shrink: 0;
+  gap: var(--gap);
+  min-width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: logo-scroll 45s linear infinite;
+}
+.logo-marquee:hover .logo-track,
+.logo-marquee:focus-within .logo-track {
+  animation-play-state: paused;
+}
+@keyframes logo-scroll {
+  to { transform: translateX(calc(-100% - var(--gap))); }
+}
+.logo-tile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  height: 4.5rem;
+  padding: 0 1.4rem;
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: 3px 3px 0 var(--pop-shadow);
+  text-decoration: none;
+  transition: transform 160ms var(--ease-out);
+}
+.logo-tile:hover {
+  transform: translateY(-2px);
+}
+.logo-tile img {
+  width: auto;
+  height: 2.4rem;
+  max-width: 9.5rem;
+  object-fit: contain;
+}
+.logo-tile img.logo-dark {
+  filter: brightness(0);
+}
+.logo-tile span {
+  font-weight: 800;
+  white-space: nowrap;
+  color: #1f1d1a;
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo-track {
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none;
+  }
+  .logo-track[aria-hidden="true"] {
+    display: none;
+  }
+}

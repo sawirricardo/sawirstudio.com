@@ -14,8 +14,26 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 
 [開始合作專案](https://sawirstudio.com/zh-hant/contact/) [查看客戶案例](#portfolio)
 
+信賴我們的客戶
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/zh-hant/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/zh-hant/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/zh-hant/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/zh-hant/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/zh-hant/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/zh-hant/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/zh-hant/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/zh-hant/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/zh-hant/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/zh-hant/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/zh-hant/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/zh-hant/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/zh-hant/clients/#kantongsayur "KantongSayur")
+
 - **9** 年客戶專案開發經驗，始於 2017 年
-- **29** 家我們服務過的企業與機構
+- **28** 家企業與機構採用我們打造的成果
 - **2019** PeopleBond 開始與我們合作的那一年，至今仍在持續。
 - **7** 款自家 App 已上架 App Store
 
@@ -116,7 +134,6 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

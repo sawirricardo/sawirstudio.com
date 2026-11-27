@@ -14,8 +14,26 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 
 [प्रोजेक्ट शुरू करें](https://sawirstudio.com/hi/contact/) [क्लाइंट प्रोजेक्ट देखें](#portfolio)
 
+इनका भरोसा हम पर है
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/hi/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/hi/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/hi/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/hi/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/hi/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/hi/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/hi/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/hi/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/hi/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/hi/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/hi/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/hi/clients/#kantongsayur "KantongSayur")
+
 - **9** साल से क्लाइंट के लिए काम, 2017 से
-- **29** कारोबार और संस्थान, जिनके लिए हमने काम किया है
+- **28** बिज़नेस और संस्थान जिनके लिए हमने काम किया है
 - **2019** जब PeopleBond हमारे साथ जुड़ा। आज भी साथ हैं।
 - **7** हमारे अपने ऐप App Store पर
 
@@ -116,7 +134,6 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

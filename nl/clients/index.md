@@ -49,7 +49,7 @@ Capsule-units voor compacte overnachtingen, en de bijbehorende familie van podho
 
 ## Jetfly
 
-Privéluchtvaart in heel Europa, waaronder Fly7. Sinds 2023 zijn we de hoofdontwikkelaar van het portaal voor vliegtuigeigenaren.
+Privéluchtvaart door heel Europa, waaronder Jetfly On-Demand, voorheen Fly7. Sinds 2023 zijn we de hoofdontwikkelaar van het portaal voor vliegtuigeigenaren.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

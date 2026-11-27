@@ -5,40 +5,55 @@
   name: PeopleBond
   intro: HR and payroll software for Indonesian companies. We&rsquo;ve worked on its platform, its employee app and its website since 2019.
   quote: "Sawir Studio has built our HR platform and employee app with us since 2019. They don&rsquo;t disappear after a release: when we need something changed, they already know the system and get it done."
+  logo: /assets/images/clients/peoplebond.webp
 - slug: vivaldy-skin-clinic
   name: Vivaldy Skin Clinic
   intro: A dermatology and venereology clinic in Mataram, Lombok. Its website since 2022, its clinic system and patient app since 2024, and its marketing design.
   quote: Every treatment has its own page now, and patients book straight from the site on WhatsApp. They handled the design and the build, and they still look after it.
+  logo: /assets/images/clients/vivaldy.svg
 - slug: capsule-indonesia
   name: Capsule Indonesia
   intro: Capsule units for compact stays, and the family of pod hotels around them, including Digital Airport Hotel at Soekarno-Hatta.
 - slug: jetfly
   name: Jetfly
-  intro: Private aviation across Europe, including Fly7. We&rsquo;ve been the main developer on its aircraft owners&rsquo; portal since 2023.
+  intro: Private aviation across Europe, including Jetfly On-Demand, formerly Fly7. We&rsquo;ve been the main developer on its aircraft owners&rsquo; portal since 2023.
+  logo: /assets/images/clients/jetfly.svg
+  logo_dark: true
 - slug: aeroquote
   name: Aeroquote
   intro: Air charter software for operators and brokers. We worked on the app and built its website in 2022.
+  logo: /assets/images/clients/aeroquote.svg
 - slug: gbi-wtc
   name: GBI WTC
   intro: A church in the Gereja Bethel Indonesia family. We&rsquo;ve built its My Spiritual Journey app and the platform behind it since 2022.
+  logo: /assets/images/clients/gbi-wtc.webp
+  logo_label: true
 - slug: koperasi-hob
   name: Koperasi HOB
   intro: A cooperative that sells everyday household goods to its members through its own stores.
+  logo: /assets/images/clients/hob.webp
 - slug: dbtv
   name: DBTV
   intro: The media channel of Ps. Debby Basjir&rsquo;s ministry.
+  logo: /assets/images/clients/dbtv.svg
+  logo_dark: true
 - slug: kantongsayur
   name: KantongSayur
   intro: An online marketplace for the stalls of traditional markets.
+  logo: /assets/images/clients/kantongsayur.webp
+  logo_label: true
 - slug: tanimilenial
   name: TaniMilenial
   intro: A platform for Indonesian farmers, fish farmers and livestock keepers.
 - slug: growinc
   name: PT Growinc Group Indonesia
   intro: A full-service marketing and advertising group in Jakarta.
+  logo: /assets/images/clients/growinc.webp
+  logo_dark: true
 - slug: fluindo
   name: Fluindo Technology Indonesia
   intro: An authorized industrial distributor of pumps, valves, sealing devices, heat exchangers and separators.
+  logo: /assets/images/clients/fluindo.webp
 - slug: calvin-kain
   name: Calvin Kain
   intro: A hijab and scarf label.
@@ -51,6 +66,7 @@
 - slug: spp-indonesia
   name: PT SPP Indonesia
   intro: A fire pump systems specialist in Cengkareng, Jakarta.
+  logo: /assets/images/clients/spp.webp
 - slug: habitat-hills
   name: Habitat Hills
   intro: A nature resort in Megamendung, Bogor.

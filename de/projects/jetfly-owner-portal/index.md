@@ -28,7 +28,7 @@ Jeder Eigentümer soll die Zahlen zu seinem Flugzeug an einem Ort sehen, abgegli
 
 Wir waren der Hauptentwickler des Eigentümerportals und haben direkt mit dem Team von Jetfly zusammengearbeitet.
 
-- **Dashboards.** Kosten pro Stunde, Erlöse und Flugstunden, aufgeteilt nach Eigentümer, verbundenen Verträgen und Fly7, mit einer Jahresübersicht.
+- **Dashboards.** Kosten pro Stunde, Umsatz und geflogene Stunden, aufgeschlüsselt nach Eigentümer, verbundenen Verträgen und Fly7 (heute Jetfly On-Demand), mit Jahresübersicht.
 - **Das Logbuch.** Jeder Flug mit seinen Kosten, der Weiterverrechnung von Pilotenkosten und den variablen Kosten, vom Team geprüft und dann für den Eigentümer veröffentlicht.
 - **Rechnungen.** Alle Rechnungen und Spesenbelege für den Eigentümer, durchsuchbar.
 - **Im Einklang mit dem Flugbetrieb.** Flüge, Verträge und Namen der Crewmitglieder, synchronisiert aus den Betriebssystemen von Jetfly.

@@ -49,7 +49,7 @@ Capsule per soggiorni in spazi compatti, e la famiglia di pod hotel che le circo
 
 ## Jetfly
 
-Aviazione privata in tutta Europa, compresa Fly7. Dal 2023 siamo i principali sviluppatori del portale dedicato ai proprietari dei suoi aeromobili.
+Aviazione privata in tutta Europa, tra cui Jetfly On-Demand, in precedenza Fly7. Dal 2023 siamo gli sviluppatori principali del portale dedicato ai proprietari dei suoi aeromobili.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

@@ -16,7 +16,7 @@ description: Ricardo Sawir 是 Sawir Studio 的創辦人。他為客戶開發應
 
 我在萬隆理工學院（Institut Teknologi Bandung，ITB）主修視覺傳達設計，之後進入 Apple Developer Academy 學習。我在 2017 年 12 月創立 Sawir Studio，一開始以個人名義經營，並於 2025 年 1 月登記成立 Sawir Studio LLC。
 
-自 2019 年起，我擔任 PeopleBond 人資平台及其員工 App 的首席開發者。我從頭到尾獨立打造了 Kantong Sayur 市集平台，主導 Jetfly 集團 Fly7 平台的開發，目前也是 Viva Estemedika Indonesia（Vivaldy Skin Clinic 的母公司）的資訊長。
+自 2019 年起，我一直擔任 PeopleBond 人資平台及其員工應用程式的首席開發者。我從頭到尾獨力打造了 Kantong Sayur 電商市集，主導開發 Jetfly 的業主入口網站（當時是為 Fly7 打造的，後來 Fly7 更名為 Jetfly On-Demand），目前也是 Vivaldy Skin Clinic 母公司 Viva Estemedika Indonesia 的資訊部門主管。
 
 我是從設計轉入程式開發的。我的職涯起步於 OMD Indonesia – BBDO 與 Brilio.net，也曾為印尼通訊與資訊部、Astra International、Capsule Indonesia 等設計品牌、印刷品與宣傳活動。這也是為什麼我做的東西，總是很在意外觀與使用起來的感受。
 

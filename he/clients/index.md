@@ -49,7 +49,7 @@ description: החברות והמוסדות ש-Sawir Studio פיתחה עבורם
 
 ## Jetfly
 
-תעופה פרטית ברחבי אירופה, כולל Fly7. אנחנו המפתחים הראשיים של פורטל בעלי המטוסים של החברה מאז 2023.
+תעופה פרטית ברחבי אירופה, כולל Jetfly On-Demand, לשעבר Fly7. מאז 2023 אנחנו המפתחים הראשיים של פורטל בעלי המטוסים שלהם.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

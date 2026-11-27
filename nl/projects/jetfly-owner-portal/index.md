@@ -28,7 +28,7 @@ Geef elke eigenaar één plek om de cijfers van zijn vliegtuig te bekijken, gesy
 
 We waren de hoofdontwikkelaar van het eigenarenportaal en werkten rechtstreeks samen met het team van Jetfly.
 
-- **Dashboards.** Kosten per uur, omzet en vlieguren, uitgesplitst naar de eigenaar, gelieerde contracten en Fly7, met een jaaroverzicht.
+- **Dashboards.** Kosten per uur, omzet en gevlogen uren, uitgesplitst naar de eigenaar, aangesloten contracten en Fly7 (nu Jetfly On-Demand), met een jaaroverzicht.
 - **Het logboek.** Elke vlucht met de bijbehorende kosten, doorbelasting voor piloten en variabele kosten, gecontroleerd door het team en daarna gepubliceerd voor de eigenaar.
 - **Facturen.** Alle facturen en onkostenbestanden voor de eigenaar, doorzoekbaar.
 - **Gelijk met de operatie.** Vluchten, contracten en namen van bemanningsleden, gesynchroniseerd vanuit de operationele systemen van Jetfly.

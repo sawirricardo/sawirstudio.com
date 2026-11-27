@@ -144,6 +144,35 @@ templ clientList(cs []Client, ps []Project) {
 	}
 }
 
+// clientLogos is the homepage's rolling strip of client logos. The list is there twice so the
+// loop is seamless; the copy is hidden from screen readers and the keyboard.
+templ clientLogos(cs []Client, ps []Project) {
+	<section class="logo-strip" aria-label="Some of our clients">
+		<p class="logo-strip-label">Trusted by</p>
+		<div class="logo-marquee">
+			@logoTrack(cs, ps, false)
+			@logoTrack(cs, ps, true)
+		</div>
+	</section>
+}
+
+templ logoTrack(cs []Client, ps []Project, copy bool) {
+	<ul class="logo-track" aria-hidden?={ copy }>
+		for _, c := range cs {
+			if c.Logo != "" {
+				<li>
+					<a class="logo-tile" href={ templ.SafeURL(clientURL(cs, ps, c.Name)) } title={ c.Name } { tabindex(copy)... }>
+						<img class={ templ.KV("logo-dark", c.LogoDark) } src={ c.Logo } alt={ alt(c.Name, copy) } loading="lazy"/>
+						if c.LogoLabel {
+							<span>{ c.Name }</span>
+						}
+					</a>
+				</li>
+			}
+		}
+	</ul>
+}
+
 templ relatedRow(ps []Project) {
 	<section class="section related">
 		<h2 class="section-title">More projects</h2>

@@ -49,7 +49,7 @@ description: Sawir Studio 服务过的企业和机构，以及我们为每一家
 
 ## Jetfly
 
-业务遍及欧洲的私人航空公司，旗下包括 Fly7。自 2023 年起，我们一直是其飞机所有者门户网站的主要开发团队。
+服务覆盖欧洲的私人航空业务，包括 Jetfly On-Demand（前身为 Fly7）。自 2023 年起，我们一直是其飞机机主门户网站的主要开发方。
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

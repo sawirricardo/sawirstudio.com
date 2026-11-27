@@ -49,7 +49,7 @@ Capsule units for compact stays, and the family of pod hotels around them, inclu
 
 ## Jetfly
 
-Private aviation across Europe, including Fly7. We’ve been the main developer on its aircraft owners’ portal since 2023.
+Private aviation across Europe, including Jetfly On-Demand, formerly Fly7. We’ve been the main developer on its aircraft owners’ portal since 2023.
 
 [![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 

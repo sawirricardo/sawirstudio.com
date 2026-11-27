@@ -14,8 +14,26 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 
 [ابدؤوا مشروعكم](https://sawirstudio.com/ar/contact/) [شاهدوا أعمالنا للعملاء](#portfolio)
 
+يثقون بنا
+
+- [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/ar/clients/peoplebond/ "PeopleBond")
+- [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/ar/clients/#jetfly "Jetfly")
+- [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/ar/clients/#aeroquote "Aeroquote")
+- [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/ar/clients/#gbi-wtc "GBI WTC")
+- [![Koperasi HOB](https://sawirstudio.com/assets/images/clients/hob.webp)](https://sawirstudio.com/ar/clients/#koperasi-hob "Koperasi HOB")
+- [![DBTV](https://sawirstudio.com/assets/images/clients/dbtv.svg)](https://sawirstudio.com/ar/clients/#dbtv "DBTV")
+- [![KantongSayur](https://sawirstudio.com/assets/images/clients/kantongsayur.webp) KantongSayur](https://sawirstudio.com/ar/clients/#kantongsayur "KantongSayur")
+- [![PT Growinc Group Indonesia](https://sawirstudio.com/assets/images/clients/growinc.webp)](https://sawirstudio.com/ar/clients/#growinc "PT Growinc Group Indonesia")
+- [![Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/clients/fluindo.webp)](https://sawirstudio.com/ar/clients/#fluindo "Fluindo Technology Indonesia")
+- [![PT SPP Indonesia](https://sawirstudio.com/assets/images/clients/spp.webp)](https://sawirstudio.com/ar/clients/#spp-indonesia "PT SPP Indonesia")
+
+- [GBI WTC](https://sawirstudio.com/ar/clients/#gbi-wtc "GBI WTC")
+
+- [KantongSayur](https://sawirstudio.com/ar/clients/#kantongsayur "KantongSayur")
+
 - **9** سنوات من العمل لعملائنا، منذ 2017
-- **29** شركة ومؤسسة طوّرنا لها حلولًا
+- **28** شركة ومؤسسة طوّرنا لها حلولًا
 - **2019** العام الذي بدأت فيه PeopleBond معنا، وما زالت حتى اليوم.
 - **7** تطبيقات خاصة بنا على App Store
 
@@ -116,7 +134,6 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 - PeopleBond
 - GBI WTC
 - Jetfly
-- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

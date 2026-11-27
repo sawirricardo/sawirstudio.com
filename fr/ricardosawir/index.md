@@ -16,7 +16,7 @@ Fondateur de [Sawir Studio](https://sawirstudio.com/fr/). Je crée des applicati
 
 J’ai étudié le design de communication visuelle à l’Institut Teknologi Bandung (ITB), puis suivi l’Apple Developer Academy. J’ai lancé Sawir Studio en décembre 2017, d’abord sous mon propre nom, puis je l’ai constitué en société sous le nom de Sawir Studio LLC en janvier 2025.
 
-Je suis développeur principal de la plateforme RH de PeopleBond et de son application pour les employés depuis 2019. J’ai créé de A à Z la place de marché Kantong Sayur, dirigé le développement de la plateforme Fly7 pour le groupe Jetfly, et je suis responsable informatique (Head of IT) chez Viva Estemedika Indonesia, l’entreprise derrière Vivaldy Skin Clinic.
+Je suis développeur principal de la plateforme RH de PeopleBond et de son application pour les employés depuis 2019. J'ai développé la place de marché Kantong Sayur de bout en bout, dirigé le développement du portail propriétaires de Jetfly (conçu sous le nom de Fly7, avant que Fly7 ne devienne Jetfly On-Demand), et je suis responsable informatique chez Viva Estemedika Indonesia, la société à l'origine de Vivaldy Skin Clinic.
 
 Je suis venu au code par le design. J’ai débuté chez OMD Indonesia – BBDO et Brilio.net, et j’ai conçu des identités de marque, des supports imprimés et des campagnes pour le ministère indonésien de la Communication et de l’Informatique, Astra International, Capsule Indonesia et d’autres. C’est pourquoi ce que je construis accorde autant d’attention à l’apparence et à l’usage.
 
