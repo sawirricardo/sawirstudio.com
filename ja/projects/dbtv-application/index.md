@@ -47,9 +47,9 @@ Sawir Studioは、会衆の皆さまがスマートフォンから活動をフ�
 [![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
-[![TaniMilenial アプリケーション](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect アプリ](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial アプリケーション](https://sawirstudio.com/ja/projects/tani-milenial-application/)
+### PeopleBond Connect アプリ](https://sawirstudio.com/ja/projects/pbconnect/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

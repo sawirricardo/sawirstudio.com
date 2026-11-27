@@ -47,9 +47,9 @@ DBTV הוא ערוץ המדיה של השירות של Ps. Debby Basjir, עם ד
 [![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
-[![אפליקציית TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### אפליקציית TaniMilenial](https://sawirstudio.com/he/projects/tani-milenial-application/)
+### PeopleBond Connect App](https://sawirstudio.com/he/projects/pbconnect/)
 
 מספיק עלינו.
 

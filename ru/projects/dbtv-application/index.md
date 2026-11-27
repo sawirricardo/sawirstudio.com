@@ -47,9 +47,9 @@ DBTV — медиаканал служения Ps. Debby Basjir: пропове�
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
-[![Приложение TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![Приложение PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### Приложение TaniMilenial](https://sawirstudio.com/ru/projects/tani-milenial-application/)
+### Приложение PeopleBond Connect](https://sawirstudio.com/ru/projects/pbconnect/)
 
 Хватит о нас.
 

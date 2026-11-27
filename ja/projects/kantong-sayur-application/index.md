@@ -34,12 +34,12 @@ Kantong Sayur は、伝統市場の商店主とお客様をつなぐオンライ
 [![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
-[![TaniMilenial アプリケーション](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect アプリ](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial アプリケーション](https://sawirstudio.com/ja/projects/tani-milenial-application/)
-[![Growinc Group ウェブサイト](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect アプリ](https://sawirstudio.com/ja/projects/pbconnect/)
+[![PeopleBond ウェブサイト](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group ウェブサイト](https://sawirstudio.com/ja/projects/growinc-group-website/)
+### PeopleBond ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

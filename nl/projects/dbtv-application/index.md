@@ -47,9 +47,9 @@ Een bediening plaatst elke dag iets nieuws, dus de app heeft niets vastgecodeerd
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/nl/projects/tani-milenial-application/)
+### PeopleBond Connect App](https://sawirstudio.com/nl/projects/pbconnect/)
 
 Genoeg over ons.
 

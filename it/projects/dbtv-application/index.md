@@ -47,9 +47,9 @@ Un ministero pubblica qualcosa di nuovo ogni giorno, per questo l’app non incl
 [![Applicazione PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### Applicazione PeopleBond HCMS](https://sawirstudio.com/it/projects/peoplebond-hcms-application/)
-[![Applicazione TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![App PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### Applicazione TaniMilenial](https://sawirstudio.com/it/projects/tani-milenial-application/)
+### App PeopleBond Connect](https://sawirstudio.com/it/projects/pbconnect/)
 
 Basta parlare di noi.
 

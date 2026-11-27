@@ -34,12 +34,12 @@ A traditional market doesn’t run like a supermarket: every stall keeps its own
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/projects/tani-milenial-application/)
-[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect App](https://sawirstudio.com/projects/pbconnect/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group Website](https://sawirstudio.com/projects/growinc-group-website/)
+### PeopleBond Website](https://sawirstudio.com/projects/peoplebond-website/)
 
 Enough about us.
 

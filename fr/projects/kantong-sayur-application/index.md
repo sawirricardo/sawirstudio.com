@@ -34,12 +34,12 @@ Un marché traditionnel ne fonctionne pas comme un supermarché : chaque étal 
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![Application PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/fr/projects/tani-milenial-application/)
-[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### Application PeopleBond Connect](https://sawirstudio.com/fr/projects/pbconnect/)
+[![Site web PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group Website](https://sawirstudio.com/fr/projects/growinc-group-website/)
+### Site web PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-website/)
 
 Assez parlé de nous.
 

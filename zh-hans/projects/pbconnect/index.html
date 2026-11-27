@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hans"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>PeopleBond Connect 案例研究：难以作假的考勤 | Sawir Studio</title><meta content="案例研究：pbConnect，PeopleBond 面向 iPhone 和 Android 的员工应用。支持带位置和人脸核验的打卡、请假和加班审批以及工资单查看，自 2021 年起与 PeopleBond 共同打造。" name="description"/><meta content="PeopleBond Connect 案例研究：难以作假的考勤 | Sawir Studio" property="og:title"/><meta content="案例研究：pbConnect，PeopleBond 面向 iPhone 和 Android 的员工应用。支持带位置和人脸核验的打卡、请假和加班审批以及工资单查看，自 2021 年起与 PeopleBond 共同打造。" property="og:description"/><meta content="https://sawirstudio.com/zh-hans/projects/pbconnect/" property="og:url"/><link href="https://sawirstudio.com/zh-hans/projects/pbconnect/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/pbconnect.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="PeopleBond Connect 案例研究：难以作假的考勤 | Sawir Studio" property="og:image:alt"/><meta content="PeopleBond Connect 案例研究：难以作假的考勤 | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "PeopleBond Connect App",
+          "description": "案例研究：pbConnect，PeopleBond 面向 iPhone 和 Android 的员工应用。支持带位置和人脸核验的打卡、请假和加班审批以及工资单查看，自 2021 年起与 PeopleBond 共同打造。",
+          "url": "https://sawirstudio.com/zh-hans/projects/pbconnect/",
+          "image": "https://sawirstudio.com/assets/images/projects/pbconnect.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "PeopleBond Connect App",
+              "item": "https://sawirstudio.com/zh-hans/projects/pbconnect/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/pbconnect/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/pbconnect/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/pbconnect/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/pbconnect/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/pbconnect/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/pbconnect/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/pbconnect/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/pbconnect/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/pbconnect/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/pbconnect/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/pbconnect/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/pbconnect/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/pbconnect/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">跳至内容</a><header class="site-header"><a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/zh-hans/">首页</a></li><li><a href="/zh-hans/posts/">博客</a></li><li><a aria-current="true" href="/zh-hans/projects/">项目</a></li><li><a href="/zh-hans/about-us/">关于我们</a></li><li><a href="/zh-hans/contact/">联系我们</a></li></ul></nav><button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/pbconnect/">PeopleBond Connect 应用</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">PeopleBond Connect App</h1>
+<p class="lead-sm">把人事服务装进每位员工的口袋，考勤难以作假</p>
+<img alt="pbConnect 界面：首页、工作日历和组织架构" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/pbconnect.webp" style="view-transition-name: media-pbconnect" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>成果</h2>
+<ul>
+<li><strong>人事事务搬到了手机上。</strong>员工在 pbConnect 中打卡、请假、下载工资单，不必再填表、追着别人签字。pbConnect 已在 App Store 和 Google Play 上架。</li>
+<li><strong>难以作假的考勤。</strong>每次打卡都会核对员工所在位置，可以要求人脸验证，并且无法在越狱或 root 过的手机上运行。</li>
+<li><strong>五年持续稳定更新。</strong>从 2021 年 11 月的第一个版本，到 2026 年推出的休息时间提醒，这款应用一直随产品一起成长。</li>
+</ul>
+<h2>项目背景</h2>
+<p>考勤是人事软件每天都要面对的考验。用纸质方式，意味着要填表、签字，人事部门还得花上整个上午催收这两样。考勤也是员工最容易动心思作弊的环节：让同事代打卡，或者在家里打卡。</p>
+<h2>任务</h2>
+<p>让每位员工在手机上就能处理日常人事事务，让公司信得过考勤数据，同时不给诚实的员工添麻烦。</p>
+<h2>我们的工作</h2>
+<ul>
+<li><strong>上下班打卡。</strong>考勤支持地理位置标记；公司启用后，还可通过自拍打卡，由设备端人脸检测进行核验；也可扫描办公室里会过期的二维码。</li>
+<li><strong>申请与审批。</strong>支持休假、缺勤、加班、调班、出差和补卡申请，管理者可以进行审批，并查看团队情况。</li>
+<li><strong>薪资与公司信息。</strong>工资单、工作日历、组织架构、公司制度和新闻动态。</li>
+<li><strong>通知提醒。</strong>推送通知和收件箱，让每一项申请都不会无人知晓。</li>
+<li><strong>双语支持。</strong>英语和印尼语。</li>
+</ul>
+<h3>发展历程</h3>
+<ul>
+<li><strong>2021 年。</strong>11 月启动开发：登录、扫描二维码打卡、工作日历，以及供管理者查看团队情况的视图。</li>
+<li><strong>2022 年。</strong>新增请假、缺勤和加班申请及审批功能、推送通知、上班打卡拍照以及工时表。应用在 App Store 和 Google Play 上线。</li>
+<li><strong>2023 年。</strong>新增工资单下载、显示每次打卡地点的打卡记录、英语和印尼语界面、出差审批，以及会过期的二维码。</li>
+<li><strong>2024 年。</strong>新增换班申请，以及针对打卡自拍的设备端人脸检测；随后对应用底层进行了全面升级，让它能跟上新款手机。</li>
+<li><strong>2026 年。</strong>新增带提醒的休息时间功能，重做了团队视图并加入筛选器，推出新的首页，还实现了脚本化发布，可自动构建两个平台的应用并签名。</li>
+</ul>
+<h2>我们与 PeopleBond 合作的更多项目</h2>
+<ul>
+<li><a href="/zh-hans/projects/peoplebond-hcms-application/">HR 与薪资平台</a>：让薪资核算跟上印度尼西亚税法。</li>
+<li><a href="/zh-hans/projects/peoplebond-website/">网站</a>：一个推介产品的双语网站。</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>客户</strong> PeopleBond</li>
+<li><strong>合作始于</strong> 2019 年</li>
+<li><strong>网站地址</strong> <a href="https://peoplebond.id/" rel="noreferrer" target="_blank">https://peoplebond.id</a></li>
+<li><strong>App Store 地址</strong> <a href="https://apps.apple.com/app/peoplebond-connect/id1641479129" rel="noreferrer" target="_blank">https://apps.apple.com/app/peoplebond-connect/id1641479129</a></li>
+<li><strong>Google Play 商店地址</strong> <a href="https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect" rel="noreferrer" target="_blank">https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">更多项目</h2><div class="project-grid">
+<a class="card" href="/zh-hans/projects/tani-milenial-application/"><img alt="TaniMilenial 应用" class="thumb" height="688" loading="lazy" src="/assets/images/projects/tani-milenial-application.webp" width="1410"/><div class="card-body"><h3>TaniMilenial 应用</h3></div></a>
+<a class="card" href="/zh-hans/projects/calvin-kain/"><img alt="Calvin Kain" class="thumb" height="764" loading="lazy" src="/assets/images/projects/calvin-kain.webp" width="1444"/><div class="card-body"><h3>Calvin Kain</h3></div></a>
+<a class="card" href="/zh-hans/projects/par/"><div class="thumb thumb-app"><img alt="Par" height="256" loading="lazy" src="/assets/images/projects/par-icon.webp" width="256"/></div><div class="card-body"><h3>Par</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>我们先聊到这里。</p><h2>我们能为您<br/>做些什么？</h2><a class="button" href="/zh-hans/contact/">开始项目</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/press/">媒体报道</a> <a href="/zh-hans/privacy/">隐私政策</a> <a href="/zh-hans/terms/">服务条款</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/pbconnect/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/pbconnect/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/pbconnect/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/pbconnect/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/pbconnect/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/pbconnect/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/pbconnect/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/pbconnect/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/pbconnect/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/pbconnect/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/pbconnect/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/pbconnect/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

@@ -72,6 +72,12 @@ Sawir Studio の最新プロジェクト一覧
 [![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ## PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect アプリ](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+## PeopleBond Connect アプリ](https://sawirstudio.com/ja/projects/pbconnect/)
+[![PeopleBond ウェブサイト](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+## PeopleBond ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)
 [![TaniMilenial アプリケーション](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ## TaniMilenial アプリケーション](https://sawirstudio.com/ja/projects/tani-milenial-application/)

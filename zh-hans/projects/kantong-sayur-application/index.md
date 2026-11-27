@@ -34,12 +34,12 @@ Kantong Sayur 是一个线上市场平台，连接传统市场的商家与顾客
 [![PeopleBond HCMS 应用](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS 应用](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/)
-[![TaniMilenial 应用](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial 应用](https://sawirstudio.com/zh-hans/projects/tani-milenial-application/)
-[![Growinc Group 网站](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect App](https://sawirstudio.com/zh-hans/projects/pbconnect/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group 网站](https://sawirstudio.com/zh-hans/projects/growinc-group-website/)
+### PeopleBond Website](https://sawirstudio.com/zh-hans/projects/peoplebond-website/)
 
 我们先聊到这里。
 

@@ -34,12 +34,12 @@ Kantong Sayur היא מרקטפלייס מקוון שמחבר בין סוחרי�
 [![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
-[![אפליקציית TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### אפליקציית TaniMilenial](https://sawirstudio.com/he/projects/tani-milenial-application/)
-[![אתר Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect App](https://sawirstudio.com/he/projects/pbconnect/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### אתר Growinc Group](https://sawirstudio.com/he/projects/growinc-group-website/)
+### PeopleBond Website](https://sawirstudio.com/he/projects/peoplebond-website/)
 
 מספיק עלינו.
 

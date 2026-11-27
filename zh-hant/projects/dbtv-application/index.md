@@ -47,9 +47,9 @@ DBTV 是 Ps. Debby Basjir 事工的媒體頻道，為線上追隨的會眾提供
 [![PeopleBond HCMS 應用程式](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS 應用程式](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)
-[![TaniMilenial 應用程式](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial 應用程式](https://sawirstudio.com/zh-hant/projects/tani-milenial-application/)
+### PeopleBond Connect App](https://sawirstudio.com/zh-hant/projects/pbconnect/)
 
 關於我們就先說到這裡。
 

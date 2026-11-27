@@ -72,6 +72,12 @@ description: Приложения, сайты и дизайн от Sawir Studio:
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ## PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
+[![Приложение PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+## Приложение PeopleBond Connect](https://sawirstudio.com/ru/projects/pbconnect/)
+[![Сайт PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+## Сайт PeopleBond](https://sawirstudio.com/ru/projects/peoplebond-website/)
 [![Приложение TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ## Приложение TaniMilenial](https://sawirstudio.com/ru/projects/tani-milenial-application/)

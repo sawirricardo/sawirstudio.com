@@ -47,9 +47,9 @@ DBTV, Ps. Debby Basjir की सेवकाई का मीडिया च�
 [![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
-[![TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect ऐप](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/hi/projects/tani-milenial-application/)
+### PeopleBond Connect ऐप](https://sawirstudio.com/hi/projects/pbconnect/)
 
 हमारी बात बहुत हुई।
 

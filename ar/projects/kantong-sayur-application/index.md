@@ -34,12 +34,12 @@ Kantong Sayur سوق إلكتروني يربط تجّار الأسواق الت�
 [![تطبيق PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### تطبيق PeopleBond HCMS](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
-[![تطبيق TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![تطبيق PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### تطبيق TaniMilenial](https://sawirstudio.com/ar/projects/tani-milenial-application/)
-[![موقع Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### تطبيق PeopleBond Connect](https://sawirstudio.com/ar/projects/pbconnect/)
+[![موقع PeopleBond الإلكتروني](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### موقع Growinc Group](https://sawirstudio.com/ar/projects/growinc-group-website/)
+### موقع PeopleBond الإلكتروني](https://sawirstudio.com/ar/projects/peoplebond-website/)
 
 يكفي حديثًا عن أنفسنا.
 

@@ -160,6 +160,22 @@
   image: /assets/images/projects/peoplebond-hcms-application.webp
   width: 1600
   height: 878
+- slug: pbconnect
+  title: PeopleBond Connect App
+  categories:
+  - 3
+  search: peoplebond connect pbconnect employee app attendance tap in out geotagging face detection leave overtime payslip iphone android hr app ![pbconnect screens](/assets/images/projects/pbconnect.webp)
+  image: /assets/images/projects/pbconnect.webp
+  width: 1600
+  height: 900
+- slug: peoplebond-website
+  title: PeopleBond Website
+  categories:
+  - 2
+  search: peoplebond website peoplebond.id bilingual indonesian english hr payroll software site free pph 21 calculators demo requests ![peoplebond website](/assets/images/projects/peoplebond-website.webp)
+  image: /assets/images/projects/peoplebond-website.webp
+  width: 1600
+  height: 900
 - slug: tani-milenial-application
   title: TaniMilenial Application
   categories:

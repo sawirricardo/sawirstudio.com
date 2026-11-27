@@ -72,6 +72,12 @@ Sawir Studio के नवीनतम प्रोजेक्ट का सं
 [![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ## PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect ऐप](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+## PeopleBond Connect ऐप](https://sawirstudio.com/hi/projects/pbconnect/)
+[![PeopleBond वेबसाइट](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+## PeopleBond वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/)
 [![TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ## TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/hi/projects/tani-milenial-application/)

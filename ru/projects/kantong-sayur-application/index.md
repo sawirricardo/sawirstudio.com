@@ -34,12 +34,12 @@ Kantong Sayur — онлайн-маркетплейс, который связы
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
-[![Приложение TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![Приложение PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### Приложение TaniMilenial](https://sawirstudio.com/ru/projects/tani-milenial-application/)
-[![Сайт Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### Приложение PeopleBond Connect](https://sawirstudio.com/ru/projects/pbconnect/)
+[![Сайт PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Сайт Growinc Group](https://sawirstudio.com/ru/projects/growinc-group-website/)
+### Сайт PeopleBond](https://sawirstudio.com/ru/projects/peoplebond-website/)
 
 Хватит о нас.
 

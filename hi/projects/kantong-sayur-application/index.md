@@ -34,12 +34,12 @@ Kantong Sayur एक ऑनलाइन मार्केटप्लेस ह
 [![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
-[![TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect ऐप](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/hi/projects/tani-milenial-application/)
-[![Growinc Group वेबसाइट](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect ऐप](https://sawirstudio.com/hi/projects/pbconnect/)
+[![PeopleBond वेबसाइट](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group वेबसाइट](https://sawirstudio.com/hi/projects/growinc-group-website/)
+### PeopleBond वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/)
 
 हमारी बात बहुत हुई।
 

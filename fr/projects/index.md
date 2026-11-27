@@ -72,6 +72,12 @@ Effacer le filtre
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ## PeopleBond HCMS Application](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/)
+[![Application PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+## Application PeopleBond Connect](https://sawirstudio.com/fr/projects/pbconnect/)
+[![Site web PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+## Site web PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-website/)
 [![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ## TaniMilenial Application](https://sawirstudio.com/fr/projects/tani-milenial-application/)

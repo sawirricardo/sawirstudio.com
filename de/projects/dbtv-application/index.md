@@ -47,9 +47,9 @@ Ein Dienst veröffentlicht jeden Tag etwas Neues, deshalb ist in der App nichts 
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/de/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/de/projects/tani-milenial-application/)
+### PeopleBond Connect App](https://sawirstudio.com/de/projects/pbconnect/)
 
 Genug über uns.
 

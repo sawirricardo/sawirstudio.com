@@ -47,9 +47,9 @@ DBTV هي القناة الإعلامية لخدمة القس Debby Basjir، و�
 [![تطبيق PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### تطبيق PeopleBond HCMS](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
-[![تطبيق TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![تطبيق PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### تطبيق TaniMilenial](https://sawirstudio.com/ar/projects/tani-milenial-application/)
+### تطبيق PeopleBond Connect](https://sawirstudio.com/ar/projects/pbconnect/)
 
 يكفي حديثًا عن أنفسنا.
 

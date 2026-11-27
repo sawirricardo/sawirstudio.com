@@ -34,12 +34,12 @@ Ein traditioneller Markt funktioniert nicht wie ein Supermarkt: Jeder Stand hat 
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/de/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/de/projects/tani-milenial-application/)
-[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+### PeopleBond Connect App](https://sawirstudio.com/de/projects/pbconnect/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
-### Growinc Group Website](https://sawirstudio.com/de/projects/growinc-group-website/)
+### PeopleBond Website](https://sawirstudio.com/de/projects/peoplebond-website/)
 
 Genug über uns.
 

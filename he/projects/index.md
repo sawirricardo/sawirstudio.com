@@ -72,6 +72,12 @@ description: אפליקציות, אתרים ועיצובים של Sawir Studio, 
 [![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ## אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+## PeopleBond Connect App](https://sawirstudio.com/he/projects/pbconnect/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+## PeopleBond Website](https://sawirstudio.com/he/projects/peoplebond-website/)
 [![אפליקציית TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ## אפליקציית TaniMilenial](https://sawirstudio.com/he/projects/tani-milenial-application/)

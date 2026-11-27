@@ -47,9 +47,9 @@ Un ministère publie quelque chose de nouveau chaque jour : l’application ne 
 [![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
 
 ### PeopleBond HCMS Application](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/)
-[![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
+[![Application PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
-### TaniMilenial Application](https://sawirstudio.com/fr/projects/tani-milenial-application/)
+### Application PeopleBond Connect](https://sawirstudio.com/fr/projects/pbconnect/)
 
 Assez parlé de nous.
 
