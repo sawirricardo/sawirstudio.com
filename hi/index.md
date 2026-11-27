@@ -18,6 +18,7 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 
 - [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/hi/clients/peoplebond/ "PeopleBond")
 - [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Capsule Indonesia](https://sawirstudio.com/assets/images/clients/capsule-indonesia.webp)](https://sawirstudio.com/hi/clients/capsule-indonesia/ "Capsule Indonesia")
 - [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/hi/clients/#jetfly "Jetfly")
 - [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/hi/clients/#aeroquote "Aeroquote")
 - [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/hi/clients/#gbi-wtc "GBI WTC")

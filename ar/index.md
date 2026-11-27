@@ -18,6 +18,7 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 
 - [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/ar/clients/peoplebond/ "PeopleBond")
 - [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
+- [![Capsule Indonesia](https://sawirstudio.com/assets/images/clients/capsule-indonesia.webp)](https://sawirstudio.com/ar/clients/capsule-indonesia/ "Capsule Indonesia")
 - [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/ar/clients/#jetfly "Jetfly")
 - [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/ar/clients/#aeroquote "Aeroquote")
 - [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/ar/clients/#gbi-wtc "GBI WTC")
