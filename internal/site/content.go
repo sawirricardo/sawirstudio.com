@@ -36,11 +36,10 @@ type Page struct {
 	OGImage     string `yaml:"og_image"`
 	TwitterCard string `yaml:"twitter_card"` // defaults to summary_large_image
 	Robots      string `yaml:"robots"`
-	ConvertKit  bool   `yaml:"convertkit"` // the newsletter form's styles and script (blog posts)
-	LD          string `yaml:"ld"`         // JSON-LD, as written
-	CTA         *bool  `yaml:"cta"`        // the "How can we help you?" box; on unless false
-	Related     bool   `yaml:"related"`    // the "More projects" row (project pages)
-	Client      string `yaml:"-"`          // the client's slug, on the pages the builder makes for clients
+	LD          string `yaml:"ld"`      // JSON-LD, as written
+	CTA         *bool  `yaml:"cta"`     // the "How can we help you?" box; on unless false
+	Related     bool   `yaml:"related"` // the "More projects" row (project pages)
+	Client      string `yaml:"-"`       // the client's slug, on the pages the builder makes for clients
 }
 
 func (p *Page) ogTitle() string {

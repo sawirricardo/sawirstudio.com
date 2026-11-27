@@ -1202,6 +1202,67 @@ h1.page-title.heavy {
   font-size: 1.25rem;
 }
 
+/* Newsletter signup at the end of each blog post */
+.newsletter-form,
+.newsletter-success {
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  border: 2px solid var(--ink);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: 6px 6px 0 var(--pop-shadow);
+  text-align: center;
+}
+.newsletter h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.newsletter-form > p {
+  color: var(--muted);
+}
+.newsletter-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.newsletter-fields input {
+  flex: 1 1 16rem;
+  min-width: 0;
+  padding: 0.6em 1.1em;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 1rem;
+}
+.newsletter-fields input:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 3px 3px 0 var(--blue);
+}
+.newsletter-fields .button {
+  flex: 0 0 auto;
+}
+.newsletter-fields .button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+  transform: none;
+}
+.newsletter-form > .newsletter-note {
+  font-size: 0.875rem;
+}
+.newsletter-success {
+  background: var(--mark-green);
+  color: var(--on-mark);
+}
+.newsletter-success:focus {
+  outline: none;
+}
+
 /* Row of phone screenshots on app project pages */
 .prose .shots {
   display: grid;
@@ -1402,7 +1463,8 @@ label {
 }
 
 /* The thanks after an inquiry arrives with a small pop instead of swapping in. */
-.form-success:not([hidden]) {
+.form-success:not([hidden]),
+.newsletter-success:not([hidden]) {
   animation: thanks-in 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 @keyframes thanks-in {
@@ -1507,7 +1569,8 @@ label {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .form-success:not([hidden]) {
+  .form-success:not([hidden]),
+  .newsletter-success:not([hidden]) {
     animation-name: thanks-fade;
   }
 }

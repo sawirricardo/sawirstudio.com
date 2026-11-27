@@ -22,3 +22,24 @@ type Inquiry struct {
 	CreatedAt  pgtype.Timestamptz `json:"created_at"`
 	NotifiedAt pgtype.Timestamptz `json:"notified_at"`
 }
+
+type NewsletterSend struct {
+	Issue        string             `json:"issue"`
+	SubscriberID int64              `json:"subscriber_id"`
+	SentAt       pgtype.Timestamptz `json:"sent_at"`
+}
+
+type Subscriber struct {
+	ID                 int64              `json:"id"`
+	Email              string             `json:"email"`
+	Token              string             `json:"token"`
+	Lang               string             `json:"lang"`
+	Source             string             `json:"source"`
+	Ip                 *netip.Addr        `json:"ip"`
+	UserAgent          string             `json:"user_agent"`
+	CreatedAt          pgtype.Timestamptz `json:"created_at"`
+	RequestedAt        pgtype.Timestamptz `json:"requested_at"`
+	ConfirmationSentAt pgtype.Timestamptz `json:"confirmation_sent_at"`
+	ConfirmedAt        pgtype.Timestamptz `json:"confirmed_at"`
+	UnsubscribedAt     pgtype.Timestamptz `json:"unsubscribed_at"`
+}

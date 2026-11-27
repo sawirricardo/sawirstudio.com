@@ -8,7 +8,7 @@ description: What sawirstudio.com collects, why, and which services handle it: M
 
 Plainly: what we measure, what you send us, and who else handles it.
 
-*Last updated October 28, 2026*
+*Last updated November 27, 2026*
 
 ## How we measure the site
 
@@ -18,7 +18,11 @@ We look at this to find what's confusing or broken and fix it. We don't sell it.
 
 ## When you contact us
 
-The [contact form](https://sawirstudio.com/contact/) sends your name, email, company (if you add one), what you need and your message to a Google Form in our Google account. We use it to reply and to talk about your project. Ask us and we'll delete it.
+The [contact form](https://sawirstudio.com/contact/) sends your name, email, company (if you add one), what you need and your message to our own server. It stores them in our database with your IP address and browser, and emails them to us through Cloudflare. We use it to reply and to talk about your project. Ask us and we'll delete it.
+
+## When you subscribe to the blog
+
+The signup at the end of each blog post stores your email address in our own database, with the page you signed up on, your IP address and your browser. We send you one email to confirm the address, then one about each new post, through Cloudflare. Every email has a link to unsubscribe, and after that we send you nothing. Ask us and we'll delete your address too.
 
 ## Services the site loads
 

@@ -1,6 +1,6 @@
 // Package server serves sawirstudio.com: the built site (embedded in the binary, or a folder
 // in development), the same way the old Cloudflare Worker did, plus the contact
-// form's API. Cloudflare sits in front and caches; the Cache-Control headers here say what
+// form's API and the blog newsletter's signups. Cloudflare sits in front and caches; the Cache-Control headers here say what
 // it may keep.
 package server
 
@@ -30,7 +30,9 @@ type Config struct {
 	// X-Forwarded-Proto. Set it when the server is only reachable through Cloudflare.
 	TrustProxy bool
 	Inquiries  *Inquiries // nil: the contact API answers 503
-	Log        *slog.Logger
+	// Subscribers is the newsletter list; nil (or without a mailer), signups answer 503.
+	Subscribers *Subscribers
+	Log         *slog.Logger
 }
 
 // Cache lifetimes. Nothing is fingerprinted (style.css keeps its name), so browsers and
@@ -74,6 +76,10 @@ func New(cfg Config) (http.Handler, error) {
 	s := &static{site: cfg.Site, ignore: ignore, redirects: redirects, etags: map[string]string{}}
 	mux := http.NewServeMux()
 	mux.Handle("POST /api/inquiries", noStore(inquiryHandler(cfg)))
+	mux.Handle("POST /api/subscribe", noStore(subscribeHandler(cfg)))
+	mux.Handle("GET /subscribe/confirm", noStore(confirmHandler(cfg)))
+	mux.Handle("GET /unsubscribe", noStore(unsubscribeHandler(cfg)))
+	mux.Handle("POST /unsubscribe", noStore(unsubscribeHandler(cfg)))
 	mux.HandleFunc("GET /healthz", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Cache-Control", "no-store")
 		if cfg.Inquiries != nil {

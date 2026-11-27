@@ -8,7 +8,7 @@ description: Ce que sawirstudio.com collecte, pourquoi, et quels services traite
 
 En clair : ce que nous mesurons, ce que vous nous envoyez et qui d'autre traite ces données.
 
-*Dernière mise à jour le 28 octobre 2026*
+*Dernière mise à jour : 27 novembre 2026*
 
 ## Comment nous mesurons l'audience du site
 
@@ -18,7 +18,11 @@ Nous consultons ces données pour repérer ce qui prête à confusion ou ne fonc
 
 ## Quand vous nous contactez
 
-Le [formulaire de contact](https://sawirstudio.com/fr/contact/) envoie votre nom, votre adresse e-mail, votre entreprise (si vous l'indiquez), votre besoin et votre message vers un Google Form de notre compte Google. Nous l'utilisons pour vous répondre et pour échanger sur votre projet. Sur simple demande, nous supprimons ces données.
+Le [formulaire de contact](https://sawirstudio.com/fr/contact/) transmet à notre propre serveur votre nom, votre adresse e-mail, votre entreprise (si vous l’indiquez), votre besoin et votre message. Le serveur les enregistre dans notre base de données, avec votre adresse IP et votre navigateur, et nous les envoie par e-mail via Cloudflare. Nous nous en servons pour vous répondre et pour échanger sur votre projet. Sur simple demande, nous les supprimons.
+
+## Lorsque vous vous abonnez au blog
+
+Le formulaire d’inscription à la fin de chaque article du blog enregistre votre adresse e-mail dans notre propre base de données, avec la page depuis laquelle vous vous êtes inscrit, votre adresse IP et votre navigateur. Nous vous envoyons un e-mail pour confirmer l’adresse, puis un e-mail pour chaque nouvel article, via Cloudflare. Chaque e-mail contient un lien de désabonnement et, une fois que vous vous êtes désabonné, nous ne vous envoyons plus rien. Sur simple demande, nous supprimons aussi votre adresse.
 
 ## Services chargés par le site
 

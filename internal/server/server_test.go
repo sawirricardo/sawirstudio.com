@@ -248,13 +248,21 @@ func TestNoSite(t *testing.T) {
 }
 
 type fakeMailer struct {
-	mu   sync.Mutex
-	sent []notify.Message
+	mu     sync.Mutex
+	sent   []notify.Message
+	fail   error            // when set, Send fails with it
+	failTo map[string]error // Send to one of these addresses fails with its error
 }
 
 func (f *fakeMailer) Send(_ context.Context, m notify.Message) error {
 	f.mu.Lock()
 	defer f.mu.Unlock()
+	if f.fail != nil {
+		return f.fail
+	}
+	if err := f.failTo[m.To]; err != nil {
+		return err
+	}
 	f.sent = append(f.sent, m)
 	return nil
 }

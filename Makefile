@@ -7,7 +7,7 @@ DEPLOY_HOST ?= ricardosawir1
 BIN = bin/sawirstudio-server
 DATABASE_URL ?= postgres://postgres@localhost:5432/sawirstudio?sslmode=disable
 
-.PHONY: generate pages translations markdown site serve migrate test check-built dist deploy purge
+.PHONY: generate pages translations markdown site serve migrate test check-built dist deploy purge newsletter subscribers subscribers-import
 
 generate:            ## templ and sqlc code
 	go tool templ generate
@@ -55,6 +55,20 @@ deploy: dist         ## copy the binary to the server, restart, check, purge Clo
 	  for i in 1 2 3 4 5; do curl -fsS http://127.0.0.1:8098/healthz && exit 0; sleep 1; done; \
 	  journalctl -u sawirstudio -n 20 --no-pager; exit 1'
 	@$(MAKE) --no-print-directory purge
+
+# The newsletter, on the server with its settings (README, Newsletter).
+#   make newsletter POST=/posts/slug/ [ARGS=-dry-run | ARGS="-test you@example.com"]
+REMOTE = ssh $(DEPLOY_HOST) 'set -a; . /etc/sawirstudio/env; set +a; /usr/local/bin/sawirstudio-server
+newsletter:          ## email a post to the subscribers who haven't had it
+	@test -n "$(POST)" || (echo "usage: make newsletter POST=/posts/slug/ [ARGS=-dry-run]" >&2; exit 1)
+	$(REMOTE) newsletter send $(ARGS) $(POST)'
+
+subscribers:         ## count the newsletter's subscribers
+	@$(REMOTE) subscribers'
+
+subscribers-import:  ## add confirmed subscribers from a CSV already on the server (FILE=/tmp/x.csv)
+	@test -n "$(FILE)" || (echo "usage: make subscribers-import FILE=/tmp/subscribers.csv" >&2; exit 1)
+	$(REMOTE) subscribers import $(FILE)'
 
 # Empties Cloudflare's cache for sawirstudio.com (not the zone's other sites), with the
 # Cloudflare CLI (cf, logged in with `cf login`). Pages revalidate anyway; this clears

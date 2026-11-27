@@ -1,12 +1,20 @@
-// Command server serves sawirstudio.com: the site (built into the binary by `make dist`)
-// and the contact form's API, behind Cloudflare.
+// Command server serves sawirstudio.com: the site (built into the binary by `make dist`),
+// the contact form's API and the blog newsletter's signups, behind Cloudflare.
 //
-//	sawirstudio-server            serve (applies new migrations first, with DATABASE_URL)
-//	sawirstudio-server migrate    only apply migrations
+//	sawirstudio-server                              serve (applies new migrations first, with DATABASE_URL)
+//	sawirstudio-server migrate                      only apply migrations
+//	sawirstudio-server subscribers                  count the newsletter's subscribers
+//	sawirstudio-server subscribers import FILE.csv  add confirmed subscribers (ConvertKit's export)
+//	sawirstudio-server newsletter send [-dry-run] [-test ADDRESS] /posts/SLUG/
+//	                                                email a post to the subscribers who haven't had it
 //
-// Settings come from the environment: DATABASE_URL (without it the contact API answers
-// 503), ADDR (default 127.0.0.1:8098), and for an email about each new inquiry
-// CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_EMAIL_TOKEN, NOTIFY_FROM and NOTIFY_TO (see notify). In development, serve the repo instead:
+// Settings come from the environment: DATABASE_URL (without it the contact and signup APIs
+// answer 503), ADDR (default 127.0.0.1:8098), for email NOTIFY_FROM and NOTIFY_TO with either
+// SES_REGION and AWS credentials (Amazon SES) or CLOUDFLARE_ACCOUNT_ID and
+// CLOUDFLARE_EMAIL_TOKEN (see notify.FromEnv), NEWSLETTER_FROM (the
+// newsletter's sender, default newsletter@ NOTIFY_FROM's domain) and SITE_URL (the start of
+// the links in the newsletter's emails, default https://sawirstudio.com). In development,
+// serve the repo instead:
 //
 //	go run ./cmd/server -root .
 package main
@@ -15,11 +23,13 @@ import (
 	"context"
 	"errors"
 	"flag"
+	"fmt"
 	"io/fs"
 	"log/slog"
 	"net/http"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 	"time"
 
@@ -67,6 +77,14 @@ func main() {
 		site = sub
 	}
 
+	if cmd := flag.Arg(0); cmd == "subscribers" || cmd == "newsletter" {
+		if err := listCommand(ctx, log, dbURL, site, flag.Args()); err != nil {
+			fmt.Fprintln(os.Stderr, err)
+			os.Exit(1)
+		}
+		return
+	}
+
 	cfg := server.Config{Site: site, TrustProxy: *trust, Log: log}
 	if dbURL != "" {
 		// A database that's down mustn't take the site down: log it, serve, and let the
@@ -80,13 +98,9 @@ func main() {
 			os.Exit(1)
 		}
 		defer pool.Close()
-		var notifier server.Notifier
-		if m, missing := notify.FromEnv(); m != nil {
-			notifier = m
-		} else {
-			log.Warn("inquiry emails are off", "missing", missing)
-		}
+		notifier := mailer(log)
 		cfg.Inquiries = server.NewInquiries(pool, notifier)
+		cfg.Subscribers = newsletter(pool, notifier)
 		defer cfg.Inquiries.Wait() // let emails still being sent finish
 		go cfg.Inquiries.SendPending(ctx, log)
 	} else {
@@ -117,6 +131,81 @@ func main() {
 		log.Error("serve", "err", err)
 		os.Exit(1)
 	}
+}
+
+// mailer is the Cloudflare mailer from the environment, or nil (emails off).
+func mailer(log *slog.Logger) server.Notifier {
+	m, missing := notify.FromEnv(context.Background())
+	if m == nil {
+		log.Warn("emails are off (inquiry emails, newsletter signups)", "missing", missing)
+		return nil
+	}
+	return m
+}
+
+func newsletter(pool *pgxpool.Pool, n server.Notifier) *server.Subscribers {
+	from := os.Getenv("NEWSLETTER_FROM")
+	if from == "" {
+		if _, domain, ok := strings.Cut(os.Getenv("NOTIFY_FROM"), "@"); ok {
+			from = "newsletter@" + domain
+		}
+	}
+	return server.NewSubscribers(pool, n, from, envOr("SITE_URL", "https://sawirstudio.com"))
+}
+
+// listCommand runs `subscribers` and `newsletter send`.
+func listCommand(ctx context.Context, log *slog.Logger, dbURL string, site fs.FS, args []string) error {
+	usage := errors.New("usage: subscribers | subscribers import FILE.csv | newsletter send [-dry-run] [-test ADDRESS] /posts/SLUG/")
+	if dbURL == "" {
+		return errors.New("DATABASE_URL is not set")
+	}
+	if err := migrate.Up(dbURL, sawirstudio.Migrations); err != nil {
+		return fmt.Errorf("migrate: %w", err)
+	}
+	pool, err := pgxpool.New(ctx, dbURL)
+	if err != nil {
+		return err
+	}
+	defer pool.Close()
+
+	switch {
+	case args[0] == "subscribers" && len(args) == 1:
+		st, err := newsletter(pool, nil).Stats(ctx)
+		if err != nil {
+			return err
+		}
+		fmt.Printf("%d confirmed, %d waiting to confirm, %d unsubscribed\n", st.Confirmed, st.Pending, st.Unsubscribed)
+		return nil
+
+	case args[0] == "subscribers" && len(args) == 3 && args[1] == "import":
+		f, err := os.Open(args[2])
+		if err != nil {
+			return err
+		}
+		defer f.Close()
+		res, err := newsletter(pool, nil).Import(ctx, f)
+		fmt.Printf("%d added, %d already on the list, %d skipped (left, or not an email address)\n", res.Added, res.Existing, res.Skipped)
+		return err
+
+	case args[0] == "newsletter" && len(args) > 1 && args[1] == "send":
+		fl := flag.NewFlagSet("newsletter send", flag.ContinueOnError)
+		dry := fl.Bool("dry-run", false, "only count who would get it")
+		test := fl.String("test", "", "send it only to this address")
+		delay := fl.Duration("delay", 500*time.Millisecond, "wait between emails")
+		if err := fl.Parse(args[2:]); err != nil || fl.NArg() != 1 {
+			return usage
+		}
+		s := newsletter(pool, mailer(log))
+		n, err := s.SendIssue(ctx, site, fl.Arg(0), server.SendOptions{DryRun: *dry, Test: *test, Delay: *delay, Log: log})
+		switch {
+		case *dry:
+			fmt.Printf("would send %s to %d subscribers\n", fl.Arg(0), n)
+		case err == nil:
+			fmt.Printf("sent %s to %d subscribers\n", fl.Arg(0), n)
+		}
+		return err
+	}
+	return usage
 }
 
 func envOr(key, fallback string) string {

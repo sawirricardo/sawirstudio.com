@@ -2,7 +2,9 @@
 # Cloudflare tunnel (sawirstudio.com -> http://127.0.0.1:8098). Installed by `make deploy`.
 # /etc/sawirstudio/env sets DATABASE_URL (its own database on the shared Postgres,
 # 127.0.0.1:5432); without it the site serves and the contact form API answers 503. It also
-# sets the inquiry email settings (CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_EMAIL_TOKEN, NOTIFY_FROM, NOTIFY_TO).
+# sets the email settings for inquiry emails and the newsletter: NOTIFY_FROM, NOTIFY_TO, optionally
+# NEWSLETTER_FROM, and SES_REGION with AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY (Amazon SES), or
+# CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_EMAIL_TOKEN (see internal/notify).
 [Unit]
 Description=Sawir Studio website
 After=network-online.target postgresql.service

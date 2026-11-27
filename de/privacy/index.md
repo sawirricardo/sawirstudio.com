@@ -8,7 +8,7 @@ description: Was sawirstudio.com erfasst, warum und welche Dienste die Daten ver
 
 Ganz klar: was wir messen, was Sie uns senden und wer es sonst noch verarbeitet.
 
-*Zuletzt aktualisiert am 28. Oktober 2026*
+*Zuletzt aktualisiert am 27. November 2026*
 
 ## Wie wir die Website messen
 
@@ -18,7 +18,11 @@ Das werten wir aus, um Unklares oder Fehlerhaftes zu finden und zu beheben. Wir 
 
 ## Wenn Sie uns kontaktieren
 
-Das [Kontaktformular](https://sawirstudio.com/de/contact/) sendet Ihren Namen, Ihre E-Mail-Adresse, Ihr Unternehmen (falls Sie eines angeben), Ihr Anliegen und Ihre Nachricht an ein Google Formular in unserem Google-Konto. Wir nutzen diese Angaben, um Ihnen zu antworten und mit Ihnen über Ihr Projekt zu sprechen. Auf Wunsch löschen wir sie.
+Das [Kontaktformular](https://sawirstudio.com/de/contact/) sendet Ihren Namen, Ihre E-Mail-Adresse, Ihr Unternehmen (falls Sie es angeben), Ihr Anliegen und Ihre Nachricht an unseren eigenen Server. Dieser speichert die Angaben zusammen mit Ihrer IP-Adresse und Ihrem Browser in unserer Datenbank und sendet sie uns per E-Mail über Cloudflare. Wir nutzen sie, um Ihnen zu antworten und mit Ihnen über Ihr Projekt zu sprechen. Auf Ihre Anfrage hin löschen wir sie.
+
+## Wenn Sie den Blog abonnieren
+
+Das Anmeldeformular am Ende jedes Blogbeitrags speichert Ihre E-Mail-Adresse in unserer eigenen Datenbank, zusammen mit der Seite, auf der Sie sich angemeldet haben, Ihrer IP-Adresse und Ihrem Browser. Wir senden Ihnen über Cloudflare eine E-Mail zur Bestätigung der Adresse und danach eine zu jedem neuen Beitrag. Jede E-Mail enthält einen Link zum Abbestellen. Danach senden wir Ihnen nichts mehr. Auf Ihre Anfrage hin löschen wir auch Ihre Adresse.
 
 ## Dienste, die die Website lädt
 

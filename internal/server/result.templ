@@ -1,33 +1,44 @@
 package server
 
-// resultPage answers a contact form posted without JavaScript.
-templ resultPage(ok bool, msg string) {
+// result is what a page the server answers with says: a form posted without JavaScript, or
+// a link from a newsletter email.
+type result struct {
+	Title, Heading, Message string
+	LinkHref, LinkText      string
+	// Form, when set, is a button that posts to this URL (the unsubscribe page's).
+	Form, FormButton string
+}
+
+// inquiryResult answers the contact form posted without JavaScript.
+func inquiryResult(ok bool, msg string) result {
+	if ok {
+		return result{Title: "Thanks", Heading: "Thanks! 🎉", Message: msg, LinkHref: "/", LinkText: "Back to Sawir Studio"}
+	}
+	return result{Title: "Inquiry not sent", Heading: "Your inquiry wasn't sent", Message: msg, LinkHref: "/contact/", LinkText: "Back to the form"}
+}
+
+templ resultPage(r result) {
 	<!DOCTYPE html>
 	<html lang="en">
 		<head>
 			<meta charset="utf-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
 			<meta name="robots" content="noindex"/>
-			if ok {
-				<title>Thanks | Sawir Studio</title>
-			} else {
-				<title>Inquiry not sent | Sawir Studio</title>
-			}
+			<title>{ r.Title } | Sawir Studio</title>
 			<link rel="stylesheet" href="/assets/css/style.css"/>
 		</head>
 		<body>
 			<main id="main">
 				<section class="section banner stack" role="banner">
-					if ok {
-						<h1>Thanks! 🎉</h1>
-					} else {
-						<h1>Your inquiry wasn't sent</h1>
+					<h1>{ r.Heading }</h1>
+					<p class="lead">{ r.Message }</p>
+					if r.Form != "" {
+						<form method="post" action={ templ.SafeURL(r.Form) }>
+							<button class="button" type="submit">{ r.FormButton }</button>
+						</form>
 					}
-					<p class="lead">{ msg }</p>
-					if ok {
-						<p><a class="button" href="/">Back to Sawir Studio</a></p>
-					} else {
-						<p><a class="button" href="/contact/">Back to the form</a></p>
+					if r.LinkHref != "" {
+						<p><a class="button" href={ templ.SafeURL(r.LinkHref) }>{ r.LinkText }</a></p>
 					}
 				</section>
 			</main>

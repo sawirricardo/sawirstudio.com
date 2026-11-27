@@ -147,7 +147,7 @@ func inquiryHandler(cfg Config) http.Handler {
 			}
 			w.Header().Set("Content-Type", "text/html; charset=utf-8")
 			w.WriteHeader(status)
-			resultPage(status < 300, msg).Render(r.Context(), w)
+			resultPage(inquiryResult(status < 300, msg)).Render(r.Context(), w)
 		}
 		if cfg.Inquiries == nil {
 			reply(http.StatusServiceUnavailable, "The contact form is not available right now.")

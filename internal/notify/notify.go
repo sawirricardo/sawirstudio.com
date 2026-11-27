@@ -1,7 +1,9 @@
-// Package notify sends email through Cloudflare's Email Service REST API
-// (POST /accounts/{account_id}/email/sending/send). The sender is an address on a domain
-// with Cloudflare Email Routing (notify.sawirstudio.com), which may send to the account's
-// verified destination addresses.
+// Package notify sends the site's email: inquiry notifications and the newsletter. It goes
+// through Amazon SES (SESMailer, when SES_REGION is set) or Cloudflare's Email Service REST
+// API (Mailer, POST /accounts/{account_id}/email/sending/send). Cloudflare's sender is an
+// address on a domain with Email Routing (notify.sawirstudio.com); on the Workers Free plan
+// it may send only to the account's verified destination addresses, so it can't send the
+// newsletter's confirmation emails to visitors. SES (production access) can.
 package notify
 
 import (
@@ -15,9 +17,12 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/aws/aws-sdk-go-v2/config"
+	"github.com/aws/aws-sdk-go-v2/service/sesv2"
 )
 
-// Mailer sends email from one address to one address.
+// Mailer sends email from one address, to one address unless a Message says otherwise.
 type Mailer struct {
 	AccountID string
 	Token     string // an API token with Email Sending permission
@@ -28,41 +33,72 @@ type Mailer struct {
 	Client    *http.Client
 }
 
-// FromEnv returns a Mailer from CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_EMAIL_TOKEN, NOTIFY_FROM and
-// NOTIFY_TO, or nil and the names of the missing ones.
-func FromEnv() (*Mailer, []string) {
-	m := &Mailer{
-		AccountID: os.Getenv("CLOUDFLARE_ACCOUNT_ID"),
-		Token:     os.Getenv("CLOUDFLARE_EMAIL_TOKEN"),
-		From:      os.Getenv("NOTIFY_FROM"),
-		FromName:  "sawirstudio.com",
-		To:        os.Getenv("NOTIFY_TO"),
-	}
-	var missing []string
-	for name, v := range map[string]string{"CLOUDFLARE_ACCOUNT_ID": m.AccountID, "CLOUDFLARE_EMAIL_TOKEN": m.Token, "NOTIFY_FROM": m.From, "NOTIFY_TO": m.To} {
-		if v == "" {
-			missing = append(missing, name)
-		}
-	}
-	if len(missing) > 0 {
-		return nil, missing
-	}
-	return m, nil
+// Sender sends one email (Mailer, SESMailer).
+type Sender interface {
+	Send(ctx context.Context, msg Message) error
 }
 
-// Message is one email. ReplyTo, when set, is where a reply goes.
+// FromEnv returns the sender the environment sets up, or nil and the names of the missing
+// settings. Both need NOTIFY_FROM (the sender) and NOTIFY_TO (where inquiry emails go). With
+// SES_REGION set it's Amazon SES, with the AWS SDK's usual credentials (AWS_ACCESS_KEY_ID and
+// AWS_SECRET_ACCESS_KEY) and optionally SES_CONFIGURATION_SET; otherwise Cloudflare, with
+// CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_EMAIL_TOKEN.
+func FromEnv(ctx context.Context) (Sender, []string) {
+	from, to := os.Getenv("NOTIFY_FROM"), os.Getenv("NOTIFY_TO")
+	if region := os.Getenv("SES_REGION"); region != "" {
+		if missing := missingVars("NOTIFY_FROM", "NOTIFY_TO"); len(missing) > 0 {
+			return nil, missing
+		}
+		cfg, err := config.LoadDefaultConfig(ctx, config.WithRegion(region))
+		if err != nil {
+			return nil, []string{"AWS credentials (" + err.Error() + ")"}
+		}
+		return &SESMailer{Client: sesv2.NewFromConfig(cfg), From: from, FromName: "sawirstudio.com", To: to,
+			ConfigurationSet: os.Getenv("SES_CONFIGURATION_SET")}, nil
+	}
+	if missing := missingVars("CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_EMAIL_TOKEN", "NOTIFY_FROM", "NOTIFY_TO"); len(missing) > 0 {
+		return nil, missing
+	}
+	return &Mailer{AccountID: os.Getenv("CLOUDFLARE_ACCOUNT_ID"), Token: os.Getenv("CLOUDFLARE_EMAIL_TOKEN"),
+		From: from, FromName: "sawirstudio.com", To: to}, nil
+}
+
+func missingVars(names ...string) []string {
+	var missing []string
+	for _, n := range names {
+		if os.Getenv(n) == "" {
+			missing = append(missing, n)
+		}
+	}
+	return missing
+}
+
+// ErrNotDelivered is the error Send wraps when Cloudflare took the email but didn't deliver
+// it: the address bounced, or it's on the suppression list. Retrying won't help.
+var ErrNotDelivered = errors.New("cloudflare email: not delivered (bounced or suppressed)")
+
+// Message is one email. ReplyTo, when set, is where a reply goes. To and From, when set,
+// replace the Mailer's; HTML is an HTML version of Text; Headers are extra headers, from
+// Cloudflare's allowed list (List-Unsubscribe and the like).
 type Message struct {
 	Subject, Text string
+	HTML          string
 	ReplyTo       string
 	ReplyToName   string
+	To            string
+	From          string
+	FromName      string
+	Headers       map[string]string
 }
 
 type sendRequest struct {
-	To      string   `json:"to"`
-	From    address  `json:"from"`
-	ReplyTo *address `json:"reply_to,omitempty"`
-	Subject string   `json:"subject"`
-	Text    string   `json:"text"`
+	To      string            `json:"to"`
+	From    address           `json:"from"`
+	ReplyTo *address          `json:"reply_to,omitempty"`
+	Subject string            `json:"subject"`
+	Text    string            `json:"text"`
+	HTML    string            `json:"html,omitempty"`
+	Headers map[string]string `json:"headers,omitempty"`
 }
 
 type address struct {
@@ -91,6 +127,14 @@ func (m *Mailer) Send(ctx context.Context, msg Message) error {
 		From:    address{m.From, m.FromName},
 		Subject: oneLine(msg.Subject),
 		Text:    msg.Text,
+		HTML:    msg.HTML,
+		Headers: msg.Headers,
+	}
+	if msg.To != "" {
+		req.To = msg.To
+	}
+	if msg.From != "" {
+		req.From = address{msg.From, oneLine(msg.FromName)}
 	}
 	if msg.ReplyTo != "" {
 		req.ReplyTo = &address{msg.ReplyTo, oneLine(msg.ReplyToName)}
@@ -131,7 +175,7 @@ func (m *Mailer) Send(ctx context.Context, msg Message) error {
 		return fmt.Errorf("cloudflare email: HTTP %d: %s", res.StatusCode, strings.Join(msgs, "; "))
 	}
 	if len(out.Result.Delivered)+len(out.Result.Queued) == 0 {
-		return errors.New("cloudflare email: not delivered (bounced or suppressed)")
+		return ErrNotDelivered
 	}
 	return nil
 }

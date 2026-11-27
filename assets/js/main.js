@@ -189,6 +189,47 @@
   });
 })();
 
+// Blog posts: the newsletter signup (POST /api/subscribe) without leaving the page. The server
+// emails a link to confirm the address. Without JS the form posts and the server shows a page.
+(function () {
+  const form = document.getElementById("newsletter-form");
+  if (!form) return;
+
+  const button = form.querySelector("button[type=submit]");
+  const error = document.getElementById("newsletter-error");
+  const errorText = error.textContent;
+  const success = document.getElementById("newsletter-success");
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    button.disabled = true;
+    const label = button.textContent;
+    button.textContent = button.dataset.sending || "Subscribing…";
+    error.hidden = true;
+
+    try {
+      const res = await fetch(form.action, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new URLSearchParams(new FormData(form)),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        // 422 and 429 explain what to fix; anything else gets the general message.
+        throw new Error(res.status === 422 || res.status === 429 ? data.message : "");
+      }
+      form.hidden = true;
+      success.hidden = false;
+      success.focus();
+    } catch (e) {
+      error.textContent = (e && e.message) || errorText;
+      error.hidden = false;
+      button.disabled = false;
+      button.textContent = label;
+    }
+  });
+})();
+
 // App icons you can pick up and turn over. A hover tilts an icon toward the pointer, a drag turns
 // it up to 60 degrees, and letting go springs it back. A drag never follows the link.
 (function () {

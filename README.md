@@ -2,7 +2,7 @@
 
 A static site built with Go and [templ](https://templ.guide), served by one Go binary on our own
 server (ricardosawir1) behind Cloudflare. The binary also takes the contact form's inquiries
-into Postgres (pgx, sqlc, dbmate migrations).
+and the blog newsletter's subscribers into Postgres (pgx, sqlc, dbmate migrations).
 
 ```
 content/<path>.html        Source of each English page: front matter, then the HTML inside <main>
@@ -11,7 +11,8 @@ content/projects.yaml      The project list: cards, categories, search text, ord
 content/site.yaml          Site settings (where the contact form posts)
 internal/site/             Builder: layout, header, footer, cards, "More projects", CTA (*.templ)
 cmd/build/                 go run ./cmd/build: writes the English pages from content/
-internal/server/           The web server: static files, Markdown for agents, redirects, POST /api/inquiries
+internal/server/           The web server: static files, Markdown for agents, redirects, POST /api/inquiries,
+                           the newsletter (POST /api/subscribe, /subscribe/confirm, /unsubscribe, sending posts)
 cmd/server/                The server binary (the built site is embedded into it by make dist)
 db/migrations/             dbmate migrations; db/queries/ the SQL sqlc turns into internal/db/
 deploy/sawirstudio.service systemd unit on ricardosawir1
@@ -59,7 +60,6 @@ description: A drawing app where every stroke stays editable.
 og_type: website            # article for blog posts
 og_image: /assets/og/rindraw.jpg   # leave out to use the drawn card in assets/og/cards/
 twitter_card: summary       # default summary_large_image
-convertkit: true            # the newsletter form (blog posts)
 related: true               # the "More projects" row (project pages)
 cta: false                  # leave out the "How can we help you?" box
 ld: |                       # JSON-LD, as is
@@ -68,8 +68,9 @@ ld: |                       # JSON-LD, as is
 ```
 
 The header, footer, `hreflang` links, language list and share image tags come from `internal/site/`.
-Two placeholders in a page's HTML are filled in by the builder: `<!-- @project-cards -->` (the project
-list) and `<!-- @inquiry-form -->` (the contact form).
+Placeholders in a page's HTML are filled in by the builder: `<!-- @project-cards -->` (the project
+list), `<!-- @inquiry-form -->` (the contact form) and `<!-- @newsletter-form -->` (the blog signup, after
+each post's `<article>` section).
 
 ## Adding content
 
@@ -127,14 +128,53 @@ The form is `internal/site/inquiry.templ`. `inquiry_api` in `content/site.yaml` 
   `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
 
 Each new inquiry is also emailed to `NOTIFY_TO`, with Reply-To set to the inquirer, so replying answers
-them. It goes out through Cloudflare's email REST API from `inquiries@notify.sawirstudio.com`: Email
-Routing is on for the `notify` subdomain only (the apex's mail stays with Lark), and a routing domain may
-send to the account's verified destination addresses. `/etc/sawirstudio/env` on the server sets
-`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_EMAIL_TOKEN` (an account API token with Email Sending permission),
-`NOTIFY_FROM` and `NOTIFY_TO`; without them the server stores inquiries and logs that emails are off.
+them. It goes out from `NOTIFY_FROM` (`inquiries@notify.sawirstudio.com`) through Amazon SES when
+`/etc/sawirstudio/env` sets `SES_REGION` and AWS credentials (see Newsletter), otherwise through
+Cloudflare's email REST API: Email Routing is on for the `notify` subdomain only (the apex's mail stays
+with Lark), and a routing domain may send to the account's verified destination addresses, with
+`CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_EMAIL_TOKEN` (an account API token with Email Sending permission).
+Without `NOTIFY_FROM` and `NOTIFY_TO` and one of those, the server stores inquiries and logs that emails are off.
 `notified_at` records when an email went out; at start the server sends any from the last week that didn't.
 
 After changing it, run `make site` (every language's contact page changes) and deploy.
+
+## Newsletter
+
+The signup at the end of each blog post is `internal/site/newsletter.templ`; it posts to `/api/subscribe` on
+our server. The server keeps the list in the `subscribers` table, with double opt-in:
+
+- A new address gets an email with a link to `/subscribe/confirm?token=…`; it's on the list once it clicks.
+  The form answers the same for new, waiting and subscribed addresses (it doesn't tell who is on the list),
+  drops bots (a hidden `website` field), allows 5 signups per IP address per 10 minutes, and sends an
+  address at most one confirmation an hour.
+- Every newsletter email links to `/unsubscribe?token=…`, which shows a button (mail scanners open links),
+  and has `List-Unsubscribe` headers for the mail app's one-click unsubscribe (a POST to the same URL).
+- The page's language (from the post's path) is kept, so a post goes out linking to its translation. The
+  emails' own text and the confirm and unsubscribe pages are in English.
+
+Emails go out through Amazon SES (ap-southeast-1, where `sawirstudio.com` is a verified domain with DKIM and
+the MAIL FROM domain `bounce.sawirstudio.com`, and the account has production access), from `NEWSLETTER_FROM`
+(default `newsletter@` `NOTIFY_FROM`'s domain). `/etc/sawirstudio/env` sets `SES_REGION=ap-southeast-1` and
+an IAM user's `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` (allowed only `ses:SendEmail` from
+sawirstudio.com); the inquiry emails then go through SES too. Without `SES_REGION` the server uses
+Cloudflare's email API as before, which on the Workers Free plan only reaches the account's verified
+addresses, so signups would fail. Without any email settings, signups answer 503. Bounced and complaining
+addresses land on SES's account suppression list, and SES stops delivering to them.
+
+When a post is up (deployed), email it to the list:
+
+```bash
+make newsletter POST=/posts/services-is-next/ ARGS=-dry-run     # how many would get it
+make newsletter POST=/posts/services-is-next/ ARGS="-test you@example.com"   # one test email
+make newsletter POST=/posts/services-is-next/                   # send
+make subscribers                                                # count the list
+```
+
+These run `sawirstudio-server newsletter send` on ricardosawir1 with its settings. Each email sent is recorded
+in `newsletter_sends`, so a post is never sent to anyone twice, and after an error running it again carries
+on. To bring over the subscribers from ConvertKit (Kit), export them as CSV there, then
+`scp subscribers.csv ricardosawir1:/tmp/ && make subscribers-import FILE=/tmp/subscribers.csv`: they're added
+as confirmed, minus those whose status says they left.
 
 ## Database
 
