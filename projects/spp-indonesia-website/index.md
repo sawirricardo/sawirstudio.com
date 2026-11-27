@@ -8,11 +8,22 @@ description: Website for PT SPP Indonesia, a fire pump specialist, with a page f
 
 ![SPP Indonesia Website](https://sawirstudio.com/assets/images/projects/spp-indonesia-website.webp)
 
-## The client
+## The result
+
+- **Still SPP Indonesia’s website today.**
+- **Every pump type one click from the menu,** with a page each and a way to call or email at the end of every page.
+
+## The situation
 
 PT SPP Indonesia specializes in fire pump systems: end suction, split case, vertical inline and vertical turbine fire pumps, multi-stage pumps, jockey pumps, pump packages and controllers. It is based in Cengkareng, Jakarta.
 
-## What we made
+Its buyers usually already know which pump they need.
+
+## The task
+
+Let a buyer go straight to their pump and get in touch without hunting for a phone number.
+
+## What we did
 
 We designed and built its website around that product range, with a page for each type of pump.
 
@@ -21,11 +32,9 @@ We designed and built its website around that product range, with a page for eac
 - **Two languages in one line.** The headline in English, “Experts in Handling Fire Pump System”, with its Indonesian meaning right under it.
 - **Contact.** A phone number and an email link at the end of every page.
 
-## How we approached it
-
 SPP’s buyers usually already know which pump they need. So the menu lists every pump type directly, each page answers one product, and the way to call or email is never more than a scroll away.
 
-- **Client** PT SPP Indonesia
+- **Client** [PT SPP Indonesia](https://sawirstudio.com/clients/#spp-indonesia)
 - **Website URL** <https://sppindonesia.co.id>
 
 ## More projects

@@ -8,11 +8,23 @@ description: MyVivaldy, Vivaldy Skin Clinic का क्लिनिक सि�
 
 ![MyVivaldy ऐप की स्क्रीन: विज़िट बुक करना, विज़िट हिस्ट्री और अकाउंट](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
-## क्लाइंट
+## नतीजा
+
+- **मरीज़ ख़ुद बुकिंग करते हैं।** MyVivaldy App Store और Google Play पर उपलब्ध है, और यह सिर्फ़ वही समय दिखाता है जब डॉक्टर वाकई खाली हों।
+- **पूरे क्लिनिक के लिए एक ही सिस्टम।** ऐप से होने वाली बुकिंग जिस सिस्टम में जाती है, अपॉइंटमेंट, क्लिनिकल रिकॉर्ड और फ़ार्मेसी भी उसी पर चलते हैं।
+- **2024 से इसकी देखरेख जारी है।**
+
+## स्थिति
 
 Vivaldy Skin Clinic, PT Viva Estemedika Indonesia द्वारा चलाया जाने वाला त्वचा रोग और यौन रोग (डर्मेटोलॉजी और वेनेरियोलॉजी) क्लिनिक है। हमने इसकी [वेबसाइट](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-website/) भी बनाई और इसका [मार्केटिंग डिज़ाइन](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-marketing-design/) भी तैयार किया।
 
-## हमने क्या बनाया
+इसके मरीज़ चैट से बुकिंग करते हैं, और इसका रोज़ का काम अपॉइंटमेंट, क्लिनिकल रिकॉर्ड और अपनी फ़ार्मेसी पर चलता है।
+
+## काम
+
+मरीज़ों को अपने फ़ोन से बुकिंग करने और अपने इलाज पर नज़र रखने की सुविधा देना, और क्लिनिक को इसके पीछे एक ही सिस्टम देना, ताकि ऐप कभी ऐसा समय न दिखाए जो क्लिनिक दे न सके।
+
+## हमने क्या किया
 
 MyVivaldy दो चीज़ें हैं: वह सिस्टम जिस पर क्लिनिक चलता है, और वह ऐप जो मरीज़ों के फ़ोन में रहता है।
 
@@ -25,26 +37,33 @@ MyVivaldy दो चीज़ें हैं: वह सिस्टम जि�
 - **विज़िट हिस्ट्री।** पिछली विज़िट, जिनमें मिले ट्रीटमेंट और लिखी गई दवाइयाँ दिखती हैं।
 - **अकाउंट।** ईमेल या फ़ोन नंबर से साइन इन करें, अंग्रेज़ी या Bahasa Indonesia में, और अकाउंट को ऐप के अंदर से ही डिलीट करें।
 
-## हमने इसे कैसे किया
-
 एक ही सिस्टम दोनों पक्षों के काम आता है। मरीज़ को ऐप में जो समय दिखते हैं, वे उसी शेड्यूल से आते हैं जिसे क्लिनिक मैनेज करता है, और डॉक्टर जो विज़िट दर्ज करते हैं, वह मरीज़ की हिस्ट्री में दिखाई देती है। ये ऐप्स iPhone और Android पर नेटिव हैं और सीधे क्लिनिक के सिस्टम से जुड़कर काम करते हैं। हम 2024 से MyVivaldy पर काम कर रहे हैं।
 
-- **क्लाइंट** Vivaldy Skin Clinic
+- **क्लाइंट** [Vivaldy Skin Clinic](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/)
 - **प्लेटफ़ॉर्म** iPhone, Android, वेब
 - **App Store URL** <https://apps.apple.com/id/app/myvivaldy/id6790103528>
 - **Google Play URL** <https://play.google.com/store/apps/details?id=com.myvivaldy.patient>
 
+## [Vivaldy Skin Clinic](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/) के लिए और काम
+
+[![Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-website/)
+[![Vivaldy Skin Clinic मार्केटिंग डिज़ाइन](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Vivaldy Skin Clinic मार्केटिंग डिज़ाइन](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-marketing-design/)
+
 ## और प्रोजेक्ट
 
+[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
 [![DBTV ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### DBTV ऐप्लिकेशन](https://sawirstudio.com/hi/projects/dbtv-application/)
-[![Kantong Sayur ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### Kantong Sayur ऐप्लिकेशन](https://sawirstudio.com/hi/projects/kantong-sayur-application/)
 
 हमारी बात बहुत हुई।
 

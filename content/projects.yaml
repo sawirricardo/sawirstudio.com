@@ -126,6 +126,16 @@
   image: /assets/images/projects/myvivaldy.webp
   width: 1600
   height: 900
+  client: Vivaldy Skin Clinic
+- slug: my-spiritual-journey
+  title: My Spiritual Journey
+  categories:
+  - 3
+  search: my spiritual journey msj gbi wtc church app spiritual workout devotions badges friends care cell transformation class iphone android ![my spiritual journey screens](/assets/images/projects/my-spiritual-journey.webp)
+  image: /assets/images/projects/my-spiritual-journey.webp
+  width: 1600
+  height: 900
+  client: GBI WTC
 - slug: koperasi-hob-application
   title: Koperasi HOB Application
   categories:
@@ -134,6 +144,7 @@
   image: /assets/images/projects/koperasi-hob-application.webp
   width: 1600
   height: 782
+  client: Koperasi HOB
 - slug: dbtv-application
   title: DBTV Application
   categories:
@@ -142,6 +153,7 @@
   image: /assets/images/projects/dbtv-application.webp
   width: 1600
   height: 782
+  client: DBTV
 - slug: kantong-sayur-application
   title: Kantong Sayur Application
   categories:
@@ -151,6 +163,7 @@
   image: /assets/images/projects/kantong-sayur-application.webp
   width: 1600
   height: 883
+  client: KantongSayur
 - slug: peoplebond-hcms-application
   title: PeopleBond HCMS Application
   categories:
@@ -160,6 +173,7 @@
   image: /assets/images/projects/peoplebond-hcms-application.webp
   width: 1600
   height: 878
+  client: PeopleBond
 - slug: pbconnect
   title: PeopleBond Connect App
   categories:
@@ -168,6 +182,7 @@
   image: /assets/images/projects/pbconnect.webp
   width: 1600
   height: 900
+  client: PeopleBond
 - slug: peoplebond-website
   title: PeopleBond Website
   categories:
@@ -176,6 +191,7 @@
   image: /assets/images/projects/peoplebond-website.webp
   width: 1600
   height: 900
+  client: PeopleBond
 - slug: tani-milenial-application
   title: TaniMilenial Application
   categories:
@@ -184,6 +200,7 @@
   image: /assets/images/projects/tani-milenial-application.webp
   width: 1410
   height: 688
+  client: TaniMilenial
 - slug: growinc-group-website
   title: Growinc Group Website
   categories:
@@ -192,6 +209,7 @@
   image: /assets/images/projects/growinc-group-website.webp
   width: 1600
   height: 900
+  client: PT Growinc Group Indonesia
 - slug: fluindo-technology-indonesia-website
   title: Fluindo Technology Indonesia Website
   categories:
@@ -200,6 +218,7 @@
   image: /assets/images/projects/fluindo-technology-indonesia-website.webp
   width: 1448
   height: 746
+  client: Fluindo Technology Indonesia
 - slug: calvin-kain
   title: Calvin Kain
   categories:
@@ -208,6 +227,7 @@
   image: /assets/images/projects/calvin-kain.webp
   width: 1444
   height: 764
+  client: Calvin Kain
 - slug: indonesia-research-institute-japan-website
   title: Indonesia Research Institute Japan Website
   categories:
@@ -216,6 +236,7 @@
   image: /assets/images/projects/indonesia-research-institute-japan-website.webp
   width: 1436
   height: 856
+  client: Indonesia Research Institute Japan
 - slug: vivaldy-skin-clinic-website
   title: Vivaldy Skin Clinic Website
   categories:
@@ -224,6 +245,7 @@
   image: /assets/images/projects/vivaldy-skin-clinic-website.webp
   width: 1600
   height: 872
+  client: Vivaldy Skin Clinic
 - slug: adiwarna-company-profile-website
   title: Adiwarna Company Profile Website
   categories:
@@ -232,6 +254,7 @@
   image: /assets/images/projects/adiwarna-company-profile-website.webp
   width: 1600
   height: 899
+  client: PT Adiwarna Anugerah Abadi
 - slug: spp-indonesia-website
   title: SPP Indonesia Website
   categories:
@@ -240,6 +263,7 @@
   image: /assets/images/projects/spp-indonesia-website.webp
   width: 1444
   height: 902
+  client: PT SPP Indonesia
 - slug: habitat-hills-design
   title: Habitat Hills Design
   categories:
@@ -248,6 +272,7 @@
   image: /assets/images/projects/habitat-hills-design.webp
   width: 1074
   height: 804
+  client: Habitat Hills
 - slug: jakpod-hotel-design
   title: JakPod Hotel Design
   categories:
@@ -256,6 +281,7 @@
   image: /assets/images/projects/jakpod-hotel-design.webp
   width: 1600
   height: 1067
+  client: Jakpod Hotel Indonesia
 - slug: astra-international-esr-info-tips
   title: Astra International ESR Info & Tips
   categories:
@@ -264,6 +290,7 @@
   image: /assets/images/projects/astra-international-esr-info-tips.webp
   width: 1600
   height: 1005
+  client: Astra International
 - slug: digital-airport-hotel-design
   title: Digital Airport Hotel Design
   categories:
@@ -272,6 +299,7 @@
   image: /assets/images/projects/digital-airport-hotel-design.webp
   width: 1600
   height: 1200
+  client: Capsule Indonesia
 - slug: capsule-indonesia-design
   title: Capsule Indonesia Design
   categories:
@@ -280,6 +308,7 @@
   image: /assets/images/projects/capsule-indonesia-design.webp
   width: 808
   height: 632
+  client: Capsule Indonesia
 - slug: tanda-tangan-digital-campaign
   title: Tanda Tangan Digital Campaign
   categories:
@@ -288,6 +317,7 @@
   image: /assets/images/projects/tanda-tangan-digital-campaign.webp
   width: 1600
   height: 1200
+  client: "Indonesia's Ministry of Communication and Informatics"
 - slug: vivaldy-skin-clinic-marketing-design
   title: Vivaldy Skin Clinic Marketing Design
   categories:
@@ -296,3 +326,4 @@
   image: /assets/images/projects/vivaldy-skin-clinic-marketing-design.webp
   width: 1600
   height: 900
+  client: Vivaldy Skin Clinic

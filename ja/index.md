@@ -15,7 +15,7 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
 [プロジェクトを相談する](https://sawirstudio.com/ja/contact/) [制作実績を見る](#portfolio)
 
 - **9** 年にわたるお客様向けの開発（2017 年から）
-- **26** の企業・団体向けに開発
+- **27** の企業・団体向けに開発してきました
 - **2019** PeopleBond とのお付き合いが始まった年。今も続いています。
 - **7** App Store で公開中の自社アプリ
 
@@ -114,6 +114,7 @@ HR プラットフォームと従業員向けアプリ。2019 年から先方の
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ HR プラットフォームと従業員向けアプリ。2019 年から先方の
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[各社向けの制作実績を見る](https://sawirstudio.com/ja/clients/)
 
 ## 自社アプリも公開しています
 

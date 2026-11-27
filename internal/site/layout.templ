@@ -1,6 +1,9 @@
 package site
 
-import "strconv"
+import (
+	"strconv"
+	"strings"
+)
 
 // Options are the site-wide settings in content/site.yaml.
 type Options struct {
@@ -13,6 +16,7 @@ type pageData struct {
 	Page              *Page
 	OGImageW, OGImageH int
 	Projects          []Project
+	Clients           []Client
 	Opts              Options
 }
 
@@ -28,6 +32,9 @@ templ Layout(d pageData) {
 			<main id="main">
 				@templ.Raw(expand(d))
 				if d.Page.Related {
+					if more := sameClient(d.Projects, slugOf(d.Page.Path)); len(more) > 0 {
+						@clientRow(clientOf(d.Projects, slugOf(d.Page.Path)), clientURL(d.Clients, d.Projects, clientOf(d.Projects, slugOf(d.Page.Path))), more)
+					}
 					@relatedRow(related(d.Projects, slugOf(d.Page.Path)))
 				}
 				if d.Page.showCTA() {
@@ -133,6 +140,8 @@ func navCurrent(path, href string) string {
 		return "page"
 	case (href == "/posts/" || href == "/projects/") && len(path) > len(href) && path[:len(href)] == href:
 		return "true"
+	case href == "/projects/" && strings.HasPrefix(path, "/clients/"):
+		return "true" // the clients' pages are part of the work
 	}
 	return ""
 }

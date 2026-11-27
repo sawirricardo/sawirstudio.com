@@ -8,11 +8,23 @@ description: Growinc Group Indonesia 的企業官方網站。Growinc 是雅加�
 
 ![Growinc Group Indonesia 首頁](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
 
-## 客戶
+## 成果
+
+- **上線六年後，** 仍是 Growinc 的官方網站。
+- **四個月打造完成，** 從 2019 年 12 月到 2020 年 3 月。
+- **及時因應危機。** 2020 年初 COVID-19 疫情爆發時，網站新增了一個專區，提供因應這波危機的企業策略諮詢。
+
+## 背景
 
 Growinc Group Indonesia 是位於雅加達的整合行銷與廣告集團，旗下設有多家自有代理公司，包括數位公司 Growmint 與品牌體驗公司 Nesvara，並曾為 Laurier、Pristine 8+、GoFood 和 Lucky Strike 等品牌執行行銷活動。
 
-## 我們的作品
+代理商集團賣的是人才與成果，而不是產品，潛在客戶也希望能快速掌握整個集團的全貌。
+
+## 任務
+
+在一個頁面上呈現整個集團的樣貌、理念、業務內容與領導團隊，讓潛在客戶一分鐘內就能看懂。
+
+## 我們的做法
 
 我們在 2019 年 12 月至 2020 年 3 月期間，為 Growinc 設計並建置了企業官方網站。整站是一個長頁面，依照客戶詢問的順序，娓娓道出集團的故事。
 
@@ -24,11 +36,9 @@ Growinc Group Indonesia 是位於雅加達的整合行銷與廣告集團，旗�
 - **危機應變方案。** 2020 年初 COVID-19 來襲時，我們新增了一個區塊，提供針對危機的企業策略諮詢。
 - **聯絡方式。** 提供電子郵件與社群連結，每個畫面都設有 WhatsApp 按鈕。
 
-## 我們的做法
-
 廣告集團賣的是人才與成果，而不是單一產品，所以頁面先說明 Growinc 的理念，再以服務項目、實際的行銷活動和具名的領導者來佐證。整站濃縮在同一個捲動頁面，潛在客戶一分鐘內就能看完整個集團，而 WhatsApp 按鈕則能把興趣轉為對話。六年過去，這個網站依然是 Growinc 在網路上的門面。
 
-- **客戶** PT Growinc Group Indonesia
+- **客戶** [PT Growinc Group Indonesia](https://sawirstudio.com/zh-hant/clients/#growinc)
 - **網站網址** <https://growinc.id>
 
 ## 更多專案

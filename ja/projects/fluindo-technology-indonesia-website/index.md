@@ -8,11 +8,17 @@ description: Sawir Studio が設計・構築した、Fluindo Technology Indonesi
 
 ![Fluindo ウェブサイト](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## クライアントについて
+## 背景
 
 PT Fluindo Technology Indonesia は、ポンプ、バルブ、シール機器、熱交換器、セパレーターを扱う産業機器の正規代理店です。ITT Goulds Pumps、ITT Engineered Valves、Alfa Laval、AIGI などのブランドを取り扱い、2006 年から、発電所から製紙・パルプ工場まで、インドネシア各地の重要なプラントの稼働を支えてきました。
 
-## 制作したもの
+同社の製品を購入するのはプラントエンジニアです。必要な型番を把握しており、サプライヤーにその製品の設置実績があるという裏付けを求めています。
+
+## 課題
+
+どの製品もブランドやカテゴリーから簡単に見つけられるようにし、漠然とした成功事例ではなく、具体名を挙げた導入実績で裏付けます。
+
+## 取り組んだこと
 
 Sawir Studio は、同社のウェブサイトの設計と構築を担当しました。カテゴリー別・ブランド別に整理した製品カタログ、納入実績の紹介、お問い合わせへの導線を備えています。
 
@@ -21,11 +27,9 @@ Sawir Studio は、同社のウェブサイトの設計と構築を担当しま�
 - **2 言語対応。** サイト全体を英語とインドネシア語で提供しています。
 - **お問い合わせ。** 相談の依頼フォーム、お問い合わせページ、ニュースレターを用意しています。
 
-## 進め方
-
 Fluindo のお客様は、プラントのエンジニアです。必要な型式をすでに把握しており、サプライヤーにその機器の納入経験があるかどうかを確かめたいと考えています。そのため、カタログはカテゴリーだけでなくブランドからも探せるようにし、納入実績もあいまいな成功事例ではなく、プラント名、機器、サイズを明記して紹介しています。
 
-- **クライアント** Fluindo Technology Indonesia
+- **クライアント** [Fluindo Technology Indonesia](https://sawirstudio.com/ja/clients/#fluindo)
 - **ウェブサイト URL** <https://fluindo.co.id>
 
 ## その他の実績

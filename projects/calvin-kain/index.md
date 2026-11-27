@@ -8,11 +8,17 @@ description: Application built for Calvin Kain by Sawir Studio, in partnership w
 
 ![Calvin Kain Website](https://sawirstudio.com/assets/images/projects/calvin-kain.webp)
 
-## The client
+## The situation
 
 Calvin Kain is a hijab and scarf label with collections such as Printed, CK Couture, Jumbo Syar’i and Plain.
 
-## What we made
+Scarves sell on how they look, and shoppers usually know which line they want.
+
+## The task
+
+Build a store that lets the photography sell and puts each collection one click from the logo.
+
+## What we did
 
 Together with Clicks&co, we built its online store: a storefront that presents each collection through seasonal campaigns like the Summer Collection, with product pages, a cart and customer accounts.
 
@@ -21,11 +27,9 @@ Together with Clicks&co, we built its online store: a storefront that presents e
 - **Shop.** Product pages, a cart, customer accounts and the store’s terms.
 - **Brand pages.** About, services, contact and a Diary.
 
-## How we approached it
-
 Scarves sell on how they look in motion, so the storefront lets the photography do the work: a soft cream and gold palette, a centered gold C monogram, and campaign images that run the full width of the page. Shoppers usually know which line they want, so the collections sit in the second row of the menu instead of behind a products page.
 
-- **Client** Calvin Kain
+- **Client** [Calvin Kain](https://sawirstudio.com/clients/#calvin-kain)
 - **Website URL** <https://calvinkain.com>
 - **Partner** Clicks&co
 

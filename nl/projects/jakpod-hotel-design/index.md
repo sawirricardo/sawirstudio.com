@@ -8,11 +8,17 @@ description: Huisstijlontwerp voor JakPod Hotel, een podhotel in Thamrin, Jakart
 
 ![JakPod Hotel Design](https://sawirstudio.com/assets/images/projects/jakpod-hotel-design.webp)
 
-## De klant
+## De situatie
 
 JakPod Hotel is een podhotel in Thamrin, in het centrum van Jakarta, en hoort bij de Capsule Indonesia-familie.
 
-## Wat we hebben gemaakt
+Een podhotel verkoopt iets nieuws en compacts.
+
+## De opdracht
+
+Geef het een identiteit die modern aanvoelt zonder kil over te komen, op een uithangbord bij nacht en klein gedrukt naast de zustermerken.
+
+## Wat we deden
 
 Wij ontwierpen de huisstijl: een JAK-monogram in een cirkel met een verloop van roze naar blauw, met een dun lijnwoordmerk. Hier zie je het op het straatbord van het hotel.
 
@@ -21,11 +27,9 @@ Wij ontwierpen de huisstijl: een JAK-monogram in een cirkel met een verloop van 
 - **De locatieregel.** “Jakarta - Thamrin” zonder opsmuk onder het woordmerk.
 - **In gebruik.** Een zwart lichtbak-bord aan de straat, en de plek van het hotel op de visitekaartjes van de Capsule Indonesia-familie.
 
-## Onze aanpak
-
 Een podhotel biedt iets nieuws en compacts, dus de huisstijl moest modern aanvoelen zonder koud te worden. De dunne lijnen houden het merk licht, het kleurverloop geeft warmte op een zwart bord in het donker, en het monogram blijft leesbaar als het klein wordt gedrukt naast de andere merken van de groep.
 
-- **Klant** Jakpod Hotel Indonesia
+- **Klant** [Jakpod Hotel Indonesia](https://sawirstudio.com/nl/clients/#jakpod)
 
 ## Meer projecten
 

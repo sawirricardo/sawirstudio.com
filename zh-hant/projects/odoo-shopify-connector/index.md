@@ -40,9 +40,9 @@ Odoo Community Association（OCA）是一個非營利組織，負責維護多數
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![我的靈性旅程](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
+### 我的靈性旅程](https://sawirstudio.com/zh-hant/projects/my-spiritual-journey/)
 
 關於我們就先說到這裡。
 

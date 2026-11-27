@@ -10,11 +10,17 @@ Company Profile
 
 ![IRIJ Website](https://sawirstudio.com/assets/images/projects/indonesia-research-institute-japan-website.webp)
 
-## The client
+## The situation
 
 Indonesia Research Institute Japan (IRIJ) is a Jakarta research and consulting firm that helps Japanese organizations understand the Indonesian market, before and after they expand there. Its services include market research, consultation, promotion, interpreting and seminars.
 
-## What we made
+It sells expertise to Japanese companies, which want a sense of the work before they ask for a quote.
+
+## The task
+
+Build a site around proof of that expertise, with a reason for Japanese companies to come back.
+
+## What we did
 
 We built its company profile website, with its services, reports and seminars, news, and member login and registration.
 
@@ -24,11 +30,9 @@ We built its company profile website, with its services, reports and seminars, n
 - **Careers.** Job openings and a form to upload a CV.
 - **Members.** Login and registration for members.
 
-## How we approached it
-
 IRIJ sells expertise, so the site is built around proof of it. The news section publishes the institute’s own research notes on Indonesian markets, which gives Japanese companies a reason to come back and a sense of the work before they ever ask for a quote.
 
-- **Client** Indonesia Research Institute Japan
+- **Client** [Indonesia Research Institute Japan](https://sawirstudio.com/clients/#irij)
 - **Website URL** <https://irij-jakarta.com>
 
 ## More projects

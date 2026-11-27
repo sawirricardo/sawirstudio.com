@@ -47,12 +47,12 @@ Colvaron Conquest لعبة بطاقات تداول استراتيجية من ا�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
+[![رحلتي الروحية](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### رحلتي الروحية](https://sawirstudio.com/ar/projects/my-spiritual-journey/)
 [![تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### تطبيق Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
-[![تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### تطبيق DBTV](https://sawirstudio.com/ar/projects/dbtv-application/)
 
 يكفي حديثًا عن أنفسنا.
 

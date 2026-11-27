@@ -40,16 +40,20 @@ Die alltäglichen HR-Aufgaben sollen für alle Mitarbeitenden in der Hosentasche
 - **2024.** Anträge auf Schichtwechsel und eine Gesichtserkennung direkt auf dem Gerät für das Selfie beim Einstempeln. Danach folgte ein vollständiges Upgrade der technischen Basis der App, damit sie mit neuen Smartphones Schritt hält.
 - **2026.** Pausenzeiten mit Erinnerungen, eine neu entwickelte Teamansicht mit Filtern, ein neuer Startbildschirm und Releases per Skript, das beide Apps baut und signiert.
 
-## Mehr aus unserer Arbeit mit PeopleBond
-
-- [Die HR- und Payroll-Plattform](https://sawirstudio.com/de/projects/peoplebond-hcms-application/): Lohnabrechnung, die mit dem indonesischen Steuerrecht Schritt hält.
-- [Die Website](https://sawirstudio.com/de/projects/peoplebond-website/): eine zweisprachige Website, die das Produkt verkauft.
-
-- **Kunde** PeopleBond
+- **Kunde** [PeopleBond](https://sawirstudio.com/de/clients/peoplebond/)
 - **Zusammenarbeit seit** 2019
 - **Website-URL** [https://peoplebond.id](https://peoplebond.id/)
 - **App-Store-URL** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google-Play-Store-URL** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## Mehr für [PeopleBond](https://sawirstudio.com/de/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/de/projects/peoplebond-hcms-application/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond Website](https://sawirstudio.com/de/projects/peoplebond-website/)
 
 ## Weitere Projekte
 

@@ -8,11 +8,23 @@ description: Growinc Group Indonesia 的企业网站。该集团是雅加达的�
 
 ![Growinc Group Indonesia 首页](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
 
-## 客户
+## 成果
+
+- 上线六年后，**它依然是 Growinc 的官方网站。**
+- **用时四个月建成，** 从 2019 年 12 月到 2020 年 3 月。
+- **从容应对危机。** 2020 年初 COVID-19 来袭时，网站新增了一个板块，提供应对危机的商业战略咨询。
+
+## 项目背景
 
 Growinc Group Indonesia 是雅加达的一家综合营销广告集团，旗下设有多家自己的机构，包括数字公司 Growmint 和品牌体验公司 Nesvara，并为 Laurier、Pristine 8+、GoFood 和 Lucky Strike 等品牌策划过推广活动。
 
-## 我们做了什么
+代理集团出售的是人才与成果，而不是某一款产品，它的潜在客户希望快速了解整个集团。
+
+## 任务
+
+在一个页面上展示整个集团的全貌：它的理念、业务和领导者，让潜在客户一分钟内就能看明白。
+
+## 我们的工作
 
 我们在 2019 年 12 月至 2020 年 3 月期间设计并搭建了 Growinc 的企业网站。这是一个长单页，按客户通常询问的顺序讲述集团的故事。
 
@@ -24,11 +36,9 @@ Growinc Group Indonesia 是雅加达的一家综合营销广告集团，旗下�
 - **危机应对计划。** 2020 年初 COVID-19 来袭时，我们增加了一个板块，提供针对危机的业务策略咨询。
 - **联系方式。** 提供电子邮件、社交媒体链接，并在每个屏幕上都有 WhatsApp 按钮。
 
-## 我们的做法
-
 广告集团出售的是人才和成果，而不是某个产品，所以页面先讲 Growinc 的理念，再用服务、真实的推广活动和具名的领导者来佐证。整站只有一个滚动页面，潜在客户一分钟内就能看完整个集团，而 WhatsApp 按钮能把兴趣变成一次对话。六年过去，这个网站依然是 Growinc 在网络上的门面。
 
-- **客户** PT Growinc Group Indonesia
+- **客户** [PT Growinc Group Indonesia](https://sawirstudio.com/zh-hans/clients/#growinc)
 - **网站地址** <https://growinc.id>
 
 ## 更多项目

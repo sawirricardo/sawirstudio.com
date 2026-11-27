@@ -40,9 +40,9 @@ Vous souhaitez le faire installer ou l’adapter à vos boutiques ? Découvrez 
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![Mon cheminement spirituel](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
+### Mon cheminement spirituel](https://sawirstudio.com/fr/projects/my-spiritual-journey/)
 
 Assez parlé de nous.
 

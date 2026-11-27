@@ -8,11 +8,17 @@ description: Brochure a tre ante per Habitat Hills, un resort nella natura di 27
 
 ![Brochure di Habitat Hills](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## Il cliente
+## La situazione
 
 Habitat Hills è un resort immerso nella natura, su 27 ettari a Megamendung, Bogor, vicino alla cascata Curug 7 Cilember.
 
-## Cosa abbiamo realizzato
+I suoi ospiti arrivano da Jakarta per un weekend fuori città.
+
+## L’obiettivo
+
+Far venire voglia, a chi è a Jakarta, di salire in collina, con una brochure che si legge a colpo d’occhio.
+
+## Che cosa abbiamo fatto
 
 Ne abbiamo progettato la brochure a tre ante in verde foresta e terracotta, con la cascata in copertina e i servizi che fanno venire voglia di un weekend fuori Giacarta: 21 camere con vista sulle montagne e sulla città, un caffè, una sala riunioni, la piscina, un percorso per il jogging e un'area camping.
 
@@ -21,11 +27,9 @@ Ne abbiamo progettato la brochure a tre ante in verde foresta e terracotta, con 
 - **Ideale per.** Un pannello con i motivi per venire: rigenerarsi, ritrovarsi, ritiri aziendali e feste.
 - **Contatti.** Telefono, Instagram, sito web e l'indirizzo su Jalan Raya Puncak, con il logo della montagna.
 
-## Come ci siamo approcciati al progetto
-
 La brochure di un resort deve far venire voglia a chi vive a Giacarta di mettersi in macchina e salire sulla collina. Per questo sono le foto a parlare, i colori vengono dal luogo stesso, il verde della foresta e il terracotta degli edifici, e i testi restano abbastanza brevi da essere letti con un colpo d'occhio.
 
-- **Cliente** Habitat Hills
+- **Cliente** [Habitat Hills](https://sawirstudio.com/it/clients/#habitat-hills)
 
 ## Altri progetti
 

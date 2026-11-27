@@ -8,11 +8,17 @@ description: Capsule Indonesia のカプセルユニットの製品パンフレ�
 
 ![Capsule Indonesia パンフレットデザイン](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## クライアントについて
+## 背景
 
 Capsule Indonesia は、コンパクトな宿泊向けのカプセルユニットを手がける会社で、「Micro space, great experience.」をコンセプトに掲げています。
 
-## 制作したもの
+Capsule Indonesia の販売先は、旅行者ではなく企業です。
+
+## 課題
+
+「ポッドには何が備わっているのか」「自社の敷地に設置できるのか」という、購入を検討する企業の 2 つの疑問に、すばやく答えること。
+
+## 取り組んだこと
 
 製品パンフレットは、ポッドに合わせた近未来的なシルバーとブルーでデザインしました。各ユニットの特長や寸法、そしてカプセルの設置先として、空港、駅、港、鉱山や工業施設、従業員宿舎、レクリエーション施設を紹介しています。
 
@@ -21,11 +27,15 @@ Capsule Indonesia は、コンパクトな宿泊向けのカプセルユニッ�
 - **ユニット。** 各モデルの外寸とマットレスのサイズを掲載しています。
 - **設置に適した場所。** 空港や駅から鉱山、従業員用食堂まで、カプセルを設置できる場所をアイコンで示しています。
 
-## 進め方
-
 Capsule Indonesia の顧客は旅行者ではなく法人です。そのためパンフレットには、ポッドの中身は何か、自社の現場に設置できるか、という2つの疑問にすばやく答える役割があります。近未来的なデザインが製品の印象を強め、その下の仕様パネルが、購入を検討する方に必要な数値を伝えます。
 
-- **クライアント** Capsule Indonesia
+- **クライアント** [Capsule Indonesia](https://sawirstudio.com/ja/clients/capsule-indonesia/)
+
+## [Capsule Indonesia](https://sawirstudio.com/ja/clients/capsule-indonesia/) のその他の実績
+
+[![Digital Airport Hotel デザイン](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel デザイン](https://sawirstudio.com/ja/projects/digital-airport-hotel-design/)
 
 ## その他の実績
 

@@ -8,11 +8,22 @@ description: Sito web per PT SPP Indonesia, specialista di pompe antincendio, co
 
 ![Sito web SPP Indonesia](https://sawirstudio.com/assets/images/projects/spp-indonesia-website.webp)
 
-## Il cliente
+## Il risultato
+
+- **È tuttora il sito di SPP Indonesia.**
+- **Ogni tipo di pompa a un clic dal menu,** con una pagina dedicata e, in fondo a ogni pagina, la possibilità di chiamare o scrivere un’email.
+
+## La situazione
 
 PT SPP Indonesia è specializzata in sistemi di pompe antincendio: pompe antincendio end suction, split case, verticali inline e a turbina verticale, pompe multistadio, pompe jockey, pump package e controller. Ha sede a Cengkareng, Giacarta.
 
-## Cosa abbiamo realizzato
+Chi acquista, di solito, sa già quale pompa gli serve.
+
+## L’obiettivo
+
+Permettere a chi acquista di arrivare subito alla pompa che cerca e di mettersi in contatto senza dover andare a caccia di un numero di telefono.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato e realizzato il suo sito web attorno a questa gamma di prodotti, con una pagina per ogni tipo di pompa.
 
@@ -21,11 +32,9 @@ Abbiamo progettato e realizzato il suo sito web attorno a questa gamma di prodot
 - **Due lingue in una riga.** Il titolo in inglese, «Experts in Handling Fire Pump System», con il suo significato in indonesiano subito sotto.
 - **Contatti.** Un numero di telefono e un link e-mail in fondo a ogni pagina.
 
-## Come ci siamo approcciati al progetto
-
 Chi acquista da SPP di solito sa già quale pompa gli serve. Per questo il menu elenca direttamente ogni tipo di pompa, ogni pagina risponde a un solo prodotto e il modo per telefonare o scrivere è sempre a una scrollata di distanza.
 
-- **Cliente** PT SPP Indonesia
+- **Cliente** [PT SPP Indonesia](https://sawirstudio.com/it/clients/#spp-indonesia)
 - **URL del sito** <https://sppindonesia.co.id>
 
 ## Altri progetti

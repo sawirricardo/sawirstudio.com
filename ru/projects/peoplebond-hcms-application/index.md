@@ -40,16 +40,11 @@ PeopleBond продает индонезийским компаниям прог
 
 Спустя семь лет всегда есть соблазн переписать всё заново. Но мы раз за разом выбираем обновлять то, что уже есть: переходим на новые версии платформы и внедряем новые налоговые правила по мере их появления. Переписывание заморозило бы изменения в расчете зарплаты на месяцы, а закон ждать не будет.
 
-## Другие наши работы для PeopleBond
-
-- [Приложение для сотрудников pbConnect](https://sawirstudio.com/ru/projects/pbconnect/): учёт посещаемости, который трудно обмануть.
-- [Сайт](https://sawirstudio.com/ru/projects/peoplebond-website/): двуязычный сайт, который помогает продавать продукт.
-
-- **Клиент** PeopleBond
+- **Клиент** [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
 - **Работаем вместе** с 2019 года
 - **Адрес сайта** [https://peoplebond.id](https://peoplebond.id/)
 
-## Другие проекты
+## Другие проекты для [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
 
 [![Приложение PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond продает индонезийским компаниям прог
 [![Сайт PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### Сайт PeopleBond](https://sawirstudio.com/ru/projects/peoplebond-website/)
+
+## Другие проекты
+
 [![Приложение TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### Приложение TaniMilenial](https://sawirstudio.com/ru/projects/tani-milenial-application/)
+[![Сайт Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Сайт Growinc Group](https://sawirstudio.com/ru/projects/growinc-group-website/)
+[![Сайт Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Сайт Fluindo Technology Indonesia](https://sawirstudio.com/ru/projects/fluindo-technology-indonesia-website/)
 
 Хватит о нас.
 

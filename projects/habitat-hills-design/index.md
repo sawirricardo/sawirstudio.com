@@ -8,11 +8,17 @@ description: Tri-fold brochure for Habitat Hills, a 27-hectare nature resort in 
 
 ![Habitat Hills Brochure](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## The client
+## The situation
 
 Habitat Hills is a nature resort on 27 hectares in Megamendung, Bogor, near the Curug 7 Cilember waterfall.
 
-## What we made
+Its guests come up from Jakarta for a weekend away.
+
+## The task
+
+Make someone in Jakarta want to drive up the hill, in a brochure they read at a glance.
+
+## What we did
 
 We designed its tri-fold brochure in forest green and terracotta, with the waterfall on the cover and the facilities that sell a weekend away from Jakarta: 21 rooms with mountain and city views, a café, meeting room, pool, jogging track and camping ground.
 
@@ -21,11 +27,9 @@ We designed its tri-fold brochure in forest green and terracotta, with the water
 - **Suitable for.** A panel with the reasons to come: refreshing, gathering, retreat and party.
 - **Contact.** Phone, Instagram, website and the address on Jalan Raya Puncak, with the mountain logo.
 
-## How we approached it
-
 A resort brochure has to make someone in Jakarta want to drive up the hill. So the photos carry it, the colors come from the place itself, forest green and the terracotta of the buildings, and the copy stays short enough to read at a glance.
 
-- **Client** Habitat Hills
+- **Client** [Habitat Hills](https://sawirstudio.com/clients/#habitat-hills)
 
 ## More projects
 

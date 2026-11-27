@@ -40,16 +40,11 @@ PeopleBond 向印尼企業銷售人資與薪資軟體，可部署在雲端，也
 
 做了七年，打掉重寫的念頭總是很誘人。但我們每次都選擇升級現有系統：平台升級和新的稅務規定，一出現就著手處理。重寫會讓薪資功能好幾個月無法更動，而法規可不會等人。
 
-## 更多我們與 PeopleBond 合作的成果
-
-- [pbConnect 員工 App](https://sawirstudio.com/zh-hant/projects/pbconnect/)：讓出勤紀錄難以造假。
-- [官方網站](https://sawirstudio.com/zh-hant/projects/peoplebond-website/)：協助銷售產品的雙語網站。
-
-- **客戶** PeopleBond
+- **客戶** [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/)
 - **合作起始年份** 2019 年
 - **網站網址** [https://peoplebond.id](https://peoplebond.id/)
 
-## 更多專案
+## 更多 [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/) 的相關內容
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond 向印尼企業銷售人資與薪資軟體，可部署在雲端，也
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/zh-hant/projects/peoplebond-website/)
+
+## 更多專案
+
 [![TaniMilenial 應用程式](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial 應用程式](https://sawirstudio.com/zh-hant/projects/tani-milenial-application/)
+[![Growinc Group 網站](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group 網站](https://sawirstudio.com/zh-hant/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia 網站](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia 網站](https://sawirstudio.com/zh-hant/projects/fluindo-technology-indonesia-website/)
 
 關於我們就先說到這裡。
 

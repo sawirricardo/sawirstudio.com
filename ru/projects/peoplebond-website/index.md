@@ -32,14 +32,18 @@ description: Кейс: в 2026 году Sawir Studio переделала сай
 - **Понятный следующий шаг.** Кнопка «Book a Demo» есть на каждой странице, а форма сразу ведёт в чат с командой в WhatsApp.
 - **Удобно читать.** Сайт подстраивается под светлую или тёмную тему, выбранную посетителем.
 
-## Другие наши работы для PeopleBond
-
-- [Платформа для управления персоналом и расчёта зарплаты](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/): расчёт зарплаты, который успевает за налоговым законодательством Индонезии.
-- [Приложение для сотрудников pbConnect](https://sawirstudio.com/ru/projects/pbconnect/): учёт посещаемости, который трудно обмануть.
-
-- **Клиент** PeopleBond
+- **Клиент** [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
 - **Работаем вместе** с 2019 года
 - **Адрес сайта** [https://peoplebond.id](https://peoplebond.id/)
+
+## Другие проекты для [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
+[![Приложение PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### Приложение PeopleBond Connect](https://sawirstudio.com/ru/projects/pbconnect/)
 
 ## Другие проекты
 

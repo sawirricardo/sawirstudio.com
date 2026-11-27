@@ -40,16 +40,11 @@ PeopleBond
 
 بعد سبع سنوات، تبقى إعادة بناء النظام من الصفر فكرة مغرية دائماً. لكننا نختار في كل مرة تحديث النظام القائم بدلاً من ذلك: نتعامل مع ترقيات المنصة والقواعد الضريبية الجديدة أولاً بأول. فإعادة البناء من الصفر ستجمّد التعديلات على الرواتب لأشهر، والقانون لا ينتظر.
 
-## المزيد من أعمالنا مع PeopleBond
-
-- [تطبيق الموظفين pbConnect](https://sawirstudio.com/ar/projects/pbconnect/): تسجيل حضور يصعب التلاعب به.
-- [الموقع الإلكتروني](https://sawirstudio.com/ar/projects/peoplebond-website/): موقع بلغتين يسوّق للمنتج.
-
-- **العميل** PeopleBond
+- **العميل** [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
 - **نعمل معًا منذ** 2019
 - **رابط الموقع الإلكتروني** [https://peoplebond.id](https://peoplebond.id/)
 
-## مشاريع أخرى
+## المزيد من أعمالنا لصالح [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
 
 [![تطبيق PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond
 [![موقع PeopleBond الإلكتروني](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### موقع PeopleBond الإلكتروني](https://sawirstudio.com/ar/projects/peoplebond-website/)
+
+## مشاريع أخرى
+
 [![تطبيق TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### تطبيق TaniMilenial](https://sawirstudio.com/ar/projects/tani-milenial-application/)
+[![موقع Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### موقع Growinc Group](https://sawirstudio.com/ar/projects/growinc-group-website/)
+[![موقع Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### موقع Fluindo Technology Indonesia](https://sawirstudio.com/ar/projects/fluindo-technology-indonesia-website/)
 
 يكفي حديثًا عن أنفسنا.
 

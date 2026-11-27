@@ -8,11 +8,17 @@ description: Design della campagna sulla firma digitale per il Ministero indones
 
 ![Brochure Tanda Tangan Digital](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
-## Il cliente
+## La situazione
 
 Il Ministero indonesiano della Comunicazione e dell’Informatica (Kominfo) voleva far conoscere la firma digitale al grande pubblico.
 
-## Cosa abbiamo realizzato
+La firma digitale si basa su una catena di fiducia che la maggior parte delle persone non vede mai.
+
+## L’obiettivo
+
+Mostrare al pubblico come si compone l’ecosistema della firma digitale, con un’immagine che chiunque possa seguire.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato i materiali della campagna «Hello Tanda Tangan Digital!», compreso un diagramma isometrico dell’ecosistema della firma digitale che mostra come si collegano tra loro certification authority, emittenti di certificati elettronici (PSrE), utenti e istituzioni.
 
@@ -21,11 +27,9 @@ Abbiamo progettato i materiali della campagna «Hello Tanda Tangan Digital!», c
 - **Una legenda semplice.** Quattro colori per quattro relazioni: riconoscimento della CA, emissione dei certificati elettronici, registrazione e audit.
 - **Un unico sistema visivo.** Sfumature dal blu al viola, onde e una linea di battito che attraversano ogni pagina.
 
-## Come ci siamo approcciati al progetto
-
 La firma digitale si basa su una catena di fiducia che la maggior parte delle persone non vede mai. Disegnarla come una mappa isometrica, con edifici per le istituzioni e persone per gli utenti, trasforma una normativa in qualcosa che si può seguire con il dito.
 
-- **Cliente** Ministero indonesiano della Comunicazione e dell'Informatica
+- **Cliente** [Indonesia's Ministry of Communication and Informatic](https://sawirstudio.com/it/clients/#kominfo)
 
 ## Altri progetti
 

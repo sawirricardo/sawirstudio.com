@@ -8,11 +8,21 @@ description: Application mobile TaniMilenial pour l'agriculture, la pêche et l'
 
 ![Bannière Tani Milenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## Le client
+## Le résultat
+
+- **Livrée aux agriculteurs sur Google Play.**
+
+## La situation
 
 TaniMilenial est une plateforme dédiée à l'agriculture, à la pêche et à l'élevage, avec pour slogan « Ragam solusi untuk petani di era digital » (des solutions variées pour les agriculteurs à l'ère du numérique). Elle a été conçue pour les agriculteurs, les pisciculteurs et les éleveurs indonésiens.
 
-## Ce que nous avons réalisé
+Ses utilisateurs passent leurs journées aux champs, pas sur des applications.
+
+## La mission
+
+Réunir la gestion de l’exploitation, les prix du marché, le savoir-faire et les fournitures dans une seule application Android, facile à utiliser même pour les personnes peu habituées aux applications.
+
+## Ce que nous avons fait
 
 Avec Clicks&Co, nous avons développé son application Android, publiée sur Google Play.
 
@@ -22,13 +32,11 @@ Avec Clicks&Co, nous avons développé son application Android, publiée sur Goo
 - **Boutique.** Les fournitures agricoles directement dans l'application, avec des promotions, comme des engrais à prix réduit.
 - **Solde bonus.** Un solde Saldo Bonus, affiché en haut de l'écran d'accueil.
 
-## Notre approche
-
 L'application a été pensée pour des personnes qui passent leurs journées aux champs, pas devant des applications. L'écran d'accueil place donc chaque fonctionnalité à portée d'un seul geste, dans une grille de grandes icônes, le solde bonus figure tout en haut, et chaque rubrique emploie les mots simples que l'agriculteur utilise déjà, comme Kebun Saya et Info Pasar, plutôt que du jargon d'application.
 
 ![Captures d'écran de Tani Milenial sur Google Play Store](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **Client** TaniMilenial
+- **Client** [TaniMilenial](https://sawirstudio.com/fr/clients/#tanimilenial)
 - **Partenaire** Clicks&Co
 
 ## Autres projets

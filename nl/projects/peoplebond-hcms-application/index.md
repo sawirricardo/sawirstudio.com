@@ -40,16 +40,11 @@ De webapplicatie omvat medewerkers, werving, urenregistratie, salarisverwerking,
 
 Na zeven jaar blijft het verleidelijk om alles opnieuw te bouwen. Toch kiezen we er steeds voor om te upgraden wat er al is: platformupgrades en nieuwe belastingregels pakken we op zodra ze komen. Bij een herbouw zouden wijzigingen in de salarisverwerking maandenlang stilliggen, en de wet wacht niet.
 
-## Meer van ons werk met PeopleBond
-
-- [De pbConnect-app voor medewerkers](https://sawirstudio.com/nl/projects/pbconnect/): aanwezigheidsregistratie waarmee moeilijk te frauderen is.
-- [De website](https://sawirstudio.com/nl/projects/peoplebond-website/): een tweetalige site die het product verkoopt.
-
-- **Klant** PeopleBond
+- **Klant** [PeopleBond](https://sawirstudio.com/nl/clients/peoplebond/)
 - **Samenwerking sinds** 2019
 - **Website-URL** [https://peoplebond.id](https://peoplebond.id/)
 
-## Meer projecten
+## Meer voor [PeopleBond](https://sawirstudio.com/nl/clients/peoplebond/)
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ Na zeven jaar blijft het verleidelijk om alles opnieuw te bouwen. Toch kiezen we
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/nl/projects/peoplebond-website/)
+
+## Meer projecten
+
 [![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial Application](https://sawirstudio.com/nl/projects/tani-milenial-application/)
+[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group Website](https://sawirstudio.com/nl/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia Website](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia Website](https://sawirstudio.com/nl/projects/fluindo-technology-indonesia-website/)
 
 Genoeg over ons.
 

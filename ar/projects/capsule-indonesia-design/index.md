@@ -8,11 +8,17 @@ description: كتيب منتجات لوحدات Capsule Indonesia الكبسول
 
 ![تصميم كتيب Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## العميل
+## الوضع
 
 تصنع Capsule Indonesia وحدات كبسولية للإقامة في المساحات الصغيرة، تحت شعار «مساحة صغيرة، تجربة كبيرة».
 
-## ماذا أنجزنا
+تبيع Capsule Indonesia للشركات، لا للمسافرين.
+
+## المهمة
+
+الإجابة سريعًا عن سؤالَي المشتري: ما الذي تحتويه الكبسولة، وهل تناسب موقعي؟
+
+## ما قمنا به
 
 صممنا كتيب منتجاتها بطابع مستقبلي يجمع الفضي والأزرق ليتناسب مع الكبسولات، وعرضنا فيه مزايا كل وحدة وأبعادها والأماكن التي تناسبها: المطارات ومحطات القطار والموانئ ومواقع التعدين والمواقع الصناعية وسكن الموظفين وأماكن الترفيه.
 
@@ -21,11 +27,15 @@ description: كتيب منتجات لوحدات Capsule Indonesia الكبسول
 - **الوحدات.** كل طراز مع أبعاده الخارجية وأبعاد المرتبة.
 - **الأماكن المناسبة.** أيقونات لكل مكان يمكن أن تناسبه الكبسولة، من المطارات ومحطات القطار إلى المناجم وقاعات طعام الموظفين.
 
-## كيف تناولنا المشروع
-
 تبيع Capsule Indonesia للشركات لا للمسافرين، لذا يجب أن يجيب الكتيب بسرعة عن سؤالين: ما الذي تحتويه الكبسولة، وهل تناسب موقعي. الإطار المستقبلي يجعل المنتج لا يُنسى، ولوحات المواصفات تحته تمنح المشترين الأرقام التي يحتاجونها.
 
-- **العميل** Capsule Indonesia
+- **العميل** [Capsule Indonesia](https://sawirstudio.com/ar/clients/capsule-indonesia/)
+
+## المزيد من أعمالنا لصالح [Capsule Indonesia](https://sawirstudio.com/ar/clients/capsule-indonesia/)
+
+[![تصميم Digital Airport Hotel](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### تصميم Digital Airport Hotel](https://sawirstudio.com/ar/projects/digital-airport-hotel-design/)
 
 ## مشاريع أخرى
 

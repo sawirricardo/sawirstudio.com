@@ -10,11 +10,23 @@ description: Koperasi HOB 的購物 App：社員可依分類瀏覽家用品，�
 
 ![Koperasi HOB App 橫幅圖](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-## 客戶
+## 成果
+
+- **自 2025 年 12 月起已在 App Store 上架。**
+- **社員向自家合作社訂購商品。** 可選擇外送或自取，透過 iPaymu 線上付款或銀行轉帳。
+- **合作社自行營運管理。** 商品、訂單、社員和各門市庫存，都在同一個管理後台處理。
+
+## 背景
 
 Koperasi HOB 是一間合作社，透過自家門市向社員販售日常家用品。
 
-## 我們的作品
+這裡的社員是鄰居和同事，不是匿名的顧客。
+
+## 任務
+
+讓社員用手機就能在合作社的門市購物，也讓合作社自行經營整個商店，而且不會有人付了錢才發現商品剛好賣完。
+
+## 我們的做法
 
 我們從頭到尾打造了整個購物系統：社員使用的 App、背後的 API，以及合作社用來營運的管理後台。這款 App 已於 2025 年 12 月在 App Store 上架。
 
@@ -24,15 +36,13 @@ Koperasi HOB 是一間合作社，透過自家門市向社員販售日常家用�
 - **各門市庫存。** 每間門市各自管理庫存，管理員可以只關閉單一門市的購物功能，不影響其他門市。
 - **管理後台。** 工作人員可管理商品、分類、精選商品、訂單與社員，也能將任何一筆訂單列印成 PDF。
 
-## 我們的做法
-
 合作社的社員是鄰居和同事，而不是匿名的消費者，所以 App 的步驟力求精簡：選商品、選擇宅配或自取、付款。真正費工的部分在背後。庫存依門市分別追蹤，並在結帳時再次確認，避免有人付了款才發現商品剛好售完；運費則依合作社自行設定的區域計算，而不是照快遞業者的價目表。
 
 ![Koperasi HOB App 截圖 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB App 截圖 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB App 截圖 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)
 
-- **客戶** Koperasi HOB
+- **客戶** [Koperasi HOB](https://sawirstudio.com/zh-hant/clients/#koperasi-hob)
 - **網站網址** <https://hob.my.id>
 - **App Store 網址** <https://apps.apple.com/id/app/koperasi-hob/id6756156054>
 

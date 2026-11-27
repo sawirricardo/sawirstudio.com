@@ -32,14 +32,18 @@ Expliquer simplement chaque module et chaque intégration, en indonésien et en 
 - **Une étape suivante claire.** Le bouton « Réserver une démo » figure sur chaque page, et le formulaire mène directement à une discussion WhatsApp avec l’équipe.
 - **Un confort de lecture.** Le site s’adapte au mode clair ou sombre choisi par le visiteur.
 
-## D’autres réalisations avec PeopleBond
-
-- [La plateforme RH et paie](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/) : une paie qui suit l’évolution du droit fiscal indonésien.
-- [L’application pbConnect pour les employés](https://sawirstudio.com/fr/projects/pbconnect/) : un pointage difficile à falsifier.
-
-- **Client** PeopleBond
+- **Client** [PeopleBond](https://sawirstudio.com/fr/clients/peoplebond/)
 - **Notre collaboration dure depuis** 2019
 - **Adresse du site web** [https://peoplebond.id](https://peoplebond.id/)
+
+## Autres projets pour [PeopleBond](https://sawirstudio.com/fr/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/)
+[![Application PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### Application PeopleBond Connect](https://sawirstudio.com/fr/projects/pbconnect/)
 
 ## Autres projets
 

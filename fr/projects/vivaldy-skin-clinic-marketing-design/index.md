@@ -8,11 +8,17 @@ description: Design marketing pour Vivaldy Skin Clinic par Sawir Studio, comme u
 
 ![Design Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## Le client
+## La situation
 
 Vivaldy Skin Clinic est une clinique de dermatologie et vénéréologie située à Mataram, sur l'île de Lombok, dirigée par le dr Dedianto Hidajat, Sp.DVE.
 
-## Ce que nous avons réalisé
+Les vœux d’une clinique dermatologique doivent être reçus comme une attention, et non comme une publicité.
+
+## La mission
+
+Envoyer aux patients des vœux pour l’Aïd qui soient personnels tout en gardant l’identité visuelle de la clinique.
+
+## Ce que nous avons fait
 
 Nous avons conçu ses supports marketing, comme cette carte de vœux de l'Aïd al-Fitr (« Wajah bersih dan bersinar di hari yang fitri »), dans la palette blanc doux et turquoise de la clinique.
 
@@ -20,13 +26,20 @@ Nous avons conçu ses supports marketing, comme cette carte de vœux de l'Aïd a
 - **Une touche personnelle.** Des mentions « À » et « De », pour que la clinique puisse remettre chaque carte à un patient en l'appelant par son nom.
 - **La palette.** Un blanc doux avec une bande turquoise derrière les mots clés, du même turquoise que le logo en V de la clinique.
 
-## Notre approche
-
 Une carte de vœux envoyée par une clinique dermatologique doit ressembler à un cadeau, pas à une publicité. Elle met donc le vœu en avant, le relie discrètement à ce que fait la clinique, une peau nette et éclatante, et garde le logo petit, dans un coin.
 
 Pour le quotidien de la clinique, nous avons également créé [MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/), le système sur lequel la clinique fonctionne, ainsi que son application patients pour iPhone et Android.
 
-- **Client** Vivaldy Skin Clinic
+- **Client** [Vivaldy Skin Clinic](https://sawirstudio.com/fr/clients/vivaldy-skin-clinic/)
+
+## Autres projets pour [Vivaldy Skin Clinic](https://sawirstudio.com/fr/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
+[![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic Website](https://sawirstudio.com/fr/projects/vivaldy-skin-clinic-website/)
 
 ## Autres projets
 

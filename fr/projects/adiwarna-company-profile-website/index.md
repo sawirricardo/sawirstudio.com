@@ -8,11 +8,17 @@ description: Site web vitrine de PT Adiwarna Anugerah Abadi, conçu et développ
 
 ![Site web d'Adiwarna](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## Le client
+## La situation
 
 PT Adiwarna Anugerah Abadi Tbk est une entreprise cotée en bourse spécialisée dans la protection incendie. Active depuis 2007, elle se concentre sur les industries à haut risque. Elle prend en charge l'ensemble du chantier : conception et ingénierie, fourniture, installation, essais et mise en service, puis entretien et maintenance.
 
-## Ce que nous avons réalisé
+La protection incendie est achetée par des ingénieurs et des équipes achats qui ont besoin de faire confiance à l'entreprise avant de l'appeler.
+
+## La mission
+
+Dire en une phrase ce que fait Adiwarna, puis le prouver par les systèmes que l'entreprise installe et les projets réalisés.
+
+## Ce que nous avons fait
 
 Nous avons conçu et développé son site web vitrine : une page d'accueil claire, « Fire Protection System Experts », qui mène à ses produits, à ses systèmes d'extinction et à son portfolio de projets, avec une courte vidéo de présentation de l'entreprise.
 
@@ -20,11 +26,9 @@ Nous avons conçu et développé son site web vitrine : une page d'accueil clai
 - **Portfolio de projets.** Des réalisations pour des clients des secteurs minier, des infrastructures et des centres de données.
 - **Vidéo de présentation.** Une courte vidéo de présentation de l'entreprise sur la page d'accueil.
 
-## Notre approche
-
 La protection incendie est achetée par des ingénieurs et des équipes achats qui doivent avoir confiance dans l'entreprise avant même de l'appeler. La page d'accueil indique donc en une phrase ce que fait Adiwarna, puis présente directement les systèmes qu'elle installe et les projets qui le prouvent, plutôt que de s'ouvrir sur un long historique de l'entreprise.
 
-- **Client** PT Adiwarna Anugerah Abadi
+- **Client** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/fr/clients/#adiwarna)
 - **URL du site web** <https://adiwarna.co.id>
 
 ## Autres projets

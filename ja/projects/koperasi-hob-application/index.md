@@ -10,11 +10,23 @@ description: Koperasi HOB のショッピングアプリ。組合員はカテゴ
 
 ![Koperasi HOB アプリのバナー](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-## クライアントについて
+## 成果
+
+- **2025 年 12 月から App Store で公開中です。**
+- **組合員は、自分たちの協同組合に注文できます。** 配送か店頭受け取りを利用でき、支払いは iPaymu によるオンライン決済または銀行振込です。
+- **運営は協同組合自身で行えます。** 商品、注文、組合員、各店舗の在庫を 1 つの管理画面で管理できます。
+
+## 背景
 
 Koperasi HOB は、自前の店舗を通じて組合員に日用品を販売している協同組合です。
 
-## 制作したもの
+利用する組合員は、匿名の買い物客ではなく、ご近所の方や職場の仲間です。
+
+## 課題
+
+組合員はスマートフォンから協同組合の店舗で買い物ができ、協同組合はショップ全体を自分たちで運営できるようにすること。しかも、売り切れたばかりの商品に誰もお金を払うことがないようにすること。
+
+## 取り組んだこと
 
 組合員向けアプリ、その裏側で動く API、そして協同組合が運営に使う管理画面まで、ショップ全体を私たちで開発しました。アプリは 2025 年 12 月に App Store で公開されています。
 
@@ -24,15 +36,13 @@ Koperasi HOB は、自前の店舗を通じて組合員に日用品を販売し�
 - **店舗ごとの在庫管理。** 各店舗がそれぞれ在庫を持ち、管理者は他の店舗に影響を与えることなく、特定の店舗だけ買い物の受付を停止できます。
 - **管理画面。** スタッフは商品、カテゴリ、注目商品、注文、会員を管理でき、注文書は PDF として印刷できます。
 
-## 進め方
-
 協同組合の組合員は、顔の見えない買い物客ではなく、近所の方や同僚です。そのため、アプリの操作は商品を選び、配送か店頭受け取りかを選び、支払うだけと、できるだけ少ないステップにしています。大変なのはその裏側です。在庫は店舗ごとに管理し、チェックアウト時にもう一度確認するので、直前に売り切れた商品の代金を支払ってしまうことはありません。配送料も、運送会社の料金表ではなく、協同組合が自分で設定したゾーンをもとに算出します。
 
 ![Koperasi HOB アプリのスクリーンショット 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB アプリのスクリーンショット 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB アプリのスクリーンショット 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)
 
-- **クライアント** Koperasi HOB
+- **クライアント** [Koperasi HOB](https://sawirstudio.com/ja/clients/#koperasi-hob)
 - **ウェブサイト URL** <https://hob.my.id>
 - **App Store URL** <https://apps.apple.com/id/app/koperasi-hob/id6756156054>
 

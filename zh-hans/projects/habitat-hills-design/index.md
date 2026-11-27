@@ -8,11 +8,17 @@ description: Habitat Hills 三折页宣传册。Habitat Hills 是位于茂物 Me
 
 ![Habitat Hills 宣传册](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## 客户
+## 项目背景
 
 Habitat Hills 是一处占地 27 公顷的自然度假村，位于茂物 Megamendung，毗邻 Curug 7 Cilember 瀑布。
 
-## 我们做了什么
+它的客人从雅加达上山，来这里度个周末。
+
+## 任务
+
+用一本一眼就能看懂的宣传册，让身在雅加达的人想开车上山。
+
+## 我们的工作
 
 我们为它设计了三折页宣传册，以森林绿和陶土色为主色调，封面是瀑布，内页展示了最能打动人周末出游的设施：21 间可观山景和城市景观的客房、咖啡馆、会议室、泳池、慢跑道和露营地。
 
@@ -21,11 +27,9 @@ Habitat Hills 是一处占地 27 公顷的自然度假村，位于茂物 Megamen
 - **适合场合。** 一个列出来访理由的版块：放松身心、聚会、休整静修和派对。
 - **联系方式。** 电话、Instagram、网站，以及位于 Jalan Raya Puncak 的地址，旁边是山形标志。
 
-## 我们的做法
-
 度假村的宣传册，要让雅加达的人产生开车上山的念头。所以我们让照片来说话，配色取自这个地方本身：森林的绿，以及建筑的陶土色，文字则保持简短，一眼就能读完。
 
-- **客户** Habitat Hills
+- **客户** [Habitat Hills](https://sawirstudio.com/zh-hans/clients/#habitat-hills)
 
 ## 更多项目
 

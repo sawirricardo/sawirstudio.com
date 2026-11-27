@@ -8,11 +8,21 @@ description: Sawir Studio が Clicks&Co と共同で開発した、農業・水�
 
 ![Tani Milenial バナー](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## クライアントについて
+## 成果
+
+- **Google Play で公開され、農家の皆様に届けられています。**
+
+## 背景
 
 TaniMilenial は、農業・水産業・畜産業のためのプラットフォームです。キャッチフレーズは「Ragam solusi untuk petani di era digital」（デジタル時代の農家のための、さまざまなソリューション）。インドネシアの農家、養殖業者、畜産農家に向けて作られました。
 
-## 制作したもの
+ユーザーは一日の大半を畑で過ごし、アプリに触れる時間はあまりありません。
+
+## 課題
+
+農場管理、市場価格、ノウハウ、資材を 1 つの Android アプリにまとめ、普段あまりアプリを使わない方にも使いやすくすることが目標でした。
+
+## 取り組んだこと
 
 Clicks&Co と協力して Android アプリを開発し、Google Play で公開しました。
 
@@ -22,13 +32,11 @@ Clicks&Co と協力して Android アプリを開発し、Google Play で公開�
 - **ストア** 農業資材をアプリ内で購入できます。肥料の割引などのプロモーションもあります。
 - **ボーナス残高** ホーム画面の上部に、Saldo Bonus の残高が表示されます。
 
-## 進め方
-
 このアプリは、一日の大半を畑で過ごし、アプリにはあまり触れない方のために作りました。そのためホーム画面では、すべての機能を大きなアイコンのグリッドに並べ、ワンタップで開けるようにしています。ボーナス残高は一番上に表示し、各セクションの名称には、Kebun Saya や Info Pasar のように農家の方が普段使っている言葉を使い、アプリ特有の専門用語は避けています。
 
 ![Tani Milenial の Google Play ストアのスクリーンショット](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **クライアント** TaniMilenial
+- **クライアント** [TaniMilenial](https://sawirstudio.com/ja/clients/#tanimilenial)
 - **パートナー** Clicks&Co
 
 ## その他の実績

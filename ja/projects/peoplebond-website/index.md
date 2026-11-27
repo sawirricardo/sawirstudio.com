@@ -32,14 +32,18 @@ PeopleBond の製品は進化を重ね、ウェブサイトの内容が追いつ
 - **次のステップが明確。** すべてのページに「デモを予約」を配置し、フォームからチームとの WhatsApp チャットに直接進めるようにしました。
 - **快適な読みやすさ。** サイトの表示は、訪問者のライトモードまたはダークモードの設定に合わせて切り替わります。
 
-## PeopleBond 向けのその他の制作実績
-
-- [人事・給与プラットフォーム](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)：インドネシアの税法に対応し続ける給与計算。
-- [従業員向けアプリ pbConnect](https://sawirstudio.com/ja/projects/pbconnect/)：不正が難しい勤怠記録。
-
-- **クライアント** PeopleBond
+- **クライアント** [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/)
 - **協業開始** 2019 年
 - **ウェブサイト URL** [https://peoplebond.id](https://peoplebond.id/)
+
+## [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/) のその他の実績
+
+[![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect アプリ](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect アプリ](https://sawirstudio.com/ja/projects/pbconnect/)
 
 ## その他の実績
 

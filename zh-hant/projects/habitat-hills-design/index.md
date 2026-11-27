@@ -8,11 +8,17 @@ description: Habitat Hills 三折頁摺頁手冊。Habitat Hills 是位於印尼
 
 ![Habitat Hills 摺頁手冊](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## 客戶
+## 背景
 
 Habitat Hills 是一座佔地 27 公頃的自然度假村，位於印尼茂物（Bogor）的 Megamendung，鄰近 Curug 7 Cilember 瀑布。
 
-## 我們的作品
+它的客人大多從雅加達上山，度過一個週末假期。
+
+## 任務
+
+用一份讓人一眼就能看懂的手冊，讓雅加達的人想開車上山走一趟。
+
+## 我們的做法
 
 我們為它設計了三折頁摺頁手冊，以森林綠和赤陶色為主色，封面是瀑布，內頁則呈現最能吸引人從雅加達出發、來此度週末的設施：21 間可看山景與城市景觀的客房，以及咖啡館、會議室、泳池、慢跑步道和露營區。
 
@@ -21,11 +27,9 @@ Habitat Hills 是一座佔地 27 公頃的自然度假村，位於印尼茂物�
 - **適合場合。** 以一個版面列出前來的理由：放鬆身心、聚會、靜修和派對。
 - **聯絡方式。** 電話、Instagram、網站，以及位於 Jalan Raya Puncak 的地址，並附上山形標誌。
 
-## 我們的做法
-
 度假村的摺頁手冊，必須讓雅加達的人想開車上山。因此我們讓照片來說話，配色取自當地本身：森林綠，以及建築的赤陶色，文字則維持簡短，讓人一眼就能讀完。
 
-- **客戶** Habitat Hills
+- **客戶** [Habitat Hills](https://sawirstudio.com/zh-hant/clients/#habitat-hills)
 
 ## 更多專案
 

@@ -15,7 +15,7 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 [開始合作專案](https://sawirstudio.com/zh-hant/contact/) [查看客戶案例](#portfolio)
 
 - **9** 年客戶專案開發經驗，始於 2017 年
-- **26** 家合作過的企業與機構
+- **27** 家企業與機構採用我們打造的成果
 - **2019** PeopleBond 開始與我們合作的那一年，至今仍在持續。
 - **7** 款自家 App 已上架 App Store
 
@@ -114,6 +114,7 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[看看我們為各個客戶打造了什麼](https://sawirstudio.com/zh-hant/clients/)
 
 ## 我們也推出自己的產品
 

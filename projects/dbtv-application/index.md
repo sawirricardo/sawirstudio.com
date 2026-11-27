@@ -10,11 +10,23 @@ Sermons, prayer and daily devotionals from Ps. Debby Basjir
 
 ![DBTV app banner](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-## The client
+## The result
+
+- **On the App Store and Google Play.**
+- **New every day, without an app update.** Devotionals, sermons and events come from DBTV’s platform and appear on their own.
+- **One congregation, one version.** When the app changes, it asks people to update, so nobody is stuck with an old bug.
+
+## The situation
 
 DBTV is the media channel of Ps. Debby Basjir’s ministry, with sermons, prayer services, worship and devotionals for a congregation that follows along online.
 
-## What we made
+The congregation follows the ministry online, and something new is posted every day.
+
+## The task
+
+Put the whole ministry in one app the congregation keeps on their phone, and keep it current every day without the team touching the app.
+
+## What we did
 
 We built the DBTV app for iOS and Android, so the congregation can follow the ministry from their phones.
 
@@ -26,15 +38,13 @@ We built the DBTV app for iOS and Android, so the congregation can follow the mi
 - **DBTV+.** A membership with early access to exclusive content.
 - **Notifications.** Push notifications when something new is posted.
 
-## How we approached it
-
 A ministry posts something new every day, so the app doesn’t hard-code any of it: devotionals, sermons and events all come from DBTV’s platform and appear without an app update. When the app itself does change, it asks people to update, so the whole congregation stays on the same version and nobody is stuck with an old bug.
 
 ![DBTV app screenshot 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV app screenshot 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV app screenshot 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)
 
-- **Client** DBTV
+- **Client** [DBTV](https://sawirstudio.com/clients/#dbtv)
 - **Website URL** <https://dbtv.my.id>
 - **App Store URL** <https://apps.apple.com/id/app/dbtv/id6752770752>
 - **Google Playstore URL** <https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk>

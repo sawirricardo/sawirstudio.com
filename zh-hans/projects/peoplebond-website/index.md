@@ -32,14 +32,18 @@ PeopleBond 的产品不断发展，原有网站已经跟不上了。网站很少
 - **下一步清晰明确。** 每个页面上都有“Book a Demo”（预约演示），填完表单即可直接进入与团队的 WhatsApp 聊天。
 - **阅读舒适。** 网站会跟随访客的浅色或深色模式设置。
 
-## 我们与 PeopleBond 合作的更多项目
-
-- [HR 与薪资平台](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/)：让薪资核算跟上印度尼西亚税法。
-- [pbConnect 员工应用](https://sawirstudio.com/zh-hans/projects/pbconnect/)：让考勤难以作假。
-
-- **客户** PeopleBond
+- **客户** [PeopleBond](https://sawirstudio.com/zh-hans/clients/peoplebond/)
 - **合作始于** 2019 年
 - **网站地址** [https://peoplebond.id](https://peoplebond.id/)
+
+## [PeopleBond](https://sawirstudio.com/zh-hans/clients/peoplebond/) 的更多项目
+
+[![PeopleBond HCMS 应用](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS 应用](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect App](https://sawirstudio.com/zh-hans/projects/pbconnect/)
 
 ## 更多项目
 

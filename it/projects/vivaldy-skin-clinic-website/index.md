@@ -8,11 +8,23 @@ description: Sito web di Vivaldy Skin Clinic, clinica di dermatologia e venereol
 
 ![Sito web Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
-## Il cliente
+## Il risultato
+
+- **Da ogni pagina si prenota un consulto.** Il pulsante principale di ciascuna pagina apre WhatsApp, il canale che i pazienti in Indonesia usano già per prenotare.
+- **Una pagina per ognuno dei 21 trattamenti della clinica,** dai trattamenti viso al laser, ai filler e al botox.
+- **Seguito dal 2022,** e in seguito ricostruito perché ogni pagina si carichi velocemente.
+
+## La situazione
 
 Vivaldy Skin Clinic è una clinica di dermatologia e venereologia a Mataram, nell'isola di Lombok, diretta dal dr. Dedianto Hidajat, Sp.DVE. I pazienti la valutano 4,9 su 5 in base a 150 recensioni su Google.
 
-## Cosa abbiamo realizzato
+La maggior parte dei pazienti lo trova cercando un dermatologo a Mataram, e prenota via chat, non tramite un modulo.
+
+## L’obiettivo
+
+Farsi trovare da chi cerca in zona e trasformare ogni visita al sito in una prenotazione su WhatsApp.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato e realizzato il sito web della clinica, che presenta i trattamenti, lo shop e i recapiti, e lo curiamo dal 2022.
 
@@ -22,14 +34,21 @@ Abbiamo progettato e realizzato il sito web della clinica, che presenta i tratta
 - **Risposte.** Orari di apertura, domande frequenti su tempi di recupero, prenotazione e prezzi, e recensioni dei pazienti.
 - **Promo, blog e shop.** Le promozioni in corso, gli articoli e lo shop di prodotti per la cura della pelle della clinica.
 
-## Come ci siamo approcciati al progetto
-
 La maggior parte dei pazienti trova la clinica cercando uno specialista della pelle a Mataram, e in Indonesia si prenota via chat, non tramite un modulo. Per questo i titoli e le descrizioni delle pagine puntano alle ricerche locali, e il pulsante principale di ogni pagina apre WhatsApp. In seguito abbiamo ricostruito il sito con pagine statiche, così ogni pagina si carica velocemente.
 
 Per l'attività quotidiana della clinica abbiamo realizzato anche [MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/), il sistema su cui lavora la clinica e la sua app per i pazienti, per iPhone e Android.
 
-- **Cliente** Vivaldy Skin Clinic
+- **Cliente** [Vivaldy Skin Clinic](https://sawirstudio.com/it/clients/vivaldy-skin-clinic/)
 - **URL del sito** <https://vivaldyskinclinic.id>
+
+## Altri lavori per [Vivaldy Skin Clinic](https://sawirstudio.com/it/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
+[![Design marketing Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Design marketing Vivaldy Skin Clinic](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-marketing-design/)
 
 ## Altri progetti
 

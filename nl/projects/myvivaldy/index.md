@@ -8,11 +8,23 @@ description: MyVivaldy, het klinieksysteem en de patiëntenapp van Vivaldy Skin 
 
 ![Schermen van de MyVivaldy-app: een bezoek boeken, bezoekgeschiedenis en account](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
-## De klant
+## Het resultaat
+
+- **Patiënten boeken zelf.** MyVivaldy staat in de App Store en op Google Play, en toont alleen tijden waarop de arts echt beschikbaar is.
+- **Eén systeem voor de hele kliniek.** Afspraken, medische dossiers en de apotheek draaien op hetzelfde systeem waarin de app boekt.
+- **Sinds 2024 bij ons in onderhoud.**
+
+## De situatie
 
 Vivaldy Skin Clinic is een kliniek voor dermatologie en venereologie van PT Viva Estemedika Indonesia. We bouwden ook de [website](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/) en maakten het [marketingontwerp](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-marketing-design/).
 
-## Wat we hebben gemaakt
+De patiënten boeken via chat, en de dag draait om afspraken, medische dossiers en de eigen apotheek.
+
+## De opdracht
+
+Geef patiënten een manier om op hun telefoon te boeken en hun behandeling te volgen, en geef de kliniek één systeem erachter, zodat de app nooit een tijd aanbiedt die de kliniek niet kan waarmaken.
+
+## Wat we deden
 
 MyVivaldy bestaat uit twee delen: het systeem waarop de kliniek draait en de app die patiënten bij zich hebben.
 
@@ -25,26 +37,33 @@ De patiëntenapp, voor iPhone en Android:
 - **Bezoekgeschiedenis.** Eerdere bezoeken met de ontvangen behandelingen en de voorgeschreven medicijnen.
 - **Account.** Log in met een e-mailadres of telefoonnummer, in het Engels of Bahasa Indonesia, en verwijder je account direct vanuit de app.
 
-## Onze aanpak
-
 Eén systeem bedient beide kanten. De tijden die een patiënt in de app ziet, komen uit dezelfde agenda die de kliniek bijhoudt, en een bezoek dat de arts vastlegt, verschijnt in de geschiedenis van de patiënt. De apps zijn native op iPhone en Android en communiceren rechtstreeks met het systeem van de kliniek. We werken sinds 2024 aan MyVivaldy.
 
-- **Klant** Vivaldy Skin Clinic
+- **Klant** [Vivaldy Skin Clinic](https://sawirstudio.com/nl/clients/vivaldy-skin-clinic/)
 - **Platforms** iPhone, Android, web
 - **App Store-URL** <https://apps.apple.com/id/app/myvivaldy/id6790103528>
 - **Google Play-URL** <https://play.google.com/store/apps/details?id=com.myvivaldy.patient>
 
+## Meer voor [Vivaldy Skin Clinic](https://sawirstudio.com/nl/clients/vivaldy-skin-clinic/)
+
+[![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic Website](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/)
+[![Vivaldy Skin Clinic Marketing Design](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Vivaldy Skin Clinic Marketing Design](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-marketing-design/)
+
 ## Meer projecten
 
+[![Mijn spirituele reis](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### Mijn spirituele reis](https://sawirstudio.com/nl/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
 [![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### DBTV Application](https://sawirstudio.com/nl/projects/dbtv-application/)
-[![Kantong Sayur Application](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### Kantong Sayur Application](https://sawirstudio.com/nl/projects/kantong-sayur-application/)
 
 Genoeg over ons.
 

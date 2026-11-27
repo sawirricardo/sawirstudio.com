@@ -8,9 +8,15 @@ description: Продуктовый буклет для капсульных м�
 
 ![Дизайн буклета Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## Клиент
+## Ситуация
 
 Capsule Indonesia производит капсульные модули для компактного размещения под девизом «Микропространство — максимум впечатлений».
+
+Capsule Indonesia продает бизнесу, а не путешественникам.
+
+## Задача
+
+Быстро ответить на два вопроса покупателя: что внутри капсулы и поместится ли она на моем объекте.
 
 ## Что мы сделали
 
@@ -21,11 +27,15 @@ Capsule Indonesia производит капсульные модули для 
 - **Модели.** Каждая модель с внешними габаритами и размерами матраса.
 - **Где подходит.** Иконки для каждого места, где уместна капсула: от аэропортов и вокзалов до шахт и столовых для персонала.
 
-## Как мы подошли к задаче
-
 Capsule Indonesia продаёт свою продукцию бизнесу, а не путешественникам, поэтому буклет должен быстро отвечать на два вопроса: что находится внутри капсулы и подойдёт ли она для моего объекта. Футуристичное оформление делает продукт запоминающимся, а панели со спецификациями ниже дают покупателям нужные цифры.
 
-- **Клиент** Capsule Indonesia
+- **Клиент** [Capsule Indonesia](https://sawirstudio.com/ru/clients/capsule-indonesia/)
+
+## Другие проекты для [Capsule Indonesia](https://sawirstudio.com/ru/clients/capsule-indonesia/)
+
+[![Дизайн Digital Airport Hotel](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Дизайн Digital Airport Hotel](https://sawirstudio.com/ru/projects/digital-airport-hotel-design/)
 
 ## Другие проекты
 

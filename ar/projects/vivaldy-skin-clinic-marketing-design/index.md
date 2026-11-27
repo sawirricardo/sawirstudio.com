@@ -8,11 +8,17 @@ description: تصميم مواد تسويقية لعيادة Vivaldy Skin Clinic
 
 ![تصميم Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## العميل
+## الوضع
 
 Vivaldy Skin Clinic عيادة للأمراض الجلدية والتناسلية في ماتارام بجزيرة لومبوك، يقودها الدكتور Dedianto Hidajat، أخصائي الأمراض الجلدية والتناسلية (Sp.DVE).
 
-## ماذا أنجزنا
+بطاقة التهنئة من عيادة للعناية بالبشرة ينبغي أن تبدو هدية لا إعلانًا.
+
+## المهمة
+
+أرسلوا إلى مرضاكم تهنئة بالعيد بلمسة شخصية تحافظ على هوية العيادة البصرية.
+
+## ما قمنا به
 
 صممنا موادها التسويقية، ومنها بطاقة تهنئة بعيد الفطر هذه (“Wajah bersih dan bersinar di hari yang fitri”)، بلوني الأبيض الهادئ والفيروزي اللذين تعتمدهما العيادة.
 
@@ -20,13 +26,20 @@ Vivaldy Skin Clinic عيادة للأمراض الجلدية والتناسلي�
 - **لمسة شخصية.** خانتا «إلى» و«من»، ليتسنى للعيادة تسليم كل بطاقة إلى المريض باسمه.
 - **الألوان.** أبيض هادئ مع شريط فيروزي خلف الكلمات الأساسية، وهو نفس الفيروزي المستخدم في شعار العيادة على شكل حرف V.
 
-## كيف تناولنا المشروع
-
 يجب أن تبدو بطاقة التهنئة الصادرة عن عيادة جلدية كهدية، لا كإعلان. لذلك تبدأ البطاقة بالأمنية، وتربطها برفق بما تقدمه العيادة، أي البشرة النقية المشرقة، وتُبقي الشعار صغيرًا في الزاوية.
 
 ولتسيير العمل اليومي للعيادة، بنينا أيضًا [MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)، وهو النظام الذي تعمل عليه العيادة وتطبيق المرضى لأجهزة iPhone وAndroid.
 
-- **العميل** Vivaldy Skin Clinic
+- **العميل** [Vivaldy Skin Clinic](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/)
+
+## المزيد من أعمالنا لـ [Vivaldy Skin Clinic](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
+[![موقع Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### موقع Vivaldy Skin Clinic](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/)
 
 ## مشاريع أخرى
 

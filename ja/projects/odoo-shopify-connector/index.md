@@ -40,9 +40,9 @@ Odoo Community Association（OCA）は、Odoo Community のユーザーの多く
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
-[![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![私の精神的な歩み](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
+### 私の精神的な歩み](https://sawirstudio.com/ja/projects/my-spiritual-journey/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

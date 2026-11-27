@@ -8,11 +8,17 @@ description: Brochure di prodotto per le capsule di Capsule Indonesia, progettat
 
 ![Design della brochure di Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## Il cliente
+## La situazione
 
 Capsule Indonesia realizza capsule per soggiorni compatti, con il claim «Micro space, great experience».
 
-## Cosa abbiamo realizzato
+Capsule Indonesia vende alle aziende, non ai viaggiatori.
+
+## L’obiettivo
+
+Rispondere in fretta alle due domande di chi compra: cosa c’è in una capsula e se è adatta alla propria struttura.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato la sua brochure di prodotto in un argento e blu futuristici, in linea con i pod, con le caratteristiche e le dimensioni di ogni unità e i luoghi in cui le capsule trovano posto: aeroporti, stazioni ferroviarie, porti, siti minerari e industriali, alloggi per il personale e aree ricreative.
 
@@ -21,11 +27,15 @@ Abbiamo progettato la sua brochure di prodotto in un argento e blu futuristici, 
 - **Unità.** Ogni modello con le dimensioni esterne e quelle del materasso.
 - **Adatta a.** Icone per ogni luogo in cui una capsula trova posto, dagli aeroporti e le stazioni ferroviarie alle miniere e alle mense del personale.
 
-## Come ci siamo approcciati al progetto
-
 Capsule Indonesia vende alle aziende, non ai viaggiatori, quindi la brochure deve rispondere subito a due domande: che cosa c'è in un pod e se entra nel vostro sito. La cornice futuristica rende il prodotto memorabile, mentre i pannelli con le specifiche sottostanti danno ai clienti i numeri di cui hanno bisogno.
 
-- **Cliente** Capsule Indonesia
+- **Cliente** [Capsule Indonesia](https://sawirstudio.com/it/clients/capsule-indonesia/)
+
+## Altri progetti per [Capsule Indonesia](https://sawirstudio.com/it/clients/capsule-indonesia/)
+
+[![Design Digital Airport Hotel](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Design Digital Airport Hotel](https://sawirstudio.com/it/projects/digital-airport-hotel-design/)
 
 ## Altri progetti
 

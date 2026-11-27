@@ -8,11 +8,21 @@ description: TaniMilenial Mobile App für Landwirtschaft, Fischerei und Viehhalt
 
 ![Tani Milenial Banner](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## Der Kunde
+## Das Ergebnis
+
+- **Für Landwirte auf Google Play veröffentlicht.**
+
+## Die Ausgangslage
 
 TaniMilenial ist eine Plattform für Landwirtschaft, Fischerei und Viehhaltung mit dem Leitspruch „Ragam solusi untuk petani di era digital“ (Lösungen für Landwirte im digitalen Zeitalter). Sie wurde für indonesische Landwirte, Fischzüchter und Viehhalter entwickelt.
 
-## Was wir umgesetzt haben
+Die Nutzer verbringen ihren Tag auf dem Feld, nicht in Apps.
+
+## Die Aufgabe
+
+Betriebsführung, Marktpreise, Fachwissen und Betriebsmittel in einer Android-App vereinen, die auch Menschen leichtfällt, die selten Apps nutzen.
+
+## Was wir gemacht haben
 
 Gemeinsam mit Clicks&Co haben wir die Android-App dazu entwickelt, die bei Google Play veröffentlicht wurde.
 
@@ -22,13 +32,11 @@ Gemeinsam mit Clicks&Co haben wir die Android-App dazu entwickelt, die bei Googl
 - **Shop.** Landwirtschaftlicher Bedarf direkt in der App, mit Aktionen wie vergünstigtem Dünger.
 - **Bonusguthaben.** Ein Saldo-Bonus-Guthaben, das oben auf dem Startbildschirm angezeigt wird.
 
-## Unser Vorgehen
-
 Die App wurde für Menschen gemacht, die ihren Tag auf dem Feld verbringen und nicht in Apps. Deshalb liegt auf dem Startbildschirm jede Funktion nur einen Fingertipp entfernt in einem Raster großer Symbole, das Bonusguthaben steht ganz oben, und jeder Bereich verwendet einfache Begriffe, die Landwirte ohnehin benutzen, etwa Kebun Saya und Info Pasar, statt App-Fachsprache.
 
 ![Tani Milenial Screenshots aus dem Google Play Store](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **Kunde** TaniMilenial
+- **Kunde** [TaniMilenial](https://sawirstudio.com/de/clients/#tanimilenial)
 - **Partner** Clicks&Co
 
 ## Weitere Projekte

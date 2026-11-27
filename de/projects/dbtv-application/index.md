@@ -10,11 +10,23 @@ Predigten, Gebete und tägliche Andachten von Ps. Debby Basjir
 
 ![DBTV-App-Banner](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-## Der Kunde
+## Das Ergebnis
+
+- **Im App Store und bei Google Play.**
+- **Jeden Tag Neues, ganz ohne App-Update.** Andachten, Predigten und Veranstaltungen kommen von der Plattform von DBTV und erscheinen automatisch.
+- **Eine Gemeinde, eine Version.** Wenn sich die App ändert, bittet sie zum Update, damit niemand mit einem alten Fehler hängen bleibt.
+
+## Die Ausgangslage
 
 DBTV ist der Medienkanal des Dienstes von Ps. Debby Basjir mit Predigten, Gebetsgottesdiensten, Lobpreis und Andachten für eine Gemeinde, die online mitverfolgt.
 
-## Was wir umgesetzt haben
+Die Gemeinde folgt der Arbeit des Werks online, und jeden Tag erscheint etwas Neues.
+
+## Die Aufgabe
+
+Die gesamte Arbeit des Werks in einer App bündeln, die die Gemeinde auf ihrem Smartphone behält, und sie täglich aktuell halten, ohne dass das Team an der App etwas ändern muss.
+
+## Was wir gemacht haben
 
 Wir haben die DBTV-App für iOS und Android entwickelt, damit die Gemeinde den Dienst bequem per Smartphone verfolgen kann.
 
@@ -26,15 +38,13 @@ Wir haben die DBTV-App für iOS und Android entwickelt, damit die Gemeinde den D
 - **DBTV+.** Eine Mitgliedschaft mit frühem Zugang zu exklusiven Inhalten.
 - **Benachrichtigungen.** Push-Benachrichtigungen, sobald etwas Neues veröffentlicht wird.
 
-## Unser Vorgehen
-
 Ein Dienst veröffentlicht jeden Tag etwas Neues, deshalb ist in der App nichts fest eingebaut: Andachten, Predigten und Veranstaltungen kommen alle von der Plattform von DBTV und erscheinen ohne App-Update. Wenn sich die App selbst ändert, werden die Nutzer zum Update aufgefordert. So sind alle in der Gemeinde auf demselben Stand und niemand bleibt mit einem alten Fehler zurück.
 
 ![DBTV-App-Screenshot 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV-App-Screenshot 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV-App-Screenshot 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)
 
-- **Kunde** DBTV
+- **Kunde** [DBTV](https://sawirstudio.com/de/clients/#dbtv)
 - **Website-URL** <https://dbtv.my.id>
 - **App-Store-URL** <https://apps.apple.com/id/app/dbtv/id6752770752>
 - **Google-Play-Store-URL** <https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk>

@@ -40,16 +40,20 @@ description: 案例研究：pbConnect，PeopleBond 的 iPhone 與 Android 員工
 - **2024 年。** 新增調班申請，以及打卡自拍的裝置端人臉偵測，接著全面升級 App 的底層架構，讓它能持續支援新款手機。
 - **2026 年。** 休息時間與提醒功能、重新打造並加入篩選條件的團隊畫面、全新首頁，以及透過指令碼建置並簽署兩個平台 App 的發布流程。
 
-## 更多我們與 PeopleBond 合作的成果
-
-- [人資與薪資平台](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)：跟得上印尼稅法的薪資計算。
-- [官方網站](https://sawirstudio.com/zh-hant/projects/peoplebond-website/)：協助銷售產品的雙語網站。
-
-- **客戶** PeopleBond
+- **客戶** [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/)
 - **合作起始年份** 2019 年
 - **網站網址** [https://peoplebond.id](https://peoplebond.id/)
 - **App Store 網址** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google Play 商店網址** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## 更多 [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/) 的相關內容
+
+[![PeopleBond HCMS 應用程式](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS 應用程式](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond Website](https://sawirstudio.com/zh-hant/projects/peoplebond-website/)
 
 ## 更多專案
 

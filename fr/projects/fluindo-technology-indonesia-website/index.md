@@ -8,11 +8,17 @@ description: Site web de Fluindo Technology Indonesia, conçu et développé par
 
 ![Site Fluindo](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## Le client
+## La situation
 
 PT Fluindo Technology Indonesia est un distributeur industriel agréé de pompes, vannes, dispositifs d’étanchéité, échangeurs de chaleur et séparateurs, pour des marques comme ITT Goulds Pumps, ITT Engineered Valves, Alfa Laval et AIGI. Elle assure depuis 2006 le fonctionnement d’installations critiques dans toute l’Indonésie, des centrales électriques aux papeteries.
 
-## Ce que nous avons réalisé
+Ses acheteurs sont des ingénieurs d’usine qui connaissent la référence du modèle dont ils ont besoin et veulent la preuve que le fournisseur l’a déjà installé.
+
+## La mission
+
+Permettre de trouver facilement chaque produit par marque ou par catégorie, et l’appuyer par des installations citées nommément plutôt que par de vagues témoignages de réussite.
+
+## Ce que nous avons fait
 
 Nous avons conçu et développé son site web : un catalogue de produits organisé par catégorie et par marque, des références de projets, et un accès direct pour envoyer une demande.
 
@@ -21,11 +27,9 @@ Nous avons conçu et développé son site web : un catalogue de produits organi
 - **Deux langues.** L’ensemble du site est disponible en anglais et en indonésien.
 - **Demandes.** Une demande de consultation, une page de contact et une newsletter.
 
-## Notre approche
-
 Les clients de Fluindo sont des ingénieurs d’usine. Ils connaissent le numéro de modèle dont ils ont besoin et veulent la preuve que le fournisseur l’a déjà installé. Le catalogue se parcourt donc par marque autant que par catégorie, et chaque référence de projet nomme l’usine, l’équipement et sa taille, au lieu de raconter une vague réussite.
 
-- **Client** Fluindo Technology Indonesia
+- **Client** [Fluindo Technology Indonesia](https://sawirstudio.com/fr/clients/#fluindo)
 - **URL du site** <https://fluindo.co.id>
 
 ## Autres projets

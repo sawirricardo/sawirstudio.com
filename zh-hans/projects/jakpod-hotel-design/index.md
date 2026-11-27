@@ -8,11 +8,17 @@ description: 为雅加达 Thamrin 的胶囊旅馆 JakPod Hotel 所做的品牌�
 
 ![JakPod Hotel 设计](https://sawirstudio.com/assets/images/projects/jakpod-hotel-design.webp)
 
-## 客户
+## 项目背景
 
 JakPod Hotel 是一家位于雅加达市中心 Thamrin 的胶囊旅馆，隶属于 Capsule Indonesia 旗下。
 
-## 我们做了什么
+胶囊酒店卖的是一种新颖、紧凑的产品。
+
+## 任务
+
+要为它打造一套现代而不冷淡的形象，无论是在夜晚的街头招牌上，还是缩小后与旗下姊妹品牌印在一起，都要如此。
+
+## 我们的工作
 
 我们为它设计了品牌形象：粉色到蓝色渐变圆形中的 JAK 字母组合标志，搭配细线条的文字标识，图中展示的是酒店的街边招牌。
 
@@ -21,11 +27,9 @@ JakPod Hotel 是一家位于雅加达市中心 Thamrin 的胶囊旅馆，隶属�
 - **位置标注。**“Jakarta - Thamrin”简洁地排在文字标识下方。
 - **实际应用。** 街边的黑色灯箱招牌，以及酒店在 Capsule Indonesia 旗下品牌名片上的位置。
 
-## 我们的做法
-
 胶囊旅馆提供的是全新而紧凑的住宿体验，所以品牌形象既要有现代感，又不能显得冰冷。细线条让标志显得轻盈，渐变色让它在夜晚的黑色招牌上多了一份温暖，即使印得很小，与集团旗下其他品牌并排出现在名片上，字母组合标志依然清晰易辨。
 
-- **客户** Jakpod Hotel Indonesia
+- **客户** [Jakpod Hotel Indonesia](https://sawirstudio.com/zh-hans/clients/#jakpod)
 
 ## 更多项目
 

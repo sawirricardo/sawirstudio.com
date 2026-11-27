@@ -10,11 +10,23 @@ Preken, gebed en dagelijkse devotionals van Ps. Debby Basjir
 
 ![Banner van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-## De klant
+## Het resultaat
+
+- **In de App Store en Google Play.**
+- **Elke dag iets nieuws, zonder app-update.** Overdenkingen, preken en evenementen komen van het platform van DBTV en verschijnen vanzelf.
+- **Eén gemeente, één versie.** Als de app verandert, vraagt die mensen om te updaten, zodat niemand met een oude bug blijft zitten.
+
+## De situatie
 
 DBTV is het mediakanaal van de bediening van Ps. Debby Basjir, met preken, gebedsdiensten, aanbidding en devotionals voor een gemeente die online meekijkt.
 
-## Wat we hebben gemaakt
+De gemeente volgt de bediening online, en er komt elke dag iets nieuws online.
+
+## De opdracht
+
+Breng de hele bediening onder in één app die gemeenteleden op hun telefoon houden, en houd die elke dag actueel zonder dat het team aan de app hoeft te sleutelen.
+
+## Wat we deden
 
 We bouwden de DBTV-app voor iOS en Android, zodat de gemeente de bediening vanaf de telefoon kan volgen.
 
@@ -26,15 +38,13 @@ We bouwden de DBTV-app voor iOS en Android, zodat de gemeente de bediening vanaf
 - **DBTV+.** Een lidmaatschap met vroege toegang tot exclusieve content.
 - **Notificaties.** Pushmeldingen zodra er iets nieuws is geplaatst.
 
-## Onze aanpak
-
 Een bediening plaatst elke dag iets nieuws, dus de app heeft niets vastgecodeerd: devotionals, preken en evenementen komen allemaal van het platform van DBTV en verschijnen zonder app-update. Als de app zelf verandert, vraagt hij mensen om te updaten, zodat de hele gemeente dezelfde versie gebruikt en niemand blijft zitten met een oude bug.
 
 ![Screenshot 1 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![Screenshot 2 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![Screenshot 3 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)
 
-- **Klant** DBTV
+- **Klant** [DBTV](https://sawirstudio.com/nl/clients/#dbtv)
 - **Website-URL** <https://dbtv.my.id>
 - **App Store-URL** <https://apps.apple.com/id/app/dbtv/id6752770752>
 - **Google Play Store-URL** <https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk>

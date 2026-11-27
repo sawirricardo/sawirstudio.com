@@ -8,11 +8,17 @@ description: Sawir Studio 為印尼通訊與資訊部設計的數位簽章宣傳
 
 ![Tanda Tangan Digital 手冊](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
-## 客戶
+## 背景
 
 印尼通訊與資訊部（Kominfo）希望向一般大眾介紹數位簽章。
 
-## 我們的作品
+數位簽章仰賴一條多數人從未看見的信任鏈。
+
+## 任務
+
+用一張人人都看得懂的圖，向大眾說明數位簽章生態系的各個環節如何串連。
+
+## 我們的做法
 
 我們設計了「Hello Tanda Tangan Digital!」宣傳活動的相關素材，其中包含一張等角視圖的數位簽章生態系圖，說明憑證機構、電子憑證簽發機構（PSrE）、使用者與各機關單位之間如何環環相扣。
 
@@ -21,11 +27,9 @@ description: Sawir Studio 為印尼通訊與資訊部設計的數位簽章宣傳
 - **簡單明瞭的圖例。** 以四種顏色對應四種關係：CA 認可、簽發電子憑證、註冊與稽核。
 - **統一的視覺系統。** 藍紫漸層、波浪與脈搏線條，貫穿每一頁。
 
-## 我們的做法
-
 數位簽章仰賴一條多數人看不見的信任鏈。我們把它畫成一張等角視圖地圖，以建築代表機關單位、以人物代表使用者，讓一套法規變得可以用手指一步步跟著看懂。
 
-- **客戶** 印尼通訊與資訊部（Indonesia's Ministry of Communication and Informatic）
+- **客戶** [Indonesia's Ministry of Communication and Informatic](https://sawirstudio.com/zh-hant/clients/#kominfo)
 
 ## 更多專案
 

@@ -8,11 +8,17 @@ description: Sito web per Fluindo Technology Indonesia, progettato e realizzato 
 
 ![Sito Fluindo](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## Il cliente
+## La situazione
 
 PT Fluindo Technology Indonesia è un distributore industriale autorizzato di pompe, valvole, dispositivi di tenuta, scambiatori di calore e separatori, per marchi come ITT Goulds Pumps, ITT Engineered Valves, Alfa Laval e AIGI. Dal 2006 mantiene in funzione impianti critici in tutta l'Indonesia, dalle centrali elettriche alle cartiere.
 
-## Cosa abbiamo realizzato
+I suoi clienti sono ingegneri di impianto che conoscono il codice del modello che serve loro e vogliono la prova che il fornitore lo abbia già installato.
+
+## L’obiettivo
+
+Fare in modo che ogni prodotto si trovi facilmente per marchio o categoria, e sostenerlo con installazioni citate per nome anziché con vaghe storie di successo.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato e realizzato il suo sito web: un catalogo prodotti organizzato per categoria e per marchio, i riferimenti dei progetti e un percorso diretto per inviare una richiesta.
 
@@ -21,11 +27,9 @@ Abbiamo progettato e realizzato il suo sito web: un catalogo prodotti organizzat
 - **Due lingue.** Tutto il sito in inglese e in indonesiano.
 - **Richieste.** Una richiesta di consulenza, una pagina di contatto e una newsletter.
 
-## Come ci siamo approcciati al progetto
-
 Chi acquista da Fluindo sono ingegneri di impianto. Conoscono il numero di modello che cercano e vogliono la prova che il fornitore lo abbia già installato. Per questo il catalogo si può sfogliare per marchio oltre che per categoria, e ogni riferimento di progetto indica l'impianto, l'apparecchiatura e la sua taglia, invece di una vaga storia di successo.
 
-- **Cliente** Fluindo Technology Indonesia
+- **Cliente** [Fluindo Technology Indonesia](https://sawirstudio.com/it/clients/#fluindo)
 - **URL del sito** <https://fluindo.co.id>
 
 ## Altri progetti

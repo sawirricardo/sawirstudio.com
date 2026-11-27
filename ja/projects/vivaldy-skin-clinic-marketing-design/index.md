@@ -8,11 +8,17 @@ description: Sawir Studio による Vivaldy Skin Clinic のマーケティング
 
 ![Vivaldy Skin Clinic デザイン](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## クライアントについて
+## 背景
 
 Vivaldy Skin Clinic は、ロンボク島マタラムにある皮膚科・性病科のクリニックで、dr. Dedianto Hidajat, Sp.DVE が院長を務めています。
 
-## 制作したもの
+スキンクリニックからのグリーティングカードは、広告ではなく贈り物のように感じられるものであるべきです。
+
+## 課題
+
+患者様一人ひとりに寄り添いながら、クリニックらしいデザインも保った Eid のご挨拶をお届けします。
+
+## 取り組んだこと
 
 Sawir Studio では、このイード・アル＝フィトル（断食明け大祭）のグリーティングカード（「Wajah bersih dan bersinar di hari yang fitri」）など、クリニックのマーケティング素材をデザインしました。色は、クリニックのやわらかなホワイトとターコイズを基調にしています。
 
@@ -20,13 +26,20 @@ Sawir Studio では、このイード・アル＝フィトル（断食明け大�
 - **パーソナルな心遣い。** 宛名（To）と差出人（From）の欄を設け、クリニックが患者様一人ひとりにお名前入りでカードをお渡しできるようにしました。
 - **カラーパレット。** やわらかなホワイトを背景に、キーワードの後ろへターコイズの帯を配置しました。このターコイズは、クリニックの V のロゴと同じ色です。
 
-## 進め方
-
 皮膚科クリニックのグリーティングカードは、広告ではなく贈り物のように感じられるものであるべきです。そこでこのカードでは、まず祝福の言葉を前面に出し、クリニックの仕事である清らかで輝く素肌へとさりげなくつなげ、ロゴは隅に小さく添えています。
 
 クリニックの日々の業務向けには、クリニックが業務に使うシステムであり、iPhone と Android に対応した患者様向けアプリでもある [MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/) も制作しました。
 
-- **クライアント** Vivaldy Skin Clinic
+- **クライアント** [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/)
+
+## [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/) のその他の実績
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
+[![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/)
 
 ## その他の実績
 

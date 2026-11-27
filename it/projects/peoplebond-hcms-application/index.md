@@ -40,16 +40,11 @@ L’applicazione web copre dipendenti, selezione del personale, timesheet, paghe
 
 Dopo sette anni, la tentazione di riscrivere tutto c’è sempre. Noi continuiamo invece a scegliere di aggiornare ciò che esiste: gli aggiornamenti della piattaforma e le nuove regole fiscali si gestiscono man mano che arrivano. Una riscrittura bloccherebbe per mesi le modifiche alle paghe, e la legge non aspetta.
 
-## Altri lavori realizzati con PeopleBond
-
-- [L’app pbConnect per i dipendenti](https://sawirstudio.com/it/projects/pbconnect/): rilevazione delle presenze difficile da falsificare.
-- [Il sito web](https://sawirstudio.com/it/projects/peoplebond-website/): un sito bilingue che vende il prodotto.
-
-- **Cliente** PeopleBond
+- **Cliente** [PeopleBond](https://sawirstudio.com/it/clients/peoplebond/)
 - **Collaboriamo dal** 2019
 - **URL del sito web** [https://peoplebond.id](https://peoplebond.id/)
 
-## Altri progetti
+## Altri contenuti per [PeopleBond](https://sawirstudio.com/it/clients/peoplebond/)
 
 [![App PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ Dopo sette anni, la tentazione di riscrivere tutto c’è sempre. Noi continuiam
 [![Sito web PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### Sito web PeopleBond](https://sawirstudio.com/it/projects/peoplebond-website/)
+
+## Altri progetti
+
 [![Applicazione TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### Applicazione TaniMilenial](https://sawirstudio.com/it/projects/tani-milenial-application/)
+[![Sito web Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Sito web Growinc Group](https://sawirstudio.com/it/projects/growinc-group-website/)
+[![Sito web Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Sito web Fluindo Technology Indonesia](https://sawirstudio.com/it/projects/fluindo-technology-indonesia-website/)
 
 Basta parlare di noi.
 

@@ -8,11 +8,17 @@ description: Brochure produit pour les unités capsules de Capsule Indonesia, co
 
 ![Conception de la brochure de Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## Le client
+## La situation
 
 Capsule Indonesia fabrique des unités capsules pour des séjours compacts, sous la signature « Micro space, great experience ».
 
-## Ce que nous avons réalisé
+Capsule Indonesia vend aux entreprises, pas aux voyageurs.
+
+## La mission
+
+Répondre vite aux deux questions d’un acheteur : qu’y a-t-il dans une capsule, et conviendra-t-elle à mon site ?
+
+## Ce que nous avons fait
 
 Nous avons conçu sa brochure produit dans un style futuriste argenté et bleu, assorti aux capsules. Elle présente les caractéristiques et les dimensions de chaque unité, ainsi que les lieux où les installer : aéroports, gares, ports, sites miniers et industriels, logements du personnel et lieux de loisirs.
 
@@ -21,11 +27,15 @@ Nous avons conçu sa brochure produit dans un style futuriste argenté et bleu, 
 - **Les unités.** Chaque modèle avec ses dimensions extérieures et celles du matelas.
 - **Pour qui, pour où.** Des icônes pour chaque lieu où une capsule trouve sa place, des aéroports et des gares aux mines et aux réfectoires du personnel.
 
-## Notre approche
-
 Capsule Indonesia vend à des entreprises, pas à des voyageurs. La brochure doit donc répondre vite à deux questions : que contient une capsule, et est-ce qu'elle s'adapte à mon site ? Le cadre futuriste rend le produit mémorable, et les encadrés techniques en dessous donnent aux acheteurs les chiffres dont ils ont besoin.
 
-- **Client** Capsule Indonesia
+- **Client** [Capsule Indonesia](https://sawirstudio.com/fr/clients/capsule-indonesia/)
+
+## Autres projets pour [Capsule Indonesia](https://sawirstudio.com/fr/clients/capsule-indonesia/)
+
+[![Digital Airport Hotel Design](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel Design](https://sawirstudio.com/fr/projects/digital-airport-hotel-design/)
 
 ## Autres projets
 

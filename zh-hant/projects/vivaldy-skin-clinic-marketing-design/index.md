@@ -8,11 +8,17 @@ description: Sawir Studio 為 Vivaldy Skin Clinic 打造的行銷設計，例如
 
 ![Vivaldy Skin Clinic 設計](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## 客戶
+## 背景
 
 Vivaldy Skin Clinic 是一間位於龍目島馬塔蘭（Mataram, Lombok）的皮膚性病科診所，由 dr. Dedianto Hidajat, Sp.DVE 主持。
 
-## 我們的作品
+皮膚科診所送出的賀卡，應該像一份心意，而不是廣告。
+
+## 任務
+
+向患者送上開齋節祝福，既有溫度，又保有診所的風格。
+
+## 我們的做法
 
 我們為診所設計行銷素材，例如這張開齋節賀卡（「Wajah bersih dan bersinar di hari yang fitri」），並採用診所柔和的白色與青綠色調。
 
@@ -20,13 +26,20 @@ Vivaldy Skin Clinic 是一間位於龍目島馬塔蘭（Mataram, Lombok）的皮
 - **個人化細節。** 設有收件人（To）與寄件人（From）欄位，讓診所能依姓名將賀卡親手送給每位患者。
 - **色調。** 柔和的白色搭配關鍵字後方的青綠色色帶，與診所 V 字標誌的青綠色一致。
 
-## 我們的做法
-
 診所寄出的賀卡，感覺應該像一份禮物，而不是廣告。因此這張賀卡以祝福為主軸，自然地連結到診所的專業，也就是潔淨光采的肌膚，並將標誌小小地放在角落。
 
 為了診所的日常營運，我們也打造了 [MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)，這是診所所使用的系統，以及提供給患者的 iPhone 與 Android App。
 
-- **客戶** Vivaldy Skin Clinic
+- **客戶** [Vivaldy Skin Clinic](https://sawirstudio.com/zh-hant/clients/vivaldy-skin-clinic/)
+
+## 更多 [Vivaldy Skin Clinic](https://sawirstudio.com/zh-hant/clients/vivaldy-skin-clinic/) 的專案
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)
+[![Vivaldy Skin Clinic 網站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic 網站](https://sawirstudio.com/zh-hant/projects/vivaldy-skin-clinic-website/)
 
 ## 更多專案
 

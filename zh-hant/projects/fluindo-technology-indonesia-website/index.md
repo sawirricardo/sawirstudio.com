@@ -8,11 +8,17 @@ description: Fluindo Technology Indonesia 的網站，由 Sawir Studio 設計與
 
 ![Fluindo 網站](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## 客戶
+## 背景
 
 PT Fluindo Technology Indonesia 是泵浦、閥門、密封裝置、熱交換器與分離器的授權工業經銷商，代理品牌包括 ITT Goulds Pumps、ITT Engineered Valves、Alfa Laval 與 AIGI。自 2006 年起，該公司便持續為印尼各地的關鍵廠房維持穩定運轉，客戶涵蓋發電廠到紙漿與造紙廠。
 
-## 我們的作品
+他們的買家是工廠工程師，很清楚自己需要哪個型號，也希望看到供應商曾經安裝過該型號的實證。
+
+## 任務
+
+讓每項產品都能依品牌或類別輕鬆找到，並以具名的安裝案例佐證，而不是含糊的成功故事。
+
+## 我們的做法
 
 我們為該公司設計並建置了網站：依類別與品牌整理的產品目錄、專案實績，以及可直接送出詢價的管道。
 
@@ -21,11 +27,9 @@ PT Fluindo Technology Indonesia 是泵浦、閥門、密封裝置、熱交換器
 - **雙語介面。** 整個網站提供英文與印尼文版本。
 - **詢價服務。** 包含諮詢申請、聯絡頁面與電子報。
 
-## 我們的做法
-
 向 Fluindo 採購的多是廠房工程師。他們清楚自己需要的型號，也希望看到供應商過去確實安裝過的證明。因此，產品目錄除了依類別瀏覽，也能依品牌瀏覽；每一項專案實績都會寫明廠房、設備與尺寸，而不是空泛的成功故事。
 
-- **客戶** Fluindo Technology Indonesia
+- **客戶** [Fluindo Technology Indonesia](https://sawirstudio.com/zh-hant/clients/#fluindo)
 - **網站網址** <https://fluindo.co.id>
 
 ## 更多專案

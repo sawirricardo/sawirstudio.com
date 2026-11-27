@@ -8,11 +8,17 @@ description: Produktbroschüre für die Kapseleinheiten von Capsule Indonesia, v
 
 ![Broschürendesign für Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 Capsule Indonesia stellt Kapseleinheiten für kompakte Aufenthalte her, unter dem Leitsatz „Micro space, great experience.“
 
-## Was wir umgesetzt haben
+Capsule Indonesia verkauft an Unternehmen, nicht an Reisende.
+
+## Die Aufgabe
+
+Die zwei Fragen eines Käufers schnell beantworten: Was steckt in einem Pod, und passt er auf meinen Standort?
+
+## Was wir gemacht haben
 
 Wir haben die Produktbroschüre in einem futuristischen Silber und Blau gestaltet, passend zu den Pods. Sie listet die Ausstattung und die Maße jeder Einheit auf und zeigt, wo Kapseln zum Einsatz kommen: an Flughäfen, Bahnhöfen und Häfen, auf Bergbau- und Industriegeländen, in Mitarbeiterunterkünften und an Freizeitorten.
 
@@ -21,11 +27,15 @@ Wir haben die Produktbroschüre in einem futuristischen Silber und Blau gestalte
 - **Einheiten.** Jedes Modell mit seinen Außenmaßen und den Maßen der Matratze.
 - **Geeignet für.** Icons für jeden Ort, an dem eine Kapsel passt, von Flughäfen und Bahnhöfen bis zu Minen und Kantinen für Mitarbeitende.
 
-## Unser Vorgehen
-
 Capsule Indonesia verkauft an Unternehmen, nicht an Reisende. Deshalb muss die Broschüre zwei Fragen schnell beantworten: Was steckt in einem Pod, und passt er auf mein Gelände? Der futuristische Rahmen macht das Produkt einprägsam, und die Datenblätter darunter liefern den Käufern die Zahlen, die sie brauchen.
 
-- **Kunde** Capsule Indonesia
+- **Kunde** [Capsule Indonesia](https://sawirstudio.com/de/clients/capsule-indonesia/)
+
+## Mehr für [Capsule Indonesia](https://sawirstudio.com/de/clients/capsule-indonesia/)
+
+[![Digital Airport Hotel Design](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel Design](https://sawirstudio.com/de/projects/digital-airport-hotel-design/)
 
 ## Weitere Projekte
 

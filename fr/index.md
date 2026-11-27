@@ -15,7 +15,7 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
 [Lancer un projet](https://sawirstudio.com/fr/contact/) [Voir nos projets clients](#portfolio)
 
 - **9** ans de projets pour nos clients, depuis 2017
-- **26** entreprises et institutions pour lesquelles nous avons développé
+- **27** entreprises et institutions pour lesquelles nous avons développé des projets
 - **2019** l'année où PeopleBond a commencé à travailler avec nous. Et ça continue.
 - **7** applications à nous sur l'App Store
 
@@ -114,6 +114,7 @@ Les prédications, la prière et les méditations quotidiennes d’un ministère
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ Les prédications, la prière et les méditations quotidiennes d’un ministère
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[Découvrez ce que nous avons créé pour chacun](https://sawirstudio.com/fr/clients/)
 
 ## Nous publions aussi nos propres applications
 

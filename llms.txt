@@ -18,6 +18,10 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [Odoo & Custom Business Systems](https://sawirstudio.com/odoo/index.md): Point of sale, stock, purchasing and accounting in one system: Odoo set up for how you work, built to measure when it doesn't fit, or both. From the people who write Odoo modules.
 - [Custom Software & Apps](https://sawirstudio.com/custom/index.md): Apps, internal systems, marketplaces and portals built around how your business works, with payments, integrations and the admin behind them. You own the code and the data.
 - [Forward Deployed Engineers](https://sawirstudio.com/forward-deployed-engineering/index.md): Rent a forward deployed engineer: we work inside your team and your tools, putting AI to work in your systems and connecting what you already run. No full-time hire.
+- [Clients](https://sawirstudio.com/clients/index.md): The companies and institutions Sawir Studio has built for, and what we built for each of them.
+- [Our Work for PeopleBond](https://sawirstudio.com/clients/peoplebond/index.md): What Sawir Studio has built for PeopleBond: PeopleBond HCMS Application, PeopleBond Connect App and PeopleBond Website.
+- [Our Work for Vivaldy Skin Clinic](https://sawirstudio.com/clients/vivaldy-skin-clinic/index.md): What Sawir Studio has built for Vivaldy Skin Clinic: MyVivaldy, Vivaldy Skin Clinic Website and Vivaldy Skin Clinic Marketing Design.
+- [Our Work for Capsule Indonesia](https://sawirstudio.com/clients/capsule-indonesia/index.md): What Sawir Studio has built for Capsule Indonesia: Digital Airport Hotel Design and Capsule Indonesia Design.
 
 ## Projects
 
@@ -36,6 +40,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 - [Shopify Connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/index.md): An open-source Shopify connector for Odoo 19 Community, written by Sawir Studio and maintained in the Odoo Community Association (OCA).
 - [Colvaron Conquest](https://sawirstudio.com/projects/colvaron-conquest-website/index.md): Colvaron Conquest is a strategic trading card game by Coco JM, published by Sawir Studio and free to play in the browser. We also designed and built its website.
 - [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/index.md): MyVivaldy, the clinic system and patient app for Vivaldy Skin Clinic: booking, visit history and prescriptions on iPhone and Android, built by Sawir Studio.
+- [My Spiritual Journey Case Study: GBI WTC's Daily Devotion App](https://sawirstudio.com/projects/my-spiritual-journey/index.md): Case study: My Spiritual Journey, GBI WTC's app for daily Spiritual Workouts, with badges, friends and church classes. On the App Store and Google Play, built and looked after by Sawir Studio since 2022.
 - [Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/index.md): Koperasi HOB’s shopping app: members browse household goods by category, choose delivery or pick-up, and pay with their cooperative balance.
 - [DBTV Application](https://sawirstudio.com/projects/dbtv-application/index.md): DBTV brings Ps. Debby Basjir’s sermons, prayer services, worship, podcasts and daily devotionals to iOS and Android. Built by Sawir Studio.
 - [Kantong Sayur Application](https://sawirstudio.com/projects/kantong-sayur-application/index.md): Vegetable and grocery shopping app and website for KantongSayur, built by Sawir Studio.

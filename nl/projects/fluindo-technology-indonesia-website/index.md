@@ -8,11 +8,17 @@ description: Website voor Fluindo Technology Indonesia, ontworpen en gebouwd doo
 
 ![Website Fluindo](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## De klant
+## De situatie
 
 PT Fluindo Technology Indonesia is een erkend industrieel distributeur van pompen, kleppen, afdichtingen, warmtewisselaars en separatoren, voor merken als ITT Goulds Pumps, ITT Engineered Valves, Alfa Laval en AIGI. Sinds 2006 houdt het bedrijf kritieke installaties in heel Indonesië draaiende, van elektriciteitscentrales tot papier- en pulpfabrieken.
 
-## Wat we hebben gemaakt
+De kopers zijn plant engineers die het modelnummer dat ze nodig hebben al kennen en bewijs willen dat de leverancier het al eens heeft geïnstalleerd.
+
+## De opdracht
+
+Zorg dat elk product makkelijk te vinden is op merk of categorie, en onderbouw het met concreet genoemde installaties in plaats van vage succesverhalen.
+
+## Wat we deden
 
 Wij ontwierpen en bouwden de website: een productcatalogus ingedeeld op categorie en merk, projectreferenties en een directe route om een aanvraag te sturen.
 
@@ -21,11 +27,9 @@ Wij ontwierpen en bouwden de website: een productcatalogus ingedeeld op categori
 - **Twee talen.** De hele site in het Engels en het Indonesisch.
 - **Aanvragen.** Een verzoek voor advies, een contactpagina en een nieuwsbrief.
 
-## Onze aanpak
-
 De mensen die bij Fluindo kopen, zijn installatie-ingenieurs. Ze weten welk modelnummer ze nodig hebben en willen bewijs dat de leverancier het eerder heeft geïnstalleerd. Daarom kun je de catalogus zowel op merk als op categorie doorzoeken, en noemt elke projectreferentie de fabriek, de apparatuur en de maat in plaats van een vaag succesverhaal.
 
-- **Klant** Fluindo Technology Indonesia
+- **Klant** [Fluindo Technology Indonesia](https://sawirstudio.com/nl/clients/#fluindo)
 - **Website-URL** <https://fluindo.co.id>
 
 ## Meer projecten

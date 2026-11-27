@@ -8,11 +8,17 @@ description: 《ESR 資訊與小撇步》是 Sawir Studio 為 Astra Internationa
 
 ![ESR 資訊與小撇步](https://sawirstudio.com/assets/images/projects/astra-international-esr-info-tips.webp)
 
-## 客戶
+## 背景
 
 Astra International 是印尼規模最大的企業集團之一。
 
-## 我們的作品
+安全與環境指引一旦讀起來像政策文件，就很容易被略過。
+
+## 任務
+
+把這些指引做成一本現場和辦公室同仁都真的會翻開的書。
+
+## 我們的做法
 
 《ESR 資訊與小撇步》是 Astra AGC 系列中的一本圖文書，內容涵蓋安全與健康、環境、一般資訊及社會責任。我們以 Mr. Green 和 Mrs. Friendly 兩個角色為主軸進行設計，讓這些指引讀起來像朋友間的對話，而不是一本操作手冊。
 
@@ -20,11 +26,9 @@ Astra International 是印尼規模最大的企業集團之一。
 - **封面。** 明亮的黃色封面搭配醒目的藍色粗體書名，畫面中有兩個角色，底部則列出四大主題。
 - **電子版。** 此處以平板電腦上的電子書形式呈現。
 
-## 我們的做法
-
 安全與環境相關的指引，一旦寫得像政策文件，就很容易被略過。我們讓兩個親切的角色來傳達，每則小撇步就像同事隨口提醒您的話，再加上明亮活潑的配色，讓這成為大家真的會翻開來看的一本書。
 
-- **客戶** Astra International
+- **客戶** [Astra International](https://sawirstudio.com/zh-hant/clients/#astra)
 
 ## 更多專案
 

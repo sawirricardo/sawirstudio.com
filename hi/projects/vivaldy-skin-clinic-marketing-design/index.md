@@ -8,11 +8,17 @@ description: Sawir Studio द्वारा Vivaldy Skin Clinic के लि�
 
 ![Vivaldy Skin Clinic डिज़ाइन](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## क्लाइंट
+## स्थिति
 
 Vivaldy Skin Clinic, लोम्बोक के मातरम में स्थित एक डर्मेटोलॉजी और वेनेरियोलॉजी क्लिनिक है, जिसका नेतृत्व dr. Dedianto Hidajat, Sp.DVE करते हैं।
 
-## हमने क्या बनाया
+स्किन क्लिनिक का ग्रीटिंग कार्ड विज्ञापन नहीं, एक तोहफ़े जैसा लगना चाहिए।
+
+## काम
+
+मरीज़ों को ईद की ऐसी शुभकामनाएँ भेजना जो अपनेपन का एहसास दें और जिनमें क्लिनिक का अंदाज़ भी बना रहे।
+
+## हमने क्या किया
 
 हमने क्लिनिक के मार्केटिंग मटीरियल डिज़ाइन किए, जैसे ईद-उल-फ़ित्र का यह ग्रीटिंग कार्ड (“Wajah bersih dan bersinar di hari yang fitri”), जो क्लिनिक के सॉफ़्ट सफ़ेद और टर्क्वॉइज़ रंगों में बना है।
 
@@ -20,13 +26,20 @@ Vivaldy Skin Clinic, लोम्बोक के मातरम में स�
 - **निजी स्पर्श।** “To” और “From” की पंक्तियाँ, ताकि क्लिनिक हर कार्ड मरीज़ को उसके नाम के साथ दे सके।
 - **रंगों का चुनाव।** सॉफ़्ट सफ़ेद रंग, और मुख्य शब्दों के पीछे टर्क्वॉइज़ पट्टी, जो क्लिनिक के V लोगो के टर्क्वॉइज़ रंग जैसी ही है।
 
-## हमने इसे कैसे किया
-
 स्किन क्लिनिक का ग्रीटिंग कार्ड विज्ञापन नहीं, तोहफ़े जैसा लगना चाहिए। इसलिए कार्ड में सबसे पहले शुभकामना है, उसे क्लिनिक के काम, यानी साफ़ और दमकती त्वचा, से हल्के से जोड़ा गया है, और लोगो को कोने में छोटा रखा गया है।
 
 क्लिनिक के रोज़मर्रा के कामकाज के लिए हमने [MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/) भी बनाया, यह वह सिस्टम है जिस पर क्लिनिक चलता है, और साथ ही iPhone और Android के लिए मरीज़ों का ऐप भी है।
 
-- **क्लाइंट** Vivaldy Skin Clinic
+- **क्लाइंट** [Vivaldy Skin Clinic](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/)
+
+## [Vivaldy Skin Clinic](https://sawirstudio.com/hi/clients/vivaldy-skin-clinic/) के लिए और काम
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
+[![Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-website/)
 
 ## और प्रोजेक्ट
 

@@ -8,11 +8,17 @@ description: Campagneontwerp over digitale handtekeningen voor het Indonesische 
 
 ![Tanda Tangan Digital Brochure](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
-## De klant
+## De situatie
 
 Het Indonesische ministerie van Communicatie en Informatica (Kominfo) wilde digitale handtekeningen bij het grote publiek introduceren.
 
-## Wat we hebben gemaakt
+Digitale handtekeningen steunen op een keten van vertrouwen die de meeste mensen nooit te zien krijgen.
+
+## De opdracht
+
+Laat het publiek zien hoe het ecosysteem rond digitale handtekeningen in elkaar zit, in een beeld dat iedereen kan volgen.
+
+## Wat we deden
 
 Wij ontwierpen het campagnemateriaal voor “Hello Tanda Tangan Digital!”, inclusief een isometrisch diagram van het ecosysteem rond digitale handtekeningen. Het laat zien hoe certificeringsinstanties, uitgevers van elektronische certificaten (PSrE), gebruikers en organisaties samenhangen.
 
@@ -21,11 +27,9 @@ Wij ontwierpen het campagnemateriaal voor “Hello Tanda Tangan Digital!”, inc
 - **Een eenvoudige legenda.** Vier kleuren voor vier relaties: erkenning van de CA, uitgifte van elektronische certificaten, registratie en audit.
 - **Eén visueel systeem.** Verlopen van blauw naar violet, golven en een hartslaglijn die door elke pagina lopen.
 
-## Onze aanpak
-
 Digitale handtekeningen draaien om een vertrouwensketen die de meeste mensen nooit zien. Door die te tekenen als isometrische kaart, met gebouwen voor organisaties en mensen voor gebruikers, wordt een regelgeving iets wat je met je vinger kunt volgen.
 
-- **Klant** Indonesia's Ministry of Communication and Informatic
+- **Klant** [Indonesia's Ministry of Communication and Informatic](https://sawirstudio.com/nl/clients/#kominfo)
 
 ## Meer projecten
 

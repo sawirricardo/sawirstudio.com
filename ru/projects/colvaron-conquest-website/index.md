@@ -47,12 +47,12 @@ Colvaron Conquest — стратегическая коллекционная к
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
+[![Мой духовный путь](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### Мой духовный путь](https://sawirstudio.com/ru/projects/my-spiritual-journey/)
 [![Приложение Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Приложение Koperasi HOB](https://sawirstudio.com/ru/projects/koperasi-hob-application/)
-[![Приложение DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### Приложение DBTV](https://sawirstudio.com/ru/projects/dbtv-application/)
 
 Хватит о нас.
 

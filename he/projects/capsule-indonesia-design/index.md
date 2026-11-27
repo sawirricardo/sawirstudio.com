@@ -8,11 +8,17 @@ description: חוברת מוצר ליחידות הקפסולה של Capsule Indo
 
 ![עיצוב חוברת עבור Capsule Indonesia](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## הלקוח
+## נקודת הפתיחה
 
 Capsule Indonesia מייצרת יחידות קפסולה ללינה קומפקטית, תחת הסלוגן “Micro space, great experience”.
 
-## מה בנינו
+Capsule Indonesia מוכרת לעסקים, לא לנוסעים.
+
+## המשימה
+
+לענות במהירות על שתי השאלות של הקונה: מה יש בתא, והאם הוא יתאים לשטח שלי.
+
+## מה עשינו
 
 עיצבנו את חוברת המוצר שלה בכסף וכחול עתידניים שמתאימים לקפסולות. החוברת מפרטת את מאפייני כל יחידה ואת מידותיה, ואת המקומות שבהם אפשר להתקין קפסולות: שדות תעופה, תחנות רכבת, נמלים, אתרי כרייה ואתרים תעשייתיים, מגורי עובדים ואתרי נופש.
 
@@ -21,11 +27,15 @@ Capsule Indonesia מייצרת יחידות קפסולה ללינה קומפקט
 - **יחידות.** כל דגם עם המידות החיצוניות שלו ומידות המזרן.
 - **מתאים ל...** אייקונים לכל מקום שבו קפסולה יכולה להתאים, משדות תעופה ותחנות רכבת ועד מכרות וחדרי אוכל של עובדים.
 
-## איך ניגשנו לזה
-
 Capsule Indonesia מוכרת לעסקים ולא למטיילים, ולכן החוברת צריכה לענות מהר על שתי שאלות: מה יש בקפסולה, והאם היא מתאימה לאתר שלי. המסגרת העתידנית הופכת את המוצר לבלתי נשכח, ולוחות המפרט שמתחתיה נותנים לקונים את המספרים שהם צריכים.
 
-- **לקוח** Capsule Indonesia
+- **לקוח** [Capsule Indonesia](https://sawirstudio.com/he/clients/capsule-indonesia/)
+
+## עוד עבודות עבור [Capsule Indonesia](https://sawirstudio.com/he/clients/capsule-indonesia/)
+
+[![עיצוב Digital Airport Hotel](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### עיצוב Digital Airport Hotel](https://sawirstudio.com/he/projects/digital-airport-hotel-design/)
 
 ## עוד פרויקטים
 

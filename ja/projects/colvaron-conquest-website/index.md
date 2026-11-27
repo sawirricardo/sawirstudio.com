@@ -47,12 +47,12 @@ Colvaron Conquest は、Coco JM が生み出した戦略型トレーディング
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
+[![私の精神的な歩み](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### 私の精神的な歩み](https://sawirstudio.com/ja/projects/my-spiritual-journey/)
 [![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
-[![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV アプリケーション](https://sawirstudio.com/ja/projects/dbtv-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

@@ -40,6 +40,7 @@ type Page struct {
 	LD          string `yaml:"ld"`         // JSON-LD, as written
 	CTA         *bool  `yaml:"cta"`        // the "How can we help you?" box; on unless false
 	Related     bool   `yaml:"related"`    // the "More projects" row (project pages)
+	Client      string `yaml:"-"`          // the client's slug, on the pages the builder makes for clients
 }
 
 func (p *Page) ogTitle() string {
@@ -155,6 +156,9 @@ type Project struct {
 	Height     int    `yaml:"height"`
 	Alt        string `yaml:"alt"` // defaults to Title
 	App        bool   `yaml:"app"` // an app icon, shown in a rounded box
+	// Client is who the project was for, as shown on the page ("PeopleBond"). Projects with the
+	// same client list each other in a "More for <client>" row; our own work leaves it empty.
+	Client string `yaml:"client"`
 }
 
 func (p Project) alt() string {
@@ -198,19 +202,53 @@ func LoadProjects(file string) ([]Project, error) {
 	return ps, nil
 }
 
-// related picks the "More projects" row for a project: the next three in the list that share
-// a category with it, wrapping around, topped up with the next ones that don't.
-func related(ps []Project, slug string) []Project {
-	i := -1
-	for j, p := range ps {
+// find returns the index of the project with the slug, or -1.
+func find(ps []Project, slug string) int {
+	for i, p := range ps {
 		if p.Slug == slug {
-			i = j
+			return i
 		}
 	}
+	return -1
+}
+
+// sameClient lists the other projects for the same client, in list order.
+func sameClient(ps []Project, slug string) []Project {
+	i := find(ps, slug)
+	if i < 0 || ps[i].Client == "" {
+		return nil
+	}
+	var out []Project
+	for j, p := range ps {
+		if j != i && p.Client == ps[i].Client {
+			out = append(out, p)
+		}
+	}
+	return out
+}
+
+// clientOf is the client of the project with the slug.
+func clientOf(ps []Project, slug string) string {
+	if i := find(ps, slug); i >= 0 {
+		return ps[i].Client
+	}
+	return ""
+}
+
+// related picks the "More projects" row for a project: the next three in the list that share
+// a category with it, wrapping around, topped up with the next ones that don't. Projects for
+// the same client are left out, since they have their own row.
+func related(ps []Project, slug string) []Project {
+	i := find(ps, slug)
 	if i < 0 {
 		return nil
 	}
-	after := append(append([]Project{}, ps[i+1:]...), ps[:i]...)
+	var after []Project
+	for _, p := range append(append([]Project{}, ps[i+1:]...), ps[:i]...) {
+		if p.Client == "" || p.Client != ps[i].Client {
+			after = append(after, p)
+		}
+	}
 	var picks []Project
 	picked := map[string]bool{}
 	for _, p := range after {

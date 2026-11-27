@@ -32,14 +32,18 @@ Spiegare con chiarezza ogni modulo e integrazione, in indonesiano e in inglese. 
 - **Un passo successivo chiaro.** «Book a Demo» è presente su ogni pagina e il modulo porta direttamente a una chat WhatsApp con il team.
 - **Una lettura confortevole.** Il sito segue l’impostazione chiara o scura scelta dal visitatore.
 
-## Altri lavori realizzati con PeopleBond
-
-- [La piattaforma HR e paghe](https://sawirstudio.com/it/projects/peoplebond-hcms-application/): buste paga al passo con la normativa fiscale indonesiana.
-- [L’app pbConnect per i dipendenti](https://sawirstudio.com/it/projects/pbconnect/): rilevazione delle presenze difficile da falsificare.
-
-- **Cliente** PeopleBond
+- **Cliente** [PeopleBond](https://sawirstudio.com/it/clients/peoplebond/)
 - **Collaboriamo dal** 2019
 - **URL del sito web** [https://peoplebond.id](https://peoplebond.id/)
+
+## Altri contenuti per [PeopleBond](https://sawirstudio.com/it/clients/peoplebond/)
+
+[![Applicazione PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### Applicazione PeopleBond HCMS](https://sawirstudio.com/it/projects/peoplebond-hcms-application/)
+[![App PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### App PeopleBond Connect](https://sawirstudio.com/it/projects/pbconnect/)
 
 ## Altri progetti
 

@@ -8,11 +8,17 @@ description: Travail de design pour Digital Airport Hotel, pour le client Capsul
 
 ![Digital Airport Hotel](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
 
-## Le client
+## La situation
 
 Digital Airport Hotel est un hôtel capsule situé au Terminal 3 de l'aéroport Soekarno-Hatta, qui fait partie de la famille Capsule Indonesia aux côtés de JakPod Hotel.
 
-## Ce que nous avons réalisé
+Les voyageurs prennent la carte d’un hôtel à l’aéroport pour pouvoir retrouver leur chemin.
+
+## La mission
+
+Faire de la carte un moyen fiable de retrouver l’hôtel, et une présentation du reste de la famille.
+
+## Ce que nous avons fait
 
 Nous avons conçu ses cartes de visite : un papier sombre avec le logo en traits fins de l'hôtel, les coordonnées pour le terminal, et les marques Capsule Indonesia et JakPod Hotel au verso.
 
@@ -20,23 +26,27 @@ Nous avons conçu ses cartes de visite : un papier sombre avec le logo en trait
 - **Verso.** Le logo Capsule Indonesia avec JakPod Hotel et Digital Airport Hotel, pour que chaque carte présente toute la famille.
 - **Papier.** Une carte sombre et mate qui fait ressortir le texte bleu et les logos en dégradé.
 
-## Notre approche
-
 Dans un aéroport, les voyageurs prennent une carte d'hôtel pour pouvoir retrouver leur chemin. L'adresse indique donc précisément où se trouve l'hôtel dans le terminal. Le verso fait le travail de promotion : une carte, trois marques, pour les clients qui séjourneraient peut-être à JakPod en ville la prochaine fois.
 
-- **Client** Capsule Indonesia
+- **Client** [Capsule Indonesia](https://sawirstudio.com/fr/clients/capsule-indonesia/)
 
-## Autres projets
+## Autres projets pour [Capsule Indonesia](https://sawirstudio.com/fr/clients/capsule-indonesia/)
 
 [![Capsule Indonesia Design](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
 ### Capsule Indonesia Design](https://sawirstudio.com/fr/projects/capsule-indonesia-design/)
+
+## Autres projets
+
 [![Tanda Tangan Digital Campaign](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
 ### Tanda Tangan Digital Campaign](https://sawirstudio.com/fr/projects/tanda-tangan-digital-campaign/)
 [![Vivaldy Skin Clinic Marketing Design](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
 ### Vivaldy Skin Clinic Marketing Design](https://sawirstudio.com/fr/projects/vivaldy-skin-clinic-marketing-design/)
+[![Habitat Hills Design](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
+
+### Habitat Hills Design](https://sawirstudio.com/fr/projects/habitat-hills-design/)
 
 Assez parlé de nous.
 

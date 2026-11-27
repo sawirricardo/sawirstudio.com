@@ -32,14 +32,18 @@ PeopleBond का प्रोडक्ट अपनी वेबसाइट �
 - **साफ़ अगला कदम।** “डेमो बुक करें” हर पेज पर है, और फ़ॉर्म सीधे टीम के साथ WhatsApp चैट पर ले जाता है।
 - **पढ़ने में आरामदायक।** साइट विज़िटर की लाइट या डार्क सेटिंग के अनुसार दिखती है।
 
-## PeopleBond के साथ हमारा और काम
-
-- [HR और पेरोल प्लेटफ़ॉर्म](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/): ऐसा पेरोल, जो इंडोनेशिया के टैक्स कानून के साथ अपडेट रहता है।
-- [pbConnect एम्प्लॉई ऐप](https://sawirstudio.com/hi/projects/pbconnect/): ऐसी अटेंडेंस, जिसमें फ़र्ज़ीवाड़ा करना मुश्किल है।
-
-- **क्लाइंट** PeopleBond
+- **क्लाइंट** [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/)
 - **कब से साथ काम कर रहे हैं** 2019
 - **वेबसाइट URL** [https://peoplebond.id](https://peoplebond.id/)
+
+## [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/) के लिए और काम
+
+[![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect ऐप](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect ऐप](https://sawirstudio.com/hi/projects/pbconnect/)
 
 ## और प्रोजेक्ट
 

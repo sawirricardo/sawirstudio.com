@@ -8,11 +8,17 @@ description: PT Adiwarna Anugerah Abadi 的公司官网，由 Sawir Studio 设�
 
 ![Adiwarna 网站](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## 客户
+## 项目背景
 
 PT Adiwarna Anugerah Abadi Tbk 是一家上市消防工程承包商，自 2007 年起深耕高风险行业，业务覆盖整个项目流程：设计与工程、设备供应、安装、测试与调试，以及维保服务。
 
-## 我们做了什么
+消防系统的买家是工程师和采购团队，他们需要先信任承包商，才会致电联系。
+
+## 任务
+
+用一句话说明 Adiwarna 是做什么的，再以其安装的系统和背后的项目加以证明。
+
+## 我们的工作
 
 我们为其设计并搭建了公司官网：以“消防系统专家”为主题的简洁落地页，可直达产品、灭火系统和项目案例，并配有一段公司简介短视频。
 
@@ -20,11 +26,9 @@ PT Adiwarna Anugerah Abadi Tbk 是一家上市消防工程承包商，自 2007 �
 - **项目案例。** 服务过矿业、基础设施和数据中心等领域的客户。
 - **公司视频。** 落地页上的一段公司简介短视频。
 
-## 我们的做法
-
 消防工程的采购方多为工程师和采购团队，他们在联系承包商之前，需要先建立信任。因此，落地页先用一句话说明 Adiwarna 做什么，随后直接展示所安装的系统和能够佐证实力的项目，而不是以冗长的公司历史开场。
 
-- **客户** PT Adiwarna Anugerah Abadi
+- **客户** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/zh-hans/clients/#adiwarna)
 - **网站地址** <https://adiwarna.co.id>
 
 ## 更多项目

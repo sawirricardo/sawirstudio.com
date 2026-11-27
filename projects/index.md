@@ -60,6 +60,9 @@ Clear Filter
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
+[![My Spiritual Journey](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+## My Spiritual Journey](https://sawirstudio.com/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)

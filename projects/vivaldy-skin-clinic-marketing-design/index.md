@@ -8,11 +8,17 @@ description: Marketing design for Vivaldy Skin Clinic by Sawir Studio, such as a
 
 ![Vivaldy Skin Clinic Design](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## The client
+## The situation
 
 Vivaldy Skin Clinic is a dermatology and venereology clinic in Mataram, Lombok, led by dr. Dedianto Hidajat, Sp.DVE.
 
-## What we made
+A greeting card from a skin clinic should feel like a gift, not an advert.
+
+## The task
+
+Send patients an Eid greeting that feels personal and still carries the clinic’s look.
+
+## What we did
 
 We designed its marketing materials, such as this Eid al-Fitr greeting card (“Wajah bersih dan bersinar di hari yang fitri”), in the clinic’s soft white and turquoise palette.
 
@@ -20,13 +26,20 @@ We designed its marketing materials, such as this Eid al-Fitr greeting card (“
 - **Personal touch.** To and From lines, so the clinic can hand each card to a patient by name.
 - **The palette.** Soft white with a turquoise band behind the key words, the same turquoise as the clinic’s V logo.
 
-## How we approached it
-
 A greeting card from a skin clinic should feel like a gift, not an advert. So the card leads with the wish, links it gently to what the clinic does, clean and glowing skin, and keeps the logo small in the corner.
 
 For the clinic's day to day, we also built [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/), the system the clinic runs on and its patient app for iPhone and Android.
 
-- **Client** Vivaldy Skin Clinic
+- **Client** [Vivaldy Skin Clinic](https://sawirstudio.com/clients/vivaldy-skin-clinic/)
+
+## More for [Vivaldy Skin Clinic](https://sawirstudio.com/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
+[![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic Website](https://sawirstudio.com/projects/vivaldy-skin-clinic-website/)
 
 ## More projects
 

@@ -40,16 +40,11 @@ PeopleBond इंडोनेशियाई कंपनियों को HR 
 
 सात साल बाद भी सब कुछ नए सिरे से लिखने का मन तो करता ही है। फिर भी हम हर बार मौजूदा सिस्टम को ही अपग्रेड करना चुनते हैं: प्लेटफ़ॉर्म अपग्रेड और नए टैक्स नियम जैसे-जैसे आते हैं, हम उन्हें संभालते जाते हैं। नए सिरे से लिखने पर पेरोल के बदलाव महीनों तक रुक जाएँगे, और कानून इंतज़ार नहीं करता।
 
-## PeopleBond के साथ हमारा और काम
-
-- [pbConnect एम्प्लॉई ऐप](https://sawirstudio.com/hi/projects/pbconnect/): ऐसी अटेंडेंस, जिसमें फ़र्ज़ीवाड़ा करना मुश्किल है।
-- [वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/): दो भाषाओं वाली साइट, जो प्रोडक्ट की बिक्री करती है।
-
-- **क्लाइंट** PeopleBond
+- **क्लाइंट** [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/)
 - **कब से साथ काम कर रहे हैं** 2019
 - **वेबसाइट URL** [https://peoplebond.id](https://peoplebond.id/)
 
-## और प्रोजेक्ट
+## [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/) के लिए और काम
 
 [![PeopleBond Connect ऐप](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond इंडोनेशियाई कंपनियों को HR 
 [![PeopleBond वेबसाइट](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/)
+
+## और प्रोजेक्ट
+
 [![TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial ऐप्लिकेशन](https://sawirstudio.com/hi/projects/tani-milenial-application/)
+[![Growinc Group वेबसाइट](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group वेबसाइट](https://sawirstudio.com/hi/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia वेबसाइट](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia वेबसाइट](https://sawirstudio.com/hi/projects/fluindo-technology-indonesia-website/)
 
 हमारी बात बहुत हुई।
 

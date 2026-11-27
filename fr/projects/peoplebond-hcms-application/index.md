@@ -40,16 +40,11 @@ L’application web couvre les employés, le recrutement, les feuilles de temps,
 
 Au bout de sept ans, l’idée de tout réécrire reste tentante. Nous choisissons toujours de faire évoluer l’existant : les mises à niveau de la plateforme et les nouvelles règles fiscales sont traitées à mesure qu’elles arrivent. Une réécriture gèlerait les évolutions de la paie pendant des mois, et la loi n’attend pas.
 
-## D’autres réalisations avec PeopleBond
-
-- [L’application pbConnect pour les employés](https://sawirstudio.com/fr/projects/pbconnect/) : un pointage difficile à falsifier.
-- [Le site web](https://sawirstudio.com/fr/projects/peoplebond-website/) : un site bilingue qui vend le produit.
-
-- **Client** PeopleBond
+- **Client** [PeopleBond](https://sawirstudio.com/fr/clients/peoplebond/)
 - **Notre collaboration dure depuis** 2019
 - **Adresse du site web** [https://peoplebond.id](https://peoplebond.id/)
 
-## Autres projets
+## Autres projets pour [PeopleBond](https://sawirstudio.com/fr/clients/peoplebond/)
 
 [![Application PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ Au bout de sept ans, l’idée de tout réécrire reste tentante. Nous choisisso
 [![Site web PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### Site web PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-website/)
+
+## Autres projets
+
 [![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial Application](https://sawirstudio.com/fr/projects/tani-milenial-application/)
+[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group Website](https://sawirstudio.com/fr/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia Website](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia Website](https://sawirstudio.com/fr/projects/fluindo-technology-indonesia-website/)
 
 Assez parlé de nous.
 

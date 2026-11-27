@@ -8,11 +8,23 @@ description: Vivaldy Skin Clinic 的網站，該診所為皮膚性病科診所�
 
 ![Vivaldy Skin Clinic 網站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
-## 客戶
+## 成果
+
+- **每個頁面都能預約諮詢。** 各頁面的主要按鈕都會開啟 WhatsApp，這正是印尼患者原本習慣的預約方式。
+- **診所的 21 項療程各有專屬頁面，** 從臉部護理到雷射、填充劑和肉毒桿菌注射都有。
+- **自 2022 年起持續維護，** 之後也重新打造網站，讓每個頁面都能快速載入。
+
+## 背景
 
 Vivaldy Skin Clinic 是位於龍目島馬塔蘭（Mataram）的皮膚性病科診所，由 dr. Dedianto Hidajat, Sp.DVE 主持。患者在 Google 上給予 4.9 分的評價，共 150 則評論。
 
-## 我們的作品
+多數患者是在搜尋馬塔蘭（Mataram）的皮膚科專科醫師時找到這家診所，並透過聊天訊息預約，而不是填寫表單。
+
+## 任務
+
+讓在地搜尋的人找得到診所，並讓每次造訪都有機會變成 WhatsApp 預約。
+
+## 我們的做法
 
 我們為診所設計並打造了網站，介紹診所的療程、商店與聯絡方式，並自 2022 年起持續負責網站的維護。
 
@@ -22,14 +34,21 @@ Vivaldy Skin Clinic 是位於龍目島馬塔蘭（Mataram）的皮膚性病科�
 - **常見解答。** 提供營業時間、關於恢復期、預約與價格的常見問題，以及患者評價。
 - **優惠、部落格與商店。** 最新優惠活動、文章，以及診所的護膚商店。
 
-## 我們的做法
-
 多數患者是透過搜尋馬塔蘭（Mataram）的皮膚科專科醫師找到這家診所，而在印尼，大家習慣用聊天訊息預約，而不是填表單。因此，網頁標題和說明都針對在地搜尋撰寫，每一頁的主要按鈕也都直接開啟 WhatsApp。後來我們將網站改建為靜態網頁，讓每一頁都能快速載入。
 
 為了診所的日常營運，我們也打造了 [MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)，這是診所所使用的系統，以及提供給患者的 iPhone 與 Android App。
 
-- **客戶** Vivaldy Skin Clinic
+- **客戶** [Vivaldy Skin Clinic](https://sawirstudio.com/zh-hant/clients/vivaldy-skin-clinic/)
 - **網站網址** <https://vivaldyskinclinic.id>
+
+## 更多 [Vivaldy Skin Clinic](https://sawirstudio.com/zh-hant/clients/vivaldy-skin-clinic/) 的專案
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)
+[![Vivaldy Skin Clinic 行銷設計](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Vivaldy Skin Clinic 行銷設計](https://sawirstudio.com/zh-hant/projects/vivaldy-skin-clinic-marketing-design/)
 
 ## 更多專案
 

@@ -8,11 +8,17 @@ description: Capsule Indonesia 胶囊舱产品手册，由 Sawir Studio 以银�
 
 ![Capsule Indonesia 手册设计](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## 客户
+## 项目背景
 
 Capsule Indonesia 生产用于紧凑型住宿的胶囊舱，品牌口号是“Micro space, great experience.”（小空间，大体验）。
 
-## 我们做了什么
+Capsule Indonesia 的客户是企业，而不是旅客。
+
+## 任务
+
+快速回答买家的两个问题：胶囊舱里有什么，能否适合我的场地。
+
+## 我们的工作
 
 我们为其设计了产品手册，采用与舱体相配的未来感银蓝配色，列出每款舱体的特点和尺寸，以及胶囊舱的适用场所：机场、火车站、港口、矿区和工业区、员工宿舍以及休闲场所。
 
@@ -21,11 +27,15 @@ Capsule Indonesia 生产用于紧凑型住宿的胶囊舱，品牌口号是“Mi
 - **型号。** 每个型号的外部尺寸和床垫尺寸。
 - **适用场所。** 用图标展示胶囊舱适用的各类场所，从机场、火车站到矿区和员工食堂。
 
-## 我们的做法
-
 Capsule Indonesia 的客户是企业，而不是旅客，所以手册必须迅速回答两个问题：舱里有什么，以及是否适合我的场地。未来感的版面让产品令人印象深刻，下方的规格栏则为买家提供所需的数据。
 
-- **客户** Capsule Indonesia
+- **客户** [Capsule Indonesia](https://sawirstudio.com/zh-hans/clients/capsule-indonesia/)
+
+## [Capsule Indonesia](https://sawirstudio.com/zh-hans/clients/capsule-indonesia/) 的更多项目
+
+[![Digital Airport Hotel 设计](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel 设计](https://sawirstudio.com/zh-hans/projects/digital-airport-hotel-design/)
 
 ## 更多项目
 

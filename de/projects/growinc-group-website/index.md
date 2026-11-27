@@ -8,11 +8,23 @@ description: Unternehmenswebsite für Growinc Group Indonesia, eine Marketing- u
 
 ![Startseite von Growinc Group Indonesia](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
 
-## Der Kunde
+## Das Ergebnis
+
+- **Auch sechs Jahre nach dem Launch** ist die Website noch immer Growincs Zuhause im Web.
+- **In vier Monaten gebaut,** von Dezember 2019 bis März 2020.
+- **Bereit für die Krise.** Als COVID-19 Anfang 2020 aufkam, wurde die Website um einen Bereich ergänzt, der Beratung zur Geschäftsstrategie in der Krise anbot.
+
+## Die Ausgangslage
 
 Growinc Group Indonesia ist eine Full-Service-Marketing- und Werbegruppe in Jakarta. Sie führt eigene Agenturen, darunter Growmint, ein Digitalunternehmen, und Nesvara, ein Unternehmen für Markenerlebnisse, und hat Kampagnen für Marken wie Laurier, Pristine 8+, GoFood und Lucky Strike umgesetzt.
 
-## Was wir umgesetzt haben
+Eine Agenturgruppe verkauft Menschen und Ergebnisse, kein Produkt, und potenzielle Kunden wollen sich schnell ein Bild von der gesamten Gruppe machen.
+
+## Die Aufgabe
+
+Die gesamte Gruppe zeigen, wofür sie steht, was sie macht und wer sie führt, auf einer einzigen Seite, die potenzielle Kunden innerhalb einer Minute erfassen können.
+
+## Was wir gemacht haben
 
 Zwischen Dezember 2019 und März 2020 haben wir die Unternehmenswebsite von Growinc gestaltet und entwickelt. Sie besteht aus einer einzigen, langen Seite, die die Geschichte der Gruppe in der Reihenfolge erzählt, in der Kunden danach fragen.
 
@@ -24,11 +36,9 @@ Zwischen Dezember 2019 und März 2020 haben wir die Unternehmenswebsite von Grow
 - **Ein Krisenprogramm.** Als COVID-19 Anfang 2020 aufkam, kam ein Bereich hinzu, der Beratungen zur Geschäftsstrategie in der Krise anbot.
 - **Kontakt.** E-Mail, Social-Media-Links und ein WhatsApp-Button auf jedem Bildschirm.
 
-## Unser Vorgehen
-
 Eine Agenturgruppe verkauft Menschen und Ergebnisse, kein Produkt. Deshalb beginnt die Seite mit dem, woran Growinc glaubt, und belegt es dann mit Leistungen, echten Kampagnen und namentlich genannten Führungskräften. Dank der einen scrollbaren Seite sieht ein potenzieller Kunde die ganze Gruppe in einer Minute, und der WhatsApp-Button macht aus Interesse ein Gespräch. Sechs Jahre später ist die Website weiterhin Growincs Zuhause im Web.
 
-- **Kunde** PT Growinc Group Indonesia
+- **Kunde** [PT Growinc Group Indonesia](https://sawirstudio.com/de/clients/#growinc)
 - **Website-URL** <https://growinc.id>
 
 ## Weitere Projekte

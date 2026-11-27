@@ -15,7 +15,7 @@ L'AI al lavoro, ma ogni decisione resta a una persona. [In cosa crediamo →](ht
 [Iniziate un progetto](https://sawirstudio.com/it/contact/) [Guardate i lavori per i clienti](#portfolio)
 
 - **9** anni di lavoro per i clienti, dal 2017
-- **26** aziende e istituzioni per cui abbiamo sviluppato
+- **27** aziende e istituzioni per cui abbiamo sviluppato progetti
 - **2019** l'anno in cui PeopleBond ha iniziato a lavorare con noi. E continua.
 - **7** app nostre sull'App Store
 
@@ -114,6 +114,7 @@ I sermoni, le preghiere e le meditazioni quotidiane di un ministero cristiano in
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ I sermoni, le preghiere e le meditazioni quotidiane di un ministero cristiano in
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[Scoprite cosa abbiamo realizzato per ciascuno](https://sawirstudio.com/it/clients/)
 
 ## Pubblichiamo anche le nostre app
 

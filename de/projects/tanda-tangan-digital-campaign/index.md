@@ -8,11 +8,17 @@ description: Kampagnendesign zur digitalen Signatur für das indonesische Minist
 
 ![Broschüre Tanda Tangan Digital](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 Das indonesische Ministerium für Kommunikation und Informatik (Kominfo) wollte der Öffentlichkeit digitale Signaturen näherbringen.
 
-## Was wir umgesetzt haben
+Digitale Signaturen beruhen auf einer Vertrauenskette, die die meisten Menschen nie zu sehen bekommen.
+
+## Die Aufgabe
+
+Der Öffentlichkeit in einem Bild, dem jeder folgen kann, zeigen, wie das Ökosystem der digitalen Signatur zusammenhängt.
+
+## Was wir gemacht haben
 
 Wir haben die Materialien der Kampagne „Hello Tanda Tangan Digital!“ gestaltet, darunter ein isometrisches Diagramm des Ökosystems der digitalen Signatur. Es zeigt, wie Zertifizierungsstellen, Herausgeber elektronischer Zertifikate (PSrE), Nutzer und Institutionen zusammenspielen.
 
@@ -21,11 +27,9 @@ Wir haben die Materialien der Kampagne „Hello Tanda Tangan Digital!“ gestalt
 - **Eine einfache Legende.** Vier Farben für vier Beziehungen: Anerkennung der CA, Ausstellung elektronischer Zertifikate, Registrierung und Audit.
 - **Ein einheitliches visuelles System.** Verläufe von Blau zu Violett, Wellen und eine Pulslinie ziehen sich durch jede Seite.
 
-## Unser Vorgehen
-
 Digitale Signaturen beruhen auf einer Vertrauenskette, die die meisten Menschen nie zu Gesicht bekommen. Wir haben sie als isometrische Karte gezeichnet, mit Gebäuden für Institutionen und Figuren für Nutzer. So wird aus einer Regulierung etwas, dem man mit dem Finger folgen kann.
 
-- **Kunde** Indonesisches Ministerium für Kommunikation und Informatik
+- **Kunde** [Indonesia's Ministry of Communication and Informatic](https://sawirstudio.com/de/clients/#kominfo)
 
 ## Weitere Projekte
 

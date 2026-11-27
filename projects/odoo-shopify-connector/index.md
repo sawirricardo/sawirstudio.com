@@ -40,9 +40,9 @@ Want it set up or extended for your stores? See [Shopify integrations](https://s
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![My Spiritual Journey](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
+### My Spiritual Journey](https://sawirstudio.com/projects/my-spiritual-journey/)
 
 Enough about us.
 

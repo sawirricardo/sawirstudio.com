@@ -40,16 +40,20 @@ description: دراسة حالة: pbConnect، تطبيق PeopleBond للموظف
 - **2024.** طلبات تغيير المناوبات، واكتشاف الوجه على الجهاز نفسه في الصورة الذاتية عند تسجيل الحضور، ثم ترقية كاملة للبنية التي يقوم عليها التطبيق، ليواكب الهواتف الجديدة.
 - **2026.** أوقات الاستراحة مع التذكيرات، وإعادة بناء عرض الفريق مع خيارات للتصفية، وشاشة رئيسية جديدة، وعمليات إصدار مؤتمتة ببرامج نصية تبني التطبيقين وتوقّعهما.
 
-## المزيد من أعمالنا مع PeopleBond
-
-- [منصة الموارد البشرية والرواتب](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/): نظام رواتب يواكب قانون الضرائب الإندونيسي.
-- [الموقع الإلكتروني](https://sawirstudio.com/ar/projects/peoplebond-website/): موقع بلغتين يسوّق للمنتج.
-
-- **العميل** PeopleBond
+- **العميل** [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
 - **نعمل معًا منذ** 2019
 - **رابط الموقع الإلكتروني** [https://peoplebond.id](https://peoplebond.id/)
 - **رابط App Store** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **رابط Google Play** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## المزيد من أعمالنا لصالح [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
+
+[![تطبيق PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### تطبيق PeopleBond HCMS](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
+[![موقع PeopleBond الإلكتروني](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### موقع PeopleBond الإلكتروني](https://sawirstudio.com/ar/projects/peoplebond-website/)
 
 ## مشاريع أخرى
 

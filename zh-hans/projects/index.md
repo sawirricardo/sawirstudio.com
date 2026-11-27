@@ -60,6 +60,9 @@ Sawir Studio 最新项目合集
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/zh-hans/projects/myvivaldy/)
+[![我的心灵之旅](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+## 我的心灵之旅](https://sawirstudio.com/zh-hans/projects/my-spiritual-journey/)
 [![Koperasi HOB 应用](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Koperasi HOB 应用](https://sawirstudio.com/zh-hans/projects/koperasi-hob-application/)

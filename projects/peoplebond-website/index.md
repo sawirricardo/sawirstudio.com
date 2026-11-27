@@ -32,14 +32,18 @@ Explain every module and integration plainly, in Indonesian and English. Make bo
 - **A clear next step.** “Book a Demo” is on every page, and the form leads straight into a WhatsApp chat with the team.
 - **Comfortable to read.** The site follows the visitor’s light or dark setting.
 
-## More from our work with PeopleBond
-
-- [The HR and payroll platform](https://sawirstudio.com/projects/peoplebond-hcms-application/): payroll that keeps up with Indonesian tax law.
-- [The pbConnect employee app](https://sawirstudio.com/projects/pbconnect/): attendance that’s hard to fake.
-
-- **Client** PeopleBond
+- **Client** [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
 - **Working together since** 2019
 - **Website URL** [https://peoplebond.id](https://peoplebond.id/)
+
+## More for [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect App](https://sawirstudio.com/projects/pbconnect/)
 
 ## More projects
 

@@ -8,11 +8,17 @@ description: Sito web aziendale per PT Adiwarna Anugerah Abadi, progettato e rea
 
 ![Sito web Adiwarna](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## Il cliente
+## La situazione
 
 PT Adiwarna Anugerah Abadi Tbk è un'azienda quotata specializzata in impianti antincendio, attiva dal 2007 con un focus sui settori ad alto rischio. Segue l'intero lavoro: progettazione e ingegneria, fornitura, installazione, collaudo e messa in servizio, assistenza e manutenzione.
 
-## Cosa abbiamo realizzato
+La protezione antincendio viene acquistata da ingegneri e uffici acquisti, che prima di chiamare devono potersi fidare dell’impresa.
+
+## L’obiettivo
+
+Dire in una riga cosa fa Adiwarna, poi dimostrarlo con gli impianti che installa e i progetti realizzati.
+
+## Che cosa abbiamo fatto
 
 Abbiamo progettato e realizzato il suo sito web aziendale: una landing page chiara, «Fire Protection System Experts», che porta ai prodotti, ai sistemi di spegnimento incendi e al portfolio dei progetti, con un breve video aziendale.
 
@@ -20,11 +26,9 @@ Abbiamo progettato e realizzato il suo sito web aziendale: una landing page chia
 - **Portfolio progetti.** Lavori per clienti nei settori minerario, delle infrastrutture e dei data center.
 - **Video aziendale.** Un breve video aziendale sulla landing page.
 
-## Come ci siamo approcciati al progetto
-
 La protezione antincendio viene acquistata da ingegneri e uffici acquisti che devono potersi fidare dell'impresa prima ancora di chiamarla. Per questo la landing page spiega in una riga cosa fa Adiwarna, poi passa subito ai sistemi che installa e ai progetti che lo dimostrano, invece di aprire con una lunga storia aziendale.
 
-- **Cliente** PT Adiwarna Anugerah Abadi
+- **Cliente** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/it/clients/#adiwarna)
 - **URL del sito web** <https://adiwarna.co.id>
 
 ## Altri progetti

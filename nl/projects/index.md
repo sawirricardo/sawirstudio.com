@@ -60,6 +60,9 @@ Filter wissen
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
+[![Mijn spirituele reis](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+## Mijn spirituele reis](https://sawirstudio.com/nl/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)

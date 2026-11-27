@@ -10,11 +10,17 @@ description: Indonesia Research Institute Japan 的公司簡介網站，由 Sawi
 
 ![IRIJ 網站](https://sawirstudio.com/assets/images/projects/indonesia-research-institute-japan-website.webp)
 
-## 客戶
+## 背景
 
 Indonesia Research Institute Japan（IRIJ）是一間位於雅加達的研究顧問公司，協助日本企業在進軍印尼市場之前與之後，深入了解當地市場。服務項目包括市場調查、諮詢、宣傳推廣、口譯及研討會。
 
-## 我們的作品
+它向日本企業提供專業知識服務，而這些企業在詢價之前，會想先了解實際的工作內容。
+
+## 任務
+
+以專業實力的實證為核心打造網站，並讓日本企業有再次造訪的理由。
+
+## 我們的做法
 
 我們為 IRIJ 打造了公司簡介網站，內容涵蓋服務介紹、報告與研討會、最新消息，以及會員登入與註冊功能。
 
@@ -24,11 +30,9 @@ Indonesia Research Institute Japan（IRIJ）是一間位於雅加達的研究顧
 - **徵才資訊：** 列出職缺，並提供上傳履歷的表單。
 - **會員專區：** 提供會員登入與註冊。
 
-## 我們的做法
-
 IRIJ 販售的是專業知識，因此網站的設計以呈現實力為核心。最新消息區會發布研究院自己撰寫的印尼市場研究筆記，讓日本企業有理由再次造訪，也能在詢價之前就先了解 IRIJ 的工作成果。
 
-- **客戶** Indonesia Research Institute Japan
+- **客戶** [Indonesia Research Institute Japan](https://sawirstudio.com/zh-hant/clients/#irij)
 - **網站網址** <https://irij-jakarta.com>
 
 ## 更多專案

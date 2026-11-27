@@ -8,11 +8,17 @@ description: Conception de l’identité visuelle de JakPod Hotel, un hôtel-cap
 
 ![JakPod Hotel Design](https://sawirstudio.com/assets/images/projects/jakpod-hotel-design.webp)
 
-## Le client
+## La situation
 
 JakPod Hotel est un hôtel-capsules situé à Thamrin, dans le centre de Jakarta, et fait partie de la famille Capsule Indonesia.
 
-## Ce que nous avons réalisé
+Un hôtel à capsules propose un concept nouveau et compact.
+
+## La mission
+
+Il fallait lui donner une identité moderne sans être froide, aussi bien sur une enseigne dans la rue la nuit qu’imprimée en petit à côté des marques sœurs.
+
+## Ce que nous avons fait
 
 Nous avons conçu son identité visuelle : un monogramme JAK dans un cercle au dégradé du rose au bleu, associé à un logotype en lignes fines, ici sur l’enseigne du « hôtel » côté rue.
 
@@ -21,11 +27,9 @@ Nous avons conçu son identité visuelle : un monogramme JAK dans un cercle au 
 - **La mention du lieu.** « Jakarta - Thamrin », composée simplement sous le logotype.
 - **En situation.** Une enseigne lumineuse noire côté rue, et la place de l’hôtel sur les cartes de visite de la famille Capsule Indonesia.
 
-## Notre approche
-
 Un hôtel-capsules propose quelque chose de nouveau et de compact : son identité devait paraître moderne sans être froide. Les lignes fines allègent la marque, le dégradé lui apporte de la chaleur la nuit sur une enseigne noire, et le monogramme reste lisible même imprimé en petit, à côté des autres marques du groupe.
 
-- **Client** Jakpod Hotel Indonesia
+- **Client** [Jakpod Hotel Indonesia](https://sawirstudio.com/fr/clients/#jakpod)
 
 ## Autres projets
 

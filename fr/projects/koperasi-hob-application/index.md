@@ -10,11 +10,23 @@ Une application de courses du quotidien pour une coopérative
 
 ![Bannière de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-## Le client
+## Le résultat
+
+- **Disponible sur l’App Store depuis décembre 2025.**
+- **Les membres commandent auprès de leur propre coopérative.** Livraison ou retrait, avec paiement en ligne via iPaymu ou par virement bancaire.
+- **La coopérative gère tout elle-même.** Produits, commandes, membres et stock de chaque magasin, depuis une seule interface d’administration.
+
+## La situation
 
 Koperasi HOB est une coopérative qui vend à ses membres, dans ses propres magasins, des produits ménagers du quotidien.
 
-## Ce que nous avons réalisé
+Ses membres sont des voisins et des collègues, et non des acheteurs anonymes.
+
+## La mission
+
+Permettre aux membres de faire leurs achats dans les magasins de la coopérative depuis leur téléphone, et à la coopérative de gérer elle-même toute la boutique, sans que personne ne paie un article qui vient d’être épuisé.
+
+## Ce que nous avons fait
 
 Nous avons construit la boutique de A à Z : l’application des membres, l’API qui la fait tourner et le panneau d’administration depuis lequel la coopérative la gère. L’application est disponible sur l’App Store depuis décembre 2025.
 
@@ -24,15 +36,13 @@ Nous avons construit la boutique de A à Z : l’application des membres, l’A
 - **Stock par magasin.** Chaque magasin gère son propre stock, et un administrateur peut suspendre les achats dans un magasin sans toucher aux autres.
 - **Administration.** L’équipe gère les produits, les catégories, les produits mis en avant, les commandes et les membres, et peut imprimer n’importe quelle commande en PDF.
 
-## Notre approche
-
 Les membres d’une coopérative sont des voisins et des collègues, pas des clients anonymes. L’application limite donc les étapes : choisir ses produits, opter pour la livraison ou le retrait, payer. Le travail le plus délicat se passe en coulisses. Le stock est suivi magasin par magasin et vérifié à nouveau au moment de la commande, pour que personne ne paie un article qui vient d’être vendu. Les frais de livraison, eux, reposent sur des zones que la coopérative définit elle-même, plutôt que sur la grille tarifaire d’un transporteur.
 
 ![Capture d’écran n° 1 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Capture d’écran n° 2 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Capture d’écran n° 3 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)
 
-- **Client** Koperasi HOB
+- **Client** [Koperasi HOB](https://sawirstudio.com/fr/clients/#koperasi-hob)
 - **URL du site web** <https://hob.my.id>
 - **URL de l’App Store** <https://apps.apple.com/id/app/koperasi-hob/id6756156054>
 

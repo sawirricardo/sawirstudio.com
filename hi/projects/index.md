@@ -60,6 +60,9 @@ Sawir Studio के नवीनतम प्रोजेक्ट का सं
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
+[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+## मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)

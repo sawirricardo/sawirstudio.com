@@ -8,11 +8,23 @@ description: Corporate website for Growinc Group Indonesia, a Jakarta marketing 
 
 ![Growinc Group Indonesia home page](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
 
-## The client
+## The result
+
+- **Still Growinc’s home on the web,** six years after launch.
+- **Built in four months,** from December 2019 to March 2020.
+- **Ready for the crisis.** When COVID-19 arrived in early 2020, the site added a section offering business strategy consultations for the crisis.
+
+## The situation
 
 Growinc Group Indonesia is a full-service marketing and advertising group in Jakarta. It leads its own agencies, including Growmint, a digital company, and Nesvara, a brand experience company, and has run campaigns for brands such as Laurier, Pristine 8+, GoFood and Lucky Strike.
 
-## What we made
+An agency group sells people and results, not a product, and its prospective clients want to see the whole group quickly.
+
+## The task
+
+Show the whole group, what it believes, what it does and who leads it, on one page a prospective client can take in within a minute.
+
+## What we did
 
 We designed and built Growinc’s corporate website between December 2019 and March 2020. It is a single, long page that tells the group’s story in the order a client asks about it.
 
@@ -24,11 +36,9 @@ We designed and built Growinc’s corporate website between December 2019 and Ma
 - **A crisis program.** When COVID-19 arrived in early 2020, a section offering business strategy consultations for the crisis.
 - **Contact.** Email, social links and a WhatsApp button on every screen.
 
-## How we approached it
-
 An agency group sells people and results, not a product, so the page leads with what Growinc believes, then proves it with services, real campaigns and named leaders. Keeping it to one scrolling page lets a prospective client see the whole group in a minute, and the WhatsApp button turns interest into a conversation. Six years on, the site is still Growinc’s home on the web.
 
-- **Client** PT Growinc Group Indonesia
+- **Client** [PT Growinc Group Indonesia](https://sawirstudio.com/clients/#growinc)
 - **Website URL** <https://growinc.id>
 
 ## More projects

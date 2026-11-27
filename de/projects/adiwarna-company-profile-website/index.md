@@ -8,11 +8,17 @@ description: Company-Profile-Website für die PT Adiwarna Anugerah Abadi, gestal
 
 ![Adiwarna Website](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 Die PT Adiwarna Anugerah Abadi Tbk ist ein börsennotierter Brandschutz-Auftragnehmer, der seit 2007 mit Schwerpunkt auf Branchen mit hohem Risiko arbeitet. Das Unternehmen deckt den gesamten Auftrag ab: Planung und Engineering, Lieferung, Installation, Prüfung und Inbetriebnahme sowie Service und Wartung.
 
-## Was wir umgesetzt haben
+Brandschutz wird von Ingenieuren und Einkaufsteams beschafft, die dem Auftragnehmer vertrauen müssen, bevor sie anrufen.
+
+## Die Aufgabe
+
+In einer Zeile sagen, was Adiwarna macht, und es dann mit den installierten Systemen und den dahinterstehenden Projekten belegen.
+
+## Was wir gemacht haben
 
 Wir haben die Unternehmenswebsite gestaltet und umgesetzt: eine klare Landingpage „Fire Protection System Experts“, die zu den Produkten, den Löschanlagen und dem Projektportfolio führt, dazu ein kurzes Unternehmensvideo.
 
@@ -20,11 +26,9 @@ Wir haben die Unternehmenswebsite gestaltet und umgesetzt: eine klare Landingpag
 - **Projektportfolio.** Arbeiten für Kunden aus Bergbau, Infrastruktur und Rechenzentren.
 - **Unternehmensvideo.** Ein kurzes Unternehmensvideo auf der Landingpage.
 
-## Unser Vorgehen
-
 Brandschutz kaufen Ingenieure und Einkaufsteams, die dem Auftragnehmer vertrauen müssen, bevor sie anrufen. Deshalb sagt die Landingpage in einem Satz, was Adiwarna macht, und führt dann direkt zu den Anlagen, die das Unternehmen installiert, und zu den Projekten, die das belegen, statt mit einer langen Firmengeschichte zu beginnen.
 
-- **Kunde** PT Adiwarna Anugerah Abadi
+- **Kunde** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/de/clients/#adiwarna)
 - **Website-URL** <https://adiwarna.co.id>
 
 ## Weitere Projekte

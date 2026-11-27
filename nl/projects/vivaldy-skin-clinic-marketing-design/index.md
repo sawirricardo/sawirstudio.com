@@ -8,11 +8,17 @@ description: Marketingdesign voor Vivaldy Skin Clinic door Sawir Studio, zoals e
 
 ![Vivaldy Skin Clinic Design](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## De klant
+## De situatie
 
 Vivaldy Skin Clinic is een huid- en geslachtsziektenkliniek in Mataram op Lombok, onder leiding van dr. Dedianto Hidajat, Sp.DVE.
 
-## Wat we hebben gemaakt
+Een wenskaart van een huidkliniek moet voelen als een cadeautje, niet als reclame.
+
+## De opdracht
+
+Stuur patiënten een Eid-groet die persoonlijk voelt en toch de uitstraling van de kliniek heeft.
+
+## Wat we deden
 
 Wij ontwierpen de marketingmaterialen van de kliniek, zoals deze Eid al-Fitr-wenskaart (“Wajah bersih dan bersinar di hari yang fitri”), in het zachte wit en turquoise van de kliniek.
 
@@ -20,13 +26,20 @@ Wij ontwierpen de marketingmaterialen van de kliniek, zoals deze Eid al-Fitr-wen
 - **Persoonlijk tintje.** Met regels voor Aan en Van, zodat de kliniek elke kaart met naam aan een patiënt kan geven.
 - **Het kleurenpalet.** Zacht wit met een turquoise balk achter de kernwoorden, in hetzelfde turquoise als het V-logo van de kliniek.
 
-## Onze aanpak
-
 Een wenskaart van een huidkliniek moet voelen als een cadeautje, niet als reclame. Daarom begint de kaart met de wens, koppelt die subtiel aan wat de kliniek doet, een schone en stralende huid, en blijft het logo klein in de hoek staan.
 
 Voor de dagelijkse gang van zaken in de kliniek bouwden we ook [MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/), het systeem waarop de kliniek draait en de patiëntenapp voor iPhone en Android.
 
-- **Klant** Vivaldy Skin Clinic
+- **Klant** [Vivaldy Skin Clinic](https://sawirstudio.com/nl/clients/vivaldy-skin-clinic/)
+
+## Meer voor [Vivaldy Skin Clinic](https://sawirstudio.com/nl/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
+[![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic Website](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/)
 
 ## Meer projecten
 

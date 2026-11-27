@@ -8,11 +8,23 @@ description: Einkaufs-App und Website für Gemüse und Lebensmittel für Kantong
 
 ![Kantong-Sayur-Website](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
 
-## Der Kunde
+## Das Ergebnis
+
+- **Traditionelle Märkte, online.** Kunden kauften an den Ständen echter Märkte ein und bekamen ihre Bestellung geliefert.
+- **Aus derselben Plattform entstand ein Großhandelsbereich.** Geschäftskunden mit eigenen Preislisten, Rechnungen und Lieferscheinen.
+- **Vier Jahre Arbeit,** von 2021 bis 2025.
+
+## Die Ausgangslage
 
 Kantong Sayur ist ein Online-Marktplatz, der Händler traditioneller Märkte mit Kunden verbindet. Im Angebot sind Gemüse, Obst, Gewürze, Fisch und Meeresfrüchte, Fleisch, Geflügel sowie Lebensmittel für den Haushalt. Kunden kaufen bei den Ständen echter Märkte ein und bekommen ihre Bestellung geliefert.
 
-## Was wir umgesetzt haben
+Traditionelle Märkte passen nicht in einen Onlineshop von der Stange: Jeder Stand hat eigene Öffnungszeiten, und die Preise ändern sich mit der Saison.
+
+## Die Aufgabe
+
+Die Stände traditioneller Märkte so online bringen, wie sie sind – für Kunden, Händler und das Team, das den Katalog pflegt, ohne ihnen die Form eines Supermarkts aufzuzwingen.
+
+## Was wir gemacht haben
 
 Wir haben die Plattform von Anfang bis Ende umgesetzt: eine Shopping-App für Kunden, eine eigene App für Händler, ein Admin-Bereich für das Team, das den Katalog pflegt, und die Website.
 
@@ -23,11 +35,9 @@ Wir haben die Plattform von Anfang bis Ende umgesetzt: eine Shopping-App für Ku
 - **Gutscheine und Prämien.** Gutscheine nach Region und Markt, KS Points, Prämiengutscheine und ein Affiliate-Programm.
 - **Geschäftsbestellungen.** Großkunden mit eigenen Preislisten sowie Rechnungen und Lieferscheine, die direkt im Admin-Bereich gedruckt werden.
 
-## Unser Vorgehen
-
 Ein traditioneller Markt funktioniert nicht wie ein Supermarkt: Jeder Stand hat seine eigenen Zeiten, die Preise ändern sich mit der Saison, und ein Kilo Chilis ist kein ordentlich abgepacktes Produkt. Deshalb bildet die Plattform Märkte, Stände und Einheiten direkt ab, statt sie in einen allgemeinen Online-Shop zu pressen. Auf demselben Backend entstand später ein Großhandelsbereich für Geschäftskunden. An Kantong Sayur haben wir von 2021 bis 2025 gearbeitet.
 
-- **Kunde** KantongSayur
+- **Kunde** [KantongSayur](https://sawirstudio.com/de/clients/#kantongsayur)
 
 ## Weitere Projekte
 

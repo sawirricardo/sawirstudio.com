@@ -8,11 +8,21 @@ description: App mobile TaniMilenial per agricoltura, pesca e allevamento, reali
 
 ![Banner di Tani Milenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## Il cliente
+## Il risultato
+
+- **Consegnata agli agricoltori su Google Play.**
+
+## La situazione
 
 TaniMilenial è una piattaforma per agricoltura, pesca e allevamento, con il payoff «Ragam solusi untuk petani di era digital» (soluzioni per gli agricoltori nell’era digitale). È stata pensata per agricoltori, pescatori e allevatori indonesiani.
 
-## Cosa abbiamo realizzato
+Chi la usa passa la giornata nei campi, non sulle app.
+
+## L’obiettivo
+
+Riunire gestione dell’azienda agricola, prezzi di mercato, competenze e forniture in un’unica app Android, facile anche per chi usa di rado le app.
+
+## Che cosa abbiamo fatto
 
 Insieme a Clicks&Co abbiamo realizzato l’app Android, pubblicata su Google Play.
 
@@ -22,13 +32,11 @@ Insieme a Clicks&Co abbiamo realizzato l’app Android, pubblicata su Google Pla
 - **Negozio.** Forniture agricole direttamente nell’app, con promozioni come i fertilizzanti in sconto.
 - **Saldo bonus.** Un saldo Saldo Bonus, mostrato in alto nella schermata principale.
 
-## Come ci siamo approcciati al progetto
-
 L’app è pensata per chi passa la giornata nei campi, non sulle app. Per questo la schermata principale mette ogni funzione a un tocco di distanza, in una griglia di icone grandi, il saldo bonus è proprio in alto e ogni sezione usa parole semplici, che un agricoltore usa già, come Kebun Saya e Info Pasar, invece del gergo delle app.
 
 ![Screenshot di Tani Milenial su Google Play Store](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **Cliente** TaniMilenial
+- **Cliente** [TaniMilenial](https://sawirstudio.com/it/clients/#tanimilenial)
 - **Partner** Clicks&Co
 
 ## Altri progetti

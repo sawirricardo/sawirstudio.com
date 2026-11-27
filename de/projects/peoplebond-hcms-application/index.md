@@ -40,16 +40,11 @@ Die Webanwendung deckt Mitarbeiterverwaltung, Recruiting, Timesheets, Lohnabrech
 
 Nach sieben Jahren ist eine komplette Neuentwicklung immer verlockend. Wir entscheiden uns weiterhin dafür, stattdessen das Bestehende zu aktualisieren: Plattform-Upgrades und neue Steuerregeln setzen wir um, sobald sie anstehen. Eine Neuentwicklung würde Änderungen an der Lohnabrechnung monatelang blockieren, und das Gesetz wartet nicht.
 
-## Mehr aus unserer Arbeit mit PeopleBond
-
-- [Die Mitarbeiter-App pbConnect](https://sawirstudio.com/de/projects/pbconnect/): Zeiterfassung, die sich nur schwer fälschen lässt.
-- [Die Website](https://sawirstudio.com/de/projects/peoplebond-website/): eine zweisprachige Website, die das Produkt verkauft.
-
-- **Kunde** PeopleBond
+- **Kunde** [PeopleBond](https://sawirstudio.com/de/clients/peoplebond/)
 - **Zusammenarbeit seit** 2019
 - **Website-URL** [https://peoplebond.id](https://peoplebond.id/)
 
-## Weitere Projekte
+## Mehr für [PeopleBond](https://sawirstudio.com/de/clients/peoplebond/)
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ Nach sieben Jahren ist eine komplette Neuentwicklung immer verlockend. Wir entsc
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/de/projects/peoplebond-website/)
+
+## Weitere Projekte
+
 [![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial Application](https://sawirstudio.com/de/projects/tani-milenial-application/)
+[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group Website](https://sawirstudio.com/de/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia Website](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia Website](https://sawirstudio.com/de/projects/fluindo-technology-indonesia-website/)
 
 Genug über uns.
 

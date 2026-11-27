@@ -8,11 +8,22 @@ description: Site web de PT SPP Indonesia, spécialiste des pompes incendie, ave
 
 ![SPP Indonesia Website](https://sawirstudio.com/assets/images/projects/spp-indonesia-website.webp)
 
-## Le client
+## Le résultat
+
+- **Il s’agit toujours du site web actuel de SPP Indonesia.**
+- **Chaque type de pompe à un clic depuis le menu,** avec une page dédiée à chacun et, au bas de chaque page, la possibilité d’appeler ou d’envoyer un e-mail.
+
+## La situation
 
 PT SPP Indonesia est spécialisée dans les systèmes de pompes incendie : pompes incendie à aspiration axiale, à corps séparé (split case), verticales en ligne et à turbine verticale, pompes multicellulaires, pompes jockey, groupes de pompage et armoires de commande. L’entreprise est basée à Cengkareng, à Jakarta.
 
-## Ce que nous avons réalisé
+Ses acheteurs savent généralement déjà de quelle pompe ils ont besoin.
+
+## La mission
+
+Permettre à un acheteur d’accéder directement à sa pompe et de prendre contact sans avoir à chercher un numéro de téléphone.
+
+## Ce que nous avons fait
 
 Nous avons conçu et réalisé son site web autour de cette gamme de produits, avec une page pour chaque type de pompe.
 
@@ -21,11 +32,9 @@ Nous avons conçu et réalisé son site web autour de cette gamme de produits, a
 - **Deux langues en une ligne.** Le titre en anglais, « Experts in Handling Fire Pump System », avec sa traduction en indonésien juste en dessous.
 - **Contact.** Un numéro de téléphone et un lien e-mail en bas de chaque page.
 
-## Notre approche
-
 Les acheteurs de SPP savent généralement déjà de quelle pompe ils ont besoin. Le menu liste donc directement chaque type de pompe, chaque page répond à un seul produit, et le moyen d’appeler ou d’écrire n’est jamais à plus d’un défilement de souris.
 
-- **Client** PT SPP Indonesia
+- **Client** [PT SPP Indonesia](https://sawirstudio.com/fr/clients/#spp-indonesia)
 - **URL du site web** <https://sppindonesia.co.id>
 
 ## Autres projets

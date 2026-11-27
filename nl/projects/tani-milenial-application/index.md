@@ -8,11 +8,21 @@ description: TaniMilenial-app voor landbouw, visserij en veeteelt, gebouwd door 
 
 ![Tani Milenial-banner](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## De klant
+## Het resultaat
+
+- **Via Google Play bij boeren terechtgekomen.**
+
+## De situatie
 
 TaniMilenial is een platform voor landbouw, visserij en veeteelt, met de tagline “Ragam solusi untuk petani di era digital” (oplossingen voor boeren in het digitale tijdperk). Het is gemaakt voor Indonesische boeren, viskwekers en veehouders.
 
-## Wat we hebben gemaakt
+De gebruikers zijn de hele dag op het land, niet in apps bezig.
+
+## De opdracht
+
+Breng bedrijfsbeheer voor de boerderij, marktprijzen, kennis en benodigdheden samen in één Android-app die ook mensen die zelden apps gebruiken makkelijk vinden.
+
+## Wat we deden
 
 Samen met Clicks&Co bouwden we de Android-app, die in Google Play is gepubliceerd.
 
@@ -22,13 +32,11 @@ Samen met Clicks&Co bouwden we de Android-app, die in Google Play is gepubliceer
 - **Winkel.** Landbouwbenodigdheden in de app, met acties zoals korting op kunstmest.
 - **Bonussaldo.** Een Saldo Bonus-saldo, bovenaan het startscherm weergegeven.
 
-## Onze aanpak
-
 De app is gemaakt voor mensen die hun dag op het land doorbrengen, niet in apps. Daarom staat elke functie op het startscherm één tik weg in een raster van grote iconen, staat het bonussaldo helemaal bovenaan en gebruikt elk onderdeel gewone woorden die een boer al kent, zoals Kebun Saya en Info Pasar, in plaats van appjargon.
 
 ![Tani Milenial-screenshots uit de Google Play Store](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **Klant** TaniMilenial
+- **Klant** [TaniMilenial](https://sawirstudio.com/nl/clients/#tanimilenial)
 - **Partner** Clicks&Co
 
 ## Meer projecten

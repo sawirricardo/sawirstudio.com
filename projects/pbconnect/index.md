@@ -40,16 +40,20 @@ Put everyday HR in each employee’s pocket, and make attendance something a com
 - **2024.** Shift change requests and on-device face detection for the tap in selfie, then a full upgrade of the app underneath, so it keeps up with new phones.
 - **2026.** Break times with reminders, a rebuilt team view with filters, a new home screen, and scripted releases that build and sign both apps.
 
-## More from our work with PeopleBond
-
-- [The HR and payroll platform](https://sawirstudio.com/projects/peoplebond-hcms-application/): payroll that keeps up with Indonesian tax law.
-- [The website](https://sawirstudio.com/projects/peoplebond-website/): a bilingual site that sells the product.
-
-- **Client** PeopleBond
+- **Client** [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
 - **Working together since** 2019
 - **Website URL** [https://peoplebond.id](https://peoplebond.id/)
 - **App Store URL** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google Playstore URL** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## More for [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/projects/peoplebond-hcms-application/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond Website](https://sawirstudio.com/projects/peoplebond-website/)
 
 ## More projects
 

@@ -47,12 +47,12 @@ Un gioco di carte collezionabili vive della sua grafica, quindi il sito si fa da
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
+[![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)
 [![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
-[![Applicazione DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### Applicazione DBTV](https://sawirstudio.com/it/projects/dbtv-application/)
 
 Basta parlare di noi.
 

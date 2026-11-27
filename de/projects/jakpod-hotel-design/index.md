@@ -8,11 +8,17 @@ description: Identitätsdesign für das JakPod Hotel, ein Pod-Hotel in Thamrin, 
 
 ![JakPod Hotel Design](https://sawirstudio.com/assets/images/projects/jakpod-hotel-design.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 JakPod Hotel ist ein Pod-Hotel in Thamrin, im Zentrum von Jakarta, und gehört zur Capsule-Indonesia-Familie.
 
-## Was wir umgesetzt haben
+Ein Pod-Hotel verkauft etwas Neues und Kompaktes.
+
+## Die Aufgabe
+
+Gefragt ist eine Identität, die modern wirkt, ohne kühl auszusehen: nachts auf einem Schild an der Straße ebenso wie klein gedruckt neben den Schwestermarken.
+
+## Was wir gemacht haben
 
 Wir haben die Identität entworfen: ein JAK-Monogramm in einem Kreis mit Farbverlauf von Pink zu Blau und eine Wortmarke in feiner Linienführung, hier auf dem Straßenschild des Hotels zu sehen.
 
@@ -21,11 +27,9 @@ Wir haben die Identität entworfen: ein JAK-Monogramm in einem Kreis mit Farbver
 - **Die Standortzeile.** „Jakarta - Thamrin“ schlicht unter der Wortmarke platziert.
 - **Im Einsatz.** Ein schwarzes Leuchtkastenschild an der Straße und der Platz des Hotels auf den Visitenkarten der Capsule-Indonesia-Familie.
 
-## Unser Vorgehen
-
 Ein Pod-Hotel bietet etwas Neues und Kompaktes, deshalb sollte die Identität modern wirken, ohne kalt zu sein. Die feinen Linien halten das Zeichen leicht, der Farbverlauf verleiht ihm nachts auf dem schwarzen Schild Wärme, und das Monogramm bleibt auch klein gedruckt neben den anderen Marken der Gruppe gut lesbar.
 
-- **Kunde** Jakpod Hotel Indonesia
+- **Kunde** [Jakpod Hotel Indonesia](https://sawirstudio.com/de/clients/#jakpod)
 
 ## Weitere Projekte
 

@@ -39,6 +39,11 @@ func build(root string, write bool) ([]string, error) {
 	if err != nil {
 		return nil, err
 	}
+	clients, err := LoadClients(filepath.Join(root, "content", "clients.yaml"), projects)
+	if err != nil {
+		return nil, err
+	}
+	pages = append(pages, clientPages(clients, projects)...)
 	written, err := drawCards(root, pages, write)
 	if err != nil {
 		return nil, fmt.Errorf("share cards: %w", err)
@@ -55,7 +60,7 @@ func build(root string, write bool) ([]string, error) {
 			return nil, fmt.Errorf("%s: related: true, but it isn't in content/projects.yaml", p.Path)
 		}
 		var buf bytes.Buffer
-		d := pageData{Page: p, OGImageW: w, OGImageH: h, Projects: projects, Opts: opts}
+		d := pageData{Page: p, OGImageW: w, OGImageH: h, Projects: projects, Clients: clients, Opts: opts}
 		if err := Layout(d).Render(context.Background(), &buf); err != nil {
 			return nil, fmt.Errorf("%s: %w", p.Path, err)
 		}
@@ -82,6 +87,11 @@ func build(root string, write bool) ([]string, error) {
 var placeholders = map[string]func(d pageData) templ.Component{
 	"<!-- @project-cards -->": func(d pageData) templ.Component { return projectCards(d.Projects) },
 	"<!-- @inquiry-form -->":  func(d pageData) templ.Component { return inquiryForm(d.Opts.InquiryAPI) },
+	"<!-- @client-list -->":   func(d pageData) templ.Component { return clientList(d.Clients, d.Projects) },
+	"<!-- @client-page -->": func(d pageData) templ.Component {
+		c := clientBySlug(d.Clients, d.Page.Client)
+		return clientPage(c, clientProjects(d.Projects, c.Name))
+	},
 }
 
 // expand is the page's <main> HTML with its placeholders rendered.

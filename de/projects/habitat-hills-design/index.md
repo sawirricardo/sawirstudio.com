@@ -8,11 +8,17 @@ description: Dreiteilige Broschüre für Habitat Hills, ein Naturresort auf 27 H
 
 ![Habitat-Hills-Broschüre](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 Habitat Hills ist ein Naturresort auf 27 Hektar in Megamendung, Bogor, nahe dem Wasserfall Curug 7 Cilember.
 
-## Was wir umgesetzt haben
+Die Gäste kommen für ein Wochenende aus Jakarta herauf.
+
+## Die Aufgabe
+
+Eine Broschüre, die man auf einen Blick erfasst und die Menschen in Jakarta Lust macht, den Hügel hinaufzufahren.
+
+## Was wir gemacht haben
 
 Wir haben die dreiteilige Broschüre in Waldgrün und Terrakotta gestaltet, mit dem Wasserfall auf dem Cover und den Angeboten, die ein Wochenende raus aus Jakarta verkaufen: 21 Zimmer mit Berg- und Stadtblick, ein Café, ein Tagungsraum, Pool, Joggingstrecke und Campingplatz.
 
@@ -21,11 +27,9 @@ Wir haben die dreiteilige Broschüre in Waldgrün und Terrakotta gestaltet, mit 
 - **Geeignet für.** Ein Panel mit den Gründen für einen Besuch: Erholung, Zusammenkunft, Retreat und Feier.
 - **Kontakt.** Telefon, Instagram, Website und die Adresse an der Jalan Raya Puncak, dazu das Berg-Logo.
 
-## Unser Vorgehen
-
 Eine Resort-Broschüre muss in Jakarta die Lust wecken, den Berg hinaufzufahren. Deshalb tragen die Fotos die Wirkung, die Farben stammen vom Ort selbst, Waldgrün und das Terrakotta der Gebäude, und die Texte bleiben kurz genug, um sie auf einen Blick zu erfassen.
 
-- **Kunde** Habitat Hills
+- **Kunde** [Habitat Hills](https://sawirstudio.com/de/clients/#habitat-hills)
 
 ## Weitere Projekte
 

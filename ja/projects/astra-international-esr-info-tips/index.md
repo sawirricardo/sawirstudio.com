@@ -8,11 +8,17 @@ description: Astra International 向けに Sawir Studio が制作した、安全
 
 ![ESR Info & Tips](https://sawirstudio.com/assets/images/projects/astra-international-esr-info-tips.webp)
 
-## クライアントについて
+## 背景
 
 Astra International は、インドネシア最大級の企業グループの一つです。
 
-## 制作したもの
+安全や環境に関するガイダンスは、規程文書のような書き方だと読み飛ばされがちです。
+
+## 課題
+
+ガイダンスを、現場でもオフィスでも実際に開いて読まれる一冊にまとめること。
+
+## 取り組んだこと
 
 ESR Info & Tips は、Astra の AGC シリーズの一冊で、安全衛生、環境、一般情報、社会的責任を扱うイラスト入りの本です。Mr. Green と Mrs. Friendly という2人のキャラクターを軸に設計し、マニュアルではなく、親しみやすい会話のように読める内容にしました。
 
@@ -20,11 +26,9 @@ ESR Info & Tips は、Astra の AGC シリーズの一冊で、安全衛生、�
 - **表紙。** 鮮やかな黄色の表紙に、太字の青いタイトルと2人のキャラクターを配置し、下部に4つのテーマを並べています。
 - **デジタル版。** ここではタブレット上のデジタルブックとして表示しています。
 
-## 進め方
-
 安全や環境に関する案内は、規程のような文章だとつい読み飛ばされがちです。そこで身近な2人に語りかけてもらうことで、ひとつひとつのヒントが同僚からのアドバイスのように伝わります。明るい色づかいで、実際に手に取って開きたくなる本になりました。
 
-- **クライアント** Astra International
+- **クライアント** [Astra International](https://sawirstudio.com/ja/clients/#astra)
 
 ## その他の実績
 

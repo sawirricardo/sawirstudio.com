@@ -40,16 +40,11 @@ PeopleBond は、人事・給与計算ソフトウェアをインドネシアの
 
 7 年も経つと、一から作り直したくなることは常にあります。それでも私たちは、今あるシステムをアップグレードする道を選び続けています。プラットフォームのアップグレードや新しい税制には、その都度対応します。作り直すとなれば給与計算の変更が何か月も止まってしまいますが、法律は待ってくれません。
 
-## PeopleBond 向けのその他の制作実績
-
-- [従業員向けアプリ pbConnect](https://sawirstudio.com/ja/projects/pbconnect/)：不正が難しい勤怠記録。
-- [ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)：製品の販売を支える 2 か国語対応のサイト。
-
-- **クライアント** PeopleBond
+- **クライアント** [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/)
 - **協業開始** 2019 年
 - **ウェブサイト URL** [https://peoplebond.id](https://peoplebond.id/)
 
-## その他の実績
+## [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/) のその他の実績
 
 [![PeopleBond Connect アプリ](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond は、人事・給与計算ソフトウェアをインドネシアの
 [![PeopleBond ウェブサイト](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)
+
+## その他の実績
+
 [![TaniMilenial アプリケーション](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial アプリケーション](https://sawirstudio.com/ja/projects/tani-milenial-application/)
+[![Growinc Group ウェブサイト](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group ウェブサイト](https://sawirstudio.com/ja/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia ウェブサイト](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia ウェブサイト](https://sawirstudio.com/ja/projects/fluindo-technology-indonesia-website/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

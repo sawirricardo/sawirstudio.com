@@ -8,11 +8,23 @@ description: 皮膚科・性病科クリニック Vivaldy Skin Clinic のウェ�
 
 ![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
-## クライアントについて
+## 成果
+
+- **どのページからも診察を予約できます。** 各ページのメインボタンから WhatsApp が開きます。インドネシアの患者さんが普段から使っている予約方法です。
+- **クリニックの 21 種類の施術それぞれに専用ページを用意。** フェイシャルから、レーザー、フィラー、ボトックスまで揃っています。
+- **2022 年から継続して保守を担当し、** その後、すべてのページが速く表示されるように作り直しました。
+
+## 背景
 
 Vivaldy Skin Clinic は、ロンボク島マタラムにある皮膚科・性病科のクリニックで、院長は dr. Dedianto Hidajat, Sp.DVE です。Google では 150 件の口コミで平均 4.9 の評価をいただいています。
 
-## 制作したもの
+患者さんの多くは「マタラムの皮膚科専門医」を検索してこのサイトにたどり着き、フォームではなくチャットで予約します。
+
+## 課題
+
+地域で検索している人に見つけてもらい、訪問を WhatsApp での予約につなげること。
+
+## 取り組んだこと
 
 クリニックのウェブサイトを設計・制作し、施術内容、ショップ、連絡先をわかりやすくご紹介しています。2022 年からは運用も担当しています。
 
@@ -22,14 +34,21 @@ Vivaldy Skin Clinic は、ロンボク島マタラムにある皮膚科・性病
 - **よくあるご質問。** 診療時間、ダウンタイム・予約・料金に関するよくあるご質問、患者様の口コミを掲載しています。
 - **キャンペーン、ブログ、ショップ。** 実施中のキャンペーン、記事、クリニックのスキンケアショップを掲載しています。
 
-## 進め方
-
 患者様の多くは、マタラムで皮膚の専門医を検索してこのクリニックを見つけます。また、インドネシアでは予約はフォームではなくチャットで行うのが一般的です。そのため、ページタイトルとディスクリプションは地域での検索に合わせて設定し、どのページでもメインのボタンから WhatsApp が開くようにしています。その後、サイトを静的ページとして作り直し、すべてのページがすばやく読み込まれるようになりました。
 
 クリニックの日々の業務向けには、クリニックが業務に使うシステムであり、iPhone と Android に対応した患者様向けアプリでもある [MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/) も制作しました。
 
-- **クライアント** Vivaldy Skin Clinic
+- **クライアント** [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/)
 - **ウェブサイト URL** <https://vivaldyskinclinic.id>
+
+## [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/) のその他の実績
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/ja/projects/myvivaldy/)
+[![Vivaldy Skin Clinic マーケティングデザイン](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Vivaldy Skin Clinic マーケティングデザイン](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-marketing-design/)
 
 ## その他の実績
 

@@ -32,14 +32,18 @@ description: מקרה לדוגמה: ב-2026 בנינו ב-Sawir Studio מחדש 
 - **צעד הבא ברור.** הכפתור “Book a Demo” מופיע בכל עמוד, והטופס מוביל ישר לשיחת WhatsApp עם הצוות.
 - **נוח לקריאה.** האתר מותאם להגדרת התצוגה הבהירה או הכהה של המבקרים.
 
-## עוד מהעבודה שלנו עם PeopleBond
-
-- [פלטפורמת משאבי האנוש והשכר](https://sawirstudio.com/he/projects/peoplebond-hcms-application/): מערכת שכר שמתעדכנת בהתאם לדיני המס באינדונזיה.
-- [אפליקציית העובדים pbConnect](https://sawirstudio.com/he/projects/pbconnect/): דיווח נוכחות שקשה לזייף.
-
-- **לקוח** PeopleBond
+- **לקוח** [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
 - **עובדים יחד מאז** 2019
 - **כתובת האתר** [https://peoplebond.id](https://peoplebond.id/)
+
+## עוד עבור [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
+
+[![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect App](https://sawirstudio.com/he/projects/pbconnect/)
 
 ## עוד פרויקטים
 

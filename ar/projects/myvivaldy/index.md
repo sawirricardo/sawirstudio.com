@@ -8,11 +8,23 @@ description: MyVivaldy، نظام العيادة وتطبيق المرضى لـ 
 
 ![شاشات تطبيق MyVivaldy: حجز زيارة، وسجل الزيارات، والحساب](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
-## العميل
+## النتيجة
+
+- **المرضى يحجزون بأنفسهم.** تطبيق MyVivaldy متوفر على App Store وGoogle Play، ولا يعرض إلا المواعيد التي يكون الطبيب متاحًا فيها فعلًا.
+- **نظام واحد للعيادة كلها.** المواعيد والسجلات الطبية والصيدلية تعمل على النظام نفسه الذي تصل إليه الحجوزات من التطبيق.
+- **نتولى العناية به منذ 2024.**
+
+## الوضع
 
 Vivaldy Skin Clinic هي عيادة للأمراض الجلدية والتناسلية تديرها شركة PT Viva Estemedika Indonesia. نحن أيضًا من بنى [موقعها الإلكتروني](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/) وصمّم [تصاميمها التسويقية](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-marketing-design/).
 
-## ماذا أنجزنا
+يحجز مرضى العيادة عبر المحادثة، ويقوم يوم العمل فيها على المواعيد والسجلات الطبية والصيدلية.
+
+## المهمة
+
+أن نتيح للمرضى طريقة لحجز مواعيدهم ومتابعة رعايتهم من هواتفهم، وأن نوفر للعيادة نظامًا واحدًا يقف خلف ذلك، حتى لا يعرض التطبيق أبدًا موعدًا لا تستطيع العيادة الالتزام به.
+
+## ما قمنا به
 
 MyVivaldy يجمع أمرين: النظام الذي تعمل عليه العيادة، والتطبيق الذي يحمله مرضاها.
 
@@ -25,26 +37,33 @@ MyVivaldy يجمع أمرين: النظام الذي تعمل عليه العي�
 - **سجل الزيارات.** الزيارات السابقة مع العلاجات التي تم تلقيها والأدوية الموصوفة.
 - **الحساب.** سجّلوا الدخول ببريد إلكتروني أو رقم هاتف، بالإنجليزية أو Bahasa Indonesia، ويمكنكم حذف الحساب من داخل التطبيق.
 
-## كيف تناولنا المشروع
-
 نظام واحد يخدم الطرفين. فالمواعيد التي يراها المريض في التطبيق مصدرها الجدول نفسه الذي تديره العيادة، والزيارة التي يسجّلها الطبيب تظهر في سجل المريض. التطبيقات أصلية (native) على iPhone وAndroid، وتتصل بنظام العيادة مباشرةً. ونعمل على MyVivaldy منذ 2024.
 
-- **العميل** Vivaldy Skin Clinic
+- **العميل** [Vivaldy Skin Clinic](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/)
 - **المنصات** iPhone وAndroid والويب
 - **رابط App Store** <https://apps.apple.com/id/app/myvivaldy/id6790103528>
 - **رابط Google Play** <https://play.google.com/store/apps/details?id=com.myvivaldy.patient>
 
+## المزيد من أعمالنا لـ [Vivaldy Skin Clinic](https://sawirstudio.com/ar/clients/vivaldy-skin-clinic/)
+
+[![موقع Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### موقع Vivaldy Skin Clinic](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/)
+[![تصميم تسويقي لـ Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### تصميم تسويقي لـ Vivaldy Skin Clinic](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-marketing-design/)
+
 ## مشاريع أخرى
 
+[![رحلتي الروحية](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### رحلتي الروحية](https://sawirstudio.com/ar/projects/my-spiritual-journey/)
 [![تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### تطبيق Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
 [![تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### تطبيق DBTV](https://sawirstudio.com/ar/projects/dbtv-application/)
-[![تطبيق Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### تطبيق Kantong Sayur](https://sawirstudio.com/ar/projects/kantong-sayur-application/)
 
 يكفي حديثًا عن أنفسنا.
 

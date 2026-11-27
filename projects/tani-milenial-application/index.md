@@ -8,11 +8,21 @@ description: TaniMilenial mobile app for farming, fishery and livestock, built b
 
 ![Tani Milenial Banner](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
-## The client
+## The result
+
+- **Shipped to farmers on Google Play.**
+
+## The situation
 
 TaniMilenial is a platform for farming, fisheries and livestock, with the tagline “Ragam solusi untuk petani di era digital” (solutions for farmers in the digital era). It was made for Indonesian farmers, fish farmers and livestock keepers.
 
-## What we made
+Its users spend their day in the field, not in apps.
+
+## The task
+
+Put farm management, market prices, know-how and supplies in one Android app that people who rarely use apps find easy.
+
+## What we did
 
 With Clicks&Co, we built its Android app, which was published on Google Play.
 
@@ -22,13 +32,11 @@ With Clicks&Co, we built its Android app, which was published on Google Play.
 - **Store.** Farm supplies in the app, with promotions such as discounted fertilizer.
 - **Bonus balance.** A Saldo Bonus balance, shown at the top of the home screen.
 
-## How we approached it
-
 The app was made for people who spend their day in the field, not in apps. So the home screen puts every feature one tap away in a grid of large icons, the bonus balance sits right at the top, and each section uses plain words a farmer already uses, like Kebun Saya and Info Pasar, instead of app jargon.
 
 ![Tani Milenial Google Playstore screenshots](https://sawirstudio.com/assets/images/projects/tanimilenial-playstore.webp)
 
-- **Client** TaniMilenial
+- **Client** [TaniMilenial](https://sawirstudio.com/clients/#tanimilenial)
 - **Partner** Clicks&Co
 
 ## More projects

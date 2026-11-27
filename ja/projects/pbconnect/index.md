@@ -40,16 +40,20 @@ description: 導入事例：PeopleBond の従業員向け iPhone・Android ア�
 - **2024 年。** シフト変更の申請機能と、打刻時の自撮り写真に対する端末上での顔検出機能を追加しました。続いて、新しいスマートフォンに対応し続けられるよう、アプリの基盤を全面的にアップグレードしました。
 - **2026 年。** リマインダー付きの休憩時間機能、絞り込みができるように作り直したチーム表示、新しいホーム画面、両アプリのビルドと署名を行うリリース用スクリプトを導入しました。
 
-## PeopleBond 向けのその他の制作実績
-
-- [人事・給与プラットフォーム](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)：インドネシアの税法に対応し続ける給与計算。
-- [ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)：製品の販売を支える 2 か国語対応のサイト。
-
-- **クライアント** PeopleBond
+- **クライアント** [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/)
 - **協業開始** 2019 年
 - **ウェブサイト URL** [https://peoplebond.id](https://peoplebond.id/)
 - **App Store URL** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google Play ストア URL** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## [PeopleBond](https://sawirstudio.com/ja/clients/peoplebond/) のその他の実績
+
+[![PeopleBond HCMS アプリケーション](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS アプリケーション](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+[![PeopleBond ウェブサイト](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond ウェブサイト](https://sawirstudio.com/ja/projects/peoplebond-website/)
 
 ## その他の実績
 

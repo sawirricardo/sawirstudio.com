@@ -40,9 +40,9 @@ Wil je dat we het voor jouw winkels instellen of uitbreiden? Bekijk [Shopify-int
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![Mijn spirituele reis](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
+### Mijn spirituele reis](https://sawirstudio.com/nl/projects/my-spiritual-journey/)
 
 Genoeg over ons.
 

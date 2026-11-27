@@ -8,9 +8,15 @@ description: Маркетинговый дизайн для Vivaldy Skin Clinic 
 
 ![Дизайн для Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## Клиент
+## Ситуация
 
 Vivaldy Skin Clinic — клиника дерматологии и венерологии в Матараме на острове Ломбок. Её возглавляет dr. Dedianto Hidajat, Sp.DVE.
+
+Открытка от клиники ухода за кожей должна восприниматься как подарок, а не как реклама.
+
+## Задача
+
+Отправить пациентам поздравление с праздником Ид, которое звучит по-личному и при этом сохраняет фирменный стиль клиники.
 
 ## Что мы сделали
 
@@ -20,13 +26,20 @@ Vivaldy Skin Clinic — клиника дерматологии и венеро�
 - **Личный штрих.** Строки «Кому» и «От кого» позволяют клинике вручать каждую открытку пациенту лично, с указанием имени.
 - **Палитра.** Мягкий белый цвет и бирюзовая полоса за ключевыми словами — тот же бирюзовый, что и в логотипе клиники в виде буквы V.
 
-## Как мы подошли к задаче
-
 Поздравительная открытка от клиники кожи должна быть похожа на подарок, а не на рекламу. Поэтому в ней на первом месте пожелание, которое мягко связано с тем, чем занимается клиника, — чистой и сияющей кожей, а логотип небольшой и стоит в углу.
 
 Для повседневной работы клиники мы также создали [MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/) — систему, на которой работает клиника, и приложение для пациентов на iPhone и Android.
 
-- **Клиент:** Vivaldy Skin Clinic
+- **Клиент** [Vivaldy Skin Clinic](https://sawirstudio.com/ru/clients/vivaldy-skin-clinic/)
+
+## Другие работы для [Vivaldy Skin Clinic](https://sawirstudio.com/ru/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
+[![Сайт Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Сайт Vivaldy Skin Clinic](https://sawirstudio.com/ru/projects/vivaldy-skin-clinic-website/)
 
 ## Другие проекты
 

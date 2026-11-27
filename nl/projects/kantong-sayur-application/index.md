@@ -8,11 +8,23 @@ description: App en website voor groenten en boodschappen van KantongSayur, gebo
 
 ![Kantong Sayur-website](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
 
-## De klant
+## Het resultaat
+
+- **Traditionele markten, online.** Klanten deden boodschappen bij de kramen van echte markten en lieten hun bestelling bezorgen.
+- **Uit hetzelfde platform groeide een groothandelstak.** Zakelijke klanten met eigen prijslijsten, facturen en pakbonnen.
+- **Vier jaar werk,** van 2021 tot 2025.
+
+## De situatie
 
 Kantong Sayur is een online marktplaats die handelaren van traditionele markten met klanten verbindt. Er worden groenten, fruit, specerijen, vis en zeevruchten, vlees, gevogelte en huishoudelijke boodschappen verkocht. Klanten winkelen bij de kramen van echte markten en krijgen hun bestelling thuisbezorgd.
 
-## Wat we hebben gemaakt
+Traditionele markten passen niet in een standaard webshop: elke kraam heeft zijn eigen openingstijden en de prijzen bewegen mee met het seizoen.
+
+## De opdracht
+
+Breng kramen van traditionele markten online zoals ze zijn, voor klanten, verkopers en het team dat de catalogus beheert, zonder ze in de mal van een supermarkt te dwingen.
+
+## Wat we deden
 
 We bouwden het platform van begin tot eind: een shopping-app voor klanten, een aparte app voor handelaren, een adminpaneel voor het team dat de catalogus beheert en de website.
 
@@ -23,11 +35,9 @@ We bouwden het platform van begin tot eind: een shopping-app voor klanten, een a
 - **Kortingsbonnen en beloningen.** Kortingsbonnen per regio en markt, KS Points, beloningsvouchers en een affiliateprogramma.
 - **Zakelijke bestellingen.** Groothandelsklanten met eigen prijslijsten, en facturen en pakbonnen die je afdrukt vanuit het adminpaneel.
 
-## Onze aanpak
-
 Een traditionele markt werkt niet zoals een supermarkt: elke kraam heeft eigen openingstijden, prijzen schommelen met het seizoen en een kilo chilipepers is geen netjes verpakt product. Daarom modelleert het platform markten, kramen en eenheden direct, in plaats van ze in een standaardwebshop te proppen. Dezelfde backend kreeg later een groothandelskant voor zakelijke klanten. We werkten van 2021 tot 2025 aan Kantong Sayur.
 
-- **Klant** KantongSayur
+- **Klant** [KantongSayur](https://sawirstudio.com/nl/clients/#kantongsayur)
 
 ## Meer projecten
 

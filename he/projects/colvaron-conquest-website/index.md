@@ -47,12 +47,12 @@ Sawir Studio היא כיום המוציאה לאור של Colvaron Conquest. א�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
+[![המסע הרוחני שלי](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### המסע הרוחני שלי](https://sawirstudio.com/he/projects/my-spiritual-journey/)
 [![אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### אפליקציית Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
-[![אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### אפליקציית DBTV](https://sawirstudio.com/he/projects/dbtv-application/)
 
 מספיק עלינו.
 

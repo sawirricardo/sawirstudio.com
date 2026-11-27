@@ -15,7 +15,7 @@ description: Sawir Studio проектирует, разрабатывает и 
 [Начать проект](https://sawirstudio.com/ru/contact/) [Посмотреть работы для клиентов](#portfolio)
 
 - **9** лет работаем для клиентов, с 2017 года
-- **26** компаний и организаций, для которых мы делали проекты
+- **27** компаний и организаций, для которых мы создавали проекты
 - **2019** год, когда PeopleBond начал работать с нами. Работаем до сих пор.
 - **7** собственных приложений в App Store
 
@@ -114,6 +114,7 @@ HR-платформа и приложение для сотрудников, к�
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ HR-платформа и приложение для сотрудников, к�
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[Посмотрите, что мы создали для каждого клиента](https://sawirstudio.com/ru/clients/)
 
 ## Мы выпускаем и свои продукты
 

@@ -40,9 +40,9 @@ Odoo Community Association (OCA) एक नॉनप्रॉफ़िट सं
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
+### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
 
 हमारी बात बहुत हुई।
 

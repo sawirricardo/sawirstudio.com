@@ -8,11 +8,23 @@ description: MyVivaldy は Vivaldy Skin Clinic のクリニックシステムと
 
 ![MyVivaldy のアプリ画面：予約、受診履歴、アカウント](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
-## クライアントについて
+## 成果
+
+- **患者様ご自身で予約できます。** MyVivaldy は App Store と Google Play で公開されており、医師の予定が実際に空いている時間だけが表示されます。
+- **クリニック全体をひとつのシステムで。** 予約、診療記録、薬局は、アプリからの予約を受け付けるのと同じシステムで動いています。
+- **2024 年から継続してサポートしています。**
+
+## 背景
 
 Vivaldy Skin Clinic は、PT Viva Estemedika Indonesia が運営する皮膚科・性病科のクリニックです。[ウェブサイト](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/)の制作と、[マーケティングデザイン](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-marketing-design/)も担当しました。
 
-## 制作したもの
+患者様はチャットで予約でき、クリニックの日々の業務は予約、診療記録、薬局を中心に回っています。
+
+## 課題
+
+患者様がスマートフォンで予約し、ご自身の治療の経過を確認できるようにすること。そしてクリニックにはそれを支えるひとつのシステムを用意し、対応できない時間がアプリに表示されないようにすることです。
+
+## 取り組んだこと
 
 MyVivaldy は2つの要素で成り立っています。クリニックの運営を支えるシステムと、患者さまが持ち歩くアプリです。
 
@@ -25,26 +37,33 @@ MyVivaldy は2つの要素で成り立っています。クリニックの運営
 - **受診履歴。** 過去の受診について、受けた施術や処方された薬を確認できます。
 - **アカウント。** メールアドレスまたは電話番号でログインでき、言語は英語とインドネシア語に対応しています。アカウントの削除もアプリ内から行えます。
 
-## 進め方
-
 患者側とクリニック側の両方を、1 つのシステムで支えています。患者がアプリで目にする時間は、クリニックが管理するスケジュールと同じものです。医師が記録した診察は、患者の履歴にも表示されます。アプリは iPhone と Android 向けのネイティブアプリで、クリニックのシステムと直接通信します。当社は 2024 年から MyVivaldy に携わっています。
 
-- **クライアント** Vivaldy Skin Clinic
+- **クライアント** [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/)
 - **対応プラットフォーム** iPhone、Android、ウェブ
 - **App Store URL** <https://apps.apple.com/id/app/myvivaldy/id6790103528>
 - **Google Play URL** <https://play.google.com/store/apps/details?id=com.myvivaldy.patient>
 
+## [Vivaldy Skin Clinic](https://sawirstudio.com/ja/clients/vivaldy-skin-clinic/) のその他の実績
+
+[![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/)
+[![Vivaldy Skin Clinic マーケティングデザイン](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Vivaldy Skin Clinic マーケティングデザイン](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-marketing-design/)
+
 ## その他の実績
 
+[![私の精神的な歩み](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### 私の精神的な歩み](https://sawirstudio.com/ja/projects/my-spiritual-journey/)
 [![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
 [![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### DBTV アプリケーション](https://sawirstudio.com/ja/projects/dbtv-application/)
-[![Kantong Sayur アプリケーション](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### Kantong Sayur アプリケーション](https://sawirstudio.com/ja/projects/kantong-sayur-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

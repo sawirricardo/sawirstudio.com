@@ -8,11 +8,17 @@ description: Bedrijfswebsite voor PT Adiwarna Anugerah Abadi, ontworpen en gebou
 
 ![Adiwarna website](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## De klant
+## De situatie
 
 PT Adiwarna Anugerah Abadi Tbk is een beursgenoteerde aannemer voor brandbeveiliging. Het bedrijf werkt sinds 2007 en richt zich op risicovolle industrieën. Adiwarna neemt de hele klus op zich: ontwerp en engineering, levering, installatie, testen en oplevering, en service en onderhoud.
 
-## Wat we hebben gemaakt
+Brandbeveiliging wordt ingekocht door engineers en inkoopteams die de aannemer moeten kunnen vertrouwen voordat ze bellen.
+
+## De opdracht
+
+Zeg in één regel wat Adiwarna doet en bewijs het daarna met de systemen die het installeert en de projecten erachter.
+
+## Wat we deden
 
 Wij ontwierpen en bouwden de bedrijfswebsite: een heldere landingspagina "Fire Protection System Experts" die doorverwijst naar de producten, de brandblussystemen en het projectportfolio, met een korte bedrijfsvideo.
 
@@ -20,11 +26,9 @@ Wij ontwierpen en bouwden de bedrijfswebsite: een heldere landingspagina "Fire P
 - **Projectportfolio.** Werk voor klanten in de mijnbouw, infrastructuur en datacenters.
 - **Bedrijfsvideo.** Een korte bedrijfsvideo op de landingspagina.
 
-## Onze aanpak
-
 Brandbeveiliging wordt gekocht door engineers en inkoopteams die de aannemer moeten vertrouwen voordat ze bellen. Daarom zegt de landingspagina in één zin wat Adiwarna doet en gaat daarna meteen door naar de systemen die het installeert en de projecten die dat bewijzen, in plaats van te openen met een lange bedrijfsgeschiedenis.
 
-- **Klant** PT Adiwarna Anugerah Abadi
+- **Klant** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/nl/clients/#adiwarna)
 - **Website-URL** <https://adiwarna.co.id>
 
 ## Meer projecten

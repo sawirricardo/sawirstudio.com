@@ -60,6 +60,9 @@ description: Приложения, сайты и дизайн от Sawir Studio:
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
+[![Мой духовный путь](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+## Мой духовный путь](https://sawirstudio.com/ru/projects/my-spiritual-journey/)
 [![Приложение Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ## Приложение Koperasi HOB](https://sawirstudio.com/ru/projects/koperasi-hob-application/)

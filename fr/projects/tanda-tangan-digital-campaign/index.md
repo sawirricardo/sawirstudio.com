@@ -8,11 +8,17 @@ description: Conception de la campagne sur la signature électronique pour le mi
 
 ![Brochure Tanda Tangan Digital](https://sawirstudio.com/assets/images/projects/tanda-tangan-digital-campaign.webp)
 
-## Le client
+## La situation
 
 Le ministère indonésien de la Communication et de l’Informatique (Kominfo) souhaitait faire découvrir la signature électronique au grand public.
 
-## Ce que nous avons réalisé
+Les signatures numériques reposent sur une chaîne de confiance que la plupart des gens ne voient jamais.
+
+## La mission
+
+Montrer au public comment s’articule l’écosystème de la signature numérique, en une image que tout le monde peut suivre.
+
+## Ce que nous avons fait
 
 Nous avons conçu les supports de la campagne « Hello Tanda Tangan Digital ! », dont un schéma isométrique de l’écosystème de la signature électronique, qui montre comment s’articulent les autorités de certification, les prestataires de certificats électroniques (PSrE), les utilisateurs et les institutions.
 
@@ -21,11 +27,9 @@ Nous avons conçu les supports de la campagne « Hello Tanda Tangan Digital !�
 - **Une légende simple.** Quatre couleurs pour quatre relations : reconnaissance des autorités de certification, émission des certificats électroniques, enregistrement et audit.
 - **Un système visuel cohérent.** Des dégradés du bleu au violet, des vagues et une ligne de pulsation qui traversent toutes les pages.
 
-## Notre approche
-
 La signature électronique repose sur une chaîne de confiance que la plupart des gens ne voient jamais. En la dessinant sous forme de carte isométrique, avec des bâtiments pour les institutions et des personnages pour les utilisateurs, on transforme une réglementation en quelque chose que l’on peut suivre du doigt.
 
-- **Client** Ministère indonésien de la Communication et de l’Informatique
+- **Client** [Ministère indonésien de la Communication et de l’Informatique](https://sawirstudio.com/fr/clients/#kominfo)
 
 ## Autres projets
 

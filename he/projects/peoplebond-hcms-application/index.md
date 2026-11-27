@@ -40,16 +40,11 @@ PeopleBond מוכרת תוכנה למשאבי אנוש ולשכר לחברות �
 
 אחרי שבע שנים, תמיד מפתה לכתוב הכול מחדש. אנחנו בוחרים שוב ושוב לשדרג את מה שקיים: בשדרוגי פלטפורמה ובכללי מס חדשים אנחנו מטפלים כשהם מגיעים. כתיבה מחדש הייתה מקפיאה את השינויים בחישוב השכר לחודשים, והחוק לא מחכה.
 
-## עוד מהעבודה שלנו עם PeopleBond
-
-- [אפליקציית העובדים pbConnect](https://sawirstudio.com/he/projects/pbconnect/): דיווח נוכחות שקשה לזייף.
-- [אתר האינטרנט](https://sawirstudio.com/he/projects/peoplebond-website/): אתר בשתי שפות שמוכר את המוצר.
-
-- **לקוח** PeopleBond
+- **לקוח** [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
 - **עובדים יחד מאז** 2019
 - **כתובת האתר** [https://peoplebond.id](https://peoplebond.id/)
 
-## עוד פרויקטים
+## עוד עבור [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond מוכרת תוכנה למשאבי אנוש ולשכר לחברות �
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/he/projects/peoplebond-website/)
+
+## עוד פרויקטים
+
 [![אפליקציית TaniMilenial](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### אפליקציית TaniMilenial](https://sawirstudio.com/he/projects/tani-milenial-application/)
+[![אתר Growinc Group](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### אתר Growinc Group](https://sawirstudio.com/he/projects/growinc-group-website/)
+[![אתר Fluindo Technology Indonesia](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### אתר Fluindo Technology Indonesia](https://sawirstudio.com/he/projects/fluindo-technology-indonesia-website/)
 
 מספיק עלינו.
 

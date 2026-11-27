@@ -8,11 +8,23 @@ description: Application et site web de courses de légumes et d’épicerie pou
 
 ![Site web Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
 
-## Le client
+## Le résultat
+
+- **Les marchés traditionnels, en ligne.** Les clients faisaient leurs courses aux étals de vrais marchés et se faisaient livrer leur commande.
+- **Une activité de vente en gros s’est développée à partir de la même plateforme.** Des clients professionnels avec leurs propres tarifs, factures et bons de livraison.
+- **Quatre années de travail,** de 2021 à 2025.
+
+## La situation
 
 Kantong Sayur est une place de marché en ligne qui met en relation des commerçants des marchés traditionnels et des clients, avec des légumes, des fruits, des épices, des produits de la mer, de la viande, de la volaille et des produits d’épicerie pour la maison. Les clients font leurs achats aux étals de vrais marchés et se font livrer leur commande.
 
-## Ce que nous avons réalisé
+Les marchés traditionnels n’entrent pas dans le moule d’une boutique en ligne générique : chaque étal a ses propres horaires, et les prix varient au fil des saisons.
+
+## La mission
+
+Mettre en ligne les étals des marchés traditionnels tels qu’ils sont, pour les clients, les commerçants et l’équipe qui gère le catalogue, sans les forcer à fonctionner comme un supermarché.
+
+## Ce que nous avons fait
 
 Nous avons construit la plateforme de A à Z : une application d’achat pour les clients, une application distincte pour les commerçants, un panneau d’administration pour l’équipe qui gère le catalogue, et le site web.
 
@@ -23,11 +35,9 @@ Nous avons construit la plateforme de A à Z : une application d’achat pour l
 - **Coupons et récompenses.** Coupons par région et par marché, KS Points, bons de récompense et programme d’affiliation.
 - **Commandes professionnelles.** Clients grossistes avec leurs propres grilles tarifaires, et factures et bons de livraison imprimés depuis le panneau d’administration.
 
-## Notre approche
-
 Un marché traditionnel ne fonctionne pas comme un supermarché : chaque étal a ses propres horaires, les prix évoluent au fil des saisons, et un kilo de piments n’est pas un produit bien emballé. La plateforme modélise donc directement les marchés, les étals et les unités, au lieu de les faire entrer de force dans une boutique en ligne générique. Le même back-end a ensuite été étendu avec un volet de vente en gros pour les clients professionnels. Nous avons travaillé sur Kantong Sayur de 2021 à 2025.
 
-- **Client** KantongSayur
+- **Client** [KantongSayur](https://sawirstudio.com/fr/clients/#kantongsayur)
 
 ## Autres projets
 

@@ -8,11 +8,17 @@ description: 由 Sawir Studio 為 Calvin Kain 打造的應用程式，與 Clicks
 
 ![Calvin Kain 網站](https://sawirstudio.com/assets/images/projects/calvin-kain.webp)
 
-## 客戶
+## 背景
 
 Calvin Kain 是一個頭巾與絲巾品牌，系列包括 Printed、CK Couture、Jumbo Syar’i 與 Plain。
 
-## 我們的作品
+絲巾靠外觀吸引人購買，而顧客通常早就知道自己想要哪個系列。
+
+## 任務
+
+打造一個讓攝影作品幫忙銷售的商店，並且從標誌處點一下就能進入各個系列。
+
+## 我們的做法
 
 我們與 Clicks&co 合作，為品牌打造了線上商店：店面透過 Summer Collection 等季節性宣傳活動來呈現各個系列，並備有商品頁、購物車與會員帳號。
 
@@ -21,11 +27,9 @@ Calvin Kain 是一個頭巾與絲巾品牌，系列包括 Printed、CK Couture�
 - **購物。** 商品頁、購物車、會員帳號與商店條款。
 - **品牌頁面。** 關於我們、服務項目、聯絡我們，以及 Diary。
 
-## 我們的做法
-
 絲巾的魅力在於飄動時的樣貌，因此店面讓攝影作品來說話：柔和的奶油色與金色調、置中的金色 C 字母標誌，以及橫跨整個頁面寬度的宣傳活動圖片。顧客通常已經知道自己想找哪個系列，所以我們把各系列放在選單的第二列，而不是藏在商品頁裡。
 
-- **客戶** Calvin Kain
+- **客戶** [Calvin Kain](https://sawirstudio.com/zh-hant/clients/#calvin-kain)
 - **網站網址** <https://calvinkain.com>
 - **合作夥伴** Clicks&co
 

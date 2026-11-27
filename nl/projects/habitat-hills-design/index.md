@@ -8,11 +8,17 @@ description: Driebladige brochure voor Habitat Hills, een natuurresort van 27 he
 
 ![Habitat Hills-brochure](https://sawirstudio.com/assets/images/projects/habitat-hills-design.webp)
 
-## De klant
+## De situatie
 
 Habitat Hills is een natuurresort op 27 hectare in Megamendung, Bogor, vlak bij de waterval Curug 7 Cilember.
 
-## Wat we hebben gemaakt
+De gasten komen vanuit Jakarta voor een weekendje weg.
+
+## De opdracht
+
+Zorg dat iemand in Jakarta zin krijgt om de heuvels in te rijden, met een brochure die je in één oogopslag leest.
+
+## Wat we deden
 
 Wij ontwierpen de driebladige brochure in bosgroen en terracotta, met de waterval op de voorkant en de faciliteiten die een weekendje weg uit Jakarta verkopen: 21 kamers met uitzicht op de bergen en de stad, een café, vergaderruimte, zwembad, hardlooppad en camping.
 
@@ -21,11 +27,9 @@ Wij ontwierpen de driebladige brochure in bosgroen en terracotta, met de waterva
 - **Geschikt voor.** Een paneel met redenen om te komen: opfrissen, samenkomen, retreat en feest.
 - **Contact.** Telefoon, Instagram, website en het adres aan Jalan Raya Puncak, met het bergenlogo.
 
-## Onze aanpak
-
 Een resortbrochure moet ervoor zorgen dat iemand in Jakarta de berg op wil rijden. Daarom dragen de foto's het verhaal, komen de kleuren van de plek zelf, bosgroen en het terracotta van de gebouwen, en blijft de tekst kort genoeg om in één oogopslag te lezen.
 
-- **Klant** Habitat Hills
+- **Klant** [Habitat Hills](https://sawirstudio.com/nl/clients/#habitat-hills)
 
 ## Meer projecten
 

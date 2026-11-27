@@ -8,11 +8,17 @@ description: Applicazione realizzata per Calvin Kain da Sawir Studio, in collabo
 
 ![Sito web di Calvin Kain](https://sawirstudio.com/assets/images/projects/calvin-kain.webp)
 
-## Il cliente
+## La situazione
 
 Calvin Kain è un marchio di hijab e foulard con collezioni come Printed, CK Couture, Jumbo Syar’i e Plain.
 
-## Cosa abbiamo realizzato
+I foulard si vendono per il loro aspetto, e di solito chi compra sa già quale linea vuole.
+
+## L’obiettivo
+
+Creare un negozio online che lasci vendere le fotografie e metta ogni collezione a un clic dal logo.
+
+## Che cosa abbiamo fatto
 
 Insieme a Clicks&co abbiamo realizzato il suo negozio online: una vetrina che presenta ogni collezione attraverso campagne stagionali come la Summer Collection, con schede prodotto, carrello e account cliente.
 
@@ -21,11 +27,9 @@ Insieme a Clicks&co abbiamo realizzato il suo negozio online: una vetrina che pr
 - **Shop.** Schede prodotto, carrello, account cliente e condizioni del negozio.
 - **Pagine del brand.** Chi siamo, servizi, contatti e un Diary.
 
-## Come ci siamo approcciati al progetto
-
 I foulard si vendono per come appaiono in movimento, quindi nella vetrina sono le fotografie a fare il lavoro: una palette morbida di crema e oro, un monogramma C dorato al centro e immagini di campagna che occupano tutta la larghezza della pagina. Chi acquista di solito sa già quale linea vuole, perciò le collezioni si trovano nella seconda riga del menu invece che dietro una pagina prodotti.
 
-- **Cliente** Calvin Kain
+- **Cliente** [Calvin Kain](https://sawirstudio.com/it/clients/#calvin-kain)
 - **URL del sito** <https://calvinkain.com>
 - **Partner** Clicks&co
 

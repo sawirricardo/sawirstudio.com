@@ -40,16 +40,11 @@ PeopleBond 向印度尼西亚企业销售人力资源与薪酬软件，可部署
 
 项目做到第七年，推倒重写的想法总是很诱人。但我们一直选择在现有系统上升级：平台升级和新税务规定出现一项，就处理一项。重写会让薪酬功能的改动停滞数月，而法律不会等人。
 
-## 我们与 PeopleBond 合作的更多项目
-
-- [pbConnect 员工应用](https://sawirstudio.com/zh-hans/projects/pbconnect/)：让考勤难以作假。
-- [网站](https://sawirstudio.com/zh-hans/projects/peoplebond-website/)：一个推介产品的双语网站。
-
-- **客户** PeopleBond
+- **客户** [PeopleBond](https://sawirstudio.com/zh-hans/clients/peoplebond/)
 - **合作始于** 2019 年
 - **网站地址** [https://peoplebond.id](https://peoplebond.id/)
 
-## 更多项目
+## [PeopleBond](https://sawirstudio.com/zh-hans/clients/peoplebond/) 的更多项目
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ PeopleBond 向印度尼西亚企业销售人力资源与薪酬软件，可部署
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/zh-hans/projects/peoplebond-website/)
+
+## 更多项目
+
 [![TaniMilenial 应用](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial 应用](https://sawirstudio.com/zh-hans/projects/tani-milenial-application/)
+[![Growinc Group 网站](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group 网站](https://sawirstudio.com/zh-hans/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia 网站](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia 网站](https://sawirstudio.com/zh-hans/projects/fluindo-technology-indonesia-website/)
 
 我们先聊到这里。
 

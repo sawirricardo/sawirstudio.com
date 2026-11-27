@@ -10,11 +10,23 @@ Ps. Debby Basjirによる説教、祈り、毎日のデボーションを届け�
 
 ![DBTVアプリのバナー](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
-## クライアントについて
+## 成果
+
+- **App Store と Google Play で公開中です。**
+- **アプリを更新しなくても、毎日新しい内容が届きます。** デボーション、説教、イベント情報は DBTV のプラットフォームから配信され、自動で表示されます。
+- **信徒の皆様が同じバージョンを使えます。** アプリに変更があると更新をお願いする案内が表示されるため、古い不具合が残ったまま使い続けることはありません。
+
+## 背景
 
 DBTVは、Ps. Debby Basjirの教会活動のメディアチャンネルです。説教、祈りの集会、賛美礼拝、デボーションを、オンラインで共に歩む会衆の皆さまにお届けしています。
 
-## 制作したもの
+信徒の皆様はオンラインでミニストリーの活動に触れることができ、毎日新しいコンテンツが投稿されます。
+
+## 課題
+
+ミニストリーのすべてを 1 つのアプリにまとめて信徒の皆様のスマートフォンに届け、チームがアプリに手を加えることなく、毎日最新の状態を保てるようにすること。
+
+## 取り組んだこと
 
 Sawir Studioは、会衆の皆さまがスマートフォンから活動をフォローできるよう、iOSとAndroid向けのDBTVアプリを開発しました。
 
@@ -26,15 +38,13 @@ Sawir Studioは、会衆の皆さまがスマートフォンから活動をフ�
 - **DBTV+。** 限定コンテンツを先行して楽しめる会員プランです。
 - **通知。** 新しい投稿があると、プッシュ通知でお知らせします。
 
-## 進め方
-
 教会活動では毎日新しい投稿があるため、アプリ内に内容を固定で組み込むことはしていません。デボーション、説教、イベントはすべてDBTVのプラットフォームから取得され、アプリを更新しなくても表示されます。アプリ自体に変更があるときは、アップデートを促す表示が出るので、会衆の皆さまが全員同じバージョンを使え、古い不具合に悩まされることもありません。
 
 ![DBTVアプリのスクリーンショット 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTVアプリのスクリーンショット 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTVアプリのスクリーンショット 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)
 
-- **クライアント** DBTV
+- **クライアント** [DBTV](https://sawirstudio.com/ja/clients/#dbtv)
 - **ウェブサイトURL** <https://dbtv.my.id>
 - **App Store URL** <https://apps.apple.com/id/app/dbtv/id6752770752>
 - **Google Play ストアURL** <https://play.google.com/store/apps/details?id=com.dbtv.dbtvapk>

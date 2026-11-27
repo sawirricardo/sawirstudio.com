@@ -8,11 +8,17 @@ description: עיצוב שיווקי למרפאת העור Vivaldy Skin Clinic �
 
 ![עיצוב למרפאת העור Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
 
-## הלקוח
+## נקודת הפתיחה
 
 Vivaldy Skin Clinic היא מרפאה לדרמטולוגיה ולמחלות מין בעיר Mataram שבאי Lombok, בניהולו של dr. Dedianto Hidajat, Sp.DVE.
 
-## מה בנינו
+כרטיס ברכה ממרפאת עור צריך להרגיש כמו מתנה, לא כמו פרסומת.
+
+## המשימה
+
+לשלוח למטופלים ברכה לחג עיד שמרגישה אישית ועדיין שומרת על המראה של המרפאה.
+
+## מה עשינו
 
 עיצבנו עבורה חומרי שיווק, כמו כרטיס ברכה לחג Eid al-Fitr (“Wajah bersih dan bersinar di hari yang fitri”), בפלטת הצבעים של המרפאה: לבן רך וטורקיז.
 
@@ -20,13 +26,20 @@ Vivaldy Skin Clinic היא מרפאה לדרמטולוגיה ולמחלות מי
 - **מגע אישי.** שורות To ו-From, כדי שהמרפאה תוכל למסור כל כרטיס למטופל בשמו.
 - **פלטת הצבעים.** לבן רך עם פס טורקיז מאחורי מילות המפתח, באותו גוון טורקיז של לוגו ה-V של המרפאה.
 
-## איך ניגשנו לזה
-
 כרטיס ברכה ממרפאת עור צריך להרגיש כמו מתנה ולא כמו פרסומת. לכן הכרטיס פותח בברכה, מקשר אותה בעדינות למה שהמרפאה עושה, עור נקי וזוהר, ומשאיר את הלוגו קטן בפינה.
 
 לניהול היומיומי של המרפאה בנינו גם את [MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/), המערכת שהמרפאה עובדת איתה ואפליקציית המטופלים ל-iPhone ול-Android.
 
-- **לקוח** Vivaldy Skin Clinic
+- **לקוח** [Vivaldy Skin Clinic](https://sawirstudio.com/he/clients/vivaldy-skin-clinic/)
+
+## עוד עבודות עבור [Vivaldy Skin Clinic](https://sawirstudio.com/he/clients/vivaldy-skin-clinic/)
+
+[![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
+
+### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
+[![אתר Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### אתר Vivaldy Skin Clinic](https://sawirstudio.com/he/projects/vivaldy-skin-clinic-website/)
 
 ## עוד פרויקטים
 

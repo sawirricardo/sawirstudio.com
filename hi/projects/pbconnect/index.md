@@ -40,16 +40,20 @@ description: केस स्टडी: pbConnect, iPhone और Android के 
 - **2024।** शिफ़्ट बदलने के अनुरोध और टैप इन सेल्फ़ी के लिए डिवाइस पर ही फ़ेस डिटेक्शन जोड़ा गया। इसके बाद ऐप के अंदरूनी ढाँचे को पूरी तरह अपग्रेड किया गया, ताकि वह नए फ़ोन के साथ तालमेल बनाए रखे।
 - **2026।** रिमाइंडर के साथ ब्रेक टाइम, फ़िल्टर के साथ नए सिरे से बना टीम व्यू, नई होम स्क्रीन, और स्क्रिप्ट से होने वाली रिलीज़ जो दोनों ऐप को बिल्ड और साइन करती हैं।
 
-## PeopleBond के साथ हमारा और काम
-
-- [HR और पेरोल प्लेटफ़ॉर्म](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/): ऐसा पेरोल, जो इंडोनेशिया के टैक्स कानून के साथ अपडेट रहता है।
-- [वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/): दो भाषाओं वाली साइट, जो प्रोडक्ट की बिक्री करती है।
-
-- **क्लाइंट** PeopleBond
+- **क्लाइंट** [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/)
 - **कब से साथ काम कर रहे हैं** 2019
 - **वेबसाइट URL** [https://peoplebond.id](https://peoplebond.id/)
 - **App Store URL** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google Play Store URL** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## [PeopleBond](https://sawirstudio.com/hi/clients/peoplebond/) के लिए और काम
+
+[![PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS ऐप्लिकेशन](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
+[![PeopleBond वेबसाइट](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond वेबसाइट](https://sawirstudio.com/hi/projects/peoplebond-website/)
 
 ## और प्रोजेक्ट
 

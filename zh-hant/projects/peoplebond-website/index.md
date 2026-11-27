@@ -32,14 +32,18 @@ PeopleBond 的產品持續成長，網站卻已經跟不上。網站很少說明
 - **下一步清楚明確。** 每個頁面都有「Book a Demo」（預約產品展示），填完表單就直接進入與團隊的 WhatsApp 對話。
 - **閱讀舒適。** 網站會依照訪客的淺色或深色模式設定顯示。
 
-## 更多我們與 PeopleBond 合作的成果
-
-- [人資與薪資平台](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)：跟得上印尼稅法的薪資計算。
-- [pbConnect 員工 App](https://sawirstudio.com/zh-hant/projects/pbconnect/)：讓出勤紀錄難以造假。
-
-- **客戶** PeopleBond
+- **客戶** [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/)
 - **合作起始年份** 2019 年
 - **網站網址** [https://peoplebond.id](https://peoplebond.id/)
+
+## 更多 [PeopleBond](https://sawirstudio.com/zh-hant/clients/peoplebond/) 的相關內容
+
+[![PeopleBond HCMS 應用程式](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS 應用程式](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)
+[![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### PeopleBond Connect App](https://sawirstudio.com/zh-hant/projects/pbconnect/)
 
 ## 更多專案
 

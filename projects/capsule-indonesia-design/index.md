@@ -8,11 +8,17 @@ description: Product brochure for Capsule Indonesia’s capsule units, designed 
 
 ![Capsule Indonesia Brochure Design](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## The client
+## The situation
 
 Capsule Indonesia makes capsule units for compact stays, under the line “Micro space, great experience.”
 
-## What we made
+Capsule Indonesia sells to businesses, not travellers.
+
+## The task
+
+Answer a buyer’s two questions fast: what is in a pod, and will it fit my site.
+
+## What we did
 
 We designed its product brochure in a futuristic silver and blue that matches the pods, listing each unit’s features and dimensions and where capsules fit: airports, train stations, ports, mining and industrial sites, staff housing and recreation places.
 
@@ -21,11 +27,15 @@ We designed its product brochure in a futuristic silver and blue that matches th
 - **Units.** Each model with its outer and mattress dimensions.
 - **Suitable for.** Icons for every place a capsule fits, from airports and train stations to mines and staff mess halls.
 
-## How we approached it
-
 Capsule Indonesia sells to businesses, not travellers, so the brochure has to answer two questions fast: what is in a pod, and will it fit my site. The futuristic frame makes the product memorable, and the specification panels underneath give buyers the numbers they need.
 
-- **Client** Capsule Indonesia
+- **Client** [Capsule Indonesia](https://sawirstudio.com/clients/capsule-indonesia/)
+
+## More for [Capsule Indonesia](https://sawirstudio.com/clients/capsule-indonesia/)
+
+[![Digital Airport Hotel Design](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel Design](https://sawirstudio.com/projects/digital-airport-hotel-design/)
 
 ## More projects
 

@@ -40,16 +40,11 @@ The web application covers employees, recruitment, timesheets, payroll, leave, c
 
 Seven years in, a rewrite is always tempting. We keep choosing to upgrade what’s there instead: platform upgrades and new tax rules get handled as they come. A rewrite would freeze payroll changes for months, and the law doesn’t wait.
 
-## More from our work with PeopleBond
-
-- [The pbConnect employee app](https://sawirstudio.com/projects/pbconnect/): attendance that’s hard to fake.
-- [The website](https://sawirstudio.com/projects/peoplebond-website/): a bilingual site that sells the product.
-
-- **Client** PeopleBond
+- **Client** [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
 - **Working together since** 2019
 - **Website URL** [https://peoplebond.id](https://peoplebond.id/)
 
-## More projects
+## More for [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
 
 [![PeopleBond Connect App](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
 
@@ -57,9 +52,18 @@ Seven years in, a rewrite is always tempting. We keep choosing to upgrade what�
 [![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
 
 ### PeopleBond Website](https://sawirstudio.com/projects/peoplebond-website/)
+
+## More projects
+
 [![TaniMilenial Application](https://sawirstudio.com/assets/images/projects/tani-milenial-application.webp)
 
 ### TaniMilenial Application](https://sawirstudio.com/projects/tani-milenial-application/)
+[![Growinc Group Website](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
+
+### Growinc Group Website](https://sawirstudio.com/projects/growinc-group-website/)
+[![Fluindo Technology Indonesia Website](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
+
+### Fluindo Technology Indonesia Website](https://sawirstudio.com/projects/fluindo-technology-indonesia-website/)
 
 Enough about us.
 

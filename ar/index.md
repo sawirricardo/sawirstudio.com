@@ -15,7 +15,7 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 [ابدؤوا مشروعكم](https://sawirstudio.com/ar/contact/) [شاهدوا أعمالنا للعملاء](#portfolio)
 
 - **9** سنوات من العمل لعملائنا، منذ 2017
-- **26** شركة ومؤسسة نفّذنا لها أعمالًا
+- **27** شركة ومؤسسة طوّرنا لها حلولًا
 - **2019** العام الذي بدأت فيه PeopleBond معنا، وما زالت حتى اليوم.
 - **7** تطبيقات خاصة بنا على App Store
 
@@ -114,6 +114,7 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[اطّلعوا على ما طوّرناه لكل منهم](https://sawirstudio.com/ar/clients/)
 
 ## نطلق تطبيقاتنا الخاصة أيضًا
 

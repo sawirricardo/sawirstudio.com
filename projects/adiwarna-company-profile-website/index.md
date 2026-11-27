@@ -8,11 +8,17 @@ description: Company profile website for PT Adiwarna Anugerah Abadi, designed an
 
 ![Adiwarna Website](https://sawirstudio.com/assets/images/projects/adiwarna-company-profile-website.webp)
 
-## The client
+## The situation
 
 PT Adiwarna Anugerah Abadi Tbk is a listed fire protection contractor, working since 2007 with a focus on high-risk industries. It covers the whole job: design and engineering, supply, installation, testing and commissioning, and service and maintenance.
 
-## What we made
+Fire protection is bought by engineers and procurement teams who need to trust the contractor before they call.
+
+## The task
+
+Say what Adiwarna does in one line, then prove it with the systems it installs and the projects behind them.
+
+## What we did
 
 We designed and built its company profile website: a clear “Fire Protection System Experts” landing page that leads to its products, fire suppression systems and project portfolio, with a short company video.
 
@@ -20,11 +26,9 @@ We designed and built its company profile website: a clear “Fire Protection Sy
 - **Project portfolio.** Work for clients across mining, infrastructure and data centers.
 - **Company video.** A short company video on the landing page.
 
-## How we approached it
-
 Fire protection is bought by engineers and procurement teams who need to trust the contractor before they call. So the landing page states what Adiwarna does in one line, then goes straight to the systems it installs and the projects that prove it, instead of opening with a long company history.
 
-- **Client** PT Adiwarna Anugerah Abadi
+- **Client** [PT Adiwarna Anugerah Abadi](https://sawirstudio.com/clients/#adiwarna)
 - **Website URL** <https://adiwarna.co.id>
 
 ## More projects

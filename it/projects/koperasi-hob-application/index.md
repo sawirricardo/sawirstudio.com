@@ -10,11 +10,23 @@ L’app per la spesa di ogni giorno di una cooperativa
 
 ![Banner dell’app Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
-## Il cliente
+## Il risultato
+
+- **Disponibile sull’App Store da dicembre 2025.**
+- **I soci ordinano dalla propria cooperativa.** Consegna o ritiro, con pagamento online tramite iPaymu o con bonifico bancario.
+- **La cooperativa gestisce tutto in autonomia.** Prodotti, ordini, soci e scorte di ogni negozio da un unico pannello di amministrazione.
+
+## La situazione
 
 Koperasi HOB è una cooperativa che vende ai propri soci articoli per la casa di uso quotidiano attraverso i suoi negozi.
 
-## Cosa abbiamo realizzato
+I suoi soci sono vicini di casa e colleghi, non acquirenti anonimi.
+
+## L’obiettivo
+
+Permettere ai soci di fare acquisti nei negozi della cooperativa dal telefono, e alla cooperativa di gestire in autonomia l’intera attività di vendita, senza che nessuno paghi un prodotto appena esaurito.
+
+## Che cosa abbiamo fatto
 
 Abbiamo realizzato l’intero shop: l’app per i soci, l’API che c’è dietro e il pannello di amministrazione da cui la cooperativa lo gestisce. L’app è online sull’App Store da dicembre 2025.
 
@@ -24,15 +36,13 @@ Abbiamo realizzato l’intero shop: l’app per i soci, l’API che c’è dietr
 - **Scorte per negozio.** Ogni negozio gestisce le proprie scorte e un amministratore può chiudere gli acquisti in un negozio senza toccare gli altri.
 - **Amministrazione.** Lo staff gestisce prodotti, categorie, prodotti in evidenza, ordini e soci, e può stampare qualsiasi ordine in PDF.
 
-## Come ci siamo approcciati al progetto
-
 I soci di una cooperativa sono vicini di casa e colleghi, non clienti anonimi, quindi l’app riduce i passaggi al minimo: scegliere i prodotti, optare per consegna o ritiro, pagare. Il lavoro più impegnativo è dietro le quinte. Le scorte sono tracciate per negozio e ricontrollate al momento del checkout, così nessuno paga qualcosa che si è appena esaurito, e le spese di spedizione derivano da zone che la cooperativa imposta autonomamente, invece che dal listino di un corriere.
 
 ![Schermata 1 dell’app Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Schermata 2 dell’app Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Schermata 3 dell’app Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)
 
-- **Cliente** Koperasi HOB
+- **Cliente** [Koperasi HOB](https://sawirstudio.com/it/clients/#koperasi-hob)
 - **URL del sito** <https://hob.my.id>
 - **URL dell’App Store** <https://apps.apple.com/id/app/koperasi-hob/id6756156054>
 

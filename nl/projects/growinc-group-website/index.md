@@ -8,11 +8,23 @@ description: Bedrijfswebsite voor Growinc Group Indonesia, een marketing- en rec
 
 ![Homepage van Growinc Group Indonesia](https://sawirstudio.com/assets/images/projects/growinc-group-website.webp)
 
-## De klant
+## Het resultaat
+
+- **Nog steeds Growincs thuis op het web,** zes jaar na de lancering.
+- **Gebouwd in vier maanden,** van december 2019 tot maart 2020.
+- **Klaar voor de crisis.** Toen COVID-19 begin 2020 uitbrak, kwam er op de site een onderdeel bij met consultaties over bedrijfsstrategie tijdens de crisis.
+
+## De situatie
 
 Growinc Group Indonesia is een marketing- en reclamegroep met alle diensten onder één dak, gevestigd in Jakarta. De groep stuurt eigen bureaus aan, waaronder Growmint, een digitaal bedrijf, en Nesvara, een bedrijf voor merkbeleving, en voerde campagnes uit voor merken als Laurier, Pristine 8+, GoFood en Lucky Strike.
 
-## Wat we hebben gemaakt
+Een bureaugroep verkoopt mensen en resultaten, geen product, en potentiële klanten willen snel een beeld krijgen van de hele groep.
+
+## De opdracht
+
+Laat op één pagina de hele groep zien, waar die in gelooft, wat die doet en wie de leiding heeft, zo dat een potentiële klant het binnen een minuut kan opnemen.
+
+## Wat we deden
 
 Tussen december 2019 en maart 2020 ontwierpen en bouwden we de bedrijfswebsite van Growinc. Het is één lange pagina die het verhaal van de groep vertelt in de volgorde waarin een klant ernaar vraagt.
 
@@ -24,11 +36,9 @@ Tussen december 2019 en maart 2020 ontwierpen en bouwden we de bedrijfswebsite v
 - **Een crisisprogramma.** Toen COVID-19 begin 2020 opkwam, kwam er een onderdeel met adviesgesprekken over bedrijfsstrategie in tijden van crisis.
 - **Contact.** E-mail, links naar social media en een WhatsApp-knop op elk scherm.
 
-## Onze aanpak
-
 Een bureaugroep verkoopt mensen en resultaten, geen product. Daarom begint de pagina met waar Growinc in gelooft en laat ze daarna zien dat het klopt, met diensten, echte campagnes en leiders met naam en toenaam. Doordat alles op één pagina staat, ziet een potentiële klant de hele groep in een minuut, en de WhatsApp-knop maakt van interesse een gesprek. Zes jaar later is de site nog steeds de thuisbasis van Growinc op het web.
 
-- **Klant** PT Growinc Group Indonesia
+- **Klant** [PT Growinc Group Indonesia](https://sawirstudio.com/nl/clients/#growinc)
 - **Website-URL** <https://growinc.id>
 
 ## Meer projecten

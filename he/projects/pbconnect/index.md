@@ -40,16 +40,20 @@ description: חקר מקרה: pbConnect, אפליקציית העובדים של 
 - **2024.** בקשות להחלפת משמרות וזיהוי פנים על המכשיר עצמו בתמונת הסלפי בהחתמת הנוכחות, ואחר כך שדרוג מלא של התשתית שמתחת לאפליקציה, כדי שתמשיך להתאים לטלפונים חדשים.
 - **2026.** זמני הפסקה עם תזכורות, תצוגת צוות שנבנתה מחדש וכוללת מסננים, מסך בית חדש ותהליך שחרור גרסאות מבוסס סקריפטים, שבונה את שתי האפליקציות וחותם עליהן.
 
-## עוד מהעבודה שלנו עם PeopleBond
-
-- [פלטפורמת משאבי האנוש והשכר](https://sawirstudio.com/he/projects/peoplebond-hcms-application/): מערכת שכר שמתעדכנת בהתאם לדיני המס באינדונזיה.
-- [אתר האינטרנט](https://sawirstudio.com/he/projects/peoplebond-website/): אתר בשתי שפות שמוכר את המוצר.
-
-- **לקוח** PeopleBond
+- **לקוח** [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
 - **עובדים יחד מאז** 2019
 - **כתובת האתר** [https://peoplebond.id](https://peoplebond.id/)
 - **כתובת ב-App Store** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **כתובת ב-Google Play** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## עוד עבור [PeopleBond](https://sawirstudio.com/he/clients/peoplebond/)
+
+[![אפליקציית PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### אפליקציית PeopleBond HCMS](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond Website](https://sawirstudio.com/he/projects/peoplebond-website/)
 
 ## עוד פרויקטים
 

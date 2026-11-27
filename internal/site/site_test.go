@@ -25,6 +25,25 @@ func TestRelated(t *testing.T) {
 	}
 }
 
+func TestSameClient(t *testing.T) {
+	ps := []Project{
+		{Slug: "a", Client: "X", Categories: []int{3}},
+		{Slug: "b", Categories: []int{3}},
+		{Slug: "c", Client: "X", Categories: []int{2}},
+		{Slug: "d", Client: "Y", Categories: []int{3}},
+	}
+	if got := slugs(sameClient(ps, "a")); got != "c" {
+		t.Errorf("sameClient(a) = %q, want %q", got, "c")
+	}
+	if got := slugs(sameClient(ps, "b")); got != "" {
+		t.Errorf("sameClient(b) = %q, want none: our own work has no client", got)
+	}
+	// The same client's projects are in their own row, so "More projects" skips them.
+	if got := slugs(related(ps, "a")); got != "b d" {
+		t.Errorf("related(a) = %q, want %q", got, "b d")
+	}
+}
+
 func slugs(ps []Project) string {
 	s := make([]string, len(ps))
 	for i, p := range ps {
@@ -38,6 +57,7 @@ func TestNavCurrent(t *testing.T) {
 		{"/", "/", "page"},
 		{"/projects/", "/projects/", "page"},
 		{"/projects/rindraw/", "/projects/", "true"},
+		{"/clients/peoplebond/", "/projects/", "true"},
 		{"/posts/x/", "/posts/", "true"},
 		{"/custom/", "/projects/", ""},
 		{"/about-us/", "/about-us/", "page"},
@@ -141,5 +161,19 @@ func TestCardText(t *testing.T) {
 	}
 	if title, _ := (&Page{Path: "/404.html", Title: "x"}).cardText(); title == "x" {
 		t.Error("404 should use the home card")
+	}
+}
+
+func TestClientURL(t *testing.T) {
+	ps := []Project{{Slug: "a", Client: "X"}, {Slug: "b", Client: "X"}, {Slug: "c", Client: "Y"}}
+	cs := []Client{{Slug: "x", Name: "X"}, {Slug: "y", Name: "Y"}}
+	if got := clientURL(cs, ps, "X"); got != "/clients/x/" {
+		t.Errorf("a client with two projects: %q, want its own page", got)
+	}
+	if got := clientURL(cs, ps, "Y"); got != "/clients/#y" {
+		t.Errorf("a client with one project: %q, want its place on /clients/", got)
+	}
+	if pages := clientPages(cs, ps); len(pages) != 2 || pages[1].Path != "/clients/x/" {
+		t.Errorf("clientPages: want /clients/ and /clients/x/ only")
 	}
 }

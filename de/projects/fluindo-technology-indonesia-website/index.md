@@ -8,11 +8,17 @@ description: Website für Fluindo Technology Indonesia, gestaltet und umgesetzt 
 
 ![Fluindo-Website](https://sawirstudio.com/assets/images/projects/fluindo-technology-indonesia-website.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 PT Fluindo Technology Indonesia ist autorisierter Industriehändler für Pumpen, Ventile, Dichtungstechnik, Wärmetauscher und Separatoren, unter anderem für die Marken ITT Goulds Pumps, ITT Engineered Valves, Alfa Laval und AIGI. Seit 2006 sorgt das Unternehmen dafür, dass kritische Anlagen in ganz Indonesien zuverlässig laufen, von Kraftwerken bis zu Zellstoff- und Papierfabriken.
 
-## Was wir umgesetzt haben
+Die Käufer sind Anlageningenieure, die die benötigte Modellnummer kennen und einen Nachweis wollen, dass der Anbieter genau dieses Modell schon einmal installiert hat.
+
+## Die Aufgabe
+
+Jedes Produkt soll sich leicht nach Marke oder Kategorie finden lassen und mit konkret benannten Installationen statt vager Erfolgsgeschichten belegt sein.
+
+## Was wir gemacht haben
 
 Wir haben die Website gestaltet und umgesetzt: einen Produktkatalog, geordnet nach Kategorie und Marke, Projektreferenzen und einen direkten Weg, eine Anfrage zu senden.
 
@@ -21,11 +27,9 @@ Wir haben die Website gestaltet und umgesetzt: einen Produktkatalog, geordnet na
 - **Zwei Sprachen.** Die gesamte Website auf Englisch und Indonesisch.
 - **Anfragen.** Eine Beratungsanfrage, eine Kontaktseite und ein Newsletter.
 
-## Unser Vorgehen
-
 Wer bei Fluindo einkauft, ist Anlageningenieur. Diese Fachleute kennen die benötigte Modellnummer und wollen einen Beleg, dass der Lieferant sie bereits installiert hat. Deshalb lässt sich der Katalog sowohl nach Marke als auch nach Kategorie durchsuchen, und jede Projektreferenz nennt Anlage, Ausrüstung und Größe, statt eine vage Erfolgsgeschichte zu erzählen.
 
-- **Kunde** Fluindo Technology Indonesia
+- **Kunde** [Fluindo Technology Indonesia](https://sawirstudio.com/de/clients/#fluindo)
 - **Website-URL** <https://fluindo.co.id>
 
 ## Weitere Projekte

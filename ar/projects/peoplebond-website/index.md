@@ -32,14 +32,18 @@ description: دراسة حالة: في 2026 أعادت Sawir Studio بناء م�
 - **خطوة تالية واضحة.** زر «احجزوا عرضًا توضيحيًا» موجود في كل صفحة، ويقود النموذج مباشرة إلى محادثة مع الفريق على WhatsApp.
 - **قراءة مريحة.** يتبع الموقع إعداد المظهر الفاتح أو الداكن لدى الزائر.
 
-## المزيد من أعمالنا مع PeopleBond
-
-- [منصة الموارد البشرية والرواتب](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/): نظام رواتب يواكب قانون الضرائب الإندونيسي.
-- [تطبيق الموظفين pbConnect](https://sawirstudio.com/ar/projects/pbconnect/): تسجيل حضور يصعب التلاعب به.
-
-- **العميل** PeopleBond
+- **العميل** [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
 - **نعمل معًا منذ** 2019
 - **رابط الموقع الإلكتروني** [https://peoplebond.id](https://peoplebond.id/)
+
+## المزيد من أعمالنا لصالح [PeopleBond](https://sawirstudio.com/ar/clients/peoplebond/)
+
+[![تطبيق PeopleBond HCMS](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### تطبيق PeopleBond HCMS](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
+[![تطبيق PeopleBond Connect](https://sawirstudio.com/assets/images/projects/pbconnect.webp)
+
+### تطبيق PeopleBond Connect](https://sawirstudio.com/ar/projects/pbconnect/)
 
 ## مشاريع أخرى
 

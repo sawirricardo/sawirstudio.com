@@ -8,11 +8,22 @@ description: Website für PT SPP Indonesia, einen Spezialisten für Feuerlöschp
 
 ![SPP Indonesia Website](https://sawirstudio.com/assets/images/projects/spp-indonesia-website.webp)
 
-## Der Kunde
+## Das Ergebnis
+
+- **Bis heute die Website von SPP Indonesia.**
+- **Jeder Pumpentyp ist nur einen Klick vom Menü entfernt,** mit eigener Seite und am Ende jeder Seite einer Möglichkeit, anzurufen oder eine E-Mail zu schreiben.
+
+## Die Ausgangslage
 
 PT SPP Indonesia ist auf Feuerlöschpumpen-Systeme spezialisiert: Feuerlöschpumpen mit Endsaugung, Gehäuse-Teilfugenpumpen (Split Case), vertikale Inline- und vertikale Turbinenpumpen, mehrstufige Pumpen, Jockeypumpen, Pumpenpakete und Steuerungen. Das Unternehmen hat seinen Sitz in Cengkareng, Jakarta.
 
-## Was wir umgesetzt haben
+Wer dort einkauft, weiß meist schon, welche Pumpe er braucht.
+
+## Die Aufgabe
+
+Käufer sollen direkt zu ihrer Pumpe gelangen und Kontakt aufnehmen können, ohne nach einer Telefonnummer suchen zu müssen.
+
+## Was wir gemacht haben
 
 Wir haben die Website passend zu diesem Produktspektrum gestaltet und umgesetzt, mit einer eigenen Seite für jeden Pumpentyp.
 
@@ -21,11 +32,9 @@ Wir haben die Website passend zu diesem Produktspektrum gestaltet und umgesetzt,
 - **Zwei Sprachen in einer Zeile.** Die Schlagzeile auf Englisch, „Experts in Handling Fire Pump System“, darunter direkt die indonesische Bedeutung.
 - **Kontakt.** Eine Telefonnummer und ein E-Mail-Link am Ende jeder Seite.
 
-## Unser Vorgehen
-
 Die Einkäufer von SPP wissen meist schon, welche Pumpe sie brauchen. Deshalb führt das Menü jeden Pumpentyp direkt auf, jede Seite beantwortet genau eine Produktfrage, und der Weg zu Anruf oder E-Mail ist nie weiter als einmal Scrollen entfernt.
 
-- **Kunde** PT SPP Indonesia
+- **Kunde** [PT SPP Indonesia](https://sawirstudio.com/de/clients/#spp-indonesia)
 - **Website-URL** <https://sppindonesia.co.id>
 
 ## Weitere Projekte

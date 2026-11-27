@@ -8,11 +8,17 @@ description: Für Calvin Kain von Sawir Studio entwickelte Anwendung, in Zusamme
 
 ![Calvin Kain Website](https://sawirstudio.com/assets/images/projects/calvin-kain.webp)
 
-## Der Kunde
+## Die Ausgangslage
 
 Calvin Kain ist ein Hijab- und Schal-Label mit Kollektionen wie Printed, CK Couture, Jumbo Syar’i und Plain.
 
-## Was wir umgesetzt haben
+Schals verkaufen sich über ihr Aussehen, und wer einkauft, weiß meist schon, welche Linie es sein soll.
+
+## Die Aufgabe
+
+Einen Shop bauen, in dem die Fotos für den Verkauf sorgen und jede Kollektion nur einen Klick vom Logo entfernt ist.
+
+## Was wir gemacht haben
 
 Gemeinsam mit Clicks&co haben wir den Online-Shop des Labels entwickelt: eine Storefront, die jede Kollektion in saisonalen Kampagnen wie der Summer Collection präsentiert – mit Produktseiten, Warenkorb und Kundenkonten.
 
@@ -21,11 +27,9 @@ Gemeinsam mit Clicks&co haben wir den Online-Shop des Labels entwickelt: eine St
 - **Shop.** Produktseiten, Warenkorb, Kundenkonten und die Geschäftsbedingungen des Shops.
 - **Markenseiten.** Über uns, Leistungen, Kontakt und ein Diary.
 
-## Unser Vorgehen
-
 Schals verkaufen sich über ihre Wirkung in Bewegung. Deshalb überlässt die Storefront der Fotografie die Hauptrolle: eine weiche Palette aus Creme und Gold, ein zentriertes goldenes C-Monogramm und Kampagnenbilder, die sich über die volle Seitenbreite erstrecken. Kundinnen wissen meist schon, welche Linie sie möchten, daher stehen die Kollektionen in der zweiten Menüzeile und nicht hinter einer Produktübersicht.
 
-- **Kunde** Calvin Kain
+- **Kunde** [Calvin Kain](https://sawirstudio.com/de/clients/#calvin-kain)
 - **Website-URL** <https://calvinkain.com>
 - **Partner** Clicks&co
 

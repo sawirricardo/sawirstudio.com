@@ -8,11 +8,23 @@ description: MyVivaldy, il sistema per la clinica e l'app per i pazienti di Viva
 
 ![Schermate dell'app MyVivaldy: prenotazione di una visita, storico delle visite e account](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
-## Il cliente
+## Il risultato
+
+- **I pazienti prenotano da soli.** MyVivaldy è su App Store e Google Play e propone solo gli orari in cui il medico è davvero libero.
+- **Un unico sistema per tutta la clinica.** Appuntamenti, cartelle cliniche e farmacia funzionano sullo stesso sistema in cui l’app registra le prenotazioni.
+- **Seguito dal 2024.**
+
+## La situazione
 
 Vivaldy Skin Clinic è una clinica di dermatologia e venereologia gestita da PT Viva Estemedika Indonesia. Abbiamo realizzato anche il suo [sito web](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-website/) e curato il suo [design per il marketing](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-marketing-design/).
 
-## Cosa abbiamo realizzato
+I suoi pazienti prenotano via chat e la sua giornata ruota attorno ad appuntamenti, cartelle cliniche e farmacia.
+
+## L’obiettivo
+
+Dare ai pazienti un modo per prenotare e seguire il proprio percorso di cura dal telefono, e alla clinica un unico sistema alle spalle, così l’app non propone mai un orario che la clinica non può rispettare.
+
+## Che cosa abbiamo fatto
 
 MyVivaldy è due cose: il sistema su cui lavora la clinica e l'app che i pazienti hanno sempre con sé.
 
@@ -25,26 +37,33 @@ L'app per i pazienti, su iPhone e Android:
 - **Storico delle visite.** Le visite passate, con i trattamenti ricevuti e i farmaci prescritti.
 - **Account.** Si accede con un indirizzo email o un numero di telefono, in inglese o in Bahasa Indonesia, e si può eliminare l'account direttamente dall'app.
 
-## Come ci siamo approcciati al progetto
-
 Un unico sistema serve entrambe le parti. Gli orari che il paziente vede nell’app provengono dalla stessa agenda gestita dalla clinica, e una visita registrata dal medico compare nello storico del paziente. Le app sono native per iPhone e Android e comunicano direttamente con il sistema della clinica. Lavoriamo a MyVivaldy dal 2024.
 
-- **Cliente** Vivaldy Skin Clinic
+- **Cliente** [Vivaldy Skin Clinic](https://sawirstudio.com/it/clients/vivaldy-skin-clinic/)
 - **Piattaforme** iPhone, Android, web
 - **URL App Store** <https://apps.apple.com/id/app/myvivaldy/id6790103528>
 - **URL Google Play** <https://play.google.com/store/apps/details?id=com.myvivaldy.patient>
 
+## Altri lavori per [Vivaldy Skin Clinic](https://sawirstudio.com/it/clients/vivaldy-skin-clinic/)
+
+[![Sito web Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
+
+### Sito web Vivaldy Skin Clinic](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-website/)
+[![Design marketing Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-marketing-design.webp)
+
+### Design marketing Vivaldy Skin Clinic](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-marketing-design/)
+
 ## Altri progetti
 
+[![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)
 [![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
 [![Applicazione DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
 
 ### Applicazione DBTV](https://sawirstudio.com/it/projects/dbtv-application/)
-[![Applicazione Kantong Sayur](https://sawirstudio.com/assets/images/projects/kantong-sayur-application.webp)
-
-### Applicazione Kantong Sayur](https://sawirstudio.com/it/projects/kantong-sayur-application/)
 
 Basta parlare di noi.
 

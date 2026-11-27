@@ -8,11 +8,17 @@ description: Sawir Studio 為 Capsule Indonesia 的膠囊艙設計的產品型�
 
 ![Capsule Indonesia 型錄設計](https://sawirstudio.com/assets/images/projects/capsule-indonesia-design.webp)
 
-## 客戶
+## 背景
 
 Capsule Indonesia 專營膠囊艙，為小空間住宿而設計，品牌理念是「小空間，大體驗」。
 
-## 我們的作品
+Capsule Indonesia 的銷售對象是企業，不是旅客。
+
+## 任務
+
+快速回答買家的兩個問題：艙房裡有什麼，以及我的場地放不放得下。
+
+## 我們的做法
 
 我們為他們設計了產品型錄，以呼應艙體的未來感銀藍配色，列出每款艙體的特色與尺寸，以及適合設置的場所：機場、火車站、港口、礦區與工業園區、員工宿舍和休閒場所。
 
@@ -21,11 +27,15 @@ Capsule Indonesia 專營膠囊艙，為小空間住宿而設計，品牌理念�
 - **規格。** 列出各型號的外部尺寸與床墊尺寸。
 - **適用場所。** 以圖示呈現膠囊艙適合的每個場所，從機場、火車站到礦區和員工餐廳。
 
-## 我們的做法
-
 Capsule Indonesia 的客戶是企業，而不是旅客，所以型錄必須很快回答兩個問題：艙體裡有什麼，以及是否適合我的場地。未來感的視覺框架讓產品令人印象深刻，下方的規格面板則提供買家所需的數據。
 
-- **客戶** Capsule Indonesia
+- **客戶** [Capsule Indonesia](https://sawirstudio.com/zh-hant/clients/capsule-indonesia/)
+
+## 更多 [Capsule Indonesia](https://sawirstudio.com/zh-hant/clients/capsule-indonesia/) 的專案
+
+[![Digital Airport Hotel 設計](https://sawirstudio.com/assets/images/projects/digital-airport-hotel-design.webp)
+
+### Digital Airport Hotel 設計](https://sawirstudio.com/zh-hant/projects/digital-airport-hotel-design/)
 
 ## 更多專案
 

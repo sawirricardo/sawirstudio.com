@@ -15,7 +15,7 @@ AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven â
 [Start een project](https://sawirstudio.com/nl/contact/) [Bekijk klantprojecten](#portfolio)
 
 - **9** jaar bouwen voor klanten, sinds 2017
-- **26** bedrijven en instellingen waarvoor we hebben gebouwd
+- **27** bedrijven en instellingen waarvoor we hebben gebouwd
 - **2019** het jaar waarin PeopleBond met ons begon. We werken nog steeds samen.
 - **7** eigen apps in de App Store
 
@@ -114,6 +114,7 @@ De preken, gebeden en dagelijkse overdenkingen van een kerkelijke bediening in e
 - Growinc Indonesia
 - HSBC (Growmint)
 - PeopleBond
+- GBI WTC
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia
@@ -131,6 +132,8 @@ De preken, gebeden en dagelijkse overdenkingen van een kerkelijke bediening in e
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+[Bekijk wat we voor elke klant hebben gebouwd](https://sawirstudio.com/nl/clients/)
 
 ## Ook onze eigen apps brengen we uit
 

@@ -47,12 +47,12 @@ Colvaron Conquest एक रणनीतिक ट्रेडिंग का�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
+[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+
+### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
 [![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
 
 ### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
-[![DBTV ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV ऐप्लिकेशन](https://sawirstudio.com/hi/projects/dbtv-application/)
 
 हमारी बात बहुत हुई।
 

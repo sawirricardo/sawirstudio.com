@@ -40,16 +40,20 @@ Breng de dagelijkse HR-zaken binnen handbereik van elke medewerker en maak aanwe
 - **2024.** Aanvragen om van dienst te wisselen en gezichtsdetectie op het toestel zelf voor de selfie bij het inklokken. Daarna een volledige upgrade van de techniek onder de app, zodat die goed blijft werken op nieuwe telefoons.
 - **2026.** Pauzetijden met herinneringen, een opnieuw gebouwd teamoverzicht met filters, een nieuw startscherm en gescripte releases die beide apps bouwen en ondertekenen.
 
-## Meer van ons werk met PeopleBond
-
-- [Het HR- en salarisplatform](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/): salarisverwerking die gelijke tred houdt met de Indonesische belastingwetgeving.
-- [De website](https://sawirstudio.com/nl/projects/peoplebond-website/): een tweetalige site die het product verkoopt.
-
-- **Klant** PeopleBond
+- **Klant** [PeopleBond](https://sawirstudio.com/nl/clients/peoplebond/)
 - **Samenwerking sinds** 2019
 - **Website-URL** [https://peoplebond.id](https://peoplebond.id/)
 - **App Store-URL** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Google Play Store-URL** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## Meer voor [PeopleBond](https://sawirstudio.com/nl/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/)
+[![PeopleBond Website](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### PeopleBond Website](https://sawirstudio.com/nl/projects/peoplebond-website/)
 
 ## Meer projecten
 

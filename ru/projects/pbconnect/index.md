@@ -40,16 +40,20 @@ description: Кейс pbConnect: приложение PeopleBond для сотр
 - **2024.** Запросы на смену рабочего графика и распознавание лица прямо на устройстве для селфи при отметке прихода, а затем полное обновление технической основы приложения, чтобы оно поддерживало новые телефоны.
 - **2026.** Перерывы с напоминаниями, переработанный раздел команды с фильтрами, новый главный экран и релизы по скриптам, которые собирают и подписывают оба приложения.
 
-## Другие наши работы для PeopleBond
-
-- [Платформа для управления персоналом и расчёта зарплаты](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/): расчёт зарплаты, который успевает за налоговым законодательством Индонезии.
-- [Сайт](https://sawirstudio.com/ru/projects/peoplebond-website/): двуязычный сайт, который помогает продавать продукт.
-
-- **Клиент** PeopleBond
+- **Клиент** [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
 - **Работаем вместе** с 2019 года
 - **Адрес сайта** [https://peoplebond.id](https://peoplebond.id/)
 - **Ссылка в App Store** <https://apps.apple.com/app/peoplebond-connect/id1641479129>
 - **Ссылка в Google Play** <https://play.google.com/store/apps/details?id=com.peoplebond.pbconnect>
+
+## Другие проекты для [PeopleBond](https://sawirstudio.com/ru/clients/peoplebond/)
+
+[![PeopleBond HCMS Application](https://sawirstudio.com/assets/images/projects/peoplebond-hcms-application.webp)
+
+### PeopleBond HCMS Application](https://sawirstudio.com/ru/projects/peoplebond-hcms-application/)
+[![Сайт PeopleBond](https://sawirstudio.com/assets/images/projects/peoplebond-website.webp)
+
+### Сайт PeopleBond](https://sawirstudio.com/ru/projects/peoplebond-website/)
 
 ## Другие проекты
 

@@ -8,11 +8,17 @@ description: ESR Info & Tips, een geïllustreerd boek over veiligheid, gezondhei
 
 ![ESR Info & Tips](https://sawirstudio.com/assets/images/projects/astra-international-esr-info-tips.webp)
 
-## De klant
+## De situatie
 
 Astra International is een van de grootste bedrijvengroepen van Indonesië.
 
-## Wat we hebben gemaakt
+Richtlijnen over veiligheid en milieu worden snel overgeslagen als ze lezen als een beleidsdocument.
+
+## De opdracht
+
+Maak van de richtlijnen een boek dat mensen op locatie en op kantoor ook echt openslaan.
+
+## Wat we deden
 
 ESR Info & Tips is een geïllustreerd boek in Astra’s AGC Series over veiligheid en gezondheid, milieu, algemene informatie en maatschappelijke verantwoordelijkheid. We hebben het ontworpen rond twee personages, Mr. Green en Mrs. Friendly, zodat de adviezen lezen als een vriendelijk gesprek in plaats van een handleiding.
 
@@ -20,11 +26,9 @@ ESR Info & Tips is een geïllustreerd boek in Astra’s AGC Series over veilighe
 - **De cover.** Een felgele cover met de titel in vette blauwe letters, de twee personages en de vier onderwerpen onderaan.
 - **Digitale editie.** Hier te zien als digitaal boek op een tablet.
 
-## Onze aanpak
-
 Adviezen over veiligheid en milieu sla je makkelijk over als ze klinken als een beleidsdocument. Met twee bekende gezichten wordt elke tip iets wat een collega je zou vertellen, en dankzij de vrolijke kleuren is het een boek dat mensen echt openslaan.
 
-- **Klant** Astra International
+- **Klant** [Astra International](https://sawirstudio.com/nl/clients/#astra)
 
 ## Meer projecten
 
