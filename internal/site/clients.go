@@ -23,6 +23,14 @@ type Client struct {
 	Logo      string `yaml:"logo"`
 	LogoDark  bool   `yaml:"logo_dark"`
 	LogoLabel bool   `yaml:"logo_label"`
+	// Brands are the client's other brands with their own logos, shown in the strip next to it.
+	Brands []Brand `yaml:"brands"`
+}
+
+// Brand is one of a client's brands in the logo strip, linking to the client.
+type Brand struct {
+	Name string `yaml:"name"`
+	Logo string `yaml:"logo"`
 }
 
 // LoadClients reads the client list and checks it against the projects: every project's

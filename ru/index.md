@@ -19,6 +19,7 @@ description: Sawir Studio проектирует, разрабатывает и 
 - [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/ru/clients/peoplebond/ "PeopleBond")
 - [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/ru/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
 - [![Capsule Indonesia](https://sawirstudio.com/assets/images/clients/capsule-indonesia.webp)](https://sawirstudio.com/ru/clients/capsule-indonesia/ "Capsule Indonesia")
+- [![Digital Airport Hotel](https://sawirstudio.com/assets/images/clients/digital-airport-hotel.webp)](https://sawirstudio.com/ru/clients/capsule-indonesia/ "Digital Airport Hotel")
 - [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/ru/clients/#jetfly "Jetfly")
 - [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/ru/clients/#aeroquote "Aeroquote")
 - [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/ru/clients/#gbi-wtc "GBI WTC")

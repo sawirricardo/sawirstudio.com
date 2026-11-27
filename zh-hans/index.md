@@ -19,6 +19,7 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 - [![PeopleBond](https://sawirstudio.com/assets/images/clients/peoplebond.webp)](https://sawirstudio.com/zh-hans/clients/peoplebond/ "PeopleBond")
 - [![Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/clients/vivaldy.svg)](https://sawirstudio.com/zh-hans/clients/vivaldy-skin-clinic/ "Vivaldy Skin Clinic")
 - [![Capsule Indonesia](https://sawirstudio.com/assets/images/clients/capsule-indonesia.webp)](https://sawirstudio.com/zh-hans/clients/capsule-indonesia/ "Capsule Indonesia")
+- [![Digital Airport Hotel](https://sawirstudio.com/assets/images/clients/digital-airport-hotel.webp)](https://sawirstudio.com/zh-hans/clients/capsule-indonesia/ "Digital Airport Hotel")
 - [![Jetfly](https://sawirstudio.com/assets/images/clients/jetfly.svg)](https://sawirstudio.com/zh-hans/clients/#jetfly "Jetfly")
 - [![Aeroquote](https://sawirstudio.com/assets/images/clients/aeroquote.svg)](https://sawirstudio.com/zh-hans/clients/#aeroquote "Aeroquote")
 - [![GBI WTC](https://sawirstudio.com/assets/images/clients/gbi-wtc.webp) GBI WTC](https://sawirstudio.com/zh-hans/clients/#gbi-wtc "GBI WTC")

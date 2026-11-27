@@ -169,6 +169,13 @@ templ logoTrack(cs []Client, ps []Project, copy bool) {
 					</a>
 				</li>
 			}
+			for _, b := range c.Brands {
+				<li>
+					<a class="logo-tile" href={ templ.SafeURL(clientURL(cs, ps, c.Name)) } title={ b.Name } { tabindex(copy)... }>
+						<img src={ b.Logo } alt={ alt(b.Name, copy) } loading="lazy"/>
+					</a>
+				</li>
+			}
 		}
 	</ul>
 }

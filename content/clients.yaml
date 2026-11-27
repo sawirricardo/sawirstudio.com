@@ -15,6 +15,9 @@
   name: Capsule Indonesia
   intro: Capsule units for compact stays, and the family of pod hotels around them, including Digital Airport Hotel at Soekarno-Hatta.
   logo: /assets/images/clients/capsule-indonesia.webp
+  brands:
+    - name: Digital Airport Hotel
+      logo: /assets/images/clients/digital-airport-hotel.webp
 - slug: jetfly
   name: Jetfly
   intro: Private aviation across Europe, including Jetfly On-Demand, formerly Fly7. We&rsquo;ve been the main developer on its aircraft owners&rsquo; portal since 2023.
