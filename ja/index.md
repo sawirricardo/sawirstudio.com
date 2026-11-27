@@ -82,6 +82,15 @@ HR プラットフォームと従業員向けアプリ。2019 年から先方の
 
 [すべてのプロジェクトを見る](https://sawirstudio.com/ja/projects/)
 
+## お客様の声
+
+- > Sawir Studio には、2019 年から当社の人事プラットフォームと従業員向けアプリを一緒に開発してもらっています。リリースしたら終わり、ということはありません。変更が必要なときも、すでにシステムを熟知しているので、きちんと対応してくれます。
+
+  [PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+- > 今ではすべての施術に専用ページがあり、患者様はサイトから直接 WhatsApp で予約できます。デザインから構築まで担当してもらい、現在も引き続き保守をお願いしています。
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/)
+
 ## 進め方
 
 1. ### 小さく始めて、早くリリースします。

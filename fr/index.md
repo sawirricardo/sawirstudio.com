@@ -82,6 +82,15 @@ Les prédications, la prière et les méditations quotidiennes d’un ministère
 
 [Voir tous les projets](https://sawirstudio.com/fr/projects/)
 
+## Ce que disent nos clients
+
+- > Sawir Studio développe avec nous notre plateforme RH et notre application pour les employés depuis 2019. L’équipe ne disparaît pas après une mise en ligne : quand nous avons besoin d’une modification, elle connaît déjà le système et s’en charge.
+
+  [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/)
+- > Chaque soin a désormais sa propre page, et les patients prennent rendez-vous sur WhatsApp directement depuis le site. L’équipe s’est chargée du design et du développement, et elle assure toujours le suivi du site.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/fr/projects/vivaldy-skin-clinic-website/)
+
 ## Notre façon de travailler
 
 1. ### Commencer petit, livrer tôt.

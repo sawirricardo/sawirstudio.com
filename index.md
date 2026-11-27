@@ -82,6 +82,15 @@ A ministry's sermons, prayer and daily devotionals in an app for iOS and Android
 
 [See all projects](https://sawirstudio.com/projects/)
 
+## What clients say
+
+- > Sawir Studio has built our HR platform and employee app with us since 2019. They don't disappear after a release: when we need something changed, they already know the system and get it done.
+
+  [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/)
+- > Every treatment has its own page now, and patients book straight from the site on WhatsApp. They handled the design and the build, and they still look after it.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/projects/vivaldy-skin-clinic-website/)
+
 ## How we work
 
 1. ### Start small, ship early.

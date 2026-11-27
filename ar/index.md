@@ -82,6 +82,15 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
 
 [شاهدوا كل المشاريع](https://sawirstudio.com/ar/projects/)
 
+## ماذا يقول عملاؤنا
+
+- > تعمل Sawir Studio معنا منذ 2019 على بناء منصة الموارد البشرية وتطبيق الموظفين لدينا. وهم لا يختفون بعد إطلاق أي إصدار، فعندما نحتاج إلى تعديل ما، يكونون على دراية مسبقة بالنظام وينجزون المطلوب.
+
+  [PeopleBond](https://sawirstudio.com/ar/projects/peoplebond-hcms-application/)
+- > أصبحت لكل علاج صفحة خاصة به، وصار المرضى يحجزون عبر WhatsApp من الموقع مباشرة. تولّوا التصميم والتنفيذ، وما زالوا يعتنون بالموقع.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/)
+
 ## كيف نعمل
 
 1. ### نبدأ صغيرًا ونطلق مبكرًا.

@@ -82,6 +82,15 @@ Predigten, Gebete und tägliche Andachten eines kirchlichen Dienstes in einer Ap
 
 [Alle Projekte ansehen](https://sawirstudio.com/de/projects/)
 
+## Was Kunden sagen
+
+- > Sawir Studio entwickelt seit 2019 mit uns unsere HR-Plattform und unsere Mitarbeiter-App. Nach einem Release sind sie nicht einfach weg: Wenn wir eine Änderung brauchen, kennen sie das System bereits und setzen sie um.
+
+  [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/)
+- > Jede Behandlung hat jetzt eine eigene Seite, und Patienten buchen direkt von der Website aus über WhatsApp. Das Team hat Design und Entwicklung übernommen und betreut die Website bis heute.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/de/projects/vivaldy-skin-clinic-website/)
+
 ## Wie wir arbeiten
 
 1. ### Klein anfangen, früh live gehen.

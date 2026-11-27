@@ -82,6 +82,15 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 
 [לכל הפרויקטים](https://sawirstudio.com/he/projects/)
 
+## מה הלקוחות אומרים
+
+- > Sawir Studio בונים איתנו את פלטפורמת משאבי האנוש ואת אפליקציית העובדים שלנו מאז 2019. הם לא נעלמים אחרי שגרסה עולה לאוויר: כשאנחנו צריכים לשנות משהו, הם כבר מכירים את המערכת ופשוט מבצעים.
+
+  [PeopleBond](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+- > עכשיו לכל טיפול יש עמוד משלו, ומטופלים קובעים תור ישירות מהאתר ב-WhatsApp. הם טיפלו בעיצוב ובפיתוח, ועדיין מתחזקים את האתר.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/he/projects/vivaldy-skin-clinic-website/)
+
 ## איך אנחנו עובדים
 
 1. ### מתחילים בקטן, משיקים מוקדם.

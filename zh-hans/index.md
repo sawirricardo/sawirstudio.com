@@ -82,6 +82,15 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 
 [查看全部项目](https://sawirstudio.com/zh-hans/projects/)
 
+## 客户评价
+
+- > 自 2019 年起，Sawir Studio 一直与我们一起开发人力资源平台和员工应用。版本发布后，他们并不会就此消失：当我们需要改动时，他们早已熟悉整个系统，能够直接把事情办好。
+
+  [PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/)
+- > 现在每个疗程都有独立的页面，患者可以直接在网站上通过 WhatsApp 预约。设计和开发都由他们负责，至今仍由他们维护。
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/zh-hans/projects/vivaldy-skin-clinic-website/)
+
 ## 我们的工作方式
 
 1. ### 从小处着手，尽早上线。

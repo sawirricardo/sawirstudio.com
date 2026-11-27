@@ -82,6 +82,15 @@ De preken, gebeden en dagelijkse overdenkingen van een kerkelijke bediening in e
 
 [Bekijk alle projecten](https://sawirstudio.com/nl/projects/)
 
+## Wat klanten zeggen
+
+- > Sawir Studio bouwt sinds 2019 samen met ons ons HR-platform en onze medewerkersapp. Na een release verdwijnen ze niet: als we iets aangepast willen hebben, kennen ze het systeem al en regelen ze het.
+
+  [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/)
+- > Elke behandeling heeft nu een eigen pagina en patiënten boeken rechtstreeks vanaf de site via WhatsApp. Zij verzorgden het design en de bouw, en ze onderhouden de site nog steeds.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/)
+
 ## Hoe wij werken
 
 1. ### Begin klein, ga snel live.

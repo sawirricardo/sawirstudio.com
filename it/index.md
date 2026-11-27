@@ -82,6 +82,15 @@ I sermoni, le preghiere e le meditazioni quotidiane di un ministero cristiano in
 
 [Tutti i progetti](https://sawirstudio.com/it/projects/)
 
+## Cosa dicono i clienti
+
+- > Dal 2019 Sawir Studio sviluppa con noi la nostra piattaforma HR e l’app per i dipendenti. Non spariscono dopo un rilascio: quando ci serve una modifica, conoscono già il sistema e la realizzano.
+
+  [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/)
+- > Ora ogni trattamento ha la sua pagina e i pazienti prenotano direttamente dal sito su WhatsApp. Hanno curato il design e lo sviluppo, e continuano a occuparsi del sito.
+
+  [Vivaldy Skin Clinic](https://sawirstudio.com/it/projects/vivaldy-skin-clinic-website/)
+
 ## Come lavoriamo
 
 1. ### Partire in piccolo, pubblicare presto.
