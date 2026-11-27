@@ -1,0 +1,84 @@
+---
+title: Shopify Connector for Odoo | Sawir Studio
+description: An open-source Shopify connector for Odoo 19 Community, written by Sawir Studio and maintained in the Odoo Community Association (OCA).
+og_type: website
+og_image: /assets/og/odoo-shopify-connector.jpg
+ld: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "name": "Shopify Connector for Odoo",
+        "description": "An open-source Shopify connector for Odoo 19 Community, written by Sawir Studio and maintained in the Odoo Community Association (OCA).",
+        "url": "https://sawirstudio.com/projects/odoo-shopify-connector/",
+        "image": "https://sawirstudio.com/assets/images/projects/odoo-shopify-connector.webp",
+        "creator": {
+          "@id": "https://sawirstudio.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sawirstudio.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projects",
+            "item": "https://sawirstudio.com/projects/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Shopify Connector for Odoo",
+            "item": "https://sawirstudio.com/projects/odoo-shopify-connector/"
+          }
+        ]
+      }
+    ]
+  }
+related: true
+---
+      <section class="section banner narrow" role="banner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/projects/odoo-shopify-connector/" aria-current="page">Shopify Connector for Odoo</a></li>
+        </ol>
+        </nav>
+        <h1 class="page-title heavy">Shopify Connector for Odoo</h1>
+        <img style="view-transition-name: media-odoo-shopify-connector" class="project-hero" fetchpriority="high" width="1600" height="900" src="/assets/images/projects/odoo-shopify-connector.webp" alt="The OCA connector-shopify repository on GitHub" />
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <h2>The project</h2>
+            <p>The Odoo Community Association (OCA) is the nonprofit that maintains the open-source modules most Odoo Community users rely on. Connector Shopify is its connector between Shopify stores and Odoo 19 Community, released under the AGPL-3 license.</p>
+            <h2>What we made</h2>
+            <p>We wrote the connector and contributed it to the OCA in July 2026: the core Shopify Connector, Shopify Connector Accounting and Shopify Connector POS. We keep working on it, most recently aligning it with Shopify’s 2026-01 Admin API, and other OCA contributors now build on it too, including a module for eCommerce product media.</p>
+            <ul>
+              <li><strong>Commerce sync.</strong> Products, inventory, customers, orders, returns, refunds and fulfillment, for any number of Shopify stores per Odoo database, scoped by company.</li>
+              <li><strong>Reliable by design.</strong> Signed webhooks for speed, OCA’s queue_job for durable processing, and scheduled reconciliation that repairs missed or delayed events.</li>
+              <li><strong>Day-to-day tools.</strong> Onboarding, health checks, a sync dashboard, error recovery and configurable data retention.</li>
+              <li><strong>Accounting.</strong> Shopify Payments payouts, balance transactions, fees, disputes, gift-card liability and multi-currency reconciliation.</li>
+              <li><strong>Point of sale.</strong> Shopify POS sales imported as sale orders, routed from each retail location to an Odoo warehouse, without needing Odoo’s own POS app.</li>
+            </ul>
+            <h2>How we approached it</h2>
+            <p>An integration that is right most of the time is wrong for accounting. So the connector talks to Shopify’s GraphQL Admin API, never assumes a webhook arrived, and checks itself against Shopify on a schedule. Journal entries are planned from Shopify’s exact amounts and must balance before they post: when something doesn’t add up, the connector raises a clear error instead of quietly adding a balancing line.</p>
+            <p>Want it set up or extended for your stores? See <a href="/shopify/">Shopify integrations</a>, or <a href="/odoo/">Odoo &amp; business systems</a> for Odoo itself.</p>
+            <p><strong>Built with</strong> Python, Odoo 19 and the Shopify GraphQL Admin API</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Project</strong> Odoo Community Association (OCA)</li>
+            <li><strong>License</strong> AGPL-3</li>
+            <li><strong>Source code</strong> <a href="https://github.com/OCA/connector-shopify" target="_blank" rel="noreferrer">https://github.com/OCA/connector-shopify</a></li>
+          </ul>
+        </div>
+      </section>

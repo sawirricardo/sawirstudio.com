@@ -1,0 +1,36 @@
+package server
+
+// resultPage answers a contact form posted without JavaScript.
+templ resultPage(ok bool, msg string) {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<meta name="robots" content="noindex"/>
+			if ok {
+				<title>Thanks | Sawir Studio</title>
+			} else {
+				<title>Inquiry not sent | Sawir Studio</title>
+			}
+			<link rel="stylesheet" href="/assets/css/style.css"/>
+		</head>
+		<body>
+			<main id="main">
+				<section class="section banner stack" role="banner">
+					if ok {
+						<h1>Thanks! 🎉</h1>
+					} else {
+						<h1>Your inquiry wasn't sent</h1>
+					}
+					<p class="lead">{ msg }</p>
+					if ok {
+						<p><a class="button" href="/">Back to Sawir Studio</a></p>
+					} else {
+						<p><a class="button" href="/contact/">Back to the form</a></p>
+					}
+				</section>
+			</main>
+		</body>
+	</html>
+}

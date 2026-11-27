@@ -133,15 +133,40 @@
   });
 })();
 
-// Contact page: submit the inquiry to Google Forms without leaving the site.
-// Without JS the form still posts directly and Google shows its own confirmation.
+// Contact page: send the inquiry without leaving the site. The form posts either to our own
+// server (data-endpoint="api", POST /api/inquiries) or to the Google Form.
+// Without JS the form still posts directly and the server (or Google) shows its own confirmation.
 (function () {
   const form = document.getElementById("inquiry-form");
   if (!form) return;
 
   const button = form.querySelector("button[type=submit]");
   const error = document.getElementById("form-error");
+  const errorText = error.textContent;
   const success = document.getElementById("form-success");
+
+  async function send() {
+    if (form.dataset.endpoint === "api") {
+      const res = await fetch(form.action, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new URLSearchParams(new FormData(form)),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        // 422 and 429 explain what to fix; anything else gets the general message.
+        throw new Error(res.status === 422 || res.status === 429 ? data.message : "");
+      }
+      return;
+    }
+    // Google Forms doesn't send CORS headers, so the response is opaque;
+    // a resolved request means it reached Google.
+    await fetch(form.action, {
+      method: "POST",
+      mode: "no-cors",
+      body: new URLSearchParams(new FormData(form)),
+    });
+  }
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -151,17 +176,12 @@
     error.hidden = true;
 
     try {
-      // Google Forms doesn't send CORS headers, so the response is opaque;
-      // a resolved request means it reached Google.
-      await fetch(form.action, {
-        method: "POST",
-        mode: "no-cors",
-        body: new URLSearchParams(new FormData(form)),
-      });
+      await send();
       form.hidden = true;
       success.hidden = false;
       success.focus();
     } catch (e) {
+      error.textContent = (e && e.message) || errorText;
       error.hidden = false;
       button.disabled = false;
       button.textContent = label;

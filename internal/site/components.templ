@@ -1,0 +1,86 @@
+package site
+
+import "strconv"
+
+// card is a project's card: in the project list (with its filter data, an h2 and the
+// picture's page-transition name) or in a "More projects" row.
+templ card(p Project, inList bool) {
+	if inList {
+		<a class="card" href={ templ.SafeURL("/projects/" + p.Slug + "/") } data-categories={ p.categories() } data-search={ p.Search }>
+			@cardBody(p, inList)
+		</a>
+	} else {
+		<a class="card" href={ templ.SafeURL("/projects/" + p.Slug + "/") }>
+			@cardBody(p, inList)
+		</a>
+	}
+}
+
+templ cardBody(p Project, inList bool) {
+	if p.App {
+		<div class="thumb thumb-app">
+			@cardImage(p, inList, "")
+		</div>
+	} else {
+		@cardImage(p, inList, "thumb")
+	}
+	<div class="card-body">
+		if inList {
+			<h2>{ p.Title }</h2>
+		} else {
+			<h3>{ p.Title }</h3>
+		}
+	</div>
+}
+
+templ cardImage(p Project, inList bool, class string) {
+	<img { imgAttrs(p, inList, class)... } src={ p.Image } alt={ p.alt() } loading="lazy"/>
+}
+
+func imgAttrs(p Project, inList bool, class string) templ.OrderedAttributes {
+	var a templ.OrderedAttributes
+	if inList {
+		// The picture grows into the one at the top of the project's page.
+		a = append(a, templ.KeyValue[string, any]{Key: "style", Value: "view-transition-name: media-" + p.Slug})
+	}
+	if p.Width > 0 {
+		a = append(a,
+			templ.KeyValue[string, any]{Key: "width", Value: strconv.Itoa(p.Width)},
+			templ.KeyValue[string, any]{Key: "height", Value: strconv.Itoa(p.Height)})
+	}
+	if class != "" {
+		a = append(a, templ.KeyValue[string, any]{Key: "class", Value: class})
+	}
+	return a
+}
+
+templ projectCards(ps []Project) {
+	// One card per line: scripts/markdown_pages.py needs the space between them.
+	for _, p := range ps {
+		@card(p, true)
+		{ "\n" }
+	}
+}
+
+templ relatedRow(ps []Project) {
+	<section class="section related">
+		<h2 class="section-title">More projects</h2>
+		<div class="project-grid">
+			for _, p := range ps {
+				{ "\n" }
+				@card(p, false)
+			}
+			{ "\n" }
+		</div>
+	</section>
+}
+
+templ cta() {
+	<section class="section" id="cta">
+		<div class="cta-box shadow-xl">
+			<p>Enough about us.</p>
+			<h2>How can we<br/>help you?</h2>
+			<a class="button" href="/contact/">Start a project</a>
+		</div>
+	</section>
+}

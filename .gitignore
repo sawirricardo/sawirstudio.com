@@ -2,3 +2,7 @@
 .vercel
 .wrangler
 __pycache__/
+bin/
+.env
+.dist/site/*
+!.dist/site/.gitkeep

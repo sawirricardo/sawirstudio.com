@@ -1,0 +1,61 @@
+package site
+
+// The Google Form "Sawir Studio inquiries", and its questions' entry IDs (see README).
+const googleForm = "https://docs.google.com/forms/d/e/1FAIpQLScmTqIVTp7occKX6LdCkOhjFb3vuD-Pb2NoIXHMxnQ7xRenDQ/formResponse"
+
+type inquiryFields struct{ Name, Email, Company, Need, Message string }
+
+var (
+	googleFields = inquiryFields{"entry.888428388", "entry.454060139", "entry.446250436", "entry.1233160113", "entry.761558557"}
+	apiFields    = inquiryFields{"name", "email", "company", "need", "message"}
+)
+
+// inquiryForm is the contact form. With api set it posts to our own server
+// (cmd/server, POST /api/inquiries); otherwise to the Google Form.
+templ inquiryForm(api string) {
+	{{ f, action, mode := googleFields, templ.SafeURL(googleForm), "google" }}
+	if api != "" {
+		{{ f, action, mode = apiFields, templ.SafeURL(api), "api" }}
+	}
+	if api == "" {
+		<!-- Submits to the "Sawir Studio inquiries" Google Form; field names are its entry IDs. -->
+	}
+	<form id="inquiry-form" class="inquiry" action={ action } method="post" data-endpoint={ mode }>
+		<div class="field">
+			<label for="name">Name</label>
+			<input id="name" name={ f.Name } type="text" autocomplete="name" required/>
+		</div>
+		<div class="field">
+			<label for="email">Email</label>
+			<input id="email" name={ f.Email } type="email" autocomplete="email" required/>
+		</div>
+		<div class="field">
+			<label for="company">Company <span class="optional">(optional)</span></label>
+			<input id="company" name={ f.Company } type="text" autocomplete="organization"/>
+		</div>
+		<fieldset class="field">
+			<legend>What do you need?</legend>
+			<div class="choices">
+				<div><input id="need-application" name={ f.Need } type="checkbox" value="Application"/><label for="need-application">Application</label></div>
+				<div><input id="need-website" name={ f.Need } type="checkbox" value="Website"/><label for="need-website">Website</label></div>
+				<div><input id="need-design" name={ f.Need } type="checkbox" value="Design"/><label for="need-design">Design</label></div>
+				<div><input id="need-unsure" name={ f.Need } type="checkbox" value="Not sure yet"/><label for="need-unsure">Not sure yet</label></div>
+			</div>
+		</fieldset>
+		<div class="field">
+			<label for="message">Tell us about your project</label>
+			<textarea id="message" name={ f.Message } rows="6" required></textarea>
+		</div>
+		if api != "" {
+			<!-- Left empty by people; the server drops inquiries that fill it in (bots). -->
+			<div class="field" hidden aria-hidden="true">
+				<label for="website">Website</label>
+				<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"/>
+			</div>
+		}
+		<button class="button" type="submit" data-sending="Sending…">Send inquiry</button>
+		<p id="form-error" class="form-status form-error" role="alert" hidden>
+			Something went wrong sending your inquiry. Please try again in a moment.
+		</p>
+	</form>
+}

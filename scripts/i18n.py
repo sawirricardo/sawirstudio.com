@@ -11,14 +11,14 @@ The English pages are the source. For each language in LANGS this script:
 2. translates the pieces it hasn't seen before with the `claude` CLI, and keeps them in
    i18n/<lang>.json, so after editing a page only the changed text is translated again,
 3. writes <lang>/<path>/index.html with links pointing at the same language,
-4. adds hreflang links and the language switcher to every page, English included,
-   and lists the translated pages in sitemap.xml.
+4. adds hreflang links and the language switcher to every translated page (the English
+   pages get theirs from the Go builder), and lists the translated pages in sitemap.xml.
 
     uv run scripts/i18n.py                 # every language
     uv run scripts/i18n.py zh-Hans         # one language
     uv run scripts/i18n.py --no-translate  # rebuild from i18n/*.json only
 
-Run it after changing any English page (and after related_projects.py), then run
+Run it after building the English pages (go run ./cmd/build), then run
 markdown_pages.py. To fix a translation, edit i18n/<lang>.json and rerun with
 --no-translate. Running it twice changes nothing.
 """
@@ -88,7 +88,7 @@ def source_pages():
     out = []
     for f in sorted(ROOT.glob("**/index.html")):
         parts = f.relative_to(ROOT).parts
-        if any(p.startswith(".") for p in parts) or parts[0] in prefixes or parts[0] == "scripts":
+        if any(p.startswith(".") for p in parts) or parts[0] in prefixes or parts[0] in ("scripts", "content"):
             continue
         out.append(("/" + "/".join(parts[:-1]) + ("/" if len(parts) > 1 else ""), f))
     out.append(("/404.html", ROOT / "404.html"))
@@ -431,11 +431,7 @@ def main():
                 dest.write_text(out)
         print(f"{lang}: {len(src)} pages written to /{prefix}/, {missing} pieces still in English")
 
-    for page, f in src:
-        text = f.read_text()
-        new = add_blocks(text, page, pages, "en")
-        if new != text:
-            f.write_text(new)
+    # The English pages get their hreflang links and language list from the Go builder.
     sitemap(pages)
 
 

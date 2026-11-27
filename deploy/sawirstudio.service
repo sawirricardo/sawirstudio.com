@@ -1,0 +1,33 @@
+# /etc/systemd/system/sawirstudio.service on ricardosawir1: sawirstudio.com, reached through the
+# Cloudflare tunnel (sawirstudio.com -> http://127.0.0.1:8098). Installed by `make deploy`.
+# /etc/sawirstudio/env sets DATABASE_URL (its own database on the shared Postgres,
+# 127.0.0.1:5432); without it the site serves and the contact form API answers 503.
+[Unit]
+Description=Sawir Studio website
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+EnvironmentFile=-/etc/sawirstudio/env
+Environment=ADDR=127.0.0.1:8098 TRUST_PROXY=1
+# Applies new migrations at start (a database that is down only turns the contact API off).
+ExecStart=/usr/local/bin/sawirstudio-server
+DynamicUser=yes
+Restart=always
+RestartSec=3
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

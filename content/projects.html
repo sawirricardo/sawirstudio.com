@@ -1,0 +1,50 @@
+---
+title: Projects | Sawir Studio
+description: Applications, websites and designs by Sawir Studio, from client projects to our own apps on the App Store.
+og_type: website
+ld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sawirstudio.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "https://sawirstudio.com/projects/"
+      }
+    ]
+  }
+cta: false
+---
+      <section class="section banner" role="banner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects/" aria-current="page">Projects</a></li>
+        </ol>
+        </nav>
+        <h1 class="page-title">Latest projects</h1>
+        <p class="lead-sm">A collection of the latest projects from Sawir Studio</p>
+      </section>
+      <section class="section stack-sm">
+        <input id="search" class="search" type="search" placeholder="Search..." aria-label="Search projects" />
+        <div class="filters">
+          <div><input id="application" type="checkbox" value="3" /><label for="application">Application</label></div>
+          <div><input id="website" type="checkbox" value="2" /><label for="website">Website</label></div>
+          <div><input id="design" type="checkbox" value="1" /><label for="design">Design</label></div>
+        </div>
+        <div id="no-projects" class="empty text-center" hidden>
+          <p>No projects found. Try to clear the filters...</p>
+          <button id="clear-filters" type="button">Clear Filter</button>
+        </div>
+        <div id="project-list" class="project-grid">
+          <!-- @project-cards -->
+        </div>
+      </section>

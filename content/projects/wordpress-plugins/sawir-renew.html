@@ -1,0 +1,125 @@
+---
+title: Sawir Renew – Recurring Billing for WooCommerce | Sawir Studio
+description: Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free.
+og_type: website
+og_image: /assets/og/sawir-renew.jpg
+ld: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "name": "Sawir Renew – Recurring Billing for WooCommerce",
+        "description": "Complete subscriptions for WooCommerce — recurring billing, trials, sign-up fees, pause/skip, plan switching, dunning, smart retries. All free.",
+        "url": "https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/",
+        "image": "https://sawirstudio.com/assets/images/plugins/sawir-renew-banner.webp",
+        "creator": {
+          "@id": "https://sawirstudio.com/#organization"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sawirstudio.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projects",
+            "item": "https://sawirstudio.com/projects/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "WordPress Plugins",
+            "item": "https://sawirstudio.com/projects/wordpress-plugins/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Sawir Renew",
+            "item": "https://sawirstudio.com/projects/wordpress-plugins/sawir-renew/"
+          }
+        ]
+      }
+    ]
+  }
+---
+      <section class="section banner narrow" role="banner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/projects/wordpress-plugins/">WordPress Plugins</a></li>
+          <li><a href="/projects/wordpress-plugins/sawir-renew/" aria-current="page">Sawir Renew</a></li>
+        </ol>
+        </nav>
+        <h1 class="page-title heavy">Sawir Renew</h1>
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <p><img width="1544" height="500" src="/assets/images/plugins/sawir-renew-banner.webp" alt="Sawir Renew banner"></p>
+            <p>Sawir Renew turns a WooCommerce shop into a subscription business: recurring billing, trials, sign-up fees and smart retries, with no paid tier holding any feature back.</p>
+            <p><a class="button" href="https://wordpress.org/plugins/sawir-renew/" target="_blank" rel="noreferrer">Get it free on WordPress.org</a></p>
+            <h2>What it does</h2>
+            <p>Sell subscriptions with WooCommerce without paying for an extension. Every feature ships free — there is no pro version and nothing is locked.</p>
+            <h3>Products &amp; pricing</h3>
+            <ul>
+              <li>Simple and variable subscription product types</li>
+              <li>Bill every N day(s), week(s), month(s) or year(s), with sale-price support</li>
+              <li>Free trials, sign-up fees, and subscriptions that expire after N payments</li>
+              <li>Synchronized renewals (everyone renews on the 1st, or any day you pick) with optional prorated or free first period</li>
+              <li>One-time shipping, "one active subscription per customer" limits</li>
+            </ul>
+            <h3>Two payment lanes</h3>
+            <ul>
+              <li><strong>Pay-per-renewal (works with every gateway):</strong> when a renewal is due, the customer receives an invoice with a pay link — bank transfer, e-wallets, COD, anything your store accepts. Perfect for markets where automatic card billing isn't the norm.</li>
+              <li><strong>Automatic billing via Stripe:</strong> if you use the official WooCommerce Stripe Gateway, cards are saved at checkout and renewals charge automatically off-session — including smart retries and a fallback pay link when a card demands authentication. Other gateways can plug into the same adapter contract (see FAQ).</li>
+            </ul>
+            <h3>Renewals that don't wake you at 3am</h3>
+            <ul>
+              <li>All timing runs on Action Scheduler with a daily self-healing sweep</li>
+              <li>Configurable dunning: retry delays, reminder schedule, grace periods, auto-cancel</li>
+              <li>Staging/duplicate-site detection pauses billing the moment your site URL changes — no more double charges from a forgotten staging copy</li>
+              <li>Pre-renewal notice emails before automatic charges</li>
+            </ul>
+            <h3>Customers can help themselves</h3>
+            <p>My Account → Subscriptions lets customers cancel (immediately or at period end — your choice), pause and resume, skip a renewal, renew early, change their payment method or shipping address, and upgrade/downgrade between plans with prorated upgrade charges.</p>
+            <h3>Recurring coupons</h3>
+            <p>Four subscription coupon types: recurring % / fixed discounts (optionally limited to the first N payments) and sign-up-fee discounts. Core coupons keep applying to the initial order only.</p>
+            <h3>Notifications</h3>
+            <p>Thirteen toggleable emails (customer + admin) for every lifecycle moment. Developers can mirror any event to other channels (WhatsApp, SMS, Slack…) via the <code>swsb_notified</code> hook.</p>
+            <h3>Built for modern WooCommerce</h3>
+            <p>HPOS-native (subscriptions live in WooCommerce order storage — no custom tables), cart/checkout blocks compatible, full admin list + editor using WooCommerce's own order screens, an hourly-cached reports page (active, MRR, churn, upcoming renewals, renewal revenue), and a REST API.</p>
+            <h2>Questions</h2>
+            <h3>Is this affiliated with WooCommerce or Automattic?</h3>
+            <p>No. "WooCommerce" is a trademark of Automattic; this is an independent plugin <em>for</em> WooCommerce, per their naming guidelines.</p>
+            <h3>Which gateways support automatic renewals?</h3>
+            <p>Out of the box: the official WooCommerce Stripe Gateway. Every other gateway works in pay-per-renewal mode — customers get a pay link each period. Developers can add automatic support for any gateway with two filters:</p>
+            <p><code>swsb_order_supports_auto</code> — return true when the parent order's gateway saved a reusable payment method. <code>swsb_charge_renewal</code> — charge the renewal order off-session, return <code>true</code> or a <code>WP_Error</code>.</p>
+            <h3>Can it run alongside WooCommerce Subscriptions?</h3>
+            <p>No — running two billing engines would double-charge customers, so this plugin deactivates its engine and shows a notice if WooCommerce Subscriptions is active.</p>
+            <h3>What happens on a staging site?</h3>
+            <p>If the site URL changes, billing and customer emails pause automatically until you confirm whether the copy is staging or the live site. Choose "live" and every schedule is rebuilt.</p>
+            <h2>Goes well with</h2>
+            <ul>
+              <li><a href="/projects/wordpress-plugins/sawir-referral/">Sawir Referral</a>: lets your customers bring their friends.</li>
+              <li><a href="/projects/wordpress-plugins/sawir-pulse/">Sawir Pulse</a>: shows shoppers what is really happening in your store, such as recent orders, people viewing a product and fresh reviews, as small notifications in the corner.</li>
+            </ul>
+            <p>See all of our <a href="/projects/wordpress-plugins/">free WordPress plugins</a>.</p>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Price</strong> Free</li>
+            <li><strong>Version</strong> 1.0.0</li>
+            <li><strong>Requires</strong> WordPress 6.0, PHP 7.4, WooCommerce</li>
+            <li><strong>License</strong> GPL-2.0-or-later</li>
+            <li><strong>WordPress.org</strong> <a href="https://wordpress.org/plugins/sawir-renew/" target="_blank" rel="noreferrer">https://wordpress.org/plugins/sawir-renew/</a></li>
+          </ul>
+        </div>
+      </section>

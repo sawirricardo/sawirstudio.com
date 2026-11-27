@@ -1,0 +1,6 @@
+# Site-wide build settings (read by go run ./cmd/build).
+
+# Where the contact form posts. Empty: the Google Form "Sawir Studio inquiries".
+# /api/inquiries: our own server (cmd/server), which stores inquiries in Postgres.
+# The site is served by cmd/server (with DATABASE_URL set on ricardosawir1), so it is on.
+inquiry_api: /api/inquiries

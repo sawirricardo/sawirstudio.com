@@ -10,3 +10,17 @@ wrangler.jsonc
 worker.js
 scripts
 i18n
+# Go builder and server (source, not site files)
+go.mod
+go.sum
+cmd
+internal
+content
+db
+sqlc.yaml
+Makefile
+deploy
+.env
+embed.go
+bin
+.dist
