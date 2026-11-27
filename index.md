@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio | Apps, Web Platforms, Shopify & Odoo
+title: Sawir Studio | Shopify & Odoo, Business Systems, Web Platforms & Apps
 url: https://sawirstudio.com/
-description: Sawir Studio builds software people use: apps, web platforms, and Shopify with Odoo for clients, and our own apps for iPhone, iPad and Mac.
+description: Sawir Studio designs, builds and looks after the software businesses run on: Shopify connected to Odoo, business systems, web platforms and apps.
 ---
 
 hi, we're Sawir Studio
 
-# We build software people use, for clients and for ourselves.
+# We design, build and look after software for your business.
 
-Apps, web platforms and integrations, designed, built and looked after by one small studio, for years.
+A Shopify store that agrees with your books in Odoo, one system in place of the spreadsheets, an app for your customers. One small studio takes it from the first version and stays for years.
 
 AI in the loop, a human owning every call. [What we believe →](https://sawirstudio.com/about-us/)
 
-[Start a project](https://sawirstudio.com/contact/) [See our work](#portfolio)
+[Start a project](https://sawirstudio.com/contact/) [See client work](#portfolio)
 
-- **9** years building, since 2017
-- **7** apps of our own on the App Store
-- **12** free WordPress plugins
+- **9** years building for clients, since 2017
+- **26** businesses and institutions we've built for
 - **2019** the year PeopleBond started with us. Still going.
+- **7** apps of our own on the App Store
 
-## What we build
+## How we can help
 
-- ### Apps
+- ### Shopify & Odoo
 
-  iPhone, iPad, Mac and Android apps, from the first version to the App Store and every update after.
+  Your Shopify store connected to Odoo and the rest of what you run: orders, stock, payouts and point of sale, so the store and the books agree. From the people who wrote the open-source Shopify connector for Odoo.
 
-  Like [DBTV](https://sawirstudio.com/projects/dbtv-application/) and [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/)
+  See [what we do](https://sawirstudio.com/shopify/), or why [payouts don't match your books](https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/)
+- ### Business systems
+
+  Point of sale, stock, purchasing and accounting in one system, on Odoo or built to measure, for when the spreadsheets stop keeping up.
+
+  See [Odoo or custom?](https://sawirstudio.com/odoo/)
 - ### Platforms & integrations
 
-  Web apps, SaaS, admin panels and the glue between systems: Odoo, Shopify, WordPress, payments and shipping.
+  A web app, SaaS or admin panel shaped around how your team works, and the glue between the systems you already pay for: Odoo, Shopify, WordPress, payments and shipping.
 
-  Like [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/) and our [Shopify connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/). See [custom software](https://sawirstudio.com/custom/)
+  Like [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/). See [custom software](https://sawirstudio.com/custom/)
 - ### Forward deployed engineers
 
   An engineer inside your team for as long as the job takes, putting AI to work in your systems and connecting what you already run.
 
   See [how it works](https://sawirstudio.com/forward-deployed-engineering/)
+- ### Apps
+
+  iPhone, iPad, Mac and Android apps for your customers or your staff, from the first version to the App Store and every update after.
+
+  Like [DBTV](https://sawirstudio.com/projects/dbtv-application/) and [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/)
 - ### Design
 
-  Brands, interfaces and the websites around them, drawn by people who also build what they draw.
+  Your brand, your interfaces and the website around them, drawn by people who also build what they draw.
 
   Like [JakPod Hotel](https://sawirstudio.com/projects/jakpod-hotel-design/) and [Fluindo](https://sawirstudio.com/projects/fluindo-technology-indonesia-website/)
 - ### Launch & growth
 
-  Search set up from day one, local search, listings and earned backlinks, and a monthly check-in on the numbers.
+  Help getting found: search set up from day one, local search, listings and earned backlinks, and a monthly check-in on your numbers.
 
   See [what's included](https://sawirstudio.com/launch-and-growth/)
-- ### Shopify
 
-  Stores connected to Odoo and the systems you already run: orders, stock, payouts and point of sale, from the people who wrote the open-source Shopify connector for Odoo.
+## Work for clients
 
-  See [what we do](https://sawirstudio.com/shopify/)
-- ### Business systems
-
-  Point of sale, stock, purchasing and accounting in one system, on Odoo or built to measure, for businesses ready to leave the spreadsheets behind.
-
-  See [Odoo or custom?](https://sawirstudio.com/odoo/)
-
-## Selected work
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-A strategic trading card game we publish, free to play in the browser](https://sawirstudio.com/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ A dermatology clinic's website, with a page for every treatment and booking on W
 ### PeopleBond
 
 An HR platform and its employee app, built with their team since 2019](https://sawirstudio.com/projects/peoplebond-hcms-application/)
+[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+A ministry's sermons, prayer and daily devotionals in an app for iOS and Android](https://sawirstudio.com/projects/dbtv-application/)
 
 [See all projects](https://sawirstudio.com/projects/)
-
-## We ship our own, too
-
-The surest way to know how to ship is to ship your own. These are ours, live on the App Store and the web. Give the icons a drag.
-
-- [Par](https://sawirstudio.com/projects/par/)
-- [CleanStorage](https://sawirstudio.com/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/projects/nofapfit/)
-
-Plus [12 free WordPress plugins](https://sawirstudio.com/projects/wordpress-plugins/) and a [Shopify connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/), maintained in the Odoo Community Association.
-
-On their own sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## How we work
 
@@ -107,7 +89,7 @@ On their own sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getm
 
    We stay to look after what we build. PeopleBond has worked with us since 2019, and our own apps get the same care.
 
-## Some of our clients
+## Who we've built for
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ On their own sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getm
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## We ship our own, too
+
+We know what launching takes because we do it for ourselves too. These are our own apps, live on the App Store and the web, and they get the same care your project would. Give the icons a drag.
+
+- [Par](https://sawirstudio.com/projects/par/)
+- [CleanStorage](https://sawirstudio.com/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/projects/nofapfit/)
+
+Plus [12 free WordPress plugins](https://sawirstudio.com/projects/wordpress-plugins/) and a [Shopify connector for Odoo](https://sawirstudio.com/projects/odoo-shopify-connector/), maintained in the Odoo Community Association.
+
+On their own sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 Enough about us.
 

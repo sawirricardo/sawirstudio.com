@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio | Apps, webplatforms, Shopify & Odoo
+title: Sawir Studio | Shopify & Odoo, bedrijfssystemen, webplatforms & apps
 url: https://sawirstudio.com/nl/
-description: Sawir Studio bouwt software die mensen gebruiken: apps, webplatforms, en Shopify met Odoo voor klanten, plus onze eigen apps voor iPhone, iPad en Mac.
+description: Sawir Studio ontwerpt, bouwt en onderhoudt de software waar bedrijven op draaien: Shopify gekoppeld aan Odoo, bedrijfssystemen, webplatforms en apps.
 ---
 
 hoi, wij zijn Sawir Studio
 
-# Wij bouwen software die mensen gebruiken, voor klanten en voor onszelf.
+# Wij ontwerpen, bouwen en onderhouden software voor jouw bedrijf.
 
-Apps, webplatforms en koppelingen, ontworpen, gebouwd en onderhouden door één klein studioteam, jarenlang.
+Een Shopify-webshop die klopt met je boekhouding in Odoo, één systeem in plaats van al die spreadsheets, een app voor je klanten. Eén kleine studio bouwt de eerste versie en blijft daarna jarenlang betrokken.
 
 AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven →](https://sawirstudio.com/nl/about-us/)
 
-[Start een project](https://sawirstudio.com/nl/contact/) [Bekijk ons werk](#portfolio)
+[Start een project](https://sawirstudio.com/nl/contact/) [Bekijk klantprojecten](#portfolio)
 
-- **9** jaar aan het bouwen, sinds 2017
-- **7** eigen apps in de App Store
-- **12** gratis WordPress-plugins
+- **9** jaar bouwen voor klanten, sinds 2017
+- **26** bedrijven en instellingen waarvoor we hebben gebouwd
 - **2019** het jaar waarin PeopleBond met ons begon. We werken nog steeds samen.
+- **7** eigen apps in de App Store
 
-## Wat wij bouwen
+## Hoe we kunnen helpen
 
-- ### Apps
+- ### Shopify & Odoo
 
-  Apps voor iPhone, iPad, Mac en Android, van de eerste versie tot de App Store en alle updates daarna.
+  Je Shopify-webshop gekoppeld aan Odoo en de rest van je systemen: bestellingen, voorraad, uitbetalingen en kassasysteem, zodat je webshop en boekhouding met elkaar kloppen. Van de makers van de opensource Shopify-connector voor Odoo.
 
-  Zoals [DBTV](https://sawirstudio.com/nl/projects/dbtv-application/) en [Koperasi HOB](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
+  Bekijk [wat we doen](https://sawirstudio.com/nl/shopify/), of lees waarom [uitbetalingen niet kloppen met je boekhouding](https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/)
+- ### Bedrijfssystemen
+
+  Kassa, voorraad, inkoop en boekhouding in één systeem, op Odoo of op maat gebouwd, voor als je het met spreadsheets niet meer bijhoudt.
+
+  Bekijk [Odoo of maatwerk?](https://sawirstudio.com/nl/odoo/)
 - ### Platforms & integraties
 
-  Webapps, SaaS, beheerpanelen en de koppelingen tussen systemen: Odoo, Shopify, WordPress, betalingen en verzending.
+  Een webapp, SaaS of beheerpaneel dat aansluit op hoe je team werkt, plus de koppelingen tussen de systemen waar je al voor betaalt: Odoo, Shopify, WordPress, betalingen en verzending.
 
-  Zoals [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) en onze [Shopify-connector voor Odoo](https://sawirstudio.com/nl/projects/odoo-shopify-connector/). Bekijk [maatwerksoftware](https://sawirstudio.com/nl/custom/)
+  Zoals [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/). Bekijk [software op maat](https://sawirstudio.com/nl/custom/)
 - ### Forward deployed engineers
 
   Een engineer in je team, zolang de klus duurt, die AI voor je aan het werk zet in je systemen en koppelt wat je al gebruikt.
 
   Bekijk [hoe het werkt](https://sawirstudio.com/nl/forward-deployed-engineering/)
+- ### Apps
+
+  Apps voor iPhone, iPad, Mac en Android voor je klanten of je medewerkers, van de eerste versie tot de App Store en elke update daarna.
+
+  Zoals [DBTV](https://sawirstudio.com/nl/projects/dbtv-application/) en [Koperasi HOB](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
 - ### Design
 
-  Merken, interfaces en de websites eromheen, getekend door mensen die ook bouwen wat ze tekenen.
+  Je merk, je interfaces en de website eromheen, ontworpen door mensen die ook zelf bouwen wat ze ontwerpen.
 
   Zoals [JakPod Hotel](https://sawirstudio.com/nl/projects/jakpod-hotel-design/) en [Fluindo](https://sawirstudio.com/nl/projects/fluindo-technology-indonesia-website/)
 - ### Lancering & groei
 
-  Zoekmachine-optimalisatie vanaf dag één, lokale vindbaarheid, vermeldingen en verdiende backlinks, plus een maandelijks gesprek over de cijfers.
+  Hulp om gevonden te worden: zoekmachineoptimalisatie vanaf dag één, lokaal zoeken, bedrijfsvermeldingen en verdiende backlinks, plus elke maand samen je cijfers bekijken.
 
   Bekijk [wat erbij zit](https://sawirstudio.com/nl/launch-and-growth/)
-- ### Shopify
 
-  Webshops gekoppeld aan Odoo en de systemen die je al gebruikt: bestellingen, voorraad, uitbetalingen en kassa, van de mensen die de open-source Shopify-connector voor Odoo schreven.
+## Werk voor klanten
 
-  Bekijk [wat wij doen](https://sawirstudio.com/nl/shopify/)
-- ### Bedrijfssystemen
-
-  Kassa, voorraad, inkoop en boekhouding in één systeem, op Odoo of op maat gebouwd, voor bedrijven die klaar zijn om de spreadsheets achter zich te laten.
-
-  Bekijk [Odoo of maatwerk?](https://sawirstudio.com/nl/odoo/)
-
-## Uitgelicht werk
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-Een strategisch ruilkaartspel dat we zelf uitgeven, gratis te spelen in de browser](https://sawirstudio.com/nl/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ De website van een dermatologiekliniek, met een pagina voor elke behandeling en 
 ### PeopleBond
 
 Een HR-platform en bijbehorende medewerkersapp, gebouwd samen met hun team sinds 2019](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/)
+[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+De preken, gebeden en dagelijkse overdenkingen van een kerkelijke bediening in een app voor iOS en Android](https://sawirstudio.com/nl/projects/dbtv-application/)
 
 [Bekijk alle projecten](https://sawirstudio.com/nl/projects/)
-
-## Ook onze eigen apps brengen we uit
-
-De beste manier om te weten hoe je iets live krijgt, is zelf iets live brengen. Dit zijn de onze, beschikbaar in de App Store en op het web. Sleep de iconen maar rond.
-
-- [Par](https://sawirstudio.com/nl/projects/par/)
-- [CleanStorage](https://sawirstudio.com/nl/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/nl/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/nl/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/nl/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/nl/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/nl/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/nl/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/nl/projects/nofapfit/)
-
-Plus [12 gratis WordPress-plugins](https://sawirstudio.com/nl/projects/wordpress-plugins/) en een [Shopify-connector voor Odoo](https://sawirstudio.com/nl/projects/odoo-shopify-connector/), onderhouden binnen de Odoo Community Association.
-
-Op hun eigen sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## Hoe wij werken
 
@@ -107,7 +89,7 @@ Op hun eigen sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getm
 
    Wij blijven om te zorgen voor wat we bouwen. PeopleBond werkt sinds 2019 met ons samen, en onze eigen apps krijgen dezelfde zorg.
 
-## Enkele van onze klanten
+## Voor wie we hebben gebouwd
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ Op hun eigen sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getm
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## Ook onze eigen apps brengen we uit
+
+We weten wat er bij een lancering komt kijken, omdat we het ook voor onszelf doen. Dit zijn onze eigen apps, live in de App Store en op het web, en ze krijgen dezelfde zorg als jouw project zou krijgen. Versleep de iconen maar eens.
+
+- [Par](https://sawirstudio.com/nl/projects/par/)
+- [CleanStorage](https://sawirstudio.com/nl/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/nl/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/nl/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/nl/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/nl/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/nl/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/nl/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/nl/projects/nofapfit/)
+
+Plus [12 gratis WordPress-plugins](https://sawirstudio.com/nl/projects/wordpress-plugins/) en een [Shopify-connector voor Odoo](https://sawirstudio.com/nl/projects/odoo-shopify-connector/), onderhouden binnen de Odoo Community Association.
+
+Op hun eigen sites: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 Genoeg over ons.
 

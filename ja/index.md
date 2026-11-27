@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio | アプリ・ウェブプラットフォーム・Shopify & Odoo
+title: Sawir Studio｜Shopify & Odoo、業務システム、ウェブプラットフォーム、アプリ
 url: https://sawirstudio.com/ja/
-description: Sawir Studio は、使われるソフトウェアを作っています。お客様向けにはアプリ、ウェブプラットフォーム、Shopify と Odoo の開発、自社では iPhone、iPad、Mac 向けのアプリを提供しています。
+description: Sawir Studio は、ビジネスを支えるソフトウェアのデザイン、開発、運用を行っています。Shopify と Odoo の連携、業務システム、ウェブプラットフォーム、アプリに対応します。
 ---
 
 Sawir Studio です。はじめまして
 
-# 使われる ソフトウェアを、お客様 のためにも、自分たち のためにも作っています。
+# お客様のビジネスを支えるソフトウェアを、設計 し、開発 し、運用・保守 します。
 
-アプリ、ウェブプラットフォーム、システム連携。設計から開発、運用まで、小さなスタジオが何年でも 一貫して担当します。
+Odoo の帳簿ときちんと一致する Shopify ストア、いくつものスプレッドシートに代わるひとつのシステム、お客様向けのアプリ。小さなスタジオが最初のバージョンから担当し、その後も何年にもわたって 支えます。
 
 AI を活用しつつ、判断は必ず人が行います。[私たちの考え方 →](https://sawirstudio.com/ja/about-us/)
 
-[プロジェクトを始める](https://sawirstudio.com/ja/contact/) [制作実績を見る](#portfolio)
+[プロジェクトを相談する](https://sawirstudio.com/ja/contact/) [制作実績を見る](#portfolio)
 
-- **9** 年の開発実績（2017 年から）
-- **7** App Store で公開中の自社アプリ
-- **12** 無料の WordPress プラグイン
+- **9** 年にわたるお客様向けの開発（2017 年から）
+- **26** の企業・団体向けに開発
 - **2019** PeopleBond とのお付き合いが始まった年。今も続いています。
+- **7** App Store で公開中の自社アプリ
 
-## 私たちが作るもの
+## お手伝いできること
 
-- ### アプリ
+- ### Shopify & Odoo
 
-  iPhone、iPad、Mac、Android のアプリを、最初のバージョンから App Store での公開、その後のアップデートまで担当します。
+  Shopify ストアを、Odoo やお使いのほかのシステムと連携します。注文、在庫、入金、POS をつなぎ、ストアと帳簿が一致するようにします。Odoo 向けのオープンソース Shopify コネクターを開発したメンバーが担当します。
 
-  [DBTV](https://sawirstudio.com/ja/projects/dbtv-application/) や [Koperasi HOB](https://sawirstudio.com/ja/projects/koperasi-hob-application/) など
+  [サービス内容](https://sawirstudio.com/ja/shopify/)や、[入金額が帳簿と合わない理由](https://sawirstudio.com/ja/posts/why-shopify-payouts-dont-match-your-books/)をご覧ください
+- ### 業務システム
+
+  スプレッドシートでは追いつかなくなったら、POS、在庫、購買、会計をひとつのシステムにまとめます。Odoo をベースにすることも、ご要望に合わせて一から開発することもできます。
+
+  [Odoo とカスタム開発、どちらが合う？](https://sawirstudio.com/ja/odoo/)
 - ### プラットフォームとシステム連携
 
-  ウェブアプリ、SaaS、管理画面、そしてシステム同士をつなぐ連携部分。Odoo、Shopify、WordPress、決済、配送に対応します。
+  チームの働き方に合わせたウェブアプリ、SaaS、管理画面を開発します。Odoo、Shopify、WordPress、決済、配送など、すでに利用料を支払っているシステム同士の連携も行います。
 
-  [PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/) や、[Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)など。[カスタムソフトウェア](https://sawirstudio.com/ja/custom/)はこちら
+  [PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/) などの実績があります。[カスタムソフトウェア開発](https://sawirstudio.com/ja/custom/)をご覧ください
 - ### フォワード・デプロイド・エンジニア
 
   必要な期間、エンジニアがお客様のチームに加わり、お使いのシステムに AI を取り入れて活用し、すでに運用中の仕組み同士をつなぎます。
 
   [サービスの仕組み](https://sawirstudio.com/ja/forward-deployed-engineering/)をご覧ください
+- ### アプリ
+
+  お客様向けや社内スタッフ向けの iPhone、iPad、Mac、Android アプリを開発します。最初のバージョンから App Store での公開、その後のすべてのアップデートまで対応します。
+
+  [DBTV](https://sawirstudio.com/ja/projects/dbtv-application/) や [Koperasi HOB](https://sawirstudio.com/ja/projects/koperasi-hob-application/) など
 - ### デザイン
 
-  ブランド、インターフェース、そのまわりのウェブサイトまで。実際に作る人間がデザインします。
+  ブランド、画面インターフェース、それを取り巻くウェブサイトを、デザインしたものを自ら開発するメンバーが手がけます。
 
   [JakPod Hotel](https://sawirstudio.com/ja/projects/jakpod-hotel-design/) や [Fluindo](https://sawirstudio.com/ja/projects/fluindo-technology-indonesia-website/) など
 - ### 公開とその後の成長支援
 
-  初日からの検索対策、地域検索、掲載情報の整備、被リンクの獲得、そして毎月の数値確認まで行います。
+  見つけてもらうためのお手伝いをします。公開初日からの検索対策、ローカル検索、各種サービスへの掲載、自然に獲得する被リンク、そして月 1 回の数値確認を行います。
 
   [サービス内容](https://sawirstudio.com/ja/launch-and-growth/)はこちら
-- ### Shopify
 
-  Odoo や、すでにお使いのシステムと連携したストアを構築します。注文、在庫、入金、POS まで対応。Odoo 向けのオープンソース Shopify コネクタを開発した私たちが担当します。
+## お客様向けの制作実績
 
-  [対応内容](https://sawirstudio.com/ja/shopify/)はこちら
-- ### 業務システム
-
-  POS、在庫、仕入、会計を一つのシステムに。Odoo でも、オーダーメイド開発でも対応します。スプレッドシート管理から卒業したい企業向けです。
-
-  [Odoo とカスタム開発、どちらが合う？](https://sawirstudio.com/ja/odoo/)
-
-## 主な実績
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-当社が提供する、ブラウザで無料で遊べる戦略型トレーディングカードゲーム](https://sawirstudio.com/ja/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
 ### PeopleBond
 
 HR プラットフォームと従業員向けアプリ。2019 年から先方のチームと共に開発](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/)
+[![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+ある宣教団体の説教、祈り、日々のデボーションを届ける iOS・Android 向けアプリ](https://sawirstudio.com/ja/projects/dbtv-application/)
 
 [すべてのプロジェクトを見る](https://sawirstudio.com/ja/projects/)
-
-## 自社アプリも公開しています
-
-リリースのやり方を一番よく知る方法は、自分たちで出してみることです。こちらが App Store とウェブで公開中の自社プロダクトです。アイコンをドラッグしてみてください。
-
-- [Par](https://sawirstudio.com/ja/projects/par/)
-- [CleanStorage](https://sawirstudio.com/ja/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/ja/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/ja/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/ja/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/ja/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/ja/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/ja/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/ja/projects/nofapfit/)
-
-このほか、[無料の WordPress プラグイン 12 本](https://sawirstudio.com/ja/projects/wordpress-plugins/)と、Odoo Community Association で保守している [Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)があります。
-
-各サイト：[Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## 進め方
 
@@ -107,7 +89,7 @@ HR プラットフォームと従業員向けアプリ。2019 年から先方の
 
    作って終わりにせず、公開後の運用まで責任を持ちます。PeopleBond とは 2019 年からお付き合いが続いており、自社アプリにも同じ姿勢で向き合っています。
 
-## 主なお客様
+## これまでのお客様
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ HR プラットフォームと従業員向けアプリ。2019 年から先方の
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## 自社アプリも公開しています
+
+私たちは自社でもリリースしているので、公開までに何が必要かを知っています。こちらは App Store やウェブで公開中の自社アプリです。お客様のプロジェクトと同じように、大切に手をかけています。アイコンはドラッグして動かせます。
+
+- [Par](https://sawirstudio.com/ja/projects/par/)
+- [CleanStorage](https://sawirstudio.com/ja/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/ja/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/ja/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/ja/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/ja/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/ja/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/ja/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/ja/projects/nofapfit/)
+
+このほか、[無料の WordPress プラグイン 12 本](https://sawirstudio.com/ja/projects/wordpress-plugins/)と、Odoo Community Association で保守している [Odoo 向け Shopify コネクタ](https://sawirstudio.com/ja/projects/odoo-shopify-connector/)があります。
+
+各サイト：[Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

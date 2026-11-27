@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio｜App、網站平台、Shopify 與 Odoo
+title: Sawir Studio | Shopify 與 Odoo、企業系統、網頁平台與 App
 url: https://sawirstudio.com/zh-hant/
-description: Sawir Studio 打造大家真的會用的軟體：為客戶開發 App、網站平台，以及 Shopify 與 Odoo 整合，也推出我們自己的 iPhone、iPad 與 Mac App。
+description: Sawir Studio 設計、開發並維護企業營運仰賴的軟體：Shopify 與 Odoo 串接、企業系統、網頁平台與 App。
 ---
 
 嗨，我們是 Sawir Studio
 
-# 我們打造大家真的會用 的軟體，服務客戶，也做給自己。
+# 我們為您的企業設計、開發 並維護 軟體。
 
-App、網站平台與系統整合，由一個小型工作室負責設計、開發與維護，長長久久。
+讓 Shopify 商店與 Odoo 帳務對得起來、用一套系統取代一堆試算表，或為您的客戶打造 App。我們是一間小型工作室，從第一版做起，之後長年 陪您維護。
 
 AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sawirstudio.com/zh-hant/about-us/)
 
-[開始專案](https://sawirstudio.com/zh-hant/contact/) [看看我們的作品](#portfolio)
+[開始合作專案](https://sawirstudio.com/zh-hant/contact/) [查看客戶案例](#portfolio)
 
-- **9** 年開發經驗，始於 2017 年
-- **7** 款自家 App 已上架 App Store
-- **12** 款免費 WordPress 外掛
+- **9** 年客戶專案開發經驗，始於 2017 年
+- **26** 家合作過的企業與機構
 - **2019** PeopleBond 開始與我們合作的那一年，至今仍在持續。
+- **7** 款自家 App 已上架 App Store
 
-## 我們做什麼
+## 我們能幫您什麼
 
-- ### App
+- ### Shopify 與 Odoo
 
-  iPhone、iPad、Mac 與 Android App，從第一個版本到上架 App Store，以及之後的每一次更新。
+  將您的 Shopify 商店串接到 Odoo 以及您使用的其他系統：訂單、庫存、撥款與 POS，讓商店資料與帳務一致。由開源 Shopify 與 Odoo 串接工具的開發者親自為您服務。
 
-  例如 [DBTV](https://sawirstudio.com/zh-hant/projects/dbtv-application/) 與 [Koperasi HOB](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
+  看看[我們的服務內容](https://sawirstudio.com/zh-hant/shopify/)，或了解[撥款為何與帳務對不起來](https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/)
+- ### 企業系統
+
+  當試算表已經應付不來，就把 POS、庫存、採購與會計整合在一套系統中，可以用 Odoo 建置，也可以量身打造。
+
+  看看[該選 Odoo 還是客製化？](https://sawirstudio.com/zh-hant/odoo/)
 - ### 平台與系統整合
 
-  網頁應用程式、SaaS、後台管理，以及系統之間的串接：Odoo、Shopify、WordPress、金流與物流。
+  依照您團隊的工作方式打造網頁應用程式、SaaS 或管理後台，並串接您已付費使用的各種系統：Odoo、Shopify、WordPress、金流與物流。
 
-  例如 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/) 與我們的 [Odoo 的 Shopify 連接器](https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/)。了解[客製化軟體](https://sawirstudio.com/zh-hant/custom/)
+  例如 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)。查看[客製化軟體](https://sawirstudio.com/zh-hant/custom/)
 - ### 前線部署工程師
 
   工程師加入您的團隊，工作需要多久就待多久，把 AI 實際用在您的系統裡，並串接您現有的各項工具。
 
   看看[合作方式](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)
+- ### App
+
+  為您的客戶或員工開發 iPhone、iPad、Mac 與 Android App，從第一版、上架 App Store 到之後的每一次更新，都由我們負責。
+
+  例如 [DBTV](https://sawirstudio.com/zh-hant/projects/dbtv-application/) 與 [Koperasi HOB](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
 - ### 設計
 
-  品牌、介面與周邊網站，由同時也負責開發的團隊親手設計。
+  您的品牌、使用介面與搭配的網站，設計的人也親自把設計做出來。
 
   例如 [JakPod Hotel](https://sawirstudio.com/zh-hant/projects/jakpod-hotel-design/) 與 [Fluindo](https://sawirstudio.com/zh-hant/projects/fluindo-technology-indonesia-website/)
 - ### 上線與成長
 
-  從第一天就做好搜尋設定，並包含在地搜尋、商家名錄、自然外部連結，以及每月的數據回顧。
+  幫助客戶找到您：從第一天就做好搜尋設定，還有在地搜尋、商家資訊刊登、靠實力爭取的反向連結，以及每月一次的數據檢視。
 
   查看[包含哪些項目](https://sawirstudio.com/zh-hant/launch-and-growth/)
-- ### Shopify
 
-  讓商店與 Odoo 及您現有的系統串接：訂單、庫存、撥款與 POS，由開發開源 Odoo 的 Shopify 連接器的團隊親自處理。
+## 客戶案例
 
-  了解[我們的服務](https://sawirstudio.com/zh-hant/shopify/)
-- ### 企業系統
-
-  將 POS、庫存、採購與會計整合在同一個系統，可採用 Odoo 或量身打造，適合準備告別試算表的企業。
-
-  看看[該選 Odoo 還是客製化？](https://sawirstudio.com/zh-hant/odoo/)
-
-## 精選作品
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-我們推出的策略型集換式卡牌遊戲，開啟瀏覽器即可免費遊玩](https://sawirstudio.com/zh-hant/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic 網站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 ### PeopleBond
 
 人資平台與員工 App，自 2019 年起與他們的團隊共同打造](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)
+[![DBTV 應用程式](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+為一個教會事工團體打造的 iOS 與 Android App，收錄講道、禱告與每日靈修內容](https://sawirstudio.com/zh-hant/projects/dbtv-application/)
 
 [查看所有專案](https://sawirstudio.com/zh-hant/projects/)
-
-## 我們也推出自己的產品
-
-想知道怎麼把產品做出來，最可靠的方法就是自己做一個。以下是我們自己的作品，已在 App Store 與網路上線。試著拖曳看看這些圖示吧。
-
-- [Par](https://sawirstudio.com/zh-hant/projects/par/)
-- [CleanStorage](https://sawirstudio.com/zh-hant/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/zh-hant/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/zh-hant/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/zh-hant/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/zh-hant/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/zh-hant/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/zh-hant/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/zh-hant/projects/nofapfit/)
-
-另有 [12 款免費 WordPress 外掛](https://sawirstudio.com/zh-hant/projects/wordpress-plugins/)，以及[Odoo 的 Shopify 連接器](https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/)，皆於 Odoo Community Association 中持續維護。
-
-各自的官方網站：[Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## 我們的工作方式
 
@@ -107,7 +89,7 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 
    我們會持續照顧自己打造的產品。PeopleBond 自 2019 年起與我們合作，我們自己的 App 也一樣用心維護。
 
-## 部分客戶
+## 我們的合作對象
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## 我們也推出自己的產品
+
+我們自己也做產品，所以清楚上線需要做哪些事。以下是我們自家的 App，已在 App Store 和網路上推出，您的專案也會得到同樣的用心對待。試著拖曳這些圖示看看。
+
+- [Par](https://sawirstudio.com/zh-hant/projects/par/)
+- [CleanStorage](https://sawirstudio.com/zh-hant/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/zh-hant/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/zh-hant/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/zh-hant/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/zh-hant/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/zh-hant/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/zh-hant/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/zh-hant/projects/nofapfit/)
+
+另有 [12 款免費 WordPress 外掛](https://sawirstudio.com/zh-hant/projects/wordpress-plugins/)，以及[Odoo 的 Shopify 連接器](https://sawirstudio.com/zh-hant/projects/odoo-shopify-connector/)，皆於 Odoo Community Association 中持續維護。
+
+各自的官方網站：[Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 關於我們就先說到這裡。
 

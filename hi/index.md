@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio | ऐप, वेब प्लेटफ़ॉर्म, Shopify और Odoo
+title: Sawir Studio | Shopify & Odoo, बिज़नेस सिस्टम, वेब प्लेटफ़ॉर्म और ऐप
 url: https://sawirstudio.com/hi/
-description: Sawir Studio ऐसा सॉफ़्टवेयर बनाता है जिसे लोग इस्तेमाल करते हैं: क्लाइंट्स के लिए ऐप, वेब प्लेटफ़ॉर्म, और Odoo के साथ Shopify, और अपने खुद के iPhone, iPad और Mac ऐप।
+description: Sawir Studio बिज़नेस चलाने वाले सॉफ़्टवेयर को डिज़ाइन करता है, बनाता है और उसकी देखभाल करता है: Odoo से जुड़ा Shopify, बिज़नेस सिस्टम, वेब प्लेटफ़ॉर्म और ऐप।
 ---
 
 नमस्ते, हम हैं Sawir Studio
 
-# हम ऐसा सॉफ़्टवेयर बनाते हैं जिसे लोग इस्तेमाल करते हैं, अपने क्लाइंट्स के लिए भी और अपने लिए भी।
+# हम आपके बिज़नेस के लिए सॉफ़्टवेयर डिज़ाइन करते हैं, बनाते हैं और उसकी देखभाल करते हैं।
 
-ऐप, वेब प्लेटफ़ॉर्म और इंटीग्रेशन, जिन्हें एक छोटा स्टूडियो डिज़ाइन करता है, बनाता है और सालों तक संभालता है।
+ऐसा Shopify स्टोर जिसका हिसाब Odoo में आपके खातों से मेल खाए, स्प्रेडशीट की जगह एक ही सिस्टम, या आपके ग्राहकों के लिए एक ऐप। एक छोटा स्टूडियो पहले वर्शन से काम संभालता है और सालों तक साथ रहता है।
 
 AI साथ में, पर हर फ़ैसला इंसान का। [हम क्या मानते हैं →](https://sawirstudio.com/hi/about-us/)
 
-[प्रोजेक्ट शुरू करें](https://sawirstudio.com/hi/contact/) [हमारा काम देखें](#portfolio)
+[प्रोजेक्ट शुरू करें](https://sawirstudio.com/hi/contact/) [क्लाइंट प्रोजेक्ट देखें](#portfolio)
 
-- **9** साल से बना रहे हैं, 2017 से
-- **7** हमारे अपने ऐप App Store पर
-- **12** मुफ़्त WordPress प्लगइन
+- **9** साल से क्लाइंट के लिए काम, 2017 से
+- **26** बिज़नेस और संस्थान जिनके लिए हमने काम किया है
 - **2019** जब PeopleBond हमारे साथ जुड़ा। आज भी साथ हैं।
+- **7** हमारे अपने ऐप App Store पर
 
-## हम क्या बनाते हैं
+## हम कैसे मदद कर सकते हैं
 
-- ### ऐप
+- ### Shopify & Odoo
 
-  iPhone, iPad, Mac और Android ऐप, पहले वर्ज़न से लेकर App Store तक और उसके बाद हर अपडेट तक।
+  आपका Shopify स्टोर, Odoo और आपके बाकी सिस्टम से जुड़ा हुआ: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, ताकि स्टोर और खातों का हिसाब मेल खाए। यह काम वही लोग करते हैं जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।
 
-  जैसे [DBTV](https://sawirstudio.com/hi/projects/dbtv-application/) और [Koperasi HOB](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
+  देखें कि [हम क्या करते हैं](https://sawirstudio.com/hi/shopify/), या जानें कि [पेआउट आपके खातों से मेल क्यों नहीं खाते](https://sawirstudio.com/hi/posts/why-shopify-payouts-dont-match-your-books/)
+- ### बिज़नेस सिस्टम
+
+  जब स्प्रेडशीट से काम न चल पाए, तब पॉइंट ऑफ़ सेल, स्टॉक, ख़रीद और अकाउंटिंग एक ही सिस्टम में, Odoo पर या आपकी ज़रूरत के हिसाब से बनाया हुआ।
+
+  देखें [Odoo या कस्टम?](https://sawirstudio.com/hi/odoo/)
 - ### प्लेटफ़ॉर्म और इंटीग्रेशन
 
-  वेब ऐप, SaaS, एडमिन पैनल और सिस्टम्स को जोड़ने वाला काम: Odoo, Shopify, WordPress, पेमेंट और शिपिंग।
+  आपकी टीम के काम करने के तरीके के हिसाब से बना वेब ऐप, SaaS या एडमिन पैनल, और उन सिस्टम को आपस में जोड़ने का काम जिनके लिए आप पहले से पैसे देते हैं: Odoo, Shopify, WordPress, पेमेंट और शिपिंग।
 
-  जैसे [PeopleBond](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/) और Odoo के लिए हमारा [Shopify कनेक्टर](https://sawirstudio.com/hi/projects/odoo-shopify-connector/)। देखें [कस्टम सॉफ़्टवेयर](https://sawirstudio.com/hi/custom/)
+  जैसे [PeopleBond](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)। [कस्टम सॉफ़्टवेयर](https://sawirstudio.com/hi/custom/) देखें
 - ### फ़ॉरवर्ड डिप्लॉइड इंजीनियर्स
 
   जब तक काम पूरा न हो, एक इंजीनियर आपकी टीम का हिस्सा बनकर रहता है, आपके सिस्टम्स में AI को काम पर लगाता है और आपके मौजूदा सिस्टम्स को आपस में जोड़ता है।
 
   देखें कि [यह कैसे काम करता है](https://sawirstudio.com/hi/forward-deployed-engineering/)
+- ### ऐप
+
+  आपके ग्राहकों या स्टाफ़ के लिए iPhone, iPad, Mac और Android ऐप, पहले वर्शन से लेकर App Store तक और उसके बाद के हर अपडेट तक।
+
+  जैसे [DBTV](https://sawirstudio.com/hi/projects/dbtv-application/) और [Koperasi HOB](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
 - ### डिज़ाइन
 
-  ब्रांड, इंटरफ़ेस और उनके आसपास की वेबसाइटें, उन लोगों के हाथों से जो जो डिज़ाइन करते हैं, उसे बनाते भी हैं।
+  आपका ब्रांड, आपके इंटरफ़ेस और उनसे जुड़ी वेबसाइट, जिन्हें वही लोग डिज़ाइन करते हैं जो अपने डिज़ाइन को ख़ुद बनाते भी हैं।
 
   जैसे [JakPod Hotel](https://sawirstudio.com/hi/projects/jakpod-hotel-design/) और [Fluindo](https://sawirstudio.com/hi/projects/fluindo-technology-indonesia-website/)
 - ### लॉन्च और ग्रोथ
 
-  पहले दिन से सर्च की सेटिंग, लोकल सर्च, लिस्टिंग और कमाए हुए बैकलिंक, और आँकड़ों पर हर महीने एक चेक-इन।
+  लोग आपको आसानी से ढूँढ सकें, इसमें मदद: पहले दिन से सर्च सेटअप, लोकल सर्च, लिस्टिंग और अपनी मेहनत से कमाए गए बैकलिंक, और हर महीने आपके आँकड़ों की समीक्षा।
 
   देखें [इसमें क्या शामिल है](https://sawirstudio.com/hi/launch-and-growth/)
-- ### Shopify
 
-  Odoo और आपके मौजूदा सिस्टम्स से जुड़े स्टोर: ऑर्डर, स्टॉक, पेआउट और पॉइंट ऑफ़ सेल, उन लोगों से जिन्होंने Odoo के लिए ओपन-सोर्स Shopify कनेक्टर लिखा है।
+## क्लाइंट के लिए हमारा काम
 
-  देखें [हम क्या करते हैं](https://sawirstudio.com/hi/shopify/)
-- ### बिज़नेस सिस्टम
-
-  पॉइंट ऑफ़ सेल, स्टॉक, पर्चेज़ और अकाउंटिंग एक ही सिस्टम में, Odoo पर या आपकी ज़रूरत के हिसाब से बनाया हुआ, उन बिज़नेस के लिए जो स्प्रेडशीट छोड़ने को तैयार हैं।
-
-  देखें [Odoo या कस्टम?](https://sawirstudio.com/hi/odoo/)
-
-## चुनिंदा काम
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-एक स्ट्रैटेजिक ट्रेडिंग कार्ड गेम जिसे हम पब्लिश करते हैं, ब्राउज़र में मुफ़्त खेलें](https://sawirstudio.com/hi/projects/colvaron-conquest-website/)
 [![Vivaldy Skin Clinic वेबसाइट](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 ### PeopleBond
 
 एक HR प्लेटफ़ॉर्म और उसका एम्प्लॉई ऐप, जो 2019 से उनकी टीम के साथ मिलकर बनाया जा रहा है](https://sawirstudio.com/hi/projects/peoplebond-hcms-application/)
+[![DBTV ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+एक मिनिस्ट्री के उपदेश, प्रार्थना और दैनिक मनन, iOS और Android के एक ऐप में](https://sawirstudio.com/hi/projects/dbtv-application/)
 
 [सभी प्रोजेक्ट देखें](https://sawirstudio.com/hi/projects/)
-
-## अपने ऐप भी हम खुद लॉन्च करते हैं
-
-शिप करना सीखने का सबसे पक्का तरीका है अपना खुद का प्रोडक्ट शिप करना। ये हमारे ऐप हैं, App Store और वेब पर लाइव। आइकन को ज़रा खींचकर देखिए।
-
-- [Par](https://sawirstudio.com/hi/projects/par/)
-- [CleanStorage](https://sawirstudio.com/hi/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/hi/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/hi/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/hi/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/hi/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/hi/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/hi/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/hi/projects/nofapfit/)
-
-साथ में [12 मुफ़्त WordPress प्लगइन](https://sawirstudio.com/hi/projects/wordpress-plugins/) और Odoo के लिए एक [Shopify कनेक्टर](https://sawirstudio.com/hi/projects/odoo-shopify-connector/), जिसे Odoo Community Association में मेंटेन किया जाता है।
-
-इनकी अपनी साइटों पर: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## हम कैसे काम करते हैं
 
@@ -107,7 +89,7 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 
    जो हम बनाते हैं, उसकी देखभाल के लिए हम साथ रहते हैं। PeopleBond 2019 से हमारे साथ काम कर रहा है, और हमारे अपने ऐप को भी वही देखभाल मिलती है।
 
-## हमारे कुछ क्लाइंट
+## हमने किनके लिए काम किया है
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## अपने ऐप भी हम खुद लॉन्च करते हैं
+
+लॉन्च करने में क्या-क्या लगता है, यह हम जानते हैं, क्योंकि हम अपने लिए भी यह करते हैं। ये हमारे अपने ऐप हैं, जो App Store और वेब पर लाइव हैं, और इनकी वैसी ही देखभाल होती है जैसी आपके प्रोजेक्ट की होगी। आइकन को ड्रैग करके देखिए।
+
+- [Par](https://sawirstudio.com/hi/projects/par/)
+- [CleanStorage](https://sawirstudio.com/hi/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/hi/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/hi/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/hi/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/hi/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/hi/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/hi/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/hi/projects/nofapfit/)
+
+साथ में [12 मुफ़्त WordPress प्लगइन](https://sawirstudio.com/hi/projects/wordpress-plugins/) और Odoo के लिए एक [Shopify कनेक्टर](https://sawirstudio.com/hi/projects/odoo-shopify-connector/), जिसे Odoo Community Association में मेंटेन किया जाता है।
+
+इनकी अपनी साइटों पर: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 हमारी बात बहुत हुई।
 

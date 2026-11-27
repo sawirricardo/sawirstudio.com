@@ -1,69 +1,64 @@
 ---
-title: Sawir Studio | אפליקציות, פלטפורמות ווב, Shopify ו-Odoo
+title: Sawir Studio | Shopify & Odoo, מערכות עסקיות, פלטפורמות ווב ואפליקציות
 url: https://sawirstudio.com/he/
-description: Sawir Studio בונה תוכנה שאנשים משתמשים בה: אפליקציות, פלטפורמות ווב, ו-Shopify עם Odoo ללקוחות, ואפליקציות משלנו ל-iPhone, ל-iPad ול-Mac.
+description: Sawir Studio מעצבים, בונים ומתחזקים את התוכנה שעסקים עובדים עליה: חיבור Shopify ל־Odoo, מערכות עסקיות, פלטפורמות ווב ואפליקציות.
 ---
 
 היי, אנחנו Sawir Studio
 
-# אנחנו בונים תוכנה שאנשים משתמשים בה, בשביל לקוחות ובשביל עצמנו.
+# אנחנו מעצבים, בונים ומתחזקים תוכנה לעסק שלכם.
 
-אפליקציות, פלטפורמות ווב ואינטגרציות, מעוצבות, בנויות ומטופלות על ידי סטודיו קטן אחד, לאורך שנים.
+חנות Shopify שמתיישבת עם הנהלת החשבונות ב־Odoo, מערכת אחת במקום כל הגיליונות, אפליקציה ללקוחות שלכם. סטודיו קטן אחד מלווה את הפרויקט מהגרסה הראשונה ונשאר לאורך שנים.
 
 AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנחנו מאמינים ←](https://sawirstudio.com/he/about-us/)
 
-[מתחילים פרויקט](https://sawirstudio.com/he/contact/) [לעבודות שלנו](#portfolio)
+[להתחלת פרויקט](https://sawirstudio.com/he/contact/) [לעבודות עבור לקוחות](#portfolio)
 
-- **9** שנים של בנייה, מאז 2017
-- **7** אפליקציות משלנו ב-App Store
-- **12** תוספים חינמיים ל-WordPress
+- **9** שנות פיתוח ללקוחות, מאז 2017
+- **26** עסקים ומוסדות שבנינו עבורם
 - **2019** השנה שבה PeopleBond התחילה לעבוד איתנו. ועדיין ממשיכים.
+- **7** אפליקציות משלנו ב-App Store
 
-## מה אנחנו בונים
+## איך נוכל לעזור
 
-- ### אפליקציות
+- ### Shopify & Odoo
 
-  אפליקציות ל-iPhone, ל-iPad, ל-Mac ול-Android, מהגרסה הראשונה ועד ה-App Store וכל עדכון שאחריו.
+  חיבור חנות Shopify שלכם ל־Odoo ולשאר המערכות שאתם עובדים איתן: הזמנות, מלאי, העברות כספים וקופה, כך שהנתונים בחנות ובהנהלת החשבונות תואמים. מהאנשים שכתבו את מחבר הקוד הפתוח בין Shopify ל־Odoo.
 
-  כמו [DBTV](https://sawirstudio.com/he/projects/dbtv-application/) ו-[Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
+  כך [אנחנו עוזרים](https://sawirstudio.com/he/shopify/), וגם: למה [העברות הכספים לא תואמות את הנהלת החשבונות](https://sawirstudio.com/he/posts/why-shopify-payouts-dont-match-your-books/)
+- ### מערכות עסקיות
+
+  קופה, מלאי, רכש והנהלת חשבונות במערכת אחת, על בסיס Odoo או בפיתוח בהתאמה אישית, לרגע שבו הגיליונות כבר לא עומדים בקצב.
+
+  ראו [Odoo או פיתוח מותאם?](https://sawirstudio.com/he/odoo/)
 - ### פלטפורמות ואינטגרציות
 
-  אפליקציות ווב, SaaS, לוחות ניהול והחיבור בין מערכות: Odoo, Shopify, WordPress, תשלומים ומשלוחים.
+  אפליקציית ווב, מוצר SaaS או ממשק ניהול שמותאמים לדרך העבודה של הצוות שלכם, וגם החיבור בין המערכות שאתם כבר משלמים עליהן: Odoo, Shopify, WordPress, תשלומים ומשלוחים.
 
-  כמו [PeopleBond](https://sawirstudio.com/he/projects/peoplebond-hcms-application/) ו[מחבר Shopify ל-Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/) שלנו. ראו [פיתוח תוכנה בהתאמה אישית](https://sawirstudio.com/he/custom/)
+  לדוגמה, [PeopleBond](https://sawirstudio.com/he/projects/peoplebond-hcms-application/). מידע נוסף על [תוכנה בהתאמה אישית](https://sawirstudio.com/he/custom/)
 - ### מהנדסי פריסה בשטח (FDE)
 
   מהנדס או מהנדסת שמשתלבים בצוות שלכם למשך כל הזמן שהמשימה דורשת, מטמיעים AI במערכות שלכם ומחברים בין הכלים שכבר פועלים אצלכם.
 
   ראו [איך זה עובד](https://sawirstudio.com/he/forward-deployed-engineering/)
+- ### אפליקציות
+
+  אפליקציות ל־iPhone, ל־iPad, ל־Mac ול־Android עבור הלקוחות או העובדים שלכם, מהגרסה הראשונה ועד App Store, כולל כל עדכון שיבוא אחר כך.
+
+  כמו [DBTV](https://sawirstudio.com/he/projects/dbtv-application/) ו-[Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
 - ### עיצוב
 
-  מותגים, ממשקים והאתרים שמסביבם, מעוצבים על ידי אנשים שגם בונים את מה שהם מעצבים.
+  המותג שלכם, הממשקים שלכם והאתר שמסביבם, בעיצוב של אנשים שגם בונים את מה שהם מעצבים.
 
   כמו [JakPod Hotel](https://sawirstudio.com/he/projects/jakpod-hotel-design/) ו-[Fluindo](https://sawirstudio.com/he/projects/fluindo-technology-indonesia-website/)
 - ### השקה וצמיחה
 
-  קידום בחיפוש שמוגדר כבר מהיום הראשון, חיפוש מקומי, רישומים בדירקטוריות וקישורים נכנסים שנצברים ביושר, ובנוסף שיחת מעקב חודשית על המספרים.
+  עזרה בכך שימצאו אתכם: הגדרות לקידום במנועי חיפוש מהיום הראשון, חיפוש מקומי, רישום באינדקסים וקישורים נכנסים שמרוויחים ביושר, ופגישת מעקב חודשית על הנתונים שלכם.
 
   ראו [מה כלול](https://sawirstudio.com/he/launch-and-growth/)
-- ### Shopify
 
-  חנויות מחוברות ל-Odoo ולמערכות שכבר פועלות אצלכם: הזמנות, מלאי, העברות כספים ונקודות מכירה, מהאנשים שכתבו את מחבר ה-Shopify ל-Odoo בקוד פתוח.
+## עבודות עבור לקוחות
 
-  ראו [מה אנחנו עושים](https://sawirstudio.com/he/shopify/)
-- ### מערכות עסקיות
-
-  נקודות מכירה, מלאי, רכש והנהלת חשבונות במערכת אחת, על Odoo או בפיתוח בהתאמה אישית, לעסקים שמוכנים להיפרד מגיליונות האקסל.
-
-  ראו [Odoo או פיתוח מותאם?](https://sawirstudio.com/he/odoo/)
-
-## עבודות נבחרות
-
-[![Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-website.webp)
-
-### Colvaron Conquest
-
-משחק קלפים אסטרטגי לאיסוף ולהחלפה בהוצאתנו, בחינם בדפדפן](https://sawirstudio.com/he/projects/colvaron-conquest-website/)
 [![אתר Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
 
 ### Vivaldy Skin Clinic
@@ -74,26 +69,13 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 ### PeopleBond
 
 פלטפורמת HR ואפליקציה לעובדים, שנבנו יחד עם הצוות שלהם מאז 2019](https://sawirstudio.com/he/projects/peoplebond-hcms-application/)
+[![אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
+
+### DBTV
+
+הדרשות, התפילה והלימוד היומי של ארגון דתי, באפליקציה ל־iOS ול־Android](https://sawirstudio.com/he/projects/dbtv-application/)
 
 [לכל הפרויקטים](https://sawirstudio.com/he/projects/)
-
-## אנחנו משיקים גם משלנו
-
-הדרך הבטוחה ביותר לדעת איך משיקים היא להשיק בעצמנו. אלה האפליקציות שלנו, זמינות ב-App Store ובאינטרנט. גררו קצת את האייקונים.
-
-- [Par](https://sawirstudio.com/he/projects/par/)
-- [CleanStorage](https://sawirstudio.com/he/projects/cleanstorage/)
-- [Pawlitics](https://sawirstudio.com/he/projects/pawlitics/)
-- [Squishu](https://sawirstudio.com/he/projects/squishu/)
-- [Rindraw](https://sawirstudio.com/he/projects/rindraw/)
-- [Math Daily](https://sawirstudio.com/he/projects/math-daily/)
-- [SawirPost](https://sawirstudio.com/he/projects/sawirpost/)
-- [Sawirly](https://sawirstudio.com/he/projects/sawirly/)
-- [NoFapFit](https://sawirstudio.com/he/projects/nofapfit/)
-
-ועוד [12 תוספים חינמיים ל-WordPress](https://sawirstudio.com/he/projects/wordpress-plugins/) ו[מחבר Shopify ל-Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/), שמתוחזק בתוך Odoo Community Association.
-
-באתרים שלהם: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 ## איך אנחנו עובדים
 
@@ -107,7 +89,7 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 
    אנחנו נשארים כדי לטפל במה שבנינו. PeopleBond עובדת איתנו מאז 2019, והאפליקציות שלנו מקבלות את אותה תשומת לב.
 
-## חלק מהלקוחות שלנו
+## עבור מי בנינו
 
 - Calvin Kain
 - Skilabus
@@ -135,6 +117,24 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 - ADL Partnership
 - Koperasi HOB
 - DBTV
+
+## אנחנו משיקים גם משלנו
+
+אנחנו יודעים מה נדרש כדי להשיק מוצר, כי אנחנו עושים את זה גם עבור עצמנו. אלה האפליקציות שלנו, שזמינות ב־App Store ובווב, והן מקבלות את אותו יחס שיקבל הפרויקט שלכם. נסו לגרור את הסמלים.
+
+- [Par](https://sawirstudio.com/he/projects/par/)
+- [CleanStorage](https://sawirstudio.com/he/projects/cleanstorage/)
+- [Pawlitics](https://sawirstudio.com/he/projects/pawlitics/)
+- [Squishu](https://sawirstudio.com/he/projects/squishu/)
+- [Rindraw](https://sawirstudio.com/he/projects/rindraw/)
+- [Math Daily](https://sawirstudio.com/he/projects/math-daily/)
+- [SawirPost](https://sawirstudio.com/he/projects/sawirpost/)
+- [Sawirly](https://sawirstudio.com/he/projects/sawirly/)
+- [NoFapFit](https://sawirstudio.com/he/projects/nofapfit/)
+
+ועוד [12 תוספים חינמיים ל-WordPress](https://sawirstudio.com/he/projects/wordpress-plugins/) ו[מחבר Shopify ל-Odoo](https://sawirstudio.com/he/projects/odoo-shopify-connector/), שמתוחזק בתוך Odoo Community Association.
+
+באתרים שלהם: [Rindraw](https://rindraw.com/) · [Math Daily](https://getmathdaily.com/) · [SawirPost](https://sawirpost.com/) · [Sawirly](https://sawirly.com/) · [NoFapFit](https://nofapfit.com/)
 
 מספיק עלינו.
 

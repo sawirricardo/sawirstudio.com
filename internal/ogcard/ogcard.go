@@ -46,7 +46,7 @@ const (
 var marks = map[string]string{"yellow": "#ffe580", "coral": "#ffc2b0", "blue": "#c4d8ff", "green": "#bdf0d3"}
 
 // Home is the home page's card title: its hero line. [color]text[/] is a highlighted run.
-const Home = "We build software [yellow]people use[/], for [coral]clients[/] and for [blue]ourselves[/]."
+const Home = "We [yellow]design[/], [coral]build[/] and [blue]look after[/] software for your business."
 
 // Drawer draws cards. It isn't safe for concurrent use.
 type Drawer struct {
