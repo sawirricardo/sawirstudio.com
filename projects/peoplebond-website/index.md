@@ -20,7 +20,7 @@ A bilingual website that sells the product as well as it works
 
 ## The situation
 
-PeopleBond’s product had outgrown its website. The site said little about what the software actually does, and it had no clear way to book a demo.
+PeopleBond’s product had outgrown its website. The site said little about what the software does, and it had no clear way to book a demo.
 
 ## The task
 

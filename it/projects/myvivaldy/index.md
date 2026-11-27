@@ -10,7 +10,7 @@ description: MyVivaldy, il sistema per la clinica e l'app per i pazienti di Viva
 
 ## Il risultato
 
-- **I pazienti prenotano da soli.** MyVivaldy è su App Store e Google Play e propone solo gli orari in cui il medico è davvero libero.
+- **I pazienti prenotano in autonomia.** MyVivaldy è disponibile su App Store e Google Play e propone solo gli orari in cui il medico è libero.
 - **Un unico sistema per tutta la clinica.** Appuntamenti, cartelle cliniche e farmacia funzionano sullo stesso sistema in cui l’app registra le prenotazioni.
 - **Seguito dal 2024.**
 

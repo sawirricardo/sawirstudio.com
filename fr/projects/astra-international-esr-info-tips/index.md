@@ -16,7 +16,7 @@ Les consignes de sécurité et d'environnement sont vite ignorées quand elles r
 
 ## La mission
 
-Faire de ces consignes un livre que l'on ouvre vraiment, sur site comme au bureau.
+Faire de ces recommandations un livre que l’on a envie de lire, sur le terrain comme au bureau.
 
 ## Ce que nous avons fait
 

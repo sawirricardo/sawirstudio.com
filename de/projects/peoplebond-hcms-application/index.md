@@ -38,7 +38,7 @@ Die Webanwendung deckt Mitarbeiterverwaltung, Recruiting, Timesheets, Lohnabrech
 
 ### Unsere wiederkehrende Entscheidung: weiterentwickeln statt neu schreiben
 
-Nach sieben Jahren ist eine komplette Neuentwicklung immer verlockend. Wir entscheiden uns weiterhin dafür, stattdessen das Bestehende zu aktualisieren: Plattform-Upgrades und neue Steuerregeln setzen wir um, sobald sie anstehen. Eine Neuentwicklung würde Änderungen an der Lohnabrechnung monatelang blockieren, und das Gesetz wartet nicht.
+Nach sieben Jahren ist die Versuchung, alles neu zu schreiben, immer da. Wir entscheiden uns trotzdem jedes Mal dafür, das Bestehende zu aktualisieren: Plattform-Upgrades und neue Steuerregeln setzen wir um, sobald sie anstehen. Eine Neuentwicklung würde Änderungen an der Lohnabrechnung monatelang blockieren, während sich die Steuerregeln weiter ändern.
 
 - **Kunde** [PeopleBond](https://sawirstudio.com/de/clients/peoplebond/)
 - **Zusammenarbeit seit** 2019

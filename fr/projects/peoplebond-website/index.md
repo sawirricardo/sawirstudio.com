@@ -20,7 +20,7 @@ Un site web bilingue qui vend le produit aussi bien que celui-ci fonctionne
 
 ## La situation
 
-Le produit de PeopleBond avait évolué plus vite que son site web. Celui-ci en disait peu sur ce que fait réellement le logiciel et n’offrait aucun moyen clair de réserver une démo.
+Le produit de PeopleBond avait évolué plus vite que son site web. Le site en disait peu sur les fonctions du logiciel et n’offrait aucun moyen clair de réserver une démo.
 
 ## La mission
 

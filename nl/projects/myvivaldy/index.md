@@ -10,7 +10,7 @@ description: MyVivaldy, het klinieksysteem en de patiëntenapp van Vivaldy Skin 
 
 ## Het resultaat
 
-- **Patiënten boeken zelf.** MyVivaldy staat in de App Store en op Google Play, en toont alleen tijden waarop de arts echt beschikbaar is.
+- **Patiënten boeken zelf.** MyVivaldy staat in de App Store en op Google Play en toont alleen tijden waarop de arts beschikbaar is.
 - **Eén systeem voor de hele kliniek.** Afspraken, medische dossiers en de apotheek draaien op hetzelfde systeem waarin de app boekt.
 - **Sinds 2024 bij ons in onderhoud.**
 

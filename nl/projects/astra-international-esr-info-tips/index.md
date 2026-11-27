@@ -16,7 +16,7 @@ Richtlijnen over veiligheid en milieu worden snel overgeslagen als ze lezen als 
 
 ## De opdracht
 
-Maak van de richtlijnen een boek dat mensen op locatie en op kantoor ook echt openslaan.
+Maak van de richtlijnen een boek dat mensen op locatie en op kantoor graag willen lezen.
 
 ## Wat we deden
 

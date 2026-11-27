@@ -20,7 +20,7 @@ Eine zweisprachige Website, die das Produkt so gut verkauft, wie es funktioniert
 
 ## Die Ausgangslage
 
-Das Produkt von PeopleBond war seiner Website entwachsen. Die Website sagte wenig darüber, was die Software tatsächlich kann, und es gab keinen klaren Weg, eine Demo zu buchen.
+Das Produkt von PeopleBond war seiner Website entwachsen. Die Website sagte wenig darüber, was die Software leistet, und bot keinen klaren Weg, eine Demo zu buchen.
 
 ## Die Aufgabe
 

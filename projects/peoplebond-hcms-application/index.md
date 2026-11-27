@@ -38,7 +38,7 @@ The web application covers employees, recruitment, timesheets, payroll, leave, c
 
 ### The call we keep making: carry it forward, don’t rewrite
 
-Seven years in, a rewrite is always tempting. We keep choosing to upgrade what’s there instead: platform upgrades and new tax rules get handled as they come. A rewrite would freeze payroll changes for months, and the law doesn’t wait.
+Seven years in, a rewrite is always tempting. We keep choosing to upgrade what’s there instead: platform upgrades and new tax rules get handled as they come. A rewrite would freeze payroll changes for months while the tax rules keep moving.
 
 - **Client** [PeopleBond](https://sawirstudio.com/clients/peoplebond/)
 - **Working together since** 2019

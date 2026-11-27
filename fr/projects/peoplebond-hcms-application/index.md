@@ -38,7 +38,7 @@ L’application web couvre les employés, le recrutement, les feuilles de temps,
 
 ### Notre choix, à chaque fois : faire évoluer l’existant plutôt que le réécrire
 
-Au bout de sept ans, l’idée de tout réécrire reste tentante. Nous choisissons toujours de faire évoluer l’existant : les mises à niveau de la plateforme et les nouvelles règles fiscales sont traitées à mesure qu’elles arrivent. Une réécriture gèlerait les évolutions de la paie pendant des mois, et la loi n’attend pas.
+Au bout de sept ans, la tentation de tout réécrire est toujours là. Nous faisons chaque fois le choix de faire évoluer l’existant : les mises à niveau de la plateforme et les nouvelles règles fiscales sont traitées au fur et à mesure. Une réécriture gèlerait les évolutions de la paie pendant des mois, alors que les règles fiscales continuent de changer.
 
 - **Client** [PeopleBond](https://sawirstudio.com/fr/clients/peoplebond/)
 - **Notre collaboration dure depuis** 2019

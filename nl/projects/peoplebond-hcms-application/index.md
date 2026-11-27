@@ -38,7 +38,7 @@ De webapplicatie omvat medewerkers, werving, urenregistratie, salarisverwerking,
 
 ### De keuze die we steeds weer maken: voortbouwen, niet herschrijven
 
-Na zeven jaar blijft het verleidelijk om alles opnieuw te bouwen. Toch kiezen we er steeds voor om te upgraden wat er al is: platformupgrades en nieuwe belastingregels pakken we op zodra ze komen. Bij een herbouw zouden wijzigingen in de salarisverwerking maandenlang stilliggen, en de wet wacht niet.
+Na zeven jaar is alles opnieuw bouwen altijd verleidelijk. Toch kiezen we er steeds voor om te upgraden wat er al is: platformupgrades en nieuwe belastingregels pakken we op zodra ze komen. Bij een rewrite zouden wijzigingen in de salarisadministratie maandenlang stilliggen, terwijl de belastingregels blijven veranderen.
 
 - **Klant** [PeopleBond](https://sawirstudio.com/nl/clients/peoplebond/)
 - **Samenwerking sinds** 2019

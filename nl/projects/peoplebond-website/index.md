@@ -20,7 +20,7 @@ Een tweetalige website die het product net zo goed verkoopt als het werkt
 
 ## De situatie
 
-Het product van PeopleBond was zijn website ontgroeid. De site vertelde weinig over wat de software eigenlijk doet, en het was niet duidelijk hoe je een demo kon boeken.
+Het product van PeopleBond was zijn website ontgroeid. De site vertelde weinig over wat de software doet en er was geen duidelijke manier om een demo te boeken.
 
 ## De opdracht
 

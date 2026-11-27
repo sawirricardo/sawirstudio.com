@@ -10,7 +10,7 @@ description: MyVivaldy, le système de gestion et l'application patient de Vival
 
 ## Le résultat
 
-- **Les patients réservent eux-mêmes.** MyVivaldy est disponible sur l’App Store et Google Play, et ne propose que les créneaux où le médecin est réellement libre.
+- **Les patients réservent eux-mêmes.** MyVivaldy est disponible sur l’App Store et Google Play, et ne propose que les créneaux où le médecin est disponible.
 - **Un seul système pour toute la clinique.** Les rendez-vous, les dossiers cliniques et la pharmacie fonctionnent sur le même système que celui dans lequel l’application enregistre les réservations.
 - **Suivi assuré depuis 2024.**
 

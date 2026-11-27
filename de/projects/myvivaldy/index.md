@@ -10,7 +10,7 @@ description: MyVivaldy, das Klinik-System und die Patienten-App für Vivaldy Ski
 
 ## Das Ergebnis
 
-- **Patientinnen und Patienten buchen selbst.** MyVivaldy ist im App Store und bei Google Play erhältlich und bietet nur Termine an, zu denen die Ärztin oder der Arzt wirklich Zeit hat.
+- **Patienten buchen selbst.** MyVivaldy ist im App Store und bei Google Play erhältlich und bietet nur Termine an, die beim Arzt noch frei sind.
 - **Ein System für die ganze Klinik.** Termine, Patientenakten und Apotheke laufen auf demselben System, in das die App bucht.
 - **Seit 2024 von uns betreut.**
 

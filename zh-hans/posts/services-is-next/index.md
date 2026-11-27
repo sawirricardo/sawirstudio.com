@@ -8,7 +8,7 @@ description: Ethan Mollick、BuccoCapital 和 Aaron Levie 的一段讨论认为�
 
 本周有一段简短的讨论流传开来。[Ethan Mollick](https://x.com/emollick/status/2125267894644916669) 说，从制造业到金融服务业，他不断听到大公司提起：两三个人的团队借助 AI，正在完成过去几十个人的工作。[BuccoCapital](https://x.com/buccocapital/status/2125603025586966893) 回应说，企业要么采用新技术，要么被已经采用新技术的初创公司碾过，而软件之后，下一个就是服务业。[Aaron Levie](https://x.com/levie/status/2125983542475894821) 则认为，打造以智能体为核心的服务公司是一个巨大的机会：专业能力和以往一样重要，但交付能力可以放大 10 倍。
 
-我们正是这样工作的。下面就从内部说说实际情况，以及这对聘请我们这类公司的企业应当意味着什么。
+我们一直就是这样工作的。
 
 ## 从内部看是什么样子
 
@@ -20,7 +20,7 @@ description: Ethan Mollick、BuccoCapital 和 Aaron Levie 的一段讨论认为�
 
 ## 决定成败的依然是专业能力
 
-Levie 说得对，专业能力和以往一样重要。智能体写代码很快，但它们不知道该做什么。真正的价值在于懂得这些事：印度尼西亚的薪资计算必须遵循 PP 58/2023 规定的 TER 税率，并在 12 月对全年重新核算；集市摊位上的一公斤辣椒并不是包装整齐的商品；[Shopify 的打款金额与您的账目对不上](https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/)，其中的原因需要向会计解释清楚。我们的原则很简单：AI 负责敲代码，我们负责思考，每一行上线的代码都有人阅读、测试并为之负责。
+Levie 说得对，专业知识和以往一样重要。AI 代理写代码很快，但并不知道该做什么。真正的价值在于了解这些事：印度尼西亚的薪资计算必须按照 PP 58/2023 规定的 TER 税率执行，并在 12 月对全年重新核算；市场摊位上的一公斤辣椒并不是包装整齐的商品；[Shopify 打款与您的账目对不上](https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/)，其中的原因需要向会计解释清楚。AI 负责敲代码，思考则由我们来做：每一行上线的代码，都有人阅读、测试并为它负责。
 
 ## 这对客户意味着什么
 
@@ -30,7 +30,7 @@ Levie 说得对，专业能力和以往一样重要。智能体写代码很快�
 
 ## 哪些事情没有改变
 
-客户买的不是 AI，而是成果，以及一个对成果负责的人。只有做出来的东西明年依然好用，速度才有意义，所以我们会留下来继续维护自己开发的产品：[PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/) 从 2019 年起就一直与我们合作。
+客户购买的是成果，以及一个为成果负责的人。只有当产品到明年依然能正常运行时，速度才有意义，因此我们会留下来维护自己开发的产品：[PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/) 从 2019 年起就一直与我们合作。
 
 如果有什么事情正在拖慢您的业务，[请告诉我们](https://sawirstudio.com/zh-hans/contact/)。
 

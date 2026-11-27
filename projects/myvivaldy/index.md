@@ -10,7 +10,7 @@ description: MyVivaldy, the clinic system and patient app for Vivaldy Skin Clini
 
 ## The result
 
-- **Patients book themselves.** MyVivaldy is on the App Store and Google Play, and it only offers times when the doctor is actually free.
+- **Patients book themselves.** MyVivaldy is on the App Store and Google Play, and it only offers times the doctor has open.
 - **One system for the whole clinic.** Appointments, clinical records and the pharmacy run on the same system the app books into.
 - **Looked after since 2024.**
 

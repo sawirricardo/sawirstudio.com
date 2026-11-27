@@ -16,7 +16,7 @@ Le indicazioni su sicurezza e ambiente si saltano facilmente quando si leggono c
 
 ## L’obiettivo
 
-Trasformare le indicazioni in un libro che le persone, in cantiere come in ufficio, aprano davvero.
+Trasformare le indicazioni in un libro che si abbia voglia di leggere, sia in cantiere sia in ufficio.
 
 ## Che cosa abbiamo fatto
 

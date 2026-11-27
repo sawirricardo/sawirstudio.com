@@ -38,7 +38,7 @@ L’applicazione web copre dipendenti, selezione del personale, timesheet, paghe
 
 ### La scelta che continuiamo a fare: farlo evolvere, non riscriverlo
 
-Dopo sette anni, la tentazione di riscrivere tutto c’è sempre. Noi continuiamo invece a scegliere di aggiornare ciò che esiste: gli aggiornamenti della piattaforma e le nuove regole fiscali si gestiscono man mano che arrivano. Una riscrittura bloccherebbe per mesi le modifiche alle paghe, e la legge non aspetta.
+Dopo sette anni, la tentazione di riscrivere tutto c’è sempre. Noi continuiamo invece a scegliere di aggiornare ciò che esiste: affrontiamo gli aggiornamenti della piattaforma e le nuove norme fiscali man mano che arrivano. Una riscrittura bloccherebbe per mesi le modifiche alla gestione delle paghe, mentre le norme fiscali continuano a cambiare.
 
 - **Cliente** [PeopleBond](https://sawirstudio.com/it/clients/peoplebond/)
 - **Collaboriamo dal** 2019

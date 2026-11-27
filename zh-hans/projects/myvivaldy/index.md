@@ -10,7 +10,7 @@ description: MyVivaldy 是 Vivaldy Skin Clinic 的诊所系统和患者应用，
 
 ## 成果
 
-- **患者自助预约。** MyVivaldy 已上架 App Store 和 Google Play，并且只提供医生确实有空的时段。
+- **患者可以自助预约。** MyVivaldy 已上架 App Store 和 Google Play，并且只显示医生有空的时段。
 - **整间诊所，一套系统。** 预约、病历和药房运行在同一套系统上，应用里的预约也直接进入这套系统。
 - **自 2024 年起持续维护。**
 

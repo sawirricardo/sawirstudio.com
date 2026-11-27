@@ -20,7 +20,7 @@ Un sito bilingue che vende il prodotto tanto bene quanto il prodotto funziona
 
 ## La situazione
 
-Il prodotto di PeopleBond era cresciuto più del suo sito web. Il sito diceva poco su ciò che il software fa realmente e non offriva un modo chiaro per prenotare una demo.
+Il prodotto di PeopleBond era cresciuto più del suo sito web. Il sito diceva poco su ciò che fa il software e non offriva un modo chiaro per prenotare una demo.
 
 ## L’obiettivo
 

@@ -16,7 +16,7 @@ Safety and environment guidance is easy to skip when it reads like a policy docu
 
 ## The task
 
-Turn the guidance into a book people at the site and in the office actually open.
+Turn the guidance into a book people at the site and in the office want to read.
 
 ## What we did
 

@@ -8,7 +8,7 @@ description: Volgens een thread van Ethan Mollick, BuccoCapital en Aaron Levie z
 
 Deze week ging er een korte thread rond. [Ethan Mollick](https://x.com/emollick/status/2125267894644916669) zei dat hij van grote bedrijven, van maakbedrijven tot financiële dienstverleners, steeds weer hoort dat teams van twee of drie mensen met AI nu het werk van tientallen doen. [BuccoCapital](https://x.com/buccocapital/status/2125603025586966893) antwoordde dat bedrijven de nieuwe technologie moeten omarmen, of anders onder de voet worden gelopen door startups die dat wel deden, en dat na software nu de dienstverlening aan de beurt is. [Aaron Levie](https://x.com/levie/status/2125983542475894821) noemde het een enorme kans om dienstverlenende bedrijven te bouwen waarin agents centraal staan: expertise is nog net zo belangrijk als altijd, maar de uitvoering gaat 10X zo hard.
 
-Wij werken zo, dus hier lees je hoe dat er van binnenuit uitziet, en wat het zou moeten betekenen voor de bedrijven die een bureau als het onze inhuren.
+Zo werken wij al.
 
 ## Hoe het er van binnenuit uitziet
 
@@ -20,7 +20,7 @@ Een paar mensen leveren op wat vroeger een veel groter team vroeg, terwijl AI-ag
 
 ## Expertise bepaalt nog steeds het resultaat
 
-Levie heeft gelijk dat expertise nog net zo belangrijk is als altijd. Agents schrijven snel code, maar ze weten niet wat er gebouwd moet worden. De waarde zit in weten dat de Indonesische salarisadministratie de TER-tarieven uit PP 58/2023 moet volgen en het jaar in december opnieuw moet berekenen, dat een kilo pepers bij een marktkraam geen netjes verpakt product is, of dat [Shopify-uitbetalingen niet overeenkomen met je boekhouding](https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/), om redenen die je een boekhouder moet uitleggen. Onze regel is simpel: AI doet het typewerk, wij doen het denkwerk, en een mens leest, test en staat in voor elke regel die live gaat.
+Levie heeft gelijk dat expertise nog net zo belangrijk is als altijd. Agents schrijven snel code, maar ze weten niet wat ze moeten bouwen. De waarde zit in weten dat de Indonesische salarisadministratie de TER-tarieven uit PP 58/2023 moet volgen en het jaar in december moet herberekenen, dat een kilo pepers bij een marktkraam geen netjes verpakt product is, of dat [Shopify-uitbetalingen niet overeenkomen met je boekhouding](https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/), om redenen die je een boekhouder moet uitleggen. AI doet het typewerk en wij het denkwerk: elke regel die live gaat, wordt door een mens gelezen en getest, en die staat ervoor in.
 
 ## Wat het voor klanten betekent
 
@@ -30,7 +30,7 @@ Levie heeft gelijk dat expertise nog net zo belangrijk is als altijd. Agents sch
 
 ## Wat niet verandert
 
-Klanten kopen geen AI, ze kopen een resultaat en iemand die er verantwoordelijk voor is. Snelheid helpt alleen als het volgend jaar ook nog werkt, dus we blijven om te onderhouden wat we bouwen: [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) werkt al sinds 2019 met ons.
+Wat klanten kopen is een resultaat, en iemand die daar verantwoordelijk voor is. Snelheid helpt alleen als het volgend jaar ook nog werkt. Daarom blijven we betrokken en zorgen we voor wat we bouwen: [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) werkt al sinds 2019 met ons samen.
 
 Is er iets dat je bedrijf vertraagt? [Vertel ons wat het is](https://sawirstudio.com/nl/contact/).
 

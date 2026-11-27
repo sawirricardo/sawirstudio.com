@@ -16,7 +16,7 @@ Hinweise zu Sicherheit und Umwelt werden leicht übersprungen, wenn sie sich wie
 
 ## Die Aufgabe
 
-Aus den Hinweisen ein Buch machen, das die Menschen am Standort und im Büro wirklich aufschlagen.
+Aus den Leitlinien ein Buch machen, das man am Standort und im Büro gern liest.
 
 ## Was wir gemacht haben
 

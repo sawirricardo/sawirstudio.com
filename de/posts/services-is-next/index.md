@@ -8,7 +8,7 @@ description: Laut einem Thread von Ethan Mollick, BuccoCapital und Aaron Levie w
 
 Diese Woche machte ein kurzer Thread die Runde. [Ethan Mollick](https://x.com/emollick/status/2125267894644916669) schrieb, er höre immer wieder von großen Unternehmen, vom Industriebetrieb bis zum Finanzdienstleister, dass Teams aus zwei oder drei Personen mit KI heute die Arbeit von Dutzenden erledigen. [BuccoCapital](https://x.com/buccocapital/status/2125603025586966893) antwortete, Unternehmen würden entweder die neue Technologie übernehmen oder von Start-ups überrollt, die das bereits getan haben, und nach der Software seien nun die Dienstleistungen an der Reihe. [Aaron Levie](https://x.com/levie/status/2125983542475894821) sprach von einer riesigen Chance, Dienstleistungsfirmen aufzubauen, bei denen Agenten im Zentrum stehen: Fachwissen zählt so viel wie eh und je, aber die Umsetzung wird um den Faktor 10 beschleunigt.
 
-Wir arbeiten so. Deshalb zeigen wir hier, wie das von innen aussieht und was es für Unternehmen bedeuten sollte, die eine Firma wie unsere beauftragen.
+So arbeiten wir bereits.
 
 ## Wie es von innen aussieht
 
@@ -20,7 +20,7 @@ Wenige Menschen liefern das, wofür früher ein viel größeres Team nötig war,
 
 ## Fachwissen entscheidet weiterhin über das Ergebnis
 
-Levie hat recht: Fachwissen zählt so viel wie eh und je. Agenten schreiben schnell Code, aber sie wissen nicht, was gebaut werden soll. Der Wert liegt darin, zu wissen, dass die indonesische Lohnabrechnung den TER-Sätzen aus der PP 58/2023 folgen und das Jahr im Dezember neu berechnen muss, dass ein Kilo Chilis an einem Marktstand kein sauber verpacktes Produkt ist oder dass [Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen](https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/), und zwar aus Gründen, die man auch Buchhaltungsprofis erst erklären muss. Unsere Regel ist einfach: Die KI übernimmt das Tippen, wir übernehmen das Denken, und jede ausgelieferte Zeile wird von einem Menschen gelesen, getestet und verantwortet.
+Levie hat recht: Fachwissen zählt so viel wie eh und je. Agenten schreiben schnell Code, aber sie wissen nicht, was gebaut werden soll. Der Wert liegt darin, zu wissen, dass die indonesische Lohnabrechnung den TER-Sätzen aus PP 58/2023 folgen und das Jahr im Dezember neu berechnen muss, dass ein Kilo Chilis an einem Marktstand kein sauber verpacktes Produkt ist oder dass [Shopify-Auszahlungen nicht zu Ihrer Buchhaltung passen](https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/), und zwar aus Gründen, die man Buchhaltern erklären muss. Die KI übernimmt das Tippen und wir das Denken: Jede Zeile, die ausgeliefert wird, liest und testet ein Mensch, der auch für sie geradesteht.
 
 ## Was das für Kunden bedeutet
 
@@ -30,7 +30,7 @@ Levie hat recht: Fachwissen zählt so viel wie eh und je. Agenten schreiben schn
 
 ## Was sich nicht ändert
 
-Kunden kaufen keine KI. Sie kaufen ein Ergebnis und jemanden, der dafür Verantwortung übernimmt. Tempo hilft nur, wenn die Lösung auch nächstes Jahr noch funktioniert. Deshalb bleiben wir und kümmern uns um das, was wir bauen: [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/) arbeitet seit 2019 mit uns zusammen.
+Was Kunden kaufen, ist ein Ergebnis und jemand, der dafür die Verantwortung trägt. Tempo hilft nur, wenn die Lösung auch im nächsten Jahr noch funktioniert. Deshalb bleiben wir und kümmern uns um das, was wir bauen: [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/) arbeitet seit 2019 mit uns.
 
 Wenn etwas Ihr Unternehmen ausbremst, [sagen Sie uns, was es ist](https://sawirstudio.com/de/contact/).
 

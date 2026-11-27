@@ -8,7 +8,7 @@ description: A thread from Ethan Mollick, BuccoCapital and Aaron Levie says serv
 
 A short thread went around this week. [Ethan Mollick](https://x.com/emollick/status/2125267894644916669) said he keeps hearing from big firms, from manufacturers to financial services, that teams of two or three people using AI now do the work of dozens. [BuccoCapital](https://x.com/buccocapital/status/2125603025586966893) answered that firms either adopt the new technology or get run over by startups that did, and that after software, services is next. [Aaron Levie](https://x.com/levie/status/2125983542475894821) called it a huge opportunity to build services firms with agents at the center: the expertise matters as much as ever, but delivery gets a 10X multiplier.
 
-We work this way, so here is what it looks like from the inside, and what it should mean for the businesses that hire a firm like ours.
+We already work this way.
 
 ## What it looks like from the inside
 
@@ -20,7 +20,7 @@ A few people, with AI agents doing most of the typing, deliver what used to take
 
 ## Expertise still decides the outcome
 
-Levie is right that the expertise matters as much as ever. Agents write code quickly; they don't know what to build. The value is in knowing that Indonesian payroll has to follow the TER rates from PP 58/2023 and recalculate the year in December, that a kilo of chilies at a market stall isn't a neatly packed product, or that [Shopify payouts don't match your books](https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/) for reasons an accountant needs explained. Our rule is simple: AI does the typing, we do the thinking, and a person reads, tests and answers for every line that ships.
+Levie is right that the expertise matters as much as ever. Agents write code quickly; they don't know what to build. The value is in knowing that Indonesian payroll has to follow the TER rates from PP 58/2023 and recalculate the year in December, that a kilo of chilies at a market stall isn't a neatly packed product, or that [Shopify payouts don't match your books](https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/) for reasons an accountant needs explained. AI does the typing and we do the thinking: a person reads, tests and answers for every line that ships.
 
 ## What it means for clients
 
@@ -30,7 +30,7 @@ Levie is right that the expertise matters as much as ever. Agents write code qui
 
 ## What doesn't change
 
-Clients don't buy AI, they buy a result and someone accountable for it. Speed only helps if the thing works next year too, so we stay to look after what we build: [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/) has worked with us since 2019.
+What clients buy is a result, and someone accountable for it. Speed only helps if the thing works next year too, so we stay to look after what we build: [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/) has worked with us since 2019.
 
 If something is slowing your business down, [tell us what it is](https://sawirstudio.com/contact/).
 

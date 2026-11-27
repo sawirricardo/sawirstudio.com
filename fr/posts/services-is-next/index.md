@@ -8,7 +8,7 @@ description: Selon un fil de discussion entre Ethan Mollick, BuccoCapital et Aar
 
 Un court fil de discussion a circulé cette semaine. [Ethan Mollick](https://x.com/emollick/status/2125267894644916669) a expliqué que de grandes entreprises, de l’industrie aux services financiers, lui répètent que des équipes de deux ou trois personnes utilisant l’IA font désormais le travail de dizaines d’autres. [BuccoCapital](https://x.com/buccocapital/status/2125603025586966893) a répondu que les entreprises doivent adopter la nouvelle technologie, sous peine de se faire écraser par les start-up qui l’ont fait, et qu’après le logiciel, ce sera au tour des services. [Aaron Levie](https://x.com/levie/status/2125983542475894821) y voit une occasion énorme de créer des sociétés de services qui placent les agents au centre : l’expertise compte toujours autant, mais la capacité de livraison est multipliée par 10.
 
-C’est ainsi que nous travaillons. Voici donc à quoi cela ressemble vu de l’intérieur, et ce que cela devrait changer pour les entreprises qui font appel à un studio comme le nôtre.
+Nous travaillons déjà ainsi.
 
 ## Vu de l’intérieur
 
@@ -20,7 +20,7 @@ Quelques personnes, avec des agents IA qui se chargent de l’essentiel de la sa
 
 ## L’expertise fait toujours la différence
 
-Levie a raison : l’expertise compte toujours autant. Les agents écrivent du code rapidement, mais ils ne savent pas quoi construire. La valeur, c’est de savoir que la paie indonésienne doit appliquer les taux TER du règlement PP 58/2023 et recalculer l’année en décembre, qu’un kilo de piments sur un étal de marché n’est pas un produit bien emballé, ou que [les versements Shopify ne correspondent pas à votre comptabilité](https://sawirstudio.com/fr/posts/why-shopify-payouts-dont-match-your-books/) pour des raisons qu’il faut expliquer à un comptable. Notre règle est simple : l’IA se charge de la saisie, nous nous chargeons de la réflexion, et une personne lit et teste chaque ligne mise en production, et en répond.
+Levie a raison : l’expertise compte toujours autant. Les agents écrivent du code rapidement, mais ils ne savent pas quoi construire. La valeur est dans le fait de savoir que la paie indonésienne doit appliquer les taux TER du règlement PP 58/2023 et recalculer l’année en décembre, qu’un kilo de piments sur un étal de marché n’est pas un produit soigneusement emballé, ou que [les versements Shopify ne correspondent pas à vos comptes](https://sawirstudio.com/fr/posts/why-shopify-payouts-dont-match-your-books/) pour des raisons qu’il faut expliquer à un comptable. L’IA se charge de la saisie et nous de la réflexion : une personne lit et teste chaque ligne livrée, et en répond.
 
 ## Ce que cela change pour les clients
 
@@ -30,7 +30,7 @@ Levie a raison : l’expertise compte toujours autant. Les agents écrivent du 
 
 ## Ce qui ne change pas
 
-Les clients n’achètent pas de l’IA : ils achètent un résultat, et quelqu’un qui en est responsable. La vitesse n’est utile que si la solution fonctionne encore l’année suivante. Nous restons donc là pour assurer le suivi de ce que nous construisons : [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/) travaille avec nous depuis 2019.
+Ce que les clients achètent, c’est un résultat, et quelqu’un qui en est responsable. La rapidité n’est utile que si le produit fonctionne encore l’année suivante. Nous restons donc pour assurer le suivi de ce que nous construisons : [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/) travaille avec nous depuis 2019.
 
 Si quelque chose ralentit votre activité, [dites-nous ce que c’est](https://sawirstudio.com/fr/contact/).
 
