@@ -18,6 +18,9 @@ type pageData struct {
 	Projects          []Project
 	Clients           []Client
 	Opts              Options
+	// Versions are short content hashes of the stylesheet and script, added to their URLs so a
+	// browser holding an old copy fetches the new one (Cloudflare sets a 4-hour browser cache).
+	Versions map[string]string
 }
 
 templ Layout(d pageData) {
@@ -91,12 +94,12 @@ templ head(d pageData) {
 	<link rel="preconnect" href="https://fonts.googleapis.com"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@600..700&display=swap"/>
-	<link rel="stylesheet" href="/assets/css/style.css"/>
+	<link rel="stylesheet" href={ "/assets/css/style.css?v=" + d.Versions["css"] }/>
 	if p.ConvertKit {
 		<link rel="stylesheet" href="/assets/css/convertkit.css"/>
 		<script async src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 	}
-	<script defer src="/assets/js/main.js"></script>
+	<script defer src={ "/assets/js/main.js?v=" + d.Versions["js"] }></script>
 	if p.LD != "" {
 		@templ.Raw("<script type=\"application/ld+json\">\n" + p.LD + "</script>")
 	}

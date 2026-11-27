@@ -3,6 +3,8 @@ package site
 import (
 	"bytes"
 	"context"
+	"crypto/sha256"
+	"encoding/hex"
 	"errors"
 	"fmt"
 	"image"
@@ -44,6 +46,12 @@ func build(root string, write bool) ([]string, error) {
 		return nil, err
 	}
 	pages = append(pages, clientPages(clients, projects)...)
+	versions := map[string]string{}
+	for key, file := range map[string]string{"css": "assets/css/style.css", "js": "assets/js/main.js"} {
+		if versions[key], err = fileVersion(filepath.Join(root, file)); err != nil {
+			return nil, err
+		}
+	}
 	written, err := drawCards(root, pages, write)
 	if err != nil {
 		return nil, fmt.Errorf("share cards: %w", err)
@@ -60,7 +68,7 @@ func build(root string, write bool) ([]string, error) {
 			return nil, fmt.Errorf("%s: related: true, but it isn't in content/projects.yaml", p.Path)
 		}
 		var buf bytes.Buffer
-		d := pageData{Page: p, OGImageW: w, OGImageH: h, Projects: projects, Clients: clients, Opts: opts}
+		d := pageData{Page: p, OGImageW: w, OGImageH: h, Projects: projects, Clients: clients, Opts: opts, Versions: versions}
 		if err := Layout(d).Render(context.Background(), &buf); err != nil {
 			return nil, fmt.Errorf("%s: %w", p.Path, err)
 		}
@@ -140,4 +148,14 @@ func loadOptions(file string) (Options, error) {
 		return o, fmt.Errorf("%s: %w", file, err)
 	}
 	return o, nil
+}
+
+// fileVersion is the first 10 hex digits of the file's SHA-256.
+func fileVersion(file string) (string, error) {
+	b, err := os.ReadFile(file)
+	if err != nil {
+		return "", err
+	}
+	sum := sha256.Sum256(b)
+	return hex.EncodeToString(sum[:])[:10], nil
 }
