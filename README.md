@@ -150,12 +150,12 @@ On ricardosawir1 the server listens on `127.0.0.1:8098`. The tunnel `ricardosawi
 in Cloudflare Zero Trust) sends sawirstudio.com and www.sawirstudio.com there; the server redirects www to the
 apex. `/etc/sawirstudio/env` (root only) sets `DATABASE_URL`, for the `sawirstudio` database and role.
 
-Cloudflare caches assets (CSS, JS, images) for a day (`Cache-Control: s-maxage`). It caches HTML only if a
-Cache Rule makes it eligible; the server allows an hour. Cloudflare's cache doesn't vary on `Accept`, so with
-such a rule, agents asking for `Accept: text/markdown` would get the cached HTML. Either leave HTML uncached,
-or have the rule bypass the cache when the request's `Accept` contains `text/markdown`. Markdown answers
-themselves are never cached (`private, no-store`). `make deploy` purges sawirstudio.com from the cache if
-`CLOUDFLARE_ZONE_ID` and `CLOUDFLARE_API_TOKEN` (Cache Purge permission) are set.
+Cloudflare sits in front. Nothing is fingerprinted, so every file is sent with
+`Cache-Control: public, max-age=0, must-revalidate` and an ETag: Cloudflare and browsers recheck it each
+time (a 304 when unchanged), and a deploy shows up at once. Markdown answers are `private, no-store`, since
+Cloudflare's cache doesn't vary on `Accept`. `make deploy` also purges sawirstudio.com from Cloudflare's
+cache when `CLOUDFLARE_ZONE_ID` and `CLOUDFLARE_API_TOKEN` (Cache Purge permission) are set.
 
-Until sawirstudio.com is moved to the tunnel, the live site is still the Cloudflare Worker (`wrangler.jsonc`,
-`worker.js`, deployed with `npx wrangler@4.152.0 deploy`). Remove both once the tunnel serves it.
+Until sawirstudio.com's DNS points at the tunnel, visitors still get the old Cloudflare Worker
+(`wrangler.jsonc`, `worker.js`). Don't deploy the Worker again: the pages' contact form now posts to
+`/api/inquiries`, which only the Go server has. Delete both files once the tunnel serves the site.

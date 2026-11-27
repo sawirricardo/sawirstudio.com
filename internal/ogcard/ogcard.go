@@ -5,7 +5,8 @@
 // The card is put together as SVG and rasterized with oksvg; the title's letters are the
 // font's outlines (go-text/typesetting shapes the text like HarfBuzz and applies the
 // variable font's weight and optical size). The font (SIL Open Font License, OFL.txt) is
-// built in, so cards come out the same on every machine.
+// built in, so cards don't depend on what's installed. The JPEG bytes are stable on one
+// machine; another CPU architecture may differ slightly and redraw them.
 package ogcard
 
 import (

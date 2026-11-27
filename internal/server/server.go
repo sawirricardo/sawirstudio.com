@@ -33,11 +33,12 @@ type Config struct {
 	Log        *slog.Logger
 }
 
-// Cache lifetimes. Browsers recheck pages on every visit (cheap: ETag), and keep assets
-// an hour; Cloudflare keeps both longer, and `make deploy` purges it.
+// Cache lifetimes. Nothing is fingerprinted (style.css keeps its name), so browsers and
+// Cloudflare revalidate every file with its ETag, as with the old Worker: a deploy shows
+// up at once, and an unchanged file costs a 304.
 const (
-	pageCache  = "public, max-age=0, must-revalidate, s-maxage=3600"
-	assetCache = "public, max-age=3600, s-maxage=86400"
+	pageCache  = "public, max-age=0, must-revalidate"
+	assetCache = "public, max-age=0, must-revalidate"
 )
 
 // Content types for the site's files, the same on every host (Go's own table lacks some,
@@ -242,7 +243,7 @@ func (s *static) notFound(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	w.Header().Set("Cache-Control", "public, max-age=0, s-maxage=300")
+	w.Header().Set("Cache-Control", pageCache)
 	w.WriteHeader(http.StatusNotFound)
 	if r.Method != http.MethodHead {
 		w.Write(body)
