@@ -55,15 +55,15 @@ MyVivaldy は2つの要素で成り立っています。クリニックの運営
 
 ## その他の実績
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/ja/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/ja/projects/aeroquote/)
 [![私の精神的な歩み](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### 私の精神的な歩み](https://sawirstudio.com/ja/projects/my-spiritual-journey/)
-[![Koperasi HOB アプリケーション](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB アプリケーション](https://sawirstudio.com/ja/projects/koperasi-hob-application/)
-[![DBTV アプリケーション](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV アプリケーション](https://sawirstudio.com/ja/projects/dbtv-application/)
 
 私たちの話はここまでにして、あなたのお話を聞かせてください。
 

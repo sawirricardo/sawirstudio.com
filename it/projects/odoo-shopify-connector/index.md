@@ -40,9 +40,9 @@ Volete che lo configuriamo o lo estendiamo per i vostri negozi? Consultate le [i
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
-[![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/it/projects/jetfly-owner-portal/)
 
 Basta parlare di noi.
 

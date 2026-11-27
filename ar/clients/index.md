@@ -47,6 +47,22 @@ description: الشركات والمؤسسات التي طوّرت لها Sawir 
 
 ### تصميم Capsule Indonesia](https://sawirstudio.com/ar/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+طيران خاص في أنحاء أوروبا، ويشمل ذلك Fly7. ونحن المطوّر الرئيسي لبوابة مالكي الطائرات التابعة لها منذ 2023.
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/ar/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+برمجيات لتأجير الطائرات موجّهة إلى المشغّلين والوسطاء. عملنا على التطبيق وأنشأنا موقعه الإلكتروني في 2022.
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/ar/projects/aeroquote/)
+
 ## GBI WTC
 
 كنيسة تنتمي إلى عائلة كنائس Gereja Bethel Indonesia. نتولى منذ 2022 بناء تطبيقها My Spiritual Journey والمنصة التي يعمل عليها.

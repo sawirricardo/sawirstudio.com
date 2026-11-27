@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hans"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>Aeroquote 案例研究：包机报价软件 | Sawir Studio</title><meta content="案例研究：2022 年，Sawir Studio 参与了面向运营商和经纪商的包机软件 Aeroquote 的开发，内容涵盖报价、基于 Word 模板的报价文件、机队、经纪商方案和营销网站。" name="description"/><meta content="Aeroquote 案例研究：包机报价软件 | Sawir Studio" property="og:title"/><meta content="案例研究：2022 年，Sawir Studio 参与了面向运营商和经纪商的包机软件 Aeroquote 的开发，内容涵盖报价、基于 Word 模板的报价文件、机队、经纪商方案和营销网站。" property="og:description"/><meta content="https://sawirstudio.com/zh-hans/projects/aeroquote/" property="og:url"/><link href="https://sawirstudio.com/zh-hans/projects/aeroquote/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="zh_CN" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/aeroquote.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Aeroquote 案例研究：包机报价软件 | Sawir Studio" property="og:image:alt"/><meta content="Aeroquote 案例研究：包机报价软件 | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Aeroquote",
+          "description": "案例研究：2022 年，Sawir Studio 参与了面向运营商和经纪商的包机软件 Aeroquote 的开发，内容涵盖报价、基于 Word 模板的报价文件、机队、经纪商方案和营销网站。",
+          "url": "https://sawirstudio.com/zh-hans/projects/aeroquote/",
+          "image": "https://sawirstudio.com/assets/images/projects/aeroquote.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首页",
+              "item": "https://sawirstudio.com/zh-hans/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "项目",
+              "item": "https://sawirstudio.com/zh-hans/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Aeroquote",
+              "item": "https://sawirstudio.com/zh-hans/projects/aeroquote/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/aeroquote/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/aeroquote/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/aeroquote/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/aeroquote/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/aeroquote/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/aeroquote/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/aeroquote/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/aeroquote/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">跳至内容</a><header class="site-header"><a class="logo" href="/zh-hans/" title="首页">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/zh-hans/">首页</a></li><li><a href="/zh-hans/posts/">博客</a></li><li><a aria-current="true" href="/zh-hans/projects/">项目</a></li><li><a href="/zh-hans/about-us/">关于我们</a></li><li><a href="/zh-hans/contact/">联系我们</a></li></ul></nav><button aria-label="切换深色模式" class="theme-toggle" title="切换深色模式" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="面包屑导航" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hans/">首页</a></li>
+<li><a href="/zh-hans/projects/">项目</a></li>
+<li><a aria-current="page" href="/zh-hans/projects/aeroquote/">Aeroquote</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Aeroquote</h1>
+<p class="lead-sm">面向包机运营商和经纪商的报价软件，四年后仍在销售</p>
+<img alt="aeroquote.com 首页和一份 Aeroquote 报价文件的封面" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/aeroquote.webp" style="view-transition-name: media-aeroquote" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>成果</h2>
+<ul>
+<li><strong>至今仍在销售。</strong>如今 Aeroquote 仍面向包机运营商和经纪商销售，网址是 <a href="https://aeroquote.com/" rel="noopener" target="_blank">aeroquote.com</a>。</li>
+<li><strong>不只服务运营商，也服务经纪商。</strong>我们开发了经纪商方案及其使用限制，经纪商是 Aeroquote 的两类目标客户之一。</li>
+<li><strong>我们在 2022 年搭建的网站至今仍是它的门户，</strong>包括定价页面和免费试用注册。</li>
+</ul>
+<h2>项目背景</h2>
+<p>Aeroquote 是一款包机软件：运营商和经纪商用它为包机航班定价并发送报价。包机报价必须准确，连飞机往返驻场基地的调机航班也要算进去；报价单还要足够美观，才能赢得订单。</p>
+<h2>任务</h2>
+<p>在 2022 年帮助 Aeroquote 完善产品，包括报价、运营商及其机队、客户收到的文件，以及经纪商方案。同时为产品打造一个能吸引访客开始免费试用的网站。</p>
+<h2>我们的工作</h2>
+<p>2022 年 3 月至 9 月，我们与 Aeroquote 团队一起开发 Aeroquote 应用，并搭建了它的营销网站。</p>
+<ul>
+<li><strong>报价。</strong>生成报价、客户打开报价时看到的页面，以及附带运营商信息的询价邮件。</li>
+<li><strong>采用运营商自有风格的报价文件。</strong>根据运营商自己的 Word 模板生成 PDF，以及报价文件本身的设计。</li>
+<li><strong>运营商与机队。</strong>运营商集团、飞机、其他运营商的飞机，以及在地图上显示的机场。</li>
+<li><strong>经纪商方案，</strong>设有单独的使用限制，与运营商方案并列提供。</li>
+<li><strong>新用户上手。</strong>入门引导步骤、数据看板、日历、日期筛选和应用内客服支持。</li>
+<li><strong>网站。</strong>功能介绍、面向运营商和经纪商的定价、免费试用注册，以及应用入口。</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>客户</strong> <a href="/zh-hans/clients/#aeroquote">Aeroquote</a></li>
+<li><strong>时间</strong> 2022 年</li>
+<li><strong>网站网址</strong> <a href="https://aeroquote.com/" rel="noreferrer" target="_blank">https://aeroquote.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">更多项目</h2><div class="project-grid">
+<a class="card" href="/zh-hans/projects/my-spiritual-journey/"><img alt="我的心灵之旅" class="thumb" height="900" loading="lazy" src="/assets/images/projects/my-spiritual-journey.webp" width="1600"/><div class="card-body"><h3>我的心灵之旅</h3></div></a>
+<a class="card" href="/zh-hans/projects/koperasi-hob-application/"><img alt="Koperasi HOB 应用" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/><div class="card-body"><h3>Koperasi HOB 应用</h3></div></a>
+<a class="card" href="/zh-hans/projects/dbtv-application/"><img alt="DBTV 应用" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/><div class="card-body"><h3>DBTV 应用</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>我们先聊到这里。</p><h2>我们能为您<br/>做些什么？</h2><a class="button" href="/zh-hans/contact/">开始项目</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/zh-hans/about-us/">关于我们</a> <a href="/zh-hans/projects/">项目</a> <a href="/zh-hans/contact/">联系我们</a> <a href="/zh-hans/press/">媒体报道</a> <a href="/zh-hans/privacy/">隐私政策</a> <a href="/zh-hans/terms/">服务条款</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/aeroquote/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/aeroquote/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a></li>
+        <li><a href="/zh-hant/projects/aeroquote/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/aeroquote/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/aeroquote/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/aeroquote/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/aeroquote/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/aeroquote/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/aeroquote/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/aeroquote/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/aeroquote/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/aeroquote/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

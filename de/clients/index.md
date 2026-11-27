@@ -47,6 +47,22 @@ Kapseleinheiten für Kurzaufenthalte und die dazugehörige Familie von Kapselhot
 
 ### Capsule Indonesia Design](https://sawirstudio.com/de/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+Privatluftfahrt in ganz Europa, einschließlich Fly7. Seit 2023 sind wir Hauptentwickler des Portals für die Flugzeugeigentümer.
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/de/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+Software für den Flugzeugcharter, für Betreiber und Broker. 2022 haben wir an der App mitgearbeitet und die zugehörige Website erstellt.
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/de/projects/aeroquote/)
+
 ## GBI WTC
 
 Eine Kirche aus der Familie der Gereja Bethel Indonesia. Seit 2022 entwickeln wir ihre App My Spiritual Journey und die Plattform dahinter.

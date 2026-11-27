@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>دراسة حالة Jetfly: بوابة مالكي الطائرات | Sawir Studio</title><meta content="دراسة حالة: منذ 2023، وSawir Studio هو المطوّر الرئيسي لبوابة مالكي الطائرات لدى Jetfly (المعروفة سابقًا باسم my.fly7.com): التكاليف والإيرادات وساعات الطيران وسجل الرحلات والفواتير في مكان واحد." name="description"/><meta content="دراسة حالة Jetfly: بوابة مالكي الطائرات | Sawir Studio" property="og:title"/><meta content="دراسة حالة: منذ 2023، وSawir Studio هو المطوّر الرئيسي لبوابة مالكي الطائرات لدى Jetfly (المعروفة سابقًا باسم my.fly7.com): التكاليف والإيرادات وساعات الطيران وسجل الرحلات والفواتير في مكان واحد." property="og:description"/><meta content="https://sawirstudio.com/ar/projects/jetfly-owner-portal/" property="og:url"/><link href="https://sawirstudio.com/ar/projects/jetfly-owner-portal/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="ar_SA" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/jetfly-owner-portal.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="دراسة حالة Jetfly: بوابة مالكي الطائرات | Sawir Studio" property="og:image:alt"/><meta content="دراسة حالة Jetfly: بوابة مالكي الطائرات | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Jetfly Owner Portal",
+          "description": "دراسة حالة: منذ 2023، وSawir Studio هو المطوّر الرئيسي لبوابة مالكي الطائرات لدى Jetfly (المعروفة سابقًا باسم my.fly7.com): التكاليف والإيرادات وساعات الطيران وسجل الرحلات والفواتير في مكان واحد.",
+          "url": "https://sawirstudio.com/ar/projects/jetfly-owner-portal/",
+          "image": "https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "الرئيسية",
+              "item": "https://sawirstudio.com/ar/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "المشاريع",
+              "item": "https://sawirstudio.com/ar/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Jetfly Owner Portal",
+              "item": "https://sawirstudio.com/ar/projects/jetfly-owner-portal/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/jetfly-owner-portal/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">تخطَّ إلى المحتوى</a><header class="site-header"><a class="logo" href="/ar/" title="الرئيسية">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/ar/">الرئيسية</a></li><li><a href="/ar/posts/">المدونة</a></li><li><a aria-current="true" href="/ar/projects/">المشاريع</a></li><li><a href="/ar/about-us/">من نحن</a></li><li><a href="/ar/contact/">تواصلوا معنا</a></li></ul></nav><button aria-label="تبديل الوضع الداكن" class="theme-toggle" title="تبديل الوضع الداكن" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="مسار التنقل" class="breadcrumbs">
+<ol>
+<li><a href="/ar/">الرئيسية</a></li>
+<li><a href="/ar/projects/">المشاريع</a></li>
+<li><a aria-current="page" href="/ar/projects/jetfly-owner-portal/">بوابة مالكي طائرات Jetfly</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Jetfly Owner Portal</h1>
+<p class="lead-sm">تكاليف كل مالك طائرة وإيراداته وساعات طيرانه في مكان واحد</p>
+<img alt="my.jetfly.com، بوابة المالكين: التكاليف لكل ساعة والإيرادات وساعات الطيران وسجل الرحلات والفواتير" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/jetfly-owner-portal.webp" style="view-transition-name: media-jetfly-owner-portal" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>النتيجة</h2>
+<ul>
+<li><strong>يطّلع المالكون على كل ما يخص طائراتهم في مكان واحد.</strong> التكاليف والإيرادات وساعات الطيران وسجل الرحلات والفواتير، على my.jetfly.com.</li>
+<li><strong>لا تزال قيد الاستخدام.</strong> بدأت البوابة باسم my.fly7.com، وتُفتح اليوم على my.jetfly.com.</li>
+<li><strong>عامان من الإصدارات المنتظمة،</strong> من نوفمبر 2023 إلى ديسمبر 2025.</li>
+</ul>
+<h2>الوضع</h2>
+<p>تشغّل Jetfly طائرات Pilatus PC-12 وPC-24 وFalcon 7X في أنحاء أوروبا، لمالكي الطائرات ولرحلات الطيران العارض (الشارتر). ويريد المالكون معرفة تكلفة طائراتهم وما حققته من إيرادات ومقدار طيرانها، وهذه الأرقام محفوظة في أنظمة الرحلات والمحاسبة لدى المشغّل.</p>
+<h2>المهمة</h2>
+<p>أن يحصل كل مالك على مكان واحد يطّلع فيه على أرقام طائرته، مع بقائها متوافقة مع أنظمة العمليات، وأن يتمكن فريق Jetfly من مراجعة سجل الرحلات لكل شهر قبل أن يطّلع عليه المالكون.</p>
+<h2>ما قمنا به</h2>
+<p>كنا المطوّر الرئيسي لبوابة المالكين، وعملنا مباشرةً مع فريق Jetfly.</p>
+<ul>
+<li><strong>لوحات المعلومات.</strong> التكاليف لكل ساعة والإيرادات وساعات الطيران، موزعة بين المالك والعقود التابعة وFly7، مع ملخص سنوي.</li>
+<li><strong>سجل الرحلات.</strong> كل رحلة مع تكاليفها وإعادة فوترة تكاليف الطيارين والتكاليف المتغيرة، يراجعها الفريق ثم تُنشر للمالك.</li>
+<li><strong>الفواتير.</strong> جميع فواتير المالك وملفات مصروفاته، مع إمكانية البحث فيها.</li>
+<li><strong>توافق مع العمليات.</strong> مزامنة الرحلات والعقود وأسماء أفراد الطواقم من أنظمة العمليات لدى Jetfly.</li>
+<li><strong>الإدارة.</strong> الرسوم الإضافية للوقود، وأدوار أعضاء الفريق وصلاحياتهم.</li>
+</ul>
+<h3>أعمال أخرى لصالح Jetfly</h3>
+<ul>
+<li><strong>القراءة على متن الطائرة.</strong> وصول مجاني إلى PressReader للركاب مرتبط برحلتهم: قسيمة لكل راكب، ورابط يمكن مشاركته مع المرافقين في الرحلة، ودعم للرحلات متعددة المراحل، مع انتهاء صلاحية الوصول بعد الرحلة.</li>
+<li><strong>إعلانات بيع الطائرات.</strong> إصلاحات للإعلانات وصورها على mylittleplane.com.</li>
+<li><strong>نموذج أولي لتطبيق حجز</strong> على iPhone وAndroid.</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>العميل</strong> <a href="/ar/clients/#jetfly">Jetfly</a></li>
+<li><strong>نعمل معًا منذ</strong> 2023</li>
+<li><strong>رابط الموقع</strong> <a dir="ltr" href="https://jetfly.com/" rel="noreferrer" target="_blank">https://jetfly.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">مشاريع أخرى</h2><div class="project-grid">
+<a class="card" href="/ar/projects/aeroquote/"><img alt="Aeroquote" class="thumb" height="900" loading="lazy" src="/assets/images/projects/aeroquote.webp" width="1600"/><div class="card-body"><h3>Aeroquote</h3></div></a>
+<a class="card" href="/ar/projects/my-spiritual-journey/"><img alt="رحلتي الروحية" class="thumb" height="900" loading="lazy" src="/assets/images/projects/my-spiritual-journey.webp" width="1600"/><div class="card-body"><h3>رحلتي الروحية</h3></div></a>
+<a class="card" href="/ar/projects/koperasi-hob-application/"><img alt="تطبيق Koperasi HOB" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/><div class="card-body"><h3>تطبيق Koperasi HOB</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>يكفي حديثًا عن أنفسنا.</p><h2>كيف يمكننا<br/>مساعدتكم؟</h2><a class="button" href="/ar/contact/">ابدؤوا مشروعكم</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/ar/about-us/">من نحن</a> <a href="/ar/projects/">مشاريعنا</a> <a href="/ar/contact/">تواصلوا معنا</a> <a href="/ar/press/">الصحافة</a> <a href="/ar/privacy/">الخصوصية</a> <a href="/ar/terms/">الشروط</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/jetfly-owner-portal/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/jetfly-owner-portal/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/jetfly-owner-portal/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/jetfly-owner-portal/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/jetfly-owner-portal/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/jetfly-owner-portal/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/jetfly-owner-portal/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/jetfly-owner-portal/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/jetfly-owner-portal/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/jetfly-owner-portal/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/jetfly-owner-portal/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/jetfly-owner-portal/" hreflang="ar" lang="ar" aria-current="true">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

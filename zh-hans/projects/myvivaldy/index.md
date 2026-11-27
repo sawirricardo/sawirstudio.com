@@ -55,15 +55,15 @@ MyVivaldy 包含两部分：诊所日常运营所用的系统，以及患者随�
 
 ## 更多项目
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/zh-hans/projects/aeroquote/)
 [![我的心灵之旅](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### 我的心灵之旅](https://sawirstudio.com/zh-hans/projects/my-spiritual-journey/)
-[![Koperasi HOB 应用](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB 应用](https://sawirstudio.com/zh-hans/projects/koperasi-hob-application/)
-[![DBTV 应用](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV 应用](https://sawirstudio.com/zh-hans/projects/dbtv-application/)
 
 我们先聊到这里。
 

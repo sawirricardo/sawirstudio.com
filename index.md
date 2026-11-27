@@ -15,7 +15,7 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
 [Start a project](https://sawirstudio.com/contact/) [See client work](#portfolio)
 
 - **9** years building for clients, since 2017
-- **27** businesses and institutions we've built for
+- **29** businesses and institutions we've built for
 - **2019** the year PeopleBond started with us. Still going.
 - **7** apps of our own on the App Store
 
@@ -115,6 +115,8 @@ A ministry's sermons, prayer and daily devotionals in an app for iOS and Android
 - HSBC (Growmint)
 - PeopleBond
 - GBI WTC
+- Jetfly
+- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

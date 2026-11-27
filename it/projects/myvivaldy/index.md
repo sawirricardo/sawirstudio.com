@@ -55,15 +55,15 @@ Un unico sistema serve entrambe le parti. Gli orari che il paziente vede nell’
 
 ## Altri progetti
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/it/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/it/projects/aeroquote/)
 [![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)
-[![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
-[![Applicazione DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### Applicazione DBTV](https://sawirstudio.com/it/projects/dbtv-application/)
 
 Basta parlare di noi.
 

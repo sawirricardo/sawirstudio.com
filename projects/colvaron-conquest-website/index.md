@@ -47,12 +47,12 @@ A trading card game sells on its art, so the site gets out of the way: dark page
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
-[![My Spiritual Journey](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### My Spiritual Journey](https://sawirstudio.com/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/projects/aeroquote/)
 
 Enough about us.
 

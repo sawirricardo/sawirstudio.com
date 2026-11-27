@@ -55,15 +55,15 @@ One system serves both sides. The times a patient sees in the app come from the 
 
 ## More projects
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/projects/aeroquote/)
 [![My Spiritual Journey](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### My Spiritual Journey](https://sawirstudio.com/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB Application](https://sawirstudio.com/projects/koperasi-hob-application/)
-[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV Application](https://sawirstudio.com/projects/dbtv-application/)
 
 Enough about us.
 

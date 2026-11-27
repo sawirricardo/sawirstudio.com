@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>Aeroquote 案例研究：包機報價軟體 | Sawir Studio</title><meta content="案例研究：Sawir Studio 在 2022 年參與開發 Aeroquote，這是一套供包機業者與仲介使用的軟體。工作內容包括報價、以 Word 範本製作的報價文件、機隊、仲介方案與行銷網站。" name="description"/><meta content="Aeroquote 案例研究：包機報價軟體 | Sawir Studio" property="og:title"/><meta content="案例研究：Sawir Studio 在 2022 年參與開發 Aeroquote，這是一套供包機業者與仲介使用的軟體。工作內容包括報價、以 Word 範本製作的報價文件、機隊、仲介方案與行銷網站。" property="og:description"/><meta content="https://sawirstudio.com/zh-hant/projects/aeroquote/" property="og:url"/><link href="https://sawirstudio.com/zh-hant/projects/aeroquote/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/aeroquote.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Aeroquote 案例研究：包機報價軟體 | Sawir Studio" property="og:image:alt"/><meta content="Aeroquote 案例研究：包機報價軟體 | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Aeroquote",
+          "description": "案例研究：Sawir Studio 在 2022 年參與開發 Aeroquote，這是一套供包機業者與仲介使用的軟體。工作內容包括報價、以 Word 範本製作的報價文件、機隊、仲介方案與行銷網站。",
+          "url": "https://sawirstudio.com/zh-hant/projects/aeroquote/",
+          "image": "https://sawirstudio.com/assets/images/projects/aeroquote.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "專案",
+              "item": "https://sawirstudio.com/zh-hant/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Aeroquote",
+              "item": "https://sawirstudio.com/zh-hant/projects/aeroquote/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/aeroquote/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/aeroquote/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/aeroquote/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/aeroquote/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/aeroquote/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/aeroquote/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/aeroquote/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/aeroquote/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">跳至主要內容</a><header class="site-header"><a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/zh-hant/">首頁</a></li><li><a href="/zh-hant/posts/">部落格</a></li><li><a aria-current="true" href="/zh-hant/projects/">專案</a></li><li><a href="/zh-hant/about-us/">關於我們</a></li><li><a href="/zh-hant/contact/">聯絡我們</a></li></ul></nav><button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="導覽路徑" class="breadcrumbs">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/projects/">專案</a></li>
+<li><a aria-current="page" href="/zh-hant/projects/aeroquote/">Aeroquote</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Aeroquote</h1>
+<p class="lead-sm">為包機業者與仲介打造的報價軟體，四年後仍在銷售</p>
+<img alt="aeroquote.com 首頁與 Aeroquote 報價文件封面" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/aeroquote.webp" style="view-transition-name: media-aeroquote" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>成果</h2>
+<ul>
+<li><strong>至今仍在銷售。</strong>Aeroquote 目前仍銷售給包機業者與仲介，網址是 <a href="https://aeroquote.com/" rel="noopener" target="_blank">aeroquote.com</a>。</li>
+<li><strong>服務業者，也服務仲介。</strong>我們開發了仲介方案及其使用限制，而仲介正是 Aeroquote 的兩大客群之一。</li>
+<li><strong>我們在 2022 年架設的網站，至今仍是產品的主要門面，</strong>包括價格頁面與免費試用註冊。</li>
+</ul>
+<h2>背景</h2>
+<p>Aeroquote 是一套包機軟體，業者與仲介用它計算包機航班價格並寄送報價。包機報價必須準確，連飛機往返所屬基地的調機航班都要算進去；報價單也要夠體面，才能爭取到訂單。</p>
+<h2>任務</h2>
+<p>在 2022 年協助 Aeroquote 擴充產品功能，包括報價、業者與旗下機隊、提供給客戶的文件，以及仲介方案。另外，為產品打造一個能吸引訪客申請免費試用的網站。</p>
+<h2>我們的做法</h2>
+<p>2022 年 3 月至 9 月，我們與 Aeroquote 團隊一起開發 Aeroquote 應用程式，並架設產品的行銷網站。</p>
+<ul>
+<li><strong>報價。</strong>產生報價、客戶開啟報價時看到的頁面，以及附有業者資料的詢價電子郵件。</li>
+<li><strong>呈現業者自有風格的報價文件。</strong>使用業者自己的 Word 範本製作 PDF，以及設計報價文件本身。</li>
+<li><strong>業者與機隊。</strong>業者群組、飛機、其他業者的飛機，以及在地圖上顯示機場。</li>
+<li><strong>仲介方案，</strong>設有專屬的使用限制，與業者方案並列。</li>
+<li><strong>新手上路。</strong>新使用者引導步驟、儀表板、行事曆、日期篩選器，以及應用程式內客服支援。</li>
+<li><strong>網站。</strong>功能介紹、業者與仲介的價格方案、免費試用註冊，以及應用程式入口。</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>客戶</strong> <a href="/zh-hant/clients/#aeroquote">Aeroquote</a></li>
+<li><strong>時間</strong> 2022 年</li>
+<li><strong>網站網址</strong> <a href="https://aeroquote.com/" rel="noreferrer" target="_blank">https://aeroquote.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">更多專案</h2><div class="project-grid">
+<a class="card" href="/zh-hant/projects/my-spiritual-journey/"><img alt="我的靈性旅程" class="thumb" height="900" loading="lazy" src="/assets/images/projects/my-spiritual-journey.webp" width="1600"/><div class="card-body"><h3>我的靈性旅程</h3></div></a>
+<a class="card" href="/zh-hant/projects/koperasi-hob-application/"><img alt="Koperasi HOB Application" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/><div class="card-body"><h3>Koperasi HOB Application</h3></div></a>
+<a class="card" href="/zh-hant/projects/dbtv-application/"><img alt="DBTV 應用程式" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/><div class="card-body"><h3>DBTV 應用程式</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>關於我們就先說到這裡。</p><h2>有什麼我們<br/>能幫上忙的嗎？</h2><a class="button" href="/zh-hant/contact/">開始專案</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">作品案例</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/press/">媒體專區</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/aeroquote/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/aeroquote/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/aeroquote/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+        <li><a href="/ja/projects/aeroquote/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/projects/aeroquote/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/aeroquote/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/aeroquote/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/aeroquote/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/aeroquote/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/aeroquote/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/aeroquote/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/aeroquote/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

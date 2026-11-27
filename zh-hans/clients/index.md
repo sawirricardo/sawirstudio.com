@@ -47,6 +47,22 @@ description: Sawir Studio 服务过的企业和机构，以及我们为每一家
 
 ### Capsule Indonesia 设计](https://sawirstudio.com/zh-hans/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+业务遍及欧洲的私人航空公司，旗下包括 Fly7。自 2023 年起，我们一直是其飞机所有者门户网站的主要开发团队。
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+面向运营商和经纪商的包机软件。2022 年，我们参与了其应用的开发，并为其制作了网站。
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/zh-hans/projects/aeroquote/)
+
 ## GBI WTC
 
 Gereja Bethel Indonesia 大家庭中的一间教会。自 2022 年起，我们为其开发了 My Spiritual Journey 应用及其背后的平台。

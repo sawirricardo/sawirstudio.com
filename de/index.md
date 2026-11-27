@@ -15,7 +15,7 @@ KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben �
 [Projekt starten](https://sawirstudio.com/de/contact/) [Kundenprojekte ansehen](#portfolio)
 
 - **9** Jahre Entwicklung für Kunden, seit 2017
-- **27** Unternehmen und Institutionen, für die wir entwickelt haben
+- **29** Unternehmen und Institutionen, für die wir entwickelt haben
 - **2019** das Jahr, in dem PeopleBond mit uns startete. Bis heute.
 - **7** eigene Apps im App Store
 
@@ -115,6 +115,8 @@ Predigten, Gebete und tägliche Andachten eines kirchlichen Dienstes in einer Ap
 - HSBC (Growmint)
 - PeopleBond
 - GBI WTC
+- Jetfly
+- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

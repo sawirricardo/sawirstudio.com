@@ -55,15 +55,15 @@ Ein System bedient beide Seiten. Die Zeiten, die Patienten in der App sehen, sta
 
 ## Weitere Projekte
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/de/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/de/projects/aeroquote/)
 [![Mein spiritueller Weg](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### Mein spiritueller Weg](https://sawirstudio.com/de/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB Application](https://sawirstudio.com/de/projects/koperasi-hob-application/)
-[![DBTV Application](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV Application](https://sawirstudio.com/de/projects/dbtv-application/)
 
 Genug über uns.
 

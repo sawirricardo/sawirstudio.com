@@ -55,15 +55,15 @@ MyVivaldy — это два продукта в одном: система, на
 
 ## Другие проекты
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/ru/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/ru/projects/aeroquote/)
 [![Мой духовный путь](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### Мой духовный путь](https://sawirstudio.com/ru/projects/my-spiritual-journey/)
-[![Приложение Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Приложение Koperasi HOB](https://sawirstudio.com/ru/projects/koperasi-hob-application/)
-[![Приложение DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### Приложение DBTV](https://sawirstudio.com/ru/projects/dbtv-application/)
 
 Хватит о нас.
 

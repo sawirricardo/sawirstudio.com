@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>Aeroquote 開発事例：航空機チャーター向け見積もりソフトウェア | Sawir Studio</title><meta content="開発事例：Sawir Studio は 2022 年、運航会社とブローカー向けの航空機チャーターソフトウェア Aeroquote の開発に携わりました。対象は、見積もり、Word テンプレートから作成する見積書、保有機材、ブローカー向けプラン、サービス紹介サイトです。" name="description"/><meta content="Aeroquote 開発事例：航空機チャーター向け見積もりソフトウェア | Sawir Studio" property="og:title"/><meta content="開発事例：Sawir Studio は 2022 年、運航会社とブローカー向けの航空機チャーターソフトウェア Aeroquote の開発に携わりました。対象は、見積もり、Word テンプレートから作成する見積書、保有機材、ブローカー向けプラン、サービス紹介サイトです。" property="og:description"/><meta content="https://sawirstudio.com/ja/projects/aeroquote/" property="og:url"/><link href="https://sawirstudio.com/ja/projects/aeroquote/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/aeroquote.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Aeroquote 開発事例：航空機チャーター向け見積もりソフトウェア | Sawir Studio" property="og:image:alt"/><meta content="Aeroquote 開発事例：航空機チャーター向け見積もりソフトウェア | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Aeroquote",
+          "description": "開発事例：Sawir Studio は 2022 年、運航会社とブローカー向けの航空機チャーターソフトウェア Aeroquote の開発に携わりました。対象は、見積もり、Word テンプレートから作成する見積書、保有機材、ブローカー向けプラン、サービス紹介サイトです。",
+          "url": "https://sawirstudio.com/ja/projects/aeroquote/",
+          "image": "https://sawirstudio.com/assets/images/projects/aeroquote.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Aeroquote",
+              "item": "https://sawirstudio.com/ja/projects/aeroquote/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/aeroquote/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/aeroquote/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/aeroquote/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/aeroquote/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/aeroquote/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/aeroquote/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/aeroquote/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/aeroquote/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/aeroquote/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/aeroquote/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">コンテンツへスキップ</a><header class="site-header"><a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/ja/">ホーム</a></li><li><a href="/ja/posts/">ブログ</a></li><li><a aria-current="true" href="/ja/projects/">実績</a></li><li><a href="/ja/about-us/">私たちについて</a></li><li><a href="/ja/contact/">お問い合わせ</a></li></ul></nav><button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a aria-current="page" href="/ja/projects/aeroquote/">Aeroquote</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Aeroquote</h1>
+<p class="lead-sm">運航会社とブローカー向けの航空機チャーター見積もりサービス。4 年たった今も販売中です</p>
+<img alt="aeroquote.com のホームページと、Aeroquote の見積書の表紙" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/aeroquote.webp" style="view-transition-name: media-aeroquote" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>成果</h2>
+<ul>
+<li><strong>現在も販売中です。</strong>Aeroquote は今も <a href="https://aeroquote.com/" rel="noopener" target="_blank">aeroquote.com</a> で、航空機チャーターの運航会社とブローカー向けに販売されています。</li>
+<li><strong>運航会社だけでなく、ブローカーにも。</strong>ブローカー向けプランとその利用上限は当社が開発しました。現在、ブローカーは Aeroquote の 2 つの販売対象のひとつです。</li>
+<li><strong>2022 年に当社が制作したウェブサイトは、今もサービスの入り口です。</strong>料金ページや無料トライアルの申し込みも含まれています。</li>
+</ul>
+<h2>背景</h2>
+<p>Aeroquote は航空機チャーター向けのソフトウェアです。運航会社やブローカーが、チャーター便の料金を算出し、見積もりを送るために使います。チャーターの見積もりは、機体の拠点空港との間の回送便まで含めて正確でなければなりません。さらに、受注につながる見栄えのよさも必要です。</p>
+<h2>課題</h2>
+<p>ご依頼は、2022 年の Aeroquote の製品開発を支援することでした。対象は、見積もり機能、運航会社とその保有機材、お客様が受け取る書類、ブローカー向けプランです。あわせて、訪問者を無料トライアルへとつなげるウェブサイトの制作も担いました。</p>
+<h2>取り組んだこと</h2>
+<p>2022 年 3 月から 9 月まで、Aeroquote のチームとともに Aeroquote のアプリ開発に取り組み、サービス紹介サイトも制作しました。</p>
+<ul>
+<li><strong>見積もり。</strong>見積もりの作成、お客様が見積もりを開いたときに表示されるページ、運航会社の情報を記載した見積もり依頼メール。</li>
+<li><strong>運航会社独自のスタイルに合わせた見積書。</strong>運航会社自身の Word テンプレートから作成する PDF と、見積書そのもののデザイン。</li>
+<li><strong>運航会社と保有機材。</strong>運航会社グループ、機体、他の運航会社の機体、地図上の空港表示。</li>
+<li><strong>ブローカー向けプラン。</strong>運航会社向けプランに加えて用意したもので、独自の利用上限があります。</li>
+<li><strong>利用開始と日常の操作。</strong>初期設定のステップ、ダッシュボード、カレンダー、日付フィルター、アプリ内サポート。</li>
+<li><strong>ウェブサイト。</strong>機能紹介、運航会社とブローカー向けの料金案内、無料トライアルの申し込み、アプリへの入り口。</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>クライアント</strong> <a href="/ja/clients/#aeroquote">Aeroquote</a></li>
+<li><strong>時期</strong> 2022 年</li>
+<li><strong>ウェブサイト URL</strong> <a href="https://aeroquote.com/" rel="noreferrer" target="_blank">https://aeroquote.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">その他の実績</h2><div class="project-grid">
+<a class="card" href="/ja/projects/my-spiritual-journey/"><img alt="私の精神的な歩み" class="thumb" height="900" loading="lazy" src="/assets/images/projects/my-spiritual-journey.webp" width="1600"/><div class="card-body"><h3>私の精神的な歩み</h3></div></a>
+<a class="card" href="/ja/projects/koperasi-hob-application/"><img alt="Koperasi HOB アプリケーション" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/><div class="card-body"><h3>Koperasi HOB アプリケーション</h3></div></a>
+<a class="card" href="/ja/projects/dbtv-application/"><img alt="DBTV アプリケーション" class="thumb" height="782" loading="lazy" src="/assets/images/projects/dbtv-application.webp" width="1600"/><div class="card-body"><h3>DBTV アプリケーション</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p><h2>どのような<br/>ご相談でしょうか？</h2><a class="button" href="/ja/contact/">プロジェクトを始める</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">制作実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/press/">プレス</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/aeroquote/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/aeroquote/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/aeroquote/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/aeroquote/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+        <li><a href="/de/projects/aeroquote/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/aeroquote/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/aeroquote/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/aeroquote/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/aeroquote/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/aeroquote/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/aeroquote/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/aeroquote/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

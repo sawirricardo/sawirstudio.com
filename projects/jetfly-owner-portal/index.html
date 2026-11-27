@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fffcf5" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#1a1916" media="(prefers-color-scheme: dark)"><meta name="color-scheme" content="light dark"><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>Jetfly Case Study: The Aircraft Owners&#39; Portal | Sawir Studio</title><meta name="description" content="Case study: since 2023 Sawir Studio has been the main developer on Jetfly&#39;s aircraft owners&#39; portal (formerly my.fly7.com): costs, revenue, hours flown, logbook and invoices in one place."><meta property="og:title" content="Jetfly Case Study: The Aircraft Owners&#39; Portal | Sawir Studio"><meta property="og:description" content="Case study: since 2023 Sawir Studio has been the main developer on Jetfly&#39;s aircraft owners&#39; portal (formerly my.fly7.com): costs, revenue, hours flown, logbook and invoices in one place."><meta property="og:url" content="https://sawirstudio.com/projects/jetfly-owner-portal/"><link rel="canonical" href="https://sawirstudio.com/projects/jetfly-owner-portal/"><meta property="og:type" content="website"><meta property="og:site_name" content="Sawir Studio"><meta property="og:image" content="https://sawirstudio.com/assets/og/jetfly-owner-portal.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Jetfly Case Study: The Aircraft Owners&#39; Portal | Sawir Studio"><meta name="twitter:image:alt" content="Jetfly Case Study: The Aircraft Owners&#39; Portal | Sawir Studio"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Caveat:wght@600..700&display=swap"><link rel="stylesheet" href="/assets/css/style.css"><script defer src="/assets/js/main.js"></script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "name": "Jetfly Owner Portal",
+      "description": "Case study: since 2023 Sawir Studio has been the main developer on Jetfly's aircraft owners' portal (formerly my.fly7.com): costs, revenue, hours flown, logbook and invoices in one place.",
+      "url": "https://sawirstudio.com/projects/jetfly-owner-portal/",
+      "image": "https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp",
+      "creator": {
+        "@id": "https://sawirstudio.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sawirstudio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://sawirstudio.com/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Jetfly Owner Portal",
+          "item": "https://sawirstudio.com/projects/jetfly-owner-portal/"
+        }
+      ]
+    }
+  ]
+}
+</script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script><!-- i18n:alternates --><link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/jetfly-owner-portal/"><link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/jetfly-owner-portal/"><!-- /i18n:alternates --></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="logo" href="/" title="Home">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/">Home</a></li><li><a href="/posts/">Blog</a></li><li><a href="/projects/" aria-current="true">Projects</a></li><li><a href="/about-us/">About us</a></li><li><a href="/contact/">Contact Us</a></li></ul></nav><button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr></header><main id="main">      <section class="section banner narrow" role="banner">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/projects/jetfly-owner-portal/" aria-current="page">Jetfly Owner Portal</a></li>
+        </ol>
+        </nav>
+        <h1 class="page-title heavy">Jetfly Owner Portal</h1>
+        <p class="lead-sm">Every aircraft owner&rsquo;s costs, revenue and hours flown in one place</p>
+        <img style="view-transition-name: media-jetfly-owner-portal" class="project-hero" fetchpriority="high" width="1600" height="900" src="/assets/images/projects/jetfly-owner-portal.webp" alt="my.jetfly.com, the owners' portal: costs per hour, revenue, hours flown, logbook and invoices" />
+      </section>
+      <section class="section">
+        <div class="project-layout">
+          <div></div>
+          <div class="prose center">
+            <h2>The result</h2>
+            <ul>
+              <li><strong>Owners see their aircraft in one place.</strong> Costs, revenue, hours flown, the logbook and invoices, at my.jetfly.com.</li>
+              <li><strong>Still in use.</strong> The portal began as my.fly7.com and now opens as my.jetfly.com.</li>
+              <li><strong>Two years of steady releases,</strong> from November 2023 to December 2025.</li>
+            </ul>
+            <h2>The situation</h2>
+            <p>Jetfly flies Pilatus PC-12s, PC-24s and Falcon 7Xs across Europe, for aircraft owners and for charter. Owners want to know what their aircraft cost, what it earned and how much it flew, and those numbers sit in the operator&rsquo;s flight and accounting systems.</p>
+            <h2>The task</h2>
+            <p>Give every owner one place to see their aircraft&rsquo;s numbers, kept in step with the operations systems, and let Jetfly&rsquo;s team check each month&rsquo;s logbook before owners see it.</p>
+            <h2>What we did</h2>
+            <p>We were the main developer on the owners&rsquo; portal, working directly with Jetfly&rsquo;s team.</p>
+            <ul>
+              <li><strong>Dashboards.</strong> Costs per hour, revenue and hours flown, split between the owner, affiliated contracts and Fly7, with a yearly summary.</li>
+              <li><strong>The logbook.</strong> Each flight with its costs, pilot rebilling and variable costs, checked by the team and then published to the owner.</li>
+              <li><strong>Invoices.</strong> Every invoice and expense file for the owner, searchable.</li>
+              <li><strong>In step with operations.</strong> Flights, contracts and crew names synchronised from Jetfly&rsquo;s operations systems.</li>
+              <li><strong>Admin.</strong> Fuel surcharges, and roles and permissions for the team.</li>
+            </ul>
+            <h3>Also for Jetfly</h3>
+            <ul>
+              <li><strong>Reading on board.</strong> Complimentary PressReader access for passengers, tied to their flight: a voucher per passenger, a link to share with co-passengers, trips with several legs, and access that ends after the flight.</li>
+              <li><strong>Aircraft sales listings.</strong> Fixes to listings and their images on mylittleplane.com.</li>
+              <li><strong>A booking app prototype</strong> for iPhone and Android.</li>
+            </ul>
+          </div>
+          <ul class="project-meta">
+            <li><strong>Client</strong> <a href="/clients/#jetfly">Jetfly</a></li>
+            <li><strong>Working together since</strong> 2023</li>
+            <li><strong>Website URL</strong> <a href="https://jetfly.com/" target="_blank" rel="noreferrer">https://jetfly.com</a></li>
+          </ul>
+        </div>
+      </section>
+ <section class="section related"><h2 class="section-title">More projects</h2><div class="project-grid">
+<a class="card" href="/projects/aeroquote/"><img width="1600" height="900" class="thumb" src="/assets/images/projects/aeroquote.webp" alt="Aeroquote" loading="lazy"><div class="card-body"><h3>Aeroquote</h3></div></a> 
+<a class="card" href="/projects/my-spiritual-journey/"><img width="1600" height="900" class="thumb" src="/assets/images/projects/my-spiritual-journey.webp" alt="My Spiritual Journey" loading="lazy"><div class="card-body"><h3>My Spiritual Journey</h3></div></a> 
+<a class="card" href="/projects/koperasi-hob-application/"><img width="1600" height="782" class="thumb" src="/assets/images/projects/koperasi-hob-application.webp" alt="Koperasi HOB Application" loading="lazy"><div class="card-body"><h3>Koperasi HOB Application</h3></div></a> 
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>Enough about us.</p><h2>How can we<br>help you?</h2><a class="button" href="/contact/">Start a project</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/about-us/">About</a> <a href="/projects/">Projects</a> <a href="/contact/">Contact Us</a> <a href="/press/">Press</a> <a href="/privacy/">Privacy</a> <a href="/terms/">Terms</a></nav><hr><ul class="social-links"><li><a href="https://github.com/sawirstudio" target="_blank" rel="nofollow noreferrer noopener">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" target="_blank" rel="noreferrer noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" target="_blank" rel="noreferrer noopener">Instagram</a></li></ul><!-- i18n:languages --><ul class="lang-links" aria-label="Language"><li><a href="/projects/jetfly-owner-portal/" hreflang="en" lang="en" aria-current="true">English</a></li><li><a href="/zh-hans/projects/jetfly-owner-portal/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/zh-hant/projects/jetfly-owner-portal/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ja/projects/jetfly-owner-portal/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/de/projects/jetfly-owner-portal/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/he/projects/jetfly-owner-portal/" hreflang="he" lang="he">עברית</a></li><li><a href="/ru/projects/jetfly-owner-portal/" hreflang="ru" lang="ru">Русский</a></li><li><a href="/fr/projects/jetfly-owner-portal/" hreflang="fr" lang="fr">Français</a></li><li><a href="/hi/projects/jetfly-owner-portal/" hreflang="hi" lang="hi">हिन्दी</a></li><li><a href="/nl/projects/jetfly-owner-portal/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/it/projects/jetfly-owner-portal/" hreflang="it" lang="it">Italiano</a></li><li><a href="/ar/projects/jetfly-owner-portal/" hreflang="ar" lang="ar">العربية</a></li></ul><!-- /i18n:languages --></footer></body></html>

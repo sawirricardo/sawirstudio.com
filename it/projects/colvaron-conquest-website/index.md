@@ -47,12 +47,12 @@ Un gioco di carte collezionabili vive della sua grafica, quindi il sito si fa da
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
-[![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)
-[![Applicazione Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/it/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Applicazione Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/it/projects/aeroquote/)
 
 Basta parlare di noi.
 

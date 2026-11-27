@@ -40,9 +40,9 @@ Odoo Community Association (OCA) הוא הארגון ללא מטרות רווח 
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
-[![המסע הרוחני שלי](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### המסע הרוחני שלי](https://sawirstudio.com/he/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/he/projects/jetfly-owner-portal/)
 
 מספיק עלינו.
 

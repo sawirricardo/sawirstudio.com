@@ -60,6 +60,12 @@ Rimuovi filtro
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+## Jetfly Owner Portal](https://sawirstudio.com/it/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+## Aeroquote](https://sawirstudio.com/it/projects/aeroquote/)
 [![Il mio percorso spirituale](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ## Il mio percorso spirituale](https://sawirstudio.com/it/projects/my-spiritual-journey/)

@@ -47,12 +47,12 @@ Un jeu de cartes à collectionner se vend grâce à ses illustrations : le site
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
-[![Mon cheminement spirituel](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Mon cheminement spirituel](https://sawirstudio.com/fr/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/fr/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/fr/projects/aeroquote/)
 
 Assez parlé de nous.
 

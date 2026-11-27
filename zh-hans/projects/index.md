@@ -60,6 +60,12 @@ Sawir Studio 最新项目合集
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/zh-hans/projects/myvivaldy/)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+## Jetfly Owner Portal](https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+## Aeroquote](https://sawirstudio.com/zh-hans/projects/aeroquote/)
 [![我的心灵之旅](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ## 我的心灵之旅](https://sawirstudio.com/zh-hans/projects/my-spiritual-journey/)

@@ -47,12 +47,12 @@ Colvaron Conquest एक रणनीतिक ट्रेडिंग का�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
-[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/hi/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/hi/projects/aeroquote/)
 
 हमारी बात बहुत हुई।
 

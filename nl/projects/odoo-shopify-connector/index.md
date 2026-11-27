@@ -40,9 +40,9 @@ Wil je dat we het voor jouw winkels instellen of uitbreiden? Bekijk [Shopify-int
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
-[![Mijn spirituele reis](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Mijn spirituele reis](https://sawirstudio.com/nl/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/nl/projects/jetfly-owner-portal/)
 
 Genoeg over ons.
 

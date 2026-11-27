@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>Jetfly 導入事例：航空機オーナー向けポータル | Sawir Studio</title><meta content="導入事例：Sawir Studio は 2023 年から、Jetfly の航空機オーナー向けポータル（旧 my.fly7.com）のメイン開発者を務めています。費用、収益、飛行時間、航空日誌、請求書を 1 か所で確認できます。" name="description"/><meta content="Jetfly 導入事例：航空機オーナー向けポータル | Sawir Studio" property="og:title"/><meta content="導入事例：Sawir Studio は 2023 年から、Jetfly の航空機オーナー向けポータル（旧 my.fly7.com）のメイン開発者を務めています。費用、収益、飛行時間、航空日誌、請求書を 1 か所で確認できます。" property="og:description"/><meta content="https://sawirstudio.com/ja/projects/jetfly-owner-portal/" property="og:url"/><link href="https://sawirstudio.com/ja/projects/jetfly-owner-portal/" rel="canonical"/><meta content="website" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="ja_JP" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/jetfly-owner-portal.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Jetfly 導入事例：航空機オーナー向けポータル | Sawir Studio" property="og:image:alt"/><meta content="Jetfly 導入事例：航空機オーナー向けポータル | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css" rel="stylesheet"/><script defer="" src="/assets/js/main.js"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CreativeWork",
+          "name": "Jetfly Owner Portal",
+          "description": "導入事例：Sawir Studio は 2023 年から、Jetfly の航空機オーナー向けポータル（旧 my.fly7.com）のメイン開発者を務めています。費用、収益、飛行時間、航空日誌、請求書を 1 か所で確認できます。",
+          "url": "https://sawirstudio.com/ja/projects/jetfly-owner-portal/",
+          "image": "https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp",
+          "creator": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "ホーム",
+              "item": "https://sawirstudio.com/ja/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "実績",
+              "item": "https://sawirstudio.com/ja/projects/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Jetfly Owner Portal",
+              "item": "https://sawirstudio.com/ja/projects/jetfly-owner-portal/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/projects/jetfly-owner-portal/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/projects/jetfly-owner-portal/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">コンテンツへスキップ</a><header class="site-header"><a class="logo" href="/ja/" title="ホーム">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/ja/">ホーム</a></li><li><a href="/ja/posts/">ブログ</a></li><li><a aria-current="true" href="/ja/projects/">実績</a></li><li><a href="/ja/about-us/">私たちについて</a></li><li><a href="/ja/contact/">お問い合わせ</a></li></ul></nav><button aria-label="ダークモードの切り替え" class="theme-toggle" title="ダークモードの切り替え" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section banner narrow" role="banner">
+<nav aria-label="パンくずリスト" class="breadcrumbs">
+<ol>
+<li><a href="/ja/">ホーム</a></li>
+<li><a href="/ja/projects/">実績</a></li>
+<li><a aria-current="page" href="/ja/projects/jetfly-owner-portal/">Jetfly オーナーポータル</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy">Jetfly Owner Portal</h1>
+<p class="lead-sm">航空機オーナーごとの費用、収益、飛行時間を 1 か所に</p>
+<img alt="オーナー向けポータル my.jetfly.com：1 時間あたりの費用、収益、飛行時間、航空日誌、請求書" class="project-hero" fetchpriority="high" height="900" src="/assets/images/projects/jetfly-owner-portal.webp" style="view-transition-name: media-jetfly-owner-portal" width="1600"/>
+</section>
+<section class="section">
+<div class="project-layout">
+<div></div>
+<div class="prose center">
+<h2>成果</h2>
+<ul>
+<li><strong>オーナーは自分の機体の情報を 1 か所で確認できます。</strong>費用、収益、飛行時間、航空日誌、請求書を my.jetfly.com で閲覧できます。</li>
+<li><strong>現在も利用されています。</strong>このポータルは my.fly7.com として始まり、現在は my.jetfly.com で公開されています。</li>
+<li><strong>2 年にわたる継続的なリリース。</strong>期間は 2023 年 11 月から 2025 年 12 月までです。</li>
+</ul>
+<h2>背景</h2>
+<p>Jetfly は、航空機オーナー向けとチャーター向けに、Pilatus PC-12、PC-24、Falcon 7X をヨーロッパ各地で運航しています。オーナーが知りたいのは、自分の機体にかかった費用、得られた収益、飛行した時間です。こうした数値は、運航会社の運航システムと会計システムに保存されています。</p>
+<h2>課題</h2>
+<p>すべてのオーナーが自分の機体の数値を 1 か所で確認できるようにすること。数値は運航関連のシステムと常に一致させ、毎月の航空日誌はオーナーに公開する前に Jetfly のチームが確認できるようにすること。</p>
+<h2>取り組んだこと</h2>
+<p>当社はオーナー向けポータルのメイン開発者として、Jetfly のチームと直接やり取りしながら開発しました。</p>
+<ul>
+<li><strong>ダッシュボード。</strong>1 時間あたりの費用、収益、飛行時間を、オーナー分、関連会社との契約分、Fly7 分に分けて表示し、年間の集計も確認できます。</li>
+<li><strong>航空日誌。</strong>各フライトを、費用、パイロット関連費用の再請求、変動費とあわせて記録します。チームが確認したうえで、オーナーに公開します。</li>
+<li><strong>請求書。</strong>オーナーに関するすべての請求書と経費ファイルを検索できます。</li>
+<li><strong>運航システムとの連携。</strong>フライト、契約、乗務員名を Jetfly の運航システムから同期します。</li>
+<li><strong>管理機能。</strong>燃油サーチャージのほか、チームの役割と権限を管理できます。</li>
+</ul>
+<h3>Jetfly 向けのその他の開発</h3>
+<ul>
+<li><strong>機内での読書。</strong>搭乗者はフライトに紐づく PressReader を無料で利用できます。搭乗者ごとのバウチャー、同乗者に共有できるリンク、複数区間の旅程に対応し、利用権はフライト後に終了します。</li>
+<li><strong>航空機の販売情報。</strong>mylittleplane.com の掲載情報とその画像を修正しました。</li>
+<li>iPhone と Android 向けの<strong>予約アプリの試作版</strong>。</li>
+</ul>
+</div>
+<ul class="project-meta">
+<li><strong>クライアント</strong> <a href="/ja/clients/#jetfly">Jetfly</a></li>
+<li><strong>お取引開始</strong> 2023 年</li>
+<li><strong>ウェブサイト URL</strong> <a href="https://jetfly.com/" rel="noreferrer" target="_blank">https://jetfly.com</a></li>
+</ul>
+</div>
+</section>
+<section class="section related"><h2 class="section-title">その他の実績</h2><div class="project-grid">
+<a class="card" href="/ja/projects/aeroquote/"><img alt="Aeroquote" class="thumb" height="900" loading="lazy" src="/assets/images/projects/aeroquote.webp" width="1600"/><div class="card-body"><h3>Aeroquote</h3></div></a>
+<a class="card" href="/ja/projects/my-spiritual-journey/"><img alt="私の精神的な歩み" class="thumb" height="900" loading="lazy" src="/assets/images/projects/my-spiritual-journey.webp" width="1600"/><div class="card-body"><h3>私の精神的な歩み</h3></div></a>
+<a class="card" href="/ja/projects/koperasi-hob-application/"><img alt="Koperasi HOB アプリケーション" class="thumb" height="782" loading="lazy" src="/assets/images/projects/koperasi-hob-application.webp" width="1600"/><div class="card-body"><h3>Koperasi HOB アプリケーション</h3></div></a>
+</div></section><section class="section" id="cta"><div class="cta-box shadow-xl"><p>私たちの話はここまでにして、あなたのお話を聞かせてください。</p><h2>どのような<br/>ご相談でしょうか？</h2><a class="button" href="/ja/contact/">プロジェクトを始める</a></div></section></main><footer class="site-footer"><nav class="footer-links"><a href="/ja/about-us/">会社概要</a> <a href="/ja/projects/">制作実績</a> <a href="/ja/contact/">お問い合わせ</a> <a href="/ja/press/">プレス</a> <a href="/ja/privacy/">プライバシー</a> <a href="/ja/terms/">利用規約</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/projects/jetfly-owner-portal/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/projects/jetfly-owner-portal/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/projects/jetfly-owner-portal/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        <li><a href="/ja/projects/jetfly-owner-portal/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li>
+        <li><a href="/de/projects/jetfly-owner-portal/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/projects/jetfly-owner-portal/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/projects/jetfly-owner-portal/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/projects/jetfly-owner-portal/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/projects/jetfly-owner-portal/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/projects/jetfly-owner-portal/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/projects/jetfly-owner-portal/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/projects/jetfly-owner-portal/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

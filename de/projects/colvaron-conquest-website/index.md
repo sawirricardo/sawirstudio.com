@@ -47,12 +47,12 @@ Ein Sammelkartenspiel lebt von seiner Kunst, deshalb hält sich die Website zur�
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/de/projects/myvivaldy/)
-[![Mein spiritueller Weg](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Mein spiritueller Weg](https://sawirstudio.com/de/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/de/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/de/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/de/projects/aeroquote/)
 
 Genug über uns.
 

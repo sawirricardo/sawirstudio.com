@@ -127,6 +127,25 @@
   width: 1600
   height: 900
   client: Vivaldy Skin Clinic
+- slug: jetfly-owner-portal
+  title: Jetfly Owner Portal
+  categories:
+  - 3
+  search: jetfly fly7 owner portal my.jetfly.com my.fly7.com private aviation aircraft owners dashboard costs revenue hours flown logbook invoices pressreader ![jetfly owner portal](/assets/images/projects/jetfly-owner-portal.webp)
+  image: /assets/images/projects/jetfly-owner-portal.webp
+  width: 1600
+  height: 900
+  client: Jetfly
+- slug: aeroquote
+  title: Aeroquote
+  categories:
+  - 2
+  - 3
+  search: aeroquote air charter software operators brokers quotes quote documents word template pdf fleet broker plan website ![aeroquote](/assets/images/projects/aeroquote.webp)
+  image: /assets/images/projects/aeroquote.webp
+  width: 1600
+  height: 900
+  client: Aeroquote
 - slug: my-spiritual-journey
   title: My Spiritual Journey
   categories:

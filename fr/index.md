@@ -15,7 +15,7 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
 [Lancer un projet](https://sawirstudio.com/fr/contact/) [Voir nos projets clients](#portfolio)
 
 - **9** ans de projets pour nos clients, depuis 2017
-- **27** entreprises et institutions pour lesquelles nous avons développé des projets
+- **29** entreprises et institutions pour lesquelles nous avons développé des projets
 - **2019** l'année où PeopleBond a commencé à travailler avec nous. Et ça continue.
 - **7** applications à nous sur l'App Store
 
@@ -115,6 +115,8 @@ Les prédications, la prière et les méditations quotidiennes d’un ministère
 - HSBC (Growmint)
 - PeopleBond
 - GBI WTC
+- Jetfly
+- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

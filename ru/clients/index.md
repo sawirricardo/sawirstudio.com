@@ -47,6 +47,22 @@ description: Компании и организации, для которых �
 
 ### Дизайн для Capsule Indonesia](https://sawirstudio.com/ru/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+Частная авиация по всей Европе, включая Fly7. С 2023 года мы основные разработчики портала для владельцев самолетов компании.
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/ru/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+ПО для воздушных чартерных перевозок, предназначенное для операторов и брокеров. В 2022 году мы участвовали в разработке приложения и создали сайт продукта.
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/ru/projects/aeroquote/)
+
 ## GBI WTC
 
 Церковь из семьи Gereja Bethel Indonesia. С 2022 года мы разрабатываем для нее приложение My Spiritual Journey и платформу, на которой оно работает.

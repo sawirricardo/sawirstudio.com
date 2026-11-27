@@ -40,9 +40,9 @@ description: موصل Shopify مفتوح المصدر لـ Odoo 19 Community، �
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
-[![رحلتي الروحية](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### رحلتي الروحية](https://sawirstudio.com/ar/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/ar/projects/jetfly-owner-portal/)
 
 يكفي حديثًا عن أنفسنا.
 

@@ -47,6 +47,22 @@ description: החברות והמוסדות ש-Sawir Studio פיתחה עבורם
 
 ### עיצוב Capsule Indonesia](https://sawirstudio.com/he/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+תעופה פרטית ברחבי אירופה, כולל Fly7. אנחנו המפתחים הראשיים של פורטל בעלי המטוסים של החברה מאז 2023.
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/he/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+תוכנה לשכירת מטוסים, למפעילים ולמתווכים. ב-2022 עבדנו על האפליקציה ובנינו את האתר שלה.
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/he/projects/aeroquote/)
+
 ## GBI WTC
 
 קהילה כנסייתית ממשפחת Gereja Bethel Indonesia. מאז 2022 אנחנו בונים עבורה את האפליקציה My Spiritual Journey ואת הפלטפורמה שמאחוריה.

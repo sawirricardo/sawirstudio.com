@@ -47,6 +47,22 @@ description: वे कंपनियाँ और संस्थान जि
 
 ### Capsule Indonesia डिज़ाइन](https://sawirstudio.com/hi/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+यूरोप भर में प्राइवेट एविएशन, जिसमें Fly7 भी शामिल है। 2023 से इसके एयरक्राफ़्ट मालिकों के पोर्टल के मुख्य डेवलपर हम हैं।
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/hi/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+ऑपरेटरों और ब्रोकरों के लिए एयर चार्टर सॉफ़्टवेयर। 2022 में हमने इसके ऐप पर काम किया और इसकी वेबसाइट बनाई।
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/hi/projects/aeroquote/)
+
 ## GBI WTC
 
 Gereja Bethel Indonesia परिवार का एक चर्च। हम 2022 से इसका My Spiritual Journey ऐप और उसके पीछे का प्लेटफ़ॉर्म बना रहे हैं।

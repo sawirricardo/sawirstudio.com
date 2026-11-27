@@ -40,9 +40,9 @@ Want it set up or extended for your stores? See [Shopify integrations](https://s
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/projects/myvivaldy/)
-[![My Spiritual Journey](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### My Spiritual Journey](https://sawirstudio.com/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/projects/jetfly-owner-portal/)
 
 Enough about us.
 

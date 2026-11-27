@@ -40,9 +40,9 @@ Odoo Community Association (OCA) एक नॉनप्रॉफ़िट सं
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/hi/projects/myvivaldy/)
-[![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/hi/projects/jetfly-owner-portal/)
 
 हमारी बात बहुत हुई।
 

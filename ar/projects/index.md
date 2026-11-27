@@ -60,6 +60,12 @@ description: تطبيقات ومواقع وتصاميم من Sawir Studio، من
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/ar/projects/myvivaldy/)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+## Jetfly Owner Portal](https://sawirstudio.com/ar/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+## Aeroquote](https://sawirstudio.com/ar/projects/aeroquote/)
 [![رحلتي الروحية](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ## رحلتي الروحية](https://sawirstudio.com/ar/projects/my-spiritual-journey/)

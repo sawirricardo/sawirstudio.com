@@ -40,9 +40,9 @@ Vous souhaitez le faire installer ou l’adapter à vos boutiques ? Découvrez 
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/)
-[![Mon cheminement spirituel](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Mon cheminement spirituel](https://sawirstudio.com/fr/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/fr/projects/jetfly-owner-portal/)
 
 Assez parlé de nous.
 

@@ -15,7 +15,7 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 [להתחלת פרויקט](https://sawirstudio.com/he/contact/) [לעבודות עבור לקוחות](#portfolio)
 
 - **9** שנות פיתוח ללקוחות, מאז 2017
-- **27** עסקים ומוסדות שבנינו עבורם
+- **29** עסקים ומוסדות שבנינו עבורם
 - **2019** השנה שבה PeopleBond התחילה לעבוד איתנו. ועדיין ממשיכים.
 - **7** אפליקציות משלנו ב-App Store
 
@@ -115,6 +115,8 @@ AI בתוך התהליך, ואדם שאחראי לכל החלטה. [במה אנ�
 - HSBC (Growmint)
 - PeopleBond
 - GBI WTC
+- Jetfly
+- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

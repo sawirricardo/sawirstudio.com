@@ -15,7 +15,7 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 [प्रोजेक्ट शुरू करें](https://sawirstudio.com/hi/contact/) [क्लाइंट प्रोजेक्ट देखें](#portfolio)
 
 - **9** साल से क्लाइंट के लिए काम, 2017 से
-- **27** व्यवसाय और संस्थान, जिनके लिए हमने काम किया है
+- **29** कारोबार और संस्थान, जिनके लिए हमने काम किया है
 - **2019** जब PeopleBond हमारे साथ जुड़ा। आज भी साथ हैं।
 - **7** हमारे अपने ऐप App Store पर
 
@@ -115,6 +115,8 @@ AI साथ में, पर हर फ़ैसला इंसान का�
 - HSBC (Growmint)
 - PeopleBond
 - GBI WTC
+- Jetfly
+- Fly7
 - Vivaldy Skin Clinic
 - PT Sumasteel Indonesia
 - PT SPP Indonesia

@@ -60,6 +60,12 @@ description: אפליקציות, אתרים ועיצובים של Sawir Studio, 
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/he/projects/myvivaldy/)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+## Jetfly Owner Portal](https://sawirstudio.com/he/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+## Aeroquote](https://sawirstudio.com/he/projects/aeroquote/)
 [![המסע הרוחני שלי](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ## המסע הרוחני שלי](https://sawirstudio.com/he/projects/my-spiritual-journey/)

@@ -40,9 +40,9 @@ Odoo Community Association（OCA）是一家非营利组织，负责维护大多
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/zh-hans/projects/myvivaldy/)
-[![我的心灵之旅](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### 我的心灵之旅](https://sawirstudio.com/zh-hans/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/zh-hans/projects/jetfly-owner-portal/)
 
 我们先聊到这里。
 

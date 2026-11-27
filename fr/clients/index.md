@@ -47,6 +47,22 @@ Des modules capsules pour les séjours en espace compact, et la famille d’hôt
 
 ### Capsule Indonesia Design](https://sawirstudio.com/fr/projects/capsule-indonesia-design/)
 
+## Jetfly
+
+Aviation privée à travers l’Europe, dont Fly7. Nous sommes le développeur principal de son portail destiné aux propriétaires d’avions depuis 2023.
+
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/fr/projects/jetfly-owner-portal/)
+
+## Aeroquote
+
+Logiciel d’affrètement aérien pour les opérateurs et les courtiers. Nous avons travaillé sur l’application et créé son site web en 2022.
+
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/fr/projects/aeroquote/)
+
 ## GBI WTC
 
 Une église de la famille Gereja Bethel Indonesia. Depuis 2022, nous développons son application My Spiritual Journey et la plateforme sur laquelle elle repose.

@@ -55,15 +55,15 @@ MyVivaldy दो चीज़ें हैं: वह सिस्टम जि�
 
 ## और प्रोजेक्ट
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/hi/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/hi/projects/aeroquote/)
 [![मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### मेरी आध्यात्मिक यात्रा](https://sawirstudio.com/hi/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### Koperasi HOB Application](https://sawirstudio.com/hi/projects/koperasi-hob-application/)
-[![DBTV ऐप्लिकेशन](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### DBTV ऐप्लिकेशन](https://sawirstudio.com/hi/projects/dbtv-application/)
 
 हमारी बात बहुत हुई।
 

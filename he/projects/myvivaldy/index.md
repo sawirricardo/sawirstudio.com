@@ -55,15 +55,15 @@ MyVivaldy הוא שני דברים: המערכת שהמרפאה עובדת אי�
 
 ## עוד פרויקטים
 
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+### Jetfly Owner Portal](https://sawirstudio.com/he/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+### Aeroquote](https://sawirstudio.com/he/projects/aeroquote/)
 [![המסע הרוחני שלי](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ### המסע הרוחני שלי](https://sawirstudio.com/he/projects/my-spiritual-journey/)
-[![אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
-
-### אפליקציית Koperasi HOB](https://sawirstudio.com/he/projects/koperasi-hob-application/)
-[![אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application.webp)
-
-### אפליקציית DBTV](https://sawirstudio.com/he/projects/dbtv-application/)
 
 מספיק עלינו.
 

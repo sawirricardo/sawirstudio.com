@@ -47,12 +47,12 @@ Een trading card game verkoopt op de kunst van de kaarten, dus de site houdt zic
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/)
-[![Mijn spirituele reis](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Mijn spirituele reis](https://sawirstudio.com/nl/projects/my-spiritual-journey/)
-[![Koperasi HOB Application](https://sawirstudio.com/assets/images/projects/koperasi-hob-application.webp)
+### Jetfly Owner Portal](https://sawirstudio.com/nl/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
 
-### Koperasi HOB Application](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
+### Aeroquote](https://sawirstudio.com/nl/projects/aeroquote/)
 
 Genoeg over ons.
 

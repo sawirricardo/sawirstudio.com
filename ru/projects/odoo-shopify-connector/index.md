@@ -40,9 +40,9 @@ Odoo Community Association (OCA) — некоммерческая организ
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ### MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
-[![Мой духовный путь](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
 
-### Мой духовный путь](https://sawirstudio.com/ru/projects/my-spiritual-journey/)
+### Jetfly Owner Portal](https://sawirstudio.com/ru/projects/jetfly-owner-portal/)
 
 Хватит о нас.
 

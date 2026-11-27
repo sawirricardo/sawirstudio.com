@@ -60,6 +60,12 @@ description: Приложения, сайты и дизайн от Sawir Studio:
 [![MyVivaldy](https://sawirstudio.com/assets/images/projects/myvivaldy.webp)
 
 ## MyVivaldy](https://sawirstudio.com/ru/projects/myvivaldy/)
+[![Jetfly Owner Portal](https://sawirstudio.com/assets/images/projects/jetfly-owner-portal.webp)
+
+## Jetfly Owner Portal](https://sawirstudio.com/ru/projects/jetfly-owner-portal/)
+[![Aeroquote](https://sawirstudio.com/assets/images/projects/aeroquote.webp)
+
+## Aeroquote](https://sawirstudio.com/ru/projects/aeroquote/)
 [![Мой духовный путь](https://sawirstudio.com/assets/images/projects/my-spiritual-journey.webp)
 
 ## Мой духовный путь](https://sawirstudio.com/ru/projects/my-spiritual-journey/)
