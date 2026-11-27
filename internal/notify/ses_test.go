@@ -22,14 +22,14 @@ func (f *fakeSES) SendEmail(_ context.Context, in *sesv2.SendEmailInput, _ ...fu
 
 func TestSESSend(t *testing.T) {
 	c := &fakeSES{}
-	m := &SESMailer{Client: c, From: "inquiries@notify.example.com", FromName: "site", To: "me@example.com", ConfigurationSet: "cs"}
+	m := &SESMailer{Client: c, From: "inquiries@notify.example.com", FromName: "site", To: "me@example.com, you@example.com", ConfigurationSet: "cs"}
 
 	// An inquiry: to us, with Reply-To the inquirer.
 	if err := m.Send(context.Background(), Message{Subject: "New\ninquiry", Text: "hi", ReplyTo: "ana@example.com", ReplyToName: "Ana Ö"}); err != nil {
 		t.Fatal(err)
 	}
 	in := c.in
-	if got := in.Destination.ToAddresses; len(got) != 1 || got[0] != "me@example.com" {
+	if got := in.Destination.ToAddresses; len(got) != 2 || got[0] != "me@example.com" || got[1] != "you@example.com" {
 		t.Errorf("to %v", got)
 	}
 	if *in.FromEmailAddress != `"site" <inquiries@notify.example.com>` || *in.Content.Simple.Subject.Data != "New inquiry" ||

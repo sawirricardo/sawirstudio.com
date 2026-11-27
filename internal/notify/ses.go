@@ -23,14 +23,14 @@ type SESMailer struct {
 	Client           SESClient
 	From             string
 	FromName         string
-	To               string // where a Message without its own To goes
+	To               string // where a Message without its own To goes; addresses separated by commas
 	ConfigurationSet string // optional, for SES event publishing
 }
 
 func (m *SESMailer) Send(ctx context.Context, msg Message) error {
-	to := m.To
+	to := Addresses(m.To)
 	if msg.To != "" {
-		to = msg.To
+		to = []string{msg.To}
 	}
 	from := mail.Address{Name: m.FromName, Address: m.From}
 	if msg.From != "" {
@@ -50,7 +50,7 @@ func (m *SESMailer) Send(ctx context.Context, msg Message) error {
 	}
 	in := &sesv2.SendEmailInput{
 		FromEmailAddress: aws.String(from.String()),
-		Destination:      &types.Destination{ToAddresses: []string{to}},
+		Destination:      &types.Destination{ToAddresses: to},
 		Content:          &types.EmailContent{Simple: content},
 	}
 	if msg.ReplyTo != "" {

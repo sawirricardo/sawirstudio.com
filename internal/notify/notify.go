@@ -28,7 +28,7 @@ type Mailer struct {
 	Token     string // an API token with Email Sending permission
 	From      string // like inquiries@notify.sawirstudio.com
 	FromName  string
-	To        string // a verified destination address
+	To        string // verified destination addresses, separated by commas
 	BaseURL   string // the Cloudflare API, overridable in tests
 	Client    *http.Client
 }
@@ -39,7 +39,8 @@ type Sender interface {
 }
 
 // FromEnv returns the sender the environment sets up, or nil and the names of the missing
-// settings. Both need NOTIFY_FROM (the sender) and NOTIFY_TO (where inquiry emails go). With
+// settings. Both need NOTIFY_FROM (the sender) and NOTIFY_TO (where inquiry emails go: one
+// address, or several separated by commas). With
 // SES_REGION set it's Amazon SES, with the AWS SDK's usual credentials (AWS_ACCESS_KEY_ID and
 // AWS_SECRET_ACCESS_KEY) and optionally SES_CONFIGURATION_SET; otherwise Cloudflare, with
 // CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_EMAIL_TOKEN.
@@ -61,6 +62,17 @@ func FromEnv(ctx context.Context) (Sender, []string) {
 	}
 	return &Mailer{AccountID: os.Getenv("CLOUDFLARE_ACCOUNT_ID"), Token: os.Getenv("CLOUDFLARE_EMAIL_TOKEN"),
 		From: from, FromName: "sawirstudio.com", To: to}, nil
+}
+
+// Addresses splits a comma-separated list of addresses (NOTIFY_TO).
+func Addresses(list string) []string {
+	var out []string
+	for _, a := range strings.Split(list, ",") {
+		if a = strings.TrimSpace(a); a != "" {
+			out = append(out, a)
+		}
+	}
+	return out
 }
 
 func missingVars(names ...string) []string {
@@ -120,8 +132,17 @@ type sendResponse struct {
 	} `json:"result"`
 }
 
-// Send sends msg, and reports an error unless Cloudflare delivered or queued it.
+// Send sends msg, and reports an error unless Cloudflare delivered or queued it. Without its
+// own To it goes to each of the Mailer's addresses, one email each.
 func (m *Mailer) Send(ctx context.Context, msg Message) error {
+	if msg.To == "" {
+		var errs []error
+		for _, to := range Addresses(m.To) {
+			msg.To = to
+			errs = append(errs, m.Send(ctx, msg))
+		}
+		return errors.Join(errs...)
+	}
 	req := sendRequest{
 		To:      m.To,
 		From:    address{m.From, m.FromName},

@@ -127,7 +127,8 @@ The form is `internal/site/inquiry.templ`. `inquiry_api` in `content/site.yaml` 
   5 inquiries per IP address per 10 minutes, and stores them in the `inquiries` table. Read them with
   `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
 
-Each new inquiry is also emailed to `NOTIFY_TO`, with Reply-To set to the inquirer, so replying answers
+Each new inquiry is also emailed to `NOTIFY_TO` (one address, or several separated by commas), with
+Reply-To set to the inquirer, so replying answers
 them. It goes out from `NOTIFY_FROM` (`inquiries@notify.sawirstudio.com`) through Amazon SES when
 `/etc/sawirstudio/env` sets `SES_REGION` and AWS credentials (see Newsletter), otherwise through
 Cloudflare's email REST API: Email Routing is on for the `notify` subdomain only (the apex's mail stays

@@ -38,6 +38,25 @@ func TestSend(t *testing.T) {
 	}
 }
 
+func TestSendToSeveral(t *testing.T) {
+	var to []string
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		var got map[string]any
+		body, _ := io.ReadAll(r.Body)
+		json.Unmarshal(body, &got)
+		to = append(to, got["to"].(string))
+		io.WriteString(w, `{"success":true,"errors":[],"result":{"delivered":["x"]}}`)
+	}))
+	defer srv.Close()
+	m := &Mailer{AccountID: "acc", Token: "tok", From: "f@x.com", To: "me@example.com, you@example.com", BaseURL: srv.URL}
+	if err := m.Send(context.Background(), Message{Subject: "s", Text: "t"}); err != nil {
+		t.Fatal(err)
+	}
+	if strings.Join(to, " ") != "me@example.com you@example.com" {
+		t.Errorf("sent to %v, want one email to each", to)
+	}
+}
+
 func TestSendTo(t *testing.T) {
 	var got map[string]any
 	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
