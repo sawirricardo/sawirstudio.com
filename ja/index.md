@@ -46,6 +46,11 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
   お客様向けや社内スタッフ向けの iPhone、iPad、Mac、Android アプリを開発します。最初のバージョンから App Store での公開、その後のすべてのアップデートまで対応します。
 
   [DBTV](https://sawirstudio.com/ja/projects/dbtv-application/) や [Koperasi HOB](https://sawirstudio.com/ja/projects/koperasi-hob-application/) など
+- ### 既存ソフトウェアの引き継ぎ
+
+  他社が開発したアプリやシステムで、開発が止まっている、動作が遅い、古くなっているといったものに対応します。現状のコードを読み解き、不具合を直して最新の状態にします。作り直したほうが費用を抑えられる場合は、率直にお伝えします。
+
+  [現在の状況をお聞かせください](https://sawirstudio.com/ja/contact/)
 - ### デザイン
 
   ブランド、画面インターフェース、それを取り巻くウェブサイトを、デザインしたものを自ら開発するメンバーが手がけます。

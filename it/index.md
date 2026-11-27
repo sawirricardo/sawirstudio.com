@@ -46,6 +46,11 @@ L'AI al lavoro, ma ogni decisione resta a una persona. [In cosa crediamo →](ht
   App per iPhone, iPad, Mac e Android per i vostri clienti o il vostro personale, dalla prima versione all’App Store e per tutti gli aggiornamenti successivi.
 
   Come [DBTV](https://sawirstudio.com/it/projects/dbtv-application/) e [Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
+- ### Prendere in mano software già esistente
+
+  Un’app o un sistema sviluppato da altri che è bloccato, lento o datato. Esaminiamo quello che c’è, correggiamo ciò che non funziona e lo aggiorniamo, oppure vi diciamo chiaramente quando rifarlo da zero costa meno.
+
+  [Raccontateci cosa avete](https://sawirstudio.com/it/contact/)
 - ### Design
 
   Il vostro brand, le vostre interfacce e il sito web che li accompagna, disegnati da persone che sviluppano anche ciò che disegnano.

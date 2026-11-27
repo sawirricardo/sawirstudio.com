@@ -46,6 +46,11 @@ L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous cro
   Des applications iPhone, iPad, Mac et Android pour vos clients ou vos collaborateurs, de la première version à la publication sur l’App Store, puis à chaque mise à jour.
 
   Par exemple [DBTV](https://sawirstudio.com/fr/projects/dbtv-application/) et [Koperasi HOB](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
+- ### Reprise de logiciels existants
+
+  Une application ou un système développé par d’autres qui est bloqué, lent ou dépassé. Nous analysons l’existant, nous corrigeons ce qui ne fonctionne pas et nous le mettons à jour. Et si une refonte coûte moins cher, nous vous le disons clairement.
+
+  [Dites-nous ce que vous avez](https://sawirstudio.com/fr/contact/)
 - ### Design
 
   Votre marque, vos interfaces et le site web qui les accompagne, dessinés par des personnes qui développent aussi ce qu’elles dessinent.

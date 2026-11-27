@@ -46,6 +46,11 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
   為您的客戶或員工開發 iPhone、iPad、Mac 與 Android App，從第一版、上架 App Store 到之後的每一次更新，都由我們負責。
 
   例如 [DBTV](https://sawirstudio.com/zh-hant/projects/dbtv-application/) 與 [Koperasi HOB](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
+- ### 接手現有軟體
+
+  別人開發的應用程式或系統卡住了、跑得慢或已經過時？我們會先讀懂現有的內容，修好故障的部分並更新到最新狀態；如果重做反而比較省錢，我們也會直接告訴您。
+
+  [告訴我們您目前的狀況](https://sawirstudio.com/zh-hant/contact/)
 - ### 設計
 
   您的品牌、使用介面與搭配的網站，設計的人也親自把設計做出來。

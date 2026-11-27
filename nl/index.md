@@ -46,6 +46,11 @@ AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven â
   Apps voor iPhone, iPad, Mac en Android voor je klanten of je medewerkers, van de eerste versie tot de App Store en elke update daarna.
 
   Zoals [DBTV](https://sawirstudio.com/nl/projects/dbtv-application/) en [Koperasi HOB](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
+- ### Bestaande software overnemen
+
+  Een app of systeem dat iemand anders heeft gebouwd en dat vastzit, traag of verouderd is. We lezen wat er staat, repareren wat kapot is en maken het weer up-to-date, of we zeggen je eerlijk wanneer opnieuw bouwen goedkoper is.
+
+  [Vertel ons wat je hebt](https://sawirstudio.com/nl/contact/)
 - ### Design
 
   Je merk, je interfaces en de website eromheen, ontworpen door mensen die ook zelf bouwen wat ze ontwerpen.

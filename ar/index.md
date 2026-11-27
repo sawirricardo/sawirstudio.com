@@ -46,6 +46,11 @@ description: تصمّم Sawir Studio البرمجيات التي تقوم علي
   تطبيقات iPhone وiPad وMac وAndroid لعملائكم أو موظفيكم، من النسخة الأولى حتى النشر على App Store وكل تحديث بعد ذلك.
 
   مثل [DBTV](https://sawirstudio.com/ar/projects/dbtv-application/) و[Koperasi HOB](https://sawirstudio.com/ar/projects/koperasi-hob-application/)
+- ### استلام البرمجيات القائمة
+
+  تطبيق أو نظام بناه غيركم، وهو متعثّر أو بطيء أو قديم. نقرأ ما هو موجود، ونصلح المعطّل ونحدّثه، أو نخبركم بصراحة إن كانت إعادة بنائه أقل تكلفة.
+
+  [أخبرونا بما لديكم](https://sawirstudio.com/ar/contact/)
 - ### التصميم
 
   هويتكم التجارية وواجهاتكم والموقع الذي يجمعها، بتصميم أشخاص يبنون بأنفسهم ما يصمّمونه.

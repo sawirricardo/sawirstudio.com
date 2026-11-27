@@ -46,6 +46,11 @@ KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben �
   Apps für iPhone, iPad, Mac und Android für Ihre Kunden oder Ihr Team, von der ersten Version über den App Store bis zu jedem weiteren Update.
 
   Zum Beispiel [DBTV](https://sawirstudio.com/de/projects/dbtv-application/) und [Koperasi HOB](https://sawirstudio.com/de/projects/koperasi-hob-application/)
+- ### Bestehende Software übernehmen
+
+  Eine App oder ein System, das jemand anderes entwickelt hat und das nicht weiterkommt, langsam oder veraltet ist. Wir sehen uns an, was da ist, beheben, was nicht funktioniert, und bringen alles auf den aktuellen Stand. Oder wir sagen Ihnen offen, wenn ein Neubau weniger kostet.
+
+  [Erzählen Sie uns, was Sie haben](https://sawirstudio.com/de/contact/)
 - ### Design
 
   Ihre Marke, Ihre Benutzeroberflächen und die Website dazu, gestaltet von Menschen, die ihre Entwürfe auch selbst umsetzen.

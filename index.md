@@ -46,6 +46,11 @@ AI in the loop, a human owning every call. [What we believe →](https://sawirst
   iPhone, iPad, Mac and Android apps for your customers or your staff, from the first version to the App Store and every update after.
 
   Like [DBTV](https://sawirstudio.com/projects/dbtv-application/) and [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/)
+- ### Taking over existing software
+
+  An app or system someone else built that's stuck, slow or out of date. We read what's there, fix what's broken and bring it up to date, or tell you plainly when a rebuild costs less.
+
+  [Tell us what you have](https://sawirstudio.com/contact/)
 - ### Design
 
   Your brand, your interfaces and the website around them, drawn by people who also build what they draw.
