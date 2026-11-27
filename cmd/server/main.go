@@ -12,7 +12,7 @@
 // answer 503), ADDR (default 127.0.0.1:8098), for email NOTIFY_FROM and NOTIFY_TO with either
 // SES_REGION and AWS credentials (Amazon SES) or CLOUDFLARE_ACCOUNT_ID and
 // CLOUDFLARE_EMAIL_TOKEN (see notify.FromEnv), NEWSLETTER_FROM (the
-// newsletter's sender, default newsletter@ NOTIFY_FROM's domain) and SITE_URL (the start of
+// newsletter's sender, default newsletter@sawirstudio.com) and SITE_URL (the start of
 // the links in the newsletter's emails, default https://sawirstudio.com). In development,
 // serve the repo instead:
 //
@@ -29,7 +29,6 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
-	"strings"
 	"syscall"
 	"time"
 
@@ -144,12 +143,7 @@ func mailer(log *slog.Logger) server.Notifier {
 }
 
 func newsletter(pool *pgxpool.Pool, n server.Notifier) *server.Subscribers {
-	from := os.Getenv("NEWSLETTER_FROM")
-	if from == "" {
-		if _, domain, ok := strings.Cut(os.Getenv("NOTIFY_FROM"), "@"); ok {
-			from = "newsletter@" + domain
-		}
-	}
+	from := envOr("NEWSLETTER_FROM", "newsletter@sawirstudio.com")
 	return server.NewSubscribers(pool, n, from, envOr("SITE_URL", "https://sawirstudio.com"))
 }
 

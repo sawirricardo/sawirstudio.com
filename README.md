@@ -154,7 +154,7 @@ our server. The server keeps the list in the `subscribers` table, with double op
 
 Emails go out through Amazon SES (ap-southeast-1, where `sawirstudio.com` is a verified domain with DKIM and
 the MAIL FROM domain `bounce.sawirstudio.com`, and the account has production access), from `NEWSLETTER_FROM`
-(default `newsletter@` `NOTIFY_FROM`'s domain). `/etc/sawirstudio/env` sets `SES_REGION=ap-southeast-1` and
+(default `newsletter@sawirstudio.com`; replies go to Lark, which has the apex's mail). `/etc/sawirstudio/env` sets `SES_REGION=ap-southeast-1` and
 an IAM user's `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` (allowed only `ses:SendEmail` from
 sawirstudio.com); the inquiry emails then go through SES too. Without `SES_REGION` the server uses
 Cloudflare's email API as before, which on the Workers Free plan only reaches the account's verified

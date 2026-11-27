@@ -29,8 +29,7 @@ type Subscribers struct {
 	pool *pgxpool.Pool
 	q    *db.Queries
 	mail Notifier // nil: signups answer 503, since nobody could confirm
-	// From is the address the newsletter's emails come from, like
-	// newsletter@notify.sawirstudio.com.
+	// From is the address the newsletter's emails come from, like newsletter@sawirstudio.com.
 	From string
 	// SiteURL starts the links in the emails (not the request's Host, which a client sets).
 	SiteURL string
