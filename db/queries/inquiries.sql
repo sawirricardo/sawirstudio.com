@@ -11,3 +11,11 @@ limit $1;
 -- name: CountRecentInquiriesFromIP :one
 select count(*) from inquiries
 where ip = $1 and created_at > now() - make_interval(mins => sqlc.arg(minutes)::int);
+
+-- name: MarkInquiryNotified :exec
+update inquiries set notified_at = now() where id = $1;
+
+-- name: ListUnnotifiedInquiries :many
+select * from inquiries
+where notified_at is null and created_at > now() - interval '7 days'
+order by created_at;

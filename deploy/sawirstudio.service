@@ -1,7 +1,8 @@
 # /etc/systemd/system/sawirstudio.service on ricardosawir1: sawirstudio.com, reached through the
 # Cloudflare tunnel (sawirstudio.com -> http://127.0.0.1:8098). Installed by `make deploy`.
 # /etc/sawirstudio/env sets DATABASE_URL (its own database on the shared Postgres,
-# 127.0.0.1:5432); without it the site serves and the contact form API answers 503.
+# 127.0.0.1:5432); without it the site serves and the contact form API answers 503. It also
+# sets the inquiry email settings (CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_EMAIL_TOKEN, NOTIFY_FROM, NOTIFY_TO).
 [Unit]
 Description=Sawir Studio website
 After=network-online.target postgresql.service

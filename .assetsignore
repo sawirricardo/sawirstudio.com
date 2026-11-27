@@ -6,8 +6,6 @@ node_modules
 .assetsignore
 .gitignore
 README.md
-wrangler.jsonc
-worker.js
 scripts
 i18n
 # Go builder and server (source, not site files)

@@ -116,9 +116,17 @@ The form is `internal/site/inquiry.templ`. `inquiry_api` in `content/site.yaml` 
   `name` is that question's `entry.<id>`; get new IDs with
   `gog forms raw 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`, and read responses with
   `gog forms responses list 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`.
-- `/api/inquiries`: our server, which checks the fields, drops bots (a hidden `website` field), allows
+- `/api/inquiries` (now): our server, which checks the fields, drops bots (a hidden `website` field), allows
   5 inquiries per IP address per 10 minutes, and stores them in the `inquiries` table. Read them with
   `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
+
+Each new inquiry is also emailed to `NOTIFY_TO`, with Reply-To set to the inquirer, so replying answers
+them. It goes out through Cloudflare's email REST API from `inquiries@notify.sawirstudio.com`: Email
+Routing is on for the `notify` subdomain only (the apex's mail stays with Lark), and a routing domain may
+send to the account's verified destination addresses. `/etc/sawirstudio/env` on the server sets
+`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_EMAIL_TOKEN` (an account API token with Email Sending permission),
+`NOTIFY_FROM` and `NOTIFY_TO`; without them the server stores inquiries and logs that emails are off.
+`notified_at` records when an email went out; at start the server sends any from the last week that didn't.
 
 After changing it, run `make site` (every language's contact page changes) and deploy.
 
@@ -154,8 +162,4 @@ Cloudflare sits in front. Nothing is fingerprinted, so every file is sent with
 `Cache-Control: public, max-age=0, must-revalidate` and an ETag: Cloudflare and browsers recheck it each
 time (a 304 when unchanged), and a deploy shows up at once. Markdown answers are `private, no-store`, since
 Cloudflare's cache doesn't vary on `Accept`. `make deploy` also purges sawirstudio.com from Cloudflare's
-cache when `CLOUDFLARE_ZONE_ID` and `CLOUDFLARE_API_TOKEN` (Cache Purge permission) are set.
-
-Until sawirstudio.com's DNS points at the tunnel, visitors still get the old Cloudflare Worker
-(`wrangler.jsonc`, `worker.js`). Don't deploy the Worker again: the pages' contact form now posts to
-`/api/inquiries`, which only the Go server has. Delete both files once the tunnel serves the site.
+cache with the Cloudflare CLI (`cf`).

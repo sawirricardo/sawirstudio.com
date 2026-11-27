@@ -11,13 +11,14 @@ import (
 )
 
 type Inquiry struct {
-	ID        int64              `json:"id"`
-	Name      string             `json:"name"`
-	Email     string             `json:"email"`
-	Company   string             `json:"company"`
-	Needs     []string           `json:"needs"`
-	Message   string             `json:"message"`
-	Ip        *netip.Addr        `json:"ip"`
-	UserAgent string             `json:"user_agent"`
-	CreatedAt pgtype.Timestamptz `json:"created_at"`
+	ID         int64              `json:"id"`
+	Name       string             `json:"name"`
+	Email      string             `json:"email"`
+	Company    string             `json:"company"`
+	Needs      []string           `json:"needs"`
+	Message    string             `json:"message"`
+	Ip         *netip.Addr        `json:"ip"`
+	UserAgent  string             `json:"user_agent"`
+	CreatedAt  pgtype.Timestamptz `json:"created_at"`
+	NotifiedAt pgtype.Timestamptz `json:"notified_at"`
 }

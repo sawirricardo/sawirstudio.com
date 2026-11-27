@@ -56,13 +56,11 @@ deploy: dist         ## copy the binary to the server, restart, check, purge Clo
 	  journalctl -u sawirstudio -n 20 --no-pager; exit 1'
 	@$(MAKE) --no-print-directory purge
 
-# Empties Cloudflare's cache for sawirstudio.com (not the zone's other sites), so the new pages show right away. Needs
-# CLOUDFLARE_ZONE_ID and CLOUDFLARE_API_TOKEN (a token with Cache Purge permission).
+# Empties Cloudflare's cache for sawirstudio.com (not the zone's other sites), with the
+# Cloudflare CLI (cf, logged in with `cf login`). Pages revalidate anyway; this clears
+# anything cached from before.
 purge:
-	@if [ -z "$$CLOUDFLARE_ZONE_ID" ] || [ -z "$$CLOUDFLARE_API_TOKEN" ]; then \
-	  echo "Skipped the Cloudflare purge (set CLOUDFLARE_ZONE_ID and CLOUDFLARE_API_TOKEN)"; \
-	else \
-	  curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/$$CLOUDFLARE_ZONE_ID/purge_cache" \
-	    -H "Authorization: Bearer $$CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
-	    --data '{"hosts":["sawirstudio.com","www.sawirstudio.com"]}' >/dev/null && echo "Purged Cloudflare's cache"; \
-	fi
+	@if command -v cf >/dev/null; then \
+	  CLOUDFLARE_ACCOUNT_ID=86f68a8538a53cfcfdafb6f89f9c57d1 cf cache purge -q -z sawirstudio.com --force \
+	    --body '{"hosts":["sawirstudio.com","www.sawirstudio.com"]}' >/dev/null && echo "Purged Cloudflare's cache"; \
+	else echo "Skipped the Cloudflare purge (no cf CLI)"; fi

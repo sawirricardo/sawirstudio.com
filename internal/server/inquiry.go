@@ -4,26 +4,99 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
+	"log/slog"
 	"net"
 	"net/http"
 	"net/mail"
 	"net/netip"
 	"strings"
+	"sync"
+	"time"
 	"unicode/utf8"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
 	"github.com/sawirricardo/sawirstudio.com/internal/db"
+	"github.com/sawirricardo/sawirstudio.com/internal/notify"
 )
 
-// Inquiries stores contact-form inquiries in Postgres.
+// Inquiries stores contact-form inquiries in Postgres, and emails each new one.
 type Inquiries struct {
-	pool *pgxpool.Pool
-	q    *db.Queries
+	pool   *pgxpool.Pool
+	q      *db.Queries
+	notify Notifier
+	wg     sync.WaitGroup
 }
 
-func NewInquiries(pool *pgxpool.Pool) *Inquiries {
-	return &Inquiries{pool: pool, q: db.New(pool)}
+// Notifier sends the email about a new inquiry (notify.Mailer).
+type Notifier interface {
+	Send(ctx context.Context, msg notify.Message) error
+}
+
+// NewInquiries stores inquiries in pool; with a Notifier it also emails them.
+func NewInquiries(pool *pgxpool.Pool, n Notifier) *Inquiries {
+	return &Inquiries{pool: pool, q: db.New(pool), notify: n}
+}
+
+// Wait waits for notifications still being sent (at shutdown, and in tests).
+func (in *Inquiries) Wait() { in.wg.Wait() }
+
+// sendNotification emails a stored inquiry in the background, so a slow mail API doesn't
+// hold up the visitor, and records when it went out.
+func (in *Inquiries) sendNotification(log *slog.Logger, id int64, inq inquiryInput, created time.Time) {
+	if in.notify == nil {
+		return
+	}
+	in.wg.Add(1)
+	go func() {
+		defer in.wg.Done()
+		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+		defer cancel()
+		if err := in.notify.Send(ctx, inquiryEmail(id, inq, created)); err != nil {
+			log.Error("inquiry email", "id", id, "err", err)
+			return
+		}
+		if err := in.q.MarkInquiryNotified(ctx, id); err != nil {
+			log.Error("inquiry notified_at", "id", id, "err", err)
+		}
+	}()
+}
+
+// SendPending emails the inquiries of the last week whose email didn't go out (no token
+// yet, or Cloudflare failed). The server runs it at start.
+func (in *Inquiries) SendPending(ctx context.Context, log *slog.Logger) {
+	if in.notify == nil {
+		return
+	}
+	rows, err := in.q.ListUnnotifiedInquiries(ctx)
+	if err != nil {
+		log.Error("pending inquiry emails", "err", err)
+		return
+	}
+	for _, r := range rows {
+		log.Info("sending a pending inquiry email", "id", r.ID)
+		in.sendNotification(log, r.ID, inquiryInput{Name: r.Name, Email: r.Email, Company: r.Company, Message: r.Message, Needs: r.Needs}, r.CreatedAt.Time)
+		in.wg.Wait() // one at a time
+	}
+}
+
+func inquiryEmail(id int64, in inquiryInput, created time.Time) notify.Message {
+	subject := "New inquiry from " + in.Name
+	if in.Company != "" {
+		subject += " (" + in.Company + ")"
+	}
+	var b strings.Builder
+	fmt.Fprintf(&b, "Name:    %s\nEmail:   %s\n", in.Name, in.Email)
+	if in.Company != "" {
+		fmt.Fprintf(&b, "Company: %s\n", in.Company)
+	}
+	if len(in.Needs) > 0 {
+		fmt.Fprintf(&b, "Needs:   %s\n", strings.Join(in.Needs, ", "))
+	}
+	fmt.Fprintf(&b, "\n%s\n\n-- \nInquiry #%d, sent %s from the sawirstudio.com contact form.\nReply to this email to answer %s.\n",
+		in.Message, id, created.UTC().Format("2 Jan 2006 15:04 MST"), in.Name)
+	return notify.Message{Subject: subject, Text: b.String(), ReplyTo: in.Email, ReplyToName: in.Name}
 }
 
 func (in *Inquiries) Ping(ctx context.Context) error { return in.pool.Ping(ctx) }
@@ -130,6 +203,7 @@ func inquiryHandler(cfg Config) http.Handler {
 			return
 		}
 		cfg.Log.Info("inquiry", "id", row.ID, "email", in.Email)
+		cfg.Inquiries.sendNotification(cfg.Log, row.ID, in, row.CreatedAt.Time)
 		reply(http.StatusCreated, "Your inquiry has been sent.")
 	})
 }

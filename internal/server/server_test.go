@@ -2,15 +2,19 @@ package server
 
 import (
 	"context"
+	"log/slog"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"testing"
 
 	"github.com/jackc/pgx/v5/pgxpool"
+
+	"github.com/sawirricardo/sawirstudio.com/internal/notify"
 )
 
 func site(t *testing.T) string {
@@ -149,7 +153,9 @@ func TestInquiries(t *testing.T) {
 	if _, err := pool.Exec(ctx, "truncate inquiries"); err != nil {
 		t.Fatal(err)
 	}
-	h, err := New(Config{Site: os.DirFS(site(t)), Inquiries: NewInquiries(pool)})
+	mail := &fakeMailer{}
+	inq := NewInquiries(pool, mail)
+	h, err := New(Config{Site: os.DirFS(site(t)), Inquiries: inq})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -173,6 +179,21 @@ func TestInquiries(t *testing.T) {
 		t.Errorf("stored %q %q %v", name, company, needs)
 	}
 
+	inq.Wait()
+	if len(mail.sent) != 1 {
+		t.Fatalf("%d emails, want 1", len(mail.sent))
+	}
+	m := mail.sent[0]
+	if m.Subject != "New inquiry from Ana (Acme)" || m.ReplyTo != "ana@example.com" ||
+		!strings.Contains(m.Text, "We need a site.") || !strings.Contains(m.Text, "Website, Design") {
+		t.Errorf("email: %+v", m)
+	}
+	var notified bool
+	pool.QueryRow(ctx, "select notified_at is not null from inquiries").Scan(&notified)
+	if !notified {
+		t.Error("notified_at should be set after the email went out")
+	}
+
 	// Without JavaScript the browser gets a page back.
 	if rec := post(good, "text/html"); rec.Code != 201 || !strings.Contains(rec.Body.String(), "Thanks!") {
 		t.Errorf("html reply: %d %s", rec.Code, rec.Body)
@@ -191,6 +212,19 @@ func TestInquiries(t *testing.T) {
 	if rec := post(bot, "application/json"); rec.Code != 200 {
 		t.Errorf("honeypot: %d, want a quiet 200", rec.Code)
 	}
+
+	inq.Wait()
+	if len(mail.sent) != 2 {
+		t.Errorf("%d emails, want 2 (none for bots or invalid inquiries)", len(mail.sent))
+	}
+	// An inquiry whose email didn't go out is sent at the next start.
+	pool.Exec(ctx, "update inquiries set notified_at = null where email = 'ana@example.com' and id = (select min(id) from inquiries)")
+	inq.SendPending(ctx, slog.New(slog.DiscardHandler))
+	inq.Wait()
+	if len(mail.sent) != 3 {
+		t.Errorf("%d emails after SendPending, want 3", len(mail.sent))
+	}
+	mail.sent = mail.sent[:2]
 
 	var n int
 	pool.QueryRow(ctx, "select count(*) from inquiries").Scan(&n)
@@ -211,4 +245,16 @@ func TestNoSite(t *testing.T) {
 	if _, err := New(Config{Site: os.DirFS(t.TempDir())}); err == nil {
 		t.Error("a site without index.html should be refused")
 	}
+}
+
+type fakeMailer struct {
+	mu   sync.Mutex
+	sent []notify.Message
+}
+
+func (f *fakeMailer) Send(_ context.Context, m notify.Message) error {
+	f.mu.Lock()
+	defer f.mu.Unlock()
+	f.sent = append(f.sent, m)
+	return nil
 }

@@ -5,7 +5,8 @@
 //	sawirstudio-server migrate    only apply migrations
 //
 // Settings come from the environment: DATABASE_URL (without it the contact API answers
-// 503), ADDR (default 127.0.0.1:8098). In development, serve the repo instead:
+// 503), ADDR (default 127.0.0.1:8098), and for an email about each new inquiry
+// CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_EMAIL_TOKEN, NOTIFY_FROM and NOTIFY_TO (see notify). In development, serve the repo instead:
 //
 //	go run ./cmd/server -root .
 package main
@@ -26,6 +27,7 @@ import (
 
 	sawirstudio "github.com/sawirricardo/sawirstudio.com"
 	"github.com/sawirricardo/sawirstudio.com/internal/migrate"
+	"github.com/sawirricardo/sawirstudio.com/internal/notify"
 	"github.com/sawirricardo/sawirstudio.com/internal/server"
 )
 
@@ -78,7 +80,15 @@ func main() {
 			os.Exit(1)
 		}
 		defer pool.Close()
-		cfg.Inquiries = server.NewInquiries(pool)
+		var notifier server.Notifier
+		if m, missing := notify.FromEnv(); m != nil {
+			notifier = m
+		} else {
+			log.Warn("inquiry emails are off", "missing", missing)
+		}
+		cfg.Inquiries = server.NewInquiries(pool, notifier)
+		defer cfg.Inquiries.Wait() // let emails still being sent finish
+		go cfg.Inquiries.SendPending(ctx, log)
 	} else {
 		log.Warn("DATABASE_URL is not set; the contact form API is off")
 	}

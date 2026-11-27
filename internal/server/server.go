@@ -1,5 +1,5 @@
 // Package server serves sawirstudio.com: the built site (embedded in the binary, or a folder
-// in development), the same way the Cloudflare worker (worker.js) did, plus the contact
+// in development), the same way the old Cloudflare Worker did, plus the contact
 // form's API. Cloudflare sits in front and caches; the Cache-Control headers here say what
 // it may keep.
 package server
@@ -88,7 +88,7 @@ func New(cfg Config) (http.Handler, error) {
 	return logRequests(cfg, secureHeaders(httpsOnly(cfg, mux))), nil
 }
 
-// static serves the site's files. Like worker.js, it answers Accept: text/markdown with a
+// static serves the site's files. Like the old Worker, it answers Accept: text/markdown with a
 // page's index.md, and points to the Markdown copy, llms.txt and the sitemap in Link headers.
 type static struct {
 	site      fs.FS

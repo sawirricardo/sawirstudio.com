@@ -66,7 +66,7 @@ func (q *Queries) CreateInquiry(ctx context.Context, arg CreateInquiryParams) (C
 }
 
 const listInquiries = `-- name: ListInquiries :many
-select id, name, email, company, needs, message, ip, user_agent, created_at from inquiries
+select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at from inquiries
 order by created_at desc
 limit $1
 `
@@ -90,6 +90,7 @@ func (q *Queries) ListInquiries(ctx context.Context, limit int32) ([]Inquiry, er
 			&i.Ip,
 			&i.UserAgent,
 			&i.CreatedAt,
+			&i.NotifiedAt,
 		); err != nil {
 			return nil, err
 		}
@@ -99,4 +100,50 @@ func (q *Queries) ListInquiries(ctx context.Context, limit int32) ([]Inquiry, er
 		return nil, err
 	}
 	return items, nil
+}
+
+const listUnnotifiedInquiries = `-- name: ListUnnotifiedInquiries :many
+select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at from inquiries
+where notified_at is null and created_at > now() - interval '7 days'
+order by created_at
+`
+
+func (q *Queries) ListUnnotifiedInquiries(ctx context.Context) ([]Inquiry, error) {
+	rows, err := q.db.Query(ctx, listUnnotifiedInquiries)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	var items []Inquiry
+	for rows.Next() {
+		var i Inquiry
+		if err := rows.Scan(
+			&i.ID,
+			&i.Name,
+			&i.Email,
+			&i.Company,
+			&i.Needs,
+			&i.Message,
+			&i.Ip,
+			&i.UserAgent,
+			&i.CreatedAt,
+			&i.NotifiedAt,
+		); err != nil {
+			return nil, err
+		}
+		items = append(items, i)
+	}
+	if err := rows.Err(); err != nil {
+		return nil, err
+	}
+	return items, nil
+}
+
+const markInquiryNotified = `-- name: MarkInquiryNotified :exec
+update inquiries set notified_at = now() where id = $1
+`
+
+func (q *Queries) MarkInquiryNotified(ctx context.Context, id int64) error {
+	_, err := q.db.Exec(ctx, markInquiryNotified, id)
+	return err
 }
