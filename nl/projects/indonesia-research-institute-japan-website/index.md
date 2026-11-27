@@ -28,8 +28,6 @@ Wij bouwden de bedrijfswebsite met alle diensten, rapporten en seminars, nieuws,
 
 IRIJ verkoopt expertise, dus de website is gebouwd om die expertise te bewijzen. In het nieuwsgedeelte publiceert het instituut eigen onderzoeksnotities over de Indonesische markten. Zo hebben Japanse bedrijven een reden om terug te komen en krijgen ze een beeld van het werk nog voordat ze een offerte aanvragen.
 
-**Gebouwd met** WordPress
-
 - **Klant** Indonesia Research Institute Japan
 - **Website-URL** <https://irij-jakarta.com>
 

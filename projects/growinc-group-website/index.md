@@ -28,8 +28,6 @@ We designed and built Growinc’s corporate website between December 2019 and Ma
 
 An agency group sells people and results, not a product, so the page leads with what Growinc believes, then proves it with services, real campaigns and named leaders. Keeping it to one scrolling page lets a prospective client see the whole group in a minute, and the WhatsApp button turns interest into a conversation. Six years on, the site is still Growinc’s home on the web.
 
-**Built with** PHP, Bootstrap and jQuery
-
 - **Client** PT Growinc Group Indonesia
 - **Website URL** <https://growinc.id>
 

@@ -24,9 +24,7 @@ Wir haben die Website der Klinik gestaltet und entwickelt. Sie stellt Behandlung
 
 ## Unser Vorgehen
 
-Die meisten Patienten finden die Klinik über die Suche nach einem Hautarzt in Mataram, und in Indonesien buchen sie per Chat, nicht per Formular. Deshalb zielen Seitentitel und Beschreibungen auf lokale Suchanfragen, und der Hauptbutton auf jeder Seite öffnet WhatsApp. Zuerst haben wir die Website mit Next.js gebaut, später als schnelle statische Seiten auf Cloudflare neu aufgesetzt.
-
-**Umgesetzt mit** HTML, Tailwind CSS und Cloudflare
+Die meisten Patientinnen und Patienten finden die Klinik, indem sie nach einem Hautarzt in Mataram suchen, und in Indonesien bucht man per Chat, nicht per Formular. Deshalb sind Seitentitel und Beschreibungen auf lokale Suchanfragen ausgerichtet, und der wichtigste Button auf jeder Seite öffnet WhatsApp. Später haben wir die Website mit statischen Seiten neu aufgebaut, sodass jede Seite schnell lädt.
 
 Für den Klinikalltag haben wir außerdem [MyVivaldy](https://sawirstudio.com/de/projects/myvivaldy/) entwickelt, das System, auf dem die Klinik läuft, samt Patienten-App für iPhone und Android.
 

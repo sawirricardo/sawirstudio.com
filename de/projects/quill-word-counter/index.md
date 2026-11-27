@@ -16,8 +16,6 @@ Er ist kostenlos und läuft in Ihrem Browser: Der Text, den Sie eingeben, wird n
 
 ![Quill Word Counter zählt einen kurzen Entwurf](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Entwickelt mit** Quill und Alpine.js
-
 - **Kunde** Unser eigenes Produkt
 - **Plattformen** Web
 - **Preis** Kostenlos

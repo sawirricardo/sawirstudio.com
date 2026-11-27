@@ -16,8 +16,6 @@ Quill Word Counter 是一个写作输入框，提供写作者最常查看的统�
 
 ![Quill Word Counter 正在统计一份简短的草稿](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**技术栈** Quill 和 Alpine.js
-
 - **客户** 我们自己的产品
 - **平台** 网页
 - **价格** 免费

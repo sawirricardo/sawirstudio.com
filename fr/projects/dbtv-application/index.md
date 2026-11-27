@@ -30,8 +30,6 @@ Nous avons développé l’application DBTV pour iOS et Android, afin que la com
 
 Un ministère publie quelque chose de nouveau chaque jour : l’application ne fige donc rien dans son code. Méditations, prédications et événements viennent de la plateforme de DBTV et apparaissent sans mise à jour de l’application. Lorsque l’application elle-même évolue, elle invite les utilisateurs à la mettre à jour : toute la communauté reste ainsi sur la même version et personne ne reste bloqué avec un ancien bug.
 
-**Développé avec** Expo (React Native)
-
 ![Capture d’écran 1 de l’application DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![Capture d’écran 2 de l’application DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![Capture d’écran 3 de l’application DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

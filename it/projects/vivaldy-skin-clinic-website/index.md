@@ -24,9 +24,7 @@ Abbiamo progettato e realizzato il sito web della clinica, che presenta i tratta
 
 ## Come ci siamo approcciati al progetto
 
-La maggior parte dei pazienti trova la clinica cercando uno specialista della pelle a Mataram e, in Indonesia, si prenota in chat, non con un modulo. Per questo i titoli e le descrizioni delle pagine puntano alle ricerche locali e il pulsante principale di ogni pagina apre WhatsApp. Il sito è nato in Next.js e in seguito l'abbiamo ricostruito con pagine statiche veloci su Cloudflare.
-
-**Tecnologie utilizzate** HTML, Tailwind CSS e Cloudflare
+La maggior parte dei pazienti trova la clinica cercando uno specialista della pelle a Mataram, e in Indonesia si prenota via chat, non tramite un modulo. Per questo i titoli e le descrizioni delle pagine puntano alle ricerche locali, e il pulsante principale di ogni pagina apre WhatsApp. In seguito abbiamo ricostruito il sito con pagine statiche, così ogni pagina si carica velocemente.
 
 Per l'attività quotidiana della clinica abbiamo realizzato anche [MyVivaldy](https://sawirstudio.com/it/projects/myvivaldy/), il sistema su cui lavora la clinica e la sua app per i pazienti, per iPhone e Android.
 

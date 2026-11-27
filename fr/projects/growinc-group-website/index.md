@@ -28,8 +28,6 @@ Nous avons conçu et développé le site web institutionnel de Growinc entre dé
 
 Un groupe d'agences vend des personnes et des résultats, pas un produit. La page commence donc par ce en quoi Growinc croit, puis le prouve avec des services, de vraies campagnes et des dirigeants nommés. Tenir sur une seule page à défilement permet à un client potentiel de voir tout le groupe en une minute, et le bouton WhatsApp transforme l'intérêt en conversation. Six ans plus tard, le site reste la vitrine de Growinc sur le web.
 
-**Technologies utilisées** PHP, Bootstrap et jQuery
-
 - **Client** PT Growinc Group Indonesia
 - **URL du site** <https://growinc.id>
 

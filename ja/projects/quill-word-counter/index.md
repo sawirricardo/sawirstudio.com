@@ -16,8 +16,6 @@ Instagram のキャプション、Facebook の投稿、X の投稿、短いブ�
 
 ![短い下書きの文字数を数えている Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**使用技術** Quill と Alpine.js
-
 - **クライアント** 自社プロダクト
 - **対応プラットフォーム** ウェブ
 - **料金** 無料

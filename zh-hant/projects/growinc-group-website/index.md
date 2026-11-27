@@ -28,8 +28,6 @@ Growinc Group Indonesia 是位於雅加達的整合行銷與廣告集團，旗�
 
 廣告集團賣的是人才與成果，而不是單一產品，所以頁面先說明 Growinc 的理念，再以服務項目、實際的行銷活動和具名的領導者來佐證。整站濃縮在同一個捲動頁面，潛在客戶一分鐘內就能看完整個集團，而 WhatsApp 按鈕則能把興趣轉為對話。六年過去，這個網站依然是 Growinc 在網路上的門面。
 
-**使用技術** PHP、Bootstrap 和 jQuery
-
 - **客戶** PT Growinc Group Indonesia
 - **網站網址** <https://growinc.id>
 

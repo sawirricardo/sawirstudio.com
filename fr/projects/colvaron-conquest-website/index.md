@@ -33,8 +33,6 @@ Nous avons aussi conçu et développé le site web du jeu, où les joueurs déco
 
 Un jeu de cartes à collectionner se vend grâce à ses illustrations : le site se met donc en retrait, avec des pages sombres, de grandes illustrations de cartes et des filtres qui répondent instantanément. En coulisses, le site est conçu pour le référencement. Les titres et les descriptions ciblent les expressions que recherchent les joueurs de cartes, chaque page figure dans un sitemap complet et, comme Facebook, X et WhatsApp ne peuvent pas afficher les images AVIF du site, la génération du site crée une image de partage JPEG pour chaque page.
 
-**Réalisé avec** Astro, Tailwind CSS et Cloudflare Pages
-
 ![Galerie de cartes de Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **Rôle** Éditeur ; nous avons aussi développé le site web et le jeu en ligne

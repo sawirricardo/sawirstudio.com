@@ -27,8 +27,6 @@ Wir haben die Plattform von Anfang bis Ende umgesetzt: eine Shopping-App für Ku
 
 Ein traditioneller Markt funktioniert nicht wie ein Supermarkt: Jeder Stand hat seine eigenen Zeiten, die Preise ändern sich mit der Saison, und ein Kilo Chilis ist kein ordentlich abgepacktes Produkt. Deshalb bildet die Plattform Märkte, Stände und Einheiten direkt ab, statt sie in einen allgemeinen Online-Shop zu pressen. Auf demselben Backend entstand später ein Großhandelsbereich für Geschäftskunden. An Kantong Sayur haben wir von 2021 bis 2025 gearbeitet.
 
-**Umgesetzt mit** Flutter, Firebase, Laravel und Filament
-
 - **Kunde** KantongSayur
 
 ## Weitere Projekte

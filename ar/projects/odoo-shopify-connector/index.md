@@ -28,8 +28,6 @@ description: موصل Shopify مفتوح المصدر لـ Odoo 19 Community، �
 
 هل ترغبون في إعداده أو تطويره لمتاجركم؟ اطلعوا على [تكاملات Shopify](https://sawirstudio.com/ar/shopify/)، أو [Odoo وأنظمة الأعمال](https://sawirstudio.com/ar/odoo/) للاطلاع على خدماتنا مع Odoo نفسه.
 
-**بُني باستخدام** Python و Odoo 19 و Shopify GraphQL Admin API
-
 - **المشروع** Odoo Community Association (OCA)
 - **الرخصة** AGPL-3
 - **الشيفرة المصدرية** <https://github.com/OCA/connector-shopify>

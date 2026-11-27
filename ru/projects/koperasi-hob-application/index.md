@@ -28,8 +28,6 @@ Koperasi HOB — кооператив, который продаёт своим 
 
 Участники кооператива — это соседи и коллеги, а не анонимные покупатели, поэтому в приложении как можно меньше шагов: выбрать товары, выбрать доставку или самовывоз, оплатить. Самая сложная работа скрыта внутри. Остатки учитываются по каждому магазину и проверяются ещё раз при оформлении заказа, поэтому никто не заплатит за товар, который только что закончился. А стоимость доставки рассчитывается по зонам, которые кооператив настраивает сам, а не по тарифам курьерской службы.
 
-**Технологии** Expo (React Native), Laravel, Filament и iPaymu
-
 ![Скриншот приложения Koperasi HOB 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Скриншот приложения Koperasi HOB 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Скриншот приложения Koperasi HOB 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

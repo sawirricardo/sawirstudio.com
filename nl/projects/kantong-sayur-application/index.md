@@ -27,8 +27,6 @@ We bouwden het platform van begin tot eind: een shopping-app voor klanten, een a
 
 Een traditionele markt werkt niet zoals een supermarkt: elke kraam heeft eigen openingstijden, prijzen schommelen met het seizoen en een kilo chilipepers is geen netjes verpakt product. Daarom modelleert het platform markten, kramen en eenheden direct, in plaats van ze in een standaardwebshop te proppen. Dezelfde backend kreeg later een groothandelskant voor zakelijke klanten. We werkten van 2021 tot 2025 aan Kantong Sayur.
 
-**Gebouwd met** Flutter, Firebase, Laravel en Filament
-
 - **Klant** KantongSayur
 
 ## Meer projecten

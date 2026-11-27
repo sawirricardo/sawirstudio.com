@@ -28,8 +28,6 @@ Zwischen Dezember 2019 und März 2020 haben wir die Unternehmenswebsite von Grow
 
 Eine Agenturgruppe verkauft Menschen und Ergebnisse, kein Produkt. Deshalb beginnt die Seite mit dem, woran Growinc glaubt, und belegt es dann mit Leistungen, echten Kampagnen und namentlich genannten Führungskräften. Dank der einen scrollbaren Seite sieht ein potenzieller Kunde die ganze Gruppe in einer Minute, und der WhatsApp-Button macht aus Interesse ein Gespräch. Sechs Jahre später ist die Website weiterhin Growincs Zuhause im Web.
 
-**Umgesetzt mit** PHP, Bootstrap und jQuery
-
 - **Kunde** PT Growinc Group Indonesia
 - **Website-URL** <https://growinc.id>
 

@@ -25,8 +25,6 @@ Wij ontwierpen en bouwden de website rond dat productaanbod, met een pagina voor
 
 De kopers van SPP weten meestal al welke pomp ze nodig hebben. Daarom staat elk type pomp direct in het menu, beantwoordt elke pagina één product en zit de manier om te bellen of te mailen nooit verder weg dan een scroll.
 
-**Gebouwd met** WordPress
-
 - **Klant** PT SPP Indonesia
 - **Website-URL** <https://sppindonesia.co.id>
 

@@ -16,8 +16,6 @@ Quill Word Counter — это поле для письма с теми подс�
 
 ![Quill Word Counter считает слова в коротком черновике](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Создан на** Quill и Alpine.js
-
 - **Клиент** Наш собственный продукт
 - **Платформы** Web
 - **Стоимость** Бесплатно

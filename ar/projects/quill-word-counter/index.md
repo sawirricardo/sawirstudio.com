@@ -16,8 +16,6 @@ Quill Word Counter مساحة كتابة تعرض الأرقام التي يرا
 
 ![Quill Word Counter وهو يحسب كلمات مسودة قصيرة](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**بُني باستخدام** Quill و Alpine.js
-
 - **العميل** منتج من تطويرنا
 - **المنصات** الويب
 - **السعر** مجاني

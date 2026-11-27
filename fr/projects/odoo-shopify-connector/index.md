@@ -28,8 +28,6 @@ Une intégration juste la plupart du temps est une intégration fausse en compta
 
 Vous souhaitez le faire installer ou l’adapter à vos boutiques ? Découvrez nos [intégrations Shopify](https://sawirstudio.com/fr/shopify/), ou [Odoo et systèmes de gestion](https://sawirstudio.com/fr/odoo/) pour Odoo lui-même.
 
-**Technologies** Python, Odoo 19 et l’API GraphQL Admin de Shopify
-
 - **Projet** Odoo Community Association (OCA)
 - **Licence** AGPL-3
 - **Code source** <https://github.com/OCA/connector-shopify>

@@ -1062,6 +1062,20 @@ h1.page-title.heavy {
   color: var(--ink);
   background: var(--surface-muted);
 }
+.prose .pull-quote {
+  margin: 1.5em 0;
+}
+.prose .pull-quote blockquote {
+  margin: 0;
+}
+.prose .pull-quote figcaption {
+  margin-top: 0.5em;
+  font-weight: 700;
+  color: var(--ink);
+}
+.prose .pull-quote figcaption::before {
+  content: "\2014\00a0";
+}
 .prose code {
   padding: 0.1em 0.35em;
   border-radius: 0.35em;

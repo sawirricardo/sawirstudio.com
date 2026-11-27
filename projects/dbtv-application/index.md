@@ -30,8 +30,6 @@ We built the DBTV app for iOS and Android, so the congregation can follow the mi
 
 A ministry posts something new every day, so the app doesn’t hard-code any of it: devotionals, sermons and events all come from DBTV’s platform and appear without an app update. When the app itself does change, it asks people to update, so the whole congregation stays on the same version and nobody is stuck with an old bug.
 
-**Built with** Expo (React Native)
-
 ![DBTV app screenshot 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV app screenshot 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV app screenshot 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

@@ -28,8 +28,6 @@ Odoo Community Association (OCA) הוא הארגון ללא מטרות רווח 
 
 רוצים שנגדיר או נרחיב אותו עבור החנויות שלכם? ראו [אינטגרציות Shopify](https://sawirstudio.com/he/shopify/), או [Odoo ומערכות עסקיות](https://sawirstudio.com/he/odoo/) לעבודה על Odoo עצמו.
 
-**נבנה עם** Python, Odoo 19 ו-Shopify GraphQL Admin API
-
 - **פרויקט** Odoo Community Association (OCA)
 - **רישיון** AGPL-3
 - **קוד מקור** <https://github.com/OCA/connector-shopify>

@@ -28,8 +28,6 @@ We hebben de hele winkel gebouwd: de app voor leden, de API erachter en het behe
 
 De leden van een coöperatie zijn buren en collega's, geen anonieme klanten. Daarom houdt de app het kort: kies je producten, kies bezorgen of afhalen, betaal. Het lastige werk zit erachter. De voorraad wordt per winkel bijgehouden en bij het afrekenen nog een keer gecontroleerd, zodat niemand betaalt voor iets dat net is uitverkocht. En de verzendkosten komen uit zones die de coöperatie zelf instelt, in plaats van uit de prijslijst van een koerier.
 
-**Gebouwd met** Expo (React Native), Laravel, Filament en iPaymu
-
 ![Screenshot 1 van de Koperasi HOB-app](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Screenshot 2 van de Koperasi HOB-app](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Screenshot 3 van de Koperasi HOB-app](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

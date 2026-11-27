@@ -27,8 +27,6 @@ Nous avons construit la plateforme de A à Z : une application d’achat pour l
 
 Un marché traditionnel ne fonctionne pas comme un supermarché : chaque étal a ses propres horaires, les prix évoluent au fil des saisons, et un kilo de piments n’est pas un produit bien emballé. La plateforme modélise donc directement les marchés, les étals et les unités, au lieu de les faire entrer de force dans une boutique en ligne générique. Le même back-end a ensuite été étendu avec un volet de vente en gros pour les clients professionnels. Nous avons travaillé sur Kantong Sayur de 2021 à 2025.
 
-**Technologies** Flutter, Firebase, Laravel et Filament
-
 - **Client** KantongSayur
 
 ## Autres projets

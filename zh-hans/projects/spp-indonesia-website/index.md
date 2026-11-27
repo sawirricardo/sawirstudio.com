@@ -25,8 +25,6 @@ PT SPP Indonesia 专注于消防泵系统：端吸泵、水平中开泵、立式
 
 SPP 的买家通常已经清楚自己需要哪种泵。因此菜单直接列出所有泵型，每个页面只讲一种产品，打电话或发邮件的入口也始终在滚动一下就能找到的地方。
 
-**技术** WordPress
-
 - **客户** PT SPP Indonesia
 - **网站地址** <https://sppindonesia.co.id>
 

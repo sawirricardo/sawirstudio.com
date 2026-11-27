@@ -16,8 +16,6 @@ Het is gratis en werkt in je browser: de tekst die je typt wordt nergens naartoe
 
 ![Quill Word Counter telt een kort concept](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Gebouwd met** Quill en Alpine.js
-
 - **Klant** Ons eigen product
 - **Platforms** Web
 - **Prijs** Gratis

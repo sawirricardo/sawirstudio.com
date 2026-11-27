@@ -16,8 +16,6 @@ Quill Word Counter एक राइटिंग बॉक्स है, जि�
 
 ![एक छोटे ड्राफ़्ट की गिनती करता Quill Word Counter](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**इनसे बना है** Quill और Alpine.js
-
 - **क्लाइंट** हमारा अपना प्रोडक्ट
 - **प्लेटफ़ॉर्म** वेब
 - **कीमत** मुफ़्त

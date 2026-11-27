@@ -30,8 +30,6 @@ Wir haben die DBTV-App für iOS und Android entwickelt, damit die Gemeinde den D
 
 Ein Dienst veröffentlicht jeden Tag etwas Neues, deshalb ist in der App nichts fest eingebaut: Andachten, Predigten und Veranstaltungen kommen alle von der Plattform von DBTV und erscheinen ohne App-Update. Wenn sich die App selbst ändert, werden die Nutzer zum Update aufgefordert. So sind alle in der Gemeinde auf demselben Stand und niemand bleibt mit einem alten Fehler zurück.
 
-**Umgesetzt mit** Expo (React Native)
-
 ![DBTV-App-Screenshot 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV-App-Screenshot 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV-App-Screenshot 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

@@ -28,8 +28,6 @@ Odoo Community Association (OCA) — некоммерческая организ
 
 Хотите, чтобы мы настроили или доработали коннектор для ваших магазинов? Смотрите [интеграции с Shopify](https://sawirstudio.com/ru/shopify/) или [Odoo и бизнес-системы](https://sawirstudio.com/ru/odoo/), если вас интересует сам Odoo.
 
-**Технологии** Python, Odoo 19 и Shopify GraphQL Admin API
-
 - **Проект** Odoo Community Association (OCA)
 - **Лицензия** AGPL-3
 - **Исходный код** <https://github.com/OCA/connector-shopify>

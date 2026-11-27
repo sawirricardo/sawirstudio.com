@@ -24,9 +24,7 @@ Wij ontwierpen en bouwden de website van de kliniek, met de behandelingen, de sh
 
 ## Onze aanpak
 
-De meeste patiënten vinden de kliniek door te zoeken naar een huidspecialist in Mataram, en in Indonesië boek je via chat, niet via een formulier. Daarom zijn de paginatitels en beschrijvingen gericht op lokale zoekopdrachten, en opent de hoofdknop op elke pagina WhatsApp. Eerst bouwden we de site in Next.js, later bouwden we hem opnieuw als snelle statische pagina's op Cloudflare.
-
-**Gebouwd met** HTML, Tailwind CSS en Cloudflare
+De meeste patiënten vinden de kliniek door te zoeken naar een huidspecialist in Mataram, en in Indonesië maken ze een afspraak via chat, niet via een formulier. Daarom zijn de paginatitels en beschrijvingen gericht op lokale zoekopdrachten, en opent de belangrijkste knop op elke pagina WhatsApp. Later hebben we de site opnieuw gebouwd met statische pagina’s, zodat elke pagina snel laadt.
 
 Voor de dagelijkse gang van zaken in de kliniek bouwden we ook [MyVivaldy](https://sawirstudio.com/nl/projects/myvivaldy/), het systeem waarop de kliniek draait en de patiëntenapp voor iPhone en Android.
 

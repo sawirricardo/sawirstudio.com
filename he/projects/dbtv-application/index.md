@@ -30,8 +30,6 @@ DBTV הוא ערוץ המדיה של השירות של Ps. Debby Basjir, עם ד
 
 שירות כזה מפרסם משהו חדש בכל יום, ולכן האפליקציה לא מקודדת שום דבר מזה מראש: מדיטציות, דרשות ואירועים מגיעים כולם מהפלטפורמה של DBTV ומופיעים בלי עדכון אפליקציה. וכשהאפליקציה עצמה כן משתנה, היא מבקשת מהמשתמשים לעדכן, כך שכל הקהילה נשארת באותה גרסה אף אחד לא נתקע עם באג ישן.
 
-**נבנה עם** Expo (React Native)
-
 ![צילום מסך 1 של אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![צילום מסך 2 של אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![צילום מסך 3 של אפליקציית DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

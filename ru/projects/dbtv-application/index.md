@@ -30,8 +30,6 @@ DBTV — медиаканал служения Ps. Debby Basjir: пропове�
 
 Служение публикует что-то новое каждый день, поэтому в приложении ничего не зашито жёстко: размышления, проповеди и события приходят с платформы DBTV и появляются без обновления приложения. Когда меняется само приложение, оно предлагает обновиться, так что вся община работает на одной версии, и никто не остаётся со старой ошибкой.
 
-**Технологии:** Expo (React Native)
-
 ![Скриншот приложения DBTV 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![Скриншот приложения DBTV 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![Скриншот приложения DBTV 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

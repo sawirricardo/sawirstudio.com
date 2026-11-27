@@ -25,8 +25,6 @@ Wij ontwierpen en bouwden de website: een productcatalogus ingedeeld op categori
 
 De mensen die bij Fluindo kopen, zijn installatie-ingenieurs. Ze weten welk modelnummer ze nodig hebben en willen bewijs dat de leverancier het eerder heeft geïnstalleerd. Daarom kun je de catalogus zowel op merk als op categorie doorzoeken, en noemt elke projectreferentie de fabriek, de apparatuur en de maat in plaats van een vaag succesverhaal.
 
-**Gebouwd met** Next.js
-
 - **Klant** Fluindo Technology Indonesia
 - **Website-URL** <https://fluindo.co.id>
 

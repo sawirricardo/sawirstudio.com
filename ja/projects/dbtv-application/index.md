@@ -30,8 +30,6 @@ Sawir Studioは、会衆の皆さまがスマートフォンから活動をフ�
 
 教会活動では毎日新しい投稿があるため、アプリ内に内容を固定で組み込むことはしていません。デボーション、説教、イベントはすべてDBTVのプラットフォームから取得され、アプリを更新しなくても表示されます。アプリ自体に変更があるときは、アップデートを促す表示が出るので、会衆の皆さまが全員同じバージョンを使え、古い不具合に悩まされることもありません。
 
-**使用技術** Expo (React Native)
-
 ![DBTVアプリのスクリーンショット 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTVアプリのスクリーンショット 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTVアプリのスクリーンショット 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

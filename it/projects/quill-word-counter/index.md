@@ -16,8 +16,6 @@ Confronta inoltre il testo con la lunghezza della didascalia di Instagram, di un
 
 ![Quill Word Counter mentre conta le parole di una bozza breve](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Realizzato con** Quill e Alpine.js
-
 - **Cliente** Un nostro prodotto
 - **Piattaforme** Web
 - **Prezzo** Gratuito

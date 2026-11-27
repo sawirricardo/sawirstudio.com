@@ -25,8 +25,6 @@ Abbiamo progettato e realizzato il suo sito web attorno a questa gamma di prodot
 
 Chi acquista da SPP di solito sa già quale pompa gli serve. Per questo il menu elenca direttamente ogni tipo di pompa, ogni pagina risponde a un solo prodotto e il modo per telefonare o scrivere è sempre a una scrollata di distanza.
 
-**Realizzato con** WordPress
-
 - **Cliente** PT SPP Indonesia
 - **URL del sito** <https://sppindonesia.co.id>
 

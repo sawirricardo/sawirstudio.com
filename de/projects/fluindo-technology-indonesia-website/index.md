@@ -25,8 +25,6 @@ Wir haben die Website gestaltet und umgesetzt: einen Produktkatalog, geordnet na
 
 Wer bei Fluindo einkauft, ist Anlageningenieur. Diese Fachleute kennen die benötigte Modellnummer und wollen einen Beleg, dass der Lieferant sie bereits installiert hat. Deshalb lässt sich der Katalog sowohl nach Marke als auch nach Kategorie durchsuchen, und jede Projektreferenz nennt Anlage, Ausrüstung und Größe, statt eine vage Erfolgsgeschichte zu erzählen.
 
-**Umgesetzt mit** Next.js
-
 - **Kunde** Fluindo Technology Indonesia
 - **Website-URL** <https://fluindo.co.id>
 

@@ -28,8 +28,6 @@ Nous avons réalisé son site de présentation, avec ses services, ses rapports 
 
 IRIJ vend son expertise, le site est donc construit autour de la preuve de celle-ci. La rubrique d’actualités publie les propres notes de recherche de l’institut sur les marchés indonésiens, ce qui donne aux entreprises japonaises une raison de revenir et un aperçu de son travail avant même de demander un devis.
 
-**Réalisé avec** WordPress
-
 - **Client** Indonesia Research Institute Japan
 - **URL du site** <https://irij-jakarta.com>
 

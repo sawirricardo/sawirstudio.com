@@ -30,8 +30,6 @@ DBTV هي القناة الإعلامية لخدمة القس Debby Basjir، و�
 
 تنشر الخدمة محتوى جديدًا كل يوم، لذلك لا يحتفظ التطبيق بأي منه داخل الكود: التأملات والعظات والفعاليات كلها تأتي من منصة DBTV وتظهر دون الحاجة إلى تحديث التطبيق. وعندما يتغير التطبيق نفسه، يطلب من المستخدمين التحديث، فيبقى الجميع على الإصدار نفسه ولا يعلق أحد مع خطأ قديم.
 
-**بُني باستخدام** Expo (React Native)
-
 ![لقطة شاشة 1 من تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![لقطة شاشة 2 من تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![لقطة شاشة 3 من تطبيق DBTV](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

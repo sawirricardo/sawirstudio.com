@@ -27,8 +27,6 @@ Abbiamo realizzato la piattaforma end to end: un'app di acquisto per i clienti, 
 
 Un mercato tradizionale non funziona come un supermercato: ogni banco ha i suoi orari, i prezzi cambiano con la stagione e un chilo di peperoncini non è un prodotto già confezionato. Per questo la piattaforma gestisce direttamente mercati, banchi e unità di misura, invece di forzarli in un e-commerce generico. Lo stesso backend ha poi sviluppato anche una parte all'ingrosso per i clienti aziendali. Abbiamo lavorato a Kantong Sayur dal 2021 al 2025.
 
-**Realizzato con** Flutter, Firebase, Laravel e Filament
-
 - **Cliente** KantongSayur
 
 ## Altri progetti

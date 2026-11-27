@@ -28,8 +28,6 @@ Koperasi HOB تعاونية تبيع المستلزمات المنزلية ال�
 
 أعضاء التعاونية جيران وزملاء، وليسوا متسوقين مجهولين، لذلك أبقى التطبيق الخطوات قليلة: اختيار المنتجات، ثم التوصيل أو الاستلام، ثم الدفع. أما العمل الأصعب فيجري خلف الواجهة. فالمخزون يُتابَع لكل متجر ويُتحقَّق منه مرة أخرى عند إتمام الطلب، فلا يدفع أحد ثمن منتج نفد للتو، وتُحسب تكاليف الشحن من مناطق تحددها التعاونية بنفسها بدلًا من قائمة أسعار شركة الشحن.
 
-**التقنيات المستخدمة** Expo (React Native)، وLaravel، وFilament، وiPaymu
-
 ![لقطة شاشة 1 من تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![لقطة شاشة 2 من تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![لقطة شاشة 3 من تطبيق Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

@@ -28,8 +28,6 @@ Wir haben den gesamten Shop umgesetzt: die App für die Mitglieder, die API dahi
 
 Die Mitglieder einer Genossenschaft sind Nachbarn und Kollegen, keine anonymen Käufer. Deshalb hält die App die Schritte kurz: Produkte auswählen, Lieferung oder Abholung wählen, bezahlen. Die schwierigere Arbeit steckt dahinter. Der Bestand wird pro Laden geführt und beim Checkout noch einmal geprüft, sodass niemand etwas bezahlt, das gerade ausverkauft wurde. Die Versandkosten ergeben sich aus Zonen, die die Genossenschaft selbst festlegt, statt aus der Preisliste eines Paketdienstes.
 
-**Umgesetzt mit** Expo (React Native), Laravel, Filament und iPaymu
-
 ![Screenshot 1 der Koperasi-HOB-App](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Screenshot 2 der Koperasi-HOB-App](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Screenshot 3 der Koperasi-HOB-App](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

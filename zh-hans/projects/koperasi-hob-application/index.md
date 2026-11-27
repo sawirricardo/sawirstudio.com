@@ -28,8 +28,6 @@ Koperasi HOB 是一家合作社，通过自己的门店向社员销售日常家�
 
 合作社的社员是邻居和同事，而不是匿名的顾客，所以应用把步骤尽量精简：选商品、选择配送或自提、付款。真正复杂的工作都在背后。库存按门店分别记录，并在结账时再次核对，避免有人为刚刚售罄的商品付款；运费则来自合作社自行设置的区域，而不是快递公司的价目表。
 
-**技术栈** Expo (React Native)、Laravel、Filament 和 iPaymu
-
 ![Koperasi HOB 应用截图 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB 应用截图 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB 应用截图 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

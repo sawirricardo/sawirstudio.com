@@ -24,9 +24,7 @@ Vivaldy Skin Clinic 是位於龍目島馬塔蘭（Mataram）的皮膚性病科�
 
 ## 我們的做法
 
-多數患者是透過搜尋馬塔蘭的皮膚專科醫師找到診所，而在印尼，大家習慣用聊天軟體預約，而不是填表單。因此我們讓頁面標題與描述針對在地搜尋，並讓每個頁面的主要按鈕都直接開啟 WhatsApp。網站一開始是以 Next.js 打造，之後重新改建為部署在 Cloudflare 上、載入快速的靜態頁面。
-
-**使用技術** HTML、Tailwind CSS 與 Cloudflare
+多數患者是透過搜尋馬塔蘭（Mataram）的皮膚科專科醫師找到這家診所，而在印尼，大家習慣用聊天訊息預約，而不是填表單。因此，網頁標題和說明都針對在地搜尋撰寫，每一頁的主要按鈕也都直接開啟 WhatsApp。後來我們將網站改建為靜態網頁，讓每一頁都能快速載入。
 
 為了診所的日常營運，我們也打造了 [MyVivaldy](https://sawirstudio.com/zh-hant/projects/myvivaldy/)，這是診所所使用的系統，以及提供給患者的 iPhone 與 Android App。
 

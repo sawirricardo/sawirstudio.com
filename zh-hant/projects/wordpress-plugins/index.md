@@ -34,8 +34,6 @@ WordPress 支撐著網路上相當大的比例，而 WooCommerce 則是其中許
 
 外掛會運作在別人的事業之中，所以我們為自己訂下幾項原則。每個外掛都可在 WordPress.org 免費取得，而且只做一件事。資料留在站長自己的伺服器上：Insights 不需第三方服務就能記錄工作階段，Social Scheduler 則把權杖保存在 WordPress 中。而且絕不造假：Pulse 只顯示真實發生過的活動，Renew 也把其他外掛收費的訂閱功能免費提供。
 
-**使用技術** PHP、WordPress 與 WooCommerce
-
 - **專案** Sawir Studio
 - **外掛** 12 個，全部免費
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

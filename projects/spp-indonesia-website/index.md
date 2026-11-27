@@ -25,8 +25,6 @@ We designed and built its website around that product range, with a page for eac
 
 SPP’s buyers usually already know which pump they need. So the menu lists every pump type directly, each page answers one product, and the way to call or email is never more than a scroll away.
 
-**Built with** WordPress
-
 - **Client** PT SPP Indonesia
 - **Website URL** <https://sppindonesia.co.id>
 

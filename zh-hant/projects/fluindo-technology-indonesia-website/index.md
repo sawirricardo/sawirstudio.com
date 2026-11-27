@@ -25,8 +25,6 @@ PT Fluindo Technology Indonesia 是泵浦、閥門、密封裝置、熱交換器
 
 向 Fluindo 採購的多是廠房工程師。他們清楚自己需要的型號，也希望看到供應商過去確實安裝過的證明。因此，產品目錄除了依類別瀏覽，也能依品牌瀏覽；每一項專案實績都會寫明廠房、設備與尺寸，而不是空泛的成功故事。
 
-**使用技術** Next.js
-
 - **客戶** Fluindo Technology Indonesia
 - **網站網址** <https://fluindo.co.id>
 

@@ -34,8 +34,6 @@ WordPress はウェブの大きな割合を占めており、WooCommerce も数�
 
 プラグインは他社のビジネスの中で動くものなので、私たちはいくつかのルールを自らに課しています。どのプラグインも WordPress.org で無料で公開しており、役割は一つに絞っています。データはサイト運営者のサーバーに残ります。Insights は外部サービスを使わずにセッションを記録し、Social Scheduler はトークンを WordPress 内に保管します。そして、見せかけはしません。Pulse は実際に起きた動きだけを表示し、Renew は他社が有料にしているサブスクリプション機能を無料で提供しています。
 
-**使用技術** PHP、WordPress、WooCommerce
-
 - **プロジェクト** Sawir Studio
 - **プラグイン** 12 個（無料）
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

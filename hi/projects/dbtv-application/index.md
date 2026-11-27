@@ -30,8 +30,6 @@ DBTV, Ps. Debby Basjir की सेवकाई का मीडिया च�
 
 सेवकाई में हर दिन कुछ नया पोस्ट होता है, इसलिए ऐप में कुछ भी पहले से तय करके नहीं रखा गया है: भक्ति-संदेश, उपदेश और इवेंट सब DBTV के प्लेटफ़ॉर्म से आते हैं और ऐप अपडेट किए बिना ही दिखने लगते हैं। जब ऐप में ही कोई बदलाव होता है, तो यह लोगों से अपडेट करने को कहता है, ताकि पूरी कलीसिया एक ही वर्ज़न पर रहे और कोई पुरानी गड़बड़ी में न फँसा रहे।
 
-**इनसे बना है** Expo (React Native)
-
 ![DBTV ऐप स्क्रीनशॉट 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV ऐप स्क्रीनशॉट 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV ऐप स्क्रीनशॉट 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

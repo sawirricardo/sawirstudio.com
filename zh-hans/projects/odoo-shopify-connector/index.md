@@ -28,8 +28,6 @@ Odoo Community Association（OCA）是一家非营利组织，负责维护大多
 
 需要为您的店铺进行设置或扩展？请查看 [Shopify 集成](https://sawirstudio.com/zh-hans/shopify/)；如果想了解 Odoo 本身，请查看 [Odoo 与业务系统](https://sawirstudio.com/zh-hans/odoo/)。
 
-**技术栈** Python、Odoo 19 和 Shopify GraphQL Admin API
-
 - **项目** Odoo Community Association（OCA）
 - **许可证** AGPL-3
 - **源代码** <https://github.com/OCA/connector-shopify>

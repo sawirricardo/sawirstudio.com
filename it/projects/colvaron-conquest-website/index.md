@@ -33,8 +33,6 @@ Abbiamo inoltre progettato e realizzato il sito web del gioco, dove i giocatori 
 
 Un gioco di carte collezionabili vive della sua grafica, quindi il sito si fa da parte: pagine scure, grandi immagini delle carte e filtri che rispondono subito. Dietro le quinte, il sito è pensato per la ricerca. Titoli e descrizioni puntano alle frasi che i giocatori di carte cercano, ogni pagina è inclusa in una sitemap completa e, dato che Facebook, X e WhatsApp non riescono a mostrare le immagini AVIF del sito, in fase di build viene creata un’immagine di condivisione in JPEG per ogni pagina.
 
-**Realizzato con** Astro, Tailwind CSS e Cloudflare Pages
-
 ![Galleria delle carte di Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **Ruolo** Editore; abbiamo realizzato anche il sito web e il gioco online

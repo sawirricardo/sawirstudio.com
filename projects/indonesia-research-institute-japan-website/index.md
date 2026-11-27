@@ -28,8 +28,6 @@ We built its company profile website, with its services, reports and seminars, n
 
 IRIJ sells expertise, so the site is built around proof of it. The news section publishes the institute’s own research notes on Indonesian markets, which gives Japanese companies a reason to come back and a sense of the work before they ever ask for a quote.
 
-**Built with** WordPress
-
 - **Client** Indonesia Research Institute Japan
 - **Website URL** <https://irij-jakarta.com>
 

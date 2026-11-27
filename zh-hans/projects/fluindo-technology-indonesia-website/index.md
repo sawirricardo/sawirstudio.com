@@ -25,8 +25,6 @@ PT Fluindo Technology Indonesia 是泵、阀门、密封装置、热交换器和
 
 Fluindo 的客户是工厂工程师。他们清楚自己需要的型号，也希望看到供应商以前安装过的证明。因此，产品目录既可以按类别浏览，也可以按品牌浏览，每个项目案例都会写明工厂、设备及其规格，而不是泛泛地讲一个成功故事。
 
-**技术栈** Next.js
-
 - **客户** Fluindo Technology Indonesia
 - **网站地址** <https://fluindo.co.id>
 

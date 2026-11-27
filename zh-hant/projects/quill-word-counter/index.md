@@ -16,8 +16,6 @@ Quill Word Counter 是一個寫作輸入框，提供寫作者最常查看的各�
 
 ![Quill Word Counter 正在計算一份簡短草稿的字數](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**使用技術** Quill 和 Alpine.js
-
 - **客戶** 自家產品
 - **平台** 網頁
 - **價格** 免費

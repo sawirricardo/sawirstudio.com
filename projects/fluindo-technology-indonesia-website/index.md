@@ -25,8 +25,6 @@ We designed and built its website: a product catalog organized by category and b
 
 The people who buy from Fluindo are plant engineers. They know the model number they need and want proof the supplier has installed it before. So the catalog can be browsed by brand as well as by category, and every project reference names the plant, the equipment and its size instead of a vague success story.
 
-**Built with** Next.js
-
 - **Client** Fluindo Technology Indonesia
 - **Website URL** <https://fluindo.co.id>
 

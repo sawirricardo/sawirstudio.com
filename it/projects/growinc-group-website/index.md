@@ -28,8 +28,6 @@ Abbiamo progettato e sviluppato il sito aziendale di Growinc tra dicembre 2019 e
 
 Un gruppo di agenzie vende persone e risultati, non un prodotto: per questo la pagina parte da ciò in cui Growinc crede, poi lo dimostra con servizi, campagne reali e leader indicati per nome. Con una sola pagina da scorrere, un potenziale cliente vede l'intero gruppo in un minuto, e il pulsante WhatsApp trasforma l'interesse in una conversazione. A distanza di sei anni, il sito è ancora la casa di Growinc sul web.
 
-**Realizzato con** PHP, Bootstrap e jQuery
-
 - **Cliente** PT Growinc Group Indonesia
 - **URL del sito** <https://growinc.id>
 

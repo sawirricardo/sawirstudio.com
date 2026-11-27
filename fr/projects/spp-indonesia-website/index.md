@@ -25,8 +25,6 @@ Nous avons conçu et réalisé son site web autour de cette gamme de produits, a
 
 Les acheteurs de SPP savent généralement déjà de quelle pompe ils ont besoin. Le menu liste donc directement chaque type de pompe, chaque page répond à un seul produit, et le moyen d’appeler ou d’écrire n’est jamais à plus d’un défilement de souris.
 
-**Réalisé avec** WordPress
-
 - **Client** PT SPP Indonesia
 - **URL du site web** <https://sppindonesia.co.id>
 

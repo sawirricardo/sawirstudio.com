@@ -28,8 +28,6 @@ Indonesia Research Institute Japan（IRIJ）是一間位於雅加達的研究顧
 
 IRIJ 販售的是專業知識，因此網站的設計以呈現實力為核心。最新消息區會發布研究院自己撰寫的印尼市場研究筆記，讓日本企業有理由再次造訪，也能在詢價之前就先了解 IRIJ 的工作成果。
 
-**使用技術** WordPress
-
 - **客戶** Indonesia Research Institute Japan
 - **網站網址** <https://irij-jakarta.com>
 

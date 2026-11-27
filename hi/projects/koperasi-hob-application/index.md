@@ -28,8 +28,6 @@ Koperasi HOB एक सहकारी संस्था है, जो अप�
 
 सहकारी संस्था के सदस्य पड़ोसी और सहकर्मी होते हैं, अनजान खरीदार नहीं, इसलिए ऐप में स्टेप्स कम रखे गए हैं: प्रोडक्ट चुनें, डिलीवरी या पिक-अप चुनें, पेमेंट करें। मुश्किल काम इसके पीछे होता है। स्टॉक हर स्टोर के हिसाब से ट्रैक होता है और चेकआउट पर दोबारा जाँचा जाता है, ताकि कोई ऐसी चीज़ के पैसे न दे जो अभी-अभी बिक चुकी हो। शिपिंग का खर्च कूरियर की रेट लिस्ट से नहीं, बल्कि उन ज़ोन से तय होता है जिन्हें सहकारी संस्था खुद सेट करती है।
 
-**इनसे बना** Expo (React Native), Laravel, Filament और iPaymu
-
 ![Koperasi HOB ऐप स्क्रीनशॉट 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB ऐप स्क्रीनशॉट 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB ऐप स्क्रीनशॉट 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

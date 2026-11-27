@@ -27,9 +27,7 @@ MyVivaldy 包含兩個部分：診所日常運作所使用的系統，以及患�
 
 ## 我們的做法
 
-兩端使用同一套系統。患者在 App 中看到的時段，來自診所自己維護的同一份班表；醫師記錄下來的就診內容，也會出現在患者的就診紀錄中。App 皆為原生開發，iPhone 使用 SwiftUI，Android 使用 Jetpack Compose，並透過 API 與診所系統連線。自 2024 年起，我們便持續參與 MyVivaldy 的開發。
-
-**使用技術** Laravel、Filament、PostgreSQL、SwiftUI 與 Jetpack Compose
+一套系統同時服務雙方。病患在應用程式中看到的時段，來自診所使用的同一份排程；醫師記錄的看診內容，也會出現在病患的就診紀錄中。應用程式是 iPhone 與 Android 的原生應用程式，直接與診所系統連線。我們自 2024 年起參與 MyVivaldy 的開發。
 
 - **客戶** Vivaldy Skin Clinic
 - **平台** iPhone、Android、網頁

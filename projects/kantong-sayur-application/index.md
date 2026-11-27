@@ -27,8 +27,6 @@ We built the platform end to end: a shopping app for customers, a separate app f
 
 A traditional market doesn’t run like a supermarket: every stall keeps its own hours, prices move with the season, and a kilo of chilies isn’t a neatly packed product. So the platform models markets, stalls and units directly instead of forcing them into a generic online store. The same backend later grew a wholesale side for business customers. We worked on Kantong Sayur from 2021 to 2025.
 
-**Built with** Flutter, Firebase, Laravel and Filament
-
 - **Client** KantongSayur
 
 ## More projects

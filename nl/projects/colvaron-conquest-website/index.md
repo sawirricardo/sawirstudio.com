@@ -33,8 +33,6 @@ We hebben ook de website van de game ontworpen en gebouwd. Daar ontdekken speler
 
 Een trading card game verkoopt op de kunst van de kaarten, dus de site houdt zich op de achtergrond: donkere pagina's, grote kaartafbeeldingen en filters die meteen antwoord geven. Achter de schermen is de site gebouwd om goed gevonden te worden. Titels en beschrijvingen richten zich op de zoektermen van kaartspelers, elke pagina staat in een volledige sitemap, en omdat Facebook, X en WhatsApp de AVIF-afbeeldingen van de site niet kunnen tonen, maakt de build voor elke pagina een JPEG-deelafbeelding.
 
-**Gebouwd met** Astro, Tailwind CSS en Cloudflare Pages
-
 ![Kaartengalerij van Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **Rol** Uitgever; we hebben ook de website en de online game gebouwd

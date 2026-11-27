@@ -28,8 +28,6 @@ Tussen december 2019 en maart 2020 ontwierpen en bouwden we de bedrijfswebsite v
 
 Een bureaugroep verkoopt mensen en resultaten, geen product. Daarom begint de pagina met waar Growinc in gelooft en laat ze daarna zien dat het klopt, met diensten, echte campagnes en leiders met naam en toenaam. Doordat alles op één pagina staat, ziet een potentiële klant de hele groep in een minuut, en de WhatsApp-knop maakt van interesse een gesprek. Zes jaar later is de site nog steeds de thuisbasis van Growinc op het web.
 
-**Gebouwd met** PHP, Bootstrap en jQuery
-
 - **Klant** PT Growinc Group Indonesia
 - **Website-URL** <https://growinc.id>
 

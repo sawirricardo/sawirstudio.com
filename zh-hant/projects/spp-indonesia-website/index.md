@@ -25,8 +25,6 @@ PT SPP Indonesia 專精於消防泵浦系統：端吸式、分離式（split cas
 
 SPP 的買家通常已經清楚自己需要哪一種泵浦。因此選單直接列出每一種泵浦類型，每個頁面只回答一項產品，而且不論身在哪個位置，往下捲動一下就能找到來電或寄信的方式。
 
-**使用技術** WordPress
-
 - **客戶** PT SPP Indonesia
 - **網站網址** <https://sppindonesia.co.id>
 

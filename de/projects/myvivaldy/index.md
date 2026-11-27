@@ -27,9 +27,7 @@ Die Patienten-App für iPhone und Android:
 
 ## Unser Vorgehen
 
-Ein System versorgt beide Seiten. Die Zeiten, die Patienten in der App sehen, stammen aus demselben Terminplan, den auch die Klinik führt, und ein Besuch, den die Ärztin oder der Arzt erfasst, erscheint im Verlauf der Patientin oder des Patienten. Die Apps sind nativ, mit SwiftUI auf dem iPhone und Jetpack Compose auf Android, und sprechen über die API mit dem Klinik-System. Wir arbeiten seit 2024 an MyVivaldy.
-
-**Technik** Laravel, Filament, PostgreSQL, SwiftUI und Jetpack Compose
+Ein System bedient beide Seiten. Die Zeiten, die Patienten in der App sehen, stammen aus demselben Terminplan, den die Klinik führt, und ein von der Ärztin oder dem Arzt erfasster Besuch erscheint in der Patientenhistorie. Die Apps sind nativ für iPhone und Android entwickelt und kommunizieren direkt mit dem Kliniksystem. Wir arbeiten seit 2024 an MyVivaldy.
 
 - **Kunde** Vivaldy Skin Clinic
 - **Plattformen** iPhone, Android, Web

@@ -28,8 +28,6 @@ Un’integrazione che funziona bene quasi sempre, per la contabilità, è sbagli
 
 Volete che lo configuriamo o lo estendiamo per i vostri negozi? Consultate le [integrazioni Shopify](https://sawirstudio.com/it/shopify/), oppure [Odoo e sistemi gestionali](https://sawirstudio.com/it/odoo/) per Odoo in sé.
 
-**Realizzato con** Python, Odoo 19 e la GraphQL Admin API di Shopify
-
 - **Progetto** Odoo Community Association (OCA)
 - **Licenza** AGPL-3
 - **Codice sorgente** <https://github.com/OCA/connector-shopify>

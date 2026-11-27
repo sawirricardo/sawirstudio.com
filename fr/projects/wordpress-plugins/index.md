@@ -34,8 +34,6 @@ WordPress fait tourner une grande partie du web, et WooCommerce en anime de nomb
 
 Les extensions vivent au cœur de l’activité des autres : nous leur appliquons donc quelques règles. Chaque extension est gratuite sur WordPress.org et remplit une seule mission. Les données restent sur le serveur du propriétaire du site : Insights enregistre les sessions sans service tiers, et Social Scheduler conserve ses jetons dans WordPress. Et rien n’est truqué : Pulse n’affiche que l’activité réellement survenue, et Renew offre les fonctions d’abonnement que d’autres font payer.
 
-**Technologies** PHP, WordPress et WooCommerce
-
 - **Projet** Sawir Studio
 - **Extensions** 12, gratuites
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

@@ -33,8 +33,6 @@ Außerdem haben wir die Website zum Spiel gestaltet und entwickelt. Dort entdeck
 
 Ein Sammelkartenspiel lebt von seiner Kunst, deshalb hält sich die Website zurück: dunkle Seiten, große Kartenmotive und Filter, die sofort antworten. Dahinter ist die Website auf Suchmaschinen ausgerichtet. Titel und Beschreibungen zielen auf die Begriffe, nach denen Kartenspieler suchen, jede Seite steht in einer vollständigen Sitemap, und weil Facebook, X und WhatsApp die AVIF-Bilder der Website nicht anzeigen können, erzeugt der Build für jede Seite ein JPEG-Vorschaubild zum Teilen.
 
-**Umgesetzt mit** Astro, Tailwind CSS und Cloudflare Pages
-
 ![Kartengalerie von Colvaron Conquest](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **Rolle** Publisher; außerdem Entwicklung der Website und des Online-Spiels

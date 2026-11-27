@@ -25,8 +25,6 @@ Abbiamo progettato e realizzato il suo sito web: un catalogo prodotti organizzat
 
 Chi acquista da Fluindo sono ingegneri di impianto. Conoscono il numero di modello che cercano e vogliono la prova che il fornitore lo abbia già installato. Per questo il catalogo si può sfogliare per marchio oltre che per categoria, e ogni riferimento di progetto indica l'impianto, l'apparecchiatura e la sua taglia, invece di una vaga storia di successo.
 
-**Realizzato con** Next.js
-
 - **Cliente** Fluindo Technology Indonesia
 - **URL del sito** <https://fluindo.co.id>
 

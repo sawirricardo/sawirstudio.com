@@ -34,8 +34,6 @@ WordPress treibt einen großen Teil des Webs an, und WooCommerce viele der zugeh
 
 Plugins arbeiten mitten im Geschäft anderer Menschen, deshalb halten wir uns an ein paar Regeln. Jedes Plugin ist auf WordPress.org kostenlos und erledigt eine Aufgabe. Die Daten bleiben auf dem Server des Website-Betreibers: Insights zeichnet Sitzungen ohne Drittanbieter-Dienst auf, und Social Scheduler speichert seine Tokens in WordPress. Und nichts wird vorgetäuscht: Pulse zeigt nur Aktivität, die wirklich stattgefunden hat, und Renew bietet die Abo-Funktionen kostenlos an, für die andere Geld verlangen.
 
-**Entwickelt mit** PHP, WordPress und WooCommerce
-
 - **Projekt** Sawir Studio
 - **Plugins** 12, kostenlos
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

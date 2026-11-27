@@ -34,8 +34,6 @@ WordPress 支撑着网络上相当大的一部分网站，而 WooCommerce 则支
 
 插件运行在别人的生意之中，所以我们给自己定了几条规矩。每个插件都在 WordPress.org 上免费提供，并且只做一件事。数据留在站长自己的服务器上：Insights 无需第三方服务即可记录会话，Social Scheduler 把令牌保存在 WordPress 中。同时绝不弄虚作假：Pulse 只展示真实发生过的动态，Renew 则免费提供其他插件收费的订阅功能。
 
-**技术栈** PHP、WordPress 和 WooCommerce
-
 - **项目** Sawir Studio
 - **插件** 12 个，免费
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

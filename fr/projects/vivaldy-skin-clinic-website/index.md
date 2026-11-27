@@ -24,9 +24,7 @@ Nous avons conçu et développé le site web de la clinique, qui présente ses s
 
 ## Notre approche
 
-La plupart des patients trouvent la clinique en cherchant un spécialiste de la peau à Mataram, et en Indonésie, on prend rendez-vous par messagerie, pas par formulaire. Les titres et descriptions des pages ciblent donc les recherches locales, et le bouton principal de chaque page ouvre WhatsApp. Nous avons d’abord développé le site avec Next.js, puis nous l’avons reconstruit sous forme de pages statiques rapides sur Cloudflare.
-
-**Technologies utilisées :** HTML, Tailwind CSS et Cloudflare
+La plupart des patients trouvent la clinique en cherchant un dermatologue à Mataram, et en Indonésie, on prend rendez-vous par messagerie, pas par formulaire. Les titres et descriptions des pages ciblent donc les recherches locales, et le bouton principal de chaque page ouvre WhatsApp. Nous avons ensuite reconstruit le site en pages statiques, pour que chaque page se charge rapidement.
 
 Pour le quotidien de la clinique, nous avons également créé [MyVivaldy](https://sawirstudio.com/fr/projects/myvivaldy/), le système sur lequel la clinique fonctionne, ainsi que son application patients pour iPhone et Android.
 

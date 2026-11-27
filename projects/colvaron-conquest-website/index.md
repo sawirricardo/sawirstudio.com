@@ -33,8 +33,6 @@ We also designed and built the game’s website, where players discover the card
 
 A trading card game sells on its art, so the site gets out of the way: dark pages, large card art and filters that answer straight away. Behind it, the site is built for search. Titles and descriptions target the phrases card players search for, every page is in a full sitemap, and since Facebook, X and WhatsApp can’t show the site’s AVIF images, the build makes a JPEG share image for every page.
 
-**Built with** Astro, Tailwind CSS and Cloudflare Pages
-
 ![Colvaron Conquest card gallery](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **Role** Publisher; we also built the website and the online game

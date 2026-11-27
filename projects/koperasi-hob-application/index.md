@@ -28,8 +28,6 @@ We built the whole shop: the members’ app, the API behind it, and the admin pa
 
 A cooperative’s members are neighbours and colleagues, not anonymous shoppers, so the app keeps the steps few: pick products, choose delivery or pick-up, pay. The harder work is behind it. Stock is tracked per store and checked again at checkout, so nobody pays for something that has just sold out, and shipping costs come from zones the cooperative sets up itself instead of a courier’s price list.
 
-**Built with** Expo (React Native), Laravel, Filament and iPaymu
-
 ![Koperasi HOB app screenshot 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB app screenshot 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB app screenshot 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

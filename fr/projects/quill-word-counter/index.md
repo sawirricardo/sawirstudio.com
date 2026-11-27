@@ -16,8 +16,6 @@ Il est gratuit et fonctionne dans votre navigateur : le texte que vous saisisse
 
 ![Quill Word Counter comptant les mots d'un court brouillon](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Technologies utilisées** Quill et Alpine.js
-
 - **Client** Notre propre produit
 - **Plateformes** Web
 - **Tarif** Gratuit

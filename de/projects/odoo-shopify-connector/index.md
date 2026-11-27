@@ -28,8 +28,6 @@ Eine Integration, die meistens stimmt, ist für die Buchhaltung falsch. Deshalb 
 
 Sie möchten ihn für Ihre Shops einrichten oder erweitern lassen? Sehen Sie sich unsere [Shopify-Integrationen](https://sawirstudio.com/de/shopify/) an, oder [Odoo & Unternehmenssysteme](https://sawirstudio.com/de/odoo/) für Odoo selbst.
 
-**Entwickelt mit** Python, Odoo 19 und der Shopify GraphQL Admin API
-
 - **Projekt** Odoo Community Association (OCA)
 - **Lizenz** AGPL-3
 - **Quellcode** <https://github.com/OCA/connector-shopify>

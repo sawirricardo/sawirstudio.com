@@ -28,8 +28,6 @@ Een koppeling die meestal klopt, is voor de boekhouding fout. Daarom praat de co
 
 Wil je dat we het voor jouw winkels instellen of uitbreiden? Bekijk [Shopify-integraties](https://sawirstudio.com/nl/shopify/), of [Odoo & bedrijfssystemen](https://sawirstudio.com/nl/odoo/) voor Odoo zelf.
 
-**Gebouwd met** Python, Odoo 19 en de Shopify GraphQL Admin API
-
 - **Project** Odoo Community Association (OCA)
 - **Licentie** AGPL-3
 - **Broncode** <https://github.com/OCA/connector-shopify>

@@ -28,8 +28,6 @@ Odoo Community Association（OCA）は、Odoo Community のユーザーの多く
 
 お客様のストア向けに導入や機能拡張をご希望ですか？ [Shopify 連携](https://sawirstudio.com/ja/shopify/)をご覧ください。Odoo そのものについては、[Odoo とビジネスシステム](https://sawirstudio.com/ja/odoo/)をご覧ください。
 
-**使用技術** Python、Odoo 19、Shopify GraphQL Admin API
-
 - **プロジェクト** Odoo Community Association（OCA）
 - **ライセンス** AGPL-3
 - **ソースコード** <https://github.com/OCA/connector-shopify>

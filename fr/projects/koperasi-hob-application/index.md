@@ -28,8 +28,6 @@ Nous avons construit la boutique de A à Z : l’application des membres, l’A
 
 Les membres d’une coopérative sont des voisins et des collègues, pas des clients anonymes. L’application limite donc les étapes : choisir ses produits, opter pour la livraison ou le retrait, payer. Le travail le plus délicat se passe en coulisses. Le stock est suivi magasin par magasin et vérifié à nouveau au moment de la commande, pour que personne ne paie un article qui vient d’être vendu. Les frais de livraison, eux, reposent sur des zones que la coopérative définit elle-même, plutôt que sur la grille tarifaire d’un transporteur.
 
-**Technologies utilisées** Expo (React Native), Laravel, Filament et iPaymu
-
 ![Capture d’écran n° 1 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Capture d’écran n° 2 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Capture d’écran n° 3 de l’application Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

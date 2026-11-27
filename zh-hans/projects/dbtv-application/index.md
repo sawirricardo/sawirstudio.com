@@ -30,8 +30,6 @@ DBTV 是 Ps. Debby Basjir 事工的媒体频道，为在线上跟随事工的会
 
 事工每天都会发布新内容，所以应用没有把这些内容写死：灵修、讲道和活动都来自 DBTV 的平台，无需更新应用就会显示。当应用本身有变化时，会提示用户更新，这样所有会众都使用同一个版本，不会有人被旧版本的问题困扰。
 
-**技术栈** Expo (React Native)
-
 ![DBTV 应用截图 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![DBTV 应用截图 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![DBTV 应用截图 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

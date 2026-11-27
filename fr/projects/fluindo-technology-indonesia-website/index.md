@@ -25,8 +25,6 @@ Nous avons conçu et développé son site web : un catalogue de produits organi
 
 Les clients de Fluindo sont des ingénieurs d’usine. Ils connaissent le numéro de modèle dont ils ont besoin et veulent la preuve que le fournisseur l’a déjà installé. Le catalogue se parcourt donc par marque autant que par catégorie, et chaque référence de projet nomme l’usine, l’équipement et sa taille, au lieu de raconter une vague réussite.
 
-**Technologie** Next.js
-
 - **Client** Fluindo Technology Indonesia
 - **URL du site** <https://fluindo.co.id>
 

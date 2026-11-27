@@ -28,8 +28,6 @@ Wir haben die Website mit dem Unternehmensprofil entwickelt, einschließlich Lei
 
 IRIJ verkauft Fachwissen, deshalb ist die Website darauf ausgelegt, dieses Wissen zu belegen. Der News-Bereich veröffentlicht die eigenen Research Notes des Instituts zu indonesischen Märkten. So haben japanische Unternehmen einen Grund, wiederzukommen, und bekommen schon vor einer Angebotsanfrage einen Eindruck von der Arbeit.
 
-**Umgesetzt mit** WordPress
-
 - **Kunde** Indonesia Research Institute Japan
 - **Website-URL** <https://irij-jakarta.com>
 

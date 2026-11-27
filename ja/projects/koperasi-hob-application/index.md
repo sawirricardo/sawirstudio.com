@@ -28,8 +28,6 @@ Koperasi HOB は、自前の店舗を通じて組合員に日用品を販売し�
 
 協同組合の組合員は、顔の見えない買い物客ではなく、近所の方や同僚です。そのため、アプリの操作は商品を選び、配送か店頭受け取りかを選び、支払うだけと、できるだけ少ないステップにしています。大変なのはその裏側です。在庫は店舗ごとに管理し、チェックアウト時にもう一度確認するので、直前に売り切れた商品の代金を支払ってしまうことはありません。配送料も、運送会社の料金表ではなく、協同組合が自分で設定したゾーンをもとに算出します。
 
-**使用技術** Expo (React Native)、Laravel、Filament、iPaymu
-
 ![Koperasi HOB アプリのスクリーンショット 1](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![Koperasi HOB アプリのスクリーンショット 2](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![Koperasi HOB アプリのスクリーンショット 3](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

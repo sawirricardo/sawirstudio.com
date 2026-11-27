@@ -28,8 +28,6 @@ Indonesia Research Institute Japan（IRIJ）は、ジャカルタを拠点とす
 
 IRIJが提供するのは専門知識です。そのためサイトは、その専門性を示す構成にしました。ニュースでは、インドネシア市場に関する研究所独自のリサーチノートを公開しています。日本企業はこれを読むことで、見積もりを依頼する前から仕事の内容を知ることができ、繰り返しサイトを訪れる理由にもなります。
 
-**使用技術** WordPress
-
 - **クライアント** Indonesia Research Institute Japan
 - **ウェブサイトURL** <https://irij-jakarta.com>
 

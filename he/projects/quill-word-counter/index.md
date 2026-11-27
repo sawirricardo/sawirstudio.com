@@ -16,8 +16,6 @@ Quill Word Counter הוא תיבת כתיבה עם הספירות שכותבים
 
 ![Quill Word Counter סופר טיוטה קצרה](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**נבנה עם** Quill ו-Alpine.js
-
 - **לקוח** המוצר שלנו
 - **פלטפורמות** Web
 - **תמחור** חינם

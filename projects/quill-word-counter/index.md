@@ -16,8 +16,6 @@ It's free and runs in your browser: the text you type isn't sent anywhere.
 
 ![Quill Word Counter counting a short draft](https://sawirstudio.com/assets/images/projects/quill-word-counter.webp)
 
-**Built with** Quill and Alpine.js
-
 - **Client** Our own product
 - **Platforms** Web
 - **Pricing** Free

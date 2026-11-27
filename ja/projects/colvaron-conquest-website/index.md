@@ -33,8 +33,6 @@ Colvaron Conquest は、Coco JM が生み出した戦略型トレーディング
 
 トレーディングカードゲームはアートが魅力です。そのため、サイトはあくまで脇役に徹し、暗めの配色のページ、大きく見せるカードアート、すぐに結果が返るフィルターを備えています。裏側では検索を意識した作りにしています。タイトルと説明文はカードプレイヤーが検索するフレーズを狙い、すべてのページを網羅したサイトマップを用意しました。また、Facebook、X、WhatsApp ではサイトの AVIF 画像を表示できないため、ビルド時に全ページ分の JPEG のシェア用画像を生成しています。
 
-**使用技術** Astro、Tailwind CSS、Cloudflare Pages
-
 ![Colvaron Conquest のカードギャラリー](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **役割** パブリッシャー（ウェブサイトとオンライン版の制作も担当）

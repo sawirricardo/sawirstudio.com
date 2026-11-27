@@ -33,8 +33,6 @@ Sawir Studio 現在是 Colvaron Conquest 的發行商。我們在 [colvaronconqu
 
 集換式卡牌遊戲靠的是卡面美術，所以網站盡量不搶戲：深色頁面、大尺寸卡面圖片，以及能即時回應的篩選功能。在幕後，網站也針對搜尋做了最佳化。標題與描述鎖定卡牌玩家會搜尋的詞彙，每個頁面都列入完整的網站地圖；由於 Facebook、X 和 WhatsApp 無法顯示網站使用的 AVIF 圖片，建置時也會為每個頁面產生一張 JPEG 分享圖片。
 
-**使用技術** Astro、Tailwind CSS 與 Cloudflare Pages
-
 ![Colvaron Conquest 卡牌圖鑑](https://sawirstudio.com/assets/images/projects/colvaron-conquest-gallery.webp)
 
 - **我們的角色** 發行商；網站和線上版遊戲也由我們製作

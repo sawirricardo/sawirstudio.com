@@ -28,8 +28,6 @@ Koperasi HOB הוא קואופרטיב שמוכר לחבריו מוצרי בית
 
 חברי קואופרטיב הם שכנים ועמיתים לעבודה, לא קונים אנונימיים, ולכן באפליקציה יש מעט שלבים: בוחרים מוצרים, בוחרים משלוח או איסוף עצמי, משלמים. העבודה הקשה יותר נמצאת מאחורי הקלעים. המלאי נעקב לפי חנות ונבדק שוב בקופה, כך שאף אחד לא משלם על מוצר שנגמר הרגע, ועלויות המשלוח נקבעות לפי אזורים שהקואופרטיב מגדיר בעצמו ולא לפי מחירון של חברת שליחויות.
 
-**נבנה באמצעות** Expo (React Native), Laravel, Filament ו-iPaymu
-
 ![צילום מסך 1 של אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-1.webp)
 ![צילום מסך 2 של אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-2.webp)
 ![צילום מסך 3 של אפליקציית Koperasi HOB](https://sawirstudio.com/assets/images/projects/koperasi-hob-application-3.webp)

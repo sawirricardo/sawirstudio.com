@@ -34,8 +34,6 @@ WordPress מניעה חלק גדול מהאינטרנט, ו-WooCommerce מפעי
 
 תוספים חיים בתוך העסקים של אחרים, ולכן אנחנו מחויבים לכמה כללים. כל תוסף חינמי ב-WordPress.org ועושה דבר אחד. המידע נשאר בשרת של בעל האתר: Insights מקליט סשנים בלי שירות צד שלישי, ו-Social Scheduler שומר את הטוקנים שלו בתוך WordPress. ואין כאן העמדות פנים: Pulse מציג רק פעילות שקרתה באמת, ו-Renew מעניק בחינם את תכונות המנויים שאחרים גובים עליהן תשלום.
 
-**נבנה עם** PHP, WordPress ו-WooCommerce
-
 - **פרויקט** Sawir Studio
 - **תוספים** 12, חינמיים
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

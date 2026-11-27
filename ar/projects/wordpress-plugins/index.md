@@ -34,8 +34,6 @@ description: اثنتا عشرة إضافة WordPress مجانية من Sawir St
 
 الإضافات تعمل داخل أعمال الآخرين، ولذلك نلتزم بعدة قواعد. كل إضافة مجانية على WordPress.org وتؤدي مهمة واحدة. وتبقى البيانات على خادم صاحب الموقع: يسجّل Insights الجلسات دون الاعتماد على خدمة طرف ثالث، ويحتفظ Social Scheduler برموز الوصول داخل WordPress. ولا مجال للتضليل: لا يعرض Pulse إلا نشاطًا حدث فعلًا، ويتيح Renew مزايا الاشتراكات التي يتقاضى الآخرون مقابلها مبالغ.
 
-**مبني باستخدام** PHP وWordPress وWooCommerce
-
 - **المشروع** Sawir Studio
 - **الإضافات** 12، مجانية
 - **WordPress.org** <https://wordpress.org/plugins/author/sawirricardo/>

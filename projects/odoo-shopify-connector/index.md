@@ -28,8 +28,6 @@ An integration that is right most of the time is wrong for accounting. So the co
 
 Want it set up or extended for your stores? See [Shopify integrations](https://sawirstudio.com/shopify/), or [Odoo & business systems](https://sawirstudio.com/odoo/) for Odoo itself.
 
-**Built with** Python, Odoo 19 and the Shopify GraphQL Admin API
-
 - **Project** Odoo Community Association (OCA)
 - **License** AGPL-3
 - **Source code** <https://github.com/OCA/connector-shopify>

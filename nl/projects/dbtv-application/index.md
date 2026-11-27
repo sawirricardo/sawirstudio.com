@@ -30,8 +30,6 @@ We bouwden de DBTV-app voor iOS en Android, zodat de gemeente de bediening vanaf
 
 Een bediening plaatst elke dag iets nieuws, dus de app heeft niets vastgecodeerd: devotionals, preken en evenementen komen allemaal van het platform van DBTV en verschijnen zonder app-update. Als de app zelf verandert, vraagt hij mensen om te updaten, zodat de hele gemeente dezelfde versie gebruikt en niemand blijft zitten met een oude bug.
 
-**Gebouwd met** Expo (React Native)
-
 ![Screenshot 1 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![Screenshot 2 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![Screenshot 3 van de DBTV-app](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)

@@ -24,9 +24,7 @@ We designed and built the clinic’s website, presenting its treatments, shop an
 
 ## How we approached it
 
-Most patients find the clinic by searching for a skin specialist in Mataram, and in Indonesia they book by chat, not by form. So page titles and descriptions target local searches, and the main button on every page opens WhatsApp. We first built the site in Next.js, and later rebuilt it as fast static pages on Cloudflare.
-
-**Built with** HTML, Tailwind CSS and Cloudflare
+Most patients find the clinic by searching for a skin specialist in Mataram, and in Indonesia they book by chat, not by form. So page titles and descriptions target local searches, and the main button on every page opens WhatsApp. We later rebuilt the site as static pages, so every page loads fast.
 
 For the clinic's day to day, we also built [MyVivaldy](https://sawirstudio.com/projects/myvivaldy/), the system the clinic runs on and its patient app for iPhone and Android.
 

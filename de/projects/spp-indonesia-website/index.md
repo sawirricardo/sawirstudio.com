@@ -25,8 +25,6 @@ Wir haben die Website passend zu diesem Produktspektrum gestaltet und umgesetzt,
 
 Die Einkäufer von SPP wissen meist schon, welche Pumpe sie brauchen. Deshalb führt das Menü jeden Pumpentyp direkt auf, jede Seite beantwortet genau eine Produktfrage, und der Weg zu Anruf oder E-Mail ist nie weiter als einmal Scrollen entfernt.
 
-**Umgesetzt mit** WordPress
-
 - **Kunde** PT SPP Indonesia
 - **Website-URL** <https://sppindonesia.co.id>
 

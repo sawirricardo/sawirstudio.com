@@ -30,8 +30,6 @@ Abbiamo realizzato l’app DBTV per iOS e Android, così la comunità può segui
 
 Un ministero pubblica qualcosa di nuovo ogni giorno, per questo l’app non include nulla in modo fisso: devozionali, prediche ed eventi arrivano tutti dalla piattaforma di DBTV e compaiono senza bisogno di aggiornare l’app. Quando invece cambia l’app stessa, chiede di aggiornarla, così tutta la comunità resta sulla stessa versione e nessuno si ritrova con un vecchio bug.
 
-**Realizzato con** Expo (React Native)
-
 ![Schermata dell’app DBTV 1](https://sawirstudio.com/assets/images/projects/dbtv-application-1.webp)
 ![Schermata dell’app DBTV 2](https://sawirstudio.com/assets/images/projects/dbtv-application-2.webp)
 ![Schermata dell’app DBTV 3](https://sawirstudio.com/assets/images/projects/dbtv-application-3.webp)
