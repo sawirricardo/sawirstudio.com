@@ -1,14 +1,14 @@
 ---
-title: Sawir Studio | Shopify 与 Odoo、业务系统、网络平台与应用
+title: Sawir Studio | 业务系统、AI、Shopify 与 Odoo、网站与应用
 url: https://sawirstudio.com/zh-hans/
-description: Sawir Studio 设计、开发并维护企业业务运转所依赖的软件：Shopify 与 Odoo 对接、业务系统、网络平台与应用。
+description: Sawir Studio 找出拖慢您业务的问题并加以解决：用一套系统取代一堆表格，让 AI 处理繁琐事务，打通 Shopify 与 Odoo，开发网站与应用，并提供长年维护。
 ---
 
 嗨，我们是 Sawir Studio
 
-# 我们为您的企业设计、开发 并维护 软件。
+# 我们找出拖慢您业务的问题，然后解决它。
 
-让 Shopify 店铺与 Odoo 账目一致，用一套系统取代一堆电子表格，或为您的客户打造一款应用。我们是一家小型工作室，从第一个版本做起，之后多年 持续跟进。
+有时是用一套系统取代一堆表格，有时是让 AI 接手繁琐事务，有时则是做一个能带来客户的网站。我们是一家小型工作室，从第一次解决问题，到多年以后，始终由我们负责。
 
 AI 参与其中，每个决定都由人来负责。[我们的理念 →](https://sawirstudio.com/zh-hans/about-us/)
 

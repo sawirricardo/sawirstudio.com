@@ -1,14 +1,14 @@
 ---
-title: Sawir Studio | Shopify & Odoo, Business-Systeme, Web-Plattformen & Apps
+title: Sawir Studio | Business-Systeme, KI, Shopify & Odoo, Websites & Apps
 url: https://sawirstudio.com/de/
-description: Sawir Studio gestaltet, entwickelt und betreut die Software, mit der Unternehmen arbeiten: Shopify mit Odoo-Anbindung, Business-Systeme, Web-Plattformen und Apps.
+description: Sawir Studio findet, was Ihr Unternehmen ausbremst, und behebt es: ein System statt vieler Tabellen, KI für Routinearbeit, Shopify mit Odoo verbunden, Websites und Apps, über Jahre betreut.
 ---
 
 Hallo, wir sind Sawir Studio
 
-# Wir gestalten, entwickeln und betreuen Software für Ihr Unternehmen.
+# Wir finden, was Ihr Unternehmen ausbremst, und beheben es.
 
-Ein Shopify-Shop, der mit Ihrer Buchhaltung in Odoo übereinstimmt, ein System anstelle der vielen Tabellen, eine App für Ihre Kunden. Ein kleines Studio begleitet das Ganze von der ersten Version an und bleibt über Jahre dabei.
+Manchmal ist das ein System anstelle all der Tabellen, manchmal KI, die Ihnen lästige Routinearbeit abnimmt, manchmal eine Website, die Kunden bringt. Ein kleines Studio, von der ersten Lösung bis Jahre danach.
 
 KI als Werkzeug, aber jede Entscheidung trifft ein Mensch. [Woran wir glauben →](https://sawirstudio.com/de/about-us/)
 

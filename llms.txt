@@ -1,12 +1,12 @@
 # Sawir Studio
 
-> Sawir Studio designs, builds and looks after the software businesses run on: Shopify connected to Odoo, business systems, web platforms and apps.
+> Sawir Studio finds what's slowing your business down and fixes it: one system in place of the spreadsheets, AI for the busywork, Shopify connected to Odoo, websites and apps, looked after for years.
 
 Every page below is also available as Markdown: request it with `Accept: text/markdown`, or add `index.md` to its URL as linked here.
 
 ## Studio
 
-- [Sawir Studio](https://sawirstudio.com/index.md): Sawir Studio designs, builds and looks after the software businesses run on: Shopify connected to Odoo, business systems, web platforms and apps.
+- [Sawir Studio](https://sawirstudio.com/index.md): Sawir Studio finds what's slowing your business down and fixes it: one system in place of the spreadsheets, AI for the busywork, Shopify connected to Odoo, websites and apps, looked after for years.
 - [About](https://sawirstudio.com/about-us/index.md): Sawir Studio ships apps, websites and designs fast, with AI in the loop and a human owning every call. Read our founder's note and what we believe.
 - [Ricardo Sawir, Founder of Sawir Studio](https://sawirstudio.com/ricardosawir/index.md): Ricardo Sawir is the founder of Sawir Studio. He builds apps and software for clients and as the studio’s own products, from Rindraw to WordPress plugins.
 - [Press kit](https://sawirstudio.com/press/index.md): Sawir Studio's press kit: logos, brand colors and fonts, company facts, a short boilerplate and the founder's bio and photo, free to use.

@@ -1,14 +1,14 @@
 ---
-title: Sawir Studio | Shopify et Odoo, logiciels de gestion, plateformes web et applications
+title: Sawir Studio | Systèmes de gestion, IA, Shopify et Odoo, sites web et applications
 url: https://sawirstudio.com/fr/
-description: Sawir Studio conçoit, développe et maintient les logiciels qui font tourner les entreprises : Shopify connecté à Odoo, logiciels de gestion, plateformes web et applications.
+description: Sawir Studio trouve ce qui freine votre entreprise et y remédie : un système unique à la place des tableurs, l’IA pour les tâches fastidieuses, Shopify connecté à Odoo, des sites web et des applications, suivis pendant des années.
 ---
 
 bonjour, nous sommes Sawir Studio
 
-# Nous concevons, développons et assurons le suivi des logiciels de votre entreprise.
+# Nous trouvons ce qui freine votre entreprise, et nous y remédions.
 
-Une boutique Shopify en accord avec votre comptabilité dans Odoo, un système unique à la place des tableurs, une application pour vos clients. Un petit studio s’en charge dès la première version et vous accompagne pendant des années.
+Parfois, c’est un système unique à la place des tableurs, parfois une IA qui prend en charge les tâches fastidieuses, parfois un site web qui vous amène des clients. Un seul petit studio, du premier correctif jusqu’à des années plus tard.
 
 L'IA dans la boucle, un humain qui assume chaque décision. [Ce en quoi nous croyons →](https://sawirstudio.com/fr/about-us/)
 

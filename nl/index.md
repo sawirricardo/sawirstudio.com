@@ -1,14 +1,14 @@
 ---
-title: Sawir Studio | Shopify & Odoo, bedrijfssystemen, webplatforms & apps
+title: Sawir Studio | Bedrijfssystemen, AI, Shopify & Odoo, websites & apps
 url: https://sawirstudio.com/nl/
-description: Sawir Studio ontwerpt, bouwt en onderhoudt de software waar bedrijven op draaien: Shopify gekoppeld aan Odoo, bedrijfssystemen, webplatforms en apps.
+description: Sawir Studio zoekt uit wat je bedrijf afremt en lost het op: één systeem in plaats van spreadsheets, AI voor het routinewerk, Shopify gekoppeld aan Odoo, websites en apps, met jarenlang onderhoud.
 ---
 
 hoi, wij zijn Sawir Studio
 
-# Wij ontwerpen, bouwen en onderhouden software voor jouw bedrijf.
+# Wij zoeken uit wat je bedrijf afremt en lossen het op.
 
-Een Shopify-webshop die klopt met je boekhouding in Odoo, één systeem in plaats van al die spreadsheets, een app voor je klanten. Eén kleine studio bouwt de eerste versie en blijft daarna jarenlang betrokken.
+Soms is dat één systeem in plaats van al die spreadsheets, soms AI die het routinewerk overneemt, soms een website die klanten oplevert. Eén kleine studio, van de eerste oplossing tot jaren daarna.
 
 AI als hulpmiddel, en een mens die elke beslissing neemt. [Waar wij in geloven →](https://sawirstudio.com/nl/about-us/)
 
