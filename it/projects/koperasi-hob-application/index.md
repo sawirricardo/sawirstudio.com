@@ -12,7 +12,7 @@ L’app per la spesa di ogni giorno di una cooperativa
 
 ## Il risultato
 
-- **Disponibile sull’App Store da dicembre 2025.**
+- **Dal primo sviluppo all’App Store in sei mesi,** online da dicembre 2025.
 - **I soci ordinano dalla propria cooperativa.** Consegna o ritiro, con pagamento online tramite iPaymu o con bonifico bancario.
 - **La cooperativa gestisce tutto in autonomia.** Prodotti, ordini, soci e scorte di ogni negozio da un unico pannello di amministrazione.
 

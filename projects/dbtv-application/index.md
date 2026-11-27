@@ -12,7 +12,7 @@ Sermons, prayer and daily devotionals from Ps. Debby Basjir
 
 ## The result
 
-- **On the App Store and Google Play.**
+- **From first build to the App Store in three months,** June to September 2025, and on Google Play too.
 - **New every day, without an app update.** Devotionals, sermons and events come from DBTV’s platform and appear on their own.
 - **One congregation, one version.** When the app changes, it asks people to update, so nobody is stuck with an old bug.
 

@@ -6,6 +6,7 @@ description: Articles de Sawir Studio sur la création d'applications web avec L
 
 # Blog
 
+- [2026-11-27 Prochaine étape, les services : ce que quelques personnes peuvent livrer avec des agents IA](https://sawirstudio.com/fr/posts/services-is-next/)
 - [2026-11-25 Qu’est-ce qu’un « Forward Deployed Engineer », et quand faire appel à l’un d’eux ?](https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio est désormais l’éditeur de Colvaron Conquest](https://sawirstudio.com/fr/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 L'API Shopify 2026-10 : ce qui risque de casser dans vos intégrations](https://sawirstudio.com/fr/posts/shopify-2026-10-api-what-breaks/)

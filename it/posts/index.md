@@ -6,6 +6,7 @@ description: Articoli di Sawir Studio sullo sviluppo di web application con Lara
 
 # Blog
 
+- [2026-11-27 I servizi sono i prossimi: cosa possono realizzare poche persone con agenti AI](https://sawirstudio.com/it/posts/services-is-next/)
 - [2026-11-25 Che cos’è un Forward Deployed Engineer e quando conviene averne uno in prestito?](https://sawirstudio.com/it/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio è ora l’editore di Colvaron Conquest](https://sawirstudio.com/it/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 L'API Shopify 2026-10: cosa smette di funzionare nelle vostre integrazioni](https://sawirstudio.com/it/posts/shopify-2026-10-api-what-breaks/)

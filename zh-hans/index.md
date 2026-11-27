@@ -82,6 +82,28 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 
   查看[包含的内容](https://sawirstudio.com/zh-hans/launch-and-growth/)
 
+## 从固定价格开始
+
+三种起步方式，每一种都以成果而非工时为目标，开工前先商定一个价格。
+
+- ### 让 Shopify 与 Odoo 数据一致
+
+  我们将您的 Shopify 商店与 Odoo 对接，让订单、库存和结算款与您的账目相符，无需任何人重复录入。
+
+  查看[运作方式](https://sawirstudio.com/zh-hans/shopify/)
+- ### 告别电子表格
+
+  我们把您业务中依赖电子表格的部分（例如库存或采购）迁移到一个团队真正会用的系统中。
+
+  看看[选 Odoo 还是定制？](https://sawirstudio.com/zh-hans/odoo/)
+- ### 繁琐事务盘点
+
+  我们与您的团队一起工作，找出 AI 可以接手的重复性工作，并先解决第一项。其余事项的清单留给您。
+
+  查看[我们如何融入您的团队开展工作](https://sawirstudio.com/zh-hans/forward-deployed-engineering/)
+
+[获取报价](https://sawirstudio.com/zh-hans/contact/)
+
 ## 客户项目
 
 [![Vivaldy Skin Clinic 网站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

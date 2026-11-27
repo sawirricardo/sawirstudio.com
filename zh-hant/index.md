@@ -82,6 +82,28 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 
   查看[包含哪些項目](https://sawirstudio.com/zh-hant/launch-and-growth/)
 
+## 從固定價格開始
+
+三種開始合作的方式，每一種都以成果為目標，而不是按時數計費，開工前就先談定一個價格。
+
+- ### 讓 Shopify 和 Odoo 資料一致
+
+  我們把您的 Shopify 商店串接到 Odoo，讓訂單、庫存和撥款與您的帳務相符，不必再靠人工重複輸入。
+
+  看看[運作方式](https://sawirstudio.com/zh-hant/shopify/)
+- ### 告別試算表
+
+  我們把您業務中仍靠試算表處理的部分（例如庫存或採購），搬進一套團隊真正會用的系統。
+
+  看看[該選 Odoo 還是客製化？](https://sawirstudio.com/zh-hant/odoo/)
+- ### 繁瑣工作盤點
+
+  我們和您的團隊一起坐下來，找出 AI 可以接手的重複性工作，並先解決第一項。其餘的清單則留給您。
+
+  看看[我們如何加入您的團隊一起工作](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)
+
+[詢問價格](https://sawirstudio.com/zh-hant/contact/)
+
 ## 客戶案例
 
 [![Vivaldy Skin Clinic 網站](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

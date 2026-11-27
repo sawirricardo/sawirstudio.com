@@ -12,6 +12,7 @@ Un sito bilingue che vende il prodotto tanto bene quanto il prodotto funziona
 
 ## Il risultato
 
+- **Rifatto in meno di una settimana,** dal 23 al 26 novembre 2026.
 - **Un solo sito, due lingue.** [peoplebond.id](https://peoplebond.id/) è in indonesiano e in inglese.
 - **Una pagina per ogni domanda di chi acquista.** Ogni modulo, integrazione e settore ha la sua pagina, così un responsabile HR può verificare che PeopleBond gestisca il suo caso ancora prima di parlare con il reparto vendite.
 - **Strumenti gratuiti che attirano visitatori.** Calcolatori per PPh 21 TER, stipendio netto, THR, straordinari e indennità di fine rapporto, oltre a un generatore di buste paga e di turni di lavoro, tutti conformi alle norme in vigore.

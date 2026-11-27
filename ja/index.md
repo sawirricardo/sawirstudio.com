@@ -82,6 +82,28 @@ AI を活用しつつ、判断は必ず人が行います。[私たちの考え�
 
   [サービス内容](https://sawirstudio.com/ja/launch-and-growth/)はこちら
 
+## 定額料金から始める
+
+始め方は 3 つ。いずれも作業時間ではなく成果を基準とし、着手前に合意した一つの料金で承ります。
+
+- ### Shopify と Odoo のデータを一致させる
+
+  お客様の Shopify ストアを Odoo と連携します。注文、在庫、入金が帳簿と一致し、手作業で再入力する必要がなくなります。
+
+  [仕組み](https://sawirstudio.com/ja/shopify/)を見る
+- ### スプレッドシート管理からの脱却
+
+  在庫や仕入れなど、スプレッドシートで管理している業務を、チームで実際に使える一つのシステムに移行します。
+
+  [Odoo とカスタム開発、どちらが合う？](https://sawirstudio.com/ja/odoo/)
+- ### 繰り返し作業の診断
+
+  お客様のチームと一緒に、AI に任せられる繰り返し作業を洗い出し、まず 1 つを改善します。残りの作業リストはお手元に残ります。
+
+  [お客様のチームに入って進める方法](https://sawirstudio.com/ja/forward-deployed-engineering/)を見る
+
+[料金を問い合わせる](https://sawirstudio.com/ja/contact/)
+
 ## お客様向けの制作実績
 
 [![Vivaldy Skin Clinic ウェブサイト](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

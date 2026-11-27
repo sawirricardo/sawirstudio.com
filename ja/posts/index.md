@@ -6,6 +6,7 @@ description: LaravelとPHPによるウェブアプリケーション開発につ
 
 # ブログ
 
+- [2026-11-27 次はサービス業：AI エージェントを活用する少人数のチームが提供できること](https://sawirstudio.com/ja/posts/services-is-next/)
 - [2026-11-25 フォワードデプロイドエンジニアとは？力を借りるべきなのはどんなときか](https://sawirstudio.com/ja/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio が Colvaron Conquest のパブリッシャーになりました](https://sawirstudio.com/ja/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopify 2026-10 APIで影響を受ける連携とは](https://sawirstudio.com/ja/posts/shopify-2026-10-api-what-breaks/)

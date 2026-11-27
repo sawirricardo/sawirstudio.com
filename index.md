@@ -82,6 +82,28 @@ Trusted by
 
   See [what's included](https://sawirstudio.com/launch-and-growth/)
 
+## Start with a fixed price
+
+Three ways to start, each for an outcome rather than hours, with one price agreed before we begin.
+
+- ### Shopify and Odoo, agreeing
+
+  We connect your Shopify store to Odoo, so orders, stock and payouts match your books without anyone retyping them.
+
+  See [how it works](https://sawirstudio.com/shopify/)
+- ### Off the spreadsheets
+
+  We take the part of your business that lives in spreadsheets, like stock or purchasing, and move it into one system your team actually uses.
+
+  See [Odoo or custom?](https://sawirstudio.com/odoo/)
+- ### The busywork audit
+
+  We sit with your team, find the repetitive work AI can take over, and fix the first one. You keep the list for the rest.
+
+  See [how we work inside your team](https://sawirstudio.com/forward-deployed-engineering/)
+
+[Ask for a price](https://sawirstudio.com/contact/)
+
 ## Work for clients
 
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

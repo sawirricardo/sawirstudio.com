@@ -12,7 +12,7 @@ Predigten, Gebete und tägliche Andachten von Ps. Debby Basjir
 
 ## Das Ergebnis
 
-- **Im App Store und bei Google Play.**
+- **In drei Monaten vom ersten Build in den App Store,** von Juni bis September 2025, und auch bei Google Play.
 - **Jeden Tag Neues, ganz ohne App-Update.** Andachten, Predigten und Veranstaltungen kommen von der Plattform von DBTV und erscheinen automatisch.
 - **Eine Gemeinde, eine Version.** Wenn sich die App ändert, bittet sie zum Update, damit niemand mit einem alten Fehler hängen bleibt.
 

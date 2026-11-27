@@ -6,6 +6,7 @@ description: Статьи Sawir Studio о разработке веб-прило
 
 # Блог
 
+- [2026-11-27 Следующий на очереди сектор услуг: что могут несколько человек с ИИ-агентами](https://sawirstudio.com/ru/posts/services-is-next/)
 - [2026-11-25 Кто такой Forward Deployed Engineer и когда стоит привлечь его на время?](https://sawirstudio.com/ru/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio теперь издатель Colvaron Conquest](https://sawirstudio.com/ru/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 API Shopify 2026-10: что сломается в ваших интеграциях](https://sawirstudio.com/ru/posts/shopify-2026-10-api-what-breaks/)

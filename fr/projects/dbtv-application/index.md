@@ -12,7 +12,7 @@ Prédications, prière et méditations quotidiennes de Ps. Debby Basjir
 
 ## Le résultat
 
-- **Sur l’App Store et Google Play.**
+- **De la première version à l’App Store en trois mois,** de juin à septembre 2025, et aussi sur Google Play.
 - **Du nouveau chaque jour, sans mise à jour de l’application.** Les méditations, les prédications et les événements proviennent de la plateforme de DBTV et s’affichent automatiquement.
 - **Une seule communauté, une seule version.** Lorsque l’application évolue, elle invite les utilisateurs à faire la mise à jour, pour que personne ne reste bloqué avec un ancien bug.
 

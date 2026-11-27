@@ -12,6 +12,7 @@ Eine zweisprachige Website, die das Produkt so gut verkauft, wie es funktioniert
 
 ## Das Ergebnis
 
+- **In weniger als einer Woche neu aufgebaut,** vom 23. bis 26. November 2026.
 - **Eine Website, zwei Sprachen.** [peoplebond.id](https://peoplebond.id/) gibt es auf Indonesisch und Englisch.
 - **Eine Seite für jede Frage von Kaufinteressenten.** Jedes Modul, jede Integration und jede Branche hat eine eigene Seite. So können HR-Verantwortliche prüfen, ob PeopleBond ihren Fall abdeckt, noch bevor sie überhaupt mit dem Vertrieb sprechen.
 - **Kostenlose Tools, die Besucher anziehen.** Rechner für PPh 21 TER, Nettogehalt, THR, Überstunden und Abfindungen sowie ein Generator für Gehaltsabrechnungen und Schichtpläne, jeweils nach den aktuellen Vorschriften.

@@ -82,6 +82,28 @@ Si affidano a noi
 
   Scoprite [cosa è incluso](https://sawirstudio.com/it/launch-and-growth/)
 
+## Iniziate con un prezzo fisso
+
+Tre modi per iniziare, ognuno pensato per un risultato e non per un monte ore, con un unico prezzo concordato prima di partire.
+
+- ### Shopify e Odoo, in sintonia
+
+  Colleghiamo il vostro negozio Shopify a Odoo, così ordini, scorte e accrediti corrispondono alla vostra contabilità senza che nessuno debba reinserirli a mano.
+
+  Scoprite [come funziona](https://sawirstudio.com/it/shopify/)
+- ### Addio ai fogli di calcolo
+
+  Prendiamo la parte della vostra attività che oggi vive nei fogli di calcolo, come il magazzino o gli acquisti, e la trasferiamo in un unico sistema che il vostro team usa davvero.
+
+  Scoprite [Odoo o su misura?](https://sawirstudio.com/it/odoo/)
+- ### L’audit delle attività ripetitive
+
+  Affianchiamo il vostro team, individuiamo le attività ripetitive che l’AI può prendere in carico e sistemiamo la prima. L’elenco delle altre resta a voi.
+
+  Scoprite [come lavoriamo all’interno del vostro team](https://sawirstudio.com/it/forward-deployed-engineering/)
+
+[Richiedete un prezzo](https://sawirstudio.com/it/contact/)
+
 ## Lavori per i clienti
 
 [![Sito web Vivaldy Skin Clinic](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

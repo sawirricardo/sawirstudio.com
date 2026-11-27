@@ -83,6 +83,7 @@ Every page below is also available as Markdown: request it with `Accept: text/ma
 ## Blog
 
 - [Blog](https://sawirstudio.com/posts/index.md): Articles from Sawir Studio on building web applications with Laravel and PHP.
+- [Services Is Next: What a Few People with AI Agents Can Deliver](https://sawirstudio.com/posts/services-is-next/index.md): A thread from Ethan Mollick, BuccoCapital and Aaron Levie says services firms are next to be remade by AI agents. What that looks like from inside a firm already working that way, and what it means for clients.
 - [What Is a Forward Deployed Engineer?](https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/index.md): Forward deployed engineers work inside a customer's team and ship software into their systems. Why the role is suddenly everywhere, and when a smaller company should borrow one instead of hiring.
 - [Sawir Studio Now Publishes Colvaron Conquest](https://sawirstudio.com/posts/sawir-studio-publishes-colvaron-conquest/index.md): Sawir Studio is now the publisher of Colvaron Conquest, Coco JM's strategic trading card game. Play it free in your browser at colvaronconquest.com.
 - [Shopify 2026-10 API: What Breaks](https://sawirstudio.com/posts/shopify-2026-10-api-what-breaks/index.md): The Shopify Admin API changes in version 2026-10 that can break an integration, and what to change: shipping rates, draft order discounts, taxes, barcodes and more.

@@ -6,6 +6,7 @@ description: Sawir Studio 发布的文章，主要讲解如何使用 Laravel 和
 
 # 博客
 
+- [2026-11-27 下一步是服务业：几个人加上 AI 代理能交付什么](https://sawirstudio.com/zh-hans/posts/services-is-next/)
 - [2026-11-25 什么是前线部署工程师（Forward Deployed Engineer），什么时候该借调一位？](https://sawirstudio.com/zh-hans/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio 现已成为 Colvaron Conquest 的发行商](https://sawirstudio.com/zh-hans/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 Shopify 2026-10 版 API：哪些集成会失效](https://sawirstudio.com/zh-hans/posts/shopify-2026-10-api-what-breaks/)

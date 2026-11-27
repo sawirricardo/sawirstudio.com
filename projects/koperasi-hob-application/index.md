@@ -12,7 +12,7 @@ Everyday grocery shopping app for a cooperative
 
 ## The result
 
-- **Live on the App Store since December 2025.**
+- **From first build to the App Store in six months,** live since December 2025.
 - **Members order from their own cooperative.** Delivery or pick-up, paid online through iPaymu or by bank transfer.
 - **The cooperative runs it itself.** Products, orders, members and each store’s stock from one admin panel.
 

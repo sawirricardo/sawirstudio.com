@@ -12,6 +12,7 @@ Een tweetalige website die het product net zo goed verkoopt als het werkt
 
 ## Het resultaat
 
+- **In minder dan een week opnieuw gebouwd,** van 23 tot en met 26 november 2026.
 - **Eén site, twee talen.** [peoplebond.id](https://peoplebond.id/) is er in het Indonesisch en Engels.
 - **Een pagina voor elke vraag van een koper.** Elke module, integratie en branche heeft een eigen pagina. Zo kan een HR-manager nagaan of PeopleBond hun situatie aankan, nog vóór er contact is met sales.
 - **Gratis tools die bezoekers aantrekken.** Rekentools voor PPh 21 TER, nettoloon, THR, overwerk en ontslagvergoeding, plus een generator voor loonstroken en dienstroosters, allemaal volgens de huidige regels.

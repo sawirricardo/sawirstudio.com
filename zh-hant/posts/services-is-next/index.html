@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="#fffcf5" media="(prefers-color-scheme: light)" name="theme-color"/><meta content="#1a1916" media="(prefers-color-scheme: dark)" name="theme-color"/><meta content="light dark" name="color-scheme"/><script>
+      // Set the theme before first paint to avoid a flash of the wrong colors.
+      (function () {
+        var theme;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script><title>下一個輪到服務業：少數人搭配 AI 代理能交付什麼 | Sawir Studio</title><meta content="Ethan Mollick、BuccoCapital 和 Aaron Levie 的一串討論指出，服務公司是下一個將被 AI 代理徹底改造的對象。本文從一家已經這樣工作的公司內部，說明實際情況以及這對客戶的意義。" name="description"/><meta content="下一個輪到服務業：少數人搭配 AI 代理能交付什麼 | Sawir Studio" property="og:title"/><meta content="Ethan Mollick、BuccoCapital 和 Aaron Levie 的一串討論指出，服務公司是下一個將被 AI 代理徹底改造的對象。本文從一家已經這樣工作的公司內部，說明實際情況以及這對客戶的意義。" property="og:description"/><meta content="https://sawirstudio.com/zh-hant/posts/services-is-next/" property="og:url"/><link href="https://sawirstudio.com/zh-hant/posts/services-is-next/" rel="canonical"/><meta content="article" property="og:type"/><meta content="Sawir Studio" property="og:site_name"/>
+    <meta content="zh_TW" property="og:locale"/><meta content="https://sawirstudio.com/assets/og/cards/posts-services-is-next.jpg" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="下一個輪到服務業：少數人搭配 AI 代理能交付什麼 | Sawir Studio" property="og:image:alt"/><meta content="下一個輪到服務業：少數人搭配 AI 代理能交付什麼 | Sawir Studio" name="twitter:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="/favicon.ico" rel="icon" sizes="48x48"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Caveat:wght@600..700&amp;display=swap" rel="stylesheet"/><link href="/assets/css/style.css?v=8186d2775f" rel="stylesheet"/><link href="/assets/css/convertkit.css" rel="stylesheet"/><script async="" src="https://f.convertkit.com/ckjs/ck.5.js"></script><script defer="" src="/assets/js/main.js?v=ff6b5e7c43"></script><script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "下一個輪到服務業：少數人搭配 AI 代理能交付什麼",
+          "description": "Ethan Mollick、BuccoCapital 和 Aaron Levie 的一串討論指出，服務公司是下一個將被 AI 代理徹底改造的對象。本文從一家已經這樣工作的公司內部，說明實際情況以及這對客戶的意義。",
+          "url": "https://sawirstudio.com/zh-hant/posts/services-is-next/",
+          "mainEntityOfPage": "https://sawirstudio.com/posts/services-is-next/",
+          "datePublished": "2026-11-27",
+          "image": "https://sawirstudio.com/assets/og/cards/posts-services-is-next.jpg",
+          "author": {
+            "@id": "https://sawirstudio.com/#organization"
+          },
+          "publisher": {
+            "@id": "https://sawirstudio.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://sawirstudio.com/zh-hant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "部落格",
+              "item": "https://sawirstudio.com/zh-hant/posts/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "下一個輪到服務業：少數人搭配 AI 代理能交付什麼",
+              "item": "https://sawirstudio.com/zh-hant/posts/services-is-next/"
+            }
+          ]
+        }
+      ]
+    }
+    </script><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "z4kdns2tll");
+    </script>    <!-- i18n:alternates -->
+    <link rel="alternate" hreflang="en" href="https://sawirstudio.com/posts/services-is-next/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://sawirstudio.com/zh-hans/posts/services-is-next/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://sawirstudio.com/zh-hant/posts/services-is-next/" />
+    <link rel="alternate" hreflang="ja" href="https://sawirstudio.com/ja/posts/services-is-next/" />
+    <link rel="alternate" hreflang="de" href="https://sawirstudio.com/de/posts/services-is-next/" />
+    <link rel="alternate" hreflang="he" href="https://sawirstudio.com/he/posts/services-is-next/" />
+    <link rel="alternate" hreflang="ru" href="https://sawirstudio.com/ru/posts/services-is-next/" />
+    <link rel="alternate" hreflang="fr" href="https://sawirstudio.com/fr/posts/services-is-next/" />
+    <link rel="alternate" hreflang="hi" href="https://sawirstudio.com/hi/posts/services-is-next/" />
+    <link rel="alternate" hreflang="nl" href="https://sawirstudio.com/nl/posts/services-is-next/" />
+    <link rel="alternate" hreflang="it" href="https://sawirstudio.com/it/posts/services-is-next/" />
+    <link rel="alternate" hreflang="ar" href="https://sawirstudio.com/ar/posts/services-is-next/" />
+    <link rel="alternate" hreflang="x-default" href="https://sawirstudio.com/posts/services-is-next/" />
+    <!-- /i18n:alternates -->
+</head><body><a class="skip-link" href="#main">跳至主要內容</a><header class="site-header"><a class="logo" href="/zh-hant/" title="首頁">Sawir<span>Studio</span></a><nav class="site-nav"><ul><li><a href="/zh-hant/">首頁</a></li><li><a aria-current="true" href="/zh-hant/posts/">部落格</a></li><li><a href="/zh-hant/projects/">專案</a></li><li><a href="/zh-hant/about-us/">關於我們</a></li><li><a href="/zh-hant/contact/">聯絡我們</a></li></ul></nav><button aria-label="切換深色模式" class="theme-toggle" title="切換深色模式" type="button"><svg aria-hidden="true" class="icon-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg> <svg aria-hidden="true" class="icon-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg></button><hr/></header><main id="main"> <section class="section">
+<article class="narrow center">
+<nav aria-label="導覽路徑" class="breadcrumbs is-center">
+<ol>
+<li><a href="/zh-hant/">首頁</a></li>
+<li><a href="/zh-hant/posts/">部落格</a></li>
+<li><a aria-current="page" href="/zh-hant/posts/services-is-next/">下一個輪到服務業：少數人搭配 AI 代理能交付什麼</a></li>
+</ol>
+</nav>
+<h1 class="page-title heavy text-center">下一個輪到服務業：少數人搭配 AI 代理能交付什麼</h1>
+<div class="prose prose-xl">
+<p>這週有一串簡短的討論在流傳。<a href="https://x.com/emollick/status/2125267894644916669" rel="noopener" target="_blank">Ethan Mollick</a> 說，他不斷從製造業到金融服務業的大公司那裡聽到，兩三個人的團隊運用 AI，現在能做完幾十個人的工作。<a href="https://x.com/buccocapital/status/2125603025586966893" rel="noopener" target="_blank">BuccoCapital</a> 回應，企業要是不採用新技術，就會被採用了的新創公司輾過去，而繼軟體之後，下一個就是服務業。<a href="https://x.com/levie/status/2125983542475894821" rel="noopener" target="_blank">Aaron Levie</a> 則認為，打造以 AI 代理為核心的服務公司是個龐大的機會：專業知識的重要性不減，交付能力卻能放大 10 倍。</p>
+<p>我們就是這樣工作的，所以想談談從內部看到的實際情況，以及這對委託我們這類公司的企業應該有什麼意義。</p>
+<h2>從內部看到的實際情況</h2>
+<p>少數幾個人，由 AI 代理包辦大部分的打字工作，就能交付過去需要大得多的團隊才做得出的成果。以下是幾個近期的例子：</p>
+<ul>
+<li><strong>不到一週完成一個完整網站。</strong>我們在 2026 年 11 月 23 日至 26 日間重建了 <a href="/zh-hant/projects/peoplebond-website/">PeopleBond 的網站</a>：提供印尼文和英文版本，每個模組、整合功能和產業都有專屬頁面，還有免費的薪資計算工具。薪資與稅務頁面上線前，我們對照產品的程式碼逐一核對過。</li>
+<li><strong>三個月做出一款 App。</strong><a href="/zh-hant/projects/dbtv-application/">DBTV</a> 從 2025 年 6 月下旬的第一個建置版本，到 9 月在 App Store 上架，之後已推出超過二十次更新。</li>
+<li><strong>我們自己的作品。</strong>我們在 App Store 上有七款自家 App，本網站也提供十二種語言版本。</li>
+</ul>
+<h2>決定成果的仍然是專業知識</h2>
+<p>Levie 說得對，專業知識的重要性絲毫不減。AI 代理寫程式很快，但它們不知道該做什麼。真正的價值在於知道印尼的薪資計算必須依照 PP 58/2023 的 TER 稅率，並在 12 月重新結算全年稅額；知道傳統市場攤位上的一公斤辣椒，並不是包裝整齊的商品；或是知道 <a href="/zh-hant/posts/why-shopify-payouts-dont-match-your-books/">Shopify 撥款和您的帳對不起來</a>，而背後的原因需要向會計人員解釋清楚。我們的原則很簡單：打字交給 AI，思考由我們負責，每一行上線的程式碼都有真人讀過、測試過，並為它負責。</p>
+<h2>這對客戶代表什麼</h2>
+<ul>
+<li><strong>規模較小的企業也負擔得起像樣的系統。</strong>診所、合作社和商店過去從來不值得大型代理商花時間，現在能以對他們來說合理的價格，用一套系統取代一堆試算表。</li>
+<li><strong>為成果付費，而不是為工時付費。</strong>當交付速度這麼快，按時計費等於獎勵錯的事情。我們寧可在開工前，先和您談定要改變什麼，以及一個<a href="/zh-hant/#fixed-price">固定價格</a>。</li>
+<li><strong>外部工程師能跳脫公司內部的角力。</strong>Mollick 的重點是，大公司裡的小型 AI 團隊正引發爭執，大家都在爭論這一切意味著什麼。找一位外部人員，在案子進行期間加入您的團隊工作，就能把事情做完，又不必捲入紛爭。這就是我們的<a href="/zh-hant/forward-deployed-engineering/">前線部署工程服務</a>。</li>
+</ul>
+<h2>不變的事</h2>
+<p>客戶買的不是 AI，而是成果，以及為成果負責的人。東西到了明年還能正常運作，速度快才有意義，所以我們做完後會留下來持續維護：<a href="/zh-hant/projects/peoplebond-hcms-application/">PeopleBond</a> 從 2019 年就和我們合作至今。</p>
+<p>如果有什麼事正在拖慢您的業務，<a href="/zh-hant/contact/">請告訴我們</a>。</p>
+<p><strong>延伸閱讀：</strong><a href="/zh-hant/posts/what-is-a-forward-deployed-engineer/">什麼是前線部署工程師，以及何時該借調一位</a>，或是<a href="/zh-hant/posts/making-our-sites-agent-ready/">我們如何讓自家網站做好迎接 AI 代理的準備</a>。</p>
+</div>
+</article>
+</section>
+<section class="section narrow center">
+<form action="https://app.convertkit.com/forms/3406194/subscriptions" class="seva-form formkit-form" data-format="inline" data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}' data-sv-form="3406194" data-uid="601cc89535" data-version="5" method="post" min-width="400 500 600 700 800" style="background-color: rgb(249, 250, 251); border-radius: 4px">
+<div class="formkit-background" style="opacity: 0.2"></div>
+<div data-style="minimal">
+<div class="formkit-header" data-element="header" style="font-size: 27px; font-weight: 700; color: rgb(77, 77, 77)">
+<h2><strong>這篇文章對您有幫助嗎？</strong></h2>
+</div>
+<div class="formkit-subheader" data-element="subheader" style="font-size: 18px; color: rgb(104, 104, 104)">
+<p>留下您的電子郵件地址，之後每當有新文章發布，我就會寄給您類似的內容。</p>
+</div>
+<ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+<div class="seva-fields formkit-fields" data-element="fields" data-stacked="false">
+<div class="formkit-field">
+<input aria-label="電子郵件地址" class="formkit-input" name="email_address" placeholder="電子郵件地址" required="" style="color: rgb(0, 0, 0); border-color: rgb(227, 227, 227); border-radius: 4px; font-weight: 400" type="email"/>
+</div>
+<button class="formkit-submit" data-element="submit" style="color: rgb(0, 0, 0); border-color: rgb(22, 119, 190); border-radius: 4px; font-weight: 400">
+<div class="formkit-spinner"><div></div><div></div><div></div></div>
+<span>訂閱</span>
+</button>
+</div>
+<div class="formkit-guarantee" data-element="guarantee" style="color: rgb(77, 77, 77); font-size: 13px; font-weight: 400">我不會寄送垃圾郵件，您可以隨時取消訂閱。</div>
+<div class="formkit-powered-by-convertkit-container"><a class="formkit-powered-by-convertkit" data-element="powered-by" data-variant="dark" href="https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" rel="nofollow noopener noreferrer" target="_blank">Built with ConvertKit</a></div>
+</div>
+</form>
+</section>
+</main><footer class="site-footer"><nav class="footer-links"><a href="/zh-hant/about-us/">關於我們</a> <a href="/zh-hant/projects/">作品案例</a> <a href="/zh-hant/contact/">聯絡我們</a> <a href="/zh-hant/press/">媒體專區</a> <a href="/zh-hant/privacy/">隱私權政策</a> <a href="/zh-hant/terms/">服務條款</a></nav><hr/><ul class="social-links"><li><a href="https://github.com/sawirstudio" rel="nofollow noreferrer noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/company/sawirstudio/" rel="noreferrer noopener" target="_blank">LinkedIn</a></li><li><a href="https://www.instagram.com/sawirstudioid/" rel="noreferrer noopener" target="_blank">Instagram</a></li></ul>      <!-- i18n:languages -->
+      <ul class="lang-links" aria-label="Language">
+        <li><a href="/posts/services-is-next/" hreflang="en" lang="en">English</a></li>
+        <li><a href="/zh-hans/posts/services-is-next/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+        <li><a href="/zh-hant/posts/services-is-next/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li>
+        <li><a href="/ja/posts/services-is-next/" hreflang="ja" lang="ja">日本語</a></li>
+        <li><a href="/de/posts/services-is-next/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="/he/posts/services-is-next/" hreflang="he" lang="he">עברית</a></li>
+        <li><a href="/ru/posts/services-is-next/" hreflang="ru" lang="ru">Русский</a></li>
+        <li><a href="/fr/posts/services-is-next/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="/hi/posts/services-is-next/" hreflang="hi" lang="hi">हिन्दी</a></li>
+        <li><a href="/nl/posts/services-is-next/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="/it/posts/services-is-next/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="/ar/posts/services-is-next/" hreflang="ar" lang="ar">العربية</a></li>
+      </ul>
+      <!-- /i18n:languages -->
+</footer></body></html>

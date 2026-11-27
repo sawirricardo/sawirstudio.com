@@ -12,7 +12,7 @@ Die App für den täglichen Lebensmitteleinkauf einer Genossenschaft
 
 ## Das Ergebnis
 
-- **Seit Dezember 2025 im App Store.**
+- **Vom ersten Build bis in den App Store in sechs Monaten,** live seit Dezember 2025.
 - **Mitglieder bestellen bei ihrer eigenen Genossenschaft.** Mit Lieferung oder Abholung, bezahlt online über iPaymu oder per Banküberweisung.
 - **Die Genossenschaft verwaltet alles selbst.** Produkte, Bestellungen, Mitglieder und den Lagerbestand jeder Filiale in einem einzigen Admin-Panel.
 

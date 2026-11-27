@@ -12,6 +12,7 @@ Un site web bilingue qui vend le produit aussi bien que celui-ci fonctionne
 
 ## Le résultat
 
+- **Refonte réalisée en moins d’une semaine,** du 23 au 26 novembre 2026.
 - **Un site, deux langues.** [peoplebond.id](https://peoplebond.id/) est disponible en indonésien et en anglais.
 - **Une page pour chaque question d’un acheteur.** Chaque module, intégration et secteur d’activité a sa propre page. Un responsable RH peut ainsi vérifier que PeopleBond répond à son cas avant même de parler à un commercial.
 - **Des outils gratuits qui attirent des visiteurs.** Des calculateurs pour le PPh 21 TER (impôt indonésien sur les salaires), le salaire net, le THR (prime de fête religieuse), les heures supplémentaires et les indemnités de départ, ainsi qu’un générateur de bulletins de paie et de plannings par équipes, tous conformes aux règles en vigueur.

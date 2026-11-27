@@ -12,7 +12,7 @@ Une application de courses du quotidien pour une coopérative
 
 ## Le résultat
 
-- **Disponible sur l’App Store depuis décembre 2025.**
+- **De la première version à l’App Store en six mois,** en ligne depuis décembre 2025.
 - **Les membres commandent auprès de leur propre coopérative.** Livraison ou retrait, avec paiement en ligne via iPaymu ou par virement bancaire.
 - **La coopérative gère tout elle-même.** Produits, commandes, membres et stock de chaque magasin, depuis une seule interface d’administration.
 

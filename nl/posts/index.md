@@ -6,6 +6,7 @@ description: Artikelen van Sawir Studio over het bouwen van webapplicaties met L
 
 # Blog
 
+- [2026-11-27 Diensten zijn nu aan de beurt: wat een paar mensen met AI-agents kunnen leveren](https://sawirstudio.com/nl/posts/services-is-next/)
 - [2026-11-25 Wat is een forward deployed engineer, en wanneer moet je er een inlenen?](https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio is nu de uitgever van Colvaron Conquest](https://sawirstudio.com/nl/posts/sawir-studio-publishes-colvaron-conquest/)
 - [2026-11-06 De Shopify 2026-10 API: wat er in je integraties kan breken](https://sawirstudio.com/nl/posts/shopify-2026-10-api-what-breaks/)

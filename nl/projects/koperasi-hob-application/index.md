@@ -12,7 +12,7 @@ Een app voor de dagelijkse boodschappen van een coöperatie
 
 ## Het resultaat
 
-- **Sinds december 2025 live in de App Store.**
+- **In zes maanden van de eerste versie naar de App Store,** live sinds december 2025.
 - **Leden bestellen bij hun eigen coöperatie.** Laten bezorgen of zelf ophalen, en online betalen via iPaymu of per bankoverschrijving.
 - **De coöperatie beheert alles zelf.** Producten, bestellingen, leden en de voorraad van elke winkel, vanuit één adminpaneel.
 

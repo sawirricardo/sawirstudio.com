@@ -12,7 +12,7 @@ Preken, gebed en dagelijkse devotionals van Ps. Debby Basjir
 
 ## Het resultaat
 
-- **In de App Store en Google Play.**
+- **In drie maanden van de eerste versie naar de App Store,** van juni tot september 2025, en ook op Google Play.
 - **Elke dag iets nieuws, zonder app-update.** Overdenkingen, preken en evenementen komen van het platform van DBTV en verschijnen vanzelf.
 - **Eén gemeente, één versie.** Als de app verandert, vraagt die mensen om te updaten, zodat niemand met een oude bug blijft zitten.
 

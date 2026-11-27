@@ -12,6 +12,7 @@ A bilingual website that sells the product as well as it works
 
 ## The result
 
+- **Rebuilt in under a week,** from November 23 to 26, 2026.
 - **One site, two languages.** [peoplebond.id](https://peoplebond.id/) is in Indonesian and English.
 - **A page for every question a buyer asks.** Each module, integration and industry has its own page, so an HR manager can check that PeopleBond handles their case before they ever talk to sales.
 - **Free tools that bring people in.** Calculators for PPh 21 TER, net salary, THR, overtime and severance, plus a payslip and shift schedule generator, each following the current rules.

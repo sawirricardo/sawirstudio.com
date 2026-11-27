@@ -82,6 +82,28 @@ Unsere Kunden
 
   Siehe [Leistungsumfang](https://sawirstudio.com/de/launch-and-growth/)
 
+## Starten Sie mit einem Festpreis
+
+Drei Wege für den Einstieg, jeder auf ein Ergebnis ausgerichtet statt auf Stunden, mit einem Preis, den wir vor Beginn vereinbaren.
+
+- ### Shopify und Odoo im Einklang
+
+  Wir verbinden Ihren Shopify Shop mit Odoo, damit Bestellungen, Lagerbestand und Auszahlungen mit Ihrer Buchhaltung übereinstimmen, ohne dass jemand sie neu abtippen muss.
+
+  So [funktioniert es](https://sawirstudio.com/de/shopify/)
+- ### Weg von Tabellen
+
+  Wir nehmen den Teil Ihres Geschäfts, der in Tabellen steckt, etwa Lager oder Einkauf, und überführen ihn in ein System, das Ihr Team tatsächlich nutzt.
+
+  Siehe [Odoo oder individuell?](https://sawirstudio.com/de/odoo/)
+- ### Der Check für Routinearbeit
+
+  Wir setzen uns mit Ihrem Team zusammen, finden die wiederkehrenden Aufgaben, die KI übernehmen kann, und lösen die erste davon. Die Liste mit den übrigen behalten Sie.
+
+  So [arbeiten wir in Ihrem Team](https://sawirstudio.com/de/forward-deployed-engineering/)
+
+[Preis anfragen](https://sawirstudio.com/de/contact/)
+
 ## Kundenprojekte
 
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)

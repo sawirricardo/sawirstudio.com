@@ -82,6 +82,28 @@ Vertrouwd door
 
   Bekijk [wat erbij zit](https://sawirstudio.com/nl/launch-and-growth/)
 
+## Begin met een vaste prijs
+
+Drie manieren om te beginnen, elk gericht op een resultaat in plaats van uren, met één prijs die we vooraf afspreken.
+
+- ### Shopify en Odoo op één lijn
+
+  We koppelen je Shopify-webshop aan Odoo, zodat bestellingen, voorraad en uitbetalingen kloppen met je boekhouding zonder dat iemand ze hoeft over te typen.
+
+  Bekijk [hoe het werkt](https://sawirstudio.com/nl/shopify/)
+- ### Weg van de spreadsheets
+
+  We nemen het deel van je bedrijf dat in spreadsheets zit, zoals voorraad of inkoop, en zetten het over naar één systeem dat je team echt gebruikt.
+
+  Bekijk [Odoo of maatwerk?](https://sawirstudio.com/nl/odoo/)
+- ### De routinewerkscan
+
+  We gaan met je team om tafel, zoeken het repetitieve werk dat AI kan overnemen en pakken de eerste taak aan. De lijst met de rest is voor jou.
+
+  Bekijk [hoe we binnen je team werken](https://sawirstudio.com/nl/forward-deployed-engineering/)
+
+[Vraag een prijs aan](https://sawirstudio.com/nl/contact/)
+
 ## Werk voor klanten
 
 [![Vivaldy Skin Clinic Website](https://sawirstudio.com/assets/images/projects/vivaldy-skin-clinic-website.webp)
