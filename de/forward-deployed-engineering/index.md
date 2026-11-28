@@ -1,14 +1,14 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/de/forward-deployed-engineering/
-description: Forward Deployed Engineer auf Zeit: Wir arbeiten in Ihrem Team und mit Ihren Tools, machen KI in Ihren Systemen nutzbar und verbinden, was Sie bereits einsetzen. Ohne Vollzeitstelle.
+description: Ein Forward Deployed Engineer in Ihrem Team, mit ergebnisbezogenem Preis: Vor dem Start vereinbaren wir, was sich ändert, und einen Preis. Dann setzen wir KI in Ihren Systemen ein und verbinden, was Sie bereits nutzen.
 ---
 
 neu: Forward Deployed Engineers
 
 # Ein Entwickler in Ihrem Team.
 
-Ein Forward Deployed Engineer arbeitet dort, wo das Problem liegt: in Ihren Tools, mit Ihren Daten und im Arbeitsalltag Ihres Teams. Genau dort bringt er Software zum Einsatz, auch KI. Eine solche Stelle zu besetzen, ist langwierig und teuer. Leihen Sie sich unseren.
+Ein Forward Deployed Engineer arbeitet dort, wo das Problem liegt: in Ihren Tools, Ihren Daten und im Alltag Ihres Teams. Dort bringt er Software zum Einsatz, auch KI. Die Tage, die wir dort verbringen, bezahlen Sie nicht. Sie bezahlen für das, was sich ändert.
 
 [Sprechen Sie mit uns](https://sawirstudio.com/de/contact/) [Was ist ein Forward Deployed Engineer?](https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/)
 
@@ -27,17 +27,17 @@ Ein Forward Deployed Engineer arbeitet dort, wo das Problem liegt: in Ihren Tool
 
   Wir stellen die Software auf Ihren Servern oder in Ihrem Cloud-Konto bereit, überwachen, reparieren und aktualisieren sie, solange Sie uns dort brauchen.
 
-## So funktioniert es
+## Der Preis richtet sich nach dem, was sich ändert
 
-1. ### Zuerst die Arbeit verstehen.
+1. ### Zuerst das Ergebnis vereinbaren.
 
-   Wir kommen in Ihren Chat, Ihre Repositories und Ihre Meetings und sehen uns an, wie die Arbeit tatsächlich abläuft, bevor wir Code schreiben.
-2. ### In wenigen Wochen liefern.
+   Bevor wir anfangen, halten wir in Ihren Worten schriftlich fest, was anders sein wird: Bestellungen, die ohne erneutes Abtippen in der Buchhaltung landen, Freigaben, die nicht mehr über den Gruppenchat laufen, der Montagsbericht, den niemand mehr neu zusammenbauen muss. Dann vereinbaren wir dafür einen Preis.
+2. ### In Ihrem Team arbeiten.
 
-   Ihre Mitarbeitenden bekommen früh etwas, das funktioniert. Dann verfeinern wir es anhand dessen, was sie tatsächlich damit tun. Viele erste Entwürfe schreibt die KI; ein Mensch liest und testet jede Zeile und steht dafür gerade.
-3. ### Sie gestärkt zurücklassen.
+   Wir kommen in Ihren Chat, Ihre Repositorys und Ihre Meetings, lernen, wie die Arbeit wirklich abläuft, und geben Ihren Mitarbeitenden innerhalb weniger Wochen etwas Funktionierendes an die Hand. Viele erste Entwürfe schreibt die KI; ein Mensch liest und testet jede Zeile und steht dafür gerade.
+3. ### Das nächste Ergebnis wählen oder aufhören.
 
-   Code, Daten und Konten bleiben auf Ihren Namen, mit einer Dokumentation, mit der Ihr eigenes Team arbeiten kann. Uns ist lieber, Sie behalten uns, weil die Arbeit gut ist, und nicht, weil Sie nicht wechseln können.
+   Jedes weitere Ergebnis bekommt vor dem Start seinen eigenen Preis. Code, Daten und Konten bleiben auf Ihren Namen, mit Dokumentation, der Ihr eigenes Team folgen kann. So bleiben Sie bei uns, weil die Arbeit gut ist, und nicht, weil Sie nicht wegkönnen.
 
 Für uns nichts Neues
 
@@ -51,14 +51,14 @@ In der Regel ja, wenn:
 
 - **Sie haben KI-Tools gekauft, und nichts hat sich geändert.** Die Lizenzen sind da, aber die Arbeit läuft noch wie früher, weil niemand Zeit hatte, die Tools in die Abläufe einzubinden.
 - **Das Problem sich über mehrere Systeme erstreckt** und jemanden braucht, der sich in alle einarbeitet, keinen Spezialisten für nur eines.
-- **Sie für Monate einen Entwickler brauchen, nicht für Jahre.** Lange genug, um die Arbeitsweise zu verändern, ohne eine Vollzeitkraft einzustellen.
+- **Sie wissen, was sich ändern muss, aber nicht, was gebaut werden soll.** Das gemeinsam mit Ihrem Team herauszufinden, gehört zur Aufgabe.
 
-Nicht das Richtige ist es, wenn Sie bereits genau wissen, was gebaut werden soll. Dann ist ein Projekt für [individuelle Software](https://sawirstudio.com/de/custom/) mit festem Umfang günstiger. Und wenn Sie die Rolle dauerhaft brauchen, besetzen Sie sie mit einer eigenen Kraft. Wir helfen Ihnen bei der Stellenbeschreibung.
+Das passt nicht, wenn Sie bereits genau wissen, was gebaut werden soll. Dann ist ein Projekt für [individuelle Software](https://sawirstudio.com/de/custom/) mit vorab festgelegten Anforderungen der schnellere Weg. Und wenn Sie die Rolle dauerhaft brauchen, stellen Sie dafür jemanden ein. Wir helfen Ihnen, die Stellenbeschreibung zu schreiben.
 
-Jeder Einsatz ist anders. Dauer und Preis ergeben sich daher aus einem ersten Gespräch über Ihre Situation.
+Sie wissen nicht, wo Sie anfangen sollen? Das [Audit für Routinearbeit](https://sawirstudio.com/de/#fixed-price) ist ein erstes Ergebnis zum Festpreis: Wir setzen uns mit Ihrem Team zusammen, finden die wiederkehrenden Aufgaben, die KI übernehmen kann, und lösen die erste davon.
 
 Sagen Sie uns, wo es hakt.
 
-## Sie möchten einen Entwickler in Ihrem Team?
+## Was soll anders laufen?
 
 [Sprechen Sie mit uns](https://sawirstudio.com/de/contact/)

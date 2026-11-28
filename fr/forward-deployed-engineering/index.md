@@ -1,14 +1,14 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/fr/forward-deployed-engineering/
-description: Faites appel à notre Forward Deployed Engineer : nous travaillons au sein de votre équipe et dans vos outils, pour mettre l’IA au travail dans vos systèmes et connecter vos outils actuels. Sans embauche à temps plein.
+description: Un forward deployed engineer au sein de votre équipe, avec un prix fondé sur le résultat : nous convenons de ce qui change et d’un prix unique avant de commencer, puis nous mettons l’IA au travail dans vos systèmes et connectons les outils que vous utilisez déjà.
 ---
 
 nouveau : les Forward Deployed Engineers
 
 # Un ingénieur au sein de votre équipe.
 
-Un Forward Deployed Engineer travaille là où se trouve le problème : dans vos outils, vos données et le quotidien de votre équipe. Il y intègre des logiciels, IA comprise. En recruter un est long et coûteux. Empruntez le nôtre.
+Un forward deployed engineer travaille là où se trouve le problème : dans vos outils, vos données et le quotidien de votre équipe, et il y met en production des logiciels, IA comprise. Les jours que nous y passons ne vous sont pas facturés. Vous payez ce qui change.
 
 [Parlons-en](https://sawirstudio.com/fr/contact/) [Qu’est-ce qu’un Forward Deployed Engineer ?](https://sawirstudio.com/fr/posts/what-is-a-forward-deployed-engineer/)
 
@@ -27,17 +27,17 @@ Un Forward Deployed Engineer travaille là où se trouve le problème : dans vos
 
   Le tout est déployé sur vos serveurs ou votre compte cloud, puis surveillé, corrigé et mis à jour aussi longtemps que vous avez besoin de nous.
 
-## Notre méthode
+## Un prix fondé sur ce qui change
 
-1. ### D’abord comprendre le travail.
+1. ### D’abord, convenir du résultat.
 
-   Nous rejoignons votre messagerie, vos dépôts de code et vos réunions, et nous observons comment le travail se fait réellement avant d’écrire la moindre ligne de code.
-2. ### Livrer en quelques semaines.
+   Avant de commencer, nous écrivons ce qui sera différent, avec vos mots : des commandes qui arrivent en comptabilité sans ressaisie, des validations qui ne passent plus par la messagerie de groupe, le rapport du lundi que personne n’a plus à reconstituer. Puis nous convenons d’un prix unique pour ce résultat.
+2. ### Faire le travail au sein de votre équipe.
 
-   Vos équipes disposent rapidement d’une version qui fonctionne, que nous affinons ensuite selon l’usage qu’elles en font réellement. L’IA rédige une bonne partie des premières versions du code ; une personne relit et teste chaque ligne, et en répond.
-3. ### Vous laisser plus autonomes.
+   Nous rejoignons votre messagerie, vos dépôts de code et vos réunions, nous apprenons comment le travail se fait réellement, et en quelques semaines nous mettons entre les mains de votre équipe quelque chose qui fonctionne. L’IA rédige une grande partie des premières versions ; une personne relit, teste et répond de chaque ligne.
+3. ### Choisir le suivant, ou s’arrêter.
 
-   Le code, les données et les comptes restent à votre nom, avec une documentation que votre équipe peut suivre. Nous préférons que vous restiez avec nous pour la qualité de notre travail plutôt que faute de pouvoir partir.
+   Chaque nouveau résultat a son propre prix, fixé avant de commencer. Le code, les données et les comptes restent à votre nom, avec une documentation que votre équipe peut suivre. Vous nous gardez donc parce que le travail est bon, et non parce que vous ne pouvez pas partir.
 
 Une pratique que nous connaissons bien
 
@@ -51,14 +51,14 @@ C’est généralement le cas lorsque :
 
 - **Vous avez acheté des outils d’IA et rien n’a changé.** Les licences sont là, mais le travail se fait toujours à l’ancienne, car personne n’a eu le temps de les y intégrer.
 - **Le problème touche plusieurs systèmes** et demande une personne prête à tous les apprendre, et non un spécialiste d’un seul.
-- **Vous avez besoin d’un ingénieur pour quelques mois, pas pour des années.** Assez longtemps pour changer la façon de travailler, sans embauche à temps plein.
+- **Vous savez ce qui doit changer, mais pas ce qu’il faut développer.** Le déterminer au sein de votre équipe fait partie du travail.
 
-Ce n’est pas le cas si vous savez déjà exactement ce qu’il faut développer : un projet de [logiciel sur mesure](https://sawirstudio.com/fr/custom/) au périmètre défini vous coûtera alors moins cher. Et si vous avez durablement besoin de ce poste, recrutez. Nous vous aiderons à rédiger la fiche de poste.
+Ce n’est pas le cas lorsque vous savez déjà exactement ce qu’il faut développer ; un projet de [logiciel sur mesure](https://sawirstudio.com/fr/custom/), spécifié dès le départ, est alors la voie la plus rapide. Et si vous avez besoin de ce rôle en permanence, recrutez. Nous vous aiderons à rédiger la fiche de poste.
 
-Chaque mission est différente : la durée et le tarif se précisent donc lors d’un premier appel consacré à votre situation.
+Vous ne savez pas par où commencer ? L’[audit des tâches répétitives](https://sawirstudio.com/fr/#fixed-price) est un premier résultat à prix fixe : nous nous installons avec votre équipe, repérons les tâches répétitives que l’IA peut prendre en charge et réglons la première.
 
 Dites-nous ce qui bloque.
 
-## Envie d’un ingénieur dans votre équipe ?
+## Qu’est-ce qui devrait fonctionner autrement ?
 
 [Parlons-en](https://sawirstudio.com/fr/contact/)

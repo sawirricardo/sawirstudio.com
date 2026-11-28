@@ -36,10 +36,10 @@ AI 让“买到软件”和“从中获得价值”之间的差距变得非常�
 - 问题涉及多个系统，例如 ERP、网店、支付和一大堆电子表格；
 - 而且公司内部没人有时间负责解决。
 
-如果您已经清楚地知道要开发什么，就不适合这种方式，做固定范围的项目更划算。如果您长期需要这个岗位，那就招聘一位。
+如果您已经清楚知道要做什么，就不适合用这种方式。这时，事先把需求写明确的项目会更快。如果您长期需要这个岗位，那就招聘一位。
 
 ## 我们能做什么
 
-多年来，我们一直这样与客户合作。自 2019 年起，我们的创始人一直担任 [PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/) 人力资源平台的首席开发者，与他们的团队并肩工作。现在，我们将它作为一项单独的服务提供：[前线部署工程服务](https://sawirstudio.com/zh-hans/forward-deployed-engineering/)，让 AI 在您的系统中发挥作用，并打通您正在使用的工具。如果这正是您所缺的，请[告诉我们卡在了哪里](https://sawirstudio.com/zh-hans/contact/)。
+多年来，我们一直是这样与客户合作的。自 2019 年起，我们的创始人一直担任 [PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/) 人力资源平台的首席开发者，与他们的团队并肩工作。现在，我们把它作为一项独立服务推出：[前线部署工程](https://sawirstudio.com/zh-hans/forward-deployed-engineering/)，让 AI 在您的系统中发挥作用，并把您正在使用的工具连接起来。我们在您团队中投入的天数不另行收费。开工之前，我们会与您商定要改变什么，并为此定下一个价格。如果这正是您所缺的，[请告诉我们卡在了哪里](https://sawirstudio.com/zh-hans/contact/)。
 
 **延伸阅读：** [我们如何让自己的网站为 AI 智能体做好准备](https://sawirstudio.com/zh-hans/posts/making-our-sites-agent-ready/)；如果您已经清楚自己的需求，请查看[定制软件](https://sawirstudio.com/zh-hans/custom/)。

@@ -53,7 +53,7 @@ Non conviene quando uno strumento standard fa già il suo lavoro, e ve lo diremo
    Lo usate mentre viene costruito, non solo alla fine. L'AI fa buona parte della scrittura, ed è per questo che siamo veloci; una persona legge, testa e risponde di ogni riga.
 3. ### Il lancio è solo l'inizio.
 
-   Una volta online, restiamo per correggere, aggiornare e aggiungere funzioni, per tutto il tempo che vi serve.
+   Una volta online, restiamo al vostro fianco per far sì che continui a funzionare. Ogni cosa che aggiungerete in seguito viene concordata e quotata prima di iniziare.
 
 Cosa è vostro
 

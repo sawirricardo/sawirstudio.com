@@ -36,10 +36,10 @@ Probabilmente no, se la vostra è un’azienda piccola o media. Le grandi aziend
 - il problema coinvolge più sistemi, per esempio un ERP, un negozio, i pagamenti e una montagna di fogli di calcolo,
 - e in azienda nessuno ha il tempo di occuparsene.
 
-Non conviene, invece, se sapete già esattamente che cosa sviluppare: in quel caso un progetto a perimetro fisso costa meno. E se il ruolo vi servirà in modo permanente, assumete una persona.
+Non lo è quando sapete già esattamente cosa realizzare. In quel caso, un progetto definito in anticipo è la strada più rapida. E se quel ruolo vi servirà in modo permanente, assumete una persona.
 
 ## Cosa facciamo
 
-È così che lavoriamo con i clienti da anni. Dal 2019 il nostro fondatore è il lead developer della piattaforma HR di [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/) e lavora insieme al loro team. Ora offriamo questo servizio anche a sé stante: il [forward deployed engineering](https://sawirstudio.com/it/forward-deployed-engineering/), per mettere l’AI al lavoro nei vostri sistemi e collegare gli strumenti che già usate. Se vi sembra che sia proprio ciò che vi manca, [raccontateci che cosa si è bloccato](https://sawirstudio.com/it/contact/).
+È così che lavoriamo con i clienti da anni. Dal 2019 il nostro fondatore è lead developer della piattaforma HR di [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/), lavorando insieme al loro team. Ora lo offriamo come servizio a sé: [forward deployed engineering](https://sawirstudio.com/it/forward-deployed-engineering/), per mettere l’AI al lavoro nei vostri sistemi e collegare gli strumenti che già usate. Non pagate le giornate che passiamo all’interno del vostro team. Prima di iniziare concordiamo cosa cambierà e un unico prezzo per ottenerlo. Se vi sembra che sia proprio quello che vi manca, [raccontateci cosa vi blocca](https://sawirstudio.com/it/contact/).
 
 **Per approfondire:** [come abbiamo preparato i nostri siti per gli agenti AI](https://sawirstudio.com/it/posts/making-our-sites-agent-ready/), oppure il [software su misura](https://sawirstudio.com/it/custom/) se sapete già che cosa vi serve.

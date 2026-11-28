@@ -43,42 +43,42 @@ Vertrouwd door
 
 - ### Shopify & Odoo
 
-  Je Shopify-webshop gekoppeld aan Odoo en de rest van je systemen: bestellingen, voorraad, uitbetalingen en kassasysteem, zodat je webshop en boekhouding met elkaar kloppen. Van de makers van de opensource Shopify-connector voor Odoo.
+  Je webshop en je boekhouding kloppen met elkaar. Bestellingen, voorraad, uitbetalingen en kassaverkopen gaan van Shopify naar Odoo en de rest van je systemen, zonder dat iemand ze hoeft over te typen. Van de makers van de open-source Shopify-connector voor Odoo.
 
   Bekijk [wat we doen](https://sawirstudio.com/nl/shopify/), of lees waarom [uitbetalingen niet kloppen met je boekhouding](https://sawirstudio.com/nl/posts/why-shopify-payouts-dont-match-your-books/)
 - ### Bedrijfssystemen
 
-  Kassa, voorraad, inkoop en boekhouding in één systeem, op Odoo of op maat gebouwd, voor als je het met spreadsheets niet meer bijhoudt.
+  Eén plek voor kassa, voorraad, inkoop en boekhouding waar je team op vertrouwt, voor als spreadsheets het niet meer bijhouden. Op Odoo of op maat gebouwd.
 
   Bekijk [Odoo of maatwerk?](https://sawirstudio.com/nl/odoo/)
 - ### Platforms & integraties
 
-  Een webapp, SaaS of beheerpaneel dat aansluit op hoe je team werkt, plus de koppelingen tussen de systemen waar je al voor betaalt: Odoo, Shopify, WordPress, betalingen en verzending.
+  Je voert gegevens maar één keer in. Een webapp, SaaS of adminpaneel dat past bij hoe je team werkt, gekoppeld aan de systemen waar je al voor betaalt, zoals Odoo, Shopify, WordPress, betalingen en verzending.
 
   Zoals [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/). Bekijk [software op maat](https://sawirstudio.com/nl/custom/)
 - ### Forward deployed engineers
 
-  Een engineer in je team, zolang de klus duurt, die AI voor je aan het werk zet in je systemen en koppelt wat je al gebruikt.
+  Werk dat vastzit, komt weer op gang. Een engineer in je team zet AI aan het werk in je systemen en koppelt wat je al gebruikt. De prijs hangt af van wat er verandert, niet van het aantal gewerkte dagen.
 
   Bekijk [hoe het werkt](https://sawirstudio.com/nl/forward-deployed-engineering/)
 - ### Apps
 
-  Apps voor iPhone, iPad, Mac en Android voor je klanten of je medewerkers, van de eerste versie tot de App Store en elke update daarna.
+  Je bedrijf op zak bij je klanten of je medewerkers. Apps voor iPhone, iPad, Mac en Android, van de eerste versie tot de App Store en elke update daarna.
 
   Zoals [DBTV](https://sawirstudio.com/nl/projects/dbtv-application/) en [Koperasi HOB](https://sawirstudio.com/nl/projects/koperasi-hob-application/)
 - ### Bestaande software overnemen
 
-  Een app of systeem dat iemand anders heeft gebouwd en dat vastzit, traag of verouderd is. We lezen wat er staat, repareren wat kapot is en maken het weer up-to-date, of we zeggen je eerlijk wanneer opnieuw bouwen goedkoper is.
+  De app of het systeem dat iemand anders heeft gebouwd, werkt weer. We lezen wat er staat, repareren wat kapot is en werken het bij, of we zeggen je eerlijk wanneer opnieuw bouwen goedkoper is.
 
   [Vertel ons wat je hebt](https://sawirstudio.com/nl/contact/)
 - ### Design
 
-  Je merk, je interfaces en de website eromheen, ontworpen door mensen die ook zelf bouwen wat ze ontwerpen.
+  Ontwerpen die overeind blijven als ze gebouwd worden, omdat de mensen die ze tekenen ze ook bouwen. Je merk, je interfaces en de website eromheen.
 
   Zoals [JakPod Hotel](https://sawirstudio.com/nl/projects/jakpod-hotel-design/) en [Fluindo](https://sawirstudio.com/nl/projects/fluindo-technology-indonesia-website/)
 - ### Lancering & groei
 
-  Hulp om gevonden te worden: zoekmachineoptimalisatie vanaf dag één, lokaal zoeken, bedrijfsvermeldingen en verdiende backlinks, plus elke maand samen je cijfers bekijken.
+  Beter gevonden worden door de juiste mensen. SEO die vanaf dag één goed staat, lokaal gevonden worden, bedrijfsvermeldingen en verdiende backlinks, en elke maand samen je cijfers bekijken.
 
   Bekijk [wat erbij zit](https://sawirstudio.com/nl/launch-and-growth/)
 

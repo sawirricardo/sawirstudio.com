@@ -36,10 +36,10 @@ Dan is er een inlenen logisch. Je haalt een engineer in huis die in je team werk
 - het probleem meerdere systemen raakt, zoals een ERP, een webshop, betalingen en een stapel spreadsheets,
 - en niemand in huis tijd heeft om het op te pakken.
 
-Het is niet de moeite waard als je al precies weet wat er gebouwd moet worden. Dan is een project met een vaste scope goedkoper. En heb je de rol blijvend nodig, neem dan zelf iemand aan.
+Dat is het niet als je al precies weet wat er gebouwd moet worden. Dan gaat een project dat je vooraf specificeert sneller. En als je de rol blijvend nodig hebt, neem er dan iemand voor in dienst.
 
 ## Wat we doen
 
-Zo werken we al jaren met klanten. Onze oprichter is sinds 2019 lead developer van het HR-platform van [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) en werkt daarbij samen met hun team. Nu bieden we dit ook als losse dienst aan: [forward deployed engineering](https://sawirstudio.com/nl/forward-deployed-engineering/), waarbij we AI aan het werk zetten in je systemen en de tools koppelen die je al gebruikt. Klinkt dat als wat je mist? [Vertel ons waar je vastloopt](https://sawirstudio.com/nl/contact/).
+Zo werken we al jaren met klanten. Onze oprichter is sinds 2019 lead developer van het HR-platform van [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/) en werkt daarbij samen met hun team. Nu bieden we het ook als aparte dienst aan: [forward deployed engineering](https://sawirstudio.com/nl/forward-deployed-engineering/), waarbij we AI aan het werk zetten in je systemen en de tools koppelen die je al gebruikt. Je betaalt niet voor de dagen dat we in je team meedraaien. Voordat we beginnen, spreken we af wat er gaat veranderen, met één prijs daarvoor. Klinkt dat als wat je mist? [Vertel ons waar je vastloopt](https://sawirstudio.com/nl/contact/).
 
 **Lees verder:** [hoe we onze eigen sites klaarmaakten voor AI-agents](https://sawirstudio.com/nl/posts/making-our-sites-agent-ready/), of bekijk [software op maat](https://sawirstudio.com/nl/custom/) als je al weet wat je nodig hebt.

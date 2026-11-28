@@ -53,7 +53,7 @@ Ce n'est pas le cas quand un outil standard fait déjà le travail, et nous vous
    Vous l'utilisez pendant sa construction, pas seulement à la fin. L'IA écrit une bonne partie du code, ce qui explique notre rapidité ; mais une personne relit, teste et répond de chaque ligne.
 3. ### Le lancement n'est que le début.
 
-   Une fois en ligne, nous restons pour corriger, mettre à jour et enrichir votre logiciel, aussi longtemps que vous en avez besoin.
+   Une fois le projet en ligne, nous restons à vos côtés pour assurer son bon fonctionnement. Chaque nouvel ajout est convenu et chiffré avant que nous commencions.
 
 Ce qui vous appartient
 

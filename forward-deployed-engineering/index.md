@@ -1,14 +1,14 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/forward-deployed-engineering/
-description: Rent a forward deployed engineer: we work inside your team and your tools, putting AI to work in your systems and connecting what you already run. No full-time hire.
+description: A forward deployed engineer inside your team, priced by the outcome: we agree what changes and one price before we start, then put AI to work in your systems and connect what you already run.
 ---
 
 new: forward deployed engineers
 
 # An engineer inside your team.
 
-A forward deployed engineer works where the problem is: in your tools, your data and your team's day, and ships software into it, AI included. Hiring one is slow and expensive. Borrow ours.
+A forward deployed engineer works where the problem is: in your tools, your data and your team's day, and ships software into it, AI included. You don't pay for the days we spend there. You pay for what changes.
 
 [Talk to us](https://sawirstudio.com/contact/) [What's a forward deployed engineer?](https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/)
 
@@ -27,17 +27,17 @@ A forward deployed engineer works where the problem is: in your tools, your data
 
   Deployed on your servers or your cloud account, watched, fixed and updated for as long as you need us there.
 
-## How it works
+## Priced by what changes
 
-1. ### Learn the work first.
+1. ### Agree the outcome first.
 
-   We join your chat, your repositories and your meetings, and watch how the work really happens before we write any code.
-2. ### Ship in weeks.
+   Before we start, we write down what will be different, in your words: orders that reach the books without retyping, approvals that leave the chat group, the Monday report nobody has to rebuild. Then we agree one price for it.
+2. ### Do the work inside your team.
 
-   Something working in front of your people early, then sharpened with what they actually do. AI writes a lot of the first drafts; a person reads, tests and answers for every line.
-3. ### Leave you stronger.
+   We join your chat, your repositories and your meetings, learn how the work really happens, and put something working in front of your people within weeks. AI writes a lot of the first drafts; a person reads, tests and answers for every line.
+3. ### Pick the next one, or stop.
 
-   The code, the data and the accounts stay in your name, with notes your own team can follow. We'd rather you keep us because the work is good than because you can't leave.
+   Each next outcome gets its own price before it starts. The code, the data and the accounts stay in your name, with notes your own team can follow, so you keep us because the work is good and not because you can't leave.
 
 Not new to us
 
@@ -51,14 +51,14 @@ It usually is when:
 
 - **You've bought AI tools and nothing changed.** The licenses are there, but the work still runs the old way, because nobody had time to wire them into it.
 - **The problem lives across several systems**, and needs someone who'll learn all of them, not a specialist in one.
-- **You need an engineer for months, not years.** Long enough to change how the work gets done, without a full-time hire.
+- **You know what has to change, but not what to build.** Working that out inside your team is part of the job.
 
-It isn't when you already know exactly what to build; then a fixed [custom software](https://sawirstudio.com/custom/) project costs less. And if you'll need the role forever, hire for it. We'll help you write the job description.
+It isn't when you already know exactly what to build; then a [custom software](https://sawirstudio.com/custom/) project, specified up front, is the quicker way. And if you'll need the role forever, hire for it. We'll help you write the job description.
 
-Every engagement is different, so length and price come out of a first call about what you're dealing with.
+Not sure where to start? The [busywork audit](https://sawirstudio.com/#fixed-price) is a fixed-price first outcome: we sit with your team, find the repetitive work AI can take over, and fix the first one.
 
 Tell us what's stuck.
 
-## Want an engineer on your team?
+## What should work differently?
 
 [Talk to us](https://sawirstudio.com/contact/)

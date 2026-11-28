@@ -53,7 +53,7 @@ Nicht, wenn ein Standardtool die Aufgabe bereits erfüllt, und das sagen wir Ihn
    Sie nutzen das System schon während der Entwicklung, nicht erst am Ende. KI übernimmt einen Großteil des Tippens, deshalb sind wir schnell; ein Mensch liest, testet und verantwortet jede Zeile.
 3. ### Der Launch ist erst der Anfang.
 
-   Sobald das System live ist, bleiben wir dabei, beheben Fehler, aktualisieren und erweitern es, so lange Sie uns brauchen.
+   Nach dem Livegang bleiben wir dran, damit alles weiterhin läuft. Jede weitere Ergänzung wird vor dem Start abgestimmt und mit einem Preis versehen.
 
 Was Ihnen gehört
 

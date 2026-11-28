@@ -36,10 +36,10 @@ That's where borrowing one makes sense. Bring in an engineer who works inside yo
 - the problem spans several systems, like an ERP, a store, payments and a pile of spreadsheets,
 - and nobody in-house has the time to own it.
 
-It isn't when you already know exactly what to build. Then a fixed project is cheaper. And if you'll need the role for good, hire for it.
+It isn't when you already know exactly what to build. Then a project specified up front is the quicker way. And if you'll need the role for good, hire for it.
 
 ## What we do
 
-This is how we've worked with clients for years. Our founder has been the lead developer on [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/)'s HR platform, working with their team, since 2019. Now we offer it on its own: [forward deployed engineering](https://sawirstudio.com/forward-deployed-engineering/), putting AI to work in your systems and connecting the tools you already run. If that sounds like what you're missing, [tell us what's stuck](https://sawirstudio.com/contact/).
+This is how we've worked with clients for years. Our founder has been the lead developer on [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/)'s HR platform, working with their team, since 2019. Now we offer it on its own: [forward deployed engineering](https://sawirstudio.com/forward-deployed-engineering/), putting AI to work in your systems and connecting the tools you already run. You don't pay for the days we spend inside your team. We agree what will change and one price for it before we start. If that sounds like what you're missing, [tell us what's stuck](https://sawirstudio.com/contact/).
 
 **Keep reading:** [how we made our own sites ready for AI agents](https://sawirstudio.com/posts/making-our-sites-agent-ready/), or [custom software](https://sawirstudio.com/custom/) if you already know what you need.

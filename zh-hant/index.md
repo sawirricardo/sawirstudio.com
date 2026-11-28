@@ -43,42 +43,42 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
 
 - ### Shopify 與 Odoo
 
-  將您的 Shopify 商店串接到 Odoo 以及您使用的其他系統：訂單、庫存、撥款與 POS，讓商店資料與帳務一致。由開源 Shopify 與 Odoo 串接工具的開發者親自為您服務。
+  讓您的商店與帳務資料一致。訂單、庫存、撥款和門市 POS 資料從 Shopify 流入 Odoo 以及您使用的其他系統，不必任何人重新輸入。由開源 Shopify Odoo 連接器的原作者為您打造。
 
   看看[我們的服務內容](https://sawirstudio.com/zh-hant/shopify/)，或了解[撥款為何與帳務對不起來](https://sawirstudio.com/zh-hant/posts/why-shopify-payouts-dont-match-your-books/)
 - ### 企業系統
 
-  當試算表已經應付不來，就把 POS、庫存、採購與會計整合在一套系統中，可以用 Odoo 建置，也可以量身打造。
+  當試算表開始應付不來，讓 POS、庫存、採購和會計集中在一個團隊信賴的地方。可以用 Odoo，也可以量身打造。
 
   看看[該選 Odoo 還是客製化？](https://sawirstudio.com/zh-hant/odoo/)
 - ### 平台與系統整合
 
-  依照您團隊的工作方式打造網頁應用程式、SaaS 或管理後台，並串接您已付費使用的各種系統：Odoo、Shopify、WordPress、金流與物流。
+  資料只需輸入一次。依照團隊工作方式打造的網頁應用程式、SaaS 或管理後台，並串接您已付費使用的系統，例如 Odoo、Shopify、WordPress、金流和物流。
 
   例如 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)。查看[客製化軟體](https://sawirstudio.com/zh-hant/custom/)
 - ### 前線部署工程師
 
-  工程師加入您的團隊，工作需要多久就待多久，把 AI 實際用在您的系統裡，並串接您現有的各項工具。
+  讓卡住的工作動起來。由一位工程師加入您的團隊，把 AI 導入您的系統實際運用，並串接您現有的工具。依帶來的改變計價，而不是花費的天數。
 
   看看[合作方式](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)
 - ### App
 
-  為您的客戶或員工開發 iPhone、iPad、Mac 與 Android App，從第一版、上架 App Store 到之後的每一次更新，都由我們負責。
+  讓您的業務走進客戶或員工的口袋。iPhone、iPad、Mac 和 Android 應用程式，從第一版到上架 App Store，以及之後的每次更新。
 
   例如 [DBTV](https://sawirstudio.com/zh-hant/projects/dbtv-application/) 與 [Koperasi HOB](https://sawirstudio.com/zh-hant/projects/koperasi-hob-application/)
 - ### 接手現有軟體
 
-  別人開發的應用程式或系統卡住了、跑得慢或已經過時？我們會先讀懂現有的內容，修好故障的部分並更新到最新狀態；如果重做反而比較省錢，我們也會直接告訴您。
+  讓別人開發的應用程式或系統重新正常運作。我們會先看懂現有的內容，修好故障的部分並更新到最新狀態；如果重做比較省錢，我們也會直接告訴您。
 
   [告訴我們您目前的狀況](https://sawirstudio.com/zh-hant/contact/)
 - ### 設計
 
-  您的品牌、使用介面與搭配的網站，設計的人也親自把設計做出來。
+  做得出來、實作後依然成立的設計，因為畫設計的人也親自開發。包括您的品牌、介面，以及搭配的網站。
 
   例如 [JakPod Hotel](https://sawirstudio.com/zh-hant/projects/jakpod-hotel-design/) 與 [Fluindo](https://sawirstudio.com/zh-hant/projects/fluindo-technology-indonesia-website/)
 - ### 上線與成長
 
-  幫助客戶找到您：從第一天就做好搜尋設定，還有在地搜尋、商家資訊刊登、靠實力爭取的反向連結，以及每月一次的數據檢視。
+  讓更多對的人找到您。從第一天就做好搜尋設定，加上在地搜尋、商家資訊刊登和實至名歸的反向連結，並每月與您一起檢視數據。
 
   查看[包含哪些項目](https://sawirstudio.com/zh-hant/launch-and-growth/)
 

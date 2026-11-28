@@ -43,42 +43,42 @@ AI 参与其中，每个决定都由人来负责。[我们的理念 →](https:/
 
 - ### Shopify 与 Odoo
 
-  将您的 Shopify 店铺与 Odoo 及您在用的其他系统打通：订单、库存、结算款和门店收银，让店铺数据与账目保持一致。开源 Shopify 与 Odoo 连接器，正是出自我们之手。
+  让您的网店和账目保持一致。订单、库存、结算款和门店收银数据从 Shopify 流入 Odoo 以及您使用的其他系统，无需任何人重复录入。出自开源 Shopify 与 Odoo 连接器的开发者之手。
 
   了解[我们的服务](https://sawirstudio.com/zh-hans/shopify/)，或看看为什么[结算款与账目对不上](https://sawirstudio.com/zh-hans/posts/why-shopify-payouts-dont-match-your-books/)
 - ### 业务系统
 
-  当电子表格已经应付不过来时，用一套系统管理门店收银、库存、采购和会计，可基于 Odoo 搭建，也可量身定制。
+  当电子表格已经应付不过来时，让团队在一个值得信赖的地方管理门店收银、库存、采购和会计。可基于 Odoo 搭建，也可量身定制。
 
   看看[选 Odoo 还是定制？](https://sawirstudio.com/zh-hans/odoo/)
 - ### 平台与系统集成
 
-  围绕您团队的工作方式打造网页应用、SaaS 或管理后台，并把您已经在付费使用的系统连接起来：Odoo、Shopify、WordPress、支付和物流。
+  数据只需录入一次。按照您团队的工作方式打造 Web 应用、SaaS 或管理后台，并与您已经在付费使用的系统打通，例如 Odoo、Shopify、WordPress 以及支付和物流系统。
 
   例如 [PeopleBond](https://sawirstudio.com/zh-hans/projects/peoplebond-hcms-application/)。了解[定制软件](https://sawirstudio.com/zh-hans/custom/)
 - ### 前线部署工程师
 
-  工程师加入您的团队，项目需要多久就驻多久，让 AI 在您的系统中真正发挥作用，并把您现有的系统连接起来。
+  让卡住的工作重新推进。一位工程师加入您的团队，让 AI 在您的系统中发挥作用，并把您现有的工具连接起来。按带来的改变定价，而不是按花费的天数。
 
   了解[合作方式](https://sawirstudio.com/zh-hans/forward-deployed-engineering/)
 - ### 应用
 
-  为您的客户或员工开发 iPhone、iPad、Mac 和 Android 应用，从第一个版本到上架 App Store，以及之后的每一次更新。
+  让您的业务装进客户或员工的口袋。开发 iPhone、iPad、Mac 和 Android 应用，从首个版本到上架 App Store，再到之后的每一次更新。
 
   例如 [DBTV](https://sawirstudio.com/zh-hans/projects/dbtv-application/) 和 [Koperasi HOB](https://sawirstudio.com/zh-hans/projects/koperasi-hob-application/)
 - ### 接手现有软件
 
-  别人开发的应用或系统卡住了、运行缓慢或已经过时？我们会读懂现有代码，修复故障并更新到最新状态；如果重新开发更省钱，我们也会直接告诉您。
+  让别人开发的应用或系统重新正常运转。我们会读懂现有代码，修复故障并更新到最新状态；如果重做更省钱，我们也会直接告诉您。
 
   [说说您现有的系统](https://sawirstudio.com/zh-hans/contact/)
 - ### 设计
 
-  您的品牌、界面以及配套网站，由能亲手把设计开发出来的人来设计。
+  能够真正落地的设计，因为做设计的人也负责开发。涵盖您的品牌、界面以及配套的网站。
 
   例如 [JakPod Hotel](https://sawirstudio.com/zh-hans/projects/jakpod-hotel-design/) 和 [Fluindo](https://sawirstudio.com/zh-hans/projects/fluindo-technology-indonesia-website/)
 - ### 上线与增长
 
-  帮助客户找到您：从第一天起做好搜索优化，还有本地搜索、目录收录和靠实力赢得的外链，并每月与您一起查看数据。
+  让更多合适的人找到您。从第一天起就做好搜索设置，涵盖本地搜索、商户信息收录和靠实力赢得的外部链接，并且每月与您一起查看数据。
 
   查看[包含的内容](https://sawirstudio.com/zh-hans/launch-and-growth/)
 

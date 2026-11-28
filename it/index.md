@@ -43,42 +43,42 @@ Si affidano a noi
 
 - ### Shopify e Odoo
 
-  Il vostro negozio Shopify collegato a Odoo e agli altri sistemi che usate: ordini, magazzino, accrediti e punto vendita, così negozio e contabilità coincidono. Da chi ha scritto il connettore open source tra Shopify e Odoo.
+  Il vostro negozio e la vostra contabilità coincidono. Ordini, scorte, accrediti e punto vendita passano da Shopify a Odoo e agli altri sistemi che usate, senza che nessuno debba ridigitarli. Da chi ha scritto il connettore open source tra Shopify e Odoo.
 
   Scoprite [cosa facciamo](https://sawirstudio.com/it/shopify/) o perché [gli accrediti non coincidono con la contabilità](https://sawirstudio.com/it/posts/why-shopify-payouts-dont-match-your-books/)
 - ### Sistemi gestionali
 
-  Punto vendita, magazzino, acquisti e contabilità in un unico sistema, basato su Odoo o realizzato su misura, per quando i fogli di calcolo non bastano più.
+  Un unico sistema affidabile per il vostro team, per punto vendita, magazzino, acquisti e contabilità, per quando i fogli di calcolo non bastano più. Su Odoo o su misura.
 
   Scoprite [Odoo o su misura?](https://sawirstudio.com/it/odoo/)
 - ### Piattaforme e integrazioni
 
-  Un’app web, un SaaS o un pannello di amministrazione costruito sul modo di lavorare del vostro team, e il collegamento tra i sistemi che già pagate: Odoo, Shopify, WordPress, pagamenti e spedizioni.
+  I dati si inseriscono una volta sola. Una web app, un SaaS o un pannello di amministrazione costruito intorno al modo di lavorare del vostro team e collegato ai sistemi che già pagate, come Odoo, Shopify, WordPress, pagamenti e spedizioni.
 
   Per esempio [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/). Scoprite il [software su misura](https://sawirstudio.com/it/custom/)
 - ### Forward deployed engineer
 
-  Un ingegnere all’interno del vostro team per tutta la durata del lavoro, che mette l’AI al servizio dei vostri sistemi e collega gli strumenti che già utilizzate.
+  Il lavoro bloccato riparte. Un ingegnere inserito nel vostro team mette l’AI al lavoro nei vostri sistemi e collega gli strumenti che già usate, con un prezzo basato su ciò che cambia anziché sui giorni impiegati.
 
   Scoprite [come funziona](https://sawirstudio.com/it/forward-deployed-engineering/)
 - ### App
 
-  App per iPhone, iPad, Mac e Android per i vostri clienti o il vostro personale, dalla prima versione all’App Store e per tutti gli aggiornamenti successivi.
+  La vostra attività nelle tasche dei vostri clienti o del vostro personale. App per iPhone, iPad, Mac e Android, dalla prima versione all’App Store e per ogni aggiornamento successivo.
 
   Come [DBTV](https://sawirstudio.com/it/projects/dbtv-application/) e [Koperasi HOB](https://sawirstudio.com/it/projects/koperasi-hob-application/)
 - ### Prendere in mano software già esistente
 
-  Un’app o un sistema sviluppato da altri che è bloccato, lento o datato. Esaminiamo quello che c’è, correggiamo ciò che non funziona e lo aggiorniamo, oppure vi diciamo chiaramente quando rifarlo da zero costa meno.
+  L’app o il sistema costruito da altri torna a funzionare. Analizziamo ciò che c’è, correggiamo quello che non va e lo aggiorniamo, oppure vi diciamo chiaramente quando rifarlo costa meno.
 
   [Raccontateci cosa avete](https://sawirstudio.com/it/contact/)
 - ### Design
 
-  Il vostro brand, le vostre interfacce e il sito web che li accompagna, disegnati da persone che sviluppano anche ciò che disegnano.
+  Un design che regge anche alla prova dello sviluppo, perché chi lo disegna è anche chi lo realizza. Il vostro brand, le vostre interfacce e il sito web che li accompagna.
 
   Come [JakPod Hotel](https://sawirstudio.com/it/projects/jakpod-hotel-design/) e [Fluindo](https://sawirstudio.com/it/projects/fluindo-technology-indonesia-website/)
 - ### Lancio e crescita
 
-  Un aiuto per farvi trovare: SEO impostata dal primo giorno, ricerca locale, schede nelle directory e backlink guadagnati, oltre a un controllo mensile dei vostri numeri.
+  Più persone giuste che vi trovano. SEO impostata fin dal primo giorno, ricerca locale, schede nelle directory e backlink guadagnati, più un punto mensile sui vostri numeri.
 
   Scoprite [cosa è incluso](https://sawirstudio.com/it/launch-and-growth/)
 

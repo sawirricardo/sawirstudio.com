@@ -36,10 +36,10 @@ C’est là qu’il devient logique d’en emprunter un. Vous faites venir un in
 - le problème touche plusieurs systèmes, par exemple un ERP, une boutique, des paiements et une pile de feuilles de calcul,
 - et personne en interne n’a le temps de le prendre en charge.
 
-Ce n’est pas le cas si vous savez déjà exactement ce qu’il faut développer. Un projet au périmètre défini coûte alors moins cher. Et si vous avez besoin de ce rôle de façon permanente, recrutez.
+Ce n’est pas le cas quand vous savez déjà exactement ce qu’il faut développer. Un projet spécifié à l’avance est alors la solution la plus rapide. Et si vous avez besoin de ce rôle de façon permanente, recrutez.
 
 ## Ce que nous faisons
 
-C’est ainsi que nous travaillons avec nos clients depuis des années. Depuis 2019, notre fondateur est le développeur principal de la plateforme RH de [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/) et travaille avec son équipe. Nous proposons désormais ce service à part entière : l’[ingénierie déployée chez le client](https://sawirstudio.com/fr/forward-deployed-engineering/), pour mettre l’IA au travail dans vos systèmes et connecter les outils que vous utilisez déjà. Si c’est ce qui vous manque, [dites-nous ce qui bloque](https://sawirstudio.com/fr/contact/).
+C’est ainsi que nous travaillons avec nos clients depuis des années. Notre fondateur est, depuis 2019, le développeur principal de la plateforme RH de [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/), où il travaille avec leur équipe. Nous proposons désormais cette façon de travailler comme un service à part entière : le [forward deployed engineering](https://sawirstudio.com/fr/forward-deployed-engineering/), qui consiste à mettre l’IA au travail dans vos systèmes et à connecter les outils que vous utilisez déjà. Vous ne payez pas les jours que nous passons au sein de votre équipe. Avant de commencer, nous convenons ensemble de ce qui va changer et d’un prix unique pour ce changement. Si c’est ce qui vous manque, [dites-nous ce qui bloque](https://sawirstudio.com/fr/contact/).
 
 **À lire aussi :** [comment nous avons préparé nos propres sites aux agents IA](https://sawirstudio.com/fr/posts/making-our-sites-agent-ready/), ou notre page sur les [logiciels sur mesure](https://sawirstudio.com/fr/custom/) si vous savez déjà ce qu’il vous faut.

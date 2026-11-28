@@ -43,42 +43,42 @@ Trusted by
 
 - ### Shopify & Odoo
 
-  Your Shopify store connected to Odoo and the rest of what you run: orders, stock, payouts and point of sale, so the store and the books agree. From the people who wrote the open-source Shopify connector for Odoo.
+  Your store and your books agree. Orders, stock, payouts and point of sale flow from Shopify into Odoo and the rest of what you run, with nobody retyping them. From the people who wrote the open-source Shopify connector for Odoo.
 
   See [what we do](https://sawirstudio.com/shopify/), or why [payouts don't match your books](https://sawirstudio.com/posts/why-shopify-payouts-dont-match-your-books/)
 - ### Business systems
 
-  Point of sale, stock, purchasing and accounting in one system, on Odoo or built to measure, for when the spreadsheets stop keeping up.
+  One place your team trusts for point of sale, stock, purchasing and accounting, for when the spreadsheets stop keeping up. On Odoo or built to measure.
 
   See [Odoo or custom?](https://sawirstudio.com/odoo/)
 - ### Platforms & integrations
 
-  A web app, SaaS or admin panel shaped around how your team works, and the glue between the systems you already pay for: Odoo, Shopify, WordPress, payments and shipping.
+  Data goes in once. A web app, SaaS or admin panel shaped around how your team works, joined to the systems you already pay for, like Odoo, Shopify, WordPress, payments and shipping.
 
   Like [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/). See [custom software](https://sawirstudio.com/custom/)
 - ### Forward deployed engineers
 
-  An engineer inside your team for as long as the job takes, putting AI to work in your systems and connecting what you already run.
+  The work that's stuck starts moving. An engineer inside your team puts AI to work in your systems and connects what you already run, priced by what changes rather than the days spent.
 
   See [how it works](https://sawirstudio.com/forward-deployed-engineering/)
 - ### Apps
 
-  iPhone, iPad, Mac and Android apps for your customers or your staff, from the first version to the App Store and every update after.
+  Your business in your customers' or your staff's pockets. iPhone, iPad, Mac and Android apps, from the first version to the App Store and every update after.
 
   Like [DBTV](https://sawirstudio.com/projects/dbtv-application/) and [Koperasi HOB](https://sawirstudio.com/projects/koperasi-hob-application/)
 - ### Taking over existing software
 
-  An app or system someone else built that's stuck, slow or out of date. We read what's there, fix what's broken and bring it up to date, or tell you plainly when a rebuild costs less.
+  The app or system someone else built, working again. We read what's there, fix what's broken and bring it up to date, or tell you plainly when a rebuild costs less.
 
   [Tell us what you have](https://sawirstudio.com/contact/)
 - ### Design
 
-  Your brand, your interfaces and the website around them, drawn by people who also build what they draw.
+  Designs that survive being built, because the people who draw them also build them. Your brand, your interfaces and the website around them.
 
   Like [JakPod Hotel](https://sawirstudio.com/projects/jakpod-hotel-design/) and [Fluindo](https://sawirstudio.com/projects/fluindo-technology-indonesia-website/)
 - ### Launch & growth
 
-  Help getting found: search set up from day one, local search, listings and earned backlinks, and a monthly check-in on your numbers.
+  More of the right people finding you. Search set up from day one, local search, listings and earned backlinks, and a monthly check-in on your numbers.
 
   See [what's included](https://sawirstudio.com/launch-and-growth/)
 

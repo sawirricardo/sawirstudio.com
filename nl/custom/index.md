@@ -53,7 +53,7 @@ Het is niet de juiste keuze als een standaardtool de klus al klaart, en dat zegg
    Je gebruikt het terwijl het wordt gebouwd, niet pas aan het eind. AI doet een groot deel van het typewerk, daarom zijn we snel; een mens leest, test en staat in voor elke regel.
 3. ### De lancering is pas het begin.
 
-   Zodra het live is, blijven we het onderhouden, updaten en uitbreiden, zolang je dat nodig hebt.
+   Als het live staat, blijven we betrokken om te zorgen dat het blijft werken. Alles wat je daarna wilt toevoegen, spreken we met prijs en al af voordat we beginnen.
 
 Wat van jou is
 

@@ -1,14 +1,14 @@
 ---
 title: Forward deployed engineers | Sawir Studio
 url: https://sawirstudio.com/nl/forward-deployed-engineering/
-description: Huur een forward deployed engineer in: we werken in je team en je tools, zetten AI aan het werk in je systemen en koppelen wat je al gebruikt. Zonder fulltime aanname.
+description: Een forward deployed engineer binnen je team, geprijsd op resultaat: we spreken vóór de start af wat er verandert en voor welke prijs, zetten dan AI aan het werk in je systemen en koppelen wat je al gebruikt.
 ---
 
 nieuw: forward deployed engineers
 
 # Een engineer in jouw team.
 
-Een forward deployed engineer werkt daar waar het probleem zit: in je tools, je data en de werkdag van je team, en bouwt daar software in, inclusief AI. Zelf iemand aannemen is traag en duur. Leen die van ons.
+Een forward deployed engineer werkt waar het probleem zit: in je tools, je data en de werkdag van je team, en bouwt daar software in, inclusief AI. De dagen die we daar doorbrengen betaal je niet. Je betaalt voor wat er verandert.
 
 [Neem contact op](https://sawirstudio.com/nl/contact/) [Wat is een forward deployed engineer?](https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/)
 
@@ -27,17 +27,17 @@ Een forward deployed engineer werkt daar waar het probleem zit: in je tools, je 
 
   Uitgerold op je eigen servers of cloudaccount, en door ons gemonitord, gerepareerd en bijgewerkt zolang je ons daarvoor nodig hebt.
 
-## Hoe het werkt
+## Geprijsd op wat er verandert
 
-1. ### Eerst het werk leren kennen.
+1. ### Eerst het resultaat afspreken.
 
-   We sluiten aan bij je chat, je repository's en je meetings, en kijken hoe het werk echt gaat voordat we ook maar één regel code schrijven.
-2. ### Binnen enkele weken live.
+   Voordat we beginnen, schrijven we in jouw woorden op wat er anders wordt: bestellingen die in de boekhouding komen zonder overtypen, goedkeuringen die niet meer via de groepschat lopen, het maandagrapport dat niemand meer opnieuw hoeft op te bouwen. Daarna spreken we er één prijs voor af.
+2. ### Het werk doen binnen je team.
 
-   Je mensen krijgen al vroeg iets werkends in handen, dat we daarna aanscherpen op basis van wat ze er echt mee doen. AI schrijft veel van de eerste versies; een mens leest en test elke regel en is er verantwoordelijk voor.
-3. ### Je sterker achterlaten.
+   We sluiten aan bij je chat, je repositories en je meetings, leren hoe het werk echt gaat en zetten binnen een paar weken iets werkends voor je mensen neer. AI schrijft veel van de eerste versies; een mens leest, test en staat in voor elke regel.
+3. ### De volgende kiezen, of stoppen.
 
-   De code, de data en de accounts blijven op jouw naam, met documentatie waar je eigen team mee verder kan. We hebben liever dat je bij ons blijft omdat het werk goed is dan omdat je niet weg kunt.
+   Elk volgend resultaat krijgt een eigen prijs voordat we eraan beginnen. De code, de data en de accounts blijven op jouw naam, met notities die je eigen team kan volgen. Zo blijf je bij ons omdat het werk goed is, niet omdat je niet weg kunt.
 
 Niet nieuw voor ons
 
@@ -51,14 +51,14 @@ Meestal wel als:
 
 - **Je hebt AI-tools gekocht en er is niets veranderd.** De licenties zijn er, maar het werk gaat nog op de oude manier, omdat niemand tijd had om de tools erin te verwerken.
 - **Het probleem zich over meerdere systemen uitstrekt** en je iemand nodig hebt die ze allemaal leert kennen, in plaats van een specialist in één ervan.
-- **Je een engineer voor maanden nodig hebt, niet voor jaren.** Lang genoeg om de manier van werken te veranderen, zonder iemand fulltime aan te nemen.
+- **Je weet wat er moet veranderen, maar niet wat je moet bouwen.** Dat uitzoeken binnen je team hoort bij het werk.
 
-Het past niet als je al precies weet wat er gebouwd moet worden; dan is een afgebakend project voor [software op maat](https://sawirstudio.com/nl/custom/) goedkoper. En heb je de rol voorgoed nodig, neem dan zelf iemand aan. We helpen je de vacaturetekst te schrijven.
+Het is niet de juiste keuze als je al precies weet wat er gebouwd moet worden; dan is een project voor [software op maat](https://sawirstudio.com/nl/custom/), vooraf gespecificeerd, de snellere weg. En als je de rol voor altijd nodig hebt, neem er dan iemand voor aan. We helpen je met de vacaturetekst.
 
-Elke opdracht is anders, dus de looptijd en de prijs bepalen we na een eerste gesprek over wat er bij jou speelt.
+Weet je niet waar je moet beginnen? De [busywork-audit](https://sawirstudio.com/nl/#fixed-price) is een eerste resultaat tegen een vaste prijs: we gaan met je team zitten, zoeken het repetitieve werk dat AI kan overnemen en pakken het eerste aan.
 
 Vertel ons wat er vastloopt.
 
-## Wil je een engineer in je team?
+## Wat moet er anders werken?
 
 [Neem contact op](https://sawirstudio.com/nl/contact/)

@@ -53,7 +53,7 @@ It doesn't when a standard tool already does the job, and we'll say so. If what 
    You use it while it's being built, not at the end. AI does much of the typing, which is why we're fast; a person reads, tests and answers for every line.
 3. ### Launch is the start.
 
-   Once it's live, we stay on to fix, update and add to it, for as long as you need.
+   Once it's live, we stay on to keep it working. Each thing you add next is agreed and priced before we start.
 
 What's yours
 

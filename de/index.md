@@ -43,42 +43,42 @@ Unsere Kunden
 
 - ### Shopify & Odoo
 
-  Ihr Shopify-Shop, verbunden mit Odoo und Ihren übrigen Systemen: Bestellungen, Lagerbestand, Auszahlungen und Point of Sale, damit Shop und Buchhaltung übereinstimmen. Von den Entwicklern des Open-Source-Connectors, der Shopify mit Odoo verbindet.
+  Ihr Shop und Ihre Buchhaltung stimmen überein. Bestellungen, Lagerbestand, Auszahlungen und Kassendaten fließen von Shopify in Odoo und Ihre übrigen Systeme, ohne dass jemand sie abtippen muss. Von den Entwicklern des Open-Source-Connectors von Shopify für Odoo.
 
   Sehen Sie, [was wir tun](https://sawirstudio.com/de/shopify/), oder warum [Auszahlungen nicht zu Ihrer Buchhaltung passen](https://sawirstudio.com/de/posts/why-shopify-payouts-dont-match-your-books/)
 - ### Business-Systeme
 
-  Point of Sale, Lager, Einkauf und Buchhaltung in einem System, auf Basis von Odoo oder maßgeschneidert, wenn Tabellen nicht mehr ausreichen.
+  Ein zentraler Ort für Kasse, Lager, Einkauf und Buchhaltung, dem Ihr Team vertraut, wenn Tabellen nicht mehr ausreichen. Auf Basis von Odoo oder maßgeschneidert.
 
   Siehe [Odoo oder individuell?](https://sawirstudio.com/de/odoo/)
 - ### Plattformen & Integrationen
 
-  Eine Web-App, SaaS-Lösung oder ein Admin-Panel, passend zur Arbeitsweise Ihres Teams, und die Verbindung zwischen den Systemen, für die Sie bereits bezahlen: Odoo, Shopify, WordPress, Zahlungen und Versand.
+  Daten werden nur einmal erfasst. Eine Web-App, eine SaaS-Lösung oder ein Admin-Panel, zugeschnitten auf die Arbeitsweise Ihres Teams und verbunden mit den Systemen, für die Sie bereits bezahlen, etwa Odoo, Shopify, WordPress, Zahlungs- und Versanddienste.
 
   Zum Beispiel [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/). Mehr zu [individueller Software](https://sawirstudio.com/de/custom/)
 - ### Forward Deployed Engineers
 
-  Ein Engineer, der so lange in Ihrem Team mitarbeitet, wie die Aufgabe dauert, KI in Ihren Systemen zum Einsatz bringt und verbindet, was Sie bereits nutzen.
+  Liegengebliebene Arbeit kommt wieder in Gang. Ein Entwickler in Ihrem Team setzt KI in Ihren Systemen ein und verbindet, was Sie bereits nutzen. Der Preis richtet sich danach, was sich verändert, nicht nach den aufgewendeten Tagen.
 
   So [funktioniert es](https://sawirstudio.com/de/forward-deployed-engineering/)
 - ### Apps
 
-  Apps für iPhone, iPad, Mac und Android für Ihre Kunden oder Ihr Team, von der ersten Version über den App Store bis zu jedem weiteren Update.
+  Ihr Unternehmen in der Hosentasche Ihrer Kunden oder Ihrer Mitarbeitenden. Apps für iPhone, iPad, Mac und Android, von der ersten Version über den App Store bis zu jedem späteren Update.
 
   Zum Beispiel [DBTV](https://sawirstudio.com/de/projects/dbtv-application/) und [Koperasi HOB](https://sawirstudio.com/de/projects/koperasi-hob-application/)
 - ### Bestehende Software übernehmen
 
-  Eine App oder ein System, das jemand anderes entwickelt hat und das nicht weiterkommt, langsam oder veraltet ist. Wir sehen uns an, was da ist, beheben, was nicht funktioniert, und bringen alles auf den aktuellen Stand. Oder wir sagen Ihnen offen, wenn ein Neubau weniger kostet.
+  Die App oder das System, das jemand anderes gebaut hat, funktioniert wieder. Wir sehen uns an, was vorhanden ist, beheben die Fehler und bringen alles auf den neuesten Stand. Oder wir sagen Ihnen offen, wenn ein Neubau günstiger ist.
 
   [Erzählen Sie uns, was Sie haben](https://sawirstudio.com/de/contact/)
 - ### Design
 
-  Ihre Marke, Ihre Benutzeroberflächen und die Website dazu, gestaltet von Menschen, die ihre Entwürfe auch selbst umsetzen.
+  Designs, die auch die Umsetzung überstehen, denn wer sie entwirft, baut sie auch. Ihre Marke, Ihre Benutzeroberflächen und die Website drumherum.
 
   Zum Beispiel [JakPod Hotel](https://sawirstudio.com/de/projects/jakpod-hotel-design/) und [Fluindo](https://sawirstudio.com/de/projects/fluindo-technology-indonesia-website/)
 - ### Launch & Wachstum
 
-  Damit Sie gefunden werden: Suchmaschinenoptimierung ab dem ersten Tag, lokale Suche, Brancheneinträge und redlich verdiente Backlinks sowie ein monatlicher Blick auf Ihre Zahlen.
+  Mehr von den richtigen Menschen finden Sie. Suchmaschinenoptimierung von Anfang an, lokale Suche, Verzeichniseinträge und redlich verdiente Backlinks sowie ein monatlicher Blick auf Ihre Zahlen.
 
   Siehe [Leistungsumfang](https://sawirstudio.com/de/launch-and-growth/)
 

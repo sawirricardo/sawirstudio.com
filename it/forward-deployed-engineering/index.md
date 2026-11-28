@@ -1,14 +1,14 @@
 ---
 title: Forward Deployed Engineer | Sawir Studio
 url: https://sawirstudio.com/it/forward-deployed-engineering/
-description: Un forward deployed engineer in prestito: lavoriamo nel vostro team e con i vostri strumenti, portando l’AI nei vostri sistemi e collegando ciò che già usate. Senza assunzioni a tempo pieno.
+description: Un forward deployed engineer nel vostro team, con un prezzo legato al risultato: prima di iniziare concordiamo che cosa cambia e un unico prezzo, poi mettiamo l’AI al lavoro nei vostri sistemi e colleghiamo quelli che già usate.
 ---
 
 novità: forward deployed engineer
 
 # Un engineer nel vostro team.
 
-Un forward deployed engineer lavora dove si trova il problema: nei vostri strumenti, sui vostri dati e nella giornata del vostro team, e lì porta software funzionante, AI compresa. Assumerne uno richiede tempo e costa molto. Prendete in prestito il nostro.
+Un forward deployed engineer lavora dove si trova il problema: nei vostri strumenti, nei vostri dati e nella giornata del vostro team, e lì mette in funzione il software, AI compresa. I giorni che passiamo lì non li pagate. Pagate ciò che cambia.
 
 [Parliamone](https://sawirstudio.com/it/contact/) [Che cos’è un forward deployed engineer?](https://sawirstudio.com/it/posts/what-is-a-forward-deployed-engineer/)
 
@@ -27,17 +27,17 @@ Un forward deployed engineer lavora dove si trova il problema: nei vostri strume
 
   Installato sui vostri server o sul vostro account cloud, poi monitorato, corretto e aggiornato per tutto il tempo in cui avrete bisogno di noi.
 
-## Come lavoriamo
+## Il prezzo dipende da ciò che cambia
 
-1. ### Prima impariamo come lavorate.
+1. ### Prima si concorda il risultato.
 
-   Entriamo nelle vostre chat, nei vostri repository e nelle vostre riunioni, e osserviamo come si svolge davvero il lavoro prima di scrivere una riga di codice.
-2. ### Rilasciamo in poche settimane.
+   Prima di iniziare, mettiamo per iscritto che cosa cambierà, con parole vostre: ordini che arrivano in contabilità senza essere ridigitati, approvazioni che non passano più dalla chat di gruppo, il report del lunedì che nessuno deve più rifare da capo. Poi concordiamo un unico prezzo per questo risultato.
+2. ### Si lavora all’interno del vostro team.
 
-   Mettiamo presto qualcosa di funzionante in mano alle vostre persone, poi lo perfezioniamo in base a come lo usano davvero. L’AI scrive molte delle prime bozze; una persona legge, testa e risponde di ogni riga.
-3. ### Vi lasciamo più autonomi.
+   Entriamo nella vostra chat, nei vostri repository e nelle vostre riunioni, impariamo come si svolge davvero il lavoro e nel giro di poche settimane mettiamo in mano al vostro personale qualcosa che funziona. L’AI scrive molte delle prime bozze; una persona legge, testa e risponde di ogni riga.
+3. ### Si sceglie il risultato successivo, oppure ci si ferma.
 
-   Il codice, i dati e gli account restano intestati a voi, con una documentazione che il vostro team può seguire. Preferiamo che restiate con noi perché lavoriamo bene, non perché non potete andarvene.
+   Ogni risultato successivo ha un suo prezzo, stabilito prima di iniziare. Il codice, i dati e gli account restano intestati a voi, con note che il vostro team è in grado di seguire: così continuate a lavorare con noi perché il lavoro è fatto bene, non perché non potete andarvene.
 
 Per noi non è una novità
 
@@ -51,14 +51,14 @@ Di solito sì, quando:
 
 - **Avete acquistato strumenti di AI e non è cambiato nulla.** Le licenze ci sono, ma il lavoro si svolge ancora come prima, perché nessuno ha avuto il tempo di integrarli nei processi.
 - **Il problema tocca diversi sistemi** e serve qualcuno che li impari tutti, anziché uno specialista di uno solo.
-- **Vi serve un engineer per mesi, non per anni.** Abbastanza a lungo da cambiare il modo di lavorare, senza un’assunzione a tempo pieno.
+- **Sapete che cosa deve cambiare, ma non che cosa realizzare.** Capirlo lavorando all’interno del vostro team fa parte dell’incarico.
 
-Non fa per voi, invece, se sapete già esattamente cosa realizzare: in questo caso un progetto di [software su misura](https://sawirstudio.com/it/custom/) a perimetro definito costa meno. E se questo ruolo vi servirà per sempre, assumete qualcuno. Vi aiuteremo a scrivere la descrizione della posizione.
+Non è la soluzione adatta se sapete già esattamente che cosa realizzare: in questo caso un progetto di [software su misura](https://sawirstudio.com/it/custom/), con specifiche definite in anticipo, è la strada più rapida. E se questo ruolo vi servirà per sempre, assumete qualcuno. Vi aiuteremo a scrivere l’annuncio di lavoro.
 
-Ogni collaborazione è diversa, quindi durata e prezzo si definiscono a partire da una prima chiamata sulla situazione che dovete affrontare.
+Non sapete da dove cominciare? L’[analisi delle attività ripetitive](https://sawirstudio.com/it/#fixed-price) è un primo risultato a prezzo fisso: ci sediamo con il vostro team, individuiamo il lavoro ripetitivo che l’AI può prendere in carico e risolviamo il primo caso.
 
 Raccontateci cosa vi blocca.
 
-## Volete un engineer nel vostro team?
+## Che cosa dovrebbe funzionare diversamente?
 
 [Parliamone](https://sawirstudio.com/it/contact/)

@@ -43,42 +43,42 @@ Ils nous font confiance
 
 - ### Shopify et Odoo
 
-  Votre boutique Shopify connectée à Odoo et à vos autres outils : commandes, stock, versements et point de vente, pour que la boutique et la comptabilité concordent. Par les auteurs du connecteur Shopify open source pour Odoo.
+  Votre boutique et vos comptes concordent. Commandes, stocks, versements et point de vente passent de Shopify à Odoo et à vos autres outils, sans que personne ait à les ressaisir. Par les auteurs du connecteur open source Shopify pour Odoo.
 
   Découvrez [ce que nous proposons](https://sawirstudio.com/fr/shopify/), ou pourquoi [les versements ne correspondent pas à votre comptabilité](https://sawirstudio.com/fr/posts/why-shopify-payouts-dont-match-your-books/)
 - ### Systèmes de gestion
 
-  Point de vente, stock, achats et comptabilité réunis dans un seul système, basé sur Odoo ou développé sur mesure, pour quand les tableurs ne suffisent plus.
+  Un seul outil de confiance pour votre équipe : point de vente, stocks, achats et comptabilité, quand les tableurs ne suivent plus. Sur Odoo ou sur mesure.
 
   Voir [Odoo ou sur mesure ?](https://sawirstudio.com/fr/odoo/)
 - ### Plateformes & intégrations
 
-  Une application web, un SaaS ou une interface d’administration adaptés à la façon dont votre équipe travaille, et les liens entre les systèmes que vous payez déjà : Odoo, Shopify, WordPress, paiements et expédition.
+  Les données sont saisies une seule fois. Une application web, un SaaS ou un panneau d’administration conçu autour des méthodes de travail de votre équipe, et relié aux systèmes que vous payez déjà, comme Odoo, Shopify, WordPress, les solutions de paiement et d’expédition.
 
   Par exemple [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/). Découvrez nos [logiciels sur mesure](https://sawirstudio.com/fr/custom/)
 - ### Ingénieurs déployés chez vous
 
-  Un ingénieur intégré à votre équipe aussi longtemps que la mission l’exige, pour mettre l’IA au travail dans vos systèmes et connecter les outils que vous utilisez déjà.
+  Le travail bloqué avance enfin. Un ingénieur intégré à votre équipe met l’IA au travail dans vos systèmes et connecte les outils que vous utilisez déjà, à un tarif fondé sur ce qui change plutôt que sur les jours passés.
 
   Découvrez [comment ça fonctionne](https://sawirstudio.com/fr/forward-deployed-engineering/)
 - ### Applications
 
-  Des applications iPhone, iPad, Mac et Android pour vos clients ou vos collaborateurs, de la première version à la publication sur l’App Store, puis à chaque mise à jour.
+  Votre activité dans la poche de vos clients ou de vos collaborateurs. Des applications iPhone, iPad, Mac et Android, de la première version à l’App Store, puis à chaque mise à jour.
 
   Par exemple [DBTV](https://sawirstudio.com/fr/projects/dbtv-application/) et [Koperasi HOB](https://sawirstudio.com/fr/projects/koperasi-hob-application/)
 - ### Reprise de logiciels existants
 
-  Une application ou un système développé par d’autres qui est bloqué, lent ou dépassé. Nous analysons l’existant, nous corrigeons ce qui ne fonctionne pas et nous le mettons à jour. Et si une refonte coûte moins cher, nous vous le disons clairement.
+  L’application ou le système développé par quelqu’un d’autre fonctionne à nouveau. Nous analysons l’existant, réparons ce qui est cassé et le mettons à jour, ou nous vous disons clairement quand une refonte coûte moins cher.
 
   [Dites-nous ce que vous avez](https://sawirstudio.com/fr/contact/)
 - ### Design
 
-  Votre marque, vos interfaces et le site web qui les accompagne, dessinés par des personnes qui développent aussi ce qu’elles dessinent.
+  Des designs qui résistent à l’épreuve du développement, car ceux qui les dessinent les réalisent aussi. Votre image de marque, vos interfaces et le site web qui les accompagne.
 
   Par exemple [JakPod Hotel](https://sawirstudio.com/fr/projects/jakpod-hotel-design/) et [Fluindo](https://sawirstudio.com/fr/projects/fluindo-technology-indonesia-website/)
 - ### Lancement & croissance
 
-  Nous vous aidons à être trouvé : référencement configuré dès le premier jour, référencement local, inscriptions dans les annuaires et backlinks mérités, avec un point mensuel sur vos chiffres.
+  Plus de visiteurs qualifiés vous trouvent. Un référencement mis en place dès le premier jour, le référencement local, les annuaires et des backlinks mérités, ainsi qu’un point mensuel sur vos chiffres.
 
   Voir [ce qui est inclus](https://sawirstudio.com/fr/launch-and-growth/)
 
