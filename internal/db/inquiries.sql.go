@@ -30,8 +30,8 @@ func (q *Queries) CountRecentInquiriesFromIP(ctx context.Context, arg CountRecen
 }
 
 const createInquiry = `-- name: CreateInquiry :one
-insert into inquiries (name, email, company, needs, message, ip, user_agent)
-values ($1, $2, $3, $4, $5, $6, $7)
+insert into inquiries (name, email, company, needs, message, ip, user_agent, spam)
+values ($1, $2, $3, $4, $5, $6, $7, $8)
 returning id, created_at
 `
 
@@ -43,6 +43,7 @@ type CreateInquiryParams struct {
 	Message   string      `json:"message"`
 	Ip        *netip.Addr `json:"ip"`
 	UserAgent string      `json:"user_agent"`
+	Spam      bool        `json:"spam"`
 }
 
 type CreateInquiryRow struct {
@@ -59,6 +60,7 @@ func (q *Queries) CreateInquiry(ctx context.Context, arg CreateInquiryParams) (C
 		arg.Message,
 		arg.Ip,
 		arg.UserAgent,
+		arg.Spam,
 	)
 	var i CreateInquiryRow
 	err := row.Scan(&i.ID, &i.CreatedAt)
@@ -66,7 +68,7 @@ func (q *Queries) CreateInquiry(ctx context.Context, arg CreateInquiryParams) (C
 }
 
 const listInquiries = `-- name: ListInquiries :many
-select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at from inquiries
+select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at, spam from inquiries
 order by created_at desc
 limit $1
 `
@@ -91,6 +93,7 @@ func (q *Queries) ListInquiries(ctx context.Context, limit int32) ([]Inquiry, er
 			&i.UserAgent,
 			&i.CreatedAt,
 			&i.NotifiedAt,
+			&i.Spam,
 		); err != nil {
 			return nil, err
 		}
@@ -103,8 +106,8 @@ func (q *Queries) ListInquiries(ctx context.Context, limit int32) ([]Inquiry, er
 }
 
 const listUnnotifiedInquiries = `-- name: ListUnnotifiedInquiries :many
-select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at from inquiries
-where notified_at is null and created_at > now() - interval '7 days'
+select id, name, email, company, needs, message, ip, user_agent, created_at, notified_at, spam from inquiries
+where notified_at is null and not spam and created_at > now() - interval '7 days'
 order by created_at
 `
 
@@ -128,6 +131,7 @@ func (q *Queries) ListUnnotifiedInquiries(ctx context.Context) ([]Inquiry, error
 			&i.UserAgent,
 			&i.CreatedAt,
 			&i.NotifiedAt,
+			&i.Spam,
 		); err != nil {
 			return nil, err
 		}

@@ -16,7 +16,7 @@ type inquiryFields struct{ Name, Email, Company, Need, Message string }
 
 var (
 	googleFields = inquiryFields{"entry.888428388", "entry.454060139", "entry.446250436", "entry.1233160113", "entry.761558557"}
-	apiFields    = inquiryFields{"name", "email", "company", "need", "message"}
+	apiFields    = inquiryFields{"name", "email", "organization", "need", "message"}
 )
 
 // inquiryForm is the contact form. With api set it posts to our own server
@@ -100,14 +100,14 @@ func inquiryForm(api string) templ.Component {
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "\" type=\"email\" autocomplete=\"email\" required></div><div class=\"field\"><label for=\"company\">Company <span class=\"optional\">(optional)</span></label> <input id=\"company\" name=\"")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "\" type=\"email\" autocomplete=\"email\" required></div><div class=\"field\"><label for=\"organization\">Company <span class=\"optional\">(optional)</span></label> <input id=\"organization\" name=\"")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
 		var templ_7745c5c3_Var6 string
 		templ_7745c5c3_Var6, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Company).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 34, Col: 39}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 34, Col: 44}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var6)
 		if templ_7745c5c3_Err != nil {
@@ -183,7 +183,7 @@ func inquiryForm(api string) templ.Component {
 			return templ_7745c5c3_Err
 		}
 		if api != "" {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 13, "<!-- Left empty by people; the server drops inquiries that fill it in (bots). --> <div class=\"field\" hidden aria-hidden=\"true\"><label for=\"website\">Website</label> <input id=\"website\" name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div>")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 13, "<!-- Traps, left empty by people: the server keeps inquiries that fill them in as spam (bots).\n\t\t\t\"company\" is off-screen rather than hidden, so bots that skip hidden fields still see it. --> <div class=\"field trap\" aria-hidden=\"true\"><input id=\"company\" name=\"company\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div><div class=\"field\" hidden aria-hidden=\"true\"><label for=\"website\">Website</label> <input id=\"website\" name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

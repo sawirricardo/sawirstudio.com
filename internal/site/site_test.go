@@ -146,7 +146,7 @@ func TestBuildRepo(t *testing.T) {
 func TestInquiryFormTarget(t *testing.T) {
 	d := pageData{Page: &Page{Main: "<!-- @inquiry-form -->"}, Opts: Options{InquiryAPI: "/api/inquiries"}}
 	got := expand(d)
-	for _, want := range []string{`action="/api/inquiries"`, `name="email"`, `name="website"`, `data-endpoint="api"`} {
+	for _, want := range []string{`action="/api/inquiries"`, `name="email"`, `name="organization"`, `name="company"`, `name="website"`, `data-endpoint="api"`} {
 		if !strings.Contains(got, want) {
 			t.Errorf("API form is missing %s", want)
 		}

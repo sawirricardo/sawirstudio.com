@@ -123,10 +123,13 @@ The form is `internal/site/inquiry.templ`. `inquiry_api` in `content/site.yaml` 
   `name` is that question's `entry.<id>`; get new IDs with
   `gog forms raw 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`, and read responses with
   `gog forms responses list 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`.
-- `/api/inquiries` (now): our server, which checks the fields, drops bots (a hidden `website` field), turns
-  away a message with a link when no need is ticked (422, asking to tick one, so a person can still send it), allows
+- `/api/inquiries` (now): our server, which checks the fields, turns away a message with a link when no
+  need is ticked (422, asking to tick one, so a person can still send it), and catches bots with two traps
+  people leave empty: `company`, moved off-screen (the real company field is `organization`), and a hidden
+  `website`. A trapped inquiry gets the usual reply and is stored with `spam` set but not emailed, in case
+  autofill filled a trap for a person. The server allows
   5 inquiries per IP address per 10 minutes, and stores them in the `inquiries` table. Read them with
-  `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
+  `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, spam, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
 
 Each new inquiry is also emailed to `NOTIFY_TO` (one address, or several separated by commas), with
 Reply-To set to the inquirer, so replying answers

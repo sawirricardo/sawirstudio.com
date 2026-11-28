@@ -174,17 +174,21 @@ func inquiryHandler(cfg Config) http.Handler {
 			reply(http.StatusBadRequest, "We couldn't read the form.")
 			return
 		}
-		// The hidden "website" field is left empty by people; pretend it worked for bots.
-		if r.PostForm.Get("website") != "" {
-			reply(http.StatusOK, "Your inquiry has been sent.")
-			return
-		}
+		// The hidden "company" and "website" fields are traps: people don't see them (the real
+		// company field is "organization"), bots fill them in. A trapped inquiry is stored as spam
+		// and not emailed, in case browser autofill filled the trap for a person; the reply is
+		// the same as for any inquiry, so bots can't tell.
+		trap := strings.TrimSpace(r.PostForm.Get("company"))
+		spam := trap != "" || r.PostForm.Get("website") != ""
 		in := inquiryInput{
 			Name:    strings.TrimSpace(r.PostForm.Get("name")),
 			Email:   strings.TrimSpace(r.PostForm.Get("email")),
-			Company: strings.TrimSpace(r.PostForm.Get("company")),
+			Company: strings.TrimSpace(r.PostForm.Get("organization")),
 			Message: strings.TrimSpace(r.PostForm.Get("message")),
 			Needs:   r.PostForm["need"],
+		}
+		if in.Company == "" {
+			in.Company = trap
 		}
 		if err := in.validate(); err != nil {
 			if errors.Is(err, errSpam) {
@@ -214,11 +218,16 @@ func inquiryHandler(cfg Config) http.Handler {
 		}
 		row, err := cfg.Inquiries.q.CreateInquiry(r.Context(), db.CreateInquiryParams{
 			Name: in.Name, Email: in.Email, Company: in.Company, Needs: in.Needs, Message: in.Message,
-			Ip: ipp, UserAgent: truncate(r.UserAgent(), 500),
+			Ip: ipp, UserAgent: truncate(r.UserAgent(), 500), Spam: spam,
 		})
 		if err != nil {
 			cfg.Log.Error("inquiry insert", "err", err)
 			reply(http.StatusInternalServerError, "Something went wrong. Please try again in a moment.")
+			return
+		}
+		if spam {
+			cfg.Log.Info("inquiry caught by the trap, stored as spam", "id", row.ID, "email", in.Email)
+			reply(http.StatusCreated, "Your inquiry has been sent.")
 			return
 		}
 		cfg.Log.Info("inquiry", "id", row.ID, "email", in.Email)
