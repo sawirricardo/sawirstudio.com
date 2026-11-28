@@ -6,6 +6,7 @@ description: Laravel और PHP से वेब एप्लिकेशन ब
 
 # ब्लॉग
 
+- [2026-11-28 आपके AI कोच का खर्च OpenAI उठाएगा: OpenWorks में क्या शामिल है और क्या नहीं](https://sawirstudio.com/hi/posts/openai-openworks/)
 - [2026-11-27 अब सर्विसेज़ की बारी: AI एजेंट्स के साथ कुछ लोग क्या-क्या डिलीवर कर सकते हैं](https://sawirstudio.com/hi/posts/services-is-next/)
 - [2026-11-25 फ़ॉरवर्ड डिप्लॉयड इंजीनियर क्या होता है, और आपको उसकी सेवाएँ कब लेनी चाहिए?](https://sawirstudio.com/hi/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio अब Colvaron Conquest का पब्लिशर है](https://sawirstudio.com/hi/posts/sawir-studio-publishes-colvaron-conquest/)

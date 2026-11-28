@@ -6,6 +6,7 @@ description: مقالات من Sawir Studio حول بناء تطبيقات ال�
 
 # المدونة
 
+- [2026-11-28 OpenAI ستتحمّل تكلفة مدرّب الذكاء الاصطناعي الخاص بكم: ما الذي يغطيه OpenWorks وما الذي لا يغطيه](https://sawirstudio.com/ar/posts/openai-openworks/)
 - [2026-11-27 الخدمات هي التالية: ما يستطيع بضعة أشخاص مع وكلاء الذكاء الاصطناعي إنجازه](https://sawirstudio.com/ar/posts/services-is-next/)
 - [2026-11-25 ما هو المهندس الميداني المنتدب (Forward Deployed Engineer)، ومتى يجدر بكم الاستعانة بواحد؟](https://sawirstudio.com/ar/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio تتولّى الآن نشر Colvaron Conquest](https://sawirstudio.com/ar/posts/sawir-studio-publishes-colvaron-conquest/)

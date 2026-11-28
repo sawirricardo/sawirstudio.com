@@ -6,6 +6,7 @@ description: Artikel von Sawir Studio über die Entwicklung von Webanwendungen m
 
 # Blog
 
+- [2026-11-28 OpenAI bezahlt Ihren KI-Coach: Was OpenWorks abdeckt und was nicht](https://sawirstudio.com/de/posts/openai-openworks/)
 - [2026-11-27 Als Nächstes die Dienstleistungen: Was wenige Menschen mit AI Agents liefern können](https://sawirstudio.com/de/posts/services-is-next/)
 - [2026-11-25 Was ist ein Forward Deployed Engineer, und wann sollten Sie sich einen ausleihen?](https://sawirstudio.com/de/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio ist jetzt Publisher von Colvaron Conquest](https://sawirstudio.com/de/posts/sawir-studio-publishes-colvaron-conquest/)

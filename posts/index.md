@@ -6,6 +6,7 @@ description: Articles from Sawir Studio on building web applications with Larave
 
 # Blog
 
+- [2026-11-28 OpenAI Will Pay for Your AI Coach: What OpenWorks Covers, and What It Doesn't](https://sawirstudio.com/posts/openai-openworks/)
 - [2026-11-27 Services Is Next: What a Few People with AI Agents Can Deliver](https://sawirstudio.com/posts/services-is-next/)
 - [2026-11-25 What Is a Forward Deployed Engineer, and When Should You Borrow One?](https://sawirstudio.com/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio Is Now the Publisher of Colvaron Conquest](https://sawirstudio.com/posts/sawir-studio-publishes-colvaron-conquest/)

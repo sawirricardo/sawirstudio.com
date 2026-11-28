@@ -6,6 +6,7 @@ description: Artikelen van Sawir Studio over het bouwen van webapplicaties met L
 
 # Blog
 
+- [2026-11-28 OpenAI betaalt je AI-coach: wat OpenWorks wel en niet dekt](https://sawirstudio.com/nl/posts/openai-openworks/)
 - [2026-11-27 Diensten zijn nu aan de beurt: wat een paar mensen met AI-agents kunnen leveren](https://sawirstudio.com/nl/posts/services-is-next/)
 - [2026-11-25 Wat is een forward deployed engineer, en wanneer moet je er een inlenen?](https://sawirstudio.com/nl/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio is nu de uitgever van Colvaron Conquest](https://sawirstudio.com/nl/posts/sawir-studio-publishes-colvaron-conquest/)

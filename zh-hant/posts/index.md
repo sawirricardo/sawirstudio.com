@@ -6,6 +6,7 @@ description: Sawir Studio 發表的文章，主題是使用 Laravel 與 PHP 開�
 
 # 部落格
 
+- [2026-11-28 OpenAI 願意付費請您的 AI 教練：OpenWorks 涵蓋什麼、不涵蓋什麼](https://sawirstudio.com/zh-hant/posts/openai-openworks/)
 - [2026-11-27 下一步是服務：幾個人搭配 AI 代理，能交付什麼](https://sawirstudio.com/zh-hant/posts/services-is-next/)
 - [2026-11-25 什麼是前線部署工程師（Forward Deployed Engineer）？什麼時候該借調一位？](https://sawirstudio.com/zh-hant/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio 現在是 Colvaron Conquest 的發行商](https://sawirstudio.com/zh-hant/posts/sawir-studio-publishes-colvaron-conquest/)

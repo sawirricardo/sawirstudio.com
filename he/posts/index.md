@@ -6,6 +6,7 @@ description: מאמרים של Sawir Studio על בניית אפליקציות �
 
 # בלוג
 
+- [2026-11-28 OpenAI תשלם על מאמן ה-AI שלכם: מה OpenWorks מכסה, ומה לא](https://sawirstudio.com/he/posts/openai-openworks/)
 - [2026-11-27 השירותים הם הבאים בתור: מה כמה אנשים עם סוכני AI יכולים לספק](https://sawirstudio.com/he/posts/services-is-next/)
 - [2026-11-25 מהו Forward Deployed Engineer, ומתי כדאי "לשאול" כזה?](https://sawirstudio.com/he/posts/what-is-a-forward-deployed-engineer/)
 - [2026-11-25 Sawir Studio היא מעכשיו המוציאה לאור של Colvaron Conquest](https://sawirstudio.com/he/posts/sawir-studio-publishes-colvaron-conquest/)
