@@ -21,7 +21,6 @@ type Inquiry struct {
 	UserAgent  string             `json:"user_agent"`
 	CreatedAt  pgtype.Timestamptz `json:"created_at"`
 	NotifiedAt pgtype.Timestamptz `json:"notified_at"`
-	Spam       bool               `json:"spam"`
 }
 
 type NewsletterSend struct {

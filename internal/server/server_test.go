@@ -164,7 +164,7 @@ func TestInquiries(t *testing.T) {
 			"Content-Type": "application/x-www-form-urlencoded", "Accept": accept,
 		}, form.Encode())
 	}
-	good := url.Values{"name": {"Ana"}, "email": {"ana@example.com"}, "organization": {"Acme"},
+	good := url.Values{"name": {"Ana"}, "email": {"ana@example.com"}, "company": {"Acme"},
 		"need": {"Website", "Design"}, "message": {"We need a site."}}
 
 	if rec := post(good, "application/json"); rec.Code != 201 || !strings.Contains(rec.Body.String(), `"ok":true`) {
@@ -208,7 +208,7 @@ func TestInquiries(t *testing.T) {
 		t.Errorf("unknown need: %d", rec.Code)
 	}
 
-	spam := url.Values{"name": {"EdwardBot"}, "email": {"e@b.co"}, "organization": {"google"},
+	spam := url.Values{"name": {"EdwardBot"}, "email": {"e@b.co"}, "company": {"google"},
 		"message": {"EARN $50,000,000 PER MONTH https://telegra.ph/x"}}
 	if rec := post(spam, "application/json"); rec.Code != 422 || !strings.Contains(rec.Body.String(), "tick what you need") {
 		t.Errorf("link without needs: %d %s, want 422", rec.Code, rec.Body)
@@ -218,26 +218,16 @@ func TestInquiries(t *testing.T) {
 		t.Errorf("link with a need ticked: %d %s, want 201", rec.Code, rec.Body)
 	}
 
-	// Trapped inquiries get the usual reply and are stored as spam, without an email.
 	bot := url.Values{"name": {"Bot"}, "email": {"b@b.co"}, "message": {"buy"}, "website": {"http://spam"}}
-	if rec := post(bot, "application/json"); rec.Code != 201 {
-		t.Errorf("website trap: %d, want 201", rec.Code)
-	}
-	robert := url.Values{"name": {"RobertSic"}, "email": {"r@b.co"}, "company": {"google"}, "message": {"Hi, I wanted to know your price."}}
-	if rec := post(robert, "application/json"); rec.Code != 201 || !strings.Contains(rec.Body.String(), `"ok":true`) {
-		t.Errorf("company trap: %d %s, want 201", rec.Code, rec.Body)
-	}
-	var spamRows int
-	pool.QueryRow(ctx, "select count(*) from inquiries where spam and company = 'google' and email = 'r@b.co' or spam and email = 'b@b.co'").Scan(&spamRows)
-	if spamRows != 2 {
-		t.Errorf("%d trapped inquiries stored as spam, want 2", spamRows)
+	if rec := post(bot, "application/json"); rec.Code != 200 {
+		t.Errorf("honeypot: %d, want a quiet 200", rec.Code)
 	}
 
 	inq.Wait()
 	if len(mail.sent) != 3 {
 		t.Errorf("%d emails, want 3 (none for bots, spam or invalid inquiries)", len(mail.sent))
 	}
-	// An inquiry whose email didn't go out is sent at the next start; spam isn't.
+	// An inquiry whose email didn't go out is sent at the next start.
 	pool.Exec(ctx, "update inquiries set notified_at = null where email = 'ana@example.com' and id = (select min(id) from inquiries)")
 	inq.SendPending(ctx, slog.New(slog.DiscardHandler))
 	inq.Wait()
@@ -248,8 +238,8 @@ func TestInquiries(t *testing.T) {
 
 	var n int
 	pool.QueryRow(ctx, "select count(*) from inquiries").Scan(&n)
-	if n != 5 {
-		t.Errorf("%d inquiries stored, want 5 (3 real, 2 trapped; link spam and invalid ones dropped)", n)
+	if n != 3 {
+		t.Errorf("%d inquiries stored, want 3 (bot, spam and invalid ones dropped)", n)
 	}
 
 	// The same address can send rateLimit inquiries per window.

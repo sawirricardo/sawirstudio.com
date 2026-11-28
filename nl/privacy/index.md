@@ -20,6 +20,8 @@ Hier kijken we naar om te ontdekken wat onduidelijk of kapot is, zodat we het ku
 
 Het [contactformulier](https://sawirstudio.com/nl/contact/) stuurt je naam, e-mailadres, bedrijf (als je dat invult), wat je nodig hebt en je bericht naar onze eigen server. Die slaat ze samen met je IP-adres en browser op in onze database en mailt ze via Cloudflare naar ons. We gebruiken deze gegevens om je te antwoorden en over je project te praten. Vraag ons erom en we verwijderen ze.
 
+Om bots te weren draait op het formulier Cloudflare Turnstile, dat je browser controleert voordat je iets verstuurt ([privacyverklaring van Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/)).
+
 ## Als je je abonneert op de blog
 
 Het aanmeldformulier onder elke blogpost slaat je e-mailadres op in onze eigen database, samen met de pagina waarop je je hebt aangemeld, je IP-adres en je browser. We sturen je via Cloudflare één e-mail om je adres te bevestigen en daarna één e-mail bij elke nieuwe post. In elke e-mail staat een link om je af te melden, en daarna sturen we je niets meer. Vraag ons erom en we verwijderen ook je adres.

@@ -103,7 +103,7 @@ func build(root string, write bool) ([]string, error) {
 // Placeholders a page's HTML can use for parts the builder renders.
 var placeholders = map[string]func(d pageData) templ.Component{
 	"<!-- @project-cards -->":   func(d pageData) templ.Component { return projectCards(d.Projects) },
-	"<!-- @inquiry-form -->":    func(d pageData) templ.Component { return inquiryForm(d.Opts.InquiryAPI) },
+	"<!-- @inquiry-form -->":    func(d pageData) templ.Component { return inquiryForm(d.Opts.InquiryAPI, d.Opts.TurnstileSitekey) },
 	"<!-- @newsletter-form -->": func(d pageData) templ.Component { return newsletterForm() },
 	"<!-- @client-list -->":     func(d pageData) templ.Component { return clientList(d.Clients, d.Projects) },
 	"<!-- @client-logos -->":    func(d pageData) templ.Component { return clientLogos(d.Clients, d.Projects) },

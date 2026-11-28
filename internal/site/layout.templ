@@ -9,6 +9,8 @@ import (
 type Options struct {
 	// InquiryAPI is where the contact form posts. Empty means the Google Form.
 	InquiryAPI string `yaml:"inquiry_api"`
+	// TurnstileSitekey is the contact form's Cloudflare Turnstile widget; empty means none.
+	TurnstileSitekey string `yaml:"turnstile_sitekey"`
 }
 
 // pageData is everything the layout needs beyond the Page itself.

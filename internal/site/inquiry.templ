@@ -7,12 +7,13 @@ type inquiryFields struct{ Name, Email, Company, Need, Message string }
 
 var (
 	googleFields = inquiryFields{"entry.888428388", "entry.454060139", "entry.446250436", "entry.1233160113", "entry.761558557"}
-	apiFields    = inquiryFields{"name", "email", "organization", "need", "message"}
+	apiFields    = inquiryFields{"name", "email", "company", "need", "message"}
 )
 
 // inquiryForm is the contact form. With api set it posts to our own server
-// (cmd/server, POST /api/inquiries); otherwise to the Google Form.
-templ inquiryForm(api string) {
+// (cmd/server, POST /api/inquiries), with a Cloudflare Turnstile widget when sitekey is set;
+// otherwise to the Google Form.
+templ inquiryForm(api, sitekey string) {
 	{{ f, action, mode := googleFields, templ.SafeURL(googleForm), "google" }}
 	if api != "" {
 		{{ f, action, mode = apiFields, templ.SafeURL(api), "api" }}
@@ -30,8 +31,8 @@ templ inquiryForm(api string) {
 			<input id="email" name={ f.Email } type="email" autocomplete="email" required/>
 		</div>
 		<div class="field">
-			<label for="organization">Company <span class="optional">(optional)</span></label>
-			<input id="organization" name={ f.Company } type="text" autocomplete="organization"/>
+			<label for="company">Company <span class="optional">(optional)</span></label>
+			<input id="company" name={ f.Company } type="text" autocomplete="organization"/>
 		</div>
 		<fieldset class="field">
 			<legend>What do you need?</legend>
@@ -47,15 +48,16 @@ templ inquiryForm(api string) {
 			<textarea id="message" name={ f.Message } rows="6" required></textarea>
 		</div>
 		if api != "" {
-			<!-- Traps, left empty by people: the server keeps inquiries that fill them in as spam (bots).
-			"company" is off-screen rather than hidden, so bots that skip hidden fields still see it. -->
-			<div class="field trap" aria-hidden="true">
-				<input id="company" name="company" type="text" tabindex="-1" autocomplete="off"/>
-			</div>
+			<!-- Left empty by people; the server drops inquiries that fill it in (bots). -->
 			<div class="field" hidden aria-hidden="true">
 				<label for="website">Website</label>
 				<input id="website" name="website" type="text" tabindex="-1" autocomplete="off"/>
 			</div>
+			if sitekey != "" {
+				<!-- Cloudflare Turnstile: adds cf-turnstile-response, which the server checks. -->
+				<div class="field cf-turnstile" data-sitekey={ sitekey } data-action="inquiry"></div>
+				<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+			}
 		}
 		<button class="button" type="submit" data-sending="Sending…">Send inquiry</button>
 		<p id="form-error" class="form-status form-error" role="alert" hidden>

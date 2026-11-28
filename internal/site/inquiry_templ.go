@@ -16,12 +16,13 @@ type inquiryFields struct{ Name, Email, Company, Need, Message string }
 
 var (
 	googleFields = inquiryFields{"entry.888428388", "entry.454060139", "entry.446250436", "entry.1233160113", "entry.761558557"}
-	apiFields    = inquiryFields{"name", "email", "organization", "need", "message"}
+	apiFields    = inquiryFields{"name", "email", "company", "need", "message"}
 )
 
 // inquiryForm is the contact form. With api set it posts to our own server
-// (cmd/server, POST /api/inquiries); otherwise to the Google Form.
-func inquiryForm(api string) templ.Component {
+// (cmd/server, POST /api/inquiries), with a Cloudflare Turnstile widget when sitekey is set;
+// otherwise to the Google Form.
+func inquiryForm(api, sitekey string) templ.Component {
 	return templruntime.GeneratedTemplate(func(templ_7745c5c3_Input templruntime.GeneratedComponentInput) (templ_7745c5c3_Err error) {
 		templ_7745c5c3_W, ctx := templ_7745c5c3_Input.Writer, templ_7745c5c3_Input.Context
 		if templ_7745c5c3_CtxErr := ctx.Err(); templ_7745c5c3_CtxErr != nil {
@@ -55,7 +56,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var2 string
 		templ_7745c5c3_Var2, templ_7745c5c3_Err = templruntime.NewAttributeExpression(action).ResolveURL(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 23, Col: 56}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 24, Col: 56}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var2)
 		if templ_7745c5c3_Err != nil {
@@ -68,7 +69,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var3 string
 		templ_7745c5c3_Var3, templ_7745c5c3_Err = templruntime.NewAttributeExpression(mode).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 23, Col: 93}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 24, Col: 93}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var3)
 		if templ_7745c5c3_Err != nil {
@@ -81,7 +82,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var4 string
 		templ_7745c5c3_Var4, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Name).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 26, Col: 33}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 27, Col: 33}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var4)
 		if templ_7745c5c3_Err != nil {
@@ -94,20 +95,20 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var5 string
 		templ_7745c5c3_Var5, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Email).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 30, Col: 35}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 31, Col: 35}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var5)
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "\" type=\"email\" autocomplete=\"email\" required></div><div class=\"field\"><label for=\"organization\">Company <span class=\"optional\">(optional)</span></label> <input id=\"organization\" name=\"")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 6, "\" type=\"email\" autocomplete=\"email\" required></div><div class=\"field\"><label for=\"company\">Company <span class=\"optional\">(optional)</span></label> <input id=\"company\" name=\"")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
 		var templ_7745c5c3_Var6 string
 		templ_7745c5c3_Var6, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Company).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 34, Col: 44}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 35, Col: 39}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var6)
 		if templ_7745c5c3_Err != nil {
@@ -120,7 +121,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var7 string
 		templ_7745c5c3_Var7, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Need).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 39, Col: 51}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 40, Col: 51}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var7)
 		if templ_7745c5c3_Err != nil {
@@ -133,7 +134,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var8 string
 		templ_7745c5c3_Var8, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Need).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 40, Col: 47}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 41, Col: 47}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var8)
 		if templ_7745c5c3_Err != nil {
@@ -146,7 +147,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var9 string
 		templ_7745c5c3_Var9, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Need).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 41, Col: 46}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 42, Col: 46}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var9)
 		if templ_7745c5c3_Err != nil {
@@ -159,7 +160,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var10 string
 		templ_7745c5c3_Var10, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Need).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 42, Col: 46}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 43, Col: 46}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var10)
 		if templ_7745c5c3_Err != nil {
@@ -172,7 +173,7 @@ func inquiryForm(api string) templ.Component {
 		var templ_7745c5c3_Var11 string
 		templ_7745c5c3_Var11, templ_7745c5c3_Err = templruntime.NewAttributeExpression(f.Message).Resolve(ctx)
 		if templ_7745c5c3_Err != nil {
-			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 47, Col: 42}
+			return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 48, Col: 42}
 		}
 		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var11)
 		if templ_7745c5c3_Err != nil {
@@ -183,12 +184,31 @@ func inquiryForm(api string) templ.Component {
 			return templ_7745c5c3_Err
 		}
 		if api != "" {
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 13, "<!-- Traps, left empty by people: the server keeps inquiries that fill them in as spam (bots).\n\t\t\t\"company\" is off-screen rather than hidden, so bots that skip hidden fields still see it. --> <div class=\"field trap\" aria-hidden=\"true\"><input id=\"company\" name=\"company\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div><div class=\"field\" hidden aria-hidden=\"true\"><label for=\"website\">Website</label> <input id=\"website\" name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div>")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 13, "<!-- Left empty by people; the server drops inquiries that fill it in (bots). --> <div class=\"field\" hidden aria-hidden=\"true\"><label for=\"website\">Website</label> <input id=\"website\" name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></div>")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}
+			if sitekey != "" {
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 14, "<!-- Cloudflare Turnstile: adds cf-turnstile-response, which the server checks. --> <div class=\"field cf-turnstile\" data-sitekey=\"")
+				if templ_7745c5c3_Err != nil {
+					return templ_7745c5c3_Err
+				}
+				var templ_7745c5c3_Var12 string
+				templ_7745c5c3_Var12, templ_7745c5c3_Err = templruntime.NewAttributeExpression(sitekey).Resolve(ctx)
+				if templ_7745c5c3_Err != nil {
+					return templ.Error{Err: templ_7745c5c3_Err, FileName: `internal/site/inquiry.templ`, Line: 58, Col: 58}
+				}
+				_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString(templ_7745c5c3_Var12)
+				if templ_7745c5c3_Err != nil {
+					return templ_7745c5c3_Err
+				}
+				templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 15, "\" data-action=\"inquiry\"></div><script src=\"https://challenges.cloudflare.com/turnstile/v0/api.js\" async defer></script>")
+				if templ_7745c5c3_Err != nil {
+					return templ_7745c5c3_Err
+				}
+			}
 		}
-		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 14, "<button class=\"button\" type=\"submit\" data-sending=\"Sending…\">Send inquiry</button><p id=\"form-error\" class=\"form-status form-error\" role=\"alert\" hidden>Something went wrong sending your inquiry. Please try again in a moment.</p></form>")
+		templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 16, "<button class=\"button\" type=\"submit\" data-sending=\"Sending…\">Send inquiry</button><p id=\"form-error\" class=\"form-status form-error\" role=\"alert\" hidden>Something went wrong sending your inquiry. Please try again in a moment.</p></form>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}

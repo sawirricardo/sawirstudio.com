@@ -20,6 +20,8 @@ We look at this to find what's confusing or broken and fix it. We don't sell it.
 
 The [contact form](https://sawirstudio.com/contact/) sends your name, email, company (if you add one), what you need and your message to our own server. It stores them in our database with your IP address and browser, and emails them to us through Cloudflare. We use it to reply and to talk about your project. Ask us and we'll delete it.
 
+To keep bots out, the form runs Cloudflare Turnstile, which checks your browser before you send ([Turnstile's privacy notice](https://www.cloudflare.com/turnstile-privacy-policy/)).
+
 ## When you subscribe to the blog
 
 The signup at the end of each blog post stores your email address in our own database, with the page you signed up on, your IP address and your browser. We send you one email to confirm the address, then one about each new post, through Cloudflare. Every email has a link to unsubscribe, and after that we send you nothing. Ask us and we'll delete your address too.

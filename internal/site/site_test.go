@@ -146,14 +146,21 @@ func TestBuildRepo(t *testing.T) {
 func TestInquiryFormTarget(t *testing.T) {
 	d := pageData{Page: &Page{Main: "<!-- @inquiry-form -->"}, Opts: Options{InquiryAPI: "/api/inquiries"}}
 	got := expand(d)
-	for _, want := range []string{`action="/api/inquiries"`, `name="email"`, `name="organization"`, `name="company"`, `name="website"`, `data-endpoint="api"`} {
+	for _, want := range []string{`action="/api/inquiries"`, `name="email"`, `name="website"`, `data-endpoint="api"`} {
 		if !strings.Contains(got, want) {
 			t.Errorf("API form is missing %s", want)
 		}
 	}
+	if strings.Contains(got, "cf-turnstile") {
+		t.Error("no sitekey, yet the form has a Turnstile widget")
+	}
+	d.Opts.TurnstileSitekey = "0xKEY"
+	if got := expand(d); !strings.Contains(got, `data-sitekey="0xKEY"`) || !strings.Contains(got, "challenges.cloudflare.com/turnstile/v0/api.js") {
+		t.Error("API form with a sitekey is missing the Turnstile widget")
+	}
 	d.Opts.InquiryAPI = ""
-	if got := expand(d); !strings.Contains(got, "docs.google.com/forms") || strings.Contains(got, `name="website"`) {
-		t.Error("default form should post to the Google Form, without the honeypot")
+	if got := expand(d); !strings.Contains(got, "docs.google.com/forms") || strings.Contains(got, `name="website"`) || strings.Contains(got, "cf-turnstile") {
+		t.Error("default form should post to the Google Form, without the honeypot or Turnstile")
 	}
 }
 

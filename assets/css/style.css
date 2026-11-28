@@ -128,14 +128,6 @@ select {
 [hidden] {
   display: none !important;
 }
-/* The contact form's trap field: off-screen rather than hidden, so bots still fill it in. */
-.trap {
-  position: absolute !important;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
 
 /* Layout */
 .section {

@@ -174,21 +174,17 @@ func inquiryHandler(cfg Config) http.Handler {
 			reply(http.StatusBadRequest, "We couldn't read the form.")
 			return
 		}
-		// The hidden "company" and "website" fields are traps: people don't see them (the real
-		// company field is "organization"), bots fill them in. A trapped inquiry is stored as spam
-		// and not emailed, in case browser autofill filled the trap for a person; the reply is
-		// the same as for any inquiry, so bots can't tell.
-		trap := strings.TrimSpace(r.PostForm.Get("company"))
-		spam := trap != "" || r.PostForm.Get("website") != ""
+		// The hidden "website" field is left empty by people; pretend it worked for bots.
+		if r.PostForm.Get("website") != "" {
+			reply(http.StatusOK, "Your inquiry has been sent.")
+			return
+		}
 		in := inquiryInput{
 			Name:    strings.TrimSpace(r.PostForm.Get("name")),
 			Email:   strings.TrimSpace(r.PostForm.Get("email")),
-			Company: strings.TrimSpace(r.PostForm.Get("organization")),
+			Company: strings.TrimSpace(r.PostForm.Get("company")),
 			Message: strings.TrimSpace(r.PostForm.Get("message")),
 			Needs:   r.PostForm["need"],
-		}
-		if in.Company == "" {
-			in.Company = trap
 		}
 		if err := in.validate(); err != nil {
 			if errors.Is(err, errSpam) {
@@ -213,21 +209,33 @@ func inquiryHandler(cfg Config) http.Handler {
 				return
 			}
 		}
+		// Turnstile's widget proves a browser filled in the form. If Cloudflare can't be asked,
+		// keep the inquiry: losing a real lead is worse than letting one bot through.
+		if cfg.Turnstile != nil {
+			ipStr := ""
+			if ipp != nil {
+				ipStr = ipp.String()
+			}
+			ok, err := cfg.Turnstile.Verify(r.Context(), r.PostForm.Get("cf-turnstile-response"), ipStr)
+			switch {
+			case err != nil:
+				cfg.Log.Error("turnstile check failed, taking the inquiry anyway", "email", in.Email, "err", err)
+			case !ok:
+				cfg.Log.Info("inquiry failed turnstile", "email", in.Email)
+				reply(http.StatusUnprocessableEntity, "We couldn't check that you're not a bot. Please wait for the check above the button to finish, or reload the page, and send it again.")
+				return
+			}
+		}
 		if in.Needs == nil {
 			in.Needs = []string{}
 		}
 		row, err := cfg.Inquiries.q.CreateInquiry(r.Context(), db.CreateInquiryParams{
 			Name: in.Name, Email: in.Email, Company: in.Company, Needs: in.Needs, Message: in.Message,
-			Ip: ipp, UserAgent: truncate(r.UserAgent(), 500), Spam: spam,
+			Ip: ipp, UserAgent: truncate(r.UserAgent(), 500),
 		})
 		if err != nil {
 			cfg.Log.Error("inquiry insert", "err", err)
 			reply(http.StatusInternalServerError, "Something went wrong. Please try again in a moment.")
-			return
-		}
-		if spam {
-			cfg.Log.Info("inquiry caught by the trap, stored as spam", "id", row.ID, "email", in.Email)
-			reply(http.StatusCreated, "Your inquiry has been sent.")
 			return
 		}
 		cfg.Log.Info("inquiry", "id", row.ID, "email", in.Email)

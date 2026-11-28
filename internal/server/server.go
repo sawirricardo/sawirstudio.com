@@ -30,6 +30,8 @@ type Config struct {
 	// X-Forwarded-Proto. Set it when the server is only reachable through Cloudflare.
 	TrustProxy bool
 	Inquiries  *Inquiries // nil: the contact API answers 503
+	// Turnstile checks the contact form's Cloudflare Turnstile token; nil skips the check.
+	Turnstile *Turnstile
 	// Subscribers is the newsletter list; nil (or without a mailer), signups answer 503.
 	Subscribers *Subscribers
 	Log         *slog.Logger

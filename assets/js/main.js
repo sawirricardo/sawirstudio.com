@@ -185,6 +185,9 @@
       error.hidden = false;
       button.disabled = false;
       button.textContent = label;
+      // A Turnstile token works once, so get a new one for the next try.
+      const widget = form.querySelector(".cf-turnstile");
+      if (widget && window.turnstile) window.turnstile.reset(widget);
     }
   });
 })();

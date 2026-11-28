@@ -1,6 +1,6 @@
 -- name: CreateInquiry :one
-insert into inquiries (name, email, company, needs, message, ip, user_agent, spam)
-values ($1, $2, $3, $4, $5, $6, $7, $8)
+insert into inquiries (name, email, company, needs, message, ip, user_agent)
+values ($1, $2, $3, $4, $5, $6, $7)
 returning id, created_at;
 
 -- name: ListInquiries :many
@@ -17,5 +17,5 @@ update inquiries set notified_at = now() where id = $1;
 
 -- name: ListUnnotifiedInquiries :many
 select * from inquiries
-where notified_at is null and not spam and created_at > now() - interval '7 days'
+where notified_at is null and created_at > now() - interval '7 days'
 order by created_at;

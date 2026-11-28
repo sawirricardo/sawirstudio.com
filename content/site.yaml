@@ -4,3 +4,7 @@
 # /api/inquiries: our own server (cmd/server), which stores inquiries in Postgres.
 # The site is served by cmd/server (with DATABASE_URL set on ricardosawir1), so it is on.
 inquiry_api: /api/inquiries
+
+# The contact form's Cloudflare Turnstile widget ("sawirstudio.com contact form"); its secret is
+# TURNSTILE_SECRET in the server's environment. Empty: no widget. Only used with inquiry_api.
+turnstile_sitekey: 0x4AAAAAAGWaIeYFeU6Akfc0

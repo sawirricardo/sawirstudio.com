@@ -13,7 +13,8 @@
 // SES_REGION and AWS credentials (Amazon SES) or CLOUDFLARE_ACCOUNT_ID and
 // CLOUDFLARE_EMAIL_TOKEN (see notify.FromEnv), NEWSLETTER_FROM (the
 // newsletter's sender, default newsletter@sawirstudio.com) and SITE_URL (the start of
-// the links in the newsletter's emails, default https://sawirstudio.com). In development,
+// the links in the newsletter's emails, default https://sawirstudio.com) and TURNSTILE_SECRET
+// (the contact form's Cloudflare Turnstile widget; without it there's no check). In development,
 // serve the repo instead:
 //
 //	go run ./cmd/server -root .
@@ -85,6 +86,11 @@ func main() {
 	}
 
 	cfg := server.Config{Site: site, TrustProxy: *trust, Log: log}
+	if secret := os.Getenv("TURNSTILE_SECRET"); secret != "" {
+		cfg.Turnstile = &server.Turnstile{Secret: secret}
+	} else {
+		log.Warn("TURNSTILE_SECRET is not set: the contact form takes inquiries without the Turnstile check")
+	}
 	if dbURL != "" {
 		// A database that's down mustn't take the site down: log it, serve, and let the
 		// contact API fail (and /healthz report it) until it's back.

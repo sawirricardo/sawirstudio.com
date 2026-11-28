@@ -123,13 +123,11 @@ The form is `internal/site/inquiry.templ`. `inquiry_api` in `content/site.yaml` 
   `name` is that question's `entry.<id>`; get new IDs with
   `gog forms raw 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`, and read responses with
   `gog forms responses list 1J5pXtNHc4mB3SXJNIkbOJRf6OHx-ToGfELj3XZoaHl8`.
-- `/api/inquiries` (now): our server, which checks the fields, turns away a message with a link when no
-  need is ticked (422, asking to tick one, so a person can still send it), and catches bots with two traps
-  people leave empty: `company`, moved off-screen (the real company field is `organization`), and a hidden
-  `website`. A trapped inquiry gets the usual reply and is stored with `spam` set but not emailed, in case
-  autofill filled a trap for a person. The server allows
+- `/api/inquiries` (now): our server, which checks the fields, drops bots (a hidden `website` field), turns
+  away a message with a link when no need is ticked (422, asking to tick one, so a person can still send it),
+  checks the form's Cloudflare Turnstile token (see below), allows
   5 inquiries per IP address per 10 minutes, and stores them in the `inquiries` table. Read them with
-  `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, spam, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
+  `ssh ricardosawir1 "sudo -u postgres psql sawirstudio -c 'select created_at, name, email, company, needs, message from inquiries order by created_at desc limit 20'"`.
 
 Each new inquiry is also emailed to `NOTIFY_TO` (one address, or several separated by commas), with
 Reply-To set to the inquirer, so replying answers
@@ -140,6 +138,15 @@ with Lark), and a routing domain may send to the account's verified destination 
 `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_EMAIL_TOKEN` (an account API token with Email Sending permission).
 Without `NOTIFY_FROM` and `NOTIFY_TO` and one of those, the server stores inquiries and logs that emails are off.
 `notified_at` records when an email went out; at start the server sends any from the last week that didn't.
+
+Cloudflare Turnstile: the widget "sawirstudio.com contact form" (Cloudflare account
+86f68a8538a53cfcfdafb6f89f9c57d1, domain sawirstudio.com) has its site key in `content/site.yaml`
+(`turnstile_sitekey`) and its secret as `TURNSTILE_SECRET` in `/etc/sawirstudio/env`. The server sends the
+form's `cf-turnstile-response` to Cloudflare's siteverify; a missing or rejected token gets a 422 asking to
+wait for the check or reload. If Cloudflare doesn't answer (or says our secret is wrong) the inquiry is
+taken anyway and the error logged. Without `TURNSTILE_SECRET` there's no check. The form needs JavaScript
+for the widget, so without it inquiries can't pass. For local testing use Cloudflare's test keys
+(site key `1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`, always pass).
 
 After changing it, run `make site` (every language's contact page changes) and deploy.
 
