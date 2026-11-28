@@ -41,7 +41,7 @@ description: フォワードデプロイドエンジニアのレンタルサー�
 
 以前から実践してきた働き方です
 
-「フォワードデプロイド」は新しい呼び名ですが、私は何年も前からこの形で働いてきました。2019 年から PeopleBond のチームと共に、同社の人事プラットフォームのリード開発者を務めています。また、Vivaldy Skin Clinic を運営する Viva Estemedika Indonesia では、IT 責任者を務めています。本当に役立つソフトウェアは、チームの中でこそ生まれます。
+「フォワードデプロイ」は呼び名こそ新しいものの、私が何年も続けてきた働き方です。2019 年からは、PeopleBond の人事プラットフォームでリード開発者を務め、同社のチームと一緒に開発しています。Vivaldy Skin Clinic には[ウェブサイト](https://sawirstudio.com/ja/projects/vivaldy-skin-clinic-website/)と[クリニックシステムおよび患者向けアプリ](https://sawirstudio.com/ja/projects/myvivaldy/)を構築し、Viva Estemedika Indonesia では IT 責任者として社内で働いています。本当に役立つソフトウェアは、チームの中に入ってこそ生まれます。
 
 [Ricardo Sawir](https://sawirstudio.com/ja/ricardosawir/)（創業者）
 

@@ -41,7 +41,7 @@ A forward deployed engineer works where the problem is: in your tools, your data
 
 Not new to us
 
-Forward deployed is a new name for how I've worked for years. I've been the lead developer on PeopleBond's HR platform with their team since 2019, and I'm Head of IT at Viva Estemedika Indonesia, the company behind Vivaldy Skin Clinic. Inside the team is where the useful software gets built.
+Forward deployed is a new name for how I've worked for years. I've been the lead developer on PeopleBond's HR platform with their team since 2019. For Vivaldy Skin Clinic we built the [website](https://sawirstudio.com/projects/vivaldy-skin-clinic-website/) and the [clinic system and patient app](https://sawirstudio.com/projects/myvivaldy/), and I work inside the company as Head of IT at Viva Estemedika Indonesia. Inside the team is where the useful software gets built.
 
 [Ricardo Sawir](https://sawirstudio.com/ricardosawir/), founder
 

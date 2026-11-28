@@ -41,7 +41,7 @@ Un Forward Deployed Engineer travaille là où se trouve le problème : dans vos
 
 Une pratique que nous connaissons bien
 
-« Forward deployed » est un nouveau nom pour une façon de travailler qui est la mienne depuis des années. Je suis le développeur principal de la plateforme RH de PeopleBond, aux côtés de leur équipe, depuis 2019, et je suis responsable informatique chez Viva Estemedika Indonesia, la société à l’origine de Vivaldy Skin Clinic. C’est au sein de l’équipe que naissent les logiciels utiles.
+Le « forward deployed » est un nouveau nom pour ma façon de travailler depuis des années. Je suis le développeur principal de la plateforme RH de PeopleBond, aux côtés de son équipe, depuis 2019. Pour Vivaldy Skin Clinic, nous avons réalisé le [site web](https://sawirstudio.com/fr/projects/vivaldy-skin-clinic-website/) ainsi que le [système de gestion de la clinique et l’application patients](https://sawirstudio.com/fr/projects/myvivaldy/), et je travaille au sein même de l’entreprise en tant que responsable informatique chez Viva Estemedika Indonesia. C’est au cœur de l’équipe que se construisent les logiciels vraiment utiles.
 
 [Ricardo Sawir](https://sawirstudio.com/fr/ricardosawir/), fondateur
 

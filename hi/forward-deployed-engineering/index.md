@@ -41,7 +41,7 @@ description: किराए पर फ़ॉरवर्ड डिप्लॉ�
 
 यह काम हमारे लिए नया नहीं है
 
-फ़ॉरवर्ड डिप्लॉयड नाम भले नया हो, पर काम करने का यह तरीका मेरे लिए बरसों पुराना है। 2019 से PeopleBond के HR प्लेटफ़ॉर्म पर उनकी टीम के साथ लीड डेवलपर की भूमिका मेरे पास है, और Vivaldy Skin Clinic को चलाने वाली कंपनी Viva Estemedika Indonesia में Head of IT की ज़िम्मेदारी भी। काम का सॉफ़्टवेयर टीम के अंदर रहकर ही बनता है।
+Forward deployed उस काम का नया नाम है जो मैं सालों से करता आ रहा हूँ। मैं 2019 से PeopleBond के HR प्लेटफ़ॉर्म पर उनकी टीम के साथ लीड डेवलपर के तौर पर काम कर रहा हूँ। Vivaldy Skin Clinic के लिए हमने [वेबसाइट](https://sawirstudio.com/hi/projects/vivaldy-skin-clinic-website/) और [क्लिनिक सिस्टम और पेशेंट ऐप](https://sawirstudio.com/hi/projects/myvivaldy/) बनाए, और Viva Estemedika Indonesia में मैं Head of IT के तौर पर कंपनी के अंदर रहकर काम करता हूँ। काम का सॉफ़्टवेयर टीम के अंदर रहकर ही बनता है।
 
 [Ricardo Sawir](https://sawirstudio.com/hi/ricardosawir/), संस्थापक
 

@@ -41,7 +41,7 @@ Een forward deployed engineer werkt daar waar het probleem zit: in je tools, je 
 
 Niet nieuw voor ons
 
-Forward deployed is een nieuwe naam voor hoe ik al jaren werk. Sinds 2019 ben ik lead developer van het HR-platform van PeopleBond, samen met hun team, en ik ben Head of IT bij Viva Estemedika Indonesia, het bedrijf achter Vivaldy Skin Clinic. Nuttige software ontstaat binnen het team.
+Forward deployed is een nieuwe naam voor hoe ik al jaren werk. Sinds 2019 ben ik lead developer van het HR-platform van PeopleBond, samen met hun team. Voor Vivaldy Skin Clinic bouwden we de [website](https://sawirstudio.com/nl/projects/vivaldy-skin-clinic-website/) en het [kliniekensysteem en de patiëntenapp](https://sawirstudio.com/nl/projects/myvivaldy/), en bij Viva Estemedika Indonesia werk ik binnen het bedrijf als Head of IT. Binnen het team wordt de software gebouwd waar je echt iets aan hebt.
 
 [Ricardo Sawir](https://sawirstudio.com/nl/ricardosawir/), oprichter
 

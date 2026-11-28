@@ -41,7 +41,7 @@ description: استعينوا بمهندس ميداني مدمج: نعمل ضم�
 
 ليس هذا جديداً علينا
 
-«الهندسة الميدانية المدمجة» اسم جديد لطريقة أعمل بها منذ سنوات. فأنا المطور الرئيسي لمنصة الموارد البشرية لدى PeopleBond، أعمل مع فريقهم منذ 2019، وأشغل منصب رئيس قسم تقنية المعلومات في Viva Estemedika Indonesia، الشركة المالكة لعيادة Vivaldy Skin Clinic. فالبرمجيات المفيدة تُبنى من داخل الفريق.
+«العمل الميداني مع العملاء» (Forward deployed) اسم جديد لأسلوب أعمل به منذ سنوات. أتولى منذ عام 2019 قيادة تطوير منصة الموارد البشرية لدى PeopleBond، بالعمل مع فريقها. ولعيادة Vivaldy Skin Clinic بنينا [الموقع الإلكتروني](https://sawirstudio.com/ar/projects/vivaldy-skin-clinic-website/) و[نظام العيادة وتطبيق المرضى](https://sawirstudio.com/ar/projects/myvivaldy/)، كما أعمل من داخل شركة Viva Estemedika Indonesia بصفتي رئيس قسم تقنية المعلومات فيها. فالبرمجيات المفيدة تُبنى من داخل الفريق.
 
 [Ricardo Sawir](https://sawirstudio.com/ar/ricardosawir/)، المؤسس
 

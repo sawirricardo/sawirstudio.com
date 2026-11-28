@@ -41,7 +41,7 @@ description: Инженер Forward Deployed на нужный вам срок: 
 
 Для нас это не в новинку
 
-Forward Deployed — новое название того, как я работаю уже много лет. С 2019 года я ведущий разработчик HR-платформы PeopleBond и работаю вместе с командой компании. Кроме того, я руковожу IT-направлением в Viva Estemedika Indonesia, компании, которой принадлежит Vivaldy Skin Clinic. Именно внутри команды создаются по-настоящему полезные программы.
+Forward deployed — новое название того, как я работаю уже много лет. С 2019 года я ведущий разработчик HR-платформы PeopleBond и работаю вместе с их командой. Для Vivaldy Skin Clinic мы создали [сайт](https://sawirstudio.com/ru/projects/vivaldy-skin-clinic-website/), а также [систему для клиники и приложение для пациентов](https://sawirstudio.com/ru/projects/myvivaldy/), а в Viva Estemedika Indonesia я работаю внутри компании как Head of IT. Именно внутри команды и создаются полезные программы.
 
 [Ricardo Sawir](https://sawirstudio.com/ru/ricardosawir/), основатель
 

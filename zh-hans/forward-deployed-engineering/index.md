@@ -41,7 +41,7 @@ description: 租用一位前线部署工程师：我们融入您的团队，使�
 
 这对我们并不陌生
 
-“前线部署”是个新名称，但我多年来一直是这样工作的。自 2019 年起，我就与 PeopleBond 团队一起工作，担任其 HR 平台的首席开发者；我也是 Viva Estemedika Indonesia 的 IT 负责人，这家公司旗下拥有 Vivaldy Skin Clinic。身在团队之中，才能做出真正有用的软件。
+“前线部署”是个新名称，但这正是我多年来的工作方式。自 2019 年起，我一直担任 PeopleBond 人力资源平台的首席开发者，与他们的团队并肩工作。我们为 Vivaldy Skin Clinic 打造了[网站](https://sawirstudio.com/zh-hans/projects/vivaldy-skin-clinic-website/)以及[诊所系统和患者应用](https://sawirstudio.com/zh-hans/projects/myvivaldy/)；在 Viva Estemedika Indonesia，我则以 IT 负责人的身份在公司内部工作。真正有用的软件，是在团队内部做出来的。
 
 [Ricardo Sawir](https://sawirstudio.com/zh-hans/ricardosawir/)，创始人
 
