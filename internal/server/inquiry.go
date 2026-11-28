@@ -130,7 +130,23 @@ func (in inquiryInput) validate() error {
 			return errors.New("Please pick from the listed choices.")
 		}
 	}
+	if in.looksLikeSpam() {
+		return errSpam
+	}
 	return nil
+}
+
+// errSpam is the reply to an inquiry that looks like spam, worded so a person can still send it.
+var errSpam = errors.New("Please tick what you need help with, so we know this isn't spam.")
+
+// looksLikeSpam is true for a message with a link when no need is ticked: the spam the form
+// gets is a pitch with a link and the checkboxes left alone.
+func (in inquiryInput) looksLikeSpam() bool {
+	if len(in.Needs) > 0 {
+		return false
+	}
+	m := strings.ToLower(in.Message)
+	return strings.Contains(m, "http://") || strings.Contains(m, "https://") || strings.Contains(m, "www.")
 }
 
 // inquiryHandler is POST /api/inquiries, from the contact form. With JavaScript the form sends
@@ -171,6 +187,9 @@ func inquiryHandler(cfg Config) http.Handler {
 			Needs:   r.PostForm["need"],
 		}
 		if err := in.validate(); err != nil {
+			if errors.Is(err, errSpam) {
+				cfg.Log.Info("inquiry looks like spam", "email", in.Email)
+			}
 			reply(http.StatusUnprocessableEntity, err.Error())
 			return
 		}

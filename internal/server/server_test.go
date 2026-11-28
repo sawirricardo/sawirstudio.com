@@ -208,28 +208,38 @@ func TestInquiries(t *testing.T) {
 		t.Errorf("unknown need: %d", rec.Code)
 	}
 
+	spam := url.Values{"name": {"EdwardBot"}, "email": {"e@b.co"}, "company": {"google"},
+		"message": {"EARN $50,000,000 PER MONTH https://telegra.ph/x"}}
+	if rec := post(spam, "application/json"); rec.Code != 422 || !strings.Contains(rec.Body.String(), "tick what you need") {
+		t.Errorf("link without needs: %d %s, want 422", rec.Code, rec.Body)
+	}
+	spam["need"] = []string{"Website"}
+	if rec := post(spam, "application/json"); rec.Code != 201 {
+		t.Errorf("link with a need ticked: %d %s, want 201", rec.Code, rec.Body)
+	}
+
 	bot := url.Values{"name": {"Bot"}, "email": {"b@b.co"}, "message": {"buy"}, "website": {"http://spam"}}
 	if rec := post(bot, "application/json"); rec.Code != 200 {
 		t.Errorf("honeypot: %d, want a quiet 200", rec.Code)
 	}
 
 	inq.Wait()
-	if len(mail.sent) != 2 {
-		t.Errorf("%d emails, want 2 (none for bots or invalid inquiries)", len(mail.sent))
+	if len(mail.sent) != 3 {
+		t.Errorf("%d emails, want 3 (none for bots, spam or invalid inquiries)", len(mail.sent))
 	}
 	// An inquiry whose email didn't go out is sent at the next start.
 	pool.Exec(ctx, "update inquiries set notified_at = null where email = 'ana@example.com' and id = (select min(id) from inquiries)")
 	inq.SendPending(ctx, slog.New(slog.DiscardHandler))
 	inq.Wait()
-	if len(mail.sent) != 3 {
-		t.Errorf("%d emails after SendPending, want 3", len(mail.sent))
+	if len(mail.sent) != 4 {
+		t.Errorf("%d emails after SendPending, want 4", len(mail.sent))
 	}
-	mail.sent = mail.sent[:2]
+	mail.sent = mail.sent[:3]
 
 	var n int
 	pool.QueryRow(ctx, "select count(*) from inquiries").Scan(&n)
-	if n != 2 {
-		t.Errorf("%d inquiries stored, want 2 (bot and invalid ones dropped)", n)
+	if n != 3 {
+		t.Errorf("%d inquiries stored, want 3 (bot, spam and invalid ones dropped)", n)
 	}
 
 	// The same address can send rateLimit inquiries per window.
