@@ -40,6 +40,6 @@ AI の登場で、ソフトウェアを導入することと、そこから価�
 
 ## できること
 
-これは、私たちが何年も続けてきたお客様との仕事の進め方です。当社の創業者は 2019 年から、[PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/) の人事プラットフォームでリード開発者を務め、同社のチームとともに開発してきました。現在はこれを、[フォワード・デプロイド・エンジニアリング](https://sawirstudio.com/ja/forward-deployed-engineering/)という単独のサービスとして提供しています。お客様のシステムで AI を活用できるようにし、すでにお使いのツール同士を連携させます。私たちがお客様のチームに入って作業する日数に対して、料金はかかりません。何がどう変わるのか、そしてそれに対する一括の料金を、開始前に取り決めます。まさにこれが足りないと感じたら、[どこで行き詰まっているかをお聞かせください](https://sawirstudio.com/ja/contact/)。
+これは、私たちが何年も前から続けてきたお客様との仕事の進め方です。当スタジオの創業者は 2019 年から、[PeopleBond](https://sawirstudio.com/ja/projects/peoplebond-hcms-application/) の人事プラットフォームのリード開発者として、同社のチームとともに開発に携わっています。現在はこれを単独のサービス「[フォワードデプロイドエンジニアリング](https://sawirstudio.com/ja/forward-deployed-engineering/)」として提供しています。お客様のシステムで AI を活用できるようにし、すでにお使いのツール同士を連携させるサービスです。私たちがお客様のチームに入って作業する日数に対して、料金はかかりません。まずは固定料金の短期調査で業務の状況を確認します。その後、確認しやすい小さな単位に区切った成果ごとに、開発に着手する前に価格を決めます。こうしたサポートが必要だと感じたら、[お困りのことをお聞かせください](https://sawirstudio.com/ja/contact/)。
 
 **あわせて読みたい：** [当社のサイトを AI エージェントに対応させた方法](https://sawirstudio.com/ja/posts/making-our-sites-agent-ready/)。必要なものがすでに決まっている場合は、[カスタムソフトウェア開発](https://sawirstudio.com/ja/custom/)をご覧ください。

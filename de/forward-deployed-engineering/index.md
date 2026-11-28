@@ -1,7 +1,7 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/de/forward-deployed-engineering/
-description: Ein Forward Deployed Engineer in Ihrem Team, mit ergebnisbezogenem Preis: Vor dem Start vereinbaren wir, was sich ändert, und einen Preis. Dann setzen wir KI in Ihren Systemen ein und verbinden, was Sie bereits nutzen.
+description: Ein Forward Deployed Engineer in Ihrem Team, bezahlt nach Ergebnis: zuerst ein kurzer Blick auf Ihre Arbeit zum Festpreis, dann für jedes Ergebnis ein Preis, bevor wir es umsetzen. So bringen wir KI in Ihren Systemen zum Einsatz und verbinden, was Sie bereits nutzen.
 ---
 
 neu: Forward Deployed Engineers
@@ -29,9 +29,9 @@ Ein Forward Deployed Engineer arbeitet dort, wo das Problem liegt: in Ihren Tool
 
 ## Der Preis richtet sich nach dem, was sich ändert
 
-1. ### Zuerst das Ergebnis vereinbaren.
+1. ### Am Anfang steht ein kurzer Blick auf Ihre Arbeit.
 
-   Bevor wir anfangen, halten wir in Ihren Worten schriftlich fest, was anders sein wird: Bestellungen, die ohne erneutes Abtippen in der Buchhaltung landen, Freigaben, die nicht mehr über den Gruppenchat laufen, der Montagsbericht, den niemand mehr neu zusammenbauen muss. Dann vereinbaren wir dafür einen Preis.
+   Los geht es mit unserem [Audit der Routinearbeit](https://sawirstudio.com/de/#fixed-price) zum Festpreis. Wir setzen uns mit Ihrem Team zusammen und halten fest, was anders laufen soll, in Schritten, die klein genug sind, um sie zu überprüfen: Bestellungen, die ohne erneutes Abtippen in der Buchhaltung landen, Freigaben, die nicht mehr über die Chatgruppe laufen, der Montagsbericht, den niemand mehr neu zusammenstellen muss. Jeder Schritt bekommt einen Preis, bevor wir damit beginnen.
 2. ### In Ihrem Team arbeiten.
 
    Wir kommen in Ihren Chat, Ihre Repositorys und Ihre Meetings, lernen, wie die Arbeit wirklich abläuft, und geben Ihren Mitarbeitenden innerhalb weniger Wochen etwas Funktionierendes an die Hand. Viele erste Entwürfe schreibt die KI; ein Mensch liest und testet jede Zeile und steht dafür gerade.
@@ -54,8 +54,6 @@ In der Regel ja, wenn:
 - **Sie wissen, was sich ändern muss, aber nicht, was gebaut werden soll.** Das gemeinsam mit Ihrem Team herauszufinden, gehört zur Aufgabe.
 
 Das passt nicht, wenn Sie bereits genau wissen, was gebaut werden soll. Dann ist ein Projekt für [individuelle Software](https://sawirstudio.com/de/custom/) mit vorab festgelegten Anforderungen der schnellere Weg. Und wenn Sie die Rolle dauerhaft brauchen, stellen Sie dafür jemanden ein. Wir helfen Ihnen, die Stellenbeschreibung zu schreiben.
-
-Sie wissen nicht, wo Sie anfangen sollen? Das [Audit für Routinearbeit](https://sawirstudio.com/de/#fixed-price) ist ein erstes Ergebnis zum Festpreis: Wir setzen uns mit Ihrem Team zusammen, finden die wiederkehrenden Aufgaben, die KI übernehmen kann, und lösen die erste davon.
 
 Sagen Sie uns, wo es hakt.
 

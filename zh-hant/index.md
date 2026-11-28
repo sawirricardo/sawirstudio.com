@@ -58,7 +58,7 @@ AI 參與其中，每個決定仍由人負責。[我們的理念 →](https://sa
   例如 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/)。查看[客製化軟體](https://sawirstudio.com/zh-hant/custom/)
 - ### 前線部署工程師
 
-  讓卡住的工作動起來。由一位工程師加入您的團隊，把 AI 導入您的系統實際運用，並串接您現有的工具。依帶來的改變計價，而不是花費的天數。
+  讓卡關的工作開始往前推進。一位工程師加入您的團隊，讓 AI 在您的系統中發揮作用，並串接您現有的工具。我們會先以固定價格做一次簡短的工作評估，之後每項成果各有一個價格。
 
   看看[合作方式](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)
 - ### App

@@ -58,7 +58,7 @@ Trusted by
   Like [PeopleBond](https://sawirstudio.com/projects/peoplebond-hcms-application/). See [custom software](https://sawirstudio.com/custom/)
 - ### Forward deployed engineers
 
-  The work that's stuck starts moving. An engineer inside your team puts AI to work in your systems and connects what you already run, priced by what changes rather than the days spent.
+  The work that's stuck starts moving. An engineer inside your team puts AI to work in your systems and connects what you already run. It starts with a short fixed-price look at the work, then one price for each result.
 
   See [how it works](https://sawirstudio.com/forward-deployed-engineering/)
 - ### Apps

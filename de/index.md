@@ -58,7 +58,7 @@ Unsere Kunden
   Zum Beispiel [PeopleBond](https://sawirstudio.com/de/projects/peoplebond-hcms-application/). Mehr zu [individueller Software](https://sawirstudio.com/de/custom/)
 - ### Forward Deployed Engineers
 
-  Liegengebliebene Arbeit kommt wieder in Gang. Ein Entwickler in Ihrem Team setzt KI in Ihren Systemen ein und verbindet, was Sie bereits nutzen. Der Preis richtet sich danach, was sich verändert, nicht nach den aufgewendeten Tagen.
+  Liegengebliebene Arbeit kommt in Bewegung. Ein Entwickler in Ihrem Team setzt KI in Ihren Systemen ein und verbindet, was Sie bereits nutzen. Am Anfang steht eine kurze Analyse der Arbeit zum Festpreis, danach gilt ein Preis für jedes Ergebnis.
 
   So [funktioniert es](https://sawirstudio.com/de/forward-deployed-engineering/)
 - ### Apps

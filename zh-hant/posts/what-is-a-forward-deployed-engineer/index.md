@@ -40,6 +40,6 @@ AI 讓「買到軟體」和「從中獲得價值」之間的落差變得非常�
 
 ## 我們的服務
 
-多年來，我們一直是這樣與客戶合作的。我們的創辦人自 2019 年起擔任 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/) 人資平台的首席開發人員，與他們的團隊一起工作。現在，我們把它列為一項獨立服務：[前線部署工程（forward deployed engineering）](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)，讓 AI 在您的系統中發揮作用，並串接您現有的工具。我們進駐您團隊的天數不另外計費。開始之前，我們會先和您談定要改變什麼，以及這項改變的單一價格。如果這正是您所缺的，[告訴我們哪裡卡住了](https://sawirstudio.com/zh-hant/contact/)。
+多年來，我們一直是這樣與客戶合作的。我們的創辦人自 2019 年起擔任 [PeopleBond](https://sawirstudio.com/zh-hant/projects/peoplebond-hcms-application/) 人資平台的主要開發者，與他們的團隊並肩合作。現在，我們將它列為一項獨立服務：[前線部署工程](https://sawirstudio.com/zh-hant/forward-deployed-engineering/)，讓 AI 在您的系統中發揮作用，並串接您現有的工具。我們投入您團隊的天數，您不需要付費。我們會先以固定價格簡短評估工作內容，接著在動手開發之前，為每一項成果報價，而且每項成果的規模都小到方便您驗收。如果這正是您所欠缺的，[告訴我們您卡在哪裡](https://sawirstudio.com/zh-hant/contact/)。
 
 **延伸閱讀：** [我們如何讓自家網站做好迎接 AI 代理的準備](https://sawirstudio.com/zh-hant/posts/making-our-sites-agent-ready/)；如果您已經知道自己需要什麼，請參考[客製化軟體](https://sawirstudio.com/zh-hant/custom/)。

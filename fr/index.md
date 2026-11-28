@@ -58,7 +58,7 @@ Ils nous font confiance
   Par exemple [PeopleBond](https://sawirstudio.com/fr/projects/peoplebond-hcms-application/). Découvrez nos [logiciels sur mesure](https://sawirstudio.com/fr/custom/)
 - ### Ingénieurs déployés chez vous
 
-  Le travail bloqué avance enfin. Un ingénieur intégré à votre équipe met l’IA au travail dans vos systèmes et connecte les outils que vous utilisez déjà, à un tarif fondé sur ce qui change plutôt que sur les jours passés.
+  Le travail bloqué recommence à avancer. Un ingénieur intégré à votre équipe met l'IA au travail dans vos systèmes et connecte les outils que vous utilisez déjà. Tout commence par un court examen du travail à prix fixe, puis chaque résultat a son prix.
 
   Découvrez [comment ça fonctionne](https://sawirstudio.com/fr/forward-deployed-engineering/)
 - ### Applications

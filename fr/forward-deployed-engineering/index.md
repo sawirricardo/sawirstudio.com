@@ -1,7 +1,7 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/fr/forward-deployed-engineering/
-description: Un forward deployed engineer au sein de votre équipe, avec un prix fondé sur le résultat : nous convenons de ce qui change et d’un prix unique avant de commencer, puis nous mettons l’IA au travail dans vos systèmes et connectons les outils que vous utilisez déjà.
+description: Un ingénieur déployé au sein de votre équipe (« forward deployed engineer »), avec un prix fixé selon le résultat : un rapide examen de votre travail à prix fixe, puis un prix pour chaque résultat avant sa réalisation, pour mettre l’IA au travail dans vos systèmes et connecter les outils que vous utilisez déjà.
 ---
 
 nouveau : les Forward Deployed Engineers
@@ -29,9 +29,9 @@ Un forward deployed engineer travaille là où se trouve le problème : dans vos
 
 ## Un prix fondé sur ce qui change
 
-1. ### D’abord, convenir du résultat.
+1. ### Commencez par un rapide tour d’horizon de votre travail.
 
-   Avant de commencer, nous écrivons ce qui sera différent, avec vos mots : des commandes qui arrivent en comptabilité sans ressaisie, des validations qui ne passent plus par la messagerie de groupe, le rapport du lundi que personne n’a plus à reconstituer. Puis nous convenons d’un prix unique pour ce résultat.
+   Tout commence par notre [audit des tâches répétitives](https://sawirstudio.com/fr/#fixed-price) à prix fixe. Nous nous asseyons avec votre équipe et notons ce qui devrait changer, en éléments assez petits pour être vérifiés : des commandes qui arrivent en comptabilité sans ressaisie, des validations qui sortent du groupe de discussion, le rapport du lundi que personne n’a plus à reconstituer. Chaque élément reçoit un prix unique avant que nous le commencions.
 2. ### Faire le travail au sein de votre équipe.
 
    Nous rejoignons votre messagerie, vos dépôts de code et vos réunions, nous apprenons comment le travail se fait réellement, et en quelques semaines nous mettons entre les mains de votre équipe quelque chose qui fonctionne. L’IA rédige une grande partie des premières versions ; une personne relit, teste et répond de chaque ligne.
@@ -54,8 +54,6 @@ C’est généralement le cas lorsque :
 - **Vous savez ce qui doit changer, mais pas ce qu’il faut développer.** Le déterminer au sein de votre équipe fait partie du travail.
 
 Ce n’est pas le cas lorsque vous savez déjà exactement ce qu’il faut développer ; un projet de [logiciel sur mesure](https://sawirstudio.com/fr/custom/), spécifié dès le départ, est alors la voie la plus rapide. Et si vous avez besoin de ce rôle en permanence, recrutez. Nous vous aiderons à rédiger la fiche de poste.
-
-Vous ne savez pas par où commencer ? L’[audit des tâches répétitives](https://sawirstudio.com/fr/#fixed-price) est un premier résultat à prix fixe : nous nous installons avec votre équipe, repérons les tâches répétitives que l’IA peut prendre en charge et réglons la première.
 
 Dites-nous ce qui bloque.
 

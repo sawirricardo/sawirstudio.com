@@ -58,7 +58,7 @@ Vertrouwd door
   Zoals [PeopleBond](https://sawirstudio.com/nl/projects/peoplebond-hcms-application/). Bekijk [software op maat](https://sawirstudio.com/nl/custom/)
 - ### Forward deployed engineers
 
-  Werk dat vastzit, komt weer op gang. Een engineer in je team zet AI aan het werk in je systemen en koppelt wat je al gebruikt. De prijs hangt af van wat er verandert, niet van het aantal gewerkte dagen.
+  Werk dat vastzit, komt weer op gang. Een engineer in je team zet AI aan het werk in je systemen en koppelt wat je al gebruikt. Het begint met een korte blik op het werk voor een vaste prijs, daarna één prijs per resultaat.
 
   Bekijk [hoe het werkt](https://sawirstudio.com/nl/forward-deployed-engineering/)
 - ### Apps

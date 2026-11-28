@@ -58,7 +58,7 @@ Si affidano a noi
   Per esempio [PeopleBond](https://sawirstudio.com/it/projects/peoplebond-hcms-application/). Scoprite il [software su misura](https://sawirstudio.com/it/custom/)
 - ### Forward deployed engineer
 
-  Il lavoro bloccato riparte. Un ingegnere inserito nel vostro team mette l’AI al lavoro nei vostri sistemi e collega gli strumenti che già usate, con un prezzo basato su ciò che cambia anziché sui giorni impiegati.
+  Il lavoro che è fermo riparte. Un ingegnere all'interno del vostro team mette l'AI al lavoro nei vostri sistemi e collega ciò che già utilizzate. Si parte con una breve analisi del lavoro a prezzo fisso, poi un prezzo per ogni risultato.
 
   Scoprite [come funziona](https://sawirstudio.com/it/forward-deployed-engineering/)
 - ### App

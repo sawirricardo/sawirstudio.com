@@ -1,7 +1,7 @@
 ---
 title: Forward Deployed Engineers | Sawir Studio
 url: https://sawirstudio.com/forward-deployed-engineering/
-description: A forward deployed engineer inside your team, priced by the outcome: we agree what changes and one price before we start, then put AI to work in your systems and connect what you already run.
+description: A forward deployed engineer inside your team, priced by the outcome: a short fixed-price look at the work, then one price for each result before we build it, putting AI to work in your systems and connecting what you already run.
 ---
 
 new: forward deployed engineers
@@ -29,9 +29,9 @@ A forward deployed engineer works where the problem is: in your tools, your data
 
 ## Priced by what changes
 
-1. ### Agree the outcome first.
+1. ### Start with a short look at the work.
 
-   Before we start, we write down what will be different, in your words: orders that reach the books without retyping, approvals that leave the chat group, the Monday report nobody has to rebuild. Then we agree one price for it.
+   It starts with our fixed-price [busywork audit](https://sawirstudio.com/#fixed-price). We sit with your team and write down what should be different, in pieces small enough to check: orders that reach the books without retyping, approvals that leave the chat group, the Monday report nobody has to rebuild. Each piece gets one price before we start it.
 2. ### Do the work inside your team.
 
    We join your chat, your repositories and your meetings, learn how the work really happens, and put something working in front of your people within weeks. AI writes a lot of the first drafts; a person reads, tests and answers for every line.
@@ -54,8 +54,6 @@ It usually is when:
 - **You know what has to change, but not what to build.** Working that out inside your team is part of the job.
 
 It isn't when you already know exactly what to build; then a [custom software](https://sawirstudio.com/custom/) project, specified up front, is the quicker way. And if you'll need the role forever, hire for it. We'll help you write the job description.
-
-Not sure where to start? The [busywork audit](https://sawirstudio.com/#fixed-price) is a fixed-price first outcome: we sit with your team, find the repetitive work AI can take over, and fix the first one.
 
 Tell us what's stuck.
 

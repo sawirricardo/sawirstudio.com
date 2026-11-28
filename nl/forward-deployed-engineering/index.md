@@ -1,7 +1,7 @@
 ---
 title: Forward deployed engineers | Sawir Studio
 url: https://sawirstudio.com/nl/forward-deployed-engineering/
-description: Een forward deployed engineer binnen je team, geprijsd op resultaat: we spreken vóór de start af wat er verandert en voor welke prijs, zetten dan AI aan het werk in je systemen en koppelen wat je al gebruikt.
+description: Een forward deployed engineer in je team, met een prijs per resultaat: eerst een korte blik op het werk voor een vaste prijs, daarna één prijs voor elk resultaat voordat we het bouwen. Zo zetten we AI aan het werk in je systemen en koppelen we wat je al gebruikt.
 ---
 
 nieuw: forward deployed engineers
@@ -29,9 +29,9 @@ Een forward deployed engineer werkt waar het probleem zit: in je tools, je data 
 
 ## Geprijsd op wat er verandert
 
-1. ### Eerst het resultaat afspreken.
+1. ### Begin met een korte blik op het werk.
 
-   Voordat we beginnen, schrijven we in jouw woorden op wat er anders wordt: bestellingen die in de boekhouding komen zonder overtypen, goedkeuringen die niet meer via de groepschat lopen, het maandagrapport dat niemand meer opnieuw hoeft op te bouwen. Daarna spreken we er één prijs voor af.
+   Het begint met onze [busywork-audit](https://sawirstudio.com/nl/#fixed-price) voor een vaste prijs. We gaan met je team zitten en schrijven op wat er anders moet, in stukken die klein genoeg zijn om te controleren: bestellingen die in de boekhouding terechtkomen zonder overtypen, goedkeuringen die niet meer via de groepschat lopen, het maandagrapport dat niemand opnieuw hoeft op te bouwen. Elk stuk krijgt één prijs voordat we eraan beginnen.
 2. ### Het werk doen binnen je team.
 
    We sluiten aan bij je chat, je repositories en je meetings, leren hoe het werk echt gaat en zetten binnen een paar weken iets werkends voor je mensen neer. AI schrijft veel van de eerste versies; een mens leest, test en staat in voor elke regel.
@@ -54,8 +54,6 @@ Meestal wel als:
 - **Je weet wat er moet veranderen, maar niet wat je moet bouwen.** Dat uitzoeken binnen je team hoort bij het werk.
 
 Het is niet de juiste keuze als je al precies weet wat er gebouwd moet worden; dan is een project voor [software op maat](https://sawirstudio.com/nl/custom/), vooraf gespecificeerd, de snellere weg. En als je de rol voor altijd nodig hebt, neem er dan iemand voor aan. We helpen je met de vacaturetekst.
-
-Weet je niet waar je moet beginnen? De [busywork-audit](https://sawirstudio.com/nl/#fixed-price) is een eerste resultaat tegen een vaste prijs: we gaan met je team zitten, zoeken het repetitieve werk dat AI kan overnemen en pakken het eerste aan.
 
 Vertel ons wat er vastloopt.
 

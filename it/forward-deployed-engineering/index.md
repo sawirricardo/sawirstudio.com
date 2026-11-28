@@ -1,7 +1,7 @@
 ---
 title: Forward Deployed Engineer | Sawir Studio
 url: https://sawirstudio.com/it/forward-deployed-engineering/
-description: Un forward deployed engineer nel vostro team, con un prezzo legato al risultato: prima di iniziare concordiamo che cosa cambia e un unico prezzo, poi mettiamo l’AI al lavoro nei vostri sistemi e colleghiamo quelli che già usate.
+description: Un forward deployed engineer all’interno del vostro team, con un prezzo legato al risultato: una breve analisi del lavoro a prezzo fisso, poi un prezzo per ogni risultato, definito prima di realizzarlo, per mettere l’AI al lavoro nei vostri sistemi e collegare quelli che già usate.
 ---
 
 novità: forward deployed engineer
@@ -29,9 +29,9 @@ Un forward deployed engineer lavora dove si trova il problema: nei vostri strume
 
 ## Il prezzo dipende da ciò che cambia
 
-1. ### Prima si concorda il risultato.
+1. ### Si comincia con una breve analisi del lavoro.
 
-   Prima di iniziare, mettiamo per iscritto che cosa cambierà, con parole vostre: ordini che arrivano in contabilità senza essere ridigitati, approvazioni che non passano più dalla chat di gruppo, il report del lunedì che nessuno deve più rifare da capo. Poi concordiamo un unico prezzo per questo risultato.
+   Si parte dalla nostra [analisi delle attività ripetitive](https://sawirstudio.com/it/#fixed-price) a prezzo fisso. Ci sediamo con il vostro team e mettiamo per iscritto cosa dovrebbe cambiare, in parti abbastanza piccole da poter essere verificate: ordini che arrivano in contabilità senza essere ridigitati, approvazioni che non passano più dalla chat di gruppo, il report del lunedì che nessuno deve più rifare da capo. Ogni parte ha un suo prezzo, definito prima di iniziare.
 2. ### Si lavora all’interno del vostro team.
 
    Entriamo nella vostra chat, nei vostri repository e nelle vostre riunioni, impariamo come si svolge davvero il lavoro e nel giro di poche settimane mettiamo in mano al vostro personale qualcosa che funziona. L’AI scrive molte delle prime bozze; una persona legge, testa e risponde di ogni riga.
@@ -54,8 +54,6 @@ Di solito sì, quando:
 - **Sapete che cosa deve cambiare, ma non che cosa realizzare.** Capirlo lavorando all’interno del vostro team fa parte dell’incarico.
 
 Non è la soluzione adatta se sapete già esattamente che cosa realizzare: in questo caso un progetto di [software su misura](https://sawirstudio.com/it/custom/), con specifiche definite in anticipo, è la strada più rapida. E se questo ruolo vi servirà per sempre, assumete qualcuno. Vi aiuteremo a scrivere l’annuncio di lavoro.
-
-Non sapete da dove cominciare? L’[analisi delle attività ripetitive](https://sawirstudio.com/it/#fixed-price) è un primo risultato a prezzo fisso: ci sediamo con il vostro team, individuiamo il lavoro ripetitivo che l’AI può prendere in carico e risolviamo il primo caso.
 
 Raccontateci cosa vi blocca.
 
